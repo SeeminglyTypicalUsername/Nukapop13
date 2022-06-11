@@ -7,6 +7,9 @@
 #deathride58
 /modular_citadel/ @deathride58
 
+#hermaplusplus
+modular_citadel/code/modules/client/loadout/__donator.dm @hermaplusplus
+
 #LetterJay 
 /modular_citadel/code/modules/client/loadout/__donator.dm @LetterJay 
 /SQL/database_changelog.txt @LetterJay
