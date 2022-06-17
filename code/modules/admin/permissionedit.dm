@@ -66,7 +66,7 @@
 		qdel(query_search_admin_logs)
 	if(action == 2)
 		output += "<h3>Admin ckeys with invalid ranks</h3>"
-		var/datum/db_query/query_check_admin_errors = SSdbcore.NewQuery("SELECT IFNULL((SELECT byond_key FROM [format_table_name("player")] WHERE [format_table_name("player")].ckey = [format_table_name("admin")].ckey), ckey), [format_table_name("admin")].rank FROM [format_table_name("admin")] LEFT JOIN [format_table_name("admin_ranks")] ON [format_table_name("admin_ranks")].rank = [format_table_name("admin")].rank WHERE [format_table_name("admin_ranks")].rank IS NULL")
+		var/datum/db_query/query_check_admin_errors = SSdbcore.NewQuery("SELECT IFNULL((SELECT byond_key FROM [format_table_name("player")] WHERE [format_table_name("player")].ckey = `[format_table_name("admin")]`.ckey), ckey), `[format_table_name("admin")]`.rank FROM `[format_table_name("admin")]` LEFT JOIN [format_table_name("admin_ranks")] ON [format_table_name("admin_ranks")].rank = `[format_table_name("admin")]`.rank WHERE [format_table_name("admin_ranks")].rank IS NULL")
 		if(!query_check_admin_errors.warn_execute())
 			qdel(query_check_admin_errors)
 			return
@@ -77,7 +77,7 @@
 			output += "<hr style='background:#000000; border:0; height:1px'>"
 		qdel(query_check_admin_errors)
 		output += "<h3>Unused ranks</h3>"
-		var/datum/db_query/query_check_unused_rank = SSdbcore.NewQuery("SELECT [format_table_name("admin_ranks")].rank, flags, exclude_flags, can_edit_flags FROM [format_table_name("admin_ranks")] LEFT JOIN [format_table_name("admin")] ON [format_table_name("admin")].rank = [format_table_name("admin_ranks")].rank WHERE [format_table_name("admin")].rank IS NULL")
+		var/datum/db_query/query_check_unused_rank = SSdbcore.NewQuery("SELECT `[format_table_name("admin_ranks")]`.`rank`, flags, exclude_flags, can_edit_flags FROM [format_table_name("admin_ranks")] LEFT JOIN `[format_table_name("admin")]` ON `[format_table_name("admin")]`.`rank` = `[format_table_name("admin_ranks")]`.`rank` WHERE `[format_table_name("admin")]`.`rank` IS NULL")
 		if(!query_check_unused_rank.warn_execute())
 			qdel(query_check_unused_rank)
 			return
@@ -220,7 +220,7 @@
 	if(use_db)
 		//if an admin exists without a datum they won't be caught by the above
 		var/datum/db_query/query_admin_in_db = SSdbcore.NewQuery(
-			"SELECT 1 FROM [format_table_name("admin")] WHERE ckey = :ckey",
+			"SELECT 1 FROM `[format_table_name("admin")]` WHERE ckey = :ckey",
 			list("ckey" = .)
 		)
 		if(!query_admin_in_db.warn_execute())
@@ -232,7 +232,7 @@
 			return FALSE
 		qdel(query_admin_in_db)
 		var/datum/db_query/query_add_admin = SSdbcore.NewQuery(
-			"INSERT INTO [format_table_name("admin")] (ckey, rank) VALUES (:ckey, 'NEW ADMIN')",
+			"INSERT INTO `[format_table_name("admin")]` (ckey, `rank`) VALUES (:ckey, 'NEW ADMIN')",
 			list("ckey" = .)
 		)
 		if(!query_add_admin.warn_execute())
@@ -258,7 +258,7 @@
 		var/m2 = "[key_name(usr)] removed [admin_key] from the admins list [use_db ? "permanently" : "temporarily"]"
 		if(use_db)
 			var/datum/db_query/query_add_rank = SSdbcore.NewQuery(
-				"DELETE FROM [format_table_name("admin")] WHERE ckey = :ckey",
+				"DELETE FROM `[format_table_name("admin")]` WHERE ckey = :ckey",
 				list("ckey" = admin_ckey)
 			)
 			if(!query_add_rank.warn_execute())
@@ -317,7 +317,7 @@
 		//if a player was tempminned before having a permanent change made to their rank they won't yet be in the db
 		var/old_rank
 		var/datum/db_query/query_admin_in_db = SSdbcore.NewQuery(
-			"SELECT rank FROM [format_table_name("admin")] WHERE ckey = :ckey",
+			"SELECT `rank` FROM `[format_table_name("admin")]` WHERE ckey = :ckey",
 			list("ckey" = admin_ckey)
 		)
 		if(!query_admin_in_db.warn_execute())
@@ -331,7 +331,7 @@
 		qdel(query_admin_in_db)
 		//similarly if a temp rank is created it won't be in the db if someone is permanently changed to it
 		var/datum/db_query/query_rank_in_db = SSdbcore.NewQuery(
-			"SELECT 1 FROM [format_table_name("admin_ranks")] WHERE rank = :rank",
+			"SELECT 1 FROM [format_table_name("admin_ranks")] WHERE `rank` = :rank",
 			list("rank" = new_rank)
 		)
 		if(!query_rank_in_db.warn_execute())
@@ -340,7 +340,7 @@
 		if(!query_rank_in_db.NextRow())
 			QDEL_NULL(query_rank_in_db)
 			var/datum/db_query/query_add_rank = SSdbcore.NewQuery(
-				"INSERT INTO [format_table_name("admin_ranks")] (rank, flags, exclude_flags, can_edit_flags) VALUES (:new_rank, '0', '0', '0')",
+				"INSERT INTO [format_table_name("admin_ranks")] (`rank`, flags, exclude_flags, can_edit_flags) VALUES (:new_rank, '0', '0', '0')",
 				list("new_rank" = new_rank)
 			)
 			if(!query_add_rank.warn_execute())
@@ -357,7 +357,7 @@
 			qdel(query_add_rank_log)
 		qdel(query_rank_in_db)
 		var/datum/db_query/query_change_rank = SSdbcore.NewQuery(
-			"UPDATE [format_table_name("admin")] SET rank = :rank WHERE ckey = :ckey",
+			"UPDATE `[format_table_name("admin")]` SET `rank` = :rank WHERE ckey = :ckey",
 			list("rank" = new_rank, "ckey" = admin_ckey)
 		)
 		if(!query_change_rank.warn_execute())
@@ -400,7 +400,7 @@
 		var/old_exclude_flags
 		var/old_can_edit_flags
 		var/datum/db_query/query_get_rank_flags = SSdbcore.NewQuery(
-			"SELECT flags, exclude_flags, can_edit_flags FROM [format_table_name("admin_ranks")] WHERE rank = :rank",
+			"SELECT flags, exclude_flags, can_edit_flags FROM [format_table_name("admin_ranks")] WHERE `rank` = :rank",
 			list("rank" = D.rank.name)
 		)
 		if(!query_get_rank_flags.warn_execute())
@@ -412,7 +412,7 @@
 			old_can_edit_flags = text2num(query_get_rank_flags.item[3])
 		qdel(query_get_rank_flags)
 		var/datum/db_query/query_change_rank_flags = SSdbcore.NewQuery(
-			"UPDATE [format_table_name("admin_ranks")] SET flags = :new_flags, exclude_flags = :new_exclude_flags, can_edit_flags = :new_can_edit_flags WHERE rank = :rank_name",
+			"UPDATE [format_table_name("admin_ranks")] SET flags = :new_flags, exclude_flags = :new_exclude_flags, can_edit_flags = :new_can_edit_flags WHERE `rank` = :rank_name",
 			list("new_flags" = new_flags, "new_exclude_flags" = new_exclude_flags, "new_can_edit_flags" = new_can_edit_flags, "rank_name" = D.rank.name)
 		)
 		if(!query_change_rank_flags.warn_execute())
@@ -475,7 +475,7 @@
 		to_chat(usr, "<span class='admin prefix'>Rank deletion not permitted while database rank loading is disabled.</span>")
 		return
 	var/datum/db_query/query_admins_with_rank = SSdbcore.NewQuery(
-		"SELECT 1 FROM [format_table_name("admin")] WHERE rank = :rank",
+		"SELECT 1 FROM `[format_table_name("admin")]` WHERE `rank` = :rank",
 		list("rank" = admin_rank)
 	)
 	if(!query_admins_with_rank.warn_execute())
@@ -490,7 +490,7 @@
 		var/m1 = "[key_name_admin(usr)] removed rank [admin_rank] permanently"
 		var/m2 = "[key_name(usr)] removed rank [admin_rank] permanently"
 		var/datum/db_query/query_add_rank = SSdbcore.NewQuery(
-			"DELETE FROM [format_table_name("admin_ranks")] WHERE rank = :rank",
+			"DELETE FROM [format_table_name("admin_ranks")] WHERE `rank` = :rank",
 			list("rank" = admin_rank)
 		)
 		if(!query_add_rank.warn_execute())
