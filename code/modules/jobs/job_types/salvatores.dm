@@ -3,6 +3,7 @@
 	selection_color = "#F3F3F3"
 	faction = FACTION_SALVATORES
 	exp_type = EXP_TYPE_SALVATORES
+	maptype = "reno"
 
 	access = list(ACCESS_SALVATORES)
 	minimal_access = list(ACCESS_SALVATORES)

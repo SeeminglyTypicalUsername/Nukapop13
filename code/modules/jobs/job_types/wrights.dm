@@ -3,6 +3,7 @@
 	selection_color = "#B3875E"
 	faction = FACTION_WRIGHTS
 	exp_type = EXP_TYPE_WRIGHTS
+	maptype = "reno"
 
 	access = list(ACCESS_WRIGHTS)
 	minimal_access = list(ACCESS_WRIGHTS)
