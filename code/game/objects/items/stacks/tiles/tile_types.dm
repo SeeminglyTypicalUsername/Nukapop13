@@ -297,6 +297,14 @@
 	tableVariant = /obj/structure/table/wood/fancy/red
 	merge_type = /obj/item/stack/tile/carpet/red
 
+/obj/item/stack/tile/carpet/brown
+	name = "brown carpet"
+	icon_state = "tile-carpet_brown"
+	item_state = "tile-carpet_brown"
+	turf_type = /turf/open/floor/carpet/brown
+	tableVariant = /obj/structure/table/wood/fancy/red //placeholder
+	merge_type = /obj/item/stack/tile/carpet/brown
+
 /obj/item/stack/tile/carpet/royalblack
 	name = "royal black carpet"
 	icon_state = "tile-carpet-royalblack"

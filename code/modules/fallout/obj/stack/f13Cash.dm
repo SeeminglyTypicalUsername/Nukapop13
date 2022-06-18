@@ -257,6 +257,34 @@
 /obj/item/stack/f13Cash/random/ncr
 	money_type = /obj/item/stack/f13Cash/ncr
 
+/obj/item/stack/f13Cash/ncr/onefivezero
+    amount = 150
+    merge_type = /obj/item/stack/f13Cash/ncr
+
+/obj/item/stack/f13Cash/ncr/onezerozero
+    amount = 100
+    merge_type = /obj/item/stack/f13Cash/ncr
+
+/obj/item/stack/f13Cash/ncr/sevenzero
+    amount = 70
+    merge_type = /obj/item/stack/f13Cash/ncr
+
+/obj/item/stack/f13Cash/ncr/fivezero
+    amount = 50
+    merge_type = /obj/item/stack/f13Cash/ncr
+
+/obj/item/stack/f13Cash/ncr/fourzero
+    amount = 40
+    merge_type = /obj/item/stack/f13Cash/ncr
+
+/obj/item/stack/f13Cash/ncr/threezero
+    amount = 30
+    merge_type = /obj/item/stack/f13Cash/ncr
+
+/obj/item/stack/f13Cash/ncr/onezero
+    amount = 10
+    merge_type = /obj/item/stack/f13Cash/ncr
+
 /obj/item/stack/f13Cash/random/ncr/low
 	min_qty = TEMP3_MIN / CASH_NCR
 	max_qty = TEMP3_MAX / CASH_NCR

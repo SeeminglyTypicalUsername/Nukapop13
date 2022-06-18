@@ -671,7 +671,7 @@ GLOBAL_VAR_INIT(vendor_cash, 0)
 		new /datum/data/wasteland_equipment("Upgraded Prosthetic Limbs",	/obj/item/storage/box/sparelimbs,									2000),
 		new /datum/data/wasteland_equipment("Cat",							/mob/living/simple_animal/pet/cat/Runtime,							10000),
 		)
-		
+
 	highpop_list = list(
 		new /datum/data/wasteland_equipment("Medicated Suture",				/obj/item/stack/medical/suture/medicated,							45),
 		new /datum/data/wasteland_equipment("Advanced Regen. Mesh",			/obj/item/stack/medical/mesh/advanced,								45),
@@ -691,7 +691,7 @@ GLOBAL_VAR_INIT(vendor_cash, 0)
 		new /datum/data/wasteland_equipment("Upgraded Prosthetic Limbs",	/obj/item/storage/box/sparelimbs,									2000),
 		new /datum/data/wasteland_equipment("Cat",							/mob/living/simple_animal/pet/cat/Runtime,							10000),
 		)
-		
+
 /obj/machinery/mineral/wasteland_vendor/weapons
 	name = "Wasteland Vending Machine - Weapons"
 	icon_state = "weapon_idle"
@@ -934,6 +934,255 @@ GLOBAL_VAR_INIT(vendor_cash, 0)
 		new /datum/data/wasteland_equipment("Proto-kinetic crusher",	/obj/item/kinetic_crusher,				500),
 		new /datum/data/wasteland_equipment("ORM Board",				/obj/item/circuitboard/machine/ore_redemption,				150)
 		)
+
+/////////////////
+//Reno Machines//
+/////////////////
+
+/obj/machinery/mineral/wasteland_vendor/reno/mordino_chem
+	name = "chem supply console"
+	icon_state = "order_console"
+	prize_list = list(
+		new /datum/data/wasteland_equipment("Jet",							/obj/item/reagent_containers/pill/patch/jet,						15),
+		new /datum/data/wasteland_equipment("Psycho",						/obj/item/reagent_containers/hypospray/medipen/psycho,				25),
+		new /datum/data/wasteland_equipment("Turbo",						/obj/item/reagent_containers/pill/patch/turbo,						15),
+		new /datum/data/wasteland_equipment("Mentats",						/obj/item/storage/pill_bottle/chem_tin/mentats,						10),
+		new /datum/data/wasteland_equipment("Buffout",						/obj/item/storage/pill_bottle/chem_tin/buffout,						20),
+		new /datum/data/wasteland_equipment("Med-X",						/obj/item/reagent_containers/hypospray/medipen/medx,				20),
+		new /datum/data/wasteland_equipment("Fixer",						/obj/item/storage/pill_bottle/chem_tin/fixer,						40)
+		)
+	highpop_list = list(
+		new /datum/data/wasteland_equipment("Jet",							/obj/item/reagent_containers/pill/patch/jet,						15),
+		new /datum/data/wasteland_equipment("Psycho",						/obj/item/reagent_containers/hypospray/medipen/psycho,				25),
+		new /datum/data/wasteland_equipment("Turbo",						/obj/item/reagent_containers/pill/patch/turbo,						15),
+		new /datum/data/wasteland_equipment("Mentats",						/obj/item/storage/pill_bottle/chem_tin/mentats,						10),
+		new /datum/data/wasteland_equipment("Buffout",						/obj/item/storage/pill_bottle/chem_tin/buffout,						20),
+		new /datum/data/wasteland_equipment("Med-X",						/obj/item/reagent_containers/hypospray/medipen/medx,				20),
+		new /datum/data/wasteland_equipment("Fixer",						/obj/item/storage/pill_bottle/chem_tin/fixer,						40)
+		)
+
+/obj/machinery/mineral/wasteland_vendor/reno/pharmacy_chem
+	name = "chem supply console"
+	icon_state = "order_console"
+	prize_list = list(
+		new /datum/data/wasteland_equipment("Jet",							/obj/item/reagent_containers/pill/patch/jet,						30),
+		new /datum/data/wasteland_equipment("Psycho",						/obj/item/reagent_containers/hypospray/medipen/psycho,				35),
+		new /datum/data/wasteland_equipment("Turbo",						/obj/item/reagent_containers/pill/patch/turbo,						30),
+		new /datum/data/wasteland_equipment("Mentats",						/obj/item/storage/pill_bottle/chem_tin/mentats,						20),
+		new /datum/data/wasteland_equipment("Buffout",						/obj/item/storage/pill_bottle/chem_tin/buffout,						30),
+		new /datum/data/wasteland_equipment("Med-X",						/obj/item/reagent_containers/hypospray/medipen/medx,				30),
+		new /datum/data/wasteland_equipment("Fixer",						/obj/item/storage/pill_bottle/chem_tin/fixer,						70)
+		)
+	highpop_list = list(
+		new /datum/data/wasteland_equipment("Jet",							/obj/item/reagent_containers/pill/patch/jet,						30),
+		new /datum/data/wasteland_equipment("Psycho",						/obj/item/reagent_containers/hypospray/medipen/psycho,				35),
+		new /datum/data/wasteland_equipment("Turbo",						/obj/item/reagent_containers/pill/patch/turbo,						30),
+		new /datum/data/wasteland_equipment("Mentats",						/obj/item/storage/pill_bottle/chem_tin/mentats,						20),
+		new /datum/data/wasteland_equipment("Buffout",						/obj/item/storage/pill_bottle/chem_tin/buffout,						30),
+		new /datum/data/wasteland_equipment("Med-X",						/obj/item/reagent_containers/hypospray/medipen/medx,				30),
+		new /datum/data/wasteland_equipment("Fixer",						/obj/item/storage/pill_bottle/chem_tin/fixer,						70)
+		)
+
+/obj/machinery/mineral/wasteland_vendor/reno/nukacola_streets
+	name = "nuka cola vending machine"
+	icon_state = "nuka_vending"
+	prize_list = list(
+		new /datum/data/wasteland_equipment("Nuka Cola",			/obj/item/reagent_containers/food/drinks/bottle/f13nukacola,				18)
+		)
+	highpop_list = list(
+		new /datum/data/wasteland_equipment("Nuka Cola",			/obj/item/reagent_containers/food/drinks/bottle/f13nukacola,				18)
+		)
+
+/obj/machinery/mineral/wasteland_vendor/reno/nukacola_casino
+	name = "nuka cola vending machine"
+	icon_state = "nuka_vending"
+	prize_list = list(
+		new /datum/data/wasteland_equipment("Nuka Cola",			/obj/item/reagent_containers/food/drinks/bottle/f13nukacola,				10)
+		)
+	highpop_list = list(
+		new /datum/data/wasteland_equipment("Nuka Cola",			/obj/item/reagent_containers/food/drinks/bottle/f13nukacola,				10)
+		)
+
+/obj/machinery/mineral/wasteland_vendor/reno/smokes
+	name = "cigarette vending machine"
+	icon_state = "cigs"
+	prize_list = list(
+		new /datum/data/wasteland_equipment("Cheap Lighter",				/obj/item/lighter/greyscale,										10),
+		new /datum/data/wasteland_equipment("Zippo",						/obj/item/lighter,													50),
+		new /datum/data/wasteland_equipment("Gold Zippo",					/obj/item/lighter/gold,												120),
+		new /datum/data/wasteland_equipment("Bigboss",						/obj/item/storage/fancy/cigarettes/cigpack_bigboss,					5),
+		new /datum/data/wasteland_equipment("Greytort",						/obj/item/storage/fancy/cigarettes/cigpack_greytort,				5),
+		new /datum/data/wasteland_equipment("Pyramid",						/obj/item/storage/fancy/cigarettes/cigpack_pyramid,					5)
+		)
+	highpop_list = list(
+		new /datum/data/wasteland_equipment("Cheap Lighter",				/obj/item/lighter/greyscale,										10),
+		new /datum/data/wasteland_equipment("Zippo",						/obj/item/lighter,													50),
+		new /datum/data/wasteland_equipment("Gold Zippo",					/obj/item/lighter/gold,												120),
+		new /datum/data/wasteland_equipment("Bigboss",						/obj/item/storage/fancy/cigarettes/cigpack_bigboss,					5),
+		new /datum/data/wasteland_equipment("Greytort",						/obj/item/storage/fancy/cigarettes/cigpack_greytort,				5),
+		new /datum/data/wasteland_equipment("Pyramid",						/obj/item/storage/fancy/cigarettes/cigpack_pyramid,					5)
+		)
+
+/obj/machinery/mineral/wasteland_vendor/reno/guns
+	name = "gun supply console"
+	icon_state = "order_console"
+	prize_list = list(
+		new /datum/data/wasteland_equipment(".22 pistol",					/obj/item/gun/ballistic/automatic/pistol/pistol22,					40),
+		new /datum/data/wasteland_equipment("Type 17",						/obj/item/gun/ballistic/automatic/pistol/type17,					50),
+		new /datum/data/wasteland_equipment("N99",							/obj/item/gun/ballistic/automatic/pistol/n99,						50),
+		new /datum/data/wasteland_equipment("Desert Eagle",					/obj/item/gun/ballistic/automatic/pistol/deagle,					120),
+		new /datum/data/wasteland_equipment(".32 Detective",				/obj/item/gun/ballistic/revolver/detective,							50),
+		new /datum/data/wasteland_equipment("Colt 357",						/obj/item/gun/ballistic/revolver/colt357,							60),
+		new /datum/data/wasteland_equipment("M29",							/obj/item/gun/ballistic/revolver/m29,								80),
+		new /datum/data/wasteland_equipment("M29 Snub",						/obj/item/gun/ballistic/revolver/m29/snub,							100),
+		new /datum/data/wasteland_equipment("Police Revolver",				/obj/item/gun/ballistic/revolver/police,							100),
+		new /datum/data/wasteland_equipment("Hunting Rifle",				/obj/item/gun/ballistic/rifle/hunting,								65),
+		new /datum/data/wasteland_equipment("Mosin",						/obj/item/gun/ballistic/rifle/mosin,								90),
+		new /datum/data/wasteland_equipment("Double Barrel",				/obj/item/gun/ballistic/revolver/caravan_shotgun,					100),
+		new /datum/data/wasteland_equipment("Pump Shotgun",					/obj/item/gun/ballistic/shotgun/hunting,							170),
+		new /datum/data/wasteland_equipment("Tommygun",						/obj/item/gun/ballistic/automatic/smg/tommygun,						300)
+		)
+	highpop_list = list(
+		new /datum/data/wasteland_equipment(".22 pistol",					/obj/item/gun/ballistic/automatic/pistol/pistol22,					40),
+		new /datum/data/wasteland_equipment("Type 17",						/obj/item/gun/ballistic/automatic/pistol/type17,					50),
+		new /datum/data/wasteland_equipment("N99",							/obj/item/gun/ballistic/automatic/pistol/n99,						50),
+		new /datum/data/wasteland_equipment("Desert Eagle",					/obj/item/gun/ballistic/automatic/pistol/deagle,					120),
+		new /datum/data/wasteland_equipment(".32 Detective",				/obj/item/gun/ballistic/revolver/detective,							50),
+		new /datum/data/wasteland_equipment("Colt 357",						/obj/item/gun/ballistic/revolver/colt357,							60),
+		new /datum/data/wasteland_equipment("M29",							/obj/item/gun/ballistic/revolver/m29,								80),
+		new /datum/data/wasteland_equipment("M29 Snub",						/obj/item/gun/ballistic/revolver/m29/snub,							100),
+		new /datum/data/wasteland_equipment("Police Revolver",				/obj/item/gun/ballistic/revolver/police,							100),
+		new /datum/data/wasteland_equipment("Hunting Rifle",				/obj/item/gun/ballistic/rifle/hunting,								65),
+		new /datum/data/wasteland_equipment("Mosin",						/obj/item/gun/ballistic/rifle/mosin,								90),
+		new /datum/data/wasteland_equipment("Double Barrel",				/obj/item/gun/ballistic/revolver/caravan_shotgun,					100),
+		new /datum/data/wasteland_equipment("Pump Shotgun",					/obj/item/gun/ballistic/shotgun/hunting,							170),
+		new /datum/data/wasteland_equipment("Tommygun",						/obj/item/gun/ballistic/automatic/smg/tommygun,						300)
+		)
+
+/obj/machinery/mineral/wasteland_vendor/reno/guns/pipes
+	name = "gun supply console"
+	icon_state = "order_console"
+	prize_list = list(
+		new /datum/data/wasteland_equipment("Peppergun",					/obj/item/gun/ballistic/revolver/hobo/pepperbox,					25),
+		new /datum/data/wasteland_equipment("Zipgun",						/obj/item/gun/ballistic/automatic/hobo/zipgun,						30),
+		new /datum/data/wasteland_equipment("Knife Gun",					/obj/item/gun/ballistic/revolver/hobo/knifegun,						35),
+		new /datum/data/wasteland_equipment("Knuckle Gun",					/obj/item/gun/ballistic/revolver/hobo/knucklegun,					37),
+		new /datum/data/wasteland_equipment("Pipe Rifle",					/obj/item/gun/ballistic/revolver/hobo/piperifle,					45),
+		new /datum/data/wasteland_equipment("Shotgun Bat",					/obj/item/gun/ballistic/revolver/single_shotgun,					50),
+		new /datum/data/wasteland_equipment("Autopipe",						/obj/item/gun/ballistic/automatic/autopipe,							60)
+		)
+	highpop_list = list(
+		new /datum/data/wasteland_equipment("Peppergun",					/obj/item/gun/ballistic/revolver/hobo/pepperbox,					25),
+		new /datum/data/wasteland_equipment("Zipgun",						/obj/item/gun/ballistic/automatic/hobo/zipgun,						30),
+		new /datum/data/wasteland_equipment("Knife Gun",					/obj/item/gun/ballistic/revolver/hobo/knifegun,						35),
+		new /datum/data/wasteland_equipment("Knuckle Gun",					/obj/item/gun/ballistic/revolver/hobo/knucklegun,					37),
+		new /datum/data/wasteland_equipment("Pipe Rifle",					/obj/item/gun/ballistic/revolver/hobo/piperifle,					45),
+		new /datum/data/wasteland_equipment("Shotgun Bat",					/obj/item/gun/ballistic/revolver/single_shotgun,					50),
+		new /datum/data/wasteland_equipment("Autopipe",						/obj/item/gun/ballistic/automatic/autopipe,							60)
+		)
+
+/obj/machinery/mineral/wasteland_vendor/reno/guns/energy
+	name = "gun vending machine"
+	icon_state = "order_console"
+	prize_list = list(
+		new /datum/data/wasteland_equipment("Wattz",						/obj/item/gun/energy/laser/wattz/magneto,							130),
+		new /datum/data/wasteland_equipment("AEP7",							/obj/item/gun/energy/laser/pistol,									170),
+		new /datum/data/wasteland_equipment("AER14",						/obj/item/gun/energy/laser/aer14,									300)
+		)
+	highpop_list = list(
+		new /datum/data/wasteland_equipment("Wattz",						/obj/item/gun/energy/laser/wattz/magneto,							130),
+		new /datum/data/wasteland_equipment("AEP7",							/obj/item/gun/energy/laser/pistol,									170),
+		new /datum/data/wasteland_equipment("AER14",						/obj/item/gun/energy/laser/aer14,									300)
+		)
+
+/obj/machinery/mineral/wasteland_vendor/reno/guns/pipes/ammo
+	name = "improvised ammo supply console"
+	icon_state = "order_console"
+	prize_list = list(
+		new /datum/data/wasteland_equipment("10mm Improvised",					/obj/item/ammo_box/c10mm/improvised,							8),
+		new /datum/data/wasteland_equipment("Zipgun Clips",						/obj/item/ammo_box/magazine/zipgun,								5),
+		new /datum/data/wasteland_equipment("44 Improvised",					/obj/item/ammo_box/m44box/improvised,							8),
+		new /datum/data/wasteland_equipment("45 Improvised",					/obj/item/ammo_box/c45/improvised,								8),
+		new /datum/data/wasteland_equipment("223 Improvised",					/obj/item/ammo_box/a556/sport/improvised,						8),
+		new /datum/data/wasteland_equipment("Autopipe Belts",					/obj/item/ammo_box/magazine/autopipe,							18),
+		new /datum/data/wasteland_equipment("Improvised Buckshot",				/obj/item/ammo_box/shotgun/improvised,							20)
+		)
+	highpop_list = list(
+		new /datum/data/wasteland_equipment("10mm Improvised",					/obj/item/ammo_box/c10mm/improvised,							8),
+		new /datum/data/wasteland_equipment("Zipgun Clips",						/obj/item/ammo_box/magazine/zipgun,								5),
+		new /datum/data/wasteland_equipment("44 Improvised",					/obj/item/ammo_box/m44box/improvised,							8),
+		new /datum/data/wasteland_equipment("45 Improvised",					/obj/item/ammo_box/c45/improvised,								8),
+		new /datum/data/wasteland_equipment("223 Improvised",					/obj/item/ammo_box/a556/sport/improvised,						8),
+		new /datum/data/wasteland_equipment("Autopipe Belts",					/obj/item/ammo_box/magazine/autopipe,							18),
+		new /datum/data/wasteland_equipment("Improvised Buckshot",				/obj/item/ammo_box/shotgun/improvised,							20)
+		)
+
+/obj/machinery/mineral/wasteland_vendor/reno/guns/energy/ammo
+	name = "cell supply console"
+	icon_state = "order_console"
+	prize_list = list(
+		new /datum/data/wasteland_equipment("Energy Cell",						/obj/item/stock_parts/cell/ammo/ec,								40),
+		new /datum/data/wasteland_equipment("Microfusion Cell",					/obj/item/stock_parts/cell/ammo/mfc,							40)
+		)
+	highpop_list = list(
+		new /datum/data/wasteland_equipment("Energy Cell",						/obj/item/stock_parts/cell/ammo/ec,								40),
+		new /datum/data/wasteland_equipment("Microfusion Cell",					/obj/item/stock_parts/cell/ammo/mfc,							40)
+		)
+
+/obj/machinery/mineral/wasteland_vendor/reno/guns/ammo
+	name = "ammo supply console"
+	icon_state = "order_console"
+	prize_list = list(
+		new /datum/data/wasteland_equipment("Buckshot",							/obj/item/ammo_box/shotgun/buck,								45),
+		new /datum/data/wasteland_equipment("308",								/obj/item/ammo_box/a308,										10),
+		new /datum/data/wasteland_equipment("762",								/obj/item/ammo_box/a762,										10),
+		new /datum/data/wasteland_equipment("lr22",								/obj/item/ammo_box/magazine/m22,								16),
+		new /datum/data/wasteland_equipment("10mm",								/obj/item/ammo_box/magazine/m10mm_adv/simple,					18),
+		new /datum/data/wasteland_equipment("Desert Eagle Magazine",			/obj/item/ammo_box/magazine/m44,								16),
+		new /datum/data/wasteland_equipment("38",								/obj/item/ammo_box/c38,											5),
+		new /datum/data/wasteland_equipment("357",								/obj/item/ammo_box/a357,										12),
+		new /datum/data/wasteland_equipment("44",								/obj/item/ammo_box/m44,											12),
+		new /datum/data/wasteland_equipment("Tommy Mag",						/obj/item/ammo_box/magazine/tommygunm45,						50),
+		new /datum/data/wasteland_equipment("Energy Cell",						/obj/item/stock_parts/cell/ammo/ec,								50),
+		new /datum/data/wasteland_equipment("Microfusion Cell",					/obj/item/stock_parts/cell/ammo/mfc,							50)
+		)
+	highpop_list = list(
+		new /datum/data/wasteland_equipment("Buckshot",							/obj/item/ammo_box/shotgun/buck,								45),
+		new /datum/data/wasteland_equipment("308",								/obj/item/ammo_box/a308,										10),
+		new /datum/data/wasteland_equipment("762",								/obj/item/ammo_box/a762,										10),
+		new /datum/data/wasteland_equipment("lr22",								/obj/item/ammo_box/magazine/m22,								16),
+		new /datum/data/wasteland_equipment("10mm",								/obj/item/ammo_box/magazine/m10mm_adv/simple,					18),
+		new /datum/data/wasteland_equipment("Desert Eagle Magazine",			/obj/item/ammo_box/magazine/m44,								16),
+		new /datum/data/wasteland_equipment("38",								/obj/item/ammo_box/c38,											5),
+		new /datum/data/wasteland_equipment("357",								/obj/item/ammo_box/a357,										12),
+		new /datum/data/wasteland_equipment("44",								/obj/item/ammo_box/m44,											12),
+		new /datum/data/wasteland_equipment("Tommy Mag",						/obj/item/ammo_box/magazine/tommygunm45,						50),
+		new /datum/data/wasteland_equipment("Energy Cell",						/obj/item/stock_parts/cell/ammo/ec,								50),
+		new /datum/data/wasteland_equipment("Microfusion Cell",					/obj/item/stock_parts/cell/ammo/mfc,							50)
+		)
+
+/obj/machinery/mineral/wasteland_vendor/reno/alcohol
+	name = "alcohol supply orders"
+	icon_state = "order_console"
+	prize_list = list(
+		new /datum/data/wasteland_equipment("Flour",						/obj/item/reagent_containers/food/condiment/flour,					5),
+		new /datum/data/wasteland_equipment("Universal Enzyme",				/obj/item/reagent_containers/food/condiment/enzyme,					5),
+		new /datum/data/wasteland_equipment("Wine",							/obj/item/reagent_containers/food/drinks/bottle/wine,				15),
+		new /datum/data/wasteland_equipment("Whiskey",						/obj/item/reagent_containers/food/drinks/bottle/whiskey,			20),
+		new /datum/data/wasteland_equipment("Champagne",					/obj/item/reagent_containers/food/drinks/bottle/champagne,			35),
+		new /datum/data/wasteland_equipment("Mont De Requin",				/obj/item/reagent_containers/food/drinks/bottle/trappist,			40),
+		new /datum/data/wasteland_equipment("Rotgut",						/obj/item/reagent_containers/food/drinks/bottle/rotgut,				50)
+		)
+	highpop_list = list(
+		new /datum/data/wasteland_equipment("Flour",						/obj/item/reagent_containers/food/condiment/flour,					5),
+		new /datum/data/wasteland_equipment("Universal Enzyme",				/obj/item/reagent_containers/food/condiment/enzyme,					5),
+		new /datum/data/wasteland_equipment("Wine",							/obj/item/reagent_containers/food/drinks/bottle/wine,				15),
+		new /datum/data/wasteland_equipment("Whiskey",						/obj/item/reagent_containers/food/drinks/bottle/whiskey,			20),
+		new /datum/data/wasteland_equipment("Champagne",					/obj/item/reagent_containers/food/drinks/bottle/champagne,			35),
+		new /datum/data/wasteland_equipment("Mont De Requin",				/obj/item/reagent_containers/food/drinks/bottle/trappist,			40),
+		new /datum/data/wasteland_equipment("Rotgut",						/obj/item/reagent_containers/food/drinks/bottle/rotgut,				50)
+		)
+
 
 /datum/data/wasteland_equipment
 	var/equipment_name = "generic"
