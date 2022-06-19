@@ -370,6 +370,7 @@
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
 	l_pocket = /obj/item/stack/f13Cash/ncr/fivezero
+	id = null
 	shoes = /obj/item/clothing/shoes/jackboots
 	backpack_contents = list(
 		/obj/item/reagent_containers/hypospray/medipen/stimpak = 2,
@@ -425,6 +426,7 @@
 	//ears = /obj/item/pen
 	//gloves = /obj/item/clothing/gloves/color/white
 	backpack = /obj/item/storage/backpack/satchel/explorer
+	id = null
 	satchel = /obj/item/storage/backpack/satchel/explorer
 	l_pocket = /obj/item/stack/f13Cash/ncr/fourzero
 //	r_pocket =
@@ -500,6 +502,7 @@
 	mask = /obj/item/clothing/mask/facewrap
 	shoes = /obj/item/clothing/shoes/f13/rag
 	uniform = /obj/item/clothing/under/f13/settler
+	id = null
 //	belt = obj/item/katana
 	backpack_contents = list(
 		/obj/item/ammo_box/a308 = 2,
@@ -541,10 +544,11 @@
 
 /datum/outfit/job/citizens/f13renoraider
 	name = "Reno Raider"
-	jobtype = /datum/job/citizens/f13mercenary
+	jobtype = /datum/job/citizens/f13renoraider
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
 	l_pocket = /obj/item/storage/bag/money/small/reno/onezero //placeholder
+	id = null
 	shoes = /obj/item/clothing/shoes/jackboots
 	backpack_contents = list(
 		/obj/item/reagent_containers/hypospray/medipen/stimpak = 2,
@@ -912,6 +916,7 @@
 	l_pocket = /obj/item/storage/bag/money/small/reno/threezerozero
 	r_pocket = /obj/item/gun/ballistic/revolver/m29/snub
 	head = /obj/item/clothing/head/helmet/f13/marlowhat
+	id = null
 	shoes = /obj/item/clothing/shoes/f13/brownie
 	uniform = /obj/item/clothing/under/f13/brahminbaron/foreign_suit
 	suit = /obj/item/clothing/suit/armor/f13/civilians/schlimmcoat
