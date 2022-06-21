@@ -3,6 +3,7 @@
 "abd" = (/obj/item/reagent_containers/food/condiment/milk,/obj/structure/closet/fridge,/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "floorrusty"},/area/f13/building)
 "abe" = (/obj/effect/spawner/lootdrop/grille_or_trash,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontaloutermain0"},/area/f13/wasteland)
 "abk" = (/obj/structure/wreck/car,/turf/open/indestructible/ground/outside/dirt{icon_state = "dirt"},/area/f13/wasteland)
+"abJ" = (/obj/structure/destructible/tribal_torch/lit,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,/area/f13/building)
 "acy" = (/obj/structure/railing/handrail{dir = 8},/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/carpet/black,/area/f13/building)
 "acE" = (/obj/item/reagent_containers/glass/bucket{desc = "It smells awful."; name = "waste bucket"},/turf/open/indestructible/ground/inside/dirt,/area/f13/building)
 "acJ" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/structure/destructible/tribal_torch/lit,/turf/open/floor/wood/f13/oak{icon_state = "oakfloor2-broken"},/area/f13/building)
@@ -21,7 +22,6 @@
 "agr" = (/obj/structure/table,/turf/open/floor/plasteel/dark,/area/f13/building)
 "agH" = (/obj/structure/chair/comfy/green{dir = 4},/turf/open/indestructible/ground/outside/desert{icon_state = "wasteland33"},/area/f13/wasteland)
 "ahi" = (/obj/item/stack/f13Cash/ncr/onezerozero,/turf/open/indestructible/ground/inside/mountain,/area/f13/radiation)
-"ahj" = (/obj/structure/destructible/tribal_torch/wall/lit{dir = 1; pixel_y = 12},/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{name = "metal plating"},/area/f13/building)
 "aie" = (/obj/structure/table/reinforced,/obj/structure/barricade/bars,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "ain" = (/obj/structure/closet/fridge,/turf/open/indestructible/ground/outside/desert,/area/f13/wasteland)
 "aiu" = (/obj/structure/closet/fridge,/obj/effect/decal/cleanable/dirt/dust,/obj/effect/spawner/lootdrop/f13/alcoholspawner,/obj/effect/spawner/lootdrop/f13/alcoholspawner,/obj/item/reagent_containers/food/drinks/beer,/obj/item/reagent_containers/food/drinks/beer,/obj/item/reagent_containers/food/drinks/beer,/obj/item/reagent_containers/food/drinks/beer,/obj/item/reagent_containers/food/drinks/beer,/turf/open/floor/carpet/red,/area/f13/building)
@@ -154,6 +154,7 @@
 "aUn" = (/obj/structure/table/snooker{dir = 5},/turf/open/floor/wood,/area/f13/wasteland)
 "aUr" = (/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{name = "metal plating"},/area/f13/building)
 "aUD" = (/obj/structure/fence/wooden{dir = 4; icon_state = "post_wood"},/turf/open/indestructible/ground/outside/dirt{dir = 8; icon_state = "dirt"},/area/f13/wasteland)
+"aUG" = (/obj/structure/destructible/tribal_torch/wall/lit{dir = 4},/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "aUO" = (/obj/structure/junk/small/bed,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/carpet,/area/f13/building)
 "aVD" = (/obj/structure/ore_box,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/f13/building)
 "aVO" = (/obj/structure/campfire/barrel,/obj/effect/decal/cleanable/dirt,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontaloutermain0"},/area/f13/wasteland)
@@ -178,9 +179,8 @@
 "bdY" = (/obj/structure/chair/booth{dir = 4},/turf/open/floor/wood/f13/oak,/area/f13/wasteland)
 "bed" = (/turf/closed/mineral/random/low_chance,/area/f13/tunnel)
 "bee" = (/obj/machinery/microwave/stove,/obj/machinery/light{dir = 1},/turf/open/floor/plasteel/f13/vault_floor/red/redchess{icon_state = "redrustychess"; name = "tile"},/area/f13/building)
-"beE" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "bfJ" = (/obj/structure/closet/cabinet,/turf/open/floor/carpet/brown,/area/f13/building)
-"bfW" = (/obj/structure/rack/shelf_metal,/obj/item/gun/ballistic/automatic/smg/tommygun,/obj/effect/decal/cleanable/dirt,/obj/machinery/light{dir = 4; pixel_y = -16},/turf/open/floor/plasteel/dark,/area/f13/building)
+"bfW" = (/obj/structure/rack/shelf_metal,/obj/effect/decal/cleanable/dirt,/obj/machinery/light{dir = 4; pixel_y = -16},/turf/open/floor/plasteel/dark,/area/f13/building)
 "bfY" = (/obj/structure/barricade/tentleatheredge{dir = 8},/obj/structure/barricade/wooden,/turf/open/indestructible/ground/outside/dirt/dark,/area/f13/building)
 "bgo" = (/obj/machinery/microwave/stove,/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "whitegreenrustychess"},/area/f13/bunker)
 "bhy" = (/obj/effect/decal/cleanable/dirt,/obj/structure/chair/stool/f13stool,/turf/open/floor/plasteel/dark,/area/f13/building)
@@ -202,6 +202,7 @@
 "bnI" = (/obj/structure/chair/stool/retro/tan,/obj/machinery/light{dir = 4},/turf/open/floor/wood/f13/oak,/area/f13/building)
 "bob" = (/obj/structure/table/wood/settler,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/f13/building)
 "bor" = (/obj/structure/rack/shelf_metal,/obj/item/reagent_containers/food/snacks/f13/canned/dog,/turf/open/floor/f13{icon_state = "floorrusty"},/area/f13/building)
+"bpL" = (/obj/effect/decal/cleanable/dirt,/turf/closed/wall/r_wall/rust,/area/f13/building)
 "bpU" = (/obj/structure/campfire/barrel,/turf/open/indestructible/ground/outside/road{icon_state = "horizontalinnermain0"},/area/f13/wasteland)
 "bqx" = (/obj/effect/decal/cleanable/dirt,/obj/structure/car/rubbish3,/turf/open/floor/plasteel/dark,/area/f13/building)
 "brB" = (/obj/machinery/microwave,/obj/structure/table/rolling,/turf/open/floor/wood/f13/old/ruinedstraightwest,/area/f13/building)
@@ -227,12 +228,12 @@
 "bxF" = (/obj/structure/closet/crate/trashcart,/obj/effect/spawner/lootdrop/f13/weapon/melee/tier3,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "bxG" = (/obj/structure/wreck/trash/four_barrels,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontaloutermain0"},/area/f13/wasteland)
 "byj" = (/obj/structure/table/wood/settler,/obj/item/paper_bin,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "floorrusty"},/area/f13/building)
-"byl" = (/obj/structure/obstacle/barbedwire/end{dir = 1; pixel_x = 6},/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/dark,/area/f13/building)
 "byy" = (/obj/structure/reagent_dispensers/barrel/dangerous,/turf/open/indestructible/ground/outside/dirt{dir = 1; icon_state = "dirt"},/area/f13/wasteland)
 "byG" = (/obj/structure/window/fulltile/wood/broken,/turf/open/floor/plasteel/dark,/area/f13/building)
 "bzS" = (/obj/structure/barricade/wooden/strong,/turf/open/indestructible/ground/outside/ruins,/area/f13/building)
 "bzV" = (/obj/structure/flora/wasteplant/wild_punga,/turf/open/indestructible/ground/outside/desert,/area/f13/wasteland)
 "bzX" = (/obj/structure/chair/wood/normal{dir = 4},/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "floorrusty"},/area/f13/building)
+"bAf" = (/obj/structure/filingcabinet,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "bAs" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,/area/f13/bunker)
 "bAu" = (/obj/structure/simple_door/room,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/dark{icon_state = "darkrusty"; name = "grimy tile"},/area/f13/building)
 "bAx" = (/obj/structure/destructible/tribal_torch/wall/lit{dir = 4},/turf/open/indestructible/ground/outside/dirt{dir = 4; icon_state = "dirt"},/area/f13/wasteland)
@@ -255,6 +256,7 @@
 "bGt" = (/obj/structure/barricade/sandbags,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontalbottomborderbottomright"},/area/f13/wasteland)
 "bGC" = (/turf/open/indestructible/ground/outside/road{icon_state = "horizontaltopborderbottom0"},/area/f13/wasteland)
 "bGG" = (/obj/structure/closet/cabinet,/obj/effect/decal/cleanable/dirt,/obj/effect/spawner/lootdrop/f13/weapon/melee/tier2,/turf/open/floor/wood/f13/carpet,/area/f13/building)
+"bGV" = (/obj/structure/barricade/concrete,/turf/open/floor/plasteel/f13/vault_floor/dark,/area/f13/building)
 "bHu" = (/obj/effect/decal/cleanable/dirt,/obj/item/bodypart/l_arm,/obj/effect/decal/cleanable/dirt,/turf/open/indestructible/ground/outside/dirt{dir = 8; icon_state = "dirt"},/area/f13/wasteland)
 "bIf" = (/obj/structure/table_frame/wood,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood,/area/f13/building)
 "bIj" = (/obj/structure/table/reinforced,/turf/open/floor/carpet/brown,/area/f13/building)
@@ -311,9 +313,7 @@
 "bXf" = (/obj/effect/turf_decal/stripes/white/line{dir = 8},/obj/effect/decal/cleanable/dirt{color = "#363636"},/obj/effect/decal/cleanable/dirt,/obj/effect/decal/remains/human,/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "floorrusty"},/area/f13/building)
 "bXi" = (/obj/structure/rack/shelf_metal,/turf/open/floor/plasteel/dark,/area/f13/building)
 "bXx" = (/obj/structure/barricade/tentleatheredge{dir = 4},/obj/structure/barricade/wooden,/turf/open/indestructible/ground/outside/desert,/area/f13/wasteland)
-"bYE" = (/obj/structure/destructible/tribal_torch/wall/lit{dir = 4},/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/f13/building)
 "bYU" = (/obj/structure/obstacle/barbedwire/end{dir = 8},/obj/effect/decal/cleanable/dirt,/turf/open/indestructible/ground/outside/ruins,/area/f13/building)
-"bYZ" = (/obj/structure/obstacle/barbedwire/end,/turf/open/floor/plasteel/f13/vault_floor/dark,/area/f13/building)
 "bZc" = (/obj/structure/closet/crate/trashcart,/obj/item/reagent_containers/syringe/stimulants,/turf/open/floor/plasteel/dark,/area/f13/building)
 "bZM" = (/obj/structure/chair/booth{dir = 4},/obj/effect/decal/cleanable/dirt{color = "000000"},/turf/open/indestructible/ground/outside/dirt,/area/f13/caves)
 "bZP" = (/obj/structure/chair/stool/f13stool,/turf/open/indestructible/ground/outside/road{icon_state = "verticalinnermain0"},/area/f13/wasteland)
@@ -410,7 +410,6 @@
 "cCo" = (/obj/structure/sign/poster/contraband/space_cola,/turf/closed/wall/f13/wood,/area/f13/building)
 "cCp" = (/obj/structure/table/snooker{dir = 9},/turf/open/floor/carpet/brown,/area/f13/building)
 "cCP" = (/obj/structure/chair/office/dark{dir = 8},/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "floorrusty"},/area/f13/building)
-"cCQ" = (/obj/structure/table,/obj/structure/barricade/bars,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor,/area/f13/building)
 "cDf" = (/obj/effect/spawner/lootdrop/trash,/turf/open/indestructible/ground/outside/road{icon_state = "verticalleftborderright2bottom"},/area/f13/wasteland)
 "cDK" = (/obj/structure/wreck/car/bike{dir = 8},/turf/open/indestructible/ground/outside/sidewalk{icon_state = "verticalrightborderright0"},/area/f13/wasteland)
 "cEc" = (/obj/structure/window{dir = 1},/obj/structure/chair/comfy/green,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/grimy,/area/f13/building)
@@ -422,7 +421,6 @@
 "cGR" = (/obj/structure/fence{dir = 8; icon_state = "straight"},/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontaloutermain0"},/area/f13/wasteland)
 "cGS" = (/obj/structure/bed/old,/obj/item/bedsheet{icon_state = "sheetbrown"},/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/f13/building)
 "cHV" = (/obj/structure/table/wood,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
-"cIf" = (/obj/structure/destructible/tribal_torch/wall/lit{dir = 4},/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "cIA" = (/obj/structure/chair/sofa/right{dir = 8},/obj/effect/landmark/start/f13/civilians/bum,/turf/open/indestructible/ground/outside/road{icon_state = "verticalinnermain0"},/area/f13/wasteland)
 "cIB" = (/obj/structure/closet/cabinet,/obj/effect/decal/cleanable/dirt,/obj/item/reagent_containers/food/snacks/f13/sugarbombs,/turf/open/floor/wood/f13/carpet,/area/f13/building)
 "cIQ" = (/obj/structure/simple_door/metal/dirtystore,/turf/open/floor/plasteel/f13/vault_floor/neutral/neutralchess,/area/f13/building)
@@ -434,6 +432,7 @@
 "cJK" = (/obj/structure/window/fulltile/house{dir = 2; icon_state = "housewindowbrokenvertical"},/obj/structure/barricade/wooden/planks/pregame,/turf/open/floor/f13/wood,/area/f13/building)
 "cKm" = (/obj/structure/barricade/tentleathercorner,/turf/open/indestructible/ground/outside/dirt{dir = 10; icon_state = "dirt"},/area/f13/building)
 "cKE" = (/obj/structure/campfire/barrel,/turf/open/indestructible/ground/outside/sidewalk{dir = 1; icon_state = "outerborder"},/area/f13/wasteland)
+"cKX" = (/obj/structure/chair/wood/worn{dir = 1},/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "cKY" = (/obj/structure/tires/two,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontaltopbordertop0"},/area/f13/wasteland)
 "cLn" = (/obj/structure/car/rubbish3,/turf/open/indestructible/ground/outside/sidewalk{dir = 8; icon_state = "outerpavement"},/area/f13/wasteland)
 "cLy" = (/obj/structure/barricade/tentleatheredge{dir = 1; pixel_y = -4},/obj/structure/barricade/wooden,/turf/open/indestructible/ground/outside/dirt{dir = 6; icon_state = "dirt"},/area/f13/building)
@@ -578,6 +577,7 @@
 "dwm" = (/obj/structure/fence/corner{dir = 4; icon_state = "end"},/turf/open/floor/plasteel/dark,/area/f13/building)
 "dxK" = (/obj/structure/girder,/turf/open/floor/plating,/area/f13/building)
 "dxN" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/carpet,/area/f13/building)
+"dxR" = (/obj/structure/destructible/tribal_torch/wall/lit{dir = 4},/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "dyr" = (/obj/structure/table,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/grimy,/area/f13/building)
 "dyT" = (/obj/structure/rack/shelf_metal,/obj/item/book/manual/nuka_recipes,/turf/open/indestructible/hotelwood,/area/f13/building)
 "dzG" = (/obj/structure/window/fulltile/house{icon_state = "storewindowbottom"},/turf/open/floor/wood/f13/oak,/area/f13/building)
@@ -651,6 +651,7 @@
 "dPY" = (/obj/structure/fence/cut/medium,/turf/open/indestructible/ground/outside/desert,/area/f13/wasteland)
 "dQi" = (/obj/effect/decal/cleanable/dirt,/obj/item/reagent_containers/syringe,/turf/open/floor/plasteel/dark,/area/f13/building)
 "dQO" = (/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/structure/closet/cabinet,/obj/effect/spawner/lootdrop/f13/armor/clothes,/turf/open/floor/wood/cold,/area/f13/building)
+"dRa" = (/obj/structure/destructible/tribal_torch/wall/lit{dir = 4},/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/f13/building)
 "dRo" = (/obj/structure/rack/shelf_metal,/obj/item/storage/fancy/cigarettes/cigars,/obj/item/storage/fancy/cigarettes/cigars,/turf/open/floor/plasteel/f13/vault_floor/dark{icon_state = "darkrusty"; name = "grimy tile"},/area/f13/building)
 "dRO" = (/obj/effect/decal/cleanable/dirt,/obj/structure/destructible/tribal_torch/wall/lit{dir = 8},/turf/open/floor/f13{icon_state = "floorrusty"},/area/f13/building)
 "dSj" = (/obj/structure/destructible/tribal_torch/lit,/turf/open/indestructible/ground/outside/desert,/area/f13/wasteland)
@@ -734,6 +735,7 @@
 "elf" = (/obj/effect/decal/cleanable/dirt/dust,/obj/structure/bed/mattress{icon_state = "mattress1"; pixel_y = 1},/turf/open/floor/wood/f13/oak{icon_state = "oakfloor3-broken"},/area/f13/building)
 "elv" = (/obj/structure/table/wood,/turf/open/indestructible/ground/outside/dirt/dark,/area/f13/building)
 "elw" = (/obj/structure/simple_door/metal/dirtystore,/obj/machinery/door/poddoor/shutters{id = "phar"},/turf/open/floor/plasteel/dark,/area/f13/building)
+"elP" = (/obj/structure/filingcabinet/chestdrawer,/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "elU" = (/obj/structure/wreck/trash/machinepiletwo,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontaltopbordertop2left"},/area/f13/wasteland)
 "elV" = (/obj/structure/rack/shelf_metal,/obj/item/storage/fancy/cigarettes/cigars/havana,/turf/open/floor/plasteel/f13/vault_floor/dark{icon_state = "darkrusty"; name = "grimy tile"},/area/f13/building)
 "elZ" = (/obj/item/ammo_casing/c10mm,/turf/open/indestructible/ground/outside/road{icon_state = "verticalleftborderright2bottom"},/area/f13/wasteland)
@@ -777,9 +779,11 @@
 "exb" = (/obj/structure/rack,/obj/item/reagent_containers/glass/beaker/waterbottle/large,/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,/area/f13/building)
 "exo" = (/obj/effect/overlay/junk/sink{dir = 4; pixel_x = 12},/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "floorrusty"},/area/f13/building)
 "exH" = (/obj/effect/turf_decal/stripes/white/box,/obj/structure/guncase,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,/area/f13/bunker)
+"exO" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "exW" = (/obj/structure/table/wood,/turf/open/floor/carpet/brown,/area/f13/building)
 "exY" = (/obj/structure/chair/stool/retro,/turf/open/floor/wood/f13/oak,/area/f13/wasteland)
 "eyG" = (/obj/structure/table/reinforced,/obj/item/paper_bin,/obj/item/pen,/turf/open/floor/plasteel/f13/vault_floor/dark{icon_state = "darkrusty"; name = "grimy tile"},/area/f13/building)
+"eyI" = (/mob/living/simple_animal/hostile/supermutant/meleemutant,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/f13/building)
 "eAk" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/ash/large,/turf/open/floor/f13,/area/f13/building)
 "eAw" = (/obj/structure/chair/f13foldupchair{dir = 1},/obj/structure/chair/f13foldupchair{dir = 1},/obj/effect/decal/cleanable/dirt,/mob/living/simple_animal/hostile/ghoul/reaver{dir = 4},/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,/area/f13/bunker)
 "eAE" = (/obj/structure/chair/stool/retro/black,/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/carpet/green,/area/f13/building)
@@ -868,6 +872,7 @@
 "eVM" = (/obj/structure/musician/piano{desc = "What a wierd piano.."; name = "minimoog"},/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/carpet,/area/f13/building)
 "eVN" = (/mob/living/simple_animal/hostile/raider/firefighter{dir = 1},/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "floorrusty"},/area/f13/building)
 "eVS" = (/obj/item/trash/sosjerky,/turf/open/indestructible/ground/outside/dirt,/area/f13/wasteland)
+"eWR" = (/obj/structure/chair/wood/worn,/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "eXr" = (/obj/structure/table/wood/settler,/obj/item/twohanded/required/kirbyplants/random{pixel_y = 10},/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/carpet/brown,/area/f13/building)
 "eXC" = (/obj/structure/table,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "floorrusty"},/area/f13/building)
 "eXJ" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontaloutermain0"},/area/f13/wasteland)
@@ -880,7 +885,6 @@
 "faa" = (/obj/effect/decal/cleanable/dirt,/turf/closed/wall/mineral/concrete,/area/f13/building)
 "faL" = (/obj/structure/flora/grass/wasteland{icon_state = "tall_grass_2"; pixel_x = -10; pixel_y = 15},/turf/open/indestructible/ground/outside/desert,/area/f13/wasteland)
 "fbd" = (/obj/effect/overlay/junk/sink{dir = 4; pixel_x = 12},/turf/open/floor/f13{icon_state = "yellowrustyfull"},/area/f13/building)
-"fbI" = (/obj/structure/filingcabinet/chestdrawer,/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "fbK" = (/obj/structure/simple_door/tentflap_leather,/turf/open/indestructible/ground/outside/ruins,/area/f13/building)
 "fbX" = (/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/housewoodbroken2,/area/f13/building)
 "fcl" = (/obj/structure/rack,/obj/effect/turf_decal/stripes/white/box,/obj/machinery/light{dir = 8},/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,/area/f13/bunker)
@@ -889,6 +893,7 @@
 "fdQ" = (/obj/structure/tires/five,/turf/open/indestructible/ground/outside/road{icon_state = "verticalinnermain1"},/area/f13/wasteland)
 "fea" = (/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{name = "metal plating"},/area/f13/building)
 "fef" = (/obj/structure/wreck/trash/one_tire,/turf/open/indestructible/ground/outside/desert{icon_state = "wasteland33"},/area/f13/wasteland)
+"feo" = (/mob/living/simple_animal/hostile/supermutant/rangedmutant,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "fev" = (/obj/effect/turf_decal/stripes/white/line{dir = 6},/obj/effect/decal/cleanable/dirt{color = "#363636"},/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "floorrusty"},/area/f13/building)
 "fex" = (/obj/structure/bed/mattress{icon_state = "mattress2"; pixel_y = 7},/turf/open/indestructible/ground/outside/sidewalk,/area/f13/wasteland)
 "fey" = (/obj/effect/decal/cleanable/dirt,/turf/open/indestructible/ground/outside/ruins{icon_state = "rubblepillar"},/area/f13/building)
@@ -929,7 +934,6 @@
 "fph" = (/obj/structure/toilet{pixel_y = 13},/turf/open/floor/plasteel/dark,/area/f13/building)
 "fpJ" = (/obj/structure/table/wood,/obj/structure/barricade/wooden,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontaltopbordertop2"},/area/f13/wasteland)
 "fpP" = (/obj/structure/flora/grass/wasteland{icon_state = "tall_grass_8"},/turf/open/indestructible/ground/outside/desert,/area/f13/wasteland)
-"fpW" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/oil,/turf/open/floor/plasteel/f13/vault_floor/dark,/area/f13/building)
 "fqt" = (/obj/structure/chair/booth,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "fqE" = (/obj/structure/table/wood/poker,/obj/item/storage/box/dice{pixel_x = -4; pixel_y = 9},/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/item/toy/cards/deck{pixel_x = 4; pixel_y = 2},/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/carpet/green,/area/f13/building)
 "fqH" = (/obj/structure/flora/grass/wasteland{icon_state = "tall_grass_8"},/turf/open/indestructible/ground/outside/desert{icon_state = "wasteland33"},/area/f13/wasteland)
@@ -942,7 +946,7 @@
 "frS" = (/obj/structure/window/fulltile/wood/broken,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "fsF" = (/obj/structure/railing{dir = 10; layer = 4.1},/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/wood/f13/oak,/area/f13/wasteland)
 "fsJ" = (/obj/structure/simple_door/metal/dirtystore,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "darkrusty"},/area/f13/building)
-"ftd" = (/obj/structure/rack/shelf_metal,/obj/item/gun/ballistic/automatic/pistol/n99,/obj/item/gun/ballistic/automatic/pistol/n99,/turf/open/floor/plasteel/dark,/area/f13/building)
+"ftd" = (/obj/structure/rack/shelf_metal,/obj/item/gun/ballistic/automatic/pistol/n99,/turf/open/floor/plasteel/dark,/area/f13/building)
 "ftp" = (/obj/structure/closet/fridge,/obj/item/reagent_containers/pill/cyanide,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "fuq" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/ash/large,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontaloutermain0"},/area/f13/wasteland)
 "fuu" = (/obj/structure/decoration/rag,/obj/structure/decoration/rag{icon_state = "skin"},/turf/closed/wall/f13/wood,/area/f13/wasteland)
@@ -1020,7 +1024,6 @@
 "fTr" = (/obj/effect/turf_decal/arrows{dir = 1; pixel_y = -7},/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,/area/f13/bunker)
 "fTC" = (/obj/structure/decoration/rag{icon_state = "skin"},/turf/closed/wall/f13/wood,/area/f13/building)
 "fTS" = (/turf/open/indestructible/ground/outside/road{icon_state = "verticalleftborderright0"},/area/f13/wasteland)
-"fTU" = (/obj/structure/filingcabinet,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "fTV" = (/obj/structure/table/wood/settler,/obj/item/paper_bin,/obj/item/pen,/obj/item/pen,/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "bluerustysolid"},/area/f13/building)
 "fUa" = (/obj/structure/chair/stool/retro/black,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "fUs" = (/obj/structure/chair/comfy/black{dir = 4},/obj/effect/decal/cleanable/dirt,/mob/living/simple_animal/hostile/ghoul/reaver{dir = 4},/turf/open/floor/carpet/black,/area/f13/bunker)
@@ -1164,6 +1167,7 @@
 "gGB" = (/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/effect/decal/cleanable/dirt{color = "000000"},/turf/open/floor/plasteel/f13/vault_floor/dark{icon_state = "darkrusty"; name = "grimy tile"},/area/f13/building)
 "gGM" = (/obj/effect/decal/cleanable/dirt,/obj/machinery/porta_turret/syndicate,/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,/area/f13/bunker)
 "gGY" = (/obj/structure/wreck/trash/two_tire,/turf/open/indestructible/ground/outside/road{icon_state = "horizontalbottombordertop0"},/area/f13/wasteland)
+"gHv" = (/obj/structure/obstacle/barbedwire/end{dir = 1; pixel_x = 6},/turf/open/floor/plasteel/f13/vault_floor/dark,/area/f13/building)
 "gHD" = (/obj/structure/chair/stool/bar,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plating,/area/f13/building)
 "gHV" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "whitegreenrustychess"},/area/f13/building)
 "gIi" = (/obj/structure/bed/mattress{icon_state = "mattress1"; pixel_y = 1},/turf/open/floor/plasteel/f13/vault_floor/plating,/area/f13/building)
@@ -1173,6 +1177,7 @@
 "gJC" = (/obj/structure/destructible/tribal_torch/wall/lit{dir = 1; pixel_y = 12},/turf/open/indestructible/ground/outside/dirt{icon_state = "dirt"},/area/f13/wasteland)
 "gJT" = (/obj/structure/table/wood/settler,/obj/item/reagent_containers/food/drinks/mug/tea/forest,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "gKa" = (/obj/structure/simple_door/tentflap_leather,/turf/open/indestructible/ground/outside/dirt{dir = 1; icon_state = "dirt"},/area/f13/wasteland)
+"gKn" = (/obj/structure/obstacle/barbedwire/end,/turf/open/floor/plasteel/f13/vault_floor/dark,/area/f13/building)
 "gKv" = (/obj/effect/decal/cleanable/dirt,/obj/structure/bed/mattress{icon_state = "mattress2"; pixel_y = 5},/turf/open/floor/plasteel/f13/vault_floor/red/redchess/redchess2,/area/f13/building)
 "gKC" = (/obj/structure/table/wood/poker,/obj/item/radio/intercom{name = "radio station intercom"; pixel_x = 30},/obj/item/flashlight/lamp,/turf/open/floor/wood/f13/carpet,/area/f13/building)
 "gKT" = (/obj/effect/decal/cleanable/dirt,/obj/structure/bed/old,/obj/item/bedsheet/brown,/turf/open/floor/wood/f13/oak,/area/f13/building)
@@ -1498,6 +1503,7 @@
 "iyB" = (/obj/structure/fence{dir = 8; icon_state = "straight"},/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontalbottomborderbottom0"},/area/f13/wasteland)
 "iyQ" = (/obj/structure/flora/grass/wasteland{icon_state = "tall_grass_2"; pixel_x = 6; pixel_y = -11},/turf/open/indestructible/ground/inside/dirt,/area/f13/building)
 "iyR" = (/obj/structure/table/reinforced,/obj/item/paper/pamphlet{info = "<center><b>FIND YOUR CAREER IN THE U.S. ARMY</b></center><b><center>BENEFITS FOR YOU NOW.SECURITY FOR YOUR FUTURE.</center></b>___<center> LEARN HOW TO JOIN:</center><b>MEETING WITH A RECRUITER:</b> The first step for eligible recruits who want to find out more is to sit down with a recruiter. Recruiters are the most qualified people to help you find out what's the most appropiate way to serve your country.<b>REQUIRED DOCUMENTS:</b> Your local recruiter will help identify what documents are required for enlistment and will also help you get replacements or copies of any documents that will be needed.<b>ACADEMIC EVALUATION:</b> After speaking to a recruiter, your next step will be to take the Armed Services Occupational Aptitude Test (A.S.O.A.T.). The A.S.O.A.T. is a multiple-choice test designed to pinpoint your strengths and identify which Military Occupational Specialty (M.O.S.) or Army job best suits you.<b>PHYSICAL FITNESS EVALUATION:</b> Your recruiter will help you schedule an appointment at the nearest Military Entrance Processing Station (M.E.P.S.). At M.E.P.S. they will determine if you are qualified to serve and what jobs best fit you. This is also where you will take your physical examination.<b>ARMY CAREERS:</b> The Army offers over 150 different careers in a wide variety of categories. The key to your career path is your A.S.O.A.T. score, which helps to identify the Army jobs that fit you the best.<b>PREP FOR BASIC COMBAT TRAINING:</b> Now that you have taken the A.S.O.A.T., passed your physical and chosen a career path, you are ready to move on to the important training necessary to becoming a Soldier: Basic Combat Training.<center> ENLISTMENT BONUSES: </center><b>EDUCATION:</b> Earn full tuition for 4+ years & merit-based scholarships.<b>VACATIONS:</b> 30 days paid annual vacation.<b>HEALTHCARE:</b> Free healthcare for full-time Soldiers, reduced premiums for Army Reserve and Army National Guard.<b>VA LOAN:</b> Purchase a home with 0% down.<b>STIPEND:</b> Money for books, meals, and other living expenses.<b>HOUSING:</b> Paid rent and utilities.___Fill out this form and we’ll put you in touch with a recruiter who can answer questions and offer opportunities in the U.S. Army:First Name: Last Name: Age: Phone: City: State: Postal Code:"; name = "us recruitment pamphlet"},/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "darkrusty"},/area/f13/building)
+"iyT" = (/obj/effect/decal/cleanable/dirt,/obj/structure/closet/locker,/obj/effect/spawner/lootdrop/f13/armor/tier1,/turf/open/floor/f13{icon_state = "floorrusty"},/area/f13/building)
 "izz" = (/obj/item/chair/wood/modern,/turf/open/indestructible/ground/outside/desert,/area/f13/wasteland)
 "iAz" = (/obj/structure/chair/sofa/left,/turf/open/floor/wood/f13/oak,/area/f13/wasteland)
 "iAD" = (/turf/open/indestructible/ground/outside/sidewalk{dir = 5; icon_state = "outerpavementcorner"},/area/f13/wasteland)
@@ -1560,7 +1566,7 @@
 "iPx" = (/obj/structure/closet/crate/bin,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/maple,/area/f13/building)
 "iPD" = (/obj/structure/wreck/trash/two_barrels,/turf/open/indestructible/ground/outside/desert,/area/f13/wasteland)
 "iPV" = (/obj/structure/table/wood/settler,/turf/open/indestructible/ground/outside/road{icon_state = "horizontalinnermain0"},/area/f13/wasteland)
-"iQi" = (/obj/structure/rack/shelf_metal,/obj/item/gun/ballistic/shotgun/trench,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/f13/building)
+"iQi" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/mob/living/simple_animal/hostile/ghoul,/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,/area/f13/bunker)
 "iQM" = (/turf/open/floor/carpet,/area/f13/building)
 "iQR" = (/obj/effect/spawner/lootdrop/grille_or_trash,/turf/open/indestructible/ground/outside/ruins,/area/f13/wasteland)
 "iQU" = (/obj/structure/table/wood/settler,/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/f13{icon_state = "freezerfloor"},/area/f13/building)
@@ -1579,7 +1585,6 @@
 "iTr" = (/obj/structure/nest/radroach,/turf/open/floor/f13,/area/f13/building)
 "iUM" = (/obj/structure/bed/old,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,/area/f13/bunker)
 "iUV" = (/obj/structure/table/booth,/turf/open/floor/wood/f13/carpet,/area/f13/building)
-"iVb" = (/obj/structure/destructible/tribal_torch/wall/lit{dir = 1; pixel_y = 12},/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/f13/building)
 "iVe" = (/obj/structure/bed/mattress{icon_state = "mattress2"; pixel_y = 7},/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "iVk" = (/turf/open/indestructible/ground/outside/road{dir = 4; icon_state = "innermaincornerinner"},/area/f13/wasteland)
 "iVp" = (/obj/machinery/light/small{dir = 1},/turf/open/indestructible/ground/outside/desert,/area/f13/wasteland)
@@ -1593,7 +1598,6 @@
 "iWU" = (/obj/effect/decal/cleanable/dirt,/obj/machinery/light/small{dir = 8},/turf/open/floor/wood/f13/carpet,/area/f13/building)
 "iXn" = (/mob/living/simple_animal/hostile/retaliate/goat/bighorn{dir = 4},/obj/structure/destructible/tribal_torch/wall/lit,/turf/open/indestructible/ground/outside/dirt,/area/f13/building)
 "iXS" = (/obj/structure/chair/f13foldupchair{dir = 8},/turf/open/indestructible/ground/outside/desert,/area/f13/wasteland)
-"iYf" = (/obj/structure/barricade/concrete,/turf/open/floor/plasteel/f13/vault_floor/dark,/area/f13/building)
 "iZg" = (/obj/effect/decal/cleanable/dirt/dust,/obj/machinery/light{dir = 4},/turf/open/floor/wood/f13/oak,/area/f13/building)
 "iZq" = (/obj/item/kirbyplants/random,/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/carpet,/area/f13/building)
 "iZX" = (/obj/effect/decal/remains{icon_state = "remains"},/obj/structure/chair{dir = 4},/turf/open/floor/plasteel/f13/vault_floor/red,/area/f13/building)
@@ -1606,6 +1610,7 @@
 "jck" = (/obj/structure/campfire/barrel,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontalbottomborderbottom0"},/area/f13/wasteland)
 "jdc" = (/obj/structure/barricade/wooden,/turf/open/indestructible/ground/outside/ruins{icon_state = "rubblepillar"},/area/f13/wasteland)
 "jdj" = (/obj/machinery/light/small/broken,/turf/open/floor/wood/f13/oak,/area/f13/building)
+"jdD" = (/obj/structure/chair/wood/worn{dir = 4},/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "jdI" = (/obj/structure/obstacle/barbedwire/end{dir = 1; pixel_x = 6},/turf/open/indestructible/ground/outside/sidewalk{icon_state = "verticalleftborderleft0"},/area/f13/wasteland)
 "jdW" = (/obj/structure/table,/obj/machinery/computer/terminal,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/red/whiteredfull,/area/f13/building)
 "jeg" = (/obj/structure/rack/shelf_metal,/obj/item/storage/pill_bottle/chem_tin/buffout,/turf/open/floor/plasteel/dark,/area/f13/building)
@@ -1632,6 +1637,7 @@
 "jkH" = (/obj/structure/wreck/trash/two_tire,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontaloutermain0"},/area/f13/wasteland)
 "jlI" = (/obj/structure/fence/wooden{dir = 4; icon_state = "post_wood"},/turf/open/indestructible/ground/outside/dirt{dir = 8; icon_state = "dirtcorner"},/area/f13/wasteland)
 "jlQ" = (/obj/structure/simple_door/metal/iron,/turf/open/floor/f13{icon_state = "floorrusty"},/area/f13/building)
+"jlT" = (/obj/structure/rack,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/item/gun/ballistic/revolver/caravan_shotgun,/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,/area/f13/building)
 "jlV" = (/obj/structure/filingcabinet,/turf/open/floor/plasteel/f13/vault_floor/red,/area/f13/building)
 "jmH" = (/obj/structure/chair{dir = 8},/turf/open/floor/plasteel/f13/vault_floor/red,/area/f13/building)
 "jna" = (/turf/open/indestructible/ground/outside/sidewalk,/area/f13/wasteland)
@@ -1646,7 +1652,6 @@
 "jqa" = (/obj/structure/filingcabinet,/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{name = "metal plating"},/area/f13/building)
 "jqE" = (/obj/structure/chair/wood/modern{dir = 8},/obj/effect/landmark/start/f13/civilians/mercenary,/turf/open/indestructible/ground/outside/desert,/area/f13/wasteland)
 "jqG" = (/obj/structure/rack,/obj/item/stack/sheet/metal/fifty,/obj/effect/turf_decal/stripes/white/box,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,/area/f13/bunker)
-"jqJ" = (/obj/structure/barricade/concrete,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/dark,/area/f13/building)
 "jqK" = (/obj/structure/bonfire/prelit,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "verticalrightborderright0"},/area/f13/wasteland)
 "jrw" = (/obj/structure/railing{dir = 1},/turf/open/floor/wood/f13/carpet,/area/f13/building)
 "jrI" = (/obj/item/reagent_containers/glass/bucket{desc = "It smells awful."; name = "waste bucket"},/turf/open/indestructible/ground/outside/dirt,/area/f13/building)
@@ -1655,6 +1660,7 @@
 "jsp" = (/obj/structure/punji_sticks,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/plating,/area/f13/building)
 "jst" = (/obj/structure/table/wood,/obj/item/clothing/head/helmet/f13/combat,/turf/open/floor/wood/f13/oak,/area/f13/wasteland)
 "jsw" = (/obj/structure/rack/shelf_metal,/obj/item/storage/box/papersack,/obj/item/storage/box/papersack,/obj/item/storage/box/papersack,/obj/item/storage/box/papersack,/turf/open/floor/f13{icon_state = "floorrusty"},/area/f13/building)
+"jsW" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "jtv" = (/obj/structure/destructible/tribal_torch/lit,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontaloutermain0"},/area/f13/wasteland)
 "jtB" = (/obj/structure/barricade/wooden,/obj/structure/barricade/wooden/planks,/turf/open/indestructible/ground/outside/desert,/area/f13/wasteland)
 "jtT" = (/obj/structure/table,/turf/open/floor/f13{icon_state = "hydrofloor"},/area/f13/building)
@@ -1699,7 +1705,6 @@
 "jFo" = (/obj/structure/chair/wood{dir = 1},/turf/open/indestructible/ground/outside/sidewalk{icon_state = "verticalrightborderright0"},/area/f13/wasteland)
 "jFJ" = (/obj/structure/filingcabinet/filingcabinet,/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{name = "metal plating"},/area/f13/building)
 "jFN" = (/obj/item/ticket_machine_ticket,/obj/item/ticket_machine_ticket,/obj/item/ticket_machine_ticket,/obj/structure/rack,/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/wood/f13/oak,/area/f13/building)
-"jGR" = (/obj/structure/chair/wood/worn{dir = 4},/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "jGZ" = (/obj/structure/table/wood,/turf/open/floor/carpet,/area/f13/building)
 "jIr" = (/obj/structure/chair/wood/modern{dir = 8},/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/f13{icon_state = "bluerustysolid"},/area/f13/building)
 "jIV" = (/obj/effect/overlay/junk/sink{dir = 4; pixel_x = 12},/obj/effect/overlay/junk/mirror{pixel_x = 28},/obj/effect/decal/cleanable/dirt,/turf/open/floor/plating,/area/f13/building)
@@ -1763,7 +1768,6 @@
 "jYp" = (/obj/structure/chair/sofa{dir = 4},/turf/open/floor/wood/f13/oak,/area/f13/wasteland)
 "jYy" = (/obj/structure/campfire/barrel,/turf/open/indestructible/ground/outside/road{icon_state = "verticalinnermain1"},/area/f13/wasteland)
 "jYF" = (/obj/structure/table,/obj/item/kitchen/rollingpin,/obj/item/kitchen/knife/butcher,/obj/machinery/light/small{dir = 4},/obj/item/reagent_containers/spray/cleaner{pixel_x = -8; pixel_y = 11},/turf/open/floor/plasteel/f13/vault_floor/red/redchess{icon_state = "redrustychess"; name = "tile"},/area/f13/building)
-"jZw" = (/obj/structure/chair/wood/worn{dir = 1},/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "kac" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,/area/f13/building)
 "kak" = (/obj/structure/car/rubbish4,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontalbottomborderbottom0"},/area/f13/wasteland)
 "kaJ" = (/obj/machinery/light/small{dir = 4},/turf/open/floor/wood/f13/carpet,/area/f13/building)
@@ -1771,7 +1775,7 @@
 "kcQ" = (/obj/effect/spawner/lootdrop/trash,/turf/open/indestructible/ground/outside/dirt,/area/f13/wasteland)
 "kcX" = (/turf/closed/wall/f13/wood,/area/f13/wasteland)
 "kcY" = (/obj/effect/decal/marking,/turf/open/indestructible/ground/outside/road{icon_state = "horizontaltopborderbottom0"},/area/f13/wasteland)
-"kdy" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/mob/living/simple_animal/hostile/ghoul,/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,/area/f13/bunker)
+"kdy" = (/obj/effect/decal/cleanable/dirt,/mob/living/simple_animal/hostile/ghoul{dir = 8},/turf/open/floor/wood/f13/oak,/area/f13/bunker)
 "kdF" = (/obj/machinery/deepfryer,/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "whitegreenrustychess"},/area/f13/bunker)
 "kec" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/vomit,/turf/open/indestructible/ground/outside/ruins{icon_state = "rubbleplate"},/area/f13/wasteland)
 "kes" = (/obj/item/chair/wood,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontaloutermain0"},/area/f13/wasteland)
@@ -1843,6 +1847,7 @@
 "kxN" = (/obj/structure/decoration/rag,/obj/structure/decoration/rag{icon_state = "skin"},/turf/closed/wall/f13/wood,/area/f13/building)
 "kxP" = (/obj/effect/turf_decal/stripes/white/line,/obj/effect/decal/cleanable/dirt{color = "#363636"},/obj/machinery/door/poddoor/shutters{id = "apparatus1"; name = "Apparatus Bay 1"},/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "floorrusty"},/area/f13/building)
 "kyr" = (/obj/structure/bed/mattress{icon_state = "mattress3"},/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontaloutermain0"},/area/f13/wasteland)
+"kyJ" = (/obj/structure/destructible/tribal_torch/wall/lit{dir = 1; pixel_y = 12},/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/f13/building)
 "kza" = (/obj/effect/decal/cleanable/dirt,/obj/structure/closet/crate/freezer/blood,/turf/open/floor/plasteel/dark,/area/f13/building)
 "kzZ" = (/obj/effect/decal/cleanable/dirt,/obj/item/grenade/homemade/firebomb,/turf/open/floor/plasteel/f13/vault_floor/red/redchess/redchess2,/area/f13/building)
 "kAc" = (/obj/structure/wreck/trash/four_barrels,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "verticalleftborderleft2top"},/area/f13/wasteland)
@@ -1880,7 +1885,6 @@
 "kJi" = (/obj/structure/tires/five,/turf/open/indestructible/ground/outside/desert{icon_state = "wasteland33"},/area/f13/wasteland)
 "kJo" = (/obj/structure/barricade/wooden/strong,/obj/structure/decoration/rag,/turf/closed/wall/f13/wood/house,/area/f13/wasteland)
 "kJy" = (/obj/structure/rack,/obj/item/weldingtool/basic{pixel_x = 2},/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/plasteel/dark,/area/f13/building)
-"kJE" = (/obj/structure/obstacle/barbedwire,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/dark,/area/f13/building)
 "kJN" = (/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontaltopbordertop2"},/area/f13/wasteland)
 "kJV" = (/obj/structure/simple_door/room,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "kKc" = (/obj/structure/closet/fridge,/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "whitegreenrustychess"},/area/f13/bunker)
@@ -1913,6 +1917,7 @@
 "kRl" = (/obj/structure/filingcabinet/medical,/turf/open/floor/plasteel/dark,/area/f13/building)
 "kSu" = (/obj/structure/billboard/ritas,/turf/open/indestructible/ground/outside/road{dir = 8; icon_state = "innermaincornerouter"},/area/f13/wasteland)
 "kSB" = (/obj/structure/decoration/rag,/turf/closed/wall/f13/wood,/area/f13/building)
+"kSC" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/oil,/turf/open/floor/plasteel/f13/vault_floor/dark,/area/f13/building)
 "kSJ" = (/obj/structure/chair/stool/retro/backed{dir = 4},/turf/open/floor/carpet/brown,/area/f13/building)
 "kTe" = (/obj/structure/fence/cut/large,/turf/open/indestructible/ground/outside/desert,/area/f13/wasteland)
 "kTj" = (/obj/structure/chair/stool/bar,/obj/effect/landmark/start/f13/bishops/bartender,/turf/open/indestructible/hotelwood,/area/f13/building)
@@ -1932,8 +1937,10 @@
 "kVS" = (/obj/structure/chair/wood/normal{dir = 8},/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "kWc" = (/obj/structure/table/wood/settler,/obj/structure/barricade/wooden,/obj/structure/barricade/wooden/planks,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontaloutermain0"},/area/f13/wasteland)
 "kWf" = (/obj/structure/wreck/trash/one_tire,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "verticalleftborderleft2"},/area/f13/wasteland)
+"kWI" = (/mob/living/simple_animal/hostile/supermutant,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "kWU" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/carpet,/area/f13/building)
 "kXq" = (/obj/structure/chair/wood/worn,/turf/open/floor/carpet/brown,/area/f13/wasteland)
+"kXH" = (/obj/structure/obstacle/barbedwire/end{dir = 1; pixel_x = 6},/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/dark,/area/f13/building)
 "kYc" = (/obj/structure/chair/wood/modern{dir = 4; icon_state = "wooden_chair_settler"},/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontalbottomborderbottom0"},/area/f13/wasteland)
 "kYk" = (/obj/structure/table/wood/poker,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "kYp" = (/obj/effect/decal/cleanable/dirt/dust,/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/wood/f13/carpet,/area/f13/building)
@@ -1952,6 +1959,7 @@
 "lbn" = (/obj/structure/table/wood/settler,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "floorrusty"},/area/f13/building)
 "lbp" = (/obj/structure/simple_door/room,/turf/open/floor/wood/f13/carpet,/area/f13/building)
 "lbT" = (/obj/structure/bed/old,/obj/item/bedsheet/brown,/turf/open/floor/carpet/brown,/area/f13/building)
+"lcE" = (/obj/structure/rack/shelf_metal,/obj/item/storage/box/drinkingglasses,/obj/item/storage/box/drinkingglasses,/turf/open/indestructible/hotelwood,/area/f13/building)
 "lda" = (/obj/structure/barricade/wooden,/turf/open/indestructible/ground/outside/sidewalk{dir = 4; icon_state = "outerpavement"},/area/f13/wasteland)
 "ldF" = (/obj/structure/dresser,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/housewoodbroken3,/area/f13/building)
 "ldW" = (/obj/effect/decal/cleanable/dirt,/obj/structure/bed/mattress{icon_state = "mattress2"; pixel_y = 7},/turf/open/floor/wood/f13/old{icon_state = "housebase"},/area/f13/building)
@@ -2019,7 +2027,7 @@
 "lui" = (/obj/structure/barricade/wooden,/turf/open/indestructible/ground/outside/road{icon_state = "verticalinnermain0"},/area/f13/wasteland)
 "lum" = (/obj/effect/spawner/lootdrop/f13/weapon/melee/random,/turf/open/floor/plasteel/f13/vault_floor/red,/area/f13/building)
 "luu" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/structure/destructible/tribal_torch/wall/lit,/turf/open/indestructible/ground/outside/ruins,/area/f13/building)
-"luZ" = (/obj/structure/rack/shelf_metal,/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,/area/f13/building)
+"luZ" = (/obj/structure/rack/shelf_metal,/obj/effect/spawner/lootdrop/f13/armor/tier1,/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,/area/f13/building)
 "lvo" = (/mob/living/simple_animal/hostile/raider/ranged/boss,/turf/open/floor/wood/f13/oak,/area/f13/wasteland)
 "lvp" = (/obj/structure/barricade/wooden,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "lvu" = (/obj/structure/junk/small/bed,/turf/open/floor/wood/f13/oak,/area/f13/wasteland)
@@ -2120,13 +2128,11 @@
 "lWa" = (/obj/structure/car/rubbish4,/turf/open/indestructible/ground/outside/sidewalk,/area/f13/wasteland)
 "lWm" = (/obj/effect/decal/cleanable/blood/gibs/body,/obj/effect/decal/cleanable/dirt/dust,/obj/effect/decal/cleanable/dirt/dust,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontaloutermain0"},/area/f13/wasteland)
 "lWY" = (/turf/open/floor/wood/f13/old/ruinedcornerendtr,/area/f13/wasteland)
-"lXc" = (/obj/structure/obstacle/barbedwire/end,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/dark,/area/f13/building)
 "lXq" = (/obj/structure/car/rubbish3,/turf/open/indestructible/ground/outside/road{icon_state = "horizontalinnermain0"},/area/f13/wasteland)
 "lXx" = (/obj/structure/car/rubbish4,/turf/open/indestructible/ground/outside/desert{icon_state = "wasteland33"},/area/f13/wasteland)
 "lXS" = (/obj/structure/obstacle/barbedwire/end{dir = 8},/turf/open/indestructible/ground/outside/sidewalk{icon_state = "verticalrightborderright0"},/area/f13/wasteland)
 "lXW" = (/turf/open/indestructible/ground/outside/dirt/dark,/area/f13/building)
 "lYu" = (/obj/structure/table/wood/poker,/obj/item/toy/cards/deck,/turf/open/floor/carpet/brown,/area/f13/building)
-"lYw" = (/obj/effect/decal/cleanable/dirt,/turf/closed/wall/r_wall/rust,/area/f13/building)
 "lYC" = (/obj/structure/window/fulltile/house,/obj/structure/barricade/wooden/planks,/turf/open/floor/f13{icon_state = "floorrusty"},/area/f13/building)
 "lYJ" = (/turf/open/indestructible,/area/f13/tcoms)
 "lYT" = (/obj/structure/nest/ghoul,/turf/open/floor/wood/f13/oak,/area/f13/wasteland)
@@ -2161,11 +2167,11 @@
 "mgk" = (/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/effect/decal/cleanable/dirt{color = "000000"},/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,/area/f13/bunker)
 "mgo" = (/obj/structure/wreck/car/bike{dir = 8},/turf/open/indestructible/ground/outside/sidewalk{dir = 1; icon_state = "outerpavement"},/area/f13/wasteland)
 "mgz" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/plating/f13,/area/f13/building)
+"mgQ" = (/obj/structure/chair/wood/worn{dir = 8},/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "mgS" = (/obj/item/storage/secure/safe{pixel_x = -19},/turf/open/floor/wood/f13,/area/f13/building)
 "mhf" = (/obj/structure/simple_door/metal/store,/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/plasteel/dark,/area/f13/building)
 "mhz" = (/obj/structure/barricade/wooden,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "mic" = (/obj/structure/simple_door/metal/store{icon_state = "brokenstore"; name = "service shutters"},/turf/open/floor/plasteel/f13/vault_floor/neutral/neutralchess,/area/f13/building)
-"mih" = (/obj/structure/filingcabinet,/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "mij" = (/obj/machinery/door/airlock/freezer,/turf/open/floor/f13{icon_state = "greendirtyfull"},/area/f13/building)
 "mip" = (/obj/structure/table/wood/fancy/black,/obj/structure/decoration/clock/active{pixel_x = 30},/obj/item/modular_computer/laptop/preset/civillian,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/grimy,/area/f13/building)
 "miN" = (/obj/structure/window/fulltile/wood,/turf/open/floor/wood/f13/oak,/area/f13/building)
@@ -2182,7 +2188,6 @@
 "mkE" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/red,/area/f13/building)
 "mkM" = (/obj/effect/decal/cleanable/dirt,/mob/living/simple_animal/hostile/giantant{dir = 1},/turf/open/floor/wood/f13/oak,/area/f13/building)
 "mkN" = (/obj/machinery/light/small{dir = 8},/turf/open/indestructible/ground/outside/desert,/area/f13/wasteland)
-"mkQ" = (/mob/living/simple_animal/hostile/supermutant,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/f13/building)
 "mkR" = (/obj/structure/chair/stool/bar,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "floorrusty"},/area/f13/building)
 "mmt" = (/obj/structure/table/wood/settler,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "verticalleftborderleft0"},/area/f13/wasteland)
 "mmu" = (/obj/effect/decal/cleanable/dirt,/turf/open/indestructible/ground/outside/dirt,/area/f13/wasteland)
@@ -2205,7 +2210,6 @@
 "mqG" = (/obj/item/stack/sheet/mineral/wood/twenty,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/old{icon_state = "housebase"},/area/f13/building)
 "mrj" = (/obj/structure/table/booth,/obj/item/reagent_containers/food/snacks/f13/canned/dog,/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13/wood,/area/f13/building)
 "mrp" = (/obj/effect/decal/cleanable/dirt/dust,/obj/item/trash/f13/cram,/turf/open/floor/wood/f13/oak,/area/f13/building)
-"mry" = (/obj/structure/chair/wood/worn{dir = 8},/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "mrO" = (/obj/structure/flora/tree/cactus,/turf/open/indestructible/ground/outside/dirt{dir = 4; icon_state = "dirt"},/area/f13/wasteland)
 "mrP" = (/obj/structure/destructible/tribal_torch/wall/lit,/turf/open/indestructible/ground/outside/dirt/dark,/area/f13/wasteland)
 "mrW" = (/obj/structure/table/wood,/obj/effect/decal/cleanable/dirt,/obj/item/storage/briefcase,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/grimy,/area/f13/building)
@@ -2213,8 +2217,8 @@
 "msj" = (/obj/structure/chair/pew/left{dir = 4},/turf/open/floor/wood/f13/stage_t,/area/f13/building)
 "msk" = (/obj/structure/flora/tree/cactus,/turf/open/indestructible/ground/outside/desert,/area/f13/wasteland)
 "msM" = (/obj/machinery/gibber,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/red/white,/area/f13/building)
-"msP" = (/obj/structure/chair/wood/worn,/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "mtb" = (/obj/structure/barricade/tentleatheredge{dir = 4},/turf/open/indestructible/ground/outside/desert,/area/f13/building)
+"mtd" = (/obj/structure/chair/wood/worn{dir = 4},/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "mth" = (/obj/machinery/mineral/wasteland_vendor/reno/nukacola_streets,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontaloutermain0"},/area/f13/wasteland)
 "mtM" = (/obj/effect/turf_decal/vg_decals/numbers/one,/obj/effect/decal/cleanable/dirt{color = "#363636"},/obj/effect/decal/cleanable/dirt,/obj/structure/wreck/trash/two_tire,/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "floorrusty"},/area/f13/building)
 "muQ" = (/obj/structure/chair/stool{dir = 4; icon_state = "bench"},/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "floorrusty"},/area/f13/building)
@@ -2234,14 +2238,15 @@
 "myW" = (/obj/structure/bed/mattress{icon_state = "mattress2"; pixel_y = 5},/obj/item/reagent_containers/food/drinks/beer,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontaloutermain0"},/area/f13/wasteland)
 "mzF" = (/obj/structure/closet/crate/trashcart,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontaltopbordertop2left"},/area/f13/wasteland)
 "mAb" = (/obj/structure/table/wood/settler,/obj/item/storage/fancy/nugget_box,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
+"mBm" = (/obj/structure/barricade/concrete,/turf/open/floor/plating,/area/f13/building)
 "mBA" = (/obj/structure/chair/comfy/brown,/turf/open/floor/wood/f13,/area/f13/building)
 "mBF" = (/obj/structure/table/wood,/obj/machinery/microwave,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "mCl" = (/obj/structure/simple_door/wood,/obj/structure/window/fulltile/house{dir = 2; icon_state = "housewindowbrokenvertical"},/obj/structure/curtain{color = "#808080"},/turf/open/floor/wood/f13/oak,/area/f13/building)
 "mCL" = (/turf/closed/wall/f13/wood/interior,/area/f13/building)
 "mCP" = (/obj/structure/table/wood/settler,/obj/structure/destructible/tribal_torch/wall/lit{dir = 8},/turf/open/floor/wood,/area/f13/wasteland)
 "mCZ" = (/obj/structure/simple_door/wood,/turf/open/floor/f13{icon_state = "bluerustysolid"},/area/f13/building)
-"mEA" = (/mob/living/simple_animal/hostile/supermutant/nightkin/rangedmutant,/turf/open/floor/plasteel/f13/vault_floor/dark,/area/f13/building)
 "mEM" = (/obj/structure/obstacle/barbedwire/end{dir = 8},/obj/effect/decal/cleanable/blood/gibs/down,/turf/open/floor/plating,/area/f13/building)
+"mEO" = (/obj/structure/barricade/concrete,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/dark,/area/f13/building)
 "mFb" = (/obj/structure/table/snooker{dir = 1},/turf/open/floor/carpet/brown,/area/f13/building)
 "mFm" = (/obj/structure/barricade/wooden,/obj/structure/table/wood/settler,/turf/open/indestructible/ground/outside/road{icon_state = "verticalinnermain1"},/area/f13/wasteland)
 "mFp" = (/obj/structure/wreck/trash/machinepiletwo,/turf/open/indestructible/ground/outside/road{icon_state = "horizontalinnermain0"},/area/f13/wasteland)
@@ -2269,7 +2274,6 @@
 "mMe" = (/obj/structure/wreck/trash/engine,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontaltopbordertop0"},/area/f13/wasteland)
 "mMz" = (/obj/structure/bed/mattress{icon_state = "mattress2"; pixel_y = 7},/turf/open/floor/wood/f13/oak,/area/f13/building)
 "mMA" = (/obj/effect/turf_decal/arrows{dir = 1; pixel_y = -7},/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,/area/f13/bunker)
-"mML" = (/obj/structure/obstacle/barbedwire/end{dir = 1; pixel_x = 6},/turf/open/floor/plasteel/f13/vault_floor/dark,/area/f13/building)
 "mNe" = (/obj/structure/junk/small/bed,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "mNk" = (/obj/effect/decal/cleanable/blood,/turf/open/indestructible/ground/outside/road{icon_state = "horizontaltopborderbottom0"},/area/f13/wasteland)
 "mNs" = (/obj/structure/chair/wood/modern{dir = 4},/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak{icon_state = "oakfloor1-broken"},/area/f13/building)
@@ -2297,7 +2301,6 @@
 "mUK" = (/obj/structure/vaultdoor{desc = "An old, thick bulkhead door. Or what's left of it, at least. The door itself has been ripped off the frame, and where it went is anyone's guess."; icon_state = "empty"; name = "bank vault door"},/obj/effect/decal/cleanable/dirt,/obj/structure/filingcabinet/chestdrawer/wheeled,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/f13/building)
 "mUU" = (/obj/structure/destructible/tribal_torch/wall/lit{dir = 4},/turf/open/floor/wood/f13/oak{icon_state = "oakfloor1-broken"},/area/f13/wasteland)
 "mUZ" = (/obj/machinery/mineral/wasteland_vendor/reno/nukacola_streets,/turf/open/indestructible/ground/outside/sidewalk,/area/f13/wasteland)
-"mVM" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13,/area/f13/building)
 "mWb" = (/obj/structure/chair/wood/modern{dir = 4},/obj/effect/decal/cleanable/dirt,/turf/open/floor/carpet/brown,/area/f13/building)
 "mWy" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/ash,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "mWS" = (/obj/structure/car/rubbish1,/turf/open/indestructible/ground/outside/ruins,/area/f13/wasteland)
@@ -2505,12 +2508,13 @@
 "ooa" = (/obj/item/trash/f13/dog,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/structure/rack,/obj/item/pickaxe,/turf/open/floor/plasteel/dark,/area/f13/building)
 "oor" = (/obj/effect/landmark/start/f13/civilians/renodoctor,/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,/area/f13/building)
 "opi" = (/obj/structure/bed/mattress{icon_state = "mattress2"},/turf/open/floor/plasteel/dark,/area/f13/building)
-"opm" = (/mob/living/simple_animal/hostile/supermutant/meleemutant,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/f13/building)
-"opt" = (/obj/structure/destructible/tribal_torch/wall/lit{dir = 1; pixel_y = 12},/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
+"oqb" = (/mob/living/simple_animal/hostile/supermutant/nightkin/rangedmutant,/turf/open/floor/plasteel/f13/vault_floor/dark,/area/f13/building)
 "oqh" = (/obj/structure/barricade/tentleathercorner{dir = 1},/turf/open/indestructible/ground/outside/desert,/area/f13/wasteland)
+"oqD" = (/obj/structure/filingcabinet,/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "orx" = (/obj/structure/flora/grass/wasteland{icon_state = "tall_grass_6"; pixel_x = -11; pixel_y = 11},/turf/open/indestructible/ground/outside/desert{icon_state = "wasteland33"},/area/f13/wasteland)
 "orz" = (/obj/structure/bed/mattress{icon_state = "mattress2"; pixel_y = 7},/obj/effect/spawner/lootdrop/trash,/turf/open/indestructible/ground/outside/desert{icon_state = "wasteland33"},/area/f13/wasteland)
 "orN" = (/obj/structure/fence/handrail_corner{dir = 8; pixel_x = -12; pixel_y = 18},/turf/open/floor/carpet/black,/area/f13/building)
+"orS" = (/obj/structure/destructible/tribal_torch/wall/lit{dir = 1; pixel_y = 12},/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "osr" = (/obj/structure/obstacle/barbedwire,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "osu" = (/obj/structure/stacklifter,/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/f13{icon_state = "hydrofloor"},/area/f13/building)
 "osH" = (/obj/effect/decal/cleanable/dirt/dust,/obj/effect/decal/cleanable/dirt/dust,/obj/structure/barricade/sandbags,/turf/open/floor/f13{icon_state = "whitegreenrustychess"},/area/f13/building)
@@ -2547,6 +2551,7 @@
 "oBg" = (/obj/structure/chair/wood/modern,/obj/effect/landmark/start/f13/civilians/bum,/turf/open/indestructible/ground/outside/road{icon_state = "horizontaltopborderbottom0"},/area/f13/wasteland)
 "oBJ" = (/obj/structure/closet/crate/wooden,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "floorrusty"},/area/f13/building)
 "oBL" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "whitegreenrustychess"},/area/f13/bunker)
+"oCe" = (/obj/structure/rack,/obj/effect/spawner/lootdrop/raiderloot,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,/area/f13/building)
 "oCK" = (/obj/structure/railing{color = "#A47449"; layer = 4.1},/turf/open/floor/wood/f13/stage_b/outdoors,/area/f13/building)
 "oCW" = (/obj/effect/decal/cleanable/dirt,/obj/structure/chair/greyscale,/turf/open/floor/wood/f13/oak,/area/f13/wasteland)
 "oDa" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/carpet/purple,/area/f13/building)
@@ -2571,7 +2576,6 @@
 "oIu" = (/obj/effect/decal/cleanable/dirt/dust,/obj/structure/simple_door/wood,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "oIB" = (/obj/effect/decal/cleanable/blood/gibs/human/lizard/body,/turf/open/indestructible/ground/outside/desert,/area/f13/building)
 "oJz" = (/obj/structure/barricade/wooden,/turf/open/indestructible/ground/outside/road{icon_state = "horizontaltopborderbottom0"},/area/f13/wasteland)
-"oJC" = (/obj/structure/destructible/tribal_torch/lit,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,/area/f13/building)
 "oJJ" = (/obj/structure/obstacle/barbedwire,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "verticalrightborderright0"},/area/f13/wasteland)
 "oJV" = (/obj/machinery/door/unpowered/securedoor{name = "hotel door"; req_one_access_txt = "139"},/turf/open/floor/f13{icon_state = "whitegreenrustychess"},/area/f13/building)
 "oJY" = (/obj/structure/closet/cabinet,/obj/item/clothing/suit/hooded/robes,/obj/item/clothing/suit/hooded/robes,/obj/item/clothing/suit/hooded/robes,/obj/item/clothing/suit/hooded/robes,/obj/item/clothing/suit/hooded/robes,/turf/open/floor/wood/f13/stage_t,/area/f13/building)
@@ -2618,6 +2622,7 @@
 "oSC" = (/obj/structure/bed/mattress,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "oSG" = (/obj/structure/shelf_wood,/obj/effect/spawner/lootdrop/trash,/turf/open/floor/wood/f13/oak,/area/f13/wasteland)
 "oTa" = (/turf/open/indestructible/ground/outside/savannah/bottomrightcorner,/area/f13/wasteland)
+"oTf" = (/obj/structure/destructible/tribal_torch/wall/lit{dir = 1; pixel_y = 12},/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{name = "metal plating"},/area/f13/building)
 "oTr" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13/wood{icon_state = "housewood4-broken"},/area/f13/building)
 "oTC" = (/obj/structure/wreck/trash/four_barrels,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontaloutermain0"},/area/f13/wasteland)
 "oTD" = (/obj/structure/junk/small/bed,/obj/item/newspaper,/turf/open/floor/plasteel/dark,/area/f13/building)
@@ -2645,7 +2650,6 @@
 "pcq" = (/obj/structure/rack/shelf_metal,/turf/open/floor/wood/f13,/area/f13/building)
 "pcA" = (/obj/structure/chair/sofa,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "pcF" = (/obj/structure/rack,/obj/item/kitchen/knife/butcher,/turf/open/floor/wood/f13/oak,/area/f13/building)
-"pcT" = (/obj/structure/rack,/obj/effect/spawner/lootdrop/raiderloot,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,/area/f13/building)
 "pcZ" = (/obj/machinery/microwave/stove,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "pda" = (/turf/closed/wall/f13/wood/house,/area/f13/wasteland)
 "pdf" = (/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/structure/table,/obj/machinery/microwave,/turf/open/floor/wood/cold,/area/f13/building)
@@ -2675,7 +2679,6 @@
 "pim" = (/obj/effect/decal/cleanable/dirt,/obj/structure/junk/small/tv,/obj/structure/table/wood,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "piv" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt/dust,/obj/structure/campfire/barrel,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "piG" = (/obj/structure/closet/crate/trashcart,/obj/item/bottlecap_mine,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontaloutermain0"},/area/f13/wasteland)
-"piM" = (/mob/living/simple_animal/hostile/raider/junker/creator,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,/area/f13/building)
 "piS" = (/obj/structure/closet/locker,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "piW" = (/obj/structure/table/snooker,/turf/open/floor/wood,/area/f13/wasteland)
 "pjf" = (/obj/structure/table/wood,/turf/open/indestructible/ground/outside/dirt,/area/f13/building)
@@ -2707,12 +2710,13 @@
 "prS" = (/obj/effect/decal/cleanable/dirt,/obj/effect/overlay/junk/toilet{dir = 4; layer = 2.9},/turf/open/floor/f13{icon_state = "whitegreenrustychess"},/area/f13/building)
 "prV" = (/obj/structure/cargocrate,/turf/open/indestructible/ground/outside/desert,/area/f13/wasteland)
 "ptn" = (/turf/open/floor/plasteel/dark,/area/f13/building)
+"pto" = (/obj/structure/destructible/tribal_torch/wall/lit{dir = 1; pixel_y = 12},/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "ptC" = (/obj/structure/closet/crate/large,/turf/open/indestructible/ground/outside/desert,/area/f13/wasteland)
 "ptI" = (/obj/effect/overlay/junk/toilet{dir = 8},/obj/effect/decal/cleanable/dirt,/obj/item/stack/sheet/mineral/wood,/turf/open/floor/f13{icon_state = "whitegreenrustychess"},/area/f13/building)
 "ptL" = (/turf/closed/wall/rust,/area/f13/wasteland)
 "ptR" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "bluerustysolid"},/area/f13/building)
 "ptY" = (/obj/machinery/light/lampost,/turf/open/indestructible/ground/outside/sidewalk{dir = 7; icon_state = "outerpavement"},/area/f13/wasteland)
-"puf" = (/obj/effect/decal/cleanable/dirt,/mob/living/simple_animal/hostile/ghoul{dir = 8},/turf/open/floor/wood/f13/oak,/area/f13/bunker)
+"puf" = (/obj/effect/decal/cleanable/dirt,/mob/living/simple_animal/hostile/ghoul{dir = 8},/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,/area/f13/bunker)
 "puk" = (/obj/effect/decal/marking,/obj/effect/spawner/lootdrop/trash,/turf/open/indestructible/ground/outside/road{icon_state = "verticalinnermain0"},/area/f13/wasteland)
 "puK" = (/obj/structure/chair/pew/left{dir = 1},/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "puR" = (/obj/machinery/light{dir = 8},/turf/open/floor/plasteel/dark,/area/f13/building)
@@ -2841,7 +2845,6 @@
 "qbE" = (/obj/structure/chair/wood/worn{dir = 1},/turf/open/floor/f13{icon_state = "whitegreenrustychess"},/area/f13/bunker)
 "qcn" = (/obj/effect/turf_decal/arrows{dir = 4; pixel_x = -8},/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,/area/f13/bunker)
 "qcH" = (/obj/structure/car/rubbish4,/turf/open/indestructible/ground/outside/dirt,/area/f13/wasteland)
-"qcO" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/oil,/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "qcV" = (/obj/structure/weightlifter,/obj/effect/decal/cleanable/dirt/dust,/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/f13{icon_state = "hydrofloor"},/area/f13/building)
 "qcW" = (/obj/structure/wreck/trash/one_tire,/turf/open/indestructible/ground/outside/dirt{dir = 1; icon_state = "dirt"},/area/f13/wasteland)
 "qdl" = (/obj/effect/decal/cleanable/dirt,/obj/structure/toilet{pixel_y = 9},/turf/open/floor/plasteel/dark,/area/f13/building)
@@ -2925,7 +2928,6 @@
 "qCM" = (/obj/structure/rack,/obj/item/storage/belt,/obj/item/storage/belt,/obj/item/storage/belt,/turf/open/floor/plasteel/dark,/area/f13/building)
 "qDY" = (/obj/structure/window/fulltile/wood,/obj/structure/barricade/wooden/planks/pregame,/turf/open/indestructible/ground/outside/ruins,/area/f13/building)
 "qEr" = (/obj/machinery/light/small{dir = 4},/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
-"qEz" = (/mob/living/simple_animal/hostile/supermutant,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "qEH" = (/obj/structure/destructible/tribal_torch/lit,/turf/open/indestructible/ground/outside/dirt{dir = 4; icon_state = "dirtcorner"},/area/f13/wasteland)
 "qFX" = (/obj/structure/barricade/tentleathercorner{dir = 4},/turf/open/indestructible/ground/outside/dirt/dark,/area/f13/building)
 "qGg" = (/obj/structure/chair/wood{dir = 8},/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
@@ -2979,7 +2981,7 @@
 "qTk" = (/obj/structure/table/wood,/turf/open/indestructible/ground/outside/dirt/dark,/area/f13/wasteland)
 "qUa" = (/obj/structure/chair/sofa/right{dir = 8},/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{name = "metal plating"},/area/f13/building)
 "qUi" = (/obj/structure/rack,/turf/open/floor/plasteel/dark,/area/f13/building)
-"qUm" = (/obj/effect/decal/cleanable/dirt,/mob/living/simple_animal/hostile/ghoul{dir = 8},/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,/area/f13/bunker)
+"qUm" = (/obj/effect/decal/cleanable/dirt{color = "000000"},/mob/living/simple_animal/hostile/ghoul/zombie,/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,/area/f13/bunker)
 "qUE" = (/obj/effect/decal/cleanable/dirt/dust,/obj/machinery/vending/autodrobe,/turf/open/floor/wood/f13/carpet,/area/f13/building)
 "qUT" = (/obj/effect/decal/cleanable/dirt,/obj/structure/kitchenspike,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontaloutermain0"},/area/f13/wasteland)
 "qUZ" = (/obj/structure/car/rubbish4,/obj/structure/tires/five,/turf/open/indestructible/ground/outside/dirt{icon_state = "dirtcorner"},/area/f13/wasteland)
@@ -3046,8 +3048,6 @@
 "rmX" = (/turf/open/indestructible/ground/inside/mountain,/area/f13/radiation)
 "rnb" = (/obj/structure/closet/crate/wicker,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "rne" = (/obj/structure/chair/wood/worn{dir = 8},/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "whitegreenrustychess"},/area/f13/bunker)
-"rnS" = (/obj/structure/destructible/tribal_torch/wall/lit{dir = 4},/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
-"roa" = (/mob/living/simple_animal/hostile/supermutant/rangedmutant,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "rop" = (/obj/structure/decoration/rag{icon_state = "skin"},/obj/structure/decoration/rag,/obj/structure/decoration/rag,/turf/closed/wall/f13/wood,/area/f13/wasteland)
 "rpa" = (/obj/structure/toilet{dir = 8},/obj/effect/decal/cleanable/dirt/dust,/obj/item/clothing/head/soft/red,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "rpf" = (/obj/structure/table,/turf/open/floor/wood/f13,/area/f13/building)
@@ -3062,6 +3062,7 @@
 "rrQ" = (/obj/structure/fence/wooden{pixel_x = -15},/turf/open/indestructible/ground/outside/desert,/area/f13/wasteland)
 "rsm" = (/obj/structure/simple_door/metal/dirtystore{req_one_access_txt = "141"},/obj/effect/decal/cleanable/dirt,/obj/machinery/door/poddoor/shutters{id = "renoclinic"},/turf/open/floor/wood,/area/f13/building)
 "rsH" = (/obj/structure/chair/sofa/left,/turf/open/floor/wood/f13/oak,/area/f13/building)
+"rtu" = (/obj/structure/obstacle/barbedwire/end,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/dark,/area/f13/building)
 "rtv" = (/obj/structure/simple_door/metal/store{icon_state = "brokenstore"},/turf/open/floor/plasteel/dark,/area/f13/building)
 "rur" = (/obj/structure/rack,/obj/item/wirecutters/basic,/turf/open/floor/plasteel/dark,/area/f13/building)
 "ruX" = (/mob/living/simple_animal/hostile/wolf,/turf/open/floor/wood/f13/oak,/area/f13/building)
@@ -3085,7 +3086,7 @@
 "ryO" = (/turf/open/indestructible/ground/outside/ruins{icon_state = "rubbleplate"},/area/f13/building)
 "rze" = (/obj/effect/decal/cleanable/dirt/dust,/obj/effect/decal/cleanable/dirt/dust,/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "rAz" = (/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/f13{icon_state = "greendirtyfull"},/area/f13/building)
-"rAR" = (/obj/effect/decal/cleanable/dirt{color = "000000"},/mob/living/simple_animal/hostile/ghoul/zombie,/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,/area/f13/bunker)
+"rAR" = (/obj/effect/decal/cleanable/dirt,/obj/structure/nest/ghoul,/turf/open/floor/wood/f13/oak,/area/f13/bunker)
 "rBb" = (/obj/effect/overlay/junk/shower{dir = 8},/obj/effect/decal/cleanable/dirt/dust,/obj/effect/decal/cleanable/dirt/dust,/obj/effect/decal/cleanable/dirt/dust,/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/f13{icon_state = "bluerustysolid"},/area/f13/building)
 "rBq" = (/obj/item/storage/secure/safe{pixel_x = -19},/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/carpet,/area/f13/building)
 "rBF" = (/obj/structure/sink/well,/turf/open/indestructible/ground/outside/desert,/area/f13/wasteland)
@@ -3098,6 +3099,7 @@
 "rEg" = (/obj/effect/decal/cleanable/blood/gibs,/obj/effect/decal/cleanable/dirt,/obj/structure/bed/old,/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{name = "metal plating"},/area/f13/building)
 "rEO" = (/mob/living/simple_animal/hostile/ghoul/glowing,/turf/open/floor/wood/f13/oak,/area/f13/wasteland)
 "rEV" = (/obj/structure/tires/five,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontalbottomborderbottom0"},/area/f13/wasteland)
+"rFf" = (/obj/structure/table/wood/settler,/obj/item/newspaper,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "rFg" = (/obj/structure/stacklifter,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "rFh" = (/obj/structure/wreck/trash/two_barrels,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "rFm" = (/obj/structure/barricade/tentleathercorner{dir = 4},/turf/open/indestructible/ground/outside/dirt{dir = 4; icon_state = "dirtcorner"},/area/f13/building)
@@ -3183,8 +3185,6 @@
 "rYt" = (/turf/open/indestructible/ground/outside/road{icon_state = "horizontalinnermain0"},/area/f13/tunnel)
 "rYH" = (/obj/effect/decal/cleanable/blood/gibs/human/body,/turf/open/floor/wood/f13/oak,/area/f13/wasteland)
 "rYJ" = (/obj/effect/decal/cleanable/blood,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontalbottomborderbottom0"},/area/f13/wasteland)
-"rYU" = (/obj/structure/destructible/tribal_torch/wall/lit{dir = 1; pixel_y = 12},/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
-"rZm" = (/obj/effect/decal/cleanable/dirt,/mob/living/simple_animal/hostile/ghoul{dir = 1},/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,/area/f13/bunker)
 "rZn" = (/obj/effect/decal/cleanable/dirt/dust,/obj/effect/decal/cleanable/blood,/turf/open/floor/wood/f13/housewoodbroken3,/area/f13/building)
 "rZG" = (/obj/machinery/mineral/wasteland_vendor/reno/guns/pipes,/turf/open/floor/wood/f13,/area/f13/building)
 "rZJ" = (/obj/machinery/smartfridge/bottlerack/lootshelf,/obj/item/seeds/tomato,/obj/item/seeds/tomato,/obj/item/seeds/tomato,/obj/item/seeds/tomato,/obj/item/seeds/tomato,/turf/open/floor/wood/f13/oak{icon_state = "oakfloor1-broken"},/area/f13/building)
@@ -3217,7 +3217,6 @@
 "sho" = (/obj/structure/table,/obj/item/toy/crayon/spraycan,/turf/open/floor/plasteel/dark,/area/f13/building)
 "shW" = (/obj/structure/closet/fridge,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "sis" = (/obj/structure/fence,/obj/structure/fence,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "verticalrightborderright0"},/area/f13/wasteland)
-"siv" = (/obj/structure/table/wood/settler,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "siA" = (/obj/structure/chair/wood/normal{dir = 8},/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "floorrusty"},/area/f13/building)
 "sjn" = (/obj/effect/decal/cleanable/dirt/dust,/obj/item/clothing/suit/apron/overalls,/turf/open/floor/wood/f13/oak{icon_state = "oakfloor1-broken"},/area/f13/building)
 "sjK" = (/turf/open/indestructible/ground/outside/ruins,/area/f13/wasteland)
@@ -3245,7 +3244,6 @@
 "srC" = (/obj/structure/fence{dir = 8; icon_state = "straight"},/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontaltopbordertop0"},/area/f13/wasteland)
 "srD" = (/obj/structure/curtain{color = "#5c131b"},/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/wood/f13/stage_b/outdoors,/area/f13/building)
 "srI" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/carpet,/area/f13/building)
-"srS" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "srU" = (/obj/effect/decal/cleanable/dirt,/obj/structure/junk/small/bed2,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "ssf" = (/obj/structure/table/wood/settler,/obj/item/reagent_containers/food/drinks/bottle/f13nukacola,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "ssA" = (/obj/structure/table/optable,/turf/open/floor/plasteel/dark,/area/f13/building)
@@ -3383,6 +3381,7 @@
 "tcf" = (/obj/structure/table,/obj/machinery/computer/terminal{dir = 8},/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/f13/building)
 "tch" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "tcj" = (/obj/structure/obstacle/barbedwire/end{dir = 4},/turf/open/indestructible/ground/outside/sidewalk{icon_state = "verticalleftborderleft0"},/area/f13/wasteland)
+"tcI" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/oil,/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "tcS" = (/obj/effect/decal/cleanable/dirt,/obj/structure/bed/old,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "tcX" = (/obj/structure/closet/crate/wooden,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/f13/building)
 "tdN" = (/obj/structure/table,/obj/item/retractor,/obj/item/hatchet,/obj/item/weldingtool,/obj/item/screwdriver,/obj/item/wirecutters,/obj/item/scalpel,/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,/area/f13/building)
@@ -3416,6 +3415,7 @@
 "tnI" = (/obj/structure/fence/door/opened{dir = 4},/turf/open/floor/plasteel/dark,/area/f13/building)
 "tnM" = (/obj/structure/chair/stool/retro,/turf/open/floor/wood/f13/oak{icon_state = "oakfloor4-broken"},/area/f13/wasteland)
 "tnX" = (/obj/item/chair/wood,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
+"toB" = (/mob/living/simple_animal/hostile/supermutant,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/f13/building)
 "tpr" = (/obj/structure/rack,/obj/effect/spawner/lootdrop/f13/foodspawner,/obj/effect/spawner/lootdrop/f13/foodspawner,/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "floorrusty"},/area/f13/building)
 "tpD" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13{icon_state = "floorgrime"},/area/f13/building)
 "tpO" = (/obj/structure/barricade/sandbags,/obj/effect/decal/cleanable/blood,/turf/open/indestructible/ground/outside/road{icon_state = "horizontalinnermain0"},/area/f13/wasteland)
@@ -3433,9 +3433,10 @@
 "tsl" = (/obj/effect/decal/cleanable/dirt/dust,/obj/machinery/door/unpowered/securedoor{name = "hotel door"; req_one_access_txt = "139"},/turf/open/floor/wood/f13/carpet,/area/f13/building)
 "tth" = (/obj/structure/table,/obj/structure/barricade/bars,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor,/area/f13/building)
 "tuC" = (/obj/structure/chair/sofa/left,/obj/effect/decal/cleanable/dirt,/turf/open/floor/carpet/brown,/area/f13/building)
-"tuS" = (/obj/structure/rack,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,/area/f13/building)
+"tuS" = (/obj/structure/rack,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/spawner/lootdrop/f13/armor/tier1,/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,/area/f13/building)
 "tuW" = (/obj/structure/car/rubbish2,/turf/open/indestructible/ground/outside/road{icon_state = "verticalinnermain1"},/area/f13/wasteland)
 "tvr" = (/obj/effect/decal/cleanable/dirt,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontaloutermain0"},/area/f13/wasteland)
+"tvD" = (/obj/structure/table/wood/settler,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "twy" = (/obj/effect/decal/cleanable/blood,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "verticalrightborderright0"},/area/f13/wasteland)
 "twO" = (/obj/structure/table/wood/settler,/obj/item/pen,/obj/item/folder/red,/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "floorrusty"},/area/f13/building)
 "twP" = (/mob/living/simple_animal/hostile/raider/firefighter,/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "floorrusty"},/area/f13/building)
@@ -3444,7 +3445,6 @@
 "txN" = (/obj/structure/rack,/obj/item/screwdriver/basic,/turf/open/floor/plasteel/dark,/area/f13/building)
 "tyh" = (/turf/closed/indestructible/f13/matrix,/area/f13/tunnel)
 "tyu" = (/obj/item/cardboard_cutout,/turf/open/floor/f13{icon_state = "floorrusty"},/area/f13/building)
-"tyw" = (/obj/structure/destructible/tribal_torch/wall/lit{dir = 8},/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/f13/building)
 "tyz" = (/obj/structure/table/wood,/obj/item/pitchfork,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "tyK" = (/obj/structure/simple_door/wood,/obj/structure/window/fulltile/house{dir = 2; icon_state = "housewindowbrokenvertical"},/obj/structure/curtain{color = "#808080"},/obj/structure/barricade/wooden/planks/pregame,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "tyS" = (/obj/effect/decal/cleanable/greenglow/ecto,/turf/open/indestructible/ground/outside/road{icon_state = "horizontaltopborderbottom0"},/area/f13/wasteland)
@@ -3545,6 +3545,7 @@
 "tZD" = (/obj/effect/overlay/junk/shower{dir = 4},/turf/open/floor/wood/f13/oak,/area/f13/building)
 "tZE" = (/obj/structure/table,/obj/effect/spawner/lootdrop/f13/alcoholspawner,/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "floorrusty"},/area/f13/building)
 "tZK" = (/obj/structure/barricade/tentleathercorner{dir = 4},/turf/open/indestructible/ground/outside/desert,/area/f13/building)
+"tZO" = (/obj/structure/destructible/tribal_torch/wall/lit{dir = 8},/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/f13/building)
 "tZU" = (/obj/structure/car/rubbish3,/turf/open/indestructible/ground/outside/road{icon_state = "verticalinnermain0"},/area/f13/wasteland)
 "uam" = (/obj/structure/table/wood/poker,/turf/open/floor/wood/f13/carpet,/area/f13/building)
 "uaw" = (/obj/structure/car/rubbish3,/turf/open/indestructible/ground/outside/roaddirt,/area/f13/wasteland)
@@ -3557,7 +3558,6 @@
 "uca" = (/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "ucc" = (/obj/structure/bed,/turf/open/indestructible/ground/outside/dirt/dark,/area/f13/wasteland)
 "uck" = (/obj/structure/window/fulltile/store{icon_state = "ruinswindow"},/obj/structure/barricade/bars,/obj/machinery/door/poddoor/shutters{id = "phar"},/turf/open/floor/plasteel/dark,/area/f13/building)
-"ucG" = (/obj/structure/table/wood/settler,/obj/item/newspaper,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "ucM" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/item/reagent_containers/syringe,/turf/open/floor/plasteel/dark,/area/f13/building)
 "ucR" = (/obj/structure/barricade/wooden/strong,/turf/open/indestructible/ground/outside/road{icon_state = "verticalinnermain0"},/area/f13/wasteland)
 "udb" = (/obj/structure/rack,/obj/item/wrench/basic,/turf/open/floor/plasteel/dark,/area/f13/building)
@@ -3579,7 +3579,6 @@
 "ufK" = (/obj/structure/rack/shelf_metal,/obj/item/stack/sheet/paperframes/fifty,/obj/item/stack/sheet/paperframes/fifty,/obj/item/stack/sheet/paperframes/fifty,/turf/open/floor/f13{icon_state = "floorrusty"},/area/f13/building)
 "ufQ" = (/obj/structure/table,/obj/machinery/reagentgrinder,/turf/open/floor/wood/cold,/area/f13/building)
 "ufS" = (/obj/structure/car/rubbish1,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontaloutermain0"},/area/f13/wasteland)
-"ufX" = (/obj/structure/chair/wood/worn{dir = 4},/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
 "ugb" = (/obj/structure/bed/old,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "ugu" = (/turf/open/floor/carpet/red,/area/f13/building)
 "ugw" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/structure/table/wood/settler,/obj/item/twohanded/sledgehammer,/obj/item/restraints/handcuffs/cable,/turf/open/floor/plasteel/f13/vault_floor/red/white,/area/f13/building)
@@ -3603,7 +3602,6 @@
 "ulk" = (/mob/living/simple_animal/hostile/raider/ranged,/turf/open/floor/wood/f13/oak,/area/f13/wasteland)
 "uls" = (/obj/structure/tires/two,/turf/open/indestructible/ground/outside/sidewalk{dir = 1; icon_state = "outerbordercorner"},/area/f13/wasteland)
 "ulu" = (/obj/item/clothing/suit/chickensuit,/obj/item/clothing/head/chicken,/obj/structure/closet/locker,/obj/effect/decal/cleanable/dirt/dust,/obj/effect/decal/cleanable/dirt/dust,/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/wood/f13/oak,/area/f13/building)
-"ulN" = (/obj/structure/rack,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/item/gun/ballistic/revolver/caravan_shotgun,/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,/area/f13/building)
 "umi" = (/obj/structure/barricade/sandbags,/turf/open/indestructible/ground/outside/sidewalk{dir = 7; icon_state = "outerpavement"},/area/f13/wasteland)
 "umx" = (/obj/effect/decal/cleanable/dirt,/obj/structure/dresser,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "unN" = (/obj/structure/chair/wood/worn,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak{icon_state = "oakfloor1-broken"},/area/f13/building)
@@ -3641,11 +3639,11 @@
 "uwK" = (/obj/structure/wreck/trash/engine,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontaloutermain0"},/area/f13/wasteland)
 "uwT" = (/obj/structure/simple_door/metal/store,/obj/structure/barricade/wooden/planks/pregame,/obj/structure/barricade/wooden/planks/pregame,/turf/open/indestructible/ground/outside/ruins,/area/f13/building)
 "uxg" = (/obj/machinery/smartfridge/bottlerack/lootshelf,/turf/open/floor/plasteel/dark,/area/f13/building)
-"uxh" = (/obj/structure/rack/shelf_metal,/obj/item/storage/box/drinkingglasses,/obj/item/storage/box/drinkingglasses,/turf/open/indestructible/hotelwood,/area/f13/building)
 "uxs" = (/obj/structure/table/wood/poker,/turf/open/floor/wood/f13/oak,/area/f13/wasteland)
 "uyo" = (/obj/structure/punching_bag,/obj/effect/decal/cleanable/dirt,/turf/open/floor/carpet,/area/f13/building)
 "uyu" = (/obj/structure/table/wood/settler,/turf/open/floor/carpet,/area/f13/building)
 "uyP" = (/obj/structure/rack/shelf_metal,/obj/item/reagent_containers/pill/patch/turbo,/turf/open/floor/plasteel/dark,/area/f13/building)
+"uyY" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13,/area/f13/building)
 "uzO" = (/obj/structure/chair/wood/modern{dir = 8},/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/wood/f13/old/ruinedcornertl,/area/f13/wasteland)
 "uAo" = (/obj/structure/car/rubbish3,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontaloutermain0"},/area/f13/wasteland)
 "uAT" = (/obj/structure/junk/micro,/turf/open/floor/f13{icon_state = "bluedirtychess2"},/area/f13/building)
@@ -3677,7 +3675,7 @@
 "uIZ" = (/obj/structure/barricade/tentleatheredge,/turf/open/indestructible/ground/outside/desert,/area/f13/building)
 "uJu" = (/obj/effect/decal/cleanable/blood/gibs/human/lizard/body,/turf/open/indestructible/ground/outside/dirt,/area/f13/wasteland)
 "uJU" = (/obj/structure/barricade/wooden/strong,/turf/open/indestructible/ground/outside/ruins,/area/f13/wasteland)
-"uKm" = (/obj/structure/rack/shelf_metal,/obj/item/gun/ballistic/revolver/police,/obj/item/gun/ballistic/revolver/police,/obj/machinery/light{dir = 4; pixel_y = -16},/turf/open/floor/plasteel/dark,/area/f13/building)
+"uKm" = (/obj/structure/rack/shelf_metal,/obj/machinery/light{dir = 4; pixel_y = -16},/turf/open/floor/plasteel/dark,/area/f13/building)
 "uLv" = (/obj/structure/chair/stool/retro,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "uLC" = (/obj/structure/barricade/wooden/planks,/obj/structure/simple_door/repaired,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "uLN" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/structure/junk/small/bed2,/turf/open/floor/wood/f13/oak,/area/f13/building)
@@ -3735,7 +3733,6 @@
 "vbO" = (/turf/open/floor/wood/f13/old/ruinedstraightnorth,/area/f13/wasteland)
 "vbS" = (/obj/structure/safe,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "vcB" = (/obj/machinery/smartfridge/bottlerack/gardentool,/turf/open/floor/wood/f13/oak,/area/f13/building)
-"vdu" = (/obj/structure/barricade/concrete,/turf/open/floor/plating,/area/f13/building)
 "vdT" = (/obj/structure/fluff/railsnew,/turf/open/indestructible/ground/inside/subway,/area/f13/tunnel)
 "veK" = (/obj/structure/barricade/wooden,/obj/structure/barricade/wooden/planks/pregame,/obj/structure/table/wood/settler,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "verticalrightborderright0"},/area/f13/wasteland)
 "vfv" = (/obj/structure/destructible/tribal_torch/wall/lit{dir = 8},/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontaloutermain0"},/area/f13/wasteland)
@@ -3831,6 +3828,7 @@
 "vDW" = (/obj/structure/closet/cabinet/anchored,/obj/item/clothing/under/jabroni,/obj/effect/decal/cleanable/dirt,/turf/open/floor/carpet/brown,/area/f13/building)
 "vEb" = (/turf/open/indestructible/ground/outside/road{icon_state = "horizontaltopborderbottom2"},/area/f13/wasteland)
 "vEm" = (/obj/effect/decal/cleanable/dirt,/mob/living/simple_animal/hostile/ghoul{dir = 4},/turf/open/floor/f13{icon_state = "whitegreenrustychess"},/area/f13/bunker)
+"vEM" = (/obj/structure/obstacle/barbedwire,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/dark,/area/f13/building)
 "vEN" = (/obj/item/bodypart/head,/obj/item/chair/wood/modern,/turf/open/indestructible/ground/outside/road{icon_state = "verticalinnermain2"},/area/f13/wasteland)
 "vFd" = (/turf/open/indestructible/ground/outside/dirt{icon_state = "dirtcorner"},/area/f13/wasteland)
 "vFe" = (/obj/structure/closet/crate/bin,/turf/open/floor/carpet/brown,/area/f13/building)
@@ -3911,7 +3909,7 @@
 "wdA" = (/obj/structure/barricade/sandbags,/turf/open/floor/wood/f13/old{icon_state = "housebase"},/area/f13/building)
 "wdP" = (/obj/structure/junk/small/bed2,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "weh" = (/obj/structure/wreck/trash/engine,/turf/open/indestructible/ground/outside/dirt{icon_state = "dirt"},/area/f13/wasteland)
-"weo" = (/obj/effect/decal/cleanable/dirt,/obj/structure/nest/ghoul,/turf/open/floor/wood/f13/oak,/area/f13/bunker)
+"weo" = (/obj/effect/decal/cleanable/dirt,/mob/living/simple_animal/hostile/ghoul{dir = 1},/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,/area/f13/bunker)
 "wev" = (/obj/structure/chair/wood/worn,/turf/open/floor/plasteel/f13/vault_floor/dark{icon_state = "darkrusty"; name = "grimy tile"},/area/f13/building)
 "wew" = (/obj/structure/table/wood/fancy/black,/obj/item/radio/intercom{name = "radio station intercom"; pixel_x = 30},/obj/item/reagent_containers/food/drinks/bottle/f13nukacola,/turf/open/floor/plasteel/grimy,/area/f13/building)
 "wfa" = (/obj/structure/stairs/north{color = "#A47449"},/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/carpet,/area/f13/building)
@@ -4037,6 +4035,7 @@
 "wPR" = (/obj/item/clothing/gloves/boxing,/turf/open/floor/carpet/black,/area/f13/building)
 "wQd" = (/obj/structure/table/wood/settler,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/carpet,/area/f13/building)
 "wQg" = (/obj/structure/car/rubbish2,/turf/open/indestructible/ground/outside/desert,/area/f13/wasteland)
+"wQj" = (/obj/structure/table,/obj/structure/barricade/bars,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor,/area/f13/building)
 "wQA" = (/obj/structure/junk/drawer{icon_state = "junk_bench"},/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "wQX" = (/obj/effect/spawner/lootdrop/trash,/turf/open/indestructible/ground/outside/desert{icon_state = "wasteland33"},/area/f13/wasteland)
 "wRr" = (/obj/effect/overlay/junk/sink{dir = 8; pixel_x = -12},/obj/structure/mirror{pixel_x = -24},/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "darkdirtysolid"},/area/f13/building)
@@ -4146,6 +4145,7 @@
 "xsE" = (/obj/structure/junk/small/table,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/grimy,/area/f13/building)
 "xsJ" = (/obj/structure/closet,/obj/item/clothing/mask/luchador/rudos,/obj/item/clothing/mask/luchador,/obj/item/clothing/gloves/boxing,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "xsZ" = (/obj/effect/spawner/lootdrop/trash,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "horizontaloutermain0"},/area/f13/wasteland)
+"xtj" = (/obj/structure/closet/crate/large,/obj/effect/decal/cleanable/dirt,/obj/effect/spawner/lootdrop/f13/armor/tier1,/turf/open/floor/f13{icon_state = "floorrusty"},/area/f13/building)
 "xtB" = (/obj/structure/rack,/obj/item/stack/sheet/metal,/obj/item/stack/sheet/metal,/obj/item/stack/sheet/metal,/obj/item/stack/sheet/metal,/obj/item/stack/sheet/metal,/obj/item/stack/sheet/metal,/obj/item/stack/sheet/metal,/obj/item/stack/sheet/metal,/obj/item/stack/sheet/metal,/obj/item/stack/sheet/metal,/obj/item/stack/sheet/metal,/obj/item/stack/sheet/metal,/obj/item/stack/sheet/metal,/obj/item/stack/sheet/metal,/obj/item/stack/sheet/metal,/obj/item/stack/sheet/metal,/obj/item/stack/sheet/glass,/obj/item/stack/sheet/glass,/obj/item/stack/sheet/glass,/obj/item/stack/sheet/glass,/obj/item/stack/sheet/glass,/obj/item/stack/sheet/glass,/obj/item/stack/sheet/glass,/obj/item/stack/sheet/glass,/obj/item/stack/sheet/glass,/obj/item/stack/sheet/glass,/obj/item/stack/sheet/glass,/obj/item/stack/sheet/glass,/obj/item/stack/sheet/glass,/obj/item/stack/sheet/glass,/obj/item/stack/sheet/glass,/obj/item/stack/sheet/glass,/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,/area/f13/building)
 "xtZ" = (/obj/structure/rack,/obj/item/mop,/obj/item/reagent_containers/glass/bucket/plastic,/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,/area/f13/building)
 "xuU" = (/obj/effect/decal/cleanable/dirt,/obj/structure/chair/office/dark{dir = 1},/turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,/area/f13/building)
@@ -4264,7 +4264,7 @@
 "xXp" = (/obj/structure/barricade/tentleatheredge,/turf/open/indestructible/ground/outside/dirt,/area/f13/building)
 "xXL" = (/turf/open/indestructible/ground/outside/ruins,/area/f13/bunker)
 "xXW" = (/obj/effect/decal/cleanable/dirt,/mob/living/simple_animal/hostile/ghoul/reaver,/turf/open/floor/f13{icon_state = "whitegreenrustychess"},/area/f13/bunker)
-"xXY" = (/obj/structure/rack/shelf_metal,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/item/gun/ballistic/revolver/hobo/knifegun,/turf/open/floor/plasteel/f13/vault_floor/dark{icon_state = "darkrusty"; name = "grimy tile"},/area/f13/building)
+"xXY" = (/obj/structure/rack/shelf_metal,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/item/gun/ballistic/revolver/hobo/knifegun,/obj/effect/spawner/lootdrop/f13/armor/tier1,/obj/effect/spawner/lootdrop/f13/armor/tier1,/obj/effect/spawner/lootdrop/f13/armor/tier1,/turf/open/floor/plasteel/f13/vault_floor/dark{icon_state = "darkrusty"; name = "grimy tile"},/area/f13/building)
 "xYs" = (/obj/structure/bed/mattress{icon_state = "mattress2"; pixel_y = 7},/obj/effect/decal/cleanable/dirt,/obj/item/reagent_containers/hypospray/medipen/psycho,/turf/open/indestructible/ground/outside/dirt{dir = 6; icon_state = "dirt"},/area/f13/wasteland)
 "xYB" = (/obj/structure/bonfire/prelit,/turf/open/indestructible/ground/outside/sidewalk,/area/f13/wasteland)
 "xYG" = (/obj/structure/chair/wood,/turf/open/indestructible/ground/outside/sidewalk{icon_state = "verticalleftborderleft0"},/area/f13/wasteland)
@@ -4272,6 +4272,7 @@
 "xYN" = (/obj/structure/table/snooker,/turf/open/floor/carpet/brown,/area/f13/building)
 "xYT" = (/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/wood/f13/oak{icon_state = "oakfloor3-broken"},/area/f13/building)
 "yax" = (/obj/effect/decal/cleanable/dirt,/obj/structure/rack/shelf_metal,/obj/item/healthanalyzer,/obj/item/healthanalyzer,/obj/item/healthanalyzer,/turf/open/floor/plasteel/dark,/area/f13/building)
+"yaS" = (/mob/living/simple_animal/hostile/raider/junker/creator,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,/area/f13/building)
 "ybh" = (/obj/structure/table/wood/settler,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/grimy,/area/f13/building)
 "ybG" = (/obj/structure/table/reinforced,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "ybP" = (/obj/structure/closet/fridge,/obj/effect/decal/cleanable/dirt/dust,/obj/effect/decal/cleanable/dirt/dust,/obj/effect/decal/cleanable/dirt/dust,/obj/item/reagent_containers/food/snacks/spaghetti,/obj/item/reagent_containers/food/snacks/spaghetti,/turf/open/floor/f13{icon_state = "freezerfloor"},/area/f13/building)
@@ -4328,15 +4329,15 @@ hHhuRJrRSeIEeIEbAseIEeIEeIErRSeIEeIEwobjOAscHhchawphchaTohchawphchscHbAseIEaTogZ
 hHhuRJrRSrRSrRSrRSrRSrRSrRSrRSeIEeIEbAseIEaTolqjawplqjxXLlqjawplqjaTobAseIEaToaTbaTbaTbaTbxXWeDlaTbaTbaTouRJuRJuRJhHhhHhuRJuRJuRJuRJpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMvFgpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMaxgdlxrvmdlxhkFxpUpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMdTHacElzUpHzlzUlzUxaulzUrPllzUdTHpMMpMMpMMpMMpMMfpPpMMpMMpMMdTHptnptnptnptnptnptnptndTHpMMpMMgqvdiKtyzvjcadsjANjANgqvgqvgqvgqvpMMpMMbSwpMMpMMpMMhEVdSFpMMpMMpMMpMMbSwpMMgLtudoudoudoqQueZWeZWeZWeZWgNGgPSdDlktvndZgYzmtbpMMpMMuRJuRJuRJuRJdctkPlkPlrmXrmXrmXrmXtSidctuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJhHhhHhhHhhHhdcIvMXvMXguynTjvMXvMXuRJuRJuRJuRJhHh
 hHhuRJaToeNpiEPbRAvnevneklAaTogGMjOAbAseIEscHhchawphchxXLhchawphchscHbAseIEaToaToaToaToaToaTbeDleDlaTbaTouRJuRJuRJhHhuRJuRJuRJuRJpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMqqxgaWgaWgaWilcxpUpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMdTHdTHdTHdTHdTHcsGdTHdTHdTHdTHdTHpMMrqmpMMpMMpMMpMMpMMpMMpMMdTHdTHdTHdTHliJdTHdTHdTHdTHpMMptCgqvucamYZjANjANjANmFPhIHwfxwAvgqvpMMbSwwiNpMMpMMpMMhEVbSworzvKDqRJwiNbXxvJVtisuegudoudouJuudoudoudoudouszpMMpZhpZhpWipZhmtbpMMpMMpMMuRJuRJuRJdctkPlrmXrmXrmXrmXrmXkPldctuRJuRJuRJuRJuRJuRJuRJuRJuRJhHhhHhhHhhHhhHhhHhhHhuRJiBKbJrvMXgpxwqgnkMiBKuRJuRJuRJuRJhHh
 hHhuRJaTorIaiEPbRAvnesansanijyjOAjOAbAseIExXLlqjawplqjaTolqjawplqjjzqbBJbAsaTohHNhHNevraToyjzsfprlbaTbaTouRJuRJuRJhHhuRJuRJuRJuRJpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMoVjpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMqqxgaWgaWgaWilcxpUpMMpMMpMMeOspMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMbSwpMMrfpiVppMMbSwrfppMMpMMbSwpMMpMMpMMpMMpMMpMMpMMpMMpMMbSwbSwrfpsMrpMMwEgrfpbSwbSwpMMalMgqvgTWrZJxRAjANjANjANjANjANxMgmiNpMMpMMpMMpMMpMMpMMoMmeZXtRjeZXeZXeZXkqMvJVsKtgLtudoudoudoudoudokcQudouszpMMpZhpZhpZhjzSmtbpMMpMMpMMpMMpMMuRJuRJdctkPlkPlrmXrmXrmXkPldctuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJdcIvMXmjsvMXdcIuRJuRJuRJuRJuRJuRJhHh
-hHhuRJaTobRAlBVlBVvnevnevneijybAsbAsbBJeIEscHhchxEThchaTohchxEThchwWvkdyeIEaToobcobcevrodAsFZpFppFpaTbaTouRJuRJuRJhHhuRJuRJuRJpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMeOspMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMqqxgaWgaWgaWilcxpUpMMoVjoVjpMMpMMfQqpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMbSwpMMpMMrfppMMpMMbSwrfppMMbSwdFapMMpMMpMMpMMpMMsTQpMMaHTpMMpMMfpPrfppMMpMMpMMrfppMMpMMpMMpMMgqvteZteZjANjANxbZucajANjANoWVgqvbSwpMMtqrpMMpMMpMMpMMpMMpMMpMMpMMvJVvJVvJVpMMgLtudoudoaymaSJviUviUviUsKbgPSdDlwdojzShnMmtbpMMpMMpMMpMMpMMpMMuRJuRJdctkPlkPlrmXrmXrmXkPluRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJdcIwyAmjsvMXdcIuRJuRJuRJuRJuRJuRJhHh
+hHhuRJaTobRAlBVlBVvnevnevneijybAsbAsbBJeIEscHhchxEThchaTohchxEThchwWviQieIEaToobcobcevrodAsFZpFppFpaTbaTouRJuRJuRJhHhuRJuRJuRJpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMeOspMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMqqxgaWgaWgaWilcxpUpMMoVjoVjpMMpMMfQqpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMbSwpMMpMMrfppMMpMMbSwrfppMMbSwdFapMMpMMpMMpMMpMMsTQpMMaHTpMMpMMfpPrfppMMpMMpMMrfppMMpMMpMMpMMgqvteZteZjANjANxbZucajANjANoWVgqvbSwpMMtqrpMMpMMpMMpMMpMMpMMpMMpMMvJVvJVvJVpMMgLtudoudoaymaSJviUviUviUsKbgPSdDlwdojzShnMmtbpMMpMMpMMpMMpMMpMMuRJuRJdctkPlkPlrmXrmXrmXkPluRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJdcIwyAmjsvMXdcIuRJuRJuRJuRJuRJuRJhHh
 hHhuRJaTobcohGnbRAvneonVonVxXLbAsnTmvlreIEuEPawpawpawpaToxoVawpawppDIbAseIEaTokFMkFMevrjzqrhreDlwfGswVaTouRJuRJhHhhHhuRJuRJuRJpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMfQqpMMpMMpMMpMMpMMpMMpMMqqxiOaiOaiOailcxpUpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMrPPxmobQSxmoxezpMMpMMpMMpMMpMMcnCpMMpMMpMMbSwpMMrqmpMMpMMrPPxmobQSxmoxezpMMpMMsTQpMMgqvgqvgqvmiNfrSgqvgqvtiggqvgqvgqvbSwvFdtgygNGcjNpMMwiNbSwpMMpMMpMMsLYbSwpMMpMMwNYudoudouszpMMpMMxkjbSwpMMvJVtZKuIZuIZuIZcaUpMMpMMpMMbSwpMMfpPpMMpMMuRJkPlkPlrmXrmXrmXrmXkNKuRJuRJuRJuRJuRJuRJuRJuRJhHhhHhhHhhHhhHhhHhhHhhHhdcIwyAmjsvMXdcIhHhuRJuRJuRJuRJuRJhHh
 hHhuRJaTopLTiEPbRAvnevnevneuEPhEbnTmxPlhEbaToaToaToaToaToaToaToaTojzqbAseIEaToaToaToaTojzqgYgaTbpFpkpbaTouRJhHhhHhuRJuRJuRJuRJpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMfQqpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMqqxiOaiOaiOailcxpUpMMpMMpMMfQqpMMpMMpMMvFgpMMoVjpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMvFdtgygNGpMMpMMpMMpMMaHTpMMpMMpMMpMMpMMbSwpMMpMMfpPpMMpMMvFdtgygNGpMMpMMpMMbSwpMMdUkvSNvSNcNNoCWbcTbcTtFPbcTbcTaiRpMMgLtqcHsdtbSwpMMpMMpMMbSwpMMkcXkcXkcXpMMpMMtisviUviUsKbpMMsKtxWIeSKvJVvJVvJVvJVpMMjwrpMMbSwpMMdUzpMMpMMpMMbSwpMMpMMkSBkNKkNKkNKkNKixGkNKkSBpSduRJuRJhHhhHhhHhhHhhHhhHhhHhhHhhHhhHhwqgnkMwqgwyAwyAwyAwqgiBKuRJuRJuRJuRJuRJhHh
 hHhuRJaToaToaToaToaToaToaToaToacKxvtxPlacKaToueRtmxueRaToueRtmxtqijzqbAsbAsaTogeBmnvxkgkQKmnvxkgpFpeIVaTouRJhHhuRJuRJuRJuRJuRJpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMvFgpMMpMMpMMeOspMMpMMpMMpMMpMMpMMqqxiOaiOaiOailcxpUpMMeOspMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMgLtudouszpMMwuZpMMpMMpMMpMMgrvpMMrqmpMMpMMpMMpMMpMMpMMpMMgLtudouszpMMtqrpMMpMMbSwbjSdtRdtRdtRrVQdtRbcTbcTfmfdtReVGdjogLtudouszpMMrqmpMMpMMgrvpMMkcXbddiVBiADdEchtamjKdUzqHNpMMpMMmskvJVvmEvtNvtNvtNvtNvtNqBQpMMgrvpMMpMMpMMpMMrqmnpwpMMkxNwJkwJkwJkvyojANxTckSBiPDviUviUqHMuegudoudoudoudoudoudoudovQHudoudoxBjudoskmudoxBjudouRJuRJuRJuRJuRJhHh
-hHhuRJaTohTXhTXwsqtkJtkJjwCaToacKxvtxPlhEbscHmSTtcdmSTaTosOTpufdEhwWvbAsbAsaTogeBmnvxkgkQKmnvxkgpFptqAaTouRJhHhuRJuRJuRJuRJuRJpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMoVjpMMpMMfQqpMMpMMpMMpMMpMMqqxiOaiOaiOailcxpUpMMpMMvFgeOspMMpMMpMMpMMeOspMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMgLtudouszpMMpMMpMMkPopMMpMMpMMpMMpMMpMMpMMwuZpMMbSwbSwbSwgLtudouszpMMpMMgrvpMMbSwpMMpMMpMMbSwbSwpMMkHjkHjkHjpMMpMMpMMgLtudouszmskpMMpMMpMMpMMrqmkcXkcXkcXgEfqqxgvOiVkhtachQhcnpMMpMMvJVdDlaIGpZhpZhpZhkMhmtbpMMpMMbSwpMMgrvpMMpMMbSwiPDkSBjANjANqXzjANjANjANfTCpMMpMMpMMpMMtisviUpdaviUviUviUviUviUrCrviUjSLudoudoskmudoudoudohHhuRJuRJuRJuRJhHh
-hHhuRJaToeddhTXhTXhTXhTXtkJdCahEbxvtvlrhEbaToueRtmxueRaToueRtmxtqiaToeIEqUmaTogeBmnvxkgkQKmnvxkgpFpqbEaTouRJhHhuRJuRJuRJuRJuRJpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMqqxgaWgaWgaWilcxpUpMMfQqpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMgkAdSjgLtudouszdSjvJhlqgggwggwggwggwggwggwggwggwggwlqgggwqYYdSjgLtudouszdSjpMMpMMpMMxcdpMMpMMdjorqmpMMpMMvFdtgygNGaHTpMMpMMcOXudoqfPpMMpMMpMMpMMbSwbSwsULujYdSjgEfqqxkNWgvOgvOxAjjnaxpUpMMpMMpZhpZhpZhfVPoIBtlJmtbpMMpMMbSwpMMpMMpMMprVpMMpMMkxNjANjANjANjANgLpjANfTCpMMpMMaHTsKtlRMaxWpdapMMmskfpPpMMpMMgRRpMMgLtudoudoskmudoudoudohHhuRJuRJuRJuRJhHh
-hHhuRJaTohTXhTXhTXrARhTXtkJdCanTmnTmvlreIEscHsOTweosOTaTosOTtmxdEhscHeIEeIEujvaTbvEmaTbeDlaTbaTbpFpjBoaTouRJuRJuRJuRJuRJuRJuRJpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMfQqoVjpMMpMMfQqpMMpMMpMMpMMpMMpMMpMMqqxiOaiOaiOailcxpUpMMpMMpMMpMMpMMpMMfQqpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMgrvpMMgkApMMgLtudokndtgytgytgytgytgytgytgytgytgytgytgytgytgytgytgytgygCdudoqQutgytgytgytgyxEatgytgytgytgytgytgygCdudoqQutgytgytgygCdudoqQutgytgytgytgytgytgytgycvOjlIdtgqqxkNWgvOgvOxAjjnaxpUpMMpMMpZhwTceEzpZhpZhgYzmtbpMMpMMpMMxnJwiNpMMwEwprVpMMkSBfLikSBkSBkSBkSBkSBkxNcnCtUypMMpMMavjbcTsjKsKtpMMpMMlRMnpvwhebSwgLtudoudoskmudoudoudohHhhHhuRJuRJuRJhHh
+hHhuRJaTohTXhTXwsqtkJtkJjwCaToacKxvtxPlhEbscHmSTtcdmSTaTosOTkdydEhwWvbAsbAsaTogeBmnvxkgkQKmnvxkgpFptqAaTouRJhHhuRJuRJuRJuRJuRJpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMoVjpMMpMMfQqpMMpMMpMMpMMpMMqqxiOaiOaiOailcxpUpMMpMMvFgeOspMMpMMpMMpMMeOspMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMgLtudouszpMMpMMpMMkPopMMpMMpMMpMMpMMpMMpMMwuZpMMbSwbSwbSwgLtudouszpMMpMMgrvpMMbSwpMMpMMpMMbSwbSwpMMkHjkHjkHjpMMpMMpMMgLtudouszmskpMMpMMpMMpMMrqmkcXkcXkcXgEfqqxgvOiVkhtachQhcnpMMpMMvJVdDlaIGpZhpZhpZhkMhmtbpMMpMMbSwpMMgrvpMMpMMbSwiPDkSBjANjANqXzjANjANjANfTCpMMpMMpMMpMMtisviUpdaviUviUviUviUviUrCrviUjSLudoudoskmudoudoudohHhuRJuRJuRJuRJhHh
+hHhuRJaToeddhTXhTXhTXhTXtkJdCahEbxvtvlrhEbaToueRtmxueRaToueRtmxtqiaToeIEpufaTogeBmnvxkgkQKmnvxkgpFpqbEaTouRJhHhuRJuRJuRJuRJuRJpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMqqxgaWgaWgaWilcxpUpMMfQqpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMgkAdSjgLtudouszdSjvJhlqgggwggwggwggwggwggwggwggwggwlqgggwqYYdSjgLtudouszdSjpMMpMMpMMxcdpMMpMMdjorqmpMMpMMvFdtgygNGaHTpMMpMMcOXudoqfPpMMpMMpMMpMMbSwbSwsULujYdSjgEfqqxkNWgvOgvOxAjjnaxpUpMMpMMpZhpZhpZhfVPoIBtlJmtbpMMpMMbSwpMMpMMpMMprVpMMpMMkxNjANjANjANjANgLpjANfTCpMMpMMaHTsKtlRMaxWpdapMMmskfpPpMMpMMgRRpMMgLtudoudoskmudoudoudohHhuRJuRJuRJuRJhHh
+hHhuRJaTohTXhTXhTXqUmhTXtkJdCanTmnTmvlreIEscHsOTrARsOTaTosOTtmxdEhscHeIEeIEujvaTbvEmaTbeDlaTbaTbpFpjBoaTouRJuRJuRJuRJuRJuRJuRJpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMfQqoVjpMMpMMfQqpMMpMMpMMpMMpMMpMMpMMqqxiOaiOaiOailcxpUpMMpMMpMMpMMpMMpMMfQqpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMgrvpMMgkApMMgLtudokndtgytgytgytgytgytgytgytgytgytgytgytgytgytgytgytgygCdudoqQutgytgytgytgyxEatgytgytgytgytgytgygCdudoqQutgytgytgygCdudoqQutgytgytgytgytgytgytgycvOjlIdtgqqxkNWgvOgvOxAjjnaxpUpMMpMMpZhwTceEzpZhpZhgYzmtbpMMpMMpMMxnJwiNpMMwEwprVpMMkSBfLikSBkSBkSBkSBkSBkxNcnCtUypMMpMMavjbcTsjKsKtpMMpMMlRMnpvwhebSwgLtudoudoskmudoudoudohHhhHhuRJuRJuRJhHh
 hHhuRJaToxAGhTXhTXhTXtkJtkJdCabAsnTmbBJeIEaToueRtmxueRaToueRtmxtqiaToeIEeIEaTogeBxsornefXexsorneoBLeIVaTouRJhHhuRJuRJuRJuRJuRJpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMeOspMMpMMpMMpMMpMMpMMpMMpMMqqxgaWgaWgaWilcxpUpMMpMMpMMfQqpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMgkApMMgLtudoudoudoudoudoudoudoudoudoudoudoudoudoudoudokcQudoudoudoudoudoudoudoudoudoudoudoudoudoudoudoudoudoudoudoudoudoudoudokcQudoudoudoudoudoudokcQudoudouszgEfqqxkNWkNWkNWjSWwYDiFqpMMvJVgZTjzSnkgpZhpZhuNWmtbocJbSwpMMpMMpMMpMMebipMMxRosgwpPjpWmsgwxRopMMpMMbSwpMMpMMpMMkPoavjbcTsjKnpvnpvnpvePmgcGuJUbSwgLtudoudoskmudoudoudoudohHhuRJuRJuRJhHh
-hHhuRJaTohTXhTXtkJhTXhTXhTXdCabAsbAsbBJeIEscHsOTtLKsOTaTosOTtLKdEhscHrZmeIEaTotVTmnvxkggeBmnvxkgxeEtqAaTouRJhHhuRJuRJuRJuRJpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMvFgpMMpMMpMMpMMpMMqqxgaWgaWgaWilcxpUpMMpMMpMMpMMpMMvFgpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMgkApMMtisviUviUviUviUviUviUviUviUviUviUviUviUviUviUviUviUviUviUuegudoaymviUviUviUviUviUviUviUviUviUviUviUviUviUviUviUviUviUviUviUviUviUviUviUviUqHMviUviUlmyeBxdtgqqxgvOgvOlHXxAjjnaxpUaaBvJVtZKuIZuIZoLhuIZxyAepkpykpMMwiNpMMpMMpMMjwrpMMpMMfxcsgwhVObSwxcdwuZrqmpMMbSwpMMgrvbSwavjdVVpdapdajgKpdapdauJUuJUpMMgLtudoudoskmudoudoudoudohHhuRJuRJuRJhHh
+hHhuRJaTohTXhTXtkJhTXhTXhTXdCabAsbAsbBJeIEscHsOTtLKsOTaTosOTtLKdEhscHweoeIEaTotVTmnvxkggeBmnvxkgxeEtqAaTouRJhHhuRJuRJuRJuRJpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMvFgpMMpMMpMMpMMpMMqqxgaWgaWgaWilcxpUpMMpMMpMMpMMpMMvFgpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMgkApMMtisviUviUviUviUviUviUviUviUviUviUviUviUviUviUviUviUviUviUuegudoaymviUviUviUviUviUviUviUviUviUviUviUviUviUviUviUviUviUviUviUviUviUviUviUviUqHMviUviUlmyeBxdtgqqxgvOgvOlHXxAjjnaxpUaaBvJVtZKuIZuIZoLhuIZxyAepkpykpMMwiNpMMpMMpMMjwrpMMpMMfxcsgwhVObSwxcdwuZrqmpMMbSwpMMgrvbSwavjdVVpdapdajgKpdapdauJUuJUpMMgLtudoudoskmudoudoudoudohHhuRJuRJuRJhHh
 hHhuRJaToeddhTXhTXmgkhTXhTXbSDbAseIEeIEeIEuEPtLKtmxgTjaTotmxwMItmxuEPtkJtkJaTotVTmnvxkggeBmnvxkgeDlqbEaTouRJhHhuRJuRJuRJuRJpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMoVjpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMlbbjVWcTthoXilcxpUpMMeOspMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMgkAgkAgkAgkAgkApMMpMMgkAgkAgkAgkApMMpMMxcdpMMpMMgkAgkAjfPgkAgkAgLtudouszgkAgkAgkAgkAgkArqmbSwpMMpMMpMMdjopMMxFWpMMpMMrqmpMMpMMpMMxcdpMMpMMrqmpMMpMMpMMpMMujYdSjgEfqqxgvOgvOgvOxAjjnaxpUvFdvXwljTljTljTeZWljTljTeZWeZWeZWeZWeZWeZWeZWeZWhTOoLeeZWeZWeZWeZWeZWeZWeivpfLeZWeZWgNGpMMavjhZjpdaseYcQXbcTbcTbcTnZLfxcgLtudoudoskmudoudoudoudohHhuRJuRJuRJhHh
 hHhuRJaToaToaToaToaToaToaToaToaTogCFuEPaToaToaToaToaToaToaToaToaToaToaToaToaToaToaToaToaToaToaToaToaToaTouRJhHhuRJuRJuRJuRJpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMoVjpMMpMMpMMpMMpMMpMMpMMpMMdUwqPGwKfreMpMMpMMpMMpMMpMMpMMeOspMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMrqmpMMpMMpMMpMMrqmpMMtqrpMMpMMpMMpMMpMMpMMpMMbSwgLtudouszwuZpMMpMMbSwbSwbSwpMMpMMpMMrqmpMMaHTpMMpMMpMMohMpMMdjopMMpMMpMMpMMpMMpMMpMMpMMpMMrrQpMMgEfqqxgvOgvOgvOxAjjnaxpUgLtudoudoudoxBjudoxBjuJuudoudoudoudoudoudoudoudoudoudoudoxVyudokIfudoudoudoudoudoudouszpMMlWYxSVpdatFPbcTtguvbOvbOnZLpMMgLtudoudoskmudoudoudoudohHhhHhuRJuRJhHh
 hHhuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJpMMpMMuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJuRJhHhuRJuRJuRJpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMwQXpMMpMMfpPpMMpMMpMMpMMpMMpMMpMMkPopMMpMMaHTpMMdKqgLtudouszpMMpMMgawpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMpMMtqrpMMpMMfpPgrvpMMpMMpMMrrQpMMgEfqqxgvOgvOgvOxAjjRLxpUtisviUviUviUviUviUviUviUviUviUviUviUviUviUqcWviUviUviUnbVjpJviUviUbyyviUviUviUviUnbVsKbaHTkxdavjpdabcTtgueIbpMMyiwbSwpMMgLtudoudoskmudoudoudoudohHhhHhuRJuRJhHh
@@ -4381,18 +4382,18 @@ kNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkN
 sWagqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvkNKgqvgqvgqvkNKgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvkNKgqvuRJgqvkNKgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvqqxiOaiOaiOailcgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvkNKgqvpMMtZKuIZuIZuIZuIZepkdSFwEwwmtbSwjPbpMMpMMsULgqvkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKgqvgqvgqvgqvgqvgqvgqvgqvgqvkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKsWa
 sWagqvujbjnajnajnajnadMsdLWcpGrGWtHitHitHitHitHitHitHitHitHitHitHitHitHitHitHitHitHitHikCKgergEMgEMguvkCKkNKkNKkNKkNKkNKkCKqABnyqxyMxauqUarGNkCKpiGgrqgqvkNKgqvgqvgqvkNKgqvaNYhVEhOBaNYaTpwyGaNYaNYhVEaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYqqxgaWgaWgaWilcaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYpDRpDRpDRpDRfEMfEMfEMfEMfEMfEMnHpiFfpDRfEMpDRpDRpDRpDRpDRpDRaNYaNYaNYaNYaNYgqvkNKgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvkNKgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvjPsjPsjPsjPsjPsjPsjPsgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvsWa
 sWagqvjnajnasIrwYDjnafexjnajnadMstHipimsHPkMwtcStHihJUqXzjANkDggKTtHipimmFPsHPdhHrGttHikCKibRibRibRvkvkCKkCKkCKkCKkCKkCKkCKrEgrGNeZtbrSiWLrGNkCKvfvaNYgqvkNKkNKkNKkNKkNKgqvaNYaNYaNYksrnXIhVEaNYaNYaNYaNYaNYhtYhtYdxKdTHdxKdTHhtYdxKdxKhAxqqxgaWsAOgaWilcdHvaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYpDRpDRpDRpDRpDRuFiuFiuFiuFiuFifEMkFtmwNpDRduqduqduqduqduqpDRduqduqduqduqduqgqvkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKgqvjPsjPsjPsjPsjPsjPsjPsjPsjPsjPsjPsjPsjPsjPsaNYjPsqGBvrWuvwxqGsKIjPsxyJxyJxyJxyJxyJxyJxyJxyJxyJxyJxyJxyJgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvxyJxyJxyJxyJxyJxyJxyJxyJxyJxyJxyJotu
-sWagqvdMsdTHdTHdTHdTHdTHdTHdTHdTHtHirkKxyImFPmFPtHimFPmFPjANmFPvpCtHimFPmFPmFPmFPmFPtHikCKavYuBdlHdlvLkCKnntokJlCItchhYDkCKtAusTneZtfgDrGNoypkCKqKGaNYgqvgqvgqvgqvgqvgqvgqvaOPkNKkNKkNKkNKkNKkNKkNKkNKkNKaNYdxKcEHgUVnZwcEHmaAmaAcEHdxKaNYqqxgaWgaWgaWilcaNYaNYaNYuAoaNYkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKpDRuFifgVcNpwtQuFipDRkFtmwNpBLduqxlexlUfEMduqpDRduqejDeuXpDRduqgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgeHdfdcCPvrWrDLjPspFGsKIsKIuPGsKIsKIiaXjPsaNYjPsrinvbFvrWpKukgRjPsxyJtyhfZCnvKfZCfZCnvKfZCfZCnvKfZCfZCskmskmskmskmskmskmskmskmskmskmpWVskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmfZCfZCfZCfZCfZCfZCfZCfZCfZCfZCfZCtyh
+sWagqvdMsdTHdTHdTHdTHdTHdTHdTHdTHtHirkKxyImFPmFPtHimFPmFPjANmFPvpCtHimFPmFPmFPmFPmFPtHikCKavYuBdlHdlvLkCKnntokJlCItchhYDkCKtAusTneZtfgDrGNoypkCKqKGaNYgqvgqvgqvgqvgqvgqvgqvaOPkNKkNKkNKkNKkNKkNKkNKkNKkNKaNYdxKcEHgUVnZwcEHmaAmaAcEHdxKaNYqqxgaWgaWgaWilcaNYaNYaNYuAoaNYkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKpDRuFifgVcNpwtQuFipDRkFtmwNpBLduqxlexlUfEMduqpDRduqejDeuXpDRduqgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgeHdfdcCPvrWrDLjPspFGsKIsKIuPGsKIsKIiaXjPsaNYjPsrinvbFvrWxtjkgRjPsxyJtyhfZCnvKfZCfZCnvKfZCfZCnvKfZCfZCskmskmskmskmskmskmskmskmskmskmpWVskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmfZCfZCfZCfZCfZCfZCfZCfZCfZCfZCfZCtyh
 sWagqvjnadTHgnVgHVjwMjANnPXlCXlCXtHidOejjgmFPmFPtHimFPmFPrfYjANjANtHieELmFPrfYjANmFPtHikCKibRlqtpTnlvLkCKtchhESxckrfYpbJkCKcjWetarGNbrSrGNoypkCKaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYkNKkIkifNdeIjhksCQaphbLYkNKaNYdxKmaAifQcEHcEHcEHfOcifQhtYaNYqqxiOaiOaiOailcaNYaNYaNYaNYaNYkNKcvJcwGswBnQGwsXkNKrrvcoigqzbIEgqzkNKpDRuFixQinpFcNppgSpDRkFtmwNpDRdCoisifEMfEMduqpDRduqpDRpDRpDRduqaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYgeHtwObyjvrWrDLjPsabduqgeBnwxarbIpoOsiAjPsjPsjPsggYeVNoBJvrWsKIjPsxyJtyhvdTvdTvdTvdTvdTvdTvdTvdTvdTvdTlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIvdTvdTvdTvdTvdTvdTvdTvdTvdTvdTvdTtyh
 sWagqvjnadTHgnVxpedTHrkKjANqNamFPtHimFPmFPeQdmFPtHipADvHzrkKrHYjANtHirkKqNamFPamlmFPtHikCKlvLktMnvxlvLkCKgrPwCYdiQmFPmFPkCKrGNrGNfeakCKtGmkCKkCKkCKkCKkCKkCKgrqwNuhVEkgHaNYgRpkNKtrCllkllkcyollkllkpdukNKaNYdTHifQfOcnPZnPZnPZcEHifQdxKaNYqqxiOaiOaiOailcaNYrgRaNYtUBaNYkNKiVObTriVOiVOiVOkNKtVJcoiuamuamuamkNKpDRuFighTcNpwtQuFipDRfEMlCgaNYduqbuUlWmejDduqpDRduqduqduqdCoduqaNYaNYaNYaNYaNYaNYaNYaNYkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKjPsjPsjPsjPsjPssdfjPsjPsgeHsKIbzXqlIrbIqsJisRjPslNpgeHlbnvrWvrWvrWpKujPsxyJtyhfZCfZCfZCfZCfZCfZCfZCfZCfZCfZCskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmfZCfZCfZCfZCfZCfZCfZCfZCfZCfZCfZCtyh
 sWagqvjnadTHgnVxpedTHxyImFPmFPikGtHitHipMdtHivuBtHitHipMddUGtHivuBtHitHipMdjsgtHivuBtHikCKibRwyvmoEibRkCKkCKkCKkCKkCKvuBkCKkCKkCKkCKkCKmFPmFPmCLmCLmCLmCLkCKdTHdTHdTHdTHdTHdTHkNKllkptnsFzkzayaxllkuSAkNKaNYwOEwOEdTHdTHdTHdTHwOEdTHdTHaNYqqxgaWgaWgaWilcaNYaNYaNYaNYaNYkNKexWexWexWexWiVOkNKcoicoigqzgqzgqzkNKaNYkNKkNKkNKkNKkNKkNKkNKkNKfEMduqduqduqduqduqaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYkNKxQZxQZxQZptnkNKwlGxQZxQZcGSkNKjPsfkffkffkffkfsKIuPGsKIdWUvrWsKIiyfiyfiyfhtXphpiaXsdfvrWnAWiHXmZOpKujPsxyJtyhvdTvdTvdTvdTvdTvdTvdTvdTvdTvdTlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIlrIvdTvdTvdTvdTvdTvdTvdTvdTvdTvdTvdTtyh
 sWagqvjnadTHjwMmCLdTHmFPhbgrkKmFPkJVjnaoQfjnajnajnajnammKmUZjnajnajnajnajnajnajnajnabSIkCKvkvvkvvkvvkvkCKrctjMswCYmFPmFPcoikWUnvXcLYkCKeQdmFPmCLdnxxiinOgkCKdTHqdlllkdTHrwjptnkNKkNKaswkNKkNKkNKvRakNKkNKaNYwOEcEHkTAifQifQcEHifQnPZdTHaNYqqxgaWgaWgaWilcqKGmaCaNYigmaNYkNKomNomNomNomNiVOkNKkNKwjdkNKkNKkNKkNKkNKkNKkNKfphkLGdTHgwNkLGkNKfEMaNYpDRpDRpDRpDRpDRpDRaNYeZUtFvdTHtFvtFvdTHdTHdTHdTHdTHaNYkNKtrCllkptnptnqYvptnllkllkubYkNKjPssKIvrWvrWvrWsKIsKIsKIjPsjPsjPsjPsjPsjPsjPsjPsiaXjPsjPsjPsjPsjPsjPsjPsxyJtyhfZCprtfZCfZCprtfZCfZCprtfZCfZCskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmskmfZCfZCfZCfZCfZCfZCfZCfZCfZCfZCfZCtyh
 sWagqvjnadTHqgQeVKdTHwlFtahrfYxDRcwDjnajnajnajnajnajnajnajnajnajnajnajnajnajnaxYBjnavDzkCKwLagSkgSkvkvxJKodbtchmFPmFPjANkCKkWUiUViUVkCKmFPmFPmCLwrrwrrwrrkCKdTHgkUllkdTHllkqgHdTHptnptnxzMbVNeUbllkhEckNKaNYdTHnAwifQcEHdTHkTAocTcEHrRQsoPgkWgaWgaWgaWilcdHvkNKkNKkNKkNKkNKkZaiVOiVOiVOiVOiVOobUiVOobUobUiVOsbksbkobUdTHptnxpqdTHptnxpqkNKfEMrFKrFKrFKrFKrFKrFKrFKaNYeZUnGWnGWteJucadTHbTUcWYcJedTHaNYkNKxQZxQZbXillkkNKllkllkllkllkkNKjPsdROfINmUgvrWsKIsKIsKIbMYsKIsKImGAsKIkENkENkENsKIsKIoOklhvqOorGkqTjjPsxyJxyJxyJxyJxyJxyJxyJxyJxyJxyJxyJxyJtvrxxPgtDaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYcYIegsegsegscYIegscYIegsegsegsegsegsvRJvRJvRJvRJvRJvRJaNYaNYaNYaNYaNYxyJxyJxyJxyJxyJxyJxyJxyJxyJxyJxyJotu
 sWagqvjnadTHdTHdTHdTHdTHdTHhhlhhlhhlaaxjnajRLlWajnajnapBojnajnajnajnajnajnajnapBojnaoQfkCKkCKkCKkCKkCKkCKrfYtcheQdwCYjANkWUsrIpjjuBikCKtchtchhKIwrrtrFndskCKdTHdTHswwdTHdXndTHdTHpuRllkxzMptnllkllkaoekNKaNYwOEcEHifQpIEdTHkRgcEHpNAdTHaNYqqxiOaiOaiOailckFykNKgqzuamgqzkNKhbkvhgiVOiVOiVOiVOiVOiVOiVOiVOiVOiVOiVOobUdTHgbfdTHdTHgbfdTHkNKfEMrFKaBxrleuFiutllNhrFKaNYdTHlfjpivcRtbhAdTHfQtgQMlifdTHaNYkNKkNKkNKkNKkNKkNKkNKkNKqYvkNKkNKjPssKIvrWvrWvrWsKIuqgsKIjPssKIrDLjPsdROsKIsKIsKIsKItwPsKIsKIsKIqTjbKnjPsaNYaNYaNYmephqHxxPtvrlHtxxVtvrsxktvrlGYxxPgtDaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYcYIegsegsegscYIcYIegsegscYIegsegscYIvRJpIxucajANdhpvRJaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYgqvsWa
-sWagqvjnajnajnajnajnajnajnajnajnahRqwffkJNuSLryMryMryMryMryMryMryMlDxlsRryMmMeryMryMryMryMryMkJNkJNdqYkCKwCYmAbwCYwCYjANkCKkWUhfKijnkCKoLLmFPmCLmCLmCLmCLkCKdTHllkllkllkeifsAQptnptnllkfjjseLbbyptniEOkNKaNYwOEcEHdxKdTHdTHdxKhtYhgzdTHaNYqqxiOaiOaiOailcmthkNKcoicoikaJkNKwlKiVOiVOiVOiVOrkkicFvhgiVOiVOeOpiVOiVOiVOiVOiVOiVOiVOiVOfGukNKpDRrFKaFRutluFiucappSrFKaNYdTHpDhucaucateJdTHbTUqCDfUwdTHaNYkNKaSDllkdlDkhadOogdwptnllkftdkNKjPssKIsoNsoNsoNsoNsKIsKIjPsdFAcNMmbakENsKIsKIsKIsKIsKIsKIsKIsKIqTjbKnjPsaNYdTHdTHdTHdTHdTHdTHdTHdTHaVOdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHaNYaNYeiKwfTwfTxTjxTjcYIcYIxTjxTjvRJfeavRJaUrvRJfeavRJfeavRJpIxucawNsnPkvRJaNYemddTHdTHdTHdTHdTHdTHdTHdTHdTHaNYaNYaNYaNYgqvsWa
+sWagqvjnajnajnajnajnajnajnajnajnahRqwffkJNuSLryMryMryMryMryMryMryMlDxlsRryMmMeryMryMryMryMryMkJNkJNdqYkCKwCYmAbwCYwCYjANkCKkWUhfKijnkCKoLLmFPmCLmCLmCLmCLkCKdTHllkllkllkeifsAQptnptnllkfjjseLbbyptniEOkNKaNYwOEcEHdxKdTHdTHdxKhtYhgzdTHaNYqqxiOaiOaiOailcmthkNKcoicoikaJkNKwlKiVOiVOiVOiVOrkkicFvhgiVOiVOeOpiVOiVOiVOiVOiVOiVOiVOiVOfGukNKpDRrFKaFRutluFiucappSrFKaNYdTHpDhucaucateJdTHbTUqCDfUwdTHaNYkNKaSDllkdlDkhadOogdwptnllkftdkNKjPssKIsoNsoNsoNsoNsKIsKIjPsdFAcNMmbakENsKIsKIsKIsKIsKIsKIsKIsKIqTjiyTjPsaNYdTHdTHdTHdTHdTHdTHdTHdTHaVOdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHaNYaNYeiKwfTwfTxTjxTjcYIcYIxTjxTjvRJfeavRJaUrvRJfeavRJfeavRJpIxucawNsnPkvRJaNYemddTHdTHdTHdTHdTHdTHdTHdTHdTHaNYaNYaNYaNYgqvsWa
 sWagqvdTHdTHdTHdTHdTHdTHdTHdTHdTHqqxbGCbGCbGCoaVbGCvEbvEbbGCbGCbGCbuhbGCbGCbGCbGCbGCcYzxTrbGCbGCueqilcpMdoMKnZCoMKfUagLpeEIkWUdnnkPwkCKmFPaBjmCLtfCxiinpckCKdTHtrCuxgxxrrxGeifdluptneiftnIptnbbyllkjegkNKaNYdxKfOcifQfMzifQcEHcEHfOcdTHaNYqqxgaWgaWgaWilcaNYkNKwjdkNKkNKkNKiVOiVOiVOobUobUkNKkNKkNKkNKkNKkNKfLBjjfubjfLBjjfubjfLBjjfubjkNKfEMrFKbPouFiuFidpPucarFKaNYdTHeZUeZUvuBeZUdTHdTHiIrdTHdTHiBfkNKqOQptnllkllkhNVllkllkptnhWqkNKjPssKIsKIsKIsKIsKIsKIkgRjPslAburJmbakENsKIhaNhaNhaNhaNhaNjRBsKIsKIbKnjPsaNYdTHqmgtchmFPdTHgLAcTTdTHdTHdTHgLAcTThktjANgVDdTHqmgsrUgLAcTThktdTHaNYaNYvIwdZvuUgtqjbcTbcTbcTtFPbcTvRJgLujANucaelfucaucapIXvRJvhYevEjANiZgvRJaNYemdrHNoTXerymFPcFDmFPaSwsnudTHdTHdTHaNYaNYgqvsWa
 sWagqvdTHxQZxQZxQZllkdQillkllkdTHvWzvtswlZgGYjWHjWHjWHjWHmcomcojWHjWHjWHjWHjWHjWHlHXtEIaWpjWHgaWaHmilccJnmMztchtchtchcMmkCKcoipjjuBikCKgthdSymCLtrFbTFtrFkCKdTHmqwllkllkllksyUeifllkllkxzMptnseLllkuyPkNKaNYdTHifQrTbcEHcEHcEHcEHhTzdTHaNYqqxgaWgaWgaWhWLaNYkNKiVOobUobUiVOiVOiVOiVOiVOudQkNKcoigqzgqzpOzkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKpDRsjKamRsjKsjKdpPdpPrFKaNYtFvkWUkWUkWUkWUkWUkWUcoidTHbvhtvrkNKvZAptnllkllkeifllkptnptnuKmkNKjPssKIsoNkqxsoNsKIsoNtwPjPsjPsjPsjPssPtkeQkeQkeQkeQkeQkeQeQFqTjsKIoWyjPsaNYdTHuMJtchmFPvuBrfYmFPjANgVDdTHlLTmFPtchrfYmFPdTHmFPrfYmFPtchmFPdTHaNYaNYbMXthkuzOiEqcqxthkszydZvbcTvRJmrpeCjjANeCjucalhomTSvRJvRJvRJlHKvRJvRJaNYdTHmnGmFPazZmFPeryeQdoShlCItchwJkdTHaNYaNYgqvsWa
 sWagqvdTHdQicfDllkllkcwhrehllkoYbqqxtLobZPkHnkakjDokGRjDojDojDojDojDojDojDojDojDojDocAzrywvigpxjgaWxnwkCKjANuLvtHFmyTmFPsrIkWUcOUijnkCKtchdSybVrbTFwrrocfkCKdTHptnpZAiFouxgptnvvNlSDptndwmcpfcpfcpfcpfkNKaNYdTHdTHdTHdTHuNpdTHdTHdTHdTHaNYqqxgaWgaWgaWilcaNYkNKsMKiVOiVOiVOctOxYNlLJiVOobUkNKgqzuamuamgqzcoicoicoicoicoikNKaNYaNYaNYaNYaNYpDRsjKdKFqrgqrgdpPucarFKaNYeZUkWUkWUkWUdfldfldflkWUdTHnLFlGYkNKukVllkgwDgwDkvZgwDgwDptnrThkNKjPssKIiSqsKIiSqsKIiSqsKImGAvrWvrWjPsdROsKIuqgsKIsKIsKIsKIsKIsKIsKIbKnjPsaNYdTHwdPqNamFPdxKbCNmFPrfYmFPwOEeQdmFPeQdyfAfHsdTHuMJdSylLTdSygEjdTHaNYaNYsNlbcTuMbePmvRJvRJvRJvRJvRJvRJrHYvycucavycucaliSqXzeHGucajANucaucavRJaNYdTHpQKmFPibeuSperytchdTHtchvgHfDtdTHaNYaNYgqvsWa
-sWagqvdTHhWollkllkcfDaVDcwhptnpALqqxiOagaWilcdTHrFKrFKrFKdTHdTHdTHdTHdTHdTHdTHsIgsIgsIgeKnqqxgaWgaWilckCKmFPstLwbckYkjANkCKkWUeeBdnnkCKmFPtchmCLmCLmCLmCLkCKdTHeifvWEptnptnllkgItptnllkllkfictcXnCXdTSkNKaNYaNYdTHvUFjhAsxyvRNcEHdTHaNYsoPqqxfTSgaWaHmxAjdHvkNKiVOiVOiVOiVOyhAmFbcCpiVOiVOkNKgqzuamuamgqzcoidjgnDljbikaJkNKaNYrFKrFKrFKrFKrFKrFKjANqrgqrgcrHucarFKaNYdTHdTHvuBdTHdTHdTHdTHdTHeZUnsOlsWkNKbXiptngwDllkllkptngwDllkiQikNKjPstwPsoNsKIsoNsKIsoNsKIjPsjPEjPEjPssKIsKIfevtfZiwQsKIkrLwLmiwQsKIbKnjPsaNYdTHsTtmFPwQAdTHvXimFPyfAfHswOExyIuLNtchmFPrfYdTHqNatchmFPmFPmFPdTHaNYaNYbMXbAyqxpdZvvRJqICucaucaucaanUjANucaePKucaucabTPucajANhpzpYCjANucavRJaNYdTHibemFPqtDmFPfWQmFPdTHmFPlLTmFPdTHaNYaNYgqvsWa
+sWagqvdTHhWollkllkcfDaVDcwhptnpALqqxiOagaWilcdTHrFKrFKrFKdTHdTHdTHdTHdTHdTHdTHsIgsIgsIgeKnqqxgaWgaWilckCKmFPstLwbckYkjANkCKkWUeeBdnnkCKmFPtchmCLmCLmCLmCLkCKdTHeifvWEptnptnllkgItptnllkllkfictcXnCXdTSkNKaNYaNYdTHvUFjhAsxyvRNcEHdTHaNYsoPqqxfTSgaWaHmxAjdHvkNKiVOiVOiVOiVOyhAmFbcCpiVOiVOkNKgqzuamuamgqzcoidjgnDljbikaJkNKaNYrFKrFKrFKrFKrFKrFKjANqrgqrgcrHucarFKaNYdTHdTHvuBdTHdTHdTHdTHdTHeZUnsOlsWkNKbXiptngwDllkllkptngwDllkxQZkNKjPstwPsoNsKIsoNsKIsoNsKIjPsjPEjPEjPssKIsKIfevtfZiwQsKIkrLwLmiwQsKIbKnjPsaNYdTHsTtmFPwQAdTHvXimFPyfAfHswOExyIuLNtchmFPrfYdTHqNatchmFPmFPmFPdTHaNYaNYbMXbAyqxpdZvvRJqICucaucaucaanUjANucaePKucaucabTPucajANhpzpYCjANucavRJaNYdTHibemFPqtDmFPfWQmFPdTHmFPlLTmFPdTHaNYaNYgqvsWa
 sWagqvdTHwUTsPCwUTdCfllkllkcfDdTHwOxtjutjuilcrFKckullkaCocovcovllkllkllkllkllkllkxrPxrPvSZqqxiOagaWrKRdUGrfYkYkkYksMajANcoikWUlJwuBikCKmFPtchqZsdnxcwmnpckCKdTHtrCiFouxguxgptnxUgllkxUgnhCllkiMReifqCKkNKaNYaNYrRQjhAjhAbIfvKwbIfrRQaNYaNYqqxfTSiOaaHmilcrdAkNKvazkNKiVOiVOiVOiVOiVOiVOiVOhDhcoicoicoicoicoieUzfjnrKxcoikNKaNYrFKjANaSBtzwucawsPucarzeqrgdhmpakrFKaNYdTHwCYjANjANxdjjANrBZmjadTHvnNlGYkNKxQZllkgwDllkllkptngwDllkjEvkNKjPsdROiSqsKIiSqsKIiSqsKIjPsjPsjPsjPsnlJsKIqfUdGvxjKsKIqfUdgjxjKsKIbKnjPsaNYdTHdTHdxKdTHdTHhktxyIcTIcTIdxKvuBdTHdTHdTHvuBdTHvuBdTHdTHdTHvuBdTHaNYaNYsNldZvdZvdZvvRJhPDxYTvlZiqCvRJsuYlhooVZlhoucaoVZrzeoVZucajANmYZucavRJaNYdTHazZmFPmFPrIRmFPqNadTHmFPcHVcHVdTHaNYaNYgqvsWa
 sWagqvdTHdTHdTHdTHdTHdTHdTHdTHdTHeLQgaWgaWilcrFKckullkeifllkllkeifvhzllkllkllkllkbqxllkrFKqqxgaWgaWoGLdUGodboMKoMKfrNrHYkCKkCKkCKkCKkCKmFPeQdqZswrrbTFtrFkCKdTHllkllkptnptndTHdTHelwdTHdTHlfollkptnimUkNKaNYaNYdTHrZnarZcEHcEHfOcdTHaNYaNYdsXadctHjbljvPjaNYrhcrhcvaziVOiVOiVOeOpiVOiVOiVOkNKvQRcoilBMlBMejBcoicoicoicoikNKaNYrFKdhmucaucajANhhlecYucaqvnhPrsSSrFKaNYdTHamlteJteJlwaxlAwCYbmJdTHihhbvXkNKvZAllkkNKkNKswwkNKkNKllkbfWkNKjPssKIsoNsKIsoNsKIsoNkqxwnHuPGsKIwnHqTjhrRbXfuuCxjKsKIqfUdKsnhqsKIbKnjPsaNYdTHtdSpmHpmHqiQrfYmFPwCYwCYdTHpmHtdSdTHjTbpGspGswBMpGsdTHtdSpmHdTHaNYaNYwGurcWszydZvvRJhPDucaucaotqvRJpIXvycqXzliSmYZucaucajANhpzpYCqfkiysvRJaNYemdmFPgFpmFPwCYmFPotqdTHblomFPwVRdTHaNYaNYgqvsWa
 sWagqvjnajnajnajnajnajnaujbjnajnaqqxiOagaWilcrFKdTHdTHrFKrFKdTHllkrFKrFKdTHdTHdTHdTHptnrFKqqxiOagaWilckCKqNamFPmFPoRumFPqORmFPmFPodbmFPmFPmFPbVrbTFbTFybhkCKdTHuckuckuckdTHdTHptnllkllkdTHuckuckuckkNKkNKaNYaNYdTHdTHdTHbPfdTHdTHdTHaNYaNYuqTulhtHjwLSxwVaNYrhcrhckNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKaNYrFKucaucajAnxDprFKjANdKFjANmJKucarFKaNYdTHjBAmFPmFPjANmFPmFPjANdTHwTQygGkNKxQZllkkNKllkptnptnkNKllkxQZkNKjPssKIiSqsKIiSqsKIiSqsKImGAsKIsKIiCRqTjqTjqfUmtMxjKeEBqfUlmKxjKsKIbKnjPsaNYdTHuEFpmHebCdTHrdyqNajNIoRydTHuEFebCdTHsNJpGspGsiCqalAdTHuEFebCdTHaNYaNYfsFdZvbcTrylvRJvRJoIuvRJvRJvRJvRJvRJvRJvRJvRJoIuvRJanUvRJvRJvRJvRJvRJaNYemdmFPrfYjANmKGqNaspxdTHemXtbolCXdTHaNYaNYgqvsWa
@@ -4421,7 +4422,7 @@ sWagqvjnajnajnadMsjnajnadMswYDjnanoxiOagaWvDPrOlmCLmCLmCLllkmCLmCLmCLmCLeifucMuH
 sWagqvdTHdTHdTHdTJdTJdTJrFKrFKrFKqqxbThluiilcrOluVkbMamCLllkmCLiiTwbPmCLeoNeifllkdQipHClkMlFagaWiOagaWjqKrFKwvAsjKnZLnZLxrPrFKrFKrFKrFKdTHdTHrFKrFKrFKqqxiOagaWilcvRJtVJkWUkWUcoikWUvRJtHikVlmCltHitHikVltyKtHitHisrCsrCsrCsrCsrCdhTsrCduBqqxiOaiOaiOailcaNYtvrtvrtvrqpxtvrlGYlGYfuqtvrtvrlGYlGYgPZlGYvRJlpWvXBvXBoNuiaXtyuiaXrGFjixvRJtgytgyuFiuFiuFiuFikkDuoHkkDpDoudowKHdTHvrUykEbCNkVSdTHrOSugurOSnNSdTHmthqqxiOaiOaiOailcaNYkNKeiDjjfjjfjjfiVOkSJbIjbIjiVOrUAkNKkNKkNKkNKkNKqqxgaWgaWgaWgaWeUHgaWgaWgaWgaWgaWgaWgaWoeeilcxdyotUcYhotUdTHjeKdxNkWUdTHciSiOagaWilcbyGdHsddDdTHnNGvmNfsJdTHsjKsjKdTHdTHsjKcSPcSPqqxbGCbGCbGCbGCbGCbGCbGCbGCbGCbGCbGCbGCbGCbGCbGCbGCbGCbGCgaWgaWilcjsgyfAfHsmFPmFPqNarFKaNYgqvsWa
 sWagqvdTHwCYvNHgeNqXzmFPmFPrHYrFKgWBluigaWilcdTJxqpambllkeifptnllkbNGmCLeoNeifmCLmCLmCLrOlqqxgaWiOagaWilcaNYaNYaNYaNYaNYaNYhIPsjKdTHdTHsjKmKodTHpmaljUqqxtZUgaWilchvHtslpIjgcppIjgcpvRJtHimFPmFPmFPtHirfYmFPmFPtHioeeoeejyajyajyajyaoeenbbqqxgaWgaWgaWilcaNYvRJvRJvRJvRJvRJvRJvRJvRJvRJvRJvRJvRJvRJlsWvRJiaXiaXiaXiaXiaXiaXiVOfCigwwvRJwKHudogqvgqvgqvgqvgqvgqvgqvgqviBfnVPdTHjANykEbCNkVSdTHrOSrOSrOSmFPdTHkFyqqxiOaiOaiOaxnwaNYbIMnRRnRRnRRnRRiVOkSJbIjiVOiVOjUpkNKaqfdyTnoWkNKqqxgaWgaWgaWgaWgaWgaWfWqgaWgaWgaWgaWgaWcVrilcjsgptRotUotUdTHwfaiPvgKCdTHjdIgaWgaWilcdTHiLEddDdTHqxDpIfpIfdTHjANtmMjANjANjANuaFcSPqqxgaWgaWjWHjWHjWHjWHjWHjWHjWHjWHjWHjWHjWHjWHjWHjWHjWHjWHiOagaWilcdTHdTHdTHkJVdTHdTHrFKaNYgqvsWa
 sWagqvdTHmFPlLTjANmFPunNmFPjANhhoqqxgaWgaWilcrFKmCLmCLmCLdQimCLmCLmCLmCLeoNgNnmCLbMauVkdTHqqxiOaiOaiOailcrFKxqnxqnqOcrFKaNYsjKfTixredqrhtYsjKduqqwoljUqqxiOagaWilchvHvAavAavAaxeBkWUvRJqWaxyImFPmFPtHimFPmFPmFPtHioeeoeeoeeoeeoeeoeeoeenbbqqxiOaiOaiOailcaNYrYhllkptnoTDswSptnptnptnvJSpjAptnptnvRJlGYvRJjswpnPborufKiaXiaXiVOiVOtrqvRJuFimGzgqvrljiwljYFbeerpAmnggqvaNYaNYdTHghVakcdTHdTHdTHdTHwmwdTHghVdTHaNYqqxiOaiOaiOailcqKGkNKjjfjjfjjfjjfiVOkSJbIjiVOiVOlaLkNKdoudoudoukNKqqxgaWgaWgaWgaWrPGgaWgaWrPGgaWgaWrPGgaWoeeilcdxKptRotUlStokCkWUcZHcIWdTHqqxiOagaWilcbyGiLEddDiyRddDpIfvWddTHkuFjANecYstowDijANsjKoEOgaWgaWcKEjDojDojDojDojDojDojDojDojDojDojDojDojDojDomqbgaWgaWilcdTHrnbeQdmFPmFPumxrFKaNYgqvsWa
-sWagqvdTHvtypQVnZxmFPwCYwCYjANdUGkqKiOagaWilcrFKuVkcnLmCLllkmCLigMuVkmCLrgvllkllkuFwibkdTHqqxiOaiOatuWilcxqnhxZhvZbYUqOcaNYdTHcBOdqrdqrfTimFPlMRxrPflFqqxgaWgaWilcvRJndetJOtJOhUsjFdvRJtHirkKeQdmFPmRgmFPtchuVhtHilXqoeeoeeoeeoeeoeeoeenbbqqxgaWgaWkOBilcaNYoejllkcfDsTcptnllkxrPkqtllkllkptnllksjKtvrvRJiaXiaXiaXiaXvRGvRGfdhvRGiaXvRJqyiqyigqvhVxiRKiRKhVxhVxhVxgqvaNYaNYdTHmFPjANjANmFPmFPmFPjANmFPjANdTHaNYqqxhHMiOaiOailcaNYkNKnRRnRRnRRnRRiVOkSJbIjcyFiVOiVOeDidounoWuxhkNKqqxgaWgaWgaWgrIylcoeeoeeylcfProeeylcoeetLoilcdTHxlTotUotUdTHkEbjMipnVdTHxYGpzqfCyilcswwpIfddDpdHlxKpIfvWddTHjANjANjANjANjANwJkdTHgWBiOagaWvDPjdcjKCdTHanUdTHdTHdTHanUdTHdTHdTHdTHanUdTHdLLiOagaWilcdTHdTHxPMdTHkJVdTHdTHaNYgqvsWa
+sWagqvdTHvtypQVnZxmFPwCYwCYjANdUGkqKiOagaWilcrFKuVkcnLmCLllkmCLigMuVkmCLrgvllkllkuFwibkdTHqqxiOaiOatuWilcxqnhxZhvZbYUqOcaNYdTHcBOdqrdqrfTimFPlMRxrPflFqqxgaWgaWilcvRJndetJOtJOhUsjFdvRJtHirkKeQdmFPmRgmFPtchuVhtHilXqoeeoeeoeeoeeoeeoeenbbqqxgaWgaWkOBilcaNYoejllkcfDsTcptnllkxrPkqtllkllkptnllksjKtvrvRJiaXiaXiaXiaXvRGvRGfdhvRGiaXvRJqyiqyigqvhVxiRKiRKhVxhVxhVxgqvaNYaNYdTHmFPjANjANmFPmFPmFPjANmFPjANdTHaNYqqxhHMiOaiOailcaNYkNKnRRnRRnRRnRRiVOkSJbIjcyFiVOiVOeDidounoWlcEkNKqqxgaWgaWgaWgrIylcoeeoeeylcfProeeylcoeetLoilcdTHxlTotUotUdTHkEbjMipnVdTHxYGpzqfCyilcswwpIfddDpdHlxKpIfvWddTHjANjANjANjANjANwJkdTHgWBiOagaWvDPjdcjKCdTHanUdTHdTHdTHanUdTHdTHdTHdTHanUdTHdLLiOagaWilcdTHdTHxPMdTHkJVdTHdTHaNYgqvsWa
 sWagqvdTHvtywCYnZxmFPmFPmFPjANdUGciSgaWgaWilcrFKfvbambkMGeifllkfBftcfmCLdTHdTHdTHdTHuGJdTHqqxiOaiOaiOailcdPJlZknhKmvnqOcrFKdTHfHNwOEwOEwOExyIylYylYdTHqqxiWwcbtlXSvRJvAavAavAakWUkWUvRJtHigYcrkKdrVtHimFPqwdmFPtHimUIuNRoeedUJuNRmUIoeenbbqqxgaWgaWgaWilcaNYvRJptnjfjcwhcfDptnmKokeckqtcjYtcXllksjKtvrvRJwMVxmejkpvRGrFKryOvRJvRJvRJvRJqyibOrgqviRKoFSsToddxlLbhVxgqvaNYaNYdTHmFPmCLmCLmCLmCLmCLmCLjANkZTdTHtUBdsXadcwLSbljvPjaNYkNKtCIiVOiVOiVOiVOkSJbIjiVOiVOigHkNKnHRdoudoukNKqqxgaWgaWkHnjDojDohNtjDojDojDojDojDojDojDojTIdTHdTHdTHdTHdTHdTHdTHdTHdTHwOxwcWfCyilcdTHdTHdTHdTHdTHdTHdTHdTHrPBhxFrHYjANtmMwJkdTHqqxgaWgaWilcsjKsjKwWtjANdTHwJkkPnjANdTHdNVvgwtmMjANdTHgWBluiluivDPdTHfxQgHVdTHmFPqNadTHaNYgqvsWa
 sWagqvdTJmFPtchqwdtchmFPiqCwWydTHciSiOalHXilcdTHmCLmCLmCLpHCmCLmCLmCLmCLtWWngEugwgoflZLdTHqqxvUNiOaiOadGqdPJtXavhzgIidASqOcdTHqXzgaItchmFPugbmFPejldTHqqxiOagaWilcvRJqUEtJOtJOjFdjFdvRJtHitHitHitHitHitHitHitHitHioeeoeeoeeoeeoeeoeeoeenbbqqxgaWgaWgaWilcaNYvRJptnllkcwhcfDptnvRJsjKmKovRJvRJvRJvRJtvrvRJiaXvRGcwDrFKrFKvRJgqvgqvgqvgqvgqvgqvgqvgBGgqvgqvgqvgARgBGgqvaNYaNYdTHmFPrIooDagaramsiMUmCLjANcxVdTHaNYuqTulhtHjdeexwVaNYpMbkNKkNKkNKkNKiVOkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKqqxgaWgaWilcdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHurOrsHrHYjANdTHqqxgaWgaWilcdTHfoOeCEiaRwvAdTHdTHdTHdTHdTHdTHlQzjANqXzdTHqqxgaWgaWilchIPsjKjANdTjdTHtmMjANjANsjKjANjANjANjANsjKqqxgaWgaWilcdTHgHVnURdTHrdyiOKrFKaNYgqvsWa
 sWagqvdTJvoDhESrVVtnXtchxxGmFPdUGciSgaWgaWilcdTHuVkvujmCLllkmCLudSqAVmCLlZLtKDlZLlZLlZLdTHdLmyiMiOaiOailcgqvlEugqvasUmvnqOcdTHwTNxyItchmFPrkKrfYpiSdTHqqxgaWkOBilcvRJhvHvRJhvHhvHvRJvRJaNYaNYaNYaNYaNYaNYaNYaNYnyFuNRuNRoeeoeeuNRuNRoeenbbqQhgaWgaWgaWilcaNYsjKllkjxwllkswSptnvRJllkeifxKMxQZbXivRJtvrvRJcwDrFKrFKrFKrFKvRJgqvfxWbxlfxWgqvgqvgqvgLpnqUnqUaiutXJugugqvaNYaNYdTHuQfoDauBEgwYamslkQmCLjANlDFmUtaNYxNhulhtHjePwilcdHvevwxdhobUobUobUiVOkUoiVOiVOwbkhogiVOomNomNomNkNKqqxiOaiOailcdTHiayjoviayjoviQMiQMaJdjovmqtjovjpWdTHtGIdTHceriqCjANjANxJzqqxnYlcbtlXSnNGugbmFPmFPdSydSylDhrFKxQmotUdTHmMzdxKtSPdTHqqxpxjbljilcwWtmNewJkwJkdTHjANjANjANmKodsimNejANjANsjKqqxiOagaWilcdTHdTHdTHdTHdTHdTHrFKaNYgqvsWa
@@ -4440,19 +4441,19 @@ rpuoeeqwqnIEoeeoeegvOoeeoeeoeeeUHejhgTnviYoeeoeeoeevOSxkXhjwviYoeeoeeoeeviYhFqfW
 sWagqvrywjDojDojDojDojDofDdrYJjDojDojDojDojDojDojDojDojDojDojDojDojDonksjDojDoaxEjDojDojDojDojDojDojDojDojDokYctrMkcNjDojDojDojDojDocAzjDoojzjDojDojDovigpxjgaWkHnjDojDojDojDojDojDojDojDojDojDojDojDojDojDojDojDojDojDojDojDojDojDojDojDovigpxjlHXaHmvoNjDojDojDojDojDojDojDojDojDojDojDothYjDovigoeeoeeoeeoeeoeeoeeoeeoeeoeeoeeoeekHncAzjDojDojDojDojDojDojDojDojDojDojDojDojDojDojDojDokakjDojDojDojDojDojDoqfijDojDojDoqfijDojDojDojDojDojDojDojDojDojDojDoojzjDojDojDojDojDoviggaWgaWkHnojzvigjnajnakHnjDojDojDojckjDojDojDojDojDojDojDojDooQHjDoqyJoeeoeekHnjTIrFKbCNmFPmFPbMZdTHwOEmIGdTHwwAwCYsKwmFPbCNpMdaXBiOagaWilcfANtwTtwTtwTdoohpznzYnaEvAavAapuKnzYpYCfANqqxiOagaWilcrFKgHVqgQrFKmFPmFPrFKaNYgqvsWa
 sWagqvwSYaNYaNYaNYuAoaNYaNYaNYdHvqKGaNYxsZaNYwaWhVEhVEhVEoTCdHvaNYaNYaNYaGoaNYkWcqKGaNYaNYdHvaNYaNYaNYaNYaNYlIkaNYaNYaNYaNYdHvaNYaNYfJjaNYhVEaNYaNYaNYqqxgaWgaWilcaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaxgqtdoDMqtdhkFaNYaNYaNYaNYaNYaNYaNYaNYhVEhVEhVEaNYaNYdsXoeeoeeoeeoeeoeelHXoeeoeeoeeoeeoeexAjekmaNYaNYaNYaNYaNYdHvaNYaNYaNYaNYufSaNYaNYaNYaNYaNYaNYaNYaNYdHvaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYmaCaNYdHvaNYaNYaNYaNYhVEtUBaNYmaCtUBaNYqqxgaWgaWilcrNVrNVpkOpkOrNVrNVrNVsvErNVrNVciCrNVsMSrNVrNVrNVrNVrNVrNVrNVuXyoeeilcaNYrFKrFKwvAhhldTHdTHaJHaJHdTHdTHdTHdTHmFPhktdUGqqxgaWgaWsMbfANoznoznipLdoopuKnzYfMEkYpkYpouVxSEnaEfANqqxiOagaWilcrFKrFKxPMrFKrLdrFKrFKaNYgqvsWa
 sWagqvdTHdTHdTHswwdTHdTHaNYdTHsVbsVbdTHdWLdTHdTHdTHeQQdTHsVbdTHdTHdTHdTHdTHhVEkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKaNYqQhiOajQEcDKaNYtvraNYxTmqGIfANfANxTmjsnjsniOoiOoxTmgLsrFKrFKvMAyfRrFKrFKvMArFKrFKhVEgWBluigaWluivDPhVEdTHdTHcJKdTHwDNdTHdTHgFlgFlgFleqMeqMdTHgaWgaWkLXgaWgaWoeeoeeoeeoeeoeeoeeilckNKxCQiOoiOokNKkNKkNKkNKdTHdTHdTHdTHdTHiOoiOodTHyfHyfHiOoiOodTHdTHdTHdTHaNYxrPxrPwvAdUGdTHdTHmhzrFKrFKdTHdTHdTHdUGpMdrFKrFKrFKdTHdTHdTHrFKqqxgaWgaWilcrNVpkOpkOpkOpkOrNVlizhZqhZqoztfhOjlVutDkWUkWUkWUkWUkWUeLkrNVoeeoeeaRCePkePkryMryMryMryMryMryMryMsjKotUotUokCeQdeCErFKqqxiOagaWoJJfANdjCwtGwtGfANpuKnzYfMEkYpkYppuKnzYnaEfANqqxiOagaWilcrFKvXAuBtmFPjANftprFKaNYgqvsWa
-sWagqvdTHhNZugFkZopBTdTHmJAsjKqVFsZeiLCrOSdTHtGFaJmwpZiVOkZavhgdTHxTsgiBnNGguOkNKfPofzLfPofzLszNexbkNKptnfRtiVbkNKoPyoPymsPrYUfTUfTUsrSsrSoptoPykNKgyYdVhhqjcYGbFpfANfANfANfANmvBiJcfANoYAcEHcEHklpcVPfANfEMrFKhvjjANjANjANjANjANyfJrFKaNYqqxgaWgaWgaWilcaNYdTHsXZoajxVxbWmbBddTHcgJbLikWUrkKkWUgFlluigaWgaWgaWfWqoeeoeeoeeoeegrIcVrilciOorVUpmHpmHtMEpmHdACkNKdBijANjANjANdTHlugjANggKjANmFPmFPmFPoMCvwmxsJiOoaNYxrPtchiWKmFPrdyrFKjANrFKlshvAlrFKeyGqlKqlKqlKbAuqlKwevqlKbLcgFlqqxiOaklQilcrNVpkOpkOpkOpkOrNViZXowBkoHnPfjmHlgautDbiNkWUkWUammkWUeLkrNVoeeoeeoeeoeeoeeoeeoeeoeeoeeoeeoeeoeecSPxQmjIVdTHmFPbcArFKqqxpxjbljoJJfANqHuwtGwtGuoMpuKnzYfMEkYpkYppuKnzYnaEfANqqxiOagaWilckJVtchmFPmFPjANcTTrFKaNYgqvsWa
-sWagqvdTHbEstEOtEOhNZdTHseWiQRpNRmFPpvZrOSdTHqIUaJmeXrmWbewYxwbdTHdTHvuBnNGtvrkNKfPomvDfPooJCszNmvDkNKogLbobllkkNKsrSucGsivhtYsrSsrSqEzsivsrSoPykNKaNYqqxgaWgaWilcfANtdNwftgwMeqKrealEixHXicveoWcEHnELfANfEMrFKsuYstolUajANrFKpDhpVFrFKuAoqqxgaWgaWgaWilctrKdTHiHRneAflLjiVewrpZNxCvuBtbLiszAdNKgFlluigaWrPGgaWgaWrPGgaWgaWpukgaWwPcilciOoryipmHpmHpdBpmHdACkNKutblNdnOIjANdMgrHYjANpJnpJnjANjANjANuCmjANjhEiOoaNYdTHbMZmFPmFPmFPrFKtcheeijANjANrFKuErqlKqlKnmBdTHqlKqlKqlKgsmgFlqqxgaWgaWilcrFKpkOuCCpkOpkOotThZqkoHkoHgUjkoHlumutDxhKkWUkWUhdshkIdzYrNVlXqoeeoeeoeeoeeoeeoeeoeeoeeoeeoeeeuydTHrFKrFKdTHdTHdTHdTHqqxgaWgaWoJJfANdjCwtGwtGgitucaucaoVZkYpkYpucaucaucafANqqxiOagaWilcrFKxDRueUpRZpfyrkKrFKaNYgqvsWa
-sWagqvdTHhNZtEOtEOsCudTHlFOaONmFPiupoEImFPdTHdTHdTHdTHdTHdARwpZvuBxwjvQhnNGtvrkNKhpTfPofoHpcTfPotuSkNKsvUmnollkkNKsrSjZwjZwqcOnwxfTiufXsivmryfbIkNKaNYqQhgaWgaWilckpfxWOpOagwMreaeqKrsmcEHcEHcEHcEHbIwfANfEMvMAqXzpDhjANsFxrFKqXzjANanUaNYqqxhHMiOatuWilcaNYcJKgGdrZMflLflLbaqhZkpAakWUdMlnHsgwXgFlluioeeylcoeeoeeylcoeeoeeylcoeetLoilckNKjwTrVUrVUrVUpmHpmHkNKmrYpVFnOIjANdTHgLpjANjANjANjANrHYjANfxClugcBcdTHaNYdTHkPntchwybmFPvuBtchrFKdTHnkErFKiOTqlKqlKnmBdTHqlKqlKqlKgsmgFlqqxluiluivDPrFKrNVrNVrNVrNVrNVrNVgUjibNrNVutDutDutDrNVrNVlbprNVrNVrNVrNVrNVrNVrFKrFKrFKmncuNRoeeoeeoeeuNRuNRrNVrNVrNVrNVrNVrNVrNVqqxiOagaWoJJfANfANfANfANfANjANucaoVZkYpkYpucaucaucafANqqxtZUgaWilcdTHdTHdTHdTHrFKrFKrFKgqvgqvsWa
-sWagqvdTHkZokZotEOrUcdTHguOdTHkJVdTHdTHdTHdTHigEoAmqvXdTHdTHdTHdTHvQhnplnNGaRfkNKfPohSJfPopKOfPoulNkNKeUAllkllkwAhsrSwOEsrSsrSsrSsrSjGRpJYoPymihkNKaNYqqxgaWgaWilcfANqGIfANfANeqKsYffANkEGkEGkEGkEGkEGfANkKRwcojANpDhjANlyorFKuPhstorFKmaCqqxmXiiOafdQhJraNYdTHcBNrkKprFxzIamlhZkjuukWUheMnHsklXdTHjDojDojDojDocLHjDojDojDojDojDojDojTIkNKhlcrVUbjrbjrhlcrVUkNKdTHdTHdTHdTHvlJjANjANrHYjANjANjANjANlUGjANmymxhnaNYdTHrFKhhldTHlIydTHtchrFKmyWaNYrFKiOTqlKqlKnmBdTHqlKgCVqlKklLrFKqqxjYygaWilcrFKaDVaDVaDVkoHaPqjVhkoHkoHcBZsKIrDLlNplNprNVkoHyiXaGZyiXeiHrNVrLkkoHbtPrNVnPyoeeoeeoeeoeefProeerNVccvqGgoOyfKBmjarNVqqxpxjbljoJJfANjDirVqucafANfANfANfANwjdwjdfANfANfANfANqqxgaWgaWilcrFKjzngLAeQdrkKrFKaFphoPgqvsWa
-sWagqvdTHpWkwQdhGOhNZdTHtvrdTHqVFmFPegJoPddTHjEEuPztBQdTHqgSrfYpxLnxqowmnNGlGYkNKpiMuDTuDTuDTszNfPokNKkNKkNKkNKkNKoxtkNKkNKwqplYwkNKkNKkNKkNKkNKkNKkNKqQhiOagaWilckpfiSgxvWgwMreaeqKeqKtiEeqKeqKncgreafANvWnrFKgLpjANstojANanUjANjANrFKsBgqqxgaWgaWjLKilcaNYdTHdTHbaqdTHdTHdTHdTHcoivVakWUcoismedTHdTHdTHdTHdTHdTHdTHdTHdTHhVEaNYkNKkNKkNKinCinCinCrVUpmHpmHkNKgLpmFPfqtjANhAgjANfqtjANjANjANqXzjANeedjANssKiOoaNYwvAmFPmFPrdymFPwvAtchdTHduqdCodTHiOTqlKqlKnmBdTHgzTgCVqlKqlKghQqqxgaWgaWilcrNVaPqaPqaPqkoHnPfrNVuwfuwfrFKvrWvrWsKIsKIrFKaPqhOYaPqhOYaPqrFKrLkkoHjLBrNVuNRuNRwPcoeeoeeuNRuNRmUtqVFtchmFPmFPmFPmUtqqxgaWgaWoJJgoroVZoVZucabVlucaucabVlvAavAaucaucaucafANqqxiOagaWilcrFKqNamFPmFPgaIdTHsKIsKIgqvsWa
-sWagqvdTHuDOkZokZodTHdTHtvrsVbmkMrfYqVFxyIdTHgWDdSUokMdTHugbtHZdTHvQhpHsdTHmJAkNKkNKkNKpPekNKkNKkNKkNKtTauFyaDnecQcIfkNKhtYnqvjqJwFKjqJlXcfpWnqvwFKiOpqqxgaWgaWilcfANuNflOigwMjPvncgeqKtiEtiEtiEeqKsACfANkIsrFKrFKrFKrFKrFKrFKwcorFKrFKuwKbGgczagaWgaWilcaNYdTHbaqjSugiMhsTlPVdTHwdAhqObLirPufiWdTHdTHdTHdTHhlebGGkWUapldTHtrKaNYkNKwTHpmHpmHpmHinCnqSnqSqrNkNKpfFjovjovjovjovjovjovenaazhuZGjANmFPiIbmFPgycdTHaNYdUGugbmFPmFPmFPwvAtchrFKqKGaNYdTHrFKrFKrFKdTHdTHdTHrFKdTHdTHdTHqqxlHXgaWilcrNVupyhUYawTupyupyrNVuwfmkErFKfkffkffkffkfrFKaPquwfuwfaPqaPqsyPxnlaPqjdWrNVlXqoeeoeeoeeoeeuXyoeerNVmFPcqouMOwzeuMOrNVqqxiOagaWkjNgorkEcucaucafANmRPmRPfANkYpeUjrzejCnucafANqqxgaWgaWilcrFKyeUtchlUudTHdTHmvxsKIgqvsWa
-sWagqvdTHdTHofXdTHdTHguOlGYdTHcTTjXDwcXqNadTHdTHdTHwUtdTHdTHdTHdTHagclHEdTHnUFkNKtywmUKllkptnptnptnkNKuTQxuUiOgqwlnqvtthnqvnqviYfmEAjqJkJEnqvnqvbYZvjIqqxgaWgaWilcfANfANfANfANfANisBpdioorvAugqmctCxtBfANlSVkQstYPkKRkIsaspphAbDQiAKgLstrKqqxgaWgaWgaWilcaNYcJKrxNflLqWzbaqygAdxKamlamlkWUkWUcoidTHbTRbTRdTHksLsrIsrIkWUdTHaNYhVEkNKqVwpmHdqbpmHinCpmHpmHpmHkNKhnrorNyfBrxmrxmlskwNlhBrvmsdTHwKngLpjANrHYqXzdTHaNYdTHeCEmFPmFPmFPvuBdSydTHaNYaNYaNYaNYaNYaNYaNYaNYaNYqKGhVEaNYaNYqqxiOagaWilcrNVwgoxdkxdkiqKfbdrNVuwfmkErFKrNVrNVrbarbarbaaPqgAJgNvvtkaPqrNVwKiaPqltDrFKuNRuNRoeeoeeoeeuNRuNRrNVxJzrNVxkzrNVaierNVqqxpxjbljilcfANsSqsSqfANfANfANfANfANvAakYpoVZoVZucafANqqxiOagaWilcdTHsbRtchqNadTHkgEtGWslpgqvsWa
-sWagqvdTHmKHeifdTHaVOvikkjSdTHdTHdTHdTHhiOdTHmogdTHdWjdTHoIrmFPkJVnxqgKvdTHnypkNKllkmkQllkptnopmptnkNKtDznwxxlpmVMeAkkNKnqvnqviYfvdujqJbylnqvnqvmMLvjIcdPiOagaWilcoIppMMpMMfANdmHfANxRYeqKreareaeqKxPzfANvQpmdMmRCkgFrKVbifkKRfEMdFkkKRxbWqqxiOaiOaiOailcaNYqIxrxNuBtneAflLlQEdxKdxKdTHkWUkWUdTHdTHflLrFwdTHkWUsnJkWUilXdTHaNYqKGkNKbVXqlKsTTqlKtqotqotqotqokNKhnrnjAmkamkamkawPRmkabEJazhojUjANjANjANmFPqErdTHaNYdTHnNGnNGlIylIydTHdSydTHaNYdTHrFKdTHrFKaNYaNYaNYaNYaNYaNYaNYaNYqqxiOagaWilcrFKwgoxdkxdkiqKdDSrFKuwfmkErNVnPCoRJnCEoRJuwfuwfiMXmkEhOYjlVrFKwKiaPqhImrFKfProeeoeeoeeoeelXqoeemUtmFPmFPjANqVFjANmUtqqxgaWgaWilcwjdvAavAavAavAakYpvAavAakYpkYpoVZoVZucafANqqxgaWgaWilcoIqmFPhMHmFPdTHxAkxewqpqgqvsWa
-sWagqvdTHdTHdTHdTHhVEePZlsWsjKgHVlstdTHwpZuHkiVOdTHhHqdTHdTHvuBdTHdTHvuBdTHqdSkNKkNKkNKkNKkNKllkptnkNKbCqtgNmWybeEnwxtthnqvnqvgyqhXccEctrFbBQkYDkNKkNKeuCucRgaWwCloIppMMpMMfANeqKeqKeqKeqKxtZgWKcUEhLNfANrXNdTHvtXdTHdTHdTHdTHdTHuRMdTHdTHqqxgaWgaWgaWilcaNYdTHbaqbaqflLflLbaqbaqflLdTHhUCflLflLrkKflLbaqiTccoisrIkWUkWUdTHtSuxsZkNKccXpmHtWopmHpmHqlKqlKqlKdMghnrlovmkamkamkamkamkaksJjANqXzoQUmFPdnDmFPdnDxhnaNYvmNmFPmFPvBosgddTHlvprFKaNYdTHoPYoVMrFKdTHdTHdTHrFKrFKdTHrFKrFKkHAiOagaWilcrFKwgoxdkxdkxdkiqKrFKaPqaPqjVhaPqaPquwfaPquwfmkEmkEmkEaPqjlVrNVwKiaPqqfLrFKlzaoeeoeeoeeoeeoeeoeerNVwCPwCPmFPdIfcSgrNVqqxhHMgaWilcwjdvAavAavAavAakYpvAavAakYpkYpoVZoVZucafANqqxgaWgaWilcdTHmFPvSLchAdTHsKIsKIlaJgqvsWa
-sWagqvgqvgqvgqvgqvgqvbxGlsWjKCbxktExtAvlHrqrlwpZdTHmmudTHeCElLTxFBdTHpnLdTHjNBkNKjqaahjasSkNKllkbYElYwwhznwxroanwxrnSkNKnqvnqvpfTwrrwrrwrrxsEkNDdNPaNYqQhiOahoXwKfreMpMMpMMfANfANfANfANfANfANfANfANfANfANdTHdTHcWYcJeaLzdTHgBgndDmvqaNtxdyqqxiOaiOaiOailcaNYdTHkZEmrjflLvYTsXaamlflLdTHflLxzIflLoTrflLflLdTHdTHdxKdxKdTHdTHtSuaNYkNKelVrVUnxVrVUcrmxXYvSgqlKkNKhVdlovmkamkamkamkamkaksJazhjANjANeQdmFPjANjANiOoaNYpZsmFPmFPtchtchnNGmFPdTHaNYrFKwpZwpZdTHrOTxpedTHmftmFPxyIpcZdTHgWBnsBluivDPrFKrNVrNVrNVrNVrFKrFKrFKrNVrNVrNVrNVrFKrFKrFKrFKrNVrNVrFKrFKrFKrNVrNVrFKrFKiyBiyBiyBiyBiyBcnZiyBrNVrNVrNVvuBrNVrNVrNVqqxpxjbljilcfANcTOsSqfANfANfANfANfANucaucapxGuqqxSJfANqqxiOagaWilcdTHmFPdTHdTHdTHdTHcPbwrxgqvsWa
-sWasWasWasWasWasWagqvehdlsWdTHprSlifdTHbfJrMoxwbdTHhHqdTHwCYmFPugbdTHdTHdTHkTmkNKjFJfeajqakNKllkllklYwbCqtgNnwxfTinwxcCQnqvnqvbBQwrrpROwrrmrWfSThgGaNYqqxjVWqPGpMMpMMpMMpMMpMMgxXcJtucccJtuccdTHvzGvzGvzGdTHusbpQhkUBkUBiQUtbzhaCtThxcbiOoqqxgaWgaWgaWilcaNYwDNfMWaorndKrfdwXKmeTkVzflLkVzrkKhEpkVzkVzkVziTckWUcIBmdskWUdTHaNYaNYkNKdRopmHpmHpmHpmHpmHpmHpmHkNKhnrnXhjThmkamkamkamkawDBjANjANcRYmFPrFgjANleSdTHaNYdTHxlmjzndSydSyhJCtchrFKaNYdTHdTHfDMdTHdTHxPMdTHxlAiDbmFPhktrFKqqxgaWgaWaRCryMryMryMryMryMryMryMryMryMryMryMryMryMryMryMryMryMryMryMryMryMryMryMqOCkLokLokLokLotGHcKYryMryMryMryMuddryMryMryMryMwSygaWgaWilcgorkEcucaucafANucaucavpftTOoVZpxGiSoxSJfANqqxgaWtZUilcrFKrkKdTHccZjuYrFKsKIxHJgqvsWa
-lFplFplFplFplFpsWagqvabefJbdTHdTHdTHdTHdTHsVbdTHdTHmmudTHdTHsVbdTHdTHjWajQXleykNKasSfeafeaaztllkllkeoQsrSsrSnwxnwxsrSkNKnqvnqvbBQwrrjwKwrrpRObBQhgGaNYqqxpMMpMMpMMpMMkGGpMMrIMydRskmskmskmdnVdTHvWQlNQkrymijdNuoHkajkosHiQUaNtkhjaNtewkeLFqqxgaWgaWgaWilcaNYinYrKXsXameTaeqvSXyccxzIdTHuIDflLflLkVzawEsncdTHkWUkWUsrIazRdTHaNYtSukNKkNKkNKkNKkNKqlKqlKqlKpmHkNKhnreqasCewXawXafBtacWhBrazhmFPjANjANmFPrfYjANiOoaNYrFKxrPdTHdTHrFKrFKrFKdTHaNYrFKwpZwpZpfatuCwpZdTHmFPwCYmjamFPrFKqqxgaWgaWbGCbGCbGCbGCbGCbGCbGCbGCbGCbGCbGCbGCbGCnKBhoXclHbJepMMdUwcTttLotLojWlbGCbGCbGCbGCbGCbGCbGCbGCbGCbGCbGCbGCbGCbGCbGCbGCbGCtLigaWgaWilcfANucaucaucabVloVZoVZuqqaScoVZoVZucaucafANqqxiOagaWilcrFKeQddTHrkKrkKrFKjlQgqvgqvsWa
-lFplYJlYJlYJlFpsWagqvxGGeXJrkiguOqSpqdSaQPskidSUmmuhBymmummummudSUnOhdKOlFcaehkNKjqafeajqakNKptnptnlYwsrSsrSnwxnwxsrStthwOEnqvdPnemGqiSghKtrFuNsdNPxsZqqxpMMpMMpMMesVdGMjqEpMMerOlHWgKalHWwJhdTHqGLybPcQUdTHdGUnpWsTFkUBiQUsGRtZptThjIriOoqqxgaWgaWkOBilcaNYdTHbLDmfvmPwxpLmfvqNTflLdTHxzIhEpflLmqGflLprFdxKvJJkWUaUOhQydTHaNYaNYaNYpeppepxNKkNKoFkqKwetTjRMkNKjbRjwOjwOjwOjwOjwOjwOazHgLpjANcRYjANcRYuZGleSxhnaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYdTHvjAaJmwpZwpZwpZphltchqwdmFPrfYkJVqqxoeejWHoeelXqoeeoeeoeeoeeoeeoeeoeeoeelHXoeecVrhoXqPGpMMpMMpfUpSpdUwcTtwlZoeeoeeoeeoeelHXoeeoeeoeeoeeoeeoeeoeeoeeoeeoeeoeeoeeoeedfwjWHjWHilcfANjFNjpatUpfANjANucalnQlnQucapxGiSoaHrfANqqxgaWklQilcdTHrdycVprkKkVIkVIlsWtvrgqvsWa
+sWagqvdTHhNZugFkZopBTdTHmJAsjKqVFsZeiLCrOSdTHtGFaJmwpZiVOkZavhgdTHxTsgiBnNGguOkNKfPofzLfPofzLszNexbkNKptnfRtkyJkNKoPyoPyeWRorSbAfbAfjsWjsWptooPykNKgyYdVhhqjcYGbFpfANfANfANfANmvBiJcfANoYAcEHcEHklpcVPfANfEMrFKhvjjANjANjANjANjANyfJrFKaNYqqxgaWgaWgaWilcaNYdTHsXZoajxVxbWmbBddTHcgJbLikWUrkKkWUgFlluigaWgaWgaWfWqoeeoeeoeeoeegrIcVrilciOorVUpmHpmHtMEpmHdACkNKdBijANjANjANdTHlugjANggKjANmFPmFPmFPoMCvwmxsJiOoaNYxrPtchiWKmFPrdyrFKjANrFKlshvAlrFKeyGqlKqlKqlKbAuqlKwevqlKbLcgFlqqxiOaklQilcrNVpkOpkOpkOpkOrNViZXowBkoHnPfjmHlgautDbiNkWUkWUammkWUeLkrNVoeeoeeoeeoeeoeeoeeoeeoeeoeeoeeoeeoeecSPxQmjIVdTHmFPbcArFKqqxpxjbljoJJfANqHuwtGwtGuoMpuKnzYfMEkYpkYppuKnzYnaEfANqqxiOagaWilckJVtchmFPmFPjANcTTrFKaNYgqvsWa
+sWagqvdTHbEstEOtEOhNZdTHseWiQRpNRmFPpvZrOSdTHqIUaJmeXrmWbewYxwbdTHdTHvuBnNGtvrkNKfPomvDfPoabJszNmvDkNKogLbobllkkNKjsWrFftvDhtYjsWjsWkWItvDjsWoPykNKaNYqqxgaWgaWilcfANtdNwftgwMeqKrealEixHXicveoWcEHnELfANfEMrFKsuYstolUajANrFKpDhpVFrFKuAoqqxgaWgaWgaWilctrKdTHiHRneAflLjiVewrpZNxCvuBtbLiszAdNKgFlluigaWrPGgaWgaWrPGgaWgaWpukgaWwPcilciOoryipmHpmHpdBpmHdACkNKutblNdnOIjANdMgrHYjANpJnpJnjANjANjANuCmjANjhEiOoaNYdTHbMZmFPmFPmFPrFKtcheeijANjANrFKuErqlKqlKnmBdTHqlKqlKqlKgsmgFlqqxgaWgaWilcrFKpkOuCCpkOpkOotThZqkoHkoHgUjkoHlumutDxhKkWUkWUhdshkIdzYrNVlXqoeeoeeoeeoeeoeeoeeoeeoeeoeeoeeeuydTHrFKrFKdTHdTHdTHdTHqqxgaWgaWoJJfANdjCwtGwtGgitucaucaoVZkYpkYpucaucaucafANqqxiOagaWilcrFKxDRueUpRZpfyrkKrFKaNYgqvsWa
+sWagqvdTHhNZtEOtEOsCudTHlFOaONmFPiupoEImFPdTHdTHdTHdTHdTHdARwpZvuBxwjvQhnNGtvrkNKhpTfPofoHoCefPotuSkNKsvUmnollkkNKjsWcKXcKXtcInwxfTimtdtvDmgQelPkNKaNYqQhgaWgaWilckpfxWOpOagwMreaeqKrsmcEHcEHcEHcEHbIwfANfEMvMAqXzpDhjANsFxrFKqXzjANanUaNYqqxhHMiOatuWilcaNYcJKgGdrZMflLflLbaqhZkpAakWUdMlnHsgwXgFlluioeeylcoeeoeeylcoeeoeeylcoeetLoilckNKjwTrVUrVUrVUpmHpmHkNKmrYpVFnOIjANdTHgLpjANjANjANjANrHYjANfxClugcBcdTHaNYdTHkPntchwybmFPvuBtchrFKdTHnkErFKiOTqlKqlKnmBdTHqlKqlKqlKgsmgFlqqxluiluivDPrFKrNVrNVrNVrNVrNVrNVgUjibNrNVutDutDutDrNVrNVlbprNVrNVrNVrNVrNVrNVrFKrFKrFKmncuNRoeeoeeoeeuNRuNRrNVrNVrNVrNVrNVrNVrNVqqxiOagaWoJJfANfANfANfANfANjANucaoVZkYpkYpucaucaucafANqqxtZUgaWilcdTHdTHdTHdTHrFKrFKrFKgqvgqvsWa
+sWagqvdTHkZokZotEOrUcdTHguOdTHkJVdTHdTHdTHdTHigEoAmqvXdTHdTHdTHdTHvQhnplnNGaRfkNKfPohSJfPopKOfPojlTkNKeUAllkllkwAhjsWwOEjsWjsWjsWjsWjdDpJYoPyoqDkNKaNYqqxgaWgaWilcfANqGIfANfANeqKsYffANkEGkEGkEGkEGkEGfANkKRwcojANpDhjANlyorFKuPhstorFKmaCqqxmXiiOafdQhJraNYdTHcBNrkKprFxzIamlhZkjuukWUheMnHsklXdTHjDojDojDojDocLHjDojDojDojDojDojDojTIkNKhlcrVUbjrbjrhlcrVUkNKdTHdTHdTHdTHvlJjANjANrHYjANjANjANjANlUGjANmymxhnaNYdTHrFKhhldTHlIydTHtchrFKmyWaNYrFKiOTqlKqlKnmBdTHqlKgCVqlKklLrFKqqxjYygaWilcrFKaDVaDVaDVkoHaPqjVhkoHkoHcBZsKIrDLlNplNprNVkoHyiXaGZyiXeiHrNVrLkkoHbtPrNVnPyoeeoeeoeeoeefProeerNVccvqGgoOyfKBmjarNVqqxpxjbljoJJfANjDirVqucafANfANfANfANwjdwjdfANfANfANfANqqxgaWgaWilcrFKjzngLAeQdrkKrFKaFphoPgqvsWa
+sWagqvdTHpWkwQdhGOhNZdTHtvrdTHqVFmFPegJoPddTHjEEuPztBQdTHqgSrfYpxLnxqowmnNGlGYkNKyaSuDTuDTuDTszNfPokNKkNKkNKkNKkNKoxtkNKkNKwqpbpLkNKkNKkNKkNKkNKkNKkNKqQhiOagaWilckpfiSgxvWgwMreaeqKeqKtiEeqKeqKncgreafANvWnrFKgLpjANstojANanUjANjANrFKsBgqqxgaWgaWjLKilcaNYdTHdTHbaqdTHdTHdTHdTHcoivVakWUcoismedTHdTHdTHdTHdTHdTHdTHdTHdTHhVEaNYkNKkNKkNKinCinCinCrVUpmHpmHkNKgLpmFPfqtjANhAgjANfqtjANjANjANqXzjANeedjANssKiOoaNYwvAmFPmFPrdymFPwvAtchdTHduqdCodTHiOTqlKqlKnmBdTHgzTgCVqlKqlKghQqqxgaWgaWilcrNVaPqaPqaPqkoHnPfrNVuwfuwfrFKvrWvrWsKIsKIrFKaPqhOYaPqhOYaPqrFKrLkkoHjLBrNVuNRuNRwPcoeeoeeuNRuNRmUtqVFtchmFPmFPmFPmUtqqxgaWgaWoJJgoroVZoVZucabVlucaucabVlvAavAaucaucaucafANqqxiOagaWilcrFKqNamFPmFPgaIdTHsKIsKIgqvsWa
+sWagqvdTHuDOkZokZodTHdTHtvrsVbmkMrfYqVFxyIdTHgWDdSUokMdTHugbtHZdTHvQhpHsdTHmJAkNKkNKkNKpPekNKkNKkNKkNKtTauFyaDnecQaUGkNKhtYnqvmEOwFKmEOrtukSCnqvwFKiOpqqxgaWgaWilcfANuNflOigwMjPvncgeqKtiEtiEtiEeqKsACfANkIsrFKrFKrFKrFKrFKrFKwcorFKrFKuwKbGgczagaWgaWilcaNYdTHbaqjSugiMhsTlPVdTHwdAhqObLirPufiWdTHdTHdTHdTHhlebGGkWUapldTHtrKaNYkNKwTHpmHpmHpmHinCnqSnqSqrNkNKpfFjovjovjovjovjovjovenaazhuZGjANmFPiIbmFPgycdTHaNYdUGugbmFPmFPmFPwvAtchrFKqKGaNYdTHrFKrFKrFKdTHdTHdTHrFKdTHdTHdTHqqxlHXgaWilcrNVupyhUYawTupyupyrNVuwfmkErFKfkffkffkffkfrFKaPquwfuwfaPqaPqsyPxnlaPqjdWrNVlXqoeeoeeoeeoeeuXyoeerNVmFPcqouMOwzeuMOrNVqqxiOagaWkjNgorkEcucaucafANmRPmRPfANkYpeUjrzejCnucafANqqxgaWgaWilcrFKyeUtchlUudTHdTHmvxsKIgqvsWa
+sWagqvdTHdTHofXdTHdTHguOlGYdTHcTTjXDwcXqNadTHdTHdTHwUtdTHdTHdTHdTHagclHEdTHnUFkNKtZOmUKllkptnptnptnkNKuTQxuUiOgqwlnqvtthnqvnqvbGVoqbmEOvEMnqvnqvgKnvjIqqxgaWgaWilcfANfANfANfANfANisBpdioorvAugqmctCxtBfANlSVkQstYPkKRkIsaspphAbDQiAKgLstrKqqxgaWgaWgaWilcaNYcJKrxNflLqWzbaqygAdxKamlamlkWUkWUcoidTHbTRbTRdTHksLsrIsrIkWUdTHaNYhVEkNKqVwpmHdqbpmHinCpmHpmHpmHkNKhnrorNyfBrxmrxmlskwNlhBrvmsdTHwKngLpjANrHYqXzdTHaNYdTHeCEmFPmFPmFPvuBdSydTHaNYaNYaNYaNYaNYaNYaNYaNYaNYqKGhVEaNYaNYqqxiOagaWilcrNVwgoxdkxdkiqKfbdrNVuwfmkErFKrNVrNVrbarbarbaaPqgAJgNvvtkaPqrNVwKiaPqltDrFKuNRuNRoeeoeeoeeuNRuNRrNVxJzrNVxkzrNVaierNVqqxpxjbljilcfANsSqsSqfANfANfANfANfANvAakYpoVZoVZucafANqqxiOagaWilcdTHsbRtchqNadTHkgEtGWslpgqvsWa
+sWagqvdTHmKHeifdTHaVOvikkjSdTHdTHdTHdTHhiOdTHmogdTHdWjdTHoIrmFPkJVnxqgKvdTHnypkNKllktoBllkptneyIptnkNKtDznwxxlpuyYeAkkNKnqvnqvbGVmBmmEOkXHnqvnqvgHvvjIcdPiOagaWilcoIppMMpMMfANdmHfANxRYeqKreareaeqKxPzfANvQpmdMmRCkgFrKVbifkKRfEMdFkkKRxbWqqxiOaiOaiOailcaNYqIxrxNuBtneAflLlQEdxKdxKdTHkWUkWUdTHdTHflLrFwdTHkWUsnJkWUilXdTHaNYqKGkNKbVXqlKsTTqlKtqotqotqotqokNKhnrnjAmkamkamkawPRmkabEJazhojUjANjANjANmFPqErdTHaNYdTHnNGnNGlIylIydTHdSydTHaNYdTHrFKdTHrFKaNYaNYaNYaNYaNYaNYaNYaNYqqxiOagaWilcrFKwgoxdkxdkiqKdDSrFKuwfmkErNVnPCoRJnCEoRJuwfuwfiMXmkEhOYjlVrFKwKiaPqhImrFKfProeeoeeoeeoeelXqoeemUtmFPmFPjANqVFjANmUtqqxgaWgaWilcwjdvAavAavAavAakYpvAavAakYpkYpoVZoVZucafANqqxgaWgaWilcoIqmFPhMHmFPdTHxAkxewqpqgqvsWa
+sWagqvdTHdTHdTHdTHhVEePZlsWsjKgHVlstdTHwpZuHkiVOdTHhHqdTHdTHvuBdTHdTHvuBdTHqdSkNKkNKkNKkNKkNKllkptnkNKbCqtgNmWyexOnwxtthnqvnqvgyqhXccEctrFbBQkYDkNKkNKeuCucRgaWwCloIppMMpMMfANeqKeqKeqKeqKxtZgWKcUEhLNfANrXNdTHvtXdTHdTHdTHdTHdTHuRMdTHdTHqqxgaWgaWgaWilcaNYdTHbaqbaqflLflLbaqbaqflLdTHhUCflLflLrkKflLbaqiTccoisrIkWUkWUdTHtSuxsZkNKccXpmHtWopmHpmHqlKqlKqlKdMghnrlovmkamkamkamkamkaksJjANqXzoQUmFPdnDmFPdnDxhnaNYvmNmFPmFPvBosgddTHlvprFKaNYdTHoPYoVMrFKdTHdTHdTHrFKrFKdTHrFKrFKkHAiOagaWilcrFKwgoxdkxdkxdkiqKrFKaPqaPqjVhaPqaPquwfaPquwfmkEmkEmkEaPqjlVrNVwKiaPqqfLrFKlzaoeeoeeoeeoeeoeeoeerNVwCPwCPmFPdIfcSgrNVqqxhHMgaWilcwjdvAavAavAavAakYpvAavAakYpkYpoVZoVZucafANqqxgaWgaWilcdTHmFPvSLchAdTHsKIsKIlaJgqvsWa
+sWagqvgqvgqvgqvgqvgqvbxGlsWjKCbxktExtAvlHrqrlwpZdTHmmudTHeCElLTxFBdTHpnLdTHjNBkNKjqaoTfasSkNKllkdRabpLwhznwxfeonwxdxRkNKnqvnqvpfTwrrwrrwrrxsEkNDdNPaNYqQhiOahoXwKfreMpMMpMMfANfANfANfANfANfANfANfANfANfANdTHdTHcWYcJeaLzdTHgBgndDmvqaNtxdyqqxiOaiOaiOailcaNYdTHkZEmrjflLvYTsXaamlflLdTHflLxzIflLoTrflLflLdTHdTHdxKdxKdTHdTHtSuaNYkNKelVrVUnxVrVUcrmxXYvSgqlKkNKhVdlovmkamkamkamkamkaksJazhjANjANeQdmFPjANjANiOoaNYpZsmFPmFPtchtchnNGmFPdTHaNYrFKwpZwpZdTHrOTxpedTHmftmFPxyIpcZdTHgWBnsBluivDPrFKrNVrNVrNVrNVrFKrFKrFKrNVrNVrNVrNVrFKrFKrFKrFKrNVrNVrFKrFKrFKrNVrNVrFKrFKiyBiyBiyBiyBiyBcnZiyBrNVrNVrNVvuBrNVrNVrNVqqxpxjbljilcfANcTOsSqfANfANfANfANfANucaucapxGuqqxSJfANqqxiOagaWilcdTHmFPdTHdTHdTHdTHcPbwrxgqvsWa
+sWasWasWasWasWasWagqvehdlsWdTHprSlifdTHbfJrMoxwbdTHhHqdTHwCYmFPugbdTHdTHdTHkTmkNKjFJfeajqakNKllkllkbpLbCqtgNnwxfTinwxwQjnqvnqvbBQwrrpROwrrmrWfSThgGaNYqqxjVWqPGpMMpMMpMMpMMpMMgxXcJtucccJtuccdTHvzGvzGvzGdTHusbpQhkUBkUBiQUtbzhaCtThxcbiOoqqxgaWgaWgaWilcaNYwDNfMWaorndKrfdwXKmeTkVzflLkVzrkKhEpkVzkVzkVziTckWUcIBmdskWUdTHaNYaNYkNKdRopmHpmHpmHpmHpmHpmHpmHkNKhnrnXhjThmkamkamkamkawDBjANjANcRYmFPrFgjANleSdTHaNYdTHxlmjzndSydSyhJCtchrFKaNYdTHdTHfDMdTHdTHxPMdTHxlAiDbmFPhktrFKqqxgaWgaWaRCryMryMryMryMryMryMryMryMryMryMryMryMryMryMryMryMryMryMryMryMryMryMryMqOCkLokLokLokLotGHcKYryMryMryMryMuddryMryMryMryMwSygaWgaWilcgorkEcucaucafANucaucavpftTOoVZpxGiSoxSJfANqqxgaWtZUilcrFKrkKdTHccZjuYrFKsKIxHJgqvsWa
+lFplFplFplFplFpsWagqvabefJbdTHdTHdTHdTHdTHsVbdTHdTHmmudTHdTHsVbdTHdTHjWajQXleykNKasSfeafeaaztllkllkeoQjsWjsWnwxnwxjsWkNKnqvnqvbBQwrrjwKwrrpRObBQhgGaNYqqxpMMpMMpMMpMMkGGpMMrIMydRskmskmskmdnVdTHvWQlNQkrymijdNuoHkajkosHiQUaNtkhjaNtewkeLFqqxgaWgaWgaWilcaNYinYrKXsXameTaeqvSXyccxzIdTHuIDflLflLkVzawEsncdTHkWUkWUsrIazRdTHaNYtSukNKkNKkNKkNKkNKqlKqlKqlKpmHkNKhnreqasCewXawXafBtacWhBrazhmFPjANjANmFPrfYjANiOoaNYrFKxrPdTHdTHrFKrFKrFKdTHaNYrFKwpZwpZpfatuCwpZdTHmFPwCYmjamFPrFKqqxgaWgaWbGCbGCbGCbGCbGCbGCbGCbGCbGCbGCbGCbGCbGCnKBhoXclHbJepMMdUwcTttLotLojWlbGCbGCbGCbGCbGCbGCbGCbGCbGCbGCbGCbGCbGCbGCbGCbGCbGCtLigaWgaWilcfANucaucaucabVloVZoVZuqqaScoVZoVZucaucafANqqxiOagaWilcrFKeQddTHrkKrkKrFKjlQgqvgqvsWa
+lFplYJlYJlYJlFpsWagqvxGGeXJrkiguOqSpqdSaQPskidSUmmuhBymmummummudSUnOhdKOlFcaehkNKjqafeajqakNKptnptnbpLjsWjsWnwxnwxjsWtthwOEnqvdPnemGqiSghKtrFuNsdNPxsZqqxpMMpMMpMMesVdGMjqEpMMerOlHWgKalHWwJhdTHqGLybPcQUdTHdGUnpWsTFkUBiQUsGRtZptThjIriOoqqxgaWgaWkOBilcaNYdTHbLDmfvmPwxpLmfvqNTflLdTHxzIhEpflLmqGflLprFdxKvJJkWUaUOhQydTHaNYaNYaNYpeppepxNKkNKoFkqKwetTjRMkNKjbRjwOjwOjwOjwOjwOjwOazHgLpjANcRYjANcRYuZGleSxhnaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYdTHvjAaJmwpZwpZwpZphltchqwdmFPrfYkJVqqxoeejWHoeelXqoeeoeeoeeoeeoeeoeeoeeoeelHXoeecVrhoXqPGpMMpMMpfUpSpdUwcTtwlZoeeoeeoeeoeelHXoeeoeeoeeoeeoeeoeeoeeoeeoeeoeeoeeoeeoeedfwjWHjWHilcfANjFNjpatUpfANjANucalnQlnQucapxGiSoaHrfANqqxgaWklQilcdTHrdycVprkKkVIkVIlsWtvrgqvsWa
 lFplYJmGMlYJlFpsWagqvjxttvraNYnAEhQQeLJplCxYsgxTmmuobAdSUwwytIHmmubHuqwSaehdSQkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKkNKaNYqqxpMMpMMxFWpMMpMMpMMpMMpMMpMMpMMdSjpMMdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHqqxiOaiOaiOailcaNYdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHeSfcCaaNYaNYaNYkyrkNKkNKkNKkNKkNKkNKdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHdTHaNYaNYaNYaNYaNYaNYaNYaNYaNYaNYrFKrFKrFKdTHdTHrFKrFKdTHdTHdTHrFKdTHpnhjDojDojDojDojDojDojDojDojDojDojDojDojDojDojDodbWdFapMMpMMpMMpMMpMMqAnjDojDojDojDojDojDojDojDojDojDojDojDojDojDojDojDojDojDojDojDojDorEVulsfANfANfANfANfANfANfANfANfANfANfANfANfANfANqqxiOagaWilcdTHdTHrFKrFKkVIlGYlsWtvrgqvsWa
 lFplYJlYJlYJlFpsWagqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvpMMpMMgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvoeeoeeoeegqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvgqviOagaWgqvgqvgqvgqvgqvgqvgqvgqvgqvgqvsWa
 lFplFplFplFplFpsWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWarHHrHHsWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWarHHrHHrHHsWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWasWarHHrHHrHHrHHsWasWasWasWasWasWasWasWasWasWa

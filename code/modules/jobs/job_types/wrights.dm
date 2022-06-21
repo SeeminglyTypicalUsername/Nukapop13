@@ -63,7 +63,7 @@
 	backpack_contents = list(
 		/obj/item/ammo_box/shotgun/buck = 1,
 		/obj/item/ammo_box/m44 = 1,
-		/obj/item/storage/bag/money/small/reno/onefivezero = 1,
+		/obj/item/storage/bag/money/small/reno/cap/onefivezero = 1,
 		/obj/item/circular_saw = 1,
 		/obj/item/melee/onehanded/knife/switchblade = 1,
 		/obj/item/reagent_containers/food/snacks/grown/tobacco/dried = 2,
@@ -112,7 +112,7 @@
 	satchel = /obj/item/storage/backpack/satchel/leather
 //	r_hand =
 	//l_hand =
-	l_pocket = /obj/item/storage/bag/money/small/reno/onezerozero
+	l_pocket = /obj/item/storage/bag/money/small/reno/cap/onezerozero
 	r_pocket = /obj/item/ammo_box/m44
 	//mask =
 	head = /obj/item/clothing/head/helmet/f13/wrights/tophat
@@ -167,7 +167,7 @@
 	satchel = /obj/item/storage/backpack/satchel
 	//r_hand =
 	//l_hand =
-	l_pocket = /obj/item/storage/bag/money/small/reno/sevenzero
+	l_pocket = /obj/item/storage/bag/money/small/reno/cap/sevenzero
 	r_pocket = /obj/item/ammo_box/a556/sport/improvised
 	mask = /obj/item/clothing/mask/cigarette/cigar
 	head =/obj/item/clothing/head/helmet/f13/wrights/tophat
@@ -225,7 +225,7 @@
 	satchel = /obj/item/storage/backpack/satchel
 //	r_hand =
 	//l_hand =
-	l_pocket = /obj/item/storage/bag/money/small/reno/fivezero
+	l_pocket = /obj/item/storage/bag/money/small/reno/cap/fivezero
 	//r_pocket =
 //	mask = /obj/item/clothing/mask/cigarette/cigar
 	head = /obj/item/clothing/head/bowler

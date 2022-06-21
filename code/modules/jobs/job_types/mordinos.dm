@@ -65,7 +65,7 @@
 	backpack_contents = list(
 		/obj/item/ammo_box/shotgun/buck = 1,
 		/obj/item/ammo_box/m44 = 1,
-		/obj/item/storage/bag/money/small/reno/onefivezero = 1,
+		/obj/item/storage/bag/money/small/reno/cap/onefivezero = 1,
 		/obj/item/circular_saw = 1,
 		/obj/item/melee/onehanded/knife/switchblade = 1,
 		)
@@ -113,7 +113,7 @@
 	satchel = /obj/item/storage/backpack/satchel/leather
 //	r_hand =
 	//l_hand =
-	l_pocket = /obj/item/storage/bag/money/small/reno/onezerozero //placeholder
+	l_pocket = /obj/item/storage/bag/money/small/reno/cap/onezerozero //placeholder
 	r_pocket = /obj/item/ammo_box/m44
 	mask = /obj/item/clothing/mask/cigarette/cigar/ncr
 	head = /obj/item/clothing/head/helmet/f13/mordinos/fedora
@@ -169,7 +169,7 @@
 	satchel = /obj/item/storage/backpack/satchel
 //	r_hand =
 	//l_hand =
-	l_pocket = /obj/item/storage/bag/money/small/reno/sevenzero
+	l_pocket = /obj/item/storage/bag/money/small/reno/cap/sevenzero
 	r_pocket = /obj/item/ammo_box/c38
 	mask = /obj/item/clothing/mask/cigarette/cigar
 	head = /obj/item/clothing/head/helmet/f13/mordinos/fedora
@@ -226,7 +226,7 @@
 	satchel = /obj/item/storage/backpack/satchel/explorer
 //	r_hand =
 	//l_hand =
-	l_pocket = /obj/item/storage/bag/money/small/reno/fivezero
+	l_pocket = /obj/item/storage/bag/money/small/reno/cap/fivezero
 	mask = /obj/item/clothing/mask/cigarette/bigboss
 	head = /obj/item/clothing/head/helmet/f13/mordinos/fedora
 //	neck = /obj/item/storage/belt/holster/legholster
@@ -289,7 +289,7 @@
 	satchel = /obj/item/storage/backpack/satchel/explorer
 	id = /obj/item/card/id/reno/mordinos/papers/worker
 	r_pocket = /obj/item/card/slotmachine
-	l_pocket = /obj/item/storage/bag/money/small/reno/fivezero
+	l_pocket = /obj/item/storage/bag/money/small/reno/cap/fivezero
 	shoes = /obj/item/clothing/shoes/laceup
 	uniform = /obj/item/clothing/under/f13/bartenderalt
 
@@ -342,7 +342,7 @@
 	backpack_contents = list(
 		/obj/item/reagent_containers/hypospray/medipen/stimpak=2, \
 		/obj/item/healthanalyzer=1, \
-		/obj/item/storage/bag/money/small/reno/fourzero)
+		/obj/item/storage/bag/money/small/reno/cap/fourzero)
 
 /datum/outfit/job/wasteland/f13dendoctor/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()

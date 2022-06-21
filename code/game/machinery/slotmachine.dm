@@ -76,7 +76,7 @@
 	update_icon()
 
 /obj/machinery/computer/slot_machine/attackby(obj/item/I, mob/living/user, params)
-	if(istype(I, /obj/item/stack/f13Cash/ncr))
+	if(istype(I, /obj/item/stack/f13Cash))
 		var/obj/item/stack/f13Cash/caps/C = I
 		if(prob(2))
 			if(!user.transferItemToLoc(C, drop_location()))
@@ -92,7 +92,7 @@
 			balance += C.amount
 			qdel(C)
 	else if(istype(I, /obj/item/stack/f13Cash))
-		to_chat(user, "<span class='warning'>[src] only accepts ncr dollars!</span>")
+		to_chat(user, "<span class='warning'>[src] only accepts hub currency!</span>")
 		return
 	else if(istype(I, /obj/item/card/slotmachine))
 		if(consumed_money > 0)
@@ -287,7 +287,7 @@
 		money = max(0, money - amount)
 	// Spawn the money
 	playsound(src, 'sound/items/coinflip.ogg', 60, 1)
-	var/obj/item/stack/f13Cash/ncr/winning_money = new /obj/item/stack/f13Cash/ncr
+	var/obj/item/stack/f13Cash/winning_money = new /obj/item/stack/f13Cash
 	winning_money.amount = amount_to_give
 	winning_money.update_desc()
 	winning_money.update_icon()

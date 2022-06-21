@@ -29,7 +29,7 @@
 	satchel = /obj/item/storage/backpack/satchel/leather
 	r_hand = /obj/item/cane
 	//l_hand =
-	l_pocket = /obj/item/storage/bag/money/small/reno/onezerozero //placeholder
+	l_pocket = /obj/item/storage/bag/money/small/reno/cap/onezerozero //placeholder
 //	r_pocket =
 	mask = /obj/item/clothing/mask/cigarette/cigar/ncr
 	head = /obj/item/clothing/head/bowler
@@ -74,7 +74,7 @@
 	gloves = /obj/item/clothing/gloves/color/white
 	backpack = /obj/item/storage/backpack/satchel/leather
 	satchel = /obj/item/storage/backpack/satchel/leather
-	l_pocket = /obj/item/storage/bag/money/small/reno/fivezero //placeholder
+	l_pocket = /obj/item/storage/bag/money/small/reno/cap/fivezero //placeholder
 //	r_pocket =
 	head = /obj/item/clothing/head/helmet/f13/hotel/concierge/cap
 	shoes = /obj/item/clothing/shoes/laceup
@@ -132,7 +132,7 @@
 	satchel = /obj/item/storage/backpack/satchel/explorer
 	r_hand = /obj/item/gun/ballistic/automatic/autopipe
 	//l_hand =
-	l_pocket = /obj/item/storage/bag/money/small/reno/sevenzero //placeholder
+	l_pocket = /obj/item/storage/bag/money/small/reno/cap/sevenzero //placeholder
 	//r_pocket =
 	mask = /obj/item/clothing/mask/ncr_facewrap
 	//head =
@@ -174,7 +174,7 @@
 	satchel = /obj/item/storage/backpack/satchel/explorer
 	//r_hand = /obj/item/gun/ballistic/revolver/caravan_shotgun
 	//l_hand =
-	l_pocket = /obj/item/storage/bag/money/small/reno/sevenzero //placeholder
+	l_pocket = /obj/item/storage/bag/money/small/reno/cap/sevenzero //placeholder
 //	r_pocket =
 	//mask = /obj/item/clothing/mask/cigarette/cigar/ncr
 	//head = /obj/item/clothing/head/bowler
@@ -219,7 +219,7 @@
 	satchel = /obj/item/storage/backpack/satchel/explorer
 	//r_hand = /obj/item/gun/ballistic/revolver/caravan_shotgun
 	//l_hand =
-	l_pocket = /obj/item/storage/bag/money/small/reno/sevenzero //placeholder
+	l_pocket = /obj/item/storage/bag/money/small/reno/cap/sevenzero //placeholder
 //	r_pocket =
 	//mask = /obj/item/clothing/mask/cigarette/cigar/ncr
 	//head = /obj/item/clothing/head/bowler
@@ -462,7 +462,7 @@
 	id = /obj/item/card/id/reno/yakuza/ring
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
-	l_pocket = /obj/item/stack/f13Cash/ncr/fourzero
+	l_pocket = /obj/item/storage/bag/money/small/reno/cap/fourzero
 //	r_pocket =
 	head = /obj/item/clothing/head/rice_hat
 	shoes = /obj/item/clothing/shoes/f13/raidertreads
@@ -496,7 +496,7 @@
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
 	r_hand = /obj/item/gun/ballistic/rifle/hunting
-	l_pocket = /obj/item/stack/f13Cash/ncr/fourzero
+	l_pocket = /obj/item/storage/bag/money/small/reno/cap/fourzero
 //	r_pocket =
 	head = /obj/item/clothing/head/scarecrow_hat
 	mask = /obj/item/clothing/mask/facewrap
@@ -547,7 +547,7 @@
 	jobtype = /datum/job/citizens/f13renoraider
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
-	l_pocket = /obj/item/storage/bag/money/small/reno/onezero //placeholder
+	l_pocket = /obj/item/storage/bag/money/small/reno/cap/onezero //placeholder
 	id = null
 	shoes = /obj/item/clothing/shoes/jackboots
 	backpack_contents = list(
@@ -757,7 +757,7 @@
 	backpack_contents = list(
 		/obj/item/card/id/dogtag/town/ncr = 1,
 		/obj/item/melee/onehanded/club = 1,
-		/obj/item/storage/bag/money/small/reno/onezerozero = 1)
+		/obj/item/storage/bag/money/small/reno/cap/onezerozero = 1)
 
 /datum/outfit/loadout/ncroffduty
 	name = "NCRA Off-Duty"
@@ -776,7 +776,7 @@
 		/obj/item/melee/onehanded/knife/bayonet = 1,
 		/obj/item/clothing/under/f13/ncr/ncr_shorts = 1,
 		/obj/item/ammo_box/a308 = 2,
-		/obj/item/storage/bag/money/small/reno/threezero = 1)
+		/obj/item/storage/bag/money/small/reno/cap/threezero = 1)
 
 /datum/outfit/loadout/vaultcityscientist
 	name = "Vault City Scientist"
@@ -792,7 +792,7 @@
 		/obj/item/pda = 1,
 		/obj/item/card/id = 1,
 		/obj/item/storage/backpack/duffelbag/med = 1,
-		/obj/item/storage/bag/money/small/reno/fivezero = 1)
+		/obj/item/storage/bag/money/small/reno/cap/fivezero = 1)
 
 /datum/outfit/loadout/vaultcitytourist
 	name = "Vault City Tourist"
@@ -802,7 +802,7 @@
 		/obj/item/melee/classic_baton/telescopic = 1,
 		/obj/item/card/id = 1,
 		/obj/item/pda = 1,
-		/obj/item/storage/bag/money/small/reno/onezerozero = 1)
+		/obj/item/storage/bag/money/small/reno/cap/onezerozero = 1)
 
 /datum/outfit/loadout/vaultcitydiplomat
 	name = "Vault City Diplomat"
@@ -814,7 +814,7 @@
 		/obj/item/pda = 1,
 		/obj/item/pen = 1,
 		/obj/item/storage/secure/briefcase = 1,
-		/obj/item/storage/bag/money/small/reno/fivezero = 1)
+		/obj/item/storage/bag/money/small/reno/cap/fivezero = 1)
 
 /datum/outfit/loadout/vaquero
 	name = "Vaquero"
@@ -828,7 +828,7 @@
 	backpack_contents = list(
 		/obj/item/ammo_box/a357 = 1,
 		/obj/item/card/id/dogtag/town/ncr = 1,
-		/obj/item/storage/bag/money/small/reno/sevenzero = 1)
+		/obj/item/storage/bag/money/small/reno/cap/sevenzero = 1)
 
 /datum/outfit/loadout/reporter
 	name = "Reporter"
@@ -845,7 +845,7 @@
 		/obj/item/gun/energy/disabler = 1,
 		/obj/item/reagent_containers/spray/pepper = 1,
 		/obj/item/wallframe/newscaster = 1,
-		/obj/item/storage/bag/money/small/reno/sevenzero = 1)
+		/obj/item/storage/bag/money/small/reno/cap/sevenzero = 1)
 
 /datum/outfit/loadout/detective
 	name = "Detective"
@@ -866,7 +866,7 @@
 		/obj/item/storage/box/gloves = 1,
 		/obj/item/storage/box/evidence = 1,
 		/obj/item/ammo_box/a357 = 1,
-		/obj/item/storage/bag/money/small/reno/threezero =1)
+		/obj/item/storage/bag/money/small/reno/cap/threezero =1)
 
 /datum/outfit/loadout/ncrpolice
 	name = "NCR Police"
@@ -882,7 +882,7 @@
 		/obj/item/card/id = 1,
 		/obj/item/card/id/dogtag/town/ncr = 1,
 		/obj/item/ammo_box/a357 = 1,
-		/obj/item/storage/bag/money/small/reno/threezero = 1)
+		/obj/item/storage/bag/money/small/reno/cap/threezero = 1)
 
 /datum/outfit/loadout/gambler
 	name = "Gambler"
@@ -894,7 +894,7 @@
 	backpack_contents = list(
 		/obj/item/card/id/dogtag/town/ncr = 1,
 		/obj/item/ammo_box/a357 = 1,
-		/obj/item/storage/bag/money/small/reno/onefivezero = 1)
+		/obj/item/storage/bag/money/small/reno/cap/onefivezero = 1)
 
 /*--------------------------------------------------------------*/
 
@@ -918,7 +918,7 @@
 	ears = /obj/item/pen
 	backpack = /obj/item/storage/backpack/satchel/leather/withwallet
 	satchel = /obj/item/storage/backpack/satchel/leather/withwallet
-	l_pocket = /obj/item/storage/bag/money/small/reno/threezerozero
+	l_pocket = /obj/item/storage/bag/money/small/reno/cap/sixzerozero
 	r_pocket = /obj/item/gun/ballistic/revolver/m29/snub
 	head = /obj/item/clothing/head/helmet/f13/marlowhat
 	id = null
