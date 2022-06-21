@@ -201,7 +201,7 @@
 
 /obj/item/storage/bag/money/small/reno/cap/threezero/PopulateContents()
 	// ~30 worth of assorted money
-	new /obj/item/stack/f13Cash/caps/cap/threezero(src)
+	new /obj/item/stack/f13Cash/caps/threezero(src)
 
 /obj/item/storage/bag/money/small/reno/cap/onezero/PopulateContents()
 	// ~10 worth of assorted money
