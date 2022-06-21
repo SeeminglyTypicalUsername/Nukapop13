@@ -283,7 +283,7 @@
 */
 /datum/outfit/job/bishops/f13casinoworker
 	name = "Casino Worker"
-	jobtype = /datum/job/mordinos/f13casinoworker
+	jobtype = /datum/job/bishops/f13casinoworker
 
 	//ears =
 	id = /obj/item/card/id/reno/bishops/papers/worker
