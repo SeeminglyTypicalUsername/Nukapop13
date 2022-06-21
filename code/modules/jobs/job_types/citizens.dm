@@ -311,7 +311,7 @@
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
 	gloves = /obj/item/clothing/gloves/f13/handwraps
-	r_pocket = /obj/item/storage/bag/money/small/reno/onezero
+	r_pocket = /obj/item/storage/bag/money/small/reno/cap/onezero
 	backpack_contents = list(
 		/obj/item/restraints/handcuffs = 2,
 		/obj/item/reagent_containers/hypospray/medipen/stimpak = 1,
@@ -369,7 +369,7 @@
 
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
-	l_pocket = /obj/item/stack/f13Cash/ncr/fivezero
+	l_pocket = /obj/item/storage/bag/money/small/reno/cap/fivezero
 	id = null
 	shoes = /obj/item/clothing/shoes/jackboots
 	backpack_contents = list(
