@@ -149,7 +149,7 @@
 	)
 */
 /datum/outfit/job/salvatores/f13capo
-	name = "Underboss"
+	name = "Capo"
 	jobtype = /datum/job/salvatores/f13capo
 
 	//ears =
@@ -161,7 +161,7 @@
 	//r_hand =
 	//l_hand =
 	l_pocket = /obj/item/storage/bag/money/small/reno/cap/sevenzero
-	r_pocket = /obj/item/stock_parts/cell/ammo/ec
+	r_pocket = null
 	mask = /obj/item/clothing/mask/cigarette/cigar
 	head = /obj/item/clothing/head/helmet/f13/salvatores/fedora
 	neck = /obj/item/storage/belt/holster/legholster
@@ -222,8 +222,18 @@
 	shoes = /obj/item/clothing/shoes/laceup
 	uniform = /obj/item/clothing/under/f13/salvatores/soldier
 	//suit =
-	belt = /obj/item/gun/energy/laser/wattz/magneto
+	belt = null
 	//backpack_contents =
+
+/datum/outfit/job/salvatores/f13soldier/pre_equip(mob/living/carbon/human/H)
+	. = ..()
+	r_hand = pick(
+		/obj/item/melee/onehanded/knife/switchblade, \
+		/obj/item/melee/onehanded/club, \
+		/obj/item/gun/ballistic/automatic/hobo/zipgun, \
+		/obj/item/twohanded/sledgehammer, \
+		/obj/item/kitchen/knife, \
+		/obj/item/twohanded/baseball)
 
 /*--------------------------------------------------------------*/
 
