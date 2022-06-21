@@ -560,7 +560,11 @@
 	uniform = pick(
 		/obj/item/clothing/under/f13/merca, \
 		/obj/item/clothing/under/syndicate/camo, \
-		/obj/item/clothing/under/f13/mercc)
+		/obj/item/clothing/under/f13/mercc, \
+		/obj/item/clothing/under/f13/raider_leather, \
+		/obj/item/clothing/under/f13/raiderrags, \
+		/obj/item/clothing/under/pants/f13/ghoul, \
+		/obj/item/clothing/under/jabroni)
 
 /datum/outfit/loadout/raider_fugative
 	name = "Fugative"
@@ -622,7 +626,8 @@
 	backpack_contents = list(
 		/obj/item/clothing/under/f13/female/whitelegs = 1,
 		/obj/item/book/granter/trait/trekking = 1,
-		/obj/item/book/granter/trait/iron_fist = 1)
+		/obj/item/book/granter/trait/iron_fist = 1,
+		/obj/item/warpaint_bowl = 1)
 
 /datum/outfit/loadout/raider_khans
 	name = "Khan"
