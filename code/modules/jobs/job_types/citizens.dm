@@ -26,6 +26,7 @@
 	glasses = /obj/item/clothing/glasses/monocle
 	gloves = /obj/item/clothing/gloves/color/white
 	backpack = /obj/item/storage/backpack/satchel/leather
+	suit = /obj/item/clothing/suit/armor/f13/reno/bulletproof
 	satchel = /obj/item/storage/backpack/satchel/leather
 	r_hand = /obj/item/cane
 	//l_hand =
@@ -627,7 +628,8 @@
 		/obj/item/clothing/under/f13/female/whitelegs = 1,
 		/obj/item/book/granter/trait/trekking = 1,
 		/obj/item/book/granter/trait/iron_fist = 1,
-		/obj/item/warpaint_bowl = 1)
+		/obj/item/warpaint_bowl = 1,
+		/obj/item/book/granter/crafting_recipe/tribal/whitelegs)
 
 /datum/outfit/loadout/raider_khans
 	name = "Khan"

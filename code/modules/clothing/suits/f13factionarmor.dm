@@ -1095,3 +1095,16 @@
 	icon_state = "road_armor"
 	item_state = "road_armor"
 	armor = list("melee" = 35, "bullet" = 20, "laser" = 25, "bio" = 0, "rad" = 0, "fire" = 25, "acid" = 25) //up to change
+
+
+///////////
+//Misc//
+///////////
+
+/obj/item/clothing/suit/armor/f13/reno/bulletproof
+	name = "concealed kevlar armor"
+	desc = "A vest of kevlar that is concealable."
+	icon_state = "altbodyarmor"
+	item_state = "altbodyarmor"
+	armor = list("melee" = 20, "bullet" = 35, "laser" = 30, "bio" = 0, "rad" = 0, "fire" = 25, "acid" = 25) //up to change
+	body_parts_covered = CHEST

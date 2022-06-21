@@ -60,6 +60,7 @@
 	head = /obj/item/clothing/head/helmet/f13/salvatores/fedora
 	neck = /obj/item/storage/belt/holster/legholster
 	shoes = /obj/item/clothing/shoes/laceup
+	suit =/obj/item/clothing/suit/armor/f13/reno/bulletproof
 	uniform = /obj/item/clothing/under/f13/salvatores/don
 	belt = /obj/item/gun/energy/laser/pistol
 	//backpack_contents =
@@ -113,6 +114,7 @@
 	head = /obj/item/clothing/head/helmet/f13/salvatores/fedora
 	neck = /obj/item/storage/belt/holster/legholster
 	shoes = /obj/item/clothing/shoes/laceup
+	suit =/obj/item/clothing/suit/armor/f13/reno/bulletproof
 	uniform = /obj/item/clothing/under/f13/salvatores/officer
 	belt = /obj/item/gun/energy/laser/wattz/magneto
 	//backpack_contents =

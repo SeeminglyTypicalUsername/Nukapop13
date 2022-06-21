@@ -58,6 +58,7 @@
 	head = /obj/item/clothing/head/helmet/f13/wrights/tophat
 	neck = /obj/item/storage/belt/holster/legholster
 	shoes = /obj/item/clothing/shoes/laceup
+	suit =/obj/item/clothing/suit/armor/f13/reno/bulletproof
 	uniform = /obj/item/clothing/under/f13/wrights/boss
 	belt = /obj/item/gun/ballistic/revolver/m29
 	backpack_contents = list(
@@ -118,6 +119,7 @@
 	head = /obj/item/clothing/head/helmet/f13/wrights/tophat
 	neck = /obj/item/storage/belt/holster/legholster
 	shoes = /obj/item/clothing/shoes/laceup
+	suit =/obj/item/clothing/suit/armor/f13/reno/bulletproof
 	uniform = /obj/item/clothing/under/f13/wrights/officer
 	belt = /obj/item/gun/ballistic/revolver/m29
 	backpack_contents = list(
