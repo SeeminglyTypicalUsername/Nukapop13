@@ -549,6 +549,7 @@
 	jobtype = /datum/job/citizens/f13renoraider
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
+	ears = null
 	l_pocket = /obj/item/storage/bag/money/small/reno/cap/onezero //placeholder
 	id = null
 	shoes = /obj/item/clothing/shoes/jackboots
