@@ -1,6 +1,7 @@
 /datum/job/citizens
 	department_flag = CITIZENS
 	exp_type = EXP_TYPE_CITIZENS
+	maptype = "reno"
 
 /datum/job/citizens/f13hotelowner
 	title = "Hotel Owner"
