@@ -630,7 +630,7 @@
 		/obj/item/book/granter/trait/trekking = 1,
 		/obj/item/book/granter/trait/iron_fist = 1,
 		/obj/item/warpaint_bowl = 1,
-		/obj/item/book/granter/crafting_recipe/tribal/whitelegs)
+		/obj/item/book/granter/crafting_recipe/tribal/whitelegs = 1)
 
 /datum/outfit/loadout/raider_khans
 	name = "Khan"
