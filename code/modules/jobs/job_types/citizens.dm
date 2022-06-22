@@ -676,7 +676,7 @@
 	glasses = /obj/item/clothing/glasses/f13/biker
 	shoes = /obj/item/clothing/shoes/jackboots
 	backpack_contents = list(
-		/obj/item/grenade/frag = 5,
+		/obj/item/grenade/frag = 2,
 		/obj/item/melee/onehanded/machete/scrapsabre = 1)
 
 /datum/outfit/loadout/raider_manhunter

@@ -4,21 +4,23 @@
 "al" = (/obj/item/candle,/obj/structure/table/wood/fancy/purple,/turf/open/floor/wood/wood_tiled,/area/f13/building)
 "an" = (/obj/effect/decal/cleanable/dirt/dust,/obj/structure/table/wood,/obj/item/paper_bin,/obj/item/pen/fourcolor,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "ap" = (/obj/structure/chair/wood/fancy{dir = 8},/obj/effect/decal/cleanable/dirt{color = "000000"},/turf/open/floor/carpet/purple,/area/f13/building)
-"aq" = (/obj/structure/closet/cabinet,/turf/open/floor/carpet/red,/area/f13/building)
+"aq" = (/obj/structure/closet/cabinet,/obj/item/pda,/turf/open/floor/carpet/red,/area/f13/building)
 "as" = (/obj/item/reagent_containers/syringe,/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{name = "metal plating"; sunlight_state = 1},/area/f13/wasteland)
 "aB" = (/turf/closed/mineral/random/low_chance,/area/f13/caves)
 "aF" = (/obj/structure/simple_door/metal,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/neutral/neutralchess/neutralchess2,/area/f13/building)
 "aH" = (/obj/machinery/telecomms/server/presets/security,/turf/open/floor/plasteel/dark/telecomms/mainframe,/area/f13/tcoms)
 "aI" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/neutral/neutralchess/neutralchess2,/area/f13/building)
-"aN" = (/obj/effect/decal/cleanable/dirt,/obj/effect/landmark/start/f13/wrights/capo,/turf/open/floor/wood/f13/oak,/area/f13/building)
+"aN" = (/obj/effect/decal/cleanable/dirt,/obj/effect/landmark/start/f13/wrights/capo,/obj/item/radio/intercom/retro{pixel_x = 29},/turf/open/floor/wood/f13/oak,/area/f13/building)
 "aO" = (/obj/machinery/light/small{dir = 4},/turf/open/floor/wood/f13/carpet,/area/f13/building)
 "aS" = (/obj/structure/closet/cabinet/anchored,/obj/item/storage/pill_bottle/happy,/obj/item/pda,/turf/open/floor/wood/wood_tiled,/area/f13/building)
 "aU" = (/obj/effect/landmark/start/f13/soldier,/turf/open/floor/carpet/red,/area/f13/building)
-"aV" = (/obj/structure/chair/wood/fancy{dir = 8},/obj/effect/decal/cleanable/dirt{color = "000000"},/turf/open/floor/wood/wood_tiled,/area/f13/building)
+"aV" = (/obj/structure/chair/wood/fancy{dir = 8},/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/item/radio/intercom/retro{pixel_x = 29},/turf/open/floor/wood/wood_tiled,/area/f13/building)
 "aX" = (/obj/effect/decal/cleanable/dirt/dust,/obj/structure/table/wood/settler,/obj/item/paper_bin,/obj/item/pen,/obj/item/pen,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "aZ" = (/obj/machinery/hydroponics/soil/pot,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "bb" = (/mob/living/simple_animal/hostile/wolf,/turf/open/floor/wood/f13/housewoodbroken3,/area/f13/building)
 "bd" = (/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/structure/chair/sofa/corp/left{dir = 8},/obj/machinery/light{dir = 4},/turf/open/floor/carpet/purple,/area/f13/building)
+"be" = (/obj/structure/rack,/turf/open/floor/plasteel/dark,/area/f13/building)
+"bf" = (/obj/item/clothing/shoes/f13/raidertreads,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/f13/building)
 "bg" = (/obj/structure/legion_extractor,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "bu" = (/obj/structure/table/wood/settler,/obj/item/binoculars,/turf/open/floor/f13{icon_state = "darkdirtysolid"},/area/f13/wasteland)
 "bx" = (/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/structure/curtain{color = "#5c131b"},/turf/open/floor/carpet/red,/area/f13/building)
@@ -31,6 +33,8 @@
 "bT" = (/obj/structure/table/wood/poker,/obj/item/toy/cards/deck,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/grimy,/area/f13/building)
 "bV" = (/obj/structure/chair/wood/fancy{dir = 4},/obj/machinery/light{dir = 8},/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/effect/decal/cleanable/dirt{color = "000000"},/turf/open/floor/carpet/purple,/area/f13/building)
 "bX" = (/obj/structure/shelf_wood,/turf/open/floor/wood/f13/oak,/area/f13/building)
+"bZ" = (/obj/item/chair/wood/modern,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
+"cb" = (/obj/structure/rack,/obj/item/stack/sheet/mineral/wood/twenty,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/f13/building)
 "ce" = (/obj/structure/table,/obj/machinery/reagentgrinder,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "ci" = (/obj/structure/railing{dir = 1},/obj/effect/decal/cleanable/dirt,/turf/open/floor/carpet/brown,/area/f13/building)
 "cm" = (/obj/structure/table/reinforced,/obj/machinery/computer/terminal{dir = 8},/turf/open/floor/plasteel/f13{icon_state = "floorgrime"},/area/f13/building)
@@ -38,6 +42,7 @@
 "ct" = (/obj/structure/bookcase,/turf/open/floor/wood/f13/carpet,/area/f13/building)
 "cB" = (/turf/closed/wall/mineral/concrete,/area/f13/building)
 "cE" = (/obj/structure/wreck/trash/machinepiletwo,/turf/open/floor/f13{icon_state = "greendirtyfull"},/area/f13/building)
+"cJ" = (/obj/item/radio/intercom/retro{pixel_x = 29},/turf/open/floor/carpet/brown,/area/f13/building)
 "cR" = (/obj/structure/dresser,/obj/effect/decal/cleanable/dirt,/turf/open/floor/carpet/brown,/area/f13/building)
 "cT" = (/obj/structure/closet/crate/wooden,/turf/open/floor/plasteel/f13{icon_state = "floorgrime"},/area/f13/building)
 "cV" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/grimy,/area/f13/building)
@@ -105,13 +110,14 @@
 "gr" = (/obj/effect/decal/cleanable/dirt,/turf/closed/wall/mineral/concrete,/area/f13/building)
 "gt" = (/obj/structure/chair/stool/retro,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "gv" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak{icon_state = "oakfloor1-broken"},/area/f13/building)
+"gw" = (/obj/structure/rack,/obj/effect/decal/cleanable/dirt,/obj/item/gun/ballistic/revolver/hobo/knifegun,/turf/open/floor/plasteel/dark,/area/f13/building)
 "gx" = (/obj/structure/bed/pod,/obj/item/bedsheet/hos,/turf/open/floor/carpet/red,/area/f13/building)
 "gy" = (/turf/closed/indestructible/rock,/area/f13/caves)
 "gB" = (/turf/closed/wall/f13/wood/interior,/area/f13/building)
 "gC" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/f13/building)
 "gE" = (/obj/machinery/telecomms/broadcaster/preset_right,/turf/open/floor/plasteel/dark/telecomms/mainframe,/area/f13/tcoms)
 "gF" = (/obj/machinery/light_switch{pixel_x = 27},/turf/open/floor/plasteel,/area/f13/tcoms)
-"gH" = (/obj/structure/simple_door/metal/store{icon_state = "brokenstore"},/turf/open/floor/plasteel/dark,/area/f13/building)
+"gH" = (/obj/effect/decal/cleanable/dirt,/obj/machinery/mineral/wasteland_vendor/reno/nonalcoholic,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "gI" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/structure/closet/crate/bin,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "gN" = (/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/structure/closet/cabinet,/obj/item/camera,/obj/machinery/light/fo13colored/Red{dir = 8},/turf/open/floor/plasteel/f13/vault_floor/red/white,/area/f13/building)
 "gQ" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/old{icon_state = "housebase"},/area/f13/building)
@@ -123,7 +129,7 @@
 "hj" = (/obj/structure/dresser,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "hl" = (/obj/structure/bed/old,/obj/item/bedsheet/brown,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/grimy,/area/f13/building)
 "hm" = (/obj/structure/table,/obj/item/camera,/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "floorrustysolid"},/area/f13/building)
-"hs" = (/obj/structure/bookcase{icon_state = "book-2"},/turf/open/floor/wood/f13/carpet,/area/f13/building)
+"hs" = (/obj/item/radio/intercom/retro{pixel_x = -28},/turf/open/floor/wood/f13/oak,/area/f13/building)
 "hv" = (/turf/open/floor/wood/f13/oak,/area/f13/wasteland)
 "hy" = (/obj/structure/bookcase,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "hz" = (/turf/open/floor/plasteel/f13{icon_state = "floorgrime"},/area/f13/building)
@@ -136,11 +142,12 @@
 "hS" = (/obj/item/trash/f13/borscht,/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{name = "metal plating"; sunlight_state = 1},/area/f13/wasteland)
 "hT" = (/obj/structure/chair/sofa/left{dir = 8},/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "greendirtyfull"},/area/f13/building)
 "hU" = (/obj/machinery/light,/obj/effect/decal/cleanable/dirt{color = "000000"},/turf/open/floor/carpet/purple,/area/f13/building)
-"hX" = (/obj/structure/bookcase{icon_state = "book-2"},/turf/open/floor/wood/f13/oak,/area/f13/building)
+"hX" = (/obj/item/radio/intercom/retro{pixel_x = 29},/turf/open/floor/carpet/red,/area/f13/building)
 "ib" = (/obj/structure/table/wood/poker,/obj/item/dice,/obj/effect/decal/cleanable/dirt,/turf/open/floor/carpet/brown,/area/f13/building)
 "ij" = (/obj/structure/table,/obj/machinery/computer/terminal{dir = 4; termtag = "Public"},/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/f13/building)
 "ip" = (/obj/structure/window/fulltile/house{icon_state = "storewindowhorizontal"},/obj/structure/curtain{color = "#5c131b"},/turf/open/floor/plasteel/f13{icon_state = "plating"},/area/f13/building)
 "iq" = (/obj/machinery/light{dir = 8},/turf/open/floor/wood/f13/carpet,/area/f13/building)
+"iv" = (/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/machinery/camera{dir = 8},/turf/open/floor/carpet/purple,/area/f13/building)
 "iw" = (/obj/structure/table/wood/poker,/obj/item/toy/cards/deck,/turf/open/floor/wood/f13/carpet,/area/f13/building)
 "iB" = (/turf/open/floor/plasteel/dark/telecomms/mainframe,/area/f13/tcoms)
 "iF" = (/obj/structure/chair/wood/worn{dir = 4},/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
@@ -222,12 +229,12 @@
 "nf" = (/obj/structure/railing{dir = 1},/turf/open/floor/wood/f13/carpet,/area/f13/building)
 "ng" = (/turf/open/indestructible,/area/f13/tcoms)
 "nn" = (/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/structure/closet/cabinet,/obj/item/reagent_containers/pill/happy,/obj/item/reagent_containers/pill/happy,/obj/item/clothing/under/f13/formal,/obj/item/clothing/under/f13/bluedress,/turf/open/floor/wood/wood_tiled,/area/f13/building)
-"np" = (/obj/structure/simple_door/metal/store,/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/plasteel/dark,/area/f13/building)
+"np" = (/obj/structure/rack,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/f13/building)
 "nq" = (/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/structure/closet/cabinet,/obj/item/reagent_containers/pill/happy,/obj/item/reagent_containers/pill/happy,/obj/item/clothing/under/f13/spring,/obj/item/clothing/under/f13/housewifedress50s,/turf/open/floor/wood/wood_tiled,/area/f13/building)
 "nx" = (/obj/structure/simple_door/wood,/turf/open/floor/carpet/brown,/area/f13/building)
 "ny" = (/obj/structure/railing,/turf/open/floor/wood/f13/carpet,/area/f13/building)
 "nE" = (/obj/machinery/smartfridge/bottlerack,/obj/machinery/light{dir = 1},/turf/open/floor/wood/f13/oak,/area/f13/building)
-"nH" = (/obj/structure/chair/comfy/brown{dir = 8},/turf/open/floor/carpet/red,/area/f13/building)
+"nH" = (/obj/structure/chair/comfy/brown{dir = 8},/obj/item/radio/intercom/retro{pixel_x = 29},/turf/open/floor/carpet/red,/area/f13/building)
 "nU" = (/obj/structure/simple_door/house{icon_state = "room"},/turf/open/floor/wood/f13/oak,/area/f13/building)
 "oa" = (/obj/structure/closet/crate/wooden,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "ob" = (/turf/open/indestructible/ground/outside/ruins,/area/f13/wasteland)
@@ -282,7 +289,7 @@
 "rc" = (/obj/structure/chair/office/dark{dir = 8},/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/f13/building)
 "ri" = (/obj/machinery/mineral/wasteland_vendor/reno/nukacola_streets,/turf/open/floor/f13{icon_state = "greendirtyfull"},/area/f13/building)
 "rn" = (/obj/machinery/light{dir = 8},/turf/open/floor/plasteel/f13{icon_state = "floorgrime"},/area/f13/building)
-"ro" = (/obj/structure/bookcase{icon_state = "book-3"},/turf/open/floor/wood/f13/oak,/area/f13/building)
+"ro" = (/obj/effect/decal/cleanable/dirt,/obj/item/radio/intercom/retro{pixel_x = 29},/turf/open/floor/wood/f13/oak,/area/f13/building)
 "ru" = (/turf/open/floor/wood/wood_tiled,/area/f13/building)
 "rv" = (/obj/structure/bed/mattress{pixel_y = 1},/turf/open/floor/plasteel/dark,/area/f13/building)
 "ry" = (/obj/structure/chair/wood{dir = 4},/turf/open/floor/carpet/red,/area/f13/building)
@@ -298,6 +305,7 @@
 "sj" = (/obj/machinery/smartfridge/bottlerack,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "st" = (/obj/structure/railing{dir = 4},/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "sw" = (/obj/structure/chair/wood,/turf/open/floor/f13{icon_state = "greendirtyfull"},/area/f13/building)
+"sy" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "sz" = (/turf/open/floor/wood/f13/oak{icon_state = "oakfloor1-broken"},/area/f13/building)
 "sA" = (/obj/structure/closet/crate/wooden,/obj/machinery/light/small{dir = 4},/turf/open/floor/wood/f13/oak,/area/f13/building)
 "sC" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/spawner/lootdrop/grille_or_trash,/turf/open/floor/plasteel/f13/vault_floor/dark{icon_state = "darkrusty"; name = "grimy tile"},/area/f13/building)
@@ -305,6 +313,7 @@
 "sM" = (/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/housewoodbroken2,/area/f13/building)
 "sP" = (/obj/machinery/computer/telecomms/monitor{dir = 4; network = "tcommsat"},/turf/open/floor/plasteel/yellow/side{dir = 8},/area/f13/tcoms)
 "sX" = (/obj/structure/chair/wood/normal{dir = 4},/obj/effect/decal/cleanable/dirt{color = "000000"},/turf/open/floor/wood/wood_tiled,/area/f13/building)
+"sY" = (/obj/item/radio/intercom/retro{pixel_y = 27},/turf/open/floor/carpet/purple,/area/f13/building)
 "tc" = (/obj/structure/bed/mattress{icon_state = "mattress2"},/turf/open/floor/wood/cold,/area/f13/building)
 "th" = (/obj/effect/decal/cleanable/dirt/dust,/obj/effect/landmark/start/f13/soldier,/turf/open/floor/wood/f13/oak{icon_state = "oakfloor1-broken"},/area/f13/building)
 "ti" = (/obj/structure/chair/wood/worn{dir = 8},/obj/item/storage/secure/safe{pixel_y = 26},/obj/effect/landmark/start/f13/bishops/soldier,/turf/open/floor/wood/f13/oak,/area/f13/building)
@@ -315,10 +324,11 @@
 "tu" = (/obj/effect/landmark/start/f13/civilians/hotelowner,/turf/open/floor/carpet/purple,/area/f13/building)
 "tv" = (/obj/structure/obstacle/barbedwire/end,/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{name = "metal plating"},/area/f13/wasteland)
 "tw" = (/obj/structure/rack/shelf_metal,/obj/machinery/light,/turf/open/floor/wood/f13/oak,/area/f13/building)
+"tE" = (/mob/living/simple_animal/hostile/radroach{dir = 4},/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/f13/building)
 "tG" = (/obj/structure/table/wood/settler,/obj/item/reagent_containers/glass/beaker/waterbottle/large,/obj/item/reagent_containers/glass/beaker/waterbottle/large,/obj/item/reagent_containers/glass/beaker/waterbottle/large,/obj/item/reagent_containers/glass/beaker/waterbottle/large,/obj/item/reagent_containers/glass/beaker/waterbottle/large,/obj/item/reagent_containers/glass/beaker/waterbottle/large,/obj/item/reagent_containers/glass/bottle/nutrient/ez,/obj/item/reagent_containers/glass/bottle/nutrient/ez,/obj/item/reagent_containers/glass/bottle/nutrient/ez,/obj/item/reagent_containers/glass/bottle/nutrient/ez,/obj/item/reagent_containers/glass/bottle/nutrient/ez,/obj/item/reagent_containers/glass/bottle/nutrient/ez,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "tJ" = (/obj/machinery/light{dir = 4},/turf/open/floor/carpet/brown,/area/f13/building)
 "tK" = (/obj/structure/chair/pew,/turf/open/floor/wood/f13/oak,/area/f13/building)
-"tM" = (/obj/structure/simple_door/metal/store{icon_state = "brokenstore"; name = "service shutters"},/turf/open/floor/plasteel/dark,/area/f13/building)
+"tM" = (/obj/structure/rack,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/f13/building)
 "tV" = (/obj/structure/chair/wood/normal{dir = 8},/obj/effect/decal/cleanable/dirt{color = "000000"},/turf/open/floor/wood/wood_tiled,/area/f13/building)
 "tX" = (/obj/effect/decal/cleanable/dirt/dust,/obj/structure/filingcabinet,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "ua" = (/obj/structure/bed,/obj/item/bedsheet/rd,/turf/open/floor/carpet/red,/area/f13/building)
@@ -332,13 +342,17 @@
 "uQ" = (/obj/structure/shelf_wood,/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "uT" = (/turf/open/floor/f13{icon_state = "darkdirtysolid"},/area/f13/wasteland)
 "uV" = (/obj/machinery/telecomms/broadcaster/preset_left,/turf/open/floor/plasteel/dark/telecomms/mainframe,/area/f13/tcoms)
+"uZ" = (/obj/effect/decal/cleanable/dirt,/obj/structure/nest/radroach,/turf/open/floor/plasteel/dark,/area/f13/building)
 "va" = (/obj/structure/table/snooker{dir = 5},/obj/item/storage/box/donkpockets,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "vd" = (/obj/structure/bookshelf,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "vp" = (/obj/effect/decal/cleanable/dirt,/obj/machinery/light,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "vq" = (/turf/open/floor/wood/f13/oak{icon_state = "oakfloor2-broken"},/area/f13/building)
+"vt" = (/obj/item/radio/intercom/retro{pixel_x = 29},/turf/open/floor/wood/f13/carpet,/area/f13/building)
 "vu" = (/obj/structure/table/wood/poker,/obj/item/pizzabox/vegetable,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/carpet/brown,/area/f13/building)
 "vv" = (/obj/structure/chair/wood{dir = 8},/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "greendirtyfull"},/area/f13/building)
+"vy" = (/obj/item/radio/intercom/retro{pixel_x = 29},/turf/open/floor/wood/f13/oak{icon_state = "oakfloor4-broken"},/area/f13/building)
 "vz" = (/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/structure/dresser,/turf/open/floor/wood/f13/housewoodbroken,/area/f13/building)
+"vA" = (/obj/machinery/camera{dir = 8},/turf/open/floor/wood/f13/carpet,/area/f13/building)
 "vB" = (/obj/item/kirbyplants,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "vE" = (/obj/machinery/light{dir = 1; light_color = "#706891"},/turf/open/floor/wood/f13/oak,/area/f13/building)
 "vL" = (/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/wood/f13/oak{icon_state = "oakfloor4-broken"},/area/f13/building)
@@ -351,6 +365,7 @@
 "wi" = (/obj/structure/table/wood/fancy/purple,/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/effect/decal/cleanable/dirt{color = "000000"},/turf/open/floor/carpet/purple,/area/f13/building)
 "wj" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/wasteland)
 "wn" = (/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/machinery/button/door{id = "red"; name = "red room"; pixel_y = 23},/turf/open/floor/plasteel/f13/vault_floor/red/white,/area/f13/building)
+"wr" = (/obj/structure/table/wood,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "ws" = (/obj/machinery/mineral/wasteland_vendor/reno/smokes,/turf/open/floor/f13{icon_state = "greendirtyfull"},/area/f13/building)
 "wt" = (/obj/structure/rack,/obj/item/storage/toolbox/mechanical{pixel_x = -2; pixel_y = -1},/turf/open/floor/plasteel,/area/f13/tcoms)
 "wv" = (/obj/effect/decal/cleanable/dirt/dust,/obj/machinery/light{dir = 8},/obj/effect/landmark/start/f13/capo,/turf/open/floor/carpet/red,/area/f13/building)
@@ -365,6 +380,7 @@
 "wS" = (/obj/structure/window/fulltile/store{icon_state = "ruinswindowbroken"},/obj/structure/barricade/wooden/planks,/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{name = "metal plating"},/area/f13/building)
 "xe" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/carpet,/area/f13/building)
 "xm" = (/obj/machinery/light{dir = 1},/turf/open/floor/wood/f13/oak{icon_state = "oakfloor4-broken"},/area/f13/building)
+"xn" = (/obj/structure/rack,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/f13/building)
 "xs" = (/obj/item/twohanded/required/kirbyplants/random,/obj/effect/decal/cleanable/dirt{color = "000000"},/turf/open/floor/carpet/purple,/area/f13/building)
 "xz" = (/obj/structure/closet/cabinet,/obj/machinery/light{dir = 1; light_color = "#706891"},/turf/open/floor/wood/f13/oak,/area/f13/building)
 "xC" = (/obj/machinery/light{dir = 1},/turf/open/floor/circuit/telecomms/mainframe,/area/f13/tcoms)
@@ -384,11 +400,13 @@
 "yo" = (/obj/structure/chair/stool/bar,/obj/effect/decal/cleanable/dirt{color = "000000"},/turf/open/floor/carpet/purple,/area/f13/building)
 "yt" = (/obj/machinery/hydroponics/soil/pot,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "yy" = (/obj/structure/table/wood/poker,/obj/effect/decal/cleanable/dirt,/turf/open/floor/carpet/brown,/area/f13/building)
+"yD" = (/obj/structure/table/wood,/obj/item/chair/wood/modern,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "yL" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/overlay/junk/toilet{dir = 4; layer = 2.9},/turf/open/floor/f13{icon_state = "whitegreenrustychess"},/area/f13/building)
 "yQ" = (/obj/structure/rack/shelf_metal,/turf/open/floor/plasteel/f13{icon_state = "floorgrime"},/area/f13/building)
 "yT" = (/obj/structure/rack/shelf_metal,/obj/item/reagent_containers/food/drinks/bottle/brown/beer,/obj/item/reagent_containers/food/drinks/bottle/brown/beer,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "yV" = (/turf/open/floor/circuit/telecomms/mainframe,/area/f13/tcoms)
 "yZ" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/dark{icon_state = "darkrusty"; name = "grimy tile"},/area/f13/building)
+"za" = (/obj/structure/rack,/obj/item/stack/sheet/mineral/wood/twenty,/turf/open/floor/plasteel/dark,/area/f13/building)
 "zb" = (/obj/structure/fermenting_barrel,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "zi" = (/obj/structure/stairs/north{color = "#A47449"},/turf/open/floor/wood/f13/oak,/area/f13/building)
 "zl" = (/obj/structure/bed/pod{pixel_y = 14},/obj/item/bedsheet/rd{pixel_y = 13},/obj/effect/decal/cleanable/dirt{color = "000000"},/turf/open/floor/carpet/purple,/area/f13/building)
@@ -422,6 +440,7 @@
 "AV" = (/obj/effect/decal/cleanable/dirt,/mob/living/simple_animal/hostile/wolf{dir = 8},/turf/open/floor/plasteel/f13/vault_floor/dark{icon_state = "darkrusty"; name = "grimy tile"},/area/f13/building)
 "AW" = (/obj/structure/table,/obj/machinery/reagentgrinder,/obj/machinery/light,/turf/open/indestructible/ground/outside/ruins,/area/f13/building)
 "Be" = (/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/structure/chair/wood/normal{dir = 4},/turf/open/floor/wood/wood_tiled,/area/f13/building)
+"Bg" = (/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/machinery/camera{dir = 1},/turf/open/floor/plasteel/f13/vault_floor/red/white,/area/f13/building)
 "Bl" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/grimy,/area/f13/building)
 "Bm" = (/obj/structure/table/wood/settler,/turf/open/floor/wood/f13/carpet,/area/f13/building)
 "Bn" = (/obj/structure/chair/wood/normal{dir = 4},/turf/open/floor/wood/wood_tiled,/area/f13/building)
@@ -457,6 +476,7 @@
 "Dm" = (/obj/structure/chair/stool,/obj/effect/landmark/start/f13/mordinos/capo,/turf/open/floor/carpet/brown,/area/f13/building)
 "Do" = (/obj/structure/table,/obj/item/kitchen/knife/butcher,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{name = "metal plating"},/area/f13/building)
 "Dq" = (/obj/structure/chair/pew/left,/obj/effect/landmark/start/f13/mordinos/soldier,/turf/open/floor/wood/f13/oak,/area/f13/building)
+"Dr" = (/obj/structure/chair/wood/normal{dir = 8},/turf/open/floor/wood/f13/oak,/area/f13/building)
 "Du" = (/obj/effect/decal/cleanable/dirt/dust,/obj/structure/chair/comfy/beige,/obj/effect/landmark/start/f13/underboss,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "DD" = (/obj/structure/chair/wood/fancy,/obj/effect/decal/cleanable/dirt{color = "000000"},/turf/open/floor/wood/wood_tiled,/area/f13/building)
 "DH" = (/obj/machinery/door/unpowered/securedoor{req_one_access_txt = "136"},/turf/open/floor/wood/f13/oak,/area/f13/building)
@@ -482,11 +502,13 @@
 "EE" = (/obj/effect/decal/cleanable/dirt/dust,/obj/machinery/light{dir = 4},/obj/item/kirbyplants,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "EM" = (/obj/structure/window/fulltile/house{icon_state = "housewindowvertical"},/turf/open/indestructible/ground/outside/ruins{icon_state = "rubbleslab"},/area/f13/building)
 "EQ" = (/obj/structure/table/wood/fancy/purple,/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/item/storage/pill_bottle/happy,/turf/open/floor/carpet/purple,/area/f13/building)
+"Fd" = (/mob/living/simple_animal/hostile/radroach{dir = 8; health = 300; melee_damage_lower = 30; melee_damage_upper = 30; obj_damage = 30; resize = 2; speed = .3},/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "Fl" = (/obj/structure/closet/locker,/obj/item/storage/box/bodybags,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "Fn" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak{icon_state = "oakfloor2-broken"},/area/f13/building)
 "Fp" = (/obj/structure/table,/obj/machinery/microwave,/obj/effect/decal/cleanable/dirt{color = "000000"},/turf/open/floor/wood/cold,/area/f13/building)
 "Fq" = (/turf/open/floor/f13{icon_state = "floorrustysolid"},/area/f13/building)
 "Fy" = (/obj/structure/wreck/trash/halftire,/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{name = "metal plating"; sunlight_state = 1},/area/f13/wasteland)
+"FI" = (/obj/structure/nest/radroach,/turf/open/floor/plasteel/dark,/area/f13/building)
 "FM" = (/obj/structure/chair/wood/modern{dir = 4; icon_state = "wooden_chair_settler"},/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/carpet/brown,/area/f13/building)
 "FO" = (/obj/structure/table/snooker{dir = 9},/obj/effect/decal/cleanable/dirt{color = "000000"},/turf/open/floor/carpet/purple,/area/f13/building)
 "FU" = (/obj/structure/chair/booth{dir = 8},/turf/open/floor/wood/f13/carpet,/area/f13/building)
@@ -551,6 +573,7 @@
 "Jp" = (/obj/structure/camera_assembly{dir = 9},/obj/effect/decal/cleanable/dirt,/turf/open/floor/carpet/brown,/area/f13/building)
 "JB" = (/obj/effect/decal/cleanable/dirt,/obj/structure/closet/cabinet,/turf/open/floor/wood/f13/carpet,/area/f13/building)
 "JF" = (/obj/machinery/computer/telecomms/server{dir = 4; network = "tcommsat"},/turf/open/floor/plasteel/yellow/side{dir = 10},/area/f13/tcoms)
+"JO" = (/obj/machinery/camera,/turf/open/floor/carpet/purple,/area/f13/building)
 "JP" = (/obj/structure/table/wood/settler,/turf/open/floor/carpet/red,/area/f13/building)
 "JQ" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/overlay/junk/sink{dir = 4; pixel_x = 12},/turf/open/floor/f13{icon_state = "whitegreenrustychess"},/area/f13/building)
 "JR" = (/obj/structure/table,/obj/item/electropack/shockcollar/explosive,/obj/item/electropack/shockcollar/explosive,/turf/open/floor/plasteel/f13/vault_floor/red/white,/area/f13/building)
@@ -569,6 +592,7 @@
 "KP" = (/obj/structure/bed/old,/turf/open/floor/carpet/brown,/area/f13/building)
 "KQ" = (/obj/structure/dresser,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/cold,/area/f13/building)
 "KS" = (/obj/structure/chair/pew/right,/obj/effect/landmark/start/f13/mordinos/soldier,/obj/machinery/light{dir = 1},/turf/open/floor/wood/f13/oak,/area/f13/building)
+"KX" = (/obj/item/radio/intercom/retro{pixel_y = 27},/turf/open/floor/wood/f13/oak{icon_state = "oakfloor3-broken"},/area/f13/building)
 "KY" = (/obj/structure/table/reinforced,/obj/machinery/computer/terminal{dir = 4; pixel_y = 3; termtag = "Business"},/turf/open/floor/plasteel/f13{icon_state = "floorgrime"},/area/f13/building)
 "Lb" = (/obj/structure/chair/wood/fancy{dir = 4},/obj/effect/decal/cleanable/dirt{color = "000000"},/turf/open/floor/wood/wood_tiled,/area/f13/building)
 "Lc" = (/obj/structure/closet/cabinet,/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "floorrustysolid"},/area/f13/building)
@@ -587,6 +611,7 @@
 "LZ" = (/obj/effect/decal/cleanable/dirt,/obj/effect/spawner/lootdrop/grille_or_trash,/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{name = "metal plating"},/area/f13/building)
 "Ma" = (/obj/structure/chair/sofa/corp{dir = 8},/turf/open/floor/carpet/purple,/area/f13/building)
 "Mi" = (/obj/structure/sign/poster/prewar/poster79,/turf/closed/wall/rust,/area/f13/building)
+"Mm" = (/obj/machinery/light{dir = 1; light_color = "#706891"},/obj/structure/bookcase,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "Mn" = (/obj/structure/bed/pod,/obj/item/bedsheet/patriot,/obj/effect/decal/cleanable/dirt/dust,/obj/machinery/light{dir = 4},/turf/open/floor/wood/f13/oak,/area/f13/building)
 "Mo" = (/obj/structure/bed/mattress{icon_state = "mattress2"; pixel_y = 5},/obj/effect/decal/cleanable/dirt,/turf/open/floor/carpet/brown,/area/f13/building)
 "Mq" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/plating,/area/f13/building)
@@ -607,6 +632,7 @@
 "Ni" = (/obj/structure/bed{pixel_y = -16},/obj/item/bedsheet/rd{pixel_y = -16},/obj/effect/landmark/start/f13/mordinos/boss,/turf/open/floor/carpet/red,/area/f13/building)
 "Nj" = (/obj/item/storage/secure/safe{pixel_y = 26},/obj/machinery/light{dir = 1; light_color = "#706891"},/turf/open/floor/wood/f13/oak,/area/f13/building)
 "Nn" = (/obj/structure/simple_door/metal/dirtystore{req_one_access_txt = "141"},/turf/open/floor/wood/f13/oak,/area/f13/building)
+"Nw" = (/mob/living/simple_animal/hostile/radroach{dir = 8},/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/f13/building)
 "Nx" = (/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/structure/femur_breaker,/turf/open/floor/plasteel/f13/vault_floor/red/white,/area/f13/building)
 "NE" = (/obj/structure/simple_door,/turf/open/floor/wood/cold,/area/f13/building)
 "NL" = (/obj/machinery/telecomms/server/presets/enclave,/turf/open/floor/plasteel/dark/telecomms/mainframe,/area/f13/tcoms)
@@ -620,6 +646,7 @@
 "Oq" = (/obj/structure/bed/pod,/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/item/bedsheet/hos,/turf/open/floor/carpet/red,/area/f13/building)
 "Os" = (/obj/structure/closet/fridge,/turf/open/floor/carpet/red,/area/f13/building)
 "Ox" = (/obj/effect/decal/cleanable/dirt,/obj/structure/closet/crate/trashcart,/turf/open/floor/wood/f13/carpet,/area/f13/building)
+"Oy" = (/obj/item/radio/intercom/retro{pixel_x = 29},/turf/open/floor/plasteel/f13{icon_state = "floorgrime"},/area/f13/building)
 "OG" = (/obj/structure/barricade/concrete,/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{name = "metal plating"},/area/f13/wasteland)
 "OI" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/wood/f13/oak{icon_state = "oakfloor1-broken"},/area/f13/building)
 "OK" = (/obj/item/reagent_containers/syringe,/obj/machinery/light/small,/turf/open/indestructible/ground/outside/ruins{icon_state = "rubbleslab"},/area/f13/wasteland)
@@ -649,10 +676,11 @@
 "Qy" = (/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/structure/chair/comfy/brown{dir = 8},/turf/open/floor/wood/wood_tiled,/area/f13/building)
 "QI" = (/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/structure/table,/turf/open/floor/plasteel/f13/vault_floor/red/white,/area/f13/building)
 "QJ" = (/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/carpet/red,/area/f13/building)
+"QK" = (/obj/structure/rack,/obj/item/stack/sheet/mineral/wood,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/f13/building)
 "QO" = (/obj/effect/decal/cleanable/dirt,/obj/structure/bed/old,/turf/open/floor/wood/f13/old{icon_state = "housebase"},/area/f13/building)
 "QP" = (/obj/structure/table/wood/poker,/turf/open/floor/carpet/brown,/area/f13/building)
 "QT" = (/obj/effect/decal/cleanable/dirt/dust,/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/wood/f13/oak{icon_state = "oakfloor2-broken"},/area/f13/building)
-"QU" = (/obj/structure/simple_door/metal/store,/turf/open/floor/plasteel/dark,/area/f13/building)
+"QU" = (/obj/item/rack_parts,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/f13/building)
 "QX" = (/obj/structure/railing{dir = 4},/turf/open/floor/wood/f13/carpet,/area/f13/building)
 "QY" = (/obj/structure/closet/fridge,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "QZ" = (/obj/structure/girder,/turf/open/floor/plating,/area/f13/building)
@@ -667,6 +695,7 @@
 "Rv" = (/obj/structure/table,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/red/redchess{icon_state = "redrustychess"; name = "tile"},/area/f13/building)
 "RD" = (/obj/machinery/light{dir = 1; light_color = "#706891"},/turf/open/floor/wood/f13/carpet,/area/f13/building)
 "RF" = (/obj/structure/simple_door/room,/turf/open/floor/wood/f13/oak,/area/f13/building)
+"RJ" = (/obj/structure/closet/cabinet,/obj/item/pda,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "RK" = (/obj/structure/table,/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "floorrustysolid"},/area/f13/building)
 "RM" = (/obj/item/twohanded/required/kirbyplants/random,/turf/open/floor/wood/wood_tiled,/area/f13/building)
 "RN" = (/obj/effect/decal/cleanable/dirt,/mob/living/simple_animal/hostile/ghoul{dir = 4},/turf/open/floor/wood/cold,/area/f13/building)
@@ -675,7 +704,7 @@
 "Sb" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/structure/table_frame/wood,/turf/open/floor/wood/f13/carpet,/area/f13/building)
 "Se" = (/turf/closed/wall/rust,/area/f13/wasteland)
 "Si" = (/obj/structure/table,/obj/machinery/computer/terminal{dir = 4; termtag = "Public"},/turf/open/floor/carpet/red,/area/f13/building)
-"Sj" = (/obj/structure/chair/wood/fancy{dir = 8},/obj/machinery/light{dir = 4},/turf/open/floor/wood/wood_tiled,/area/f13/building)
+"Sj" = (/obj/structure/chair/wood/fancy{dir = 8},/obj/machinery/light{dir = 4},/obj/item/radio/intercom/retro{pixel_x = 29},/turf/open/floor/wood/wood_tiled,/area/f13/building)
 "Sl" = (/turf/closed/wall/f13/ruins,/area/f13/building)
 "Sm" = (/obj/machinery/mineral/wasteland_vendor/reno/guns/energy,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "Sn" = (/obj/machinery/telecomms/server/presets/vault,/turf/open/floor/plasteel/dark/telecomms/mainframe,/area/f13/tcoms)
@@ -710,8 +739,10 @@
 "Uo" = (/obj/machinery/mineral/wasteland_vendor/reno/nukacola_streets,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/f13/building)
 "Uq" = (/turf/closed/wall/r_wall/f13superstore{icon_state = "supermart0"},/area/f13/tcoms)
 "Ut" = (/obj/effect/decal/cleanable/dirt,/obj/effect/landmark/start/f13/wrights/soldier,/turf/open/floor/wood/f13/oak{icon_state = "oakfloor2-broken"},/area/f13/building)
+"Ux" = (/obj/structure/rack,/obj/effect/spawner/lootdrop/raiderloot,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/f13/building)
 "UD" = (/obj/effect/spawner/lootdrop/grille_or_trash,/turf/open/floor/wood/cold,/area/f13/building)
 "UE" = (/obj/effect/decal/cleanable/dirt,/obj/effect/overlay/junk/sink{dir = 8; pixel_x = -12},/turf/open/floor/f13{icon_state = "bluerustysolid"},/area/f13/building)
+"UF" = (/obj/structure/rack/shelf_metal,/obj/effect/decal/cleanable/dirt,/obj/item/reagent_containers/glass/beaker/large,/obj/item/reagent_containers/glass/beaker/large,/obj/item/reagent_containers/glass/beaker/large,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "UJ" = (/obj/structure/junk/small/tv{pixel_y = 7},/obj/structure/table/glass,/turf/open/floor/carpet/purple,/area/f13/building)
 "UN" = (/obj/machinery/chem_master,/turf/open/indestructible/ground/outside/ruins,/area/f13/building)
 "UZ" = (/obj/machinery/microwave/stove,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{name = "metal plating"},/area/f13/building)
@@ -763,6 +794,7 @@
 "Yk" = (/obj/structure/simple_door/house,/turf/open/floor/wood/wood_tiled,/area/f13/building)
 "Yl" = (/obj/structure/table/reinforced,/obj/item/paper_bin,/obj/item/pen,/turf/open/floor/plasteel/f13{icon_state = "floorgrime"},/area/f13/building)
 "Ym" = (/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/machinery/button/door{id = "panicowner"; name = "panic"; pixel_y = -25},/turf/open/floor/wood/wood_tiled,/area/f13/building)
+"Yn" = (/mob/living/simple_animal/hostile/radroach,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/f13/building)
 "Yo" = (/obj/machinery/telecomms/server/presets/den,/turf/open/floor/plasteel/dark/telecomms/mainframe,/area/f13/tcoms)
 "Yr" = (/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/machinery/light{dir = 1; light_color = "#706891"},/turf/open/floor/carpet/purple,/area/f13/building)
 "Yx" = (/obj/item/storage/secure/safe{pixel_x = 31},/turf/open/floor/plasteel/f13{icon_state = "floorgrime"},/area/f13/building)
@@ -871,12 +903,12 @@ kpxOdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhv
 kpxOdIhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvZjZjZjZjZjZjZjZjZjZjZjZjZjZjZjdIPWPWPWPWPWPWPWPWPWdIdIdIdIdIdIdIdIdIdIdIXJHgHgXJaqlPGYGYofuyXJmmHgHghyhyXJYiYiHmMCXJdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnxOkp
 kpxOdIhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvZjZjZjZjZjZjZjZjZjZjZjZjZjZjZjdIPWPWPWPWPWPWPWPWPWdIdIdIdIdIdIdIXJXJXJXJXJmmTfXJmVofofofofHQXJjzIiIiqdHRXJPYPYPYPYCsdIVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIcBcBcBcBcBcBdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnxOkp
 kpxOdIhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvZjZjZjZjZjZjZjZjZjZjZjZjZjZjZjdIPWPWPWPWPWPWPWPWPWdIdIdIdIdIdIdIXJoSKPYgXJHgHgXJOsofofNiofuyXJHgYSYSvqHgBWPYofkKlXVPdIVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIcBXoXTlrlrcBdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIxOkp
-kpxOdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvZjZjZjZjZjZjZjZjZjZjZjZjZjZjZjdIPWPWPWPWPWPWPWPWPWdIdIdIdIdIdIdIXJxTDmHYnxHgHgXJJPofofuaoflXXJHgzGHgHgdYXJPYrySinHXJdIVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIdIdIcBYWcBfrcBwScBYWcBzyUtjzIicBdIVnVnVnVnVnVnVnVnVnVndIdIdIdIxOkp
-kpxOZjZjZjZjZjZjZjZjZjdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvZjZjZjZjZjZjZjZjZjZjZjZjZjZjZjdIPWPWPWPWPWPWPWPWPWdIdIdIdIdIdIdIXJXJXJXJXJHgHgXJXJvOXJXJXJXJXJHgHggteegtXJPYryIkofXJdIVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIdIdIcBRqljlrzbBLnEsjEflrHglroDcBdIVnVnVnVnVnVnVnVnVnVnVnVndIdIxOkp
+kpxOdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvZjZjZjZjZjZjZjZjZjZjZjZjZjZjZjdIPWPWPWPWPWPWPWPWPWdIdIdIdIdIdIdIXJxTDmHYnxHgHgXJJPofofuaoflXXJhszGHgHgdYXJPYrySinHXJdIVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIdIdIcBYWcBfrcBwScBYWcBzyUtjzIicBdIVnVnVnVnVnVnVnVnVnVndIdIdIdIxOkp
+kpxOZjZjZjZjZjZjZjZjZjdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvZjZjZjZjZjZjZjZjZjZjZjZjZjZjZjdIPWPWPWPWPWPWPWPWPWdIdIdIdIdIdIdIXJXJXJXJXJHgHgXJXJvOXJXJXJXJXJHgHggteegtXJPYryIkhXXJdIVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIdIdIcBRqljlrzbBLnEsjEfgHHglroDcBdIVnVnVnVnVnVnVnVnVnVnVnVndIdIxOkp
 kpxOZjZjZjZjZjZjZjZjZjdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvZjZjZjZjZjZjZjZjZjZjZjZjZjZjZjdIPWPWPWPWPWPWPWPWPWdIdIdIdIdIdIdIxZBAHYHYnxHgHgXJHYHYAadglcAaXJHgXJXJXJXJXJXJXJXJXJXJdIVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVndIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIdIdIcBstzbQeSsBLFnlrHglrTfHgNYcBdIVnVnVnVnVnVnVnVnVnVnVnVndIdIxOkp
 kpxOZjZjZjZjZjZjZjZjZjdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvZjZjZjZjZjZjZjZjZjZjZjZjZjZjZjdIPWPWPWPWPWPWPWPWPWdIdIdIdIdIdIdIXJoSHYDdXJHgHgXJdrbDHYvOHYHYvOHgXJoSTxYgXJdIdIdIdIdIdIVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVndIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIcBcBcBcBcBcBstjhHgzbqdlrgvHglrlrHgaNcBdIVnVnVnVnVnVnVnVnVnVnVnVndIdIxOkp
-kpxOZjZjZjZjZjZjZjZjZjdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvZjZjZjZjZjZjZjZjZjZjZjZjZjZjZjdIdIPWPWPWPWPWPWPWdIdIdIdIdIdIdIdIXJYgHYmgXJmmHgXJXJXJXJXJXJXJXJHgXJHYMEtJXJdIVnVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVndIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIcBytKIaZaZdTzGHglrHgHgceLrHgojlrPxlrcBdIVnVnVnVnVnVnVnVnVnVnVnVndIdIxOkp
-kpxOZjZjZjZjZjZjZjZjZjdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvZjZjZjZjZjZjZjZjZjZjZjZjZjZjZjdIdIPWPWPWPWPWPWPWdIdIdIdIdIdIdIdIXJXJXJXJXJHgHgHgHgHgHgHgHgHgTfHgnxHYHYHYXJdIVnVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVndIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIcBoNlrHgHgFnHgHgHgTflrlreRlryTgvRTpAcBdIVnVnVnVnVnVnVnVnVnVnVnVndIdIxOkp
+kpxOZjZjZjZjZjZjZjZjZjdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvZjZjZjZjZjZjZjZjZjZjZjZjZjZjZjdIdIPWPWPWPWPWPWPWdIdIdIdIdIdIdIdIXJYgHYmgXJmmHgXJXJXJXJXJXJXJXJHgXJHYMEtJXJdIVnVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVndIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIcBytKIaZaZdTzGHglrHgHgceLrHgojlrPxrocBdIVnVnVnVnVnVnVnVnVnVnVnVndIdIxOkp
+kpxOZjZjZjZjZjZjZjZjZjdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvZjZjZjZjZjZjZjZjZjZjZjZjZjZjZjdIdIPWPWPWPWPWPWPWdIdIdIdIdIdIdIdIXJXJXJXJXJHgHgHgHgHgHgHgHgHgTfHgnxHYHYcJXJdIVnVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVndIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIcBoNlrHgHgFnHgHgHgTflrlreRlryTgvUFpAcBdIVnVnVnVnVnVnVnVnVnVnVnVndIdIxOkp
 kpxOZjZjZjZjZjZjZjZjZjdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvZjZjZjZjZjZjZjZjZjZjZjZjZjZjZjdIdIPWPWPWPWPWPWPWdIdIdIdIdIdIdIdIdIdIXJIiXJHgszHgHgImHgHgHgHgHgHgXJfCQPfCXJdIVnVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVndIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIVnVnVnVndIdIdIdIdIdIcBhOSItGbgHoCqtwUlUlNYUteRvpeWlrRTXYcBdIVnVnVnVnVnVnVnVnVnVnVnVndIdIxOkp
 kpxOdIdIdIdIdIdIdIdIdIdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvZjZjZjZjZjZjZjZjZjZjZjZjZjZjZjdIdIPWPWPWPWPWPWPWdIdIdIdIdIdIdIdIdIdIXJXJXJXJXJXJXJiQXJXJXJXJXJXJXJXJXJXJXJdIVnVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVndIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIVnVnVnVndIdIdIdIdIdIcBcBTQcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBcBdIVnVnVnVnVnVnVnVnVnVnVnVndIdIxOkp
 kpxOdIhvhvhvhvhvhvdIdIdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvdIdIdIdIdIZjZjZjZjZjdIdIdIdIdIdIdIPWdIdIdIdIdIPWdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVndIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIVnVnVnVndIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVndIxOkp
@@ -885,34 +917,34 @@ kpxOdIhvhvhvhvdIdIdIdIdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdI
 kpxOdIhvhvhvhvdIdIdIdIdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVndIxOkp
 kpxOdIhvhvhvdIdIdIdIdIdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVndIxOkp
 kpxOdIhvhvhvhvdIdIdIdIdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVndIxOkp
-kpxOdIhvhvhvdIdIdIdIdIdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIcBcBcBcBcBcBcBcBipipipcBcBcBipipipcBipipipipipcBdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIcBcBldvSvScBcBldldldcBtMgHcBdIdIVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVndIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVndIdIdIdIdIVnVndIdIVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVndIxOkp
-kpxOdIhvhvhvhvdIdIdIdIdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIcBmKGemKmKcBOqbxBnIZgecBgxbxBeLQgecBfptuevwJQdcBdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVndIdIcBcBcBcBGsGsGsGsGsGsGsGsGsGsGsGscBdIdIVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVndIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVndIxOkp
-kpxOdIhvhvhvhvhvdIdIdIdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIcBIicBJgJgcBXMbxwJruMWcBXMXMwJwJwwTHzlVWevruHSlidIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVndIdIcBkhkhnpGsGsGsGsGsGsGsGsGsGsGsGscBdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnfHfHfHfHdIdIdIdIdIdIdIVnVnVnVnVnVnVnVndIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIdIdIdIxOkp
-kpxOdIhvhvhvhvhvhvdIdIdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIcBcBcBvTJgcBzAwJwJruRMcBzAwJlQlQpqTHevevevwJkilidIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVndIdIcBQUcBcBGsGsGsGsGsGsGsGsGsGsGsGscBdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnfHfHfHfHdIdIdIdIdIdIdIVnVnVnVnVnVnVnVndIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVndIxOkp
-kpxOdIdIdIdIdIdIdIdIdIdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvdIdIdIdIdISlSlXJXJXJXJSlXJXJXJXJSlXJSlSldIdIdIdIcBcBcBJgJgcBnnAlGjwJlQcBfYAlGjwJwJcBpCwJrujHwJlidIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVndIdIdIdIdIcBGsGsGsGsGsGsGsGsGsGsGsGscBdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnfHfHfHfHdIdIdIdIdIdIdIVnVnVnVnVnVnVnVndIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVndIxOkp
-kpxOdIdIdIdIdIdIdIdIdIdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvdIdIdIdIdIwAWMXVXVycsCyZyZzHyZXJzKDoDTSldIdIdIdIcBTycBmKmKcBcBcBcBcBYkcBcBcBcBcBrCcBaSwJwJDDwJlidIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVndIdIcBGsGsGsGsGsGsGsGsGsGsGsGscBdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnfHfHfHfHdIdIdIdIdIdIdIVnVnVnVnVnVnVnVndIdIdIdGiYiYqKVnVntvVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVndIxOkp
-kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvdIdIdIdIdIwAExXVXVXJyZGgSlIiIiSlHbHKLZXJdIdIdIdIcBwQlSJgJgmKRDmKJgJgJgJgmeJgJgmKmKcBSowJXialaVcBdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVndIdIWrGsGsGsGsGsGsGsGsGsGsGsGscBdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnfHfHfHfHdIdIdIdIdIdIdIVnVnVnVnVnVnVnVndIdIVnOGOGOGdGiYqKrHVnVnVntvVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVndIxOkp
-kpxOhvhvhvhvhvhvhvMRhvdIdIdIdIhvhvhvhvhvdIdIhvhvhvhvhvhvhvhvdIdIdIdIdIPcXVPjSQXJyZXJSlSlSlSlUZHbVHXJdIdIdIdIcBlGcBJgJgmKJgJgJgJgJgJgmKmKJgJgJgWVYmwJLbEhSjcBdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVndIdIcBGsGsGsGsGsGsGsGsGsGsGsGscBdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnfHfHfHfHdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnOGYzOGVnVnVnqltvVnVnrHVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVndIxOkp
-kpxOhvhvhvhvhvhvhvwjhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIwARNXVXVXJyZXJXVpuAjMIOlmBLpSldIdIdIdIcBcBcBcBcBcBcBcBcBcBEwcBcBcBcBcBPFcBcBIUcBcBcBcBdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVndIdIcBGsGsGsGscBcBcBcBcBcBcBcBcBdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIgTgTgTgTgTgTgTgTgTgTgTgTgTgTgTgTOGOGrHVnVnrHVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVndIdIxOkp
-kpxOhvhvhvhvhvhvhvdFhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIwAWtXVKmXJzHXJjlbKEzXVbKXVWtXJdIdIdIdIMKxskCUJGpVWncVWzwYrzwzwzwVWcBlLHtHtrAlLwnJRCxcBdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVndIdIcBGsGsGsGscBdIfHfHfHfHdIdIdIdIdIdIfHfHfHfHdIVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIgTyQyQyQyQyQrRKYhzgTcTcTbGcTcTgTYzOGrHVnVnqlVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVndIdIxOkp
-kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIXJXJXJXJXJyZXJXJNEXJXJXJXJXJXJdIdIdIdIMKWZSPWZzwzwzwzwLJdNCJzwEQAScBKHlLGTHNlLAqbEdLcBdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVndIdIcBGsGsGsGscBdIfHfHfHfHdIdIdIdIdIdIfHfHfHfHdIVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIgTrnhzhzhzhzhzhzhzTEhzhzhzhzYxgTOGOGqlVnVnVnVnVnVndIVndIdIVndIXJXJXJXJXJXJXJXJXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVndIdIxOkp
-kpxOhvhvhvhvhvhvhvdIhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdISllYtmAjyczTCbzHAVyZyZYHWuKOXJdIdIdIdIMKglpBwiapzwzwzwZiHTFOzwJTMacBlLlLGTIolLbElLIMcBdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVndIdIcBGsGsGsGscBdIfHfHfHfHdIdIdIdIdIdIfHfHfHfHdIVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIgTSCSCSCSCSCSChzhzgTuzuzYlhzcmgTdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIXJjGVJVJVJktXJLcXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVndIdIdIdIdIVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIdIdIdIxOkp
-kpxOhvhvMRMRMRMRdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIXJRcAjUDXJNEXJXJXJXJNEXJXJXJSldIdIdIdIcBbVpBwiapzwzwzwVWVWzwzwVDbdcBgNlLGTHNlLbElLXPcBdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVndIdIcBIiGsGsGscBdIfHfHfHfHdIdIdIdIdIdIfHfHfHfHdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIgTgTgTgTgTgTgTgTTEgTgTgTgTgTgTgTdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIXJxNibGfxIcWJXpwXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVndIdIdIdIdIVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVndIxOkp
-kpxOhvhvhvhvhvdIdIdIdIdIdIdIdIXJXJXJPrGxXJXJXJXJPrXJXJXJXJXJdIdIdIdIdISlfBYyXVXJXVgpVFFpXJXVMTXVXVXJdIdIdIdIMKglHHwiapzwhUyokczPkBzwzwzwcBpGlLGTHNlLNxQItpcBdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVndIdIcBGsGsGsGscBdIfHfHfHfHdIfHfHfHfHdIfHfHfHfHdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIXJhjucZnvEhXroXJvMhckJmKmKmKClXJdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIXJrLdHcWdHJpXJpwXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVndIdIdIdIdIVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVndIxOkp
-kpxOdIhvhvhvhvhvdIdIdIdIdIdIdIXJZOZOCooPgBewTCgBZOZOZOZOGsXJdIdIdIdIdISlMIjDXVXJbbfSfMXVXJGUFWXVobSldIdIdIdIMKzwSPzwzwkmcBipipipipipipipcBcBcBcBcBcBcBcBcBcBdIdIdIdIdIdIVnVnVnVnVnVnVnVnVndIdIdIdIdIdIcBGsGsGsGscBdIdIdIdIdIdIfHfHfHfHdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIXJYFmLHgHgHgHgXJmKmwmwFUQXIiIiXJdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIXJRKhmRKqeXJXJpwXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVndIdIdIdIdIVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVndIxOkp
+kpxOdIhvhvhvdIdIdIdIdIdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIcBcBcBcBcBcBcBcBipipipcBcBcBipipipcBipipipipipcBdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIcBcBldvSvScBcBcBcBcBcBcBcBcBdIdIVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVndIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVndIdIdIdIdIVnVndIdIVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVndIxOkp
+kpxOdIhvhvhvhvdIdIdIdIdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIcBmKGemKmKcBOqbxBnIZgecBgxbxBeLQgecBfptuevwJQdcBdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVndIdIcBcBcBcBnptMQUQUbebenpnpnpnpgwnpcBdIdIVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVndIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVndIxOkp
+kpxOdIhvhvhvhvhvdIdIdIdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIcBIicBJgJgcBXMbxwJruMWcBXMXMwJwJwwTHzlVWevruHSlidIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVndIdIcBkhkhcBqOqOqOqOGsGsYnZOZOZOZOuZcBdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnfHfHfHfHdIdIdIdIdIdIdIVnVnVnVnVnVnVnVndIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIdIdIdIxOkp
+kpxOdIhvhvhvhvhvhvdIdIdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIcBcBcBvTJgcBzAwJwJruRMcBzAwJlQlQpqTHevevevwJkilidIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVndIdIcBcBcBcBqOUxNwtMGszaGscBcBcBcBcBcBdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnfHfHfHfHdIdIdIdIdIdIdIVnVnVnVnVnVnVnVndIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVndIxOkp
+kpxOdIdIdIdIdIdIdIdIdIdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvdIdIdIdIdISlSlXJXJXJXJSlXJXJXJXJSlXJSlSldIdIdIdIcBcBcBJgJgcBnnAlGjwJlQcBfYAlGjwJwJcBpCwJrujHwJlidIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVndIdIdIdIdIcBZOnpqOtMqOnpZOgreHeHlrHgcBdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnfHfHfHfHdIdIdIdIdIdIdIVnVnVnVnVnVnVnVndIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVndIxOkp
+kpxOdIdIdIdIdIdIdIdIdIdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvdIdIdIdIdIwAWMXVXVycsCyZyZzHyZXJzKDoDTSldIdIdIdIcBTycBmKmKcBcBcBcBcBYkcBcBcBcBcBrCcBaSwJwJDDwJlidIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVndIdIcBYncbqOtMqOtMqOlrsysyyDHgcBdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnfHfHfHfHdIdIdIdIdIdIdIVnVnVnVnVnVnVnVndIdIdIdGiYiYqKVnVntvVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVndIxOkp
+kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIhvhvhvhvhvhvhvhvhvhvhvhvhvhvhvdIdIdIdIdIwAExXVXVXJyZGgSlIiIiSlHbHKLZXJdIdIdIdIcBwQlSJgJgmKRDmKJgJgJgJgmeJgJgmKvAcBSowJXialaVcBdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVndIdIWrZOnpZOQKZOnpZOcBlrFdwrDrcBdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnfHfHfHfHdIdIdIdIdIdIdIVnVnVnVnVnVnVnVndIdIVnOGOGOGdGiYqKrHVnVnVntvVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVndIxOkp
+kpxOhvhvhvhvhvhvhvMRhvdIdIdIdIhvhvhvhvhvdIdIhvhvhvhvhvhvhvhvdIdIdIdIdIPcXVPjSQXJyZXJSlSlSlSlUZHbVHXJdIdIdIdIcBlGcBJgJgmKJgJgJgJgJgJgmKmKJgJgJgWVYmwJLbEhSjcBdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVndIdIgrqOtMqOZOFIGsGscBbZlrwrHgcBdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnfHfHfHfHdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnOGYzOGVnVnVnqltvVnVnrHVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVndIxOkp
+kpxOhvhvhvhvhvhvhvwjhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIwARNXVXVXJyZXJXVpuAjMIOlmBLpSldIdIdIdIcBcBcBcBcBcBcBcBcBcBEwcBcBcBcBcBPFcBcBIUcBcBcBcBdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVndIdIgrZOZOZOZOcBcBcBcBcBcBcBcBcBdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIgTgTgTgTgTgTgTgTgTgTgTgTgTgTgTgTOGOGrHVnVnrHVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVndIdIxOkp
+kpxOhvhvhvhvhvhvhvdFhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIwAWtXVKmXJzHXJjlbKEzXVbKXVWtXJdIdIdIdIMKxskCUJGpJOncsYzwYrzwzwzwVWcBlLHtHtrAlLwnJRCxcBdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVndIdIgrbfqOtEqOcBdIfHfHfHfHdIdIdIdIdIdIfHfHfHfHdIVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIgTyQyQyQyQyQrRKYhzgTcTcTbGcTcTgTYzOGrHVnVnqlVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVndIdIxOkp
+kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIXJXJXJXJXJyZXJXJNEXJXJXJXJXJXJdIdIdIdIMKWZSPWZzwzwzwzwLJdNCJzwEQAScBKHlLGTHNlLAqbEdLcBdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVndIdIgrZOqOxnxncBdIfHfHfHfHdIdIdIdIdIdIfHfHfHfHdIVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIgTrnhzhzhzhzhzhzhzTEhzhzhzhzYxgTOGOGqlVnVnVnVnVnVndIVndIdIVndIXJXJXJXJXJXJXJXJXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVndIdIxOkp
+kpxOhvhvhvhvhvhvhvdIhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdISllYtmAjyczTCbzHAVyZyZYHWuKOXJdIdIdIdIMKglpBwiapzwzwzwZiHTFOzwJTMacBlLlLGTIolLbElLIMcBdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVndIdIgrZOqOgCgCcBdIfHfHfHfHdIdIdIdIdIdIfHfHfHfHdIVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIgTSCSCSCSCSCSChzOygTuzuzYlhzcmgTdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIXJjGVJVJVJktXJLcXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVndIdIdIdIdIVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIdIdIdIxOkp
+kpxOhvhvMRMRMRMRdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIXJRcAjUDXJNEXJXJXJXJNEXJXJXJSldIdIdIdIcBbVpBwiapzwzwzwVWVWzwzwVDbdcBgNlLGTHNlLbElLXPcBdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVndIdIcBIiGsnpnpcBdIfHfHfHfHdIdIdIdIdIdIfHfHfHfHdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIgTgTgTgTgTgTgTgTTEgTgTgTgTgTgTgTdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIXJxNibGfxIcWJXpwXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVndIdIdIdIdIVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVndIxOkp
+kpxOhvhvhvhvhvdIdIdIdIdIdIdIdIXJXJXJPrGxXJXJXJXJPrXJXJXJXJXJdIdIdIdIdISlfBYyXVXJXVgpVFFpXJXVMTXVXVXJdIdIdIdIMKglHHwiapzwhUyokczPkBzwzwivcBpGlLGTHNBgNxQItpcBdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVndIdIcBZOZOqOZOcBdIfHfHfHfHdIfHfHfHfHdIfHfHfHfHdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIXJhjucZnMmhyhyXJvMhckJmKmKmKClXJdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIXJrLdHcWdHJpXJpwXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVndIdIdIdIdIVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVndIxOkp
+kpxOdIhvhvhvhvhvdIdIdIdIdIdIdIXJZOZOCooPgBewTCgBZOZOZOZOGsXJdIdIdIdIdISlMIjDXVXJbbfSfMXVXJGUFWXVobSldIdIdIdIMKzwSPzwzwkmcBipipipipipipipcBcBcBcBcBcBcBcBcBcBdIdIdIdIdIdIVnVnVnVnVnVnVnVnVndIdIdIdIdIdIcBZOZOtMnpcBdIdIdIdIdIdIfHfHfHfHdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIXJYFmLHgHgHgHgXJmKmwmwFUQXIiIiXJdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIXJRKhmRKqeXJXJpwXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIVnVnVnVnVnVnVnVndIdIdIdIdIVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVndIxOkp
 kpxOdIdIdIdIdIdIdIdIdIdIdIdIdIXJgBgBgBZOGsEguOgBqOqOGsIiIiXJdIdIdIdIdISleBKQWIXJmbvzsMqMXJtcXVobobGudIdIdIdIMKxsUdzwzwPQgrdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVndIdIdIdIdIdIcBcBcBcBcBcBdIdIdIdIdIdIfHfHfHfHdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIXJNgeDHgQYHgHgDHmKmKmKmKmKnfbAXJdIdIdIdIdIdIdIdIdIdIdIdIdIdIdImDpwpwpwpwpwpwFqXJdIdIdIdIVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVndIxOkp
 kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIGxTCewgBZOgBgBgBgBqOqOgBgBgBXJdIdIdIdIdISlSlSlSlSlSlSlSlSlSlXJXJGuGuGudIdIdIdIcBcBcBYkcBcBcBhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIfHfHfHfHdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIXJXJXJXJXJXJXJXJmKXJXJXJXJXJXJXJdIdIdIdIdIdIdIdIdIdIdIdIdIdIdImDpwKiKiKiKiLypwXJdIdIdIdIVnVnVnVnVnVnVnVndIdIVnVndIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVndIxOkp
-kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIGxLBrcZOqOgBwxTCgBqOqOgBewTCGxdIdIdIdIdIdIdIdIdIdIdIdIdIhvhvdIdISedIdIdIdIdIdITQgxbxwJwJRMcBhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIdIdIdIdIdIxOxOxOxOxOxOxOxOdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIXJuchjxzroQYXJfgmKXJKCtivEroucXJdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIXJoMoMoMCcIidtpwXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVndIxOkp
-kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIPrgBgBgBpEZOSXsegBqOqOZOEguOGxdIdIdIdIdIVnVnVnVnVndIdIhvhvhvhvdIdIdIdIdIdIdIdITQbxbxwJwJEDcBhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIdIdIdIdIdIxOZnPSPSHgmQMnxOdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIXJooHgHgHgHgDHmKmKXJhjHgHgHgmLXJdIdIdIdIdIdIdIdIdIdIdIdIdIdIdImDEaRvoMeSXJpwRKXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVndIxOkp
+kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIGxLBrcZOqOgBwxTCgBqOqOgBewTCGxdIdIdIdIdIdIdIdIdIdIdIdIdIhvhvdIdISedIdIdIdIdIdITQgxbxwJwJRMcBhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIdIdIdIdIdIxOxOxOxOxOxOxOxOdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIXJuchjxzhyQYXJfgmKXJKCtivEHgucXJdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIXJoMoMoMCcIidtpwXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVndIxOkp
+kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIPrgBgBgBpEZOSXsegBqOqOZOEguOGxdIdIdIdIdIVnVnVnVnVndIdIhvhvhvhvdIdIdIdIdIdIdIdITQbxbxwJwJEDcBhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIdIdIdIdIdIxORJPSPSHgmQMnxOdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIXJooHgHgHgHgDHmKvtXJhjHgHgHgmLXJdIdIdIdIdIdIdIdIdIdIdIdIdIdIdImDEaRvoMeSXJpwRKXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVndIxOkp
 kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIXJTCAMgBZOgBgBgBgBqOqOgBgBgBGxdIdIdIdIdIVnVnVnVnVndIhvhvhvhvhvhvhvdIdIdIdIdIdIcBzAwJwJwJQyMKhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVndIdIVnVnVnVndIdIdIdIdIdIdIdIdIdIdIdIdIfHfHxOZnPSQJQJQJqxxOdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIXJYFHgHgHgsjXJmKmKDHHgZdQYoaZnXJdIdIdIdIdIdIdIdIdIdIdIdIdIdIdImDoMoMoMzBXJRSmRXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVndIxOkp
 kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIXJijrcrvqOgBewTCgBqOqOgBwxTCPrdIdIdIdIdIVnVnVnVnVnVnhvhvhvhvhvhvhvhvhvdIdIdIdIcBnqwJwJwJlQMKhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVndIdIdIVnVnVndIdIdIdIdIdIdIdIdIdIdIdIdIfHfHxOpSmUThZTQJhjxOdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIXJKCqaHgHgsAXJmKMBXJXJXJXJXJXJXJdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIXJXJXJXJXJXJXJXJXJdIdIdIdIXJXJXJXJXJXJXJXJVnVnVnVnVnVnVndIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVndIxOkp
 kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIXJgBgBgBZOGsEguOgBqOqOZOSXsePrdIdIdIdIdIVnVnVnVnVnVnhvhvhvhvhvhvhvhvhvdIdIdIdIcBGjAlsXHLtVMKhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVndIdIVnVnVnVndIdIdIdIdIdIdIdIxOxOxOxOxOxOxOxOqBxOxOxOxOxOdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIXJXJXJXJXJXJXJmKmKgXHgHgNjHgucXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnXJHgRFlrlrlrHVXJdIdIdIdIXJUEVxzpXJLAXJXJXJXJXJVnVnVnVndIdIdIdIdIdIVnVnVnVnVnVndIVnVnVnVndIdIdIdIdIVnVnVnVnVnVnVndIxOkp
-kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIPrTCewgBgCjkjkjkjkqOZOgBgBgBXJdIdIdIdIdIVnVnVnVnVnVnhvhvhvhvhvhvhvhvhvdIdIdIdIcBcBcBipipipcBdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIxOvdvdPSszPSxOgnPSPSDuTfowxOdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIXJuchjxzhXroXJmKmKXJZnKCqahjmLXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnXJIiXJlrISejlrordIdIdIdIwAwAXuwAXJPfXJeHMyRuXJVnVnVnVndIdIdIdIdIVnVnVnVnVnVnVndIVnVnVnVndIdIdIdIdIVnVnVnVnVnVnVndIxOkp
+kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIPrTCewgBgCjkjkjkjkqOZOgBgBgBXJdIdIdIdIdIVnVnVnVnVnVnhvhvhvhvhvhvhvhvhvdIdIdIdIcBcBcBipipipcBdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIxOvdvdPSszPSxOgnPSPSDuKXowxOdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIXJuchjxzhyhyXJmKmKXJZnKCqahjmLXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnXJIiXJlrISejlrordIdIdIdIwAwAXuwAXJPfXJeHMyRuXJVnVnVnVndIdIdIdIdIVnVnVnVnVnVnVndIVnVnVnVndIdIdIdIdIVnVnVnVnVnVnVndIxOkp
 kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIXJLBrcZOgCZOZOZOZOgCZOgBewTCPrdIdIdIdIdIVnVnVnVnVnVnhvhvhvhvhvhvhvhvdIdIdIdIdIqtqtqtqtqtqtdIhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIxOHgHgHgjzIixOCSPSaXICkTdYxOdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIXJmLHgHgHgHgDHmKmKXJXJXJXJXJXJXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnXJXJXJlrvawNlrordIdIdIdIXJlreHlrnUMqXJeHeHlrXJVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIdIdIdIdIdIxOkp
-kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIXJXJXJXJkQXJXJXJXJqOZOZOEguOXJdIdIdIdIdIVnVnVnVnVnVndIhvhvhvhvhvhvhvdIdIdIdIdIqtqtqtqtqtqtdIhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIxOQJSJjOQJWLxONOPSVpVpHemUxOdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIXJKCqaQYHgowXJmKmKmKOoOohscthsXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnXJtjRFlrlrXYlrordIdIdIdISlFneHZcXJMqXJeHOIXxXJVnVnVndIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnxOkp
-kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIXJyLJQXJlrlrsblrXJgCZOgBgBgBXJdIdIdIdIdIVnVnVnVnVnVndIhvhvhvhvhvhvhvhvdIdIdIdIqtqtqtqtqtqtdIhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIxOwvMULVaUPSqBPSxOxOxOxOxOxOdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIXJXJXJXJXJXJXJDHXJiqmKmKmKmKmKXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnXJXJXJXJXJXJcnXJdIdIdIdISlquHghEXJMqXJeHgIRgXJVnVnVndIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnxOkp
-kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIXJPVgSXJlrlrlrlrXJUoZOgBwxTCPrdIdIdIdIdIVnVnVnVnVnVndIhvhvhvhvdIhvdIhvdIdIdIdIqtqtqtqtqtqtdIhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIxOQJKBhJQJakxOxOxOWiuQuQgUxOdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIXJucZUhXrohXroHgXJmKmKmKmKnyaOXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnXJJWdHqVMocWdHordIdIdIdIXJXJXJXJXJCuXJnUXJXJXJVnVnVndIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnxOkp
-kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIXJXJqyXJlrpnlrlrXJDfZOZOSXseXJdIdIdIdIdIVnVnVnVnVnVnhvhvhvhvdIhvhvhvdIdIdIdIdIqtqtqtqtqtqtdIhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIxOuAPSHgHgzGxOSmHgmUPSPSHExOdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIXJmLHgHgHgHgHgEcXJdkiwAkQXiMZMXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnXJcWlerUdHcWSDSldIdIdIdIwAHglNHgXJPfMqswriwsXJXJXJXJSldIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnxOkp
+kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIXJXJXJXJkQXJXJXJXJqOZOZOEguOXJdIdIdIdIdIVnVnVnVnVnVndIhvhvhvhvhvhvhvdIdIdIdIdIqtqtqtqtqtqtdIhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIxOQJSJjOQJWLxONOPSVpVpHemUxOdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIXJKCqaQYHgowXJmKmKmKOoOoctctctXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnXJtjRFlrlrXYlrordIdIdIdISlFneHZcXJMqXJeHOIXxXJVnVnVndIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnxOkp
+kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIXJyLJQXJlrlrsblrXJgCZOgBgBgBXJdIdIdIdIdIVnVnVnVnVnVndIhvhvhvhvhvhvhvhvdIdIdIdIqtqtqtqtqtqtdIhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIxOwvMULVaUPSqBPSxOxOxOxOxOxOdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIXJXJXJXJXJXJXJDHXJiqmKmKmKmKvtXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnXJXJXJXJXJXJcnXJdIdIdIdISlquHghEXJMqXJeHgIRgXJVnVnVndIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnxOkp
+kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIXJPVgSXJlrlrlrlrXJUoZOgBwxTCPrdIdIdIdIdIVnVnVnVnVnVndIhvhvhvhvdIhvdIhvdIdIdIdIqtqtqtqtqtqtdIhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIxOQJKBhJQJakxOxOxOWiuQuQgUxOdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIXJucZUhyhyhyHgHgXJmKmKmKmKnyaOXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnXJJWdHqVMocWdHordIdIdIdIXJXJXJXJXJCuXJnUXJXJXJVnVnVndIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnxOkp
+kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIXJXJqyXJlrpnlrlrXJDfZOZOSXseXJdIdIdIdIdIVnVnVnVnVnVnhvhvhvhvdIhvhvhvdIdIdIdIdIqtqtqtqtqtqtdIhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIxOuAPSHgHgvyxOSmHgmUPSPSHExOdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIXJmLHgHgHgHgHgEcXJdkiwAkQXiMZMXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnXJcWlerUdHcWSDSldIdIdIdIwAHglNHgXJPfMqswriwsXJXJXJXJSldIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnxOkp
 kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIXJlrlrlryapnVMklXJCgZOgBgBgBXJdIdIdIdIdIVnVnVnVnVnVnhvhvhvhvdIhvhvdIdIdIdIdIdIqtqtqtqtqtqtdIhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIxOvBthQumZPSqBvLiVmXbXuQuQxOdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIXJZnHgQYKCEsHgowXJBRrOzsmKmKmKXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnXJRrvudHJWcWcRXJdIdIdIdIXJlrQelrXJHsqWDVvvMqYJXJZcerXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnxOkp
 kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIXJiFRnlryapnlrklXJGsGsmfGsHlXJdIdIdIdIdIVnVnVnVnVndIhvhvhvhvdIhvdIdIdIdIdIdIdIqtqtqtqtqtqtdIhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIxOxOLmLmLmxOxOxOxOxOxOxOxOxOdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIXJXJXJXJXJXJXJXJXJXJXJXJXJXJXJXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnXJEycWdHdHdHuDSldIdIdIdIwAlrlrgvXJCtPfCuPfPfhTXJgvlrXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnxOkp
 kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIXJipipipipipipipXJGxPrGxGxXJXJdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIqtqtqtqtqtqtdIhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnXJXJXJSlSlSlXJXJdIdIdIdIXJXJnUXJXJPfxYziziBDPfnUlrlrXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnxOkp

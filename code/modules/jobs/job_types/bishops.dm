@@ -235,7 +235,7 @@
 //	neck =
 	shoes = /obj/item/clothing/shoes/laceup
 	uniform = /obj/item/clothing/under/f13/bishops/soldier
-//	suit =
+	suit = /obj/item/clothing/suit/armor/f13/reno/bulletproof/lite
 //	belt =
 //	backpack_contents = list(
 //		/obj/item/ammo_box/m44 = 1,
@@ -248,7 +248,7 @@
 		/obj/item/melee/onehanded/knife/switchblade, \
 		/obj/item/melee/onehanded/club, \
 		/obj/item/gun/ballistic/automatic/hobo/zipgun, \
-		/obj/item/twohanded/sledgehammer, \
+		/obj/item/twohanded/sledgehammer/simple, \
 		/obj/item/kitchen/knife, \
 		/obj/item/twohanded/baseball)
 

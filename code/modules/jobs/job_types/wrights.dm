@@ -7,10 +7,9 @@
 
 	access = list(ACCESS_WRIGHTS)
 	minimal_access = list(ACCESS_WRIGHTS)
-	forbids = "The Mordino family forbids: The Mordinos are picky when it comes to recruiting new enforcers; due to this policy, anyone not deemed strong enough will not make it into the family, so a strong willed personality is expected of the actual members (though not from the chemists and the casino workers). The family is also well known for their traditional understanding of gender roles, so women, although already rare in the family, will probably not make it past capos."
-	enforces = "The Mordino family demands: Honor is the main (and possibly the only) core tenet of the Mordino family; never allow anyone to put in doubt the honor of the family, not even a joke should be left without consequences. Wearing the family suit is required, unless acting as an infiltrator."
-	objectivesList = list("Focus on the mass production of chems.", "Focus on managing the Desperado casino", "Extort the small businesses of New Reno to get a cut from their profits, but be weary, the other families may want a cut from them too.")
-
+	forbids = "The Wright family forbids: Due to the relations of the family with the Temperance Faction of New Reno, gambling, prostitution, and drugs are forbidden. Also, due to the close blood ties among the members of the families, ghouls are not allowed."
+	enforces = "The Wright family demands: The Wrights are the only Reno family that are a literal family, so it is expected of all of its members to have blood ties to the family. Due to this, extreme loyalty and obedience to a strong chain of command are also expected of its members. Wearing the family suit is required, unless acting as an infiltrator."
+	objectivesList = list ("Focus on the mass production of cheap guns.", "Focus on the mass production of alcohol to provide to the other families and the people of New Reno.", "Extort the small businesses of New Reno to get a cut from their profits, but be weary, the other families may want a cut from them too.")
 /*--------------------------------------------------------------*/
 
 /datum/job/wrights/f13boss
@@ -234,7 +233,7 @@
 //	neck = /obj/item/storage/belt/holster/legholster
 	shoes = /obj/item/clothing/shoes/laceup
 	uniform = /obj/item/clothing/under/f13/wrights/soldier
-//	suit = /obj/item/clothing/suit/armor/f13/mordinos/grey_trench_coat
+	suit = /obj/item/clothing/suit/armor/f13/reno/bulletproof/lite
 //	belt = /obj/item/gun/ballistic/revolver/detective
 //	backpack_contents = list(
 //		/obj/item/ammo_box/m44 = 1,
@@ -247,7 +246,7 @@
 		/obj/item/melee/onehanded/knife/switchblade, \
 		/obj/item/melee/onehanded/club, \
 		/obj/item/gun/ballistic/automatic/hobo/zipgun, \
-		/obj/item/twohanded/sledgehammer, \
+		/obj/item/twohanded/sledgehammer/simple, \
 		/obj/item/kitchen/knife, \
 		/obj/item/twohanded/baseball)
 
