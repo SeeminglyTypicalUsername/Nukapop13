@@ -360,8 +360,8 @@
 
 
 	loadout_options = list(
-	/datum/outfit/loadout/hitman,
-	/datum/outfit/loadout/guard,
+	/datum/outfit/loadout/iceman,
+	/datum/outfit/loadout/hiredguard,
 	)
 
 
@@ -385,8 +385,8 @@
 		/obj/item/clothing/under/syndicate/camo, \
 		/obj/item/clothing/under/f13/mercc)
 
-/datum/outfit/loadout/hitman
-	name = "Hitman"
+/datum/outfit/loadout/iceman
+	name = "Iceman"
 	suit = /obj/item/clothing/suit/armored/light/vest/kevlar
 	belt = /obj/item/storage/belt/military/assault
 	mask = /obj/item/clothing/mask/russian_balaclava
@@ -395,9 +395,9 @@
 		/obj/item/gun/ballistic/automatic/pistol/n99 = 1,
 		/obj/item/ammo_box/magazine/m10mm_adv = 1)
 
-/datum/outfit/loadout/guard
-	name = "Guard"
-	suit = /obj/item/clothing/head/helmet/armyhelmet/heavy
+/datum/outfit/loadout/hiredguard
+	name = "Hired Guard"
+	suit = /obj/item/clothing/suit/armor/f13/metalarmor/steelbib
 	belt = /obj/item/storage/belt/military/assault
 	head = /obj/item/clothing/head/helmet/armyhelmet/heavy
 	mask = /obj/item/clothing/mask/russian_balaclava
