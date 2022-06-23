@@ -108,7 +108,7 @@
 /*--------------------------------------------------------------*/
 
 /datum/job/citizens/f13pharmacist
-	title = "Pharmacist "
+	title = "Pharmacist"
 	flag = F13PHARMACIST
 	faction = FACTION_CITIZENS
 	total_positions = 1
