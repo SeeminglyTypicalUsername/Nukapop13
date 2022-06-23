@@ -242,7 +242,7 @@
 /datum/job/citizens/f13renodoctor
 	title = "Reno Doctor"
 	flag = F13RENODOCTOR
-	faction = CITIZENS
+	faction = FACTION_CITIZENS
 	total_positions = 2
 	spawn_positions = 2
 	description = "You are a doctor for the small local clinic, the only entity providing healthcare to the people of New Reno. Since this is one of the few charities present in town, don't expect things to go smoothly. For one, you have no relation to the Followers of the Apocalypse, and although this allows you to not be bound by their rules, this also means that you are scrapping by with the few scarce resources you have at your disposition. Secondly, the families may not take kindly that you aid their hooked addicts, or heal their deceased rivals, so always be weary of what the gangs interests. Work discretely, heal your patients, aid the addicts, see if the priest may be able to lend a hand, and, if necessary, look for protection among the gangs, the Wrights probably being the most willing among them all."
