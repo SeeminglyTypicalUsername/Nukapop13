@@ -554,15 +554,13 @@
 	dat += "<table><tr><td valign='top'>"
 	var/column_counter = 0
 	// render each category's available jobs
+
 	var/position_swapout		//Do we swap out the latejoin menu?
 
 	if(SSmaptype.maptype == "reno")
 		position_swapout = GLOB.reno_categories
-
 	else
-		
-position_swapout = GLOB.position_categories
-
+		position_swapout = GLOB.position_categories
 
 	for(var/category in position_swapout)
 		// position_categories contains category names mapped to available jobs and an appropriate color
