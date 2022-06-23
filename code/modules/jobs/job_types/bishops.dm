@@ -26,36 +26,15 @@
 	exp_requirements = EXP_TYPE_BISHOPS
 
 	outfit = /datum/outfit/job/bishops/f13boss
-/*
-	loadout_options = list(
-	/datum/outfit/loadout/pr,
-	/datum/outfit/loadout/pw,
-	)
 
-	access = list(ACCESS_BAR, ACCESS_CARGO_BOT, ACCESS_MINT_VAULT, ACCESS_CLINIC, ACCESS_KITCHEN, ACCESS_MINING, ACCESS_FORENSICS_LOCKERS)
-	minimal_access = list(ACCESS_BAR, ACCESS_CARGO_BOT, ACCESS_MINT_VAULT, ACCESS_KITCHEN, ACCESS_CLINIC, ACCESS_MINING, ACCESS_FORENSICS_LOCKERS)
-	matchmaking_allowed = list(
-		/datum/matchmaking_pref/friend = list(
-			/datum/job/oasis,
-		),
-		/datum/matchmaking_pref/rival = list(
-			/datum/job/oasis,
-		),
-	)
-*/
 /datum/outfit/job/bishops/f13boss
 	name = "Boss"
 	jobtype = /datum/job/bishops/f13boss
 
-	//ears =
 	id = /obj/item/card/id/reno/bishops/ring/boss
-	//glasses =
-	//gloves =
 	backpack = /obj/item/storage/backpack/satchel/leather
 	satchel = /obj/item/storage/backpack/satchel/leather
 	r_hand = /obj/item/gun/ballistic/revolver/caravan_shotgun
-	//l_hand =
-	//l_pocket =
 	mask = /obj/item/clothing/mask/cigarette/cigar/ncr
 	head = /obj/item/clothing/head/helmet/f13/bishops/fedora
 	neck = /obj/item/storage/belt/holster/legholster
