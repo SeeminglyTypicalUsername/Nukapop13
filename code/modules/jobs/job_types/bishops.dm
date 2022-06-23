@@ -199,27 +199,15 @@
 	name = "Soldier"
 	jobtype = /datum/job/bishops/f13soldier
 
-	//ears =
+	ears = null
 	id = /obj/item/card/id/reno/bishops/ring/soldier
-	//glasses =
-	//gloves =
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
-//	r_hand =
-	//l_hand =
 	l_pocket = /obj/item/storage/bag/money/small/reno/cap/fivezero //placeholder
-//	r_pocket =
-	//mask =
 	head = /obj/item/clothing/head/helmet/f13/bishops/fedora
-//	neck =
 	shoes = /obj/item/clothing/shoes/laceup
 	uniform = /obj/item/clothing/under/f13/bishops/soldier
 	suit = /obj/item/clothing/suit/armor/f13/reno/bulletproof/lite
-//	belt =
-//	backpack_contents = list(
-//		/obj/item/ammo_box/m44 = 1,
-//		/obj/item/storage/bag/money/small/ncr = 1,
-//		)
 
 /datum/outfit/job/bishops/f13soldier/pre_equip(mob/living/carbon/human/H)
 	. = ..()

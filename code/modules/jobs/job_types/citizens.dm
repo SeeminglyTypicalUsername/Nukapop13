@@ -124,7 +124,7 @@
 
 /datum/outfit/job/citizens/f13pharmacist
 	name = "Pharmacist"
-	jobtype = /datum/job/citizens/f13hotelowner
+	jobtype = /datum/job/citizens/f13pharmacist
 
 	ears = /obj/item/pen
 	id = /obj/item/card/id/reno/pharmacy/owner
@@ -259,7 +259,7 @@
 	id = /obj/item/card/id/reno/clinic/papers
 	belt = /obj/item/storage/belt/medical
 	shoes = /obj/item/clothing/shoes/laceup
-	//ears = /obj/item/radio/headset/headset_den
+	ears = null
 	r_pocket = /obj/item/flashlight/seclite
 	l_pocket = /obj/item/stack/f13Cash/ncr/fourzero
 	uniform = /obj/item/clothing/under/f13/doctor
