@@ -54,12 +54,13 @@
 	satchel = /obj/item/storage/backpack/satchel/leather
 	//r_hand =
 	//l_hand =
-	l_pocket = /obj/item/storage/bag/money/small/reno/onefivezero
+	l_pocket = /obj/item/storage/bag/money/small/reno/cap/onefivezero
 	r_pocket = /obj/item/stock_parts/cell/ammo/ec
 	mask = /obj/item/clothing/mask/cigarette/pipe
 	head = /obj/item/clothing/head/helmet/f13/salvatores/fedora
 	neck = /obj/item/storage/belt/holster/legholster
 	shoes = /obj/item/clothing/shoes/laceup
+	suit =/obj/item/clothing/suit/armor/f13/reno/bulletproof
 	uniform = /obj/item/clothing/under/f13/salvatores/don
 	belt = /obj/item/gun/energy/laser/pistol
 	//backpack_contents =
@@ -107,12 +108,13 @@
 	satchel = /obj/item/storage/backpack/satchel/leather
 	//r_hand =
 	//l_hand =
-	l_pocket = /obj/item/storage/bag/money/small/reno/onezerozero
+	l_pocket = /obj/item/storage/bag/money/small/reno/cap/onezerozero
 	r_pocket = /obj/item/stock_parts/cell/ammo/ec
 	mask = /obj/item/clothing/mask/cigarette/cigar
 	head = /obj/item/clothing/head/helmet/f13/salvatores/fedora
 	neck = /obj/item/storage/belt/holster/legholster
 	shoes = /obj/item/clothing/shoes/laceup
+	suit =/obj/item/clothing/suit/armor/f13/reno/bulletproof
 	uniform = /obj/item/clothing/under/f13/salvatores/officer
 	belt = /obj/item/gun/energy/laser/wattz/magneto
 	//backpack_contents =
@@ -149,7 +151,7 @@
 	)
 */
 /datum/outfit/job/salvatores/f13capo
-	name = "Underboss"
+	name = "Capo"
 	jobtype = /datum/job/salvatores/f13capo
 
 	//ears =
@@ -160,8 +162,8 @@
 	satchel = /obj/item/storage/backpack/satchel
 	//r_hand =
 	//l_hand =
-	l_pocket = /obj/item/storage/bag/money/small/reno/sevenzero
-	r_pocket = /obj/item/stock_parts/cell/ammo/ec
+	l_pocket = /obj/item/storage/bag/money/small/reno/cap/sevenzero
+	r_pocket = null
 	mask = /obj/item/clothing/mask/cigarette/cigar
 	head = /obj/item/clothing/head/helmet/f13/salvatores/fedora
 	neck = /obj/item/storage/belt/holster/legholster
@@ -214,16 +216,26 @@
 	satchel = /obj/item/storage/backpack/satchel
 	//r_hand =
 	//l_hand =
-	l_pocket = /obj/item/storage/bag/money/small/reno/fivezero
+	l_pocket = /obj/item/storage/bag/money/small/reno/cap/fivezero
 	r_pocket = /obj/item/stock_parts/cell/ammo/ec
 	//mask = /obj/item/clothing/mask/cigarette/cigar
 	head = /obj/item/clothing/head/helmet/f13/salvatores/fedora
 	//neck = /obj/item/storage/belt/holster/legholster
 	shoes = /obj/item/clothing/shoes/laceup
 	uniform = /obj/item/clothing/under/f13/salvatores/soldier
-	//suit =
-	belt = /obj/item/gun/energy/laser/wattz/magneto
+	suit = /obj/item/clothing/suit/armor/f13/reno/bulletproof/lite
+	belt = null
 	//backpack_contents =
+
+/datum/outfit/job/salvatores/f13soldier/pre_equip(mob/living/carbon/human/H)
+	. = ..()
+	r_hand = pick(
+		/obj/item/melee/onehanded/knife/switchblade, \
+		/obj/item/melee/onehanded/club, \
+		/obj/item/gun/ballistic/automatic/hobo/zipgun, \
+		/obj/item/twohanded/sledgehammer/simple , \
+		/obj/item/kitchen/knife, \
+		/obj/item/twohanded/baseball)
 
 /*--------------------------------------------------------------*/
 
@@ -268,7 +280,7 @@
 	satchel = /obj/item/storage/backpack/satchel
 	r_hand = /obj/item/book/manual/chef_recipes
 	l_hand = /obj/item/storage/box/ingredients/italian
-	l_pocket = /obj/item/storage/bag/money/small/reno/fivezero
+	l_pocket = /obj/item/storage/bag/money/small/reno/cap/fivezero
 	r_pocket = /obj/item/stock_parts/cell/ammo/ec
 	mask = /obj/item/clothing/mask/fakemoustache/italian
 	head = /obj/item/clothing/head/chefhat

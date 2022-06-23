@@ -26,46 +26,26 @@
 	exp_requirements = EXP_TYPE_BISHOPS
 
 	outfit = /datum/outfit/job/bishops/f13boss
-/*
-	loadout_options = list(
-	/datum/outfit/loadout/pr,
-	/datum/outfit/loadout/pw,
-	)
 
-	access = list(ACCESS_BAR, ACCESS_CARGO_BOT, ACCESS_MINT_VAULT, ACCESS_CLINIC, ACCESS_KITCHEN, ACCESS_MINING, ACCESS_FORENSICS_LOCKERS)
-	minimal_access = list(ACCESS_BAR, ACCESS_CARGO_BOT, ACCESS_MINT_VAULT, ACCESS_KITCHEN, ACCESS_CLINIC, ACCESS_MINING, ACCESS_FORENSICS_LOCKERS)
-	matchmaking_allowed = list(
-		/datum/matchmaking_pref/friend = list(
-			/datum/job/oasis,
-		),
-		/datum/matchmaking_pref/rival = list(
-			/datum/job/oasis,
-		),
-	)
-*/
 /datum/outfit/job/bishops/f13boss
 	name = "Boss"
 	jobtype = /datum/job/bishops/f13boss
 
-	//ears =
 	id = /obj/item/card/id/reno/bishops/ring/boss
-	//glasses =
-	//gloves =
 	backpack = /obj/item/storage/backpack/satchel/leather
 	satchel = /obj/item/storage/backpack/satchel/leather
 	r_hand = /obj/item/gun/ballistic/revolver/caravan_shotgun
-	//l_hand =
-	//l_pocket =
 	mask = /obj/item/clothing/mask/cigarette/cigar/ncr
 	head = /obj/item/clothing/head/helmet/f13/bishops/fedora
 	neck = /obj/item/storage/belt/holster/legholster
 	shoes = /obj/item/clothing/shoes/laceup
+	suit =/obj/item/clothing/suit/armor/f13/reno/bulletproof
 	uniform = /obj/item/clothing/under/f13/bishops/boss
 	belt = /obj/item/gun/ballistic/revolver/m29
 	backpack_contents = list(
 		/obj/item/ammo_box/shotgun/buck = 1,
 		/obj/item/ammo_box/m44 = 1,
-		/obj/item/storage/bag/money/small/reno/onefivezero = 1,
+		/obj/item/storage/bag/money/small/reno/cap/onefivezero = 1,
 		/obj/item/circular_saw = 1,
 		/obj/item/melee/onehanded/knife/switchblade = 1,
 		)
@@ -113,12 +93,13 @@
 	satchel = /obj/item/storage/backpack/satchel
 //	r_hand =
 	//l_hand =
-	l_pocket = /obj/item/storage/bag/money/small/reno/onezerozero
+	l_pocket = /obj/item/storage/bag/money/small/reno/cap/onezerozero
 	r_pocket = /obj/item/ammo_box/m44
 	mask = /obj/item/clothing/mask/cigarette/cigar/ncr
 	head = /obj/item/clothing/head/helmet/f13/bishops/fedora
 	neck = /obj/item/storage/belt/holster/legholster
 	shoes = /obj/item/clothing/shoes/laceup
+	suit =/obj/item/clothing/suit/armor/f13/reno/bulletproof
 	uniform = /obj/item/clothing/under/f13/bishops/officer
 	belt = /obj/item/gun/ballistic/revolver/m29
 //	backpack_contents = list(
@@ -169,7 +150,7 @@
 	satchel = /obj/item/storage/backpack/satchel
 //	r_hand =
 	//l_hand =
-	l_pocket = /obj/item/storage/bag/money/small/reno/sevenzero //placeholder
+	l_pocket = /obj/item/storage/bag/money/small/reno/cap/sevenzero //placeholder
 	r_pocket = /obj/item/ammo_box/c38
 	mask = /obj/item/clothing/mask/cigarette/cigar
 	head = /obj/item/clothing/head/helmet/f13/bishops/fedora
@@ -218,27 +199,15 @@
 	name = "Soldier"
 	jobtype = /datum/job/bishops/f13soldier
 
-	//ears =
+	ears = null
 	id = /obj/item/card/id/reno/bishops/ring/soldier
-	//glasses =
-	//gloves =
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
-//	r_hand =
-	//l_hand =
-	l_pocket = /obj/item/storage/bag/money/small/reno/fivezero //placeholder
-//	r_pocket =
-	//mask =
+	l_pocket = /obj/item/storage/bag/money/small/reno/cap/fivezero //placeholder
 	head = /obj/item/clothing/head/helmet/f13/bishops/fedora
-//	neck =
 	shoes = /obj/item/clothing/shoes/laceup
 	uniform = /obj/item/clothing/under/f13/bishops/soldier
-//	suit =
-//	belt =
-//	backpack_contents = list(
-//		/obj/item/ammo_box/m44 = 1,
-//		/obj/item/storage/bag/money/small/ncr = 1,
-//		)
+	suit = /obj/item/clothing/suit/armor/f13/reno/bulletproof/lite
 
 /datum/outfit/job/bishops/f13soldier/pre_equip(mob/living/carbon/human/H)
 	. = ..()
@@ -246,7 +215,7 @@
 		/obj/item/melee/onehanded/knife/switchblade, \
 		/obj/item/melee/onehanded/club, \
 		/obj/item/gun/ballistic/automatic/hobo/zipgun, \
-		/obj/item/twohanded/sledgehammer, \
+		/obj/item/twohanded/sledgehammer/simple, \
 		/obj/item/kitchen/knife, \
 		/obj/item/twohanded/baseball)
 
@@ -283,7 +252,7 @@
 */
 /datum/outfit/job/bishops/f13casinoworker
 	name = "Casino Worker"
-	jobtype = /datum/job/mordinos/f13casinoworker
+	jobtype = /datum/job/bishops/f13casinoworker
 
 	//ears =
 	id = /obj/item/card/id/reno/bishops/papers/worker
@@ -293,7 +262,7 @@
 	satchel = /obj/item/storage/backpack/satchel
 //	r_hand =
 	//l_hand =
-	l_pocket = /obj/item/storage/bag/money/small/reno/fivezero
+	l_pocket = /obj/item/storage/bag/money/small/reno/cap/fivezero
 	r_pocket = /obj/item/card/slotmachine
 //	mask =
 //	head =

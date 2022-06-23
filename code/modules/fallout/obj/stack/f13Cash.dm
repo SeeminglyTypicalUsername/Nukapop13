@@ -74,9 +74,33 @@
 /obj/item/stack/f13Cash/caps
 	merge_type = /obj/item/stack/f13Cash/caps
 
+/obj/item/stack/f13Cash/caps/onezero
+    amount = 10
+    merge_type = /obj/item/stack/f13Cash/caps
+
+/obj/item/stack/f13Cash/caps/threezero
+    amount = 30
+    merge_type = /obj/item/stack/f13Cash/caps
+
+/obj/item/stack/f13Cash/caps/fourzero
+    amount = 40
+    merge_type = /obj/item/stack/f13Cash/caps
+
+/obj/item/stack/f13Cash/caps/fivezero
+    amount = 50
+    merge_type = /obj/item/stack/f13Cash/caps
+
+/obj/item/stack/f13Cash/caps/sevenzero
+    amount = 70
+    merge_type = /obj/item/stack/f13Cash/caps
+
 /obj/item/stack/f13Cash/caps/onezerozero
 	amount = 100
 	merge_type = /obj/item/stack/f13Cash/caps
+
+/obj/item/stack/f13Cash/caps/onefivezero
+    amount = 150
+    merge_type = /obj/item/stack/f13Cash/caps
 
 /obj/item/stack/f13Cash/caps/fivezerozero
 	amount = 500
@@ -86,10 +110,10 @@
 	amount = 350
 	merge_type = /obj/item/stack/f13Cash/caps
 
-
 /obj/item/stack/f13Cash/caps/onezerozerozero
 	amount = 1000
 	merge_type = /obj/item/stack/f13Cash/caps
+
 
 /obj/item/stack/f13Cash/Initialize()
 	. = ..()

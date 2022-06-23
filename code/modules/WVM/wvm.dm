@@ -1167,22 +1167,103 @@ GLOBAL_VAR_INIT(vendor_cash, 0)
 	prize_list = list(
 		new /datum/data/wasteland_equipment("Flour",						/obj/item/reagent_containers/food/condiment/flour,					5),
 		new /datum/data/wasteland_equipment("Universal Enzyme",				/obj/item/reagent_containers/food/condiment/enzyme,					5),
+		new /datum/data/wasteland_equipment("Hard Cider",					/obj/item/reagent_containers/food/drinks/bottle/hcider,				10),
 		new /datum/data/wasteland_equipment("Wine",							/obj/item/reagent_containers/food/drinks/bottle/wine,				15),
+		new /datum/data/wasteland_equipment("Kahlua",						/obj/item/reagent_containers/food/drinks/bottle/kahlua,				15),
+		new /datum/data/wasteland_equipment("Vodka",						/obj/item/reagent_containers/food/drinks/bottle/vodka,				15),
+		new /datum/data/wasteland_equipment("Gin",							/obj/item/reagent_containers/food/drinks/bottle/gin,				15),
+		new /datum/data/wasteland_equipment("Rum",							/obj/item/reagent_containers/food/drinks/bottle/rum,				15),
+		new /datum/data/wasteland_equipment("Ale",							/obj/item/reagent_containers/food/drinks/bottle/ale,				15),
+		new /datum/data/wasteland_equipment("Creme de Menthe",				/obj/item/reagent_containers/food/drinks/bottle/creme_de_menthe,	15),
+		new /datum/data/wasteland_equipment("Creme de Cacao",				/obj/item/reagent_containers/food/drinks/bottle/creme_de_cacao,		15),
+		new /datum/data/wasteland_equipment("Creme de Coconut",				/obj/item/reagent_containers/food/drinks/bottle/creme_de_coconut,	15),
+		new /datum/data/wasteland_equipment("Triple Sec",					/obj/item/reagent_containers/food/drinks/bottle/triple_sec,			15),
+		new /datum/data/wasteland_equipment("Sake",							/obj/item/reagent_containers/food/drinks/bottle/sake,				15),
+		new /datum/data/wasteland_equipment("Applejack",					/obj/item/reagent_containers/food/drinks/bottle/applejack,			20),
+		new /datum/data/wasteland_equipment("Rotgut",						/obj/item/reagent_containers/food/drinks/bottle/rotgut,				20),
 		new /datum/data/wasteland_equipment("Whiskey",						/obj/item/reagent_containers/food/drinks/bottle/whiskey,			20),
+		new /datum/data/wasteland_equipment("Vermouth",						/obj/item/reagent_containers/food/drinks/bottle/vermouth,			20),
+		new /datum/data/wasteland_equipment("Absinthe",						/obj/item/reagent_containers/food/drinks/bottle/absinthe,			25),
+		new /datum/data/wasteland_equipment("Tequila",						/obj/item/reagent_containers/food/drinks/bottle/tequila,			25),
+		new /datum/data/wasteland_equipment("Fernet",						/obj/item/reagent_containers/food/drinks/bottle/fernet,				30),
 		new /datum/data/wasteland_equipment("Champagne",					/obj/item/reagent_containers/food/drinks/bottle/champagne,			35),
-		new /datum/data/wasteland_equipment("Mont De Requin",				/obj/item/reagent_containers/food/drinks/bottle/trappist,			40),
-		new /datum/data/wasteland_equipment("Rotgut",						/obj/item/reagent_containers/food/drinks/bottle/rotgut,				50)
+		new /datum/data/wasteland_equipment("Cognac",						/obj/item/reagent_containers/food/drinks/bottle/cognac,				35),
+		new /datum/data/wasteland_equipment("Mont De Requin",				/obj/item/reagent_containers/food/drinks/bottle/trappist,			40)
 		)
 	highpop_list = list(
 		new /datum/data/wasteland_equipment("Flour",						/obj/item/reagent_containers/food/condiment/flour,					5),
 		new /datum/data/wasteland_equipment("Universal Enzyme",				/obj/item/reagent_containers/food/condiment/enzyme,					5),
+		new /datum/data/wasteland_equipment("Hard Cider",					/obj/item/reagent_containers/food/drinks/bottle/hcider,				10),
 		new /datum/data/wasteland_equipment("Wine",							/obj/item/reagent_containers/food/drinks/bottle/wine,				15),
+		new /datum/data/wasteland_equipment("Kahlua",						/obj/item/reagent_containers/food/drinks/bottle/kahlua,				15),
+		new /datum/data/wasteland_equipment("Vodka",						/obj/item/reagent_containers/food/drinks/bottle/vodka,				15),
+		new /datum/data/wasteland_equipment("Gin",							/obj/item/reagent_containers/food/drinks/bottle/gin,				15),
+		new /datum/data/wasteland_equipment("Rum",							/obj/item/reagent_containers/food/drinks/bottle/rum,				15),
+		new /datum/data/wasteland_equipment("Ale",							/obj/item/reagent_containers/food/drinks/bottle/ale,				15),
+		new /datum/data/wasteland_equipment("Creme de Menthe",				/obj/item/reagent_containers/food/drinks/bottle/creme_de_menthe,	15),
+		new /datum/data/wasteland_equipment("Creme de Cacao",				/obj/item/reagent_containers/food/drinks/bottle/creme_de_cacao,		15),
+		new /datum/data/wasteland_equipment("Creme de Coconut",				/obj/item/reagent_containers/food/drinks/bottle/creme_de_coconut,	15),
+		new /datum/data/wasteland_equipment("Triple Sec",					/obj/item/reagent_containers/food/drinks/bottle/triple_sec,			15),
+		new /datum/data/wasteland_equipment("Sake",							/obj/item/reagent_containers/food/drinks/bottle/sake,				15),
+		new /datum/data/wasteland_equipment("Applejack",					/obj/item/reagent_containers/food/drinks/bottle/applejack,			20),
+		new /datum/data/wasteland_equipment("Rotgut",						/obj/item/reagent_containers/food/drinks/bottle/rotgut,				20),
 		new /datum/data/wasteland_equipment("Whiskey",						/obj/item/reagent_containers/food/drinks/bottle/whiskey,			20),
+		new /datum/data/wasteland_equipment("Vermouth",						/obj/item/reagent_containers/food/drinks/bottle/vermouth,			20),
+		new /datum/data/wasteland_equipment("Absinthe",						/obj/item/reagent_containers/food/drinks/bottle/absinthe,			25),
+		new /datum/data/wasteland_equipment("Tequila",						/obj/item/reagent_containers/food/drinks/bottle/tequila,			25),
+		new /datum/data/wasteland_equipment("Fernet",						/obj/item/reagent_containers/food/drinks/bottle/fernet,				30),
 		new /datum/data/wasteland_equipment("Champagne",					/obj/item/reagent_containers/food/drinks/bottle/champagne,			35),
-		new /datum/data/wasteland_equipment("Mont De Requin",				/obj/item/reagent_containers/food/drinks/bottle/trappist,			40),
-		new /datum/data/wasteland_equipment("Rotgut",						/obj/item/reagent_containers/food/drinks/bottle/rotgut,				50)
+		new /datum/data/wasteland_equipment("Cognac",						/obj/item/reagent_containers/food/drinks/bottle/cognac,				35),
+		new /datum/data/wasteland_equipment("Mont De Requin",				/obj/item/reagent_containers/food/drinks/bottle/trappist,			40)
 		)
 
+/obj/machinery/mineral/wasteland_vendor/reno/nonalcoholic
+	name = "nonalcoholic supply orders"
+	icon_state = "order_console"
+	prize_list = list(
+		new /datum/data/wasteland_equipment("Instacocoa",					/obj/item/reagent_containers/food/drinks/bottle/instacocoa,			5),
+		new /datum/data/wasteland_equipment("Instacoffee",					/obj/item/reagent_containers/food/drinks/bottle/instacoffee,		5),
+		new /datum/data/wasteland_equipment("Instatea",						/obj/item/reagent_containers/food/drinks/bottle/instatea,			5),
+		new /datum/data/wasteland_equipment("Cream",						/obj/item/reagent_containers/food/drinks/bottle/cream,				5),
+		new /datum/data/wasteland_equipment("Sugar",						/obj/item/reagent_containers/food/condiment/sugar,					8),
+		new /datum/data/wasteland_equipment("Pineapple Juice",				/obj/item/reagent_containers/food/drinks/bottle/pineapplejuice,		8),
+		new /datum/data/wasteland_equipment("Orange Juice",					/obj/item/reagent_containers/food/drinks/bottle/orangejuice,		8),
+		new /datum/data/wasteland_equipment("Grenadine",					/obj/item/reagent_containers/food/drinks/bottle/grenadine,			8),
+		new /datum/data/wasteland_equipment("Lemon Juice",					/obj/item/reagent_containers/food/drinks/bottle/lemonjuice,			8),
+		new /datum/data/wasteland_equipment("Tomato Juice",					/obj/item/reagent_containers/food/drinks/bottle/tomatojuice,		8),
+		new /datum/data/wasteland_equipment("Menthol",						/obj/item/reagent_containers/food/drinks/bottle/menthol,			8),
+		new /datum/data/wasteland_equipment("Grape Juice",					/obj/item/reagent_containers/food/drinks/bottle/grapejuice,			8),
+		new /datum/data/wasteland_equipment("Bawls",						/obj/item/reagent_containers/food/drinks/bottle/bawls,				9),
+		new /datum/data/wasteland_equipment("Vim",							/obj/item/reagent_containers/food/drinks/bottle/vim,				9),
+		new /datum/data/wasteland_equipment("Lime Juice",					/obj/item/reagent_containers/food/drinks/bottle/limejuice,			10),
+		new /datum/data/wasteland_equipment("Sunset",						/obj/item/reagent_containers/food/drinks/bottle/sunset,				10),
+		new /datum/data/wasteland_equipment("Forest Tea",					/obj/item/reagent_containers/food/drinks/mug/tea/forest,			15),
+		new /datum/data/wasteland_equipment("Red Tea",						/obj/item/reagent_containers/food/drinks/mug/tea/red,				15),
+		new /datum/data/wasteland_equipment("Green Tea",					/obj/item/reagent_containers/food/drinks/mug/tea/green,				15),
+		new /datum/data/wasteland_equipment("Ice",							/obj/item/reagent_containers/food/drinks/ice,						20)
+		)
+	highpop_list = list(
+		new /datum/data/wasteland_equipment("Instacocoa",					/obj/item/reagent_containers/food/drinks/bottle/instacocoa,			5),
+		new /datum/data/wasteland_equipment("Instacoffee",					/obj/item/reagent_containers/food/drinks/bottle/instacoffee,		5),
+		new /datum/data/wasteland_equipment("Instatea",						/obj/item/reagent_containers/food/drinks/bottle/instatea,			5),
+		new /datum/data/wasteland_equipment("Cream",						/obj/item/reagent_containers/food/drinks/bottle/cream,				5),
+		new /datum/data/wasteland_equipment("Sugar",						/obj/item/reagent_containers/food/condiment/sugar,					8),
+		new /datum/data/wasteland_equipment("Pineapple Juice",				/obj/item/reagent_containers/food/drinks/bottle/pineapplejuice,		8),
+		new /datum/data/wasteland_equipment("Orange Juice",					/obj/item/reagent_containers/food/drinks/bottle/orangejuice,		8),
+		new /datum/data/wasteland_equipment("Grenadine",					/obj/item/reagent_containers/food/drinks/bottle/grenadine,			8),
+		new /datum/data/wasteland_equipment("Lemon Juice",					/obj/item/reagent_containers/food/drinks/bottle/lemonjuice,			8),
+		new /datum/data/wasteland_equipment("Tomato Juice",					/obj/item/reagent_containers/food/drinks/bottle/tomatojuice,		8),
+		new /datum/data/wasteland_equipment("Menthol",						/obj/item/reagent_containers/food/drinks/bottle/menthol,			8),
+		new /datum/data/wasteland_equipment("Grape Juice",					/obj/item/reagent_containers/food/drinks/bottle/grapejuice,			8),
+		new /datum/data/wasteland_equipment("Bawls",						/obj/item/reagent_containers/food/drinks/bottle/bawls,				9),
+		new /datum/data/wasteland_equipment("Vim",							/obj/item/reagent_containers/food/drinks/bottle/vim,				9),
+		new /datum/data/wasteland_equipment("Lime Juice",					/obj/item/reagent_containers/food/drinks/bottle/limejuice,			10),
+		new /datum/data/wasteland_equipment("Sunset",						/obj/item/reagent_containers/food/drinks/bottle/sunset,				10),
+		new /datum/data/wasteland_equipment("Forest Tea",					/obj/item/reagent_containers/food/drinks/mug/tea/forest,			15),
+		new /datum/data/wasteland_equipment("Red Tea",						/obj/item/reagent_containers/food/drinks/mug/tea/red,				15),
+		new /datum/data/wasteland_equipment("Green Tea",					/obj/item/reagent_containers/food/drinks/mug/tea/green,				15),
+		new /datum/data/wasteland_equipment("Ice",							/obj/item/reagent_containers/food/drinks/ice,						20)
+		)
 
 /datum/data/wasteland_equipment
 	var/equipment_name = "generic"

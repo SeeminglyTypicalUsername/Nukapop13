@@ -318,7 +318,7 @@ GLOBAL_LIST_INIT(citizens_positions, list(
 	"Pharmacist",
 	"Arms Dealer",
 	"Jungle Gym Owner",
-	"Doctor",
+	"Reno Doctor",
 	"Bum",
 	"Mercenary",
 	"Priest",
