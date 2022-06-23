@@ -204,7 +204,6 @@
 "lX" = (/obj/machinery/light{dir = 4},/turf/open/floor/carpet/red,/area/f13/building)
 "lY" = (/obj/effect/decal/cleanable/dirt,/obj/structure/junk/small/tv,/obj/structure/table/wood/settler,/turf/open/floor/wood/cold,/area/f13/building)
 "mb" = (/obj/structure/bed/old,/obj/effect/decal/cleanable/dirt{color = "000000"},/turf/open/floor/wood/cold,/area/f13/building)
-"mc" = (/obj/structure/shelf_wood,/obj/effect/decal/cleanable/dirt/dust,/obj/item/storage/box/handcuffs,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "me" = (/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/machinery/light{dir = 1; light_color = "#706891"},/turf/open/floor/wood/f13/carpet,/area/f13/building)
 "mf" = (/obj/structure/simple_door,/turf/open/floor/plasteel/dark,/area/f13/building)
 "mg" = (/obj/structure/table/wood/settler,/obj/machinery/light{dir = 4},/turf/open/floor/carpet/brown,/area/f13/building)
@@ -354,7 +353,7 @@
 "vv" = (/obj/structure/chair/wood{dir = 8},/obj/effect/decal/cleanable/dirt,/turf/open/floor/f13{icon_state = "greendirtyfull"},/area/f13/building)
 "vy" = (/obj/item/radio/intercom/retro{pixel_x = 29},/turf/open/floor/wood/f13/oak{icon_state = "oakfloor4-broken"},/area/f13/building)
 "vz" = (/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/structure/dresser,/turf/open/floor/wood/f13/housewoodbroken,/area/f13/building)
-"vA" = (/obj/machinery/camera{dir = 8},/turf/open/floor/wood/f13/carpet,/area/f13/building)
+"vA" = (/obj/machinery/camera{c_tag = "upper_hallway"; dir = 8},/turf/open/floor/wood/f13/carpet,/area/f13/building)
 "vB" = (/obj/item/kirbyplants,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "vE" = (/obj/machinery/light{dir = 1; light_color = "#706891"},/turf/open/floor/wood/f13/oak,/area/f13/building)
 "vL" = (/obj/effect/decal/cleanable/dirt/dust,/turf/open/floor/wood/f13/oak{icon_state = "oakfloor4-broken"},/area/f13/building)
@@ -439,7 +438,7 @@
 "AV" = (/obj/effect/decal/cleanable/dirt,/mob/living/simple_animal/hostile/wolf{dir = 8},/turf/open/floor/plasteel/f13/vault_floor/dark{icon_state = "darkrusty"; name = "grimy tile"},/area/f13/building)
 "AW" = (/obj/structure/table,/obj/machinery/reagentgrinder,/obj/machinery/light,/turf/open/indestructible/ground/outside/ruins,/area/f13/building)
 "Be" = (/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/structure/chair/wood/normal{dir = 4},/turf/open/floor/wood/wood_tiled,/area/f13/building)
-"Bg" = (/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/machinery/camera{dir = 1},/turf/open/floor/plasteel/f13/vault_floor/red/white,/area/f13/building)
+"Bg" = (/obj/effect/decal/cleanable/dirt{color = "000000"},/obj/machinery/camera{c_tag = "fun_house"; dir = 1},/turf/open/floor/plasteel/f13/vault_floor/red/white,/area/f13/building)
 "Bi" = (/obj/structure/rack,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/dark,/area/f13/building)
 "Bl" = (/obj/effect/decal/cleanable/dirt,/turf/open/floor/plasteel/grimy,/area/f13/building)
 "Bm" = (/obj/structure/table/wood/settler,/turf/open/floor/wood/f13/carpet,/area/f13/building)
@@ -465,6 +464,7 @@
 "Cv" = (/obj/effect/decal/cleanable/dirt/dust,/obj/structure/closet/locker,/obj/item/pda,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "Cx" = (/obj/structure/table,/obj/item/electropack/shockcollar,/obj/item/electropack/shockcollar,/obj/item/assembly/signaler,/obj/item/assembly/signaler,/obj/item/assembly/signaler,/obj/item/assembly/signaler,/turf/open/floor/plasteel/f13/vault_floor/red/white,/area/f13/building)
 "Cz" = (/turf/open/indestructible/ground/outside/ruins{icon_state = "rubbleplate"},/area/f13/building)
+"CI" = (/obj/structure/shelf_wood,/obj/effect/decal/cleanable/dirt/dust,/obj/item/storage/box/handcuffs,/turf/open/floor/wood/f13/oak,/area/f13/building)
 "CJ" = (/obj/structure/table/snooker{dir = 10},/obj/effect/decal/cleanable/dirt{color = "000000"},/turf/open/floor/carpet/purple,/area/f13/building)
 "CL" = (/obj/structure/ladder,/turf/open/floor/f13{icon_state = "darkdirtysolid"},/area/f13/wasteland)
 "CS" = (/obj/effect/decal/cleanable/dirt/dust,/obj/structure/filingcabinet/employment,/turf/open/floor/wood/f13/oak,/area/f13/building)
@@ -572,7 +572,7 @@
 "Jp" = (/obj/structure/camera_assembly{dir = 9},/obj/effect/decal/cleanable/dirt,/turf/open/floor/carpet/brown,/area/f13/building)
 "JB" = (/obj/effect/decal/cleanable/dirt,/obj/structure/closet/cabinet,/turf/open/floor/wood/f13/carpet,/area/f13/building)
 "JF" = (/obj/machinery/computer/telecomms/server{dir = 4; network = "tcommsat"},/turf/open/floor/plasteel/yellow/side{dir = 10},/area/f13/tcoms)
-"JO" = (/obj/machinery/camera,/turf/open/floor/carpet/purple,/area/f13/building)
+"JO" = (/obj/machinery/camera{c_tag = "game room"},/turf/open/floor/carpet/purple,/area/f13/building)
 "JP" = (/obj/structure/table/wood/settler,/turf/open/floor/carpet/red,/area/f13/building)
 "JQ" = (/obj/effect/decal/cleanable/dirt,/obj/effect/decal/cleanable/dirt,/obj/effect/overlay/junk/sink{dir = 4; pixel_x = 12},/turf/open/floor/f13{icon_state = "whitegreenrustychess"},/area/f13/building)
 "JR" = (/obj/structure/table,/obj/item/electropack/shockcollar/explosive,/obj/item/electropack/shockcollar/explosive,/turf/open/floor/plasteel/f13/vault_floor/red/white,/area/f13/building)
@@ -944,7 +944,7 @@ kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIPrTCewgBgCjkjkjkjkqOZOgBgBgBXJdIdIdIdIdIVnVnVnVnVn
 kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIXJLBrcZOgCZOZOZOZOgCZOgBewTCPrdIdIdIdIdIVnVnVnVnVnVnhvhvhvhvhvhvhvhvdIdIdIdIdIqtqtqtqtqtqtdIhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIxOHgHgHgjzIixOCSPSaXICkTdYxOdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIXJmLHgHgHgHgDHmKmKXJXJXJXJXJXJXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnXJXJXJlrvawNlrordIdIdIdIXJlreHlrnUMqXJeHeHlrXJVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIdIdIdIdIdIxOkp
 kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIXJXJXJXJkQXJXJXJXJqOZOZOEguOXJdIdIdIdIdIVnVnVnVnVnVndIhvhvhvhvhvhvhvdIdIdIdIdIqtqtqtqtqtqtdIhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIxOQJSJjOQJWLxONOPSVpVpHemUxOdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIXJKCqaQYHgowXJmKmKmKOoOoctctctXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnXJtjRFlrlrXYlrordIdIdIdISlFneHZcXJMqXJeHOIXxXJVnVnVndIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnxOkp
 kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIXJyLJQXJlrlrsblrXJgCZOgBgBgBXJdIdIdIdIdIVnVnVnVnVnVndIhvhvhvhvhvhvhvhvdIdIdIdIqtqtqtqtqtqtdIhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIxOwvMULVaUPSqBPSxOxOxOxOxOxOdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIXJXJXJXJXJXJXJDHXJiqmKmKmKmKvtXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnXJXJXJXJXJXJcnXJdIdIdIdISlquHghEXJMqXJeHgIRgXJVnVnVndIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnxOkp
-kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIXJPVgSXJlrlrlrlrXJUoZOgBwxTCPrdIdIdIdIdIVnVnVnVnVnVndIhvhvhvhvdIhvdIhvdIdIdIdIqtqtqtqtqtqtdIhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIxOQJKBhJQJakxOxOxOWimcuQgUxOdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIXJucZUhyhyhyHgHgXJmKmKmKmKnyaOXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnXJJWdHqVMocWdHordIdIdIdIXJXJXJXJXJCuXJnUXJXJXJVnVnVndIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnxOkp
+kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIXJPVgSXJlrlrlrlrXJUoZOgBwxTCPrdIdIdIdIdIVnVnVnVnVnVndIhvhvhvhvdIhvdIhvdIdIdIdIqtqtqtqtqtqtdIhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIxOQJKBhJQJakxOxOxOWiCIuQgUxOdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIXJucZUhyhyhyHgHgXJmKmKmKmKnyaOXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnXJJWdHqVMocWdHordIdIdIdIXJXJXJXJXJCuXJnUXJXJXJVnVnVndIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnxOkp
 kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIXJXJqyXJlrpnlrlrXJDfZOZOSXseXJdIdIdIdIdIVnVnVnVnVnVnhvhvhvhvdIhvhvhvdIdIdIdIdIqtqtqtqtqtqtdIhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIdIxOuAPSHgHgvyxOSmHgmUPSPSHExOdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIXJmLHgHgHgHgHgEcXJdkiwAkQXiMZMXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnXJcWlerUdHcWSDSldIdIdIdIwAHglNHgXJPfMqswriwsXJXJXJXJSldIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnxOkp
 kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIXJlrlrlryapnVMklXJCgZOgBgBgBXJdIdIdIdIdIVnVnVnVnVnVnhvhvhvhvdIhvhvdIdIdIdIdIdIqtqtqtqtqtqtdIhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIxOvBthQumZPSqBvLiVmXbXuQuQxOdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIXJZnHgQYKCEsHgowXJBRrOzsmKmKmKXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnXJRrvudHJWcWcRXJdIdIdIdIXJlrQelrXJHsqWDVvvMqYJXJZcerXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnxOkp
 kpxOhvhvhvhvhvhvhvhvhvdIdIdIdIXJiFRnlryapnlrklXJGsGsmfGsHlXJdIdIdIdIdIVnVnVnVnVndIhvhvhvhvdIhvdIdIdIdIdIdIdIqtqtqtqtqtqtdIhvhvhvhvhvhvhvhvhvdIdIdIdIdIdIdIdIdIdIdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIdIxOxOLmLmLmxOxOxOxOxOxOxOxOxOdIdIVnVnVnVnVnVnVnVnVnVnVndIdIdIdIdIdIdIXJXJXJXJXJXJXJXJXJXJXJXJXJXJXJXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnXJEycWdHdHdHuDSldIdIdIdIwAlrlrgvXJCtPfCuPfPfhTXJgvlrXJdIdIdIdIVnVnVnVnVnVnVnVnVnVnVnVnVnVndIdIdIdIVnVnVnVnVnVnVnVnxOkp
