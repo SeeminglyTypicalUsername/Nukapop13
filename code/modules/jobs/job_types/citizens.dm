@@ -393,7 +393,7 @@
 	backpack_contents = list(
 		/obj/item/suppressor = 1,
 		/obj/item/gun/ballistic/automatic/pistol/n99 = 1,
-		/obj/item/ammo_box/magazine/m10mm_adv = 1)
+		/obj/item/ammo_box/magazine/m10mm_adv/simple = 2)
 
 /datum/outfit/loadout/hiredguard
 	name = "Hired Guard"
@@ -664,7 +664,7 @@
 		/obj/item/twohanded/fireaxe/bmprsword = 1,
 		/obj/item/reagent_containers/hypospray/medipen/medx = 1,
 		/obj/item/reagent_containers/food/snacks/meat/cutlet/plain/human = 2,
-		/obj/item/grenade/frag = 1,
+		/obj/item/grenade/homemade/firebomb = 1,
 		/obj/item/kitchen/knife/butcher = 1)
 
 /datum/outfit/loadout/raider_80s
@@ -676,7 +676,6 @@
 	glasses = /obj/item/clothing/glasses/f13/biker
 	shoes = /obj/item/clothing/shoes/jackboots
 	backpack_contents = list(
-		/obj/item/grenade/frag = 2,
 		/obj/item/melee/onehanded/machete/scrapsabre = 1)
 
 /datum/outfit/loadout/raider_manhunter
