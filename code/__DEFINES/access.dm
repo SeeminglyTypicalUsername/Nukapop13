@@ -86,7 +86,7 @@
 #define ACCESS_NCR			121 //general NCR access
 #define ACCESS_NCR_ARMORY   122 //NCR armory access
 
-#define ACCESS_DEN			87
+#define ACCESS_DEN			87	
 /*general den access. This one has the same number as the line it's on, the rest should
 also be like that but I can't be arsed to go back and change them all*/
 
@@ -102,17 +102,6 @@ also be like that but I can't be arsed to go back and change them all*/
 #define ACCESS_NCROFFDUTY	132 //general NCR access
 #define ACCESS_CLINIC		133 //Oasis clinic access
 #define ACCESS_ENCLAVE 		134 //enclave minibunker
-#define ACCESS_MORDINOS 	135 //mordino casino/stables
-#define ACCESS_BISHOPS 		136 //bishop casino
-#define ACCESS_WRIGHTS 		137 //wright estate/trainstation
-#define ACCESS_SALVATORES 	138 //salvatores bar
-#define ACCESS_HOTEL 		139 //hotel
-#define ACCESS_NRA 			140 //new reno arms
-#define ACCESS_RENO_CLINIC 	141 //clinic
-#define ACCESS_PHAR			142 //pharamacy
-#define ACCESS_YAKUZA 		143 //yakuza dojo
-#define ACCESS_GYM			144 //gym/store
-
 	//The Syndicate
 #define ACCESS_SYNDICATE 150//General Syndicate Access. Includes Syndicate mechs and ruins.
 #define ACCESS_SYNDICATE_LEADER 151//Nuke Op Leader Access

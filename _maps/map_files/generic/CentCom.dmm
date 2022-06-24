@@ -9718,18 +9718,6 @@
 "Qe" = (
 /turf/open/ai_visible,
 /area/ai_multicam_room)
-"Ql" = (
-/obj/structure/fluff/rails,
-/obj/docking_port/stationary{
-	dir = 4;
-	height = 25;
-	id = "emergency_reno";
-	json_key = "emergency";
-	name = "CentCom Emergency Shuttle Dock";
-	width = 25
-	},
-/turf/open/indestructible/ground/inside/subway,
-/area/centcom/evac)
 "Qm" = (
 /obj/singularity/wizard/mapped,
 /turf/open/indestructible/binary,
@@ -34072,7 +34060,7 @@ zS
 Tm
 td
 DB
-Ql
+tm
 DB
 DB
 tm

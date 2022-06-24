@@ -22,6 +22,3 @@ endmap
 map sunnyvale
 	voteweight 0
 endmap
-map reno
-	voteweight 1
-endmap

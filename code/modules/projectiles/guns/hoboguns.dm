@@ -200,13 +200,10 @@
 	force = 20
 	extra_damage = 25 //a lot less than the .357 magnum, because OP
 	extra_penetration = 0.05 //long barrel
-	burst_size = 1
-	is_automatic = TRUE
-	automatic = 1
-	autofire_shot_delay = 3
+	burst_size = 4
 	fire_delay = 6
-	burst_shot_delay = 2.5
-	spread = 35
+	burst_shot_delay = 6
+	spread = 15
 	fire_sound = 'sound/weapons/Gunshot.ogg'
 
 /obj/item/gun/ballistic/automatic/autopipe/update_icon_state()

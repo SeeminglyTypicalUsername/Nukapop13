@@ -19,7 +19,6 @@ Mayor
 /datum/job/oasis
 	exp_type = EXP_TYPE_FALLOUT
 	faction = FACTION_OASIS
-	maptype = "yuma"
 
 /datum/job/oasis/f13mayor
 	title = "Mayor"

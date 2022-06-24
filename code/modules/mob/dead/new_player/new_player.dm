@@ -555,6 +555,7 @@
 	var/column_counter = 0
 	// render each category's available jobs
 
+
 	for(var/category in GLOB.position_categories)
 		// position_categories contains category names mapped to available jobs and an appropriate color
 		var/cat_color = GLOB.position_categories[category]["color"]
