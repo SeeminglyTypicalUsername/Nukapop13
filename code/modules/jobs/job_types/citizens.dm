@@ -273,7 +273,7 @@
 		/obj/item/healthanalyzer=1, \
 		/obj/item/storage/bag/money/small/wastelander)
 
-/datum/outfit/job/wasteland/f13dendoctor/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+/datum/outfit/job/citizens/f13renodoctor/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
 	if(visualsOnly)
 		return
