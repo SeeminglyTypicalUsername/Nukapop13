@@ -346,7 +346,7 @@
 		/obj/item/healthanalyzer=1, \
 		/obj/item/storage/bag/money/small/reno/cap/fourzero)
 
-/datum/outfit/job/wasteland/f13dendoctor/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+/datum/outfit/job/mordinos/f13chemist/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
 	if(visualsOnly)
 		return
