@@ -3532,6 +3532,16 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
+"GB" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sink/kitchen{
+	dir = 8;
+	pixel_x = 12
+	},
+/turf/open/floor/wood/f13/oak{
+	icon_state = "oakfloor4-broken"
+	},
+/area/f13/building)
 "GL" = (
 /obj/machinery/telecomms/server/presets/supply,
 /turf/open/floor/plasteel/dark/telecomms/mainframe,
@@ -18929,8 +18939,8 @@ dI
 xO
 gT
 xO
-dI
-dI
+XJ
+XJ
 XJ
 XJ
 XJ
@@ -19081,8 +19091,8 @@ dI
 xO
 gT
 xO
-dI
-dI
+XJ
+Ii
 XJ
 Hg
 Hg
@@ -19233,8 +19243,8 @@ dI
 xO
 gT
 xO
-dI
-dI
+XJ
+Ii
 XJ
 Hg
 Hg
@@ -19385,8 +19395,8 @@ dI
 xO
 gT
 xO
-dI
-dI
+XJ
+Ii
 XJ
 lB
 Hg
@@ -19537,8 +19547,8 @@ dI
 xO
 gT
 xO
-dI
-dI
+XJ
+Ii
 XA
 Hg
 Hg
@@ -19689,8 +19699,8 @@ dI
 xO
 gT
 xO
-dI
-dI
+XJ
+Ii
 XJ
 Hg
 Hg
@@ -19841,8 +19851,8 @@ dI
 xO
 gT
 xO
-dI
-dI
+XJ
+XJ
 XJ
 Hg
 Hg
@@ -37640,7 +37650,7 @@ NY
 aN
 ro
 pA
-XY
+GB
 cB
 dI
 dI

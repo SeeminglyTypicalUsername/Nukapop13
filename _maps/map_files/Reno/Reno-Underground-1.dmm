@@ -987,6 +987,13 @@
 	icon_state = "outerborder"
 	},
 /area/f13/wasteland)
+"aRV" = (
+/obj/structure/closet/crate/large,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/stack/sheet/metal/ten,
+/turf/open/floor/plasteel/dark,
+/area/f13/building)
 "aSc" = (
 /obj/structure/table/wood/settler,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -1186,6 +1193,13 @@
 /obj/machinery/door/unpowered/securedoor{
 	req_one_access_txt = "136"
 	},
+/turf/open/floor/carpet/brown,
+/area/f13/building)
+"bbV" = (
+/obj/item/reagent_containers/food/drinks/bottle/nukashine,
+/obj/item/reagent_containers/food/drinks/bottle/nukashine,
+/obj/structure/closet/fridge,
+/obj/item/reagent_containers/food/drinks/bottle/nukashine,
 /turf/open/floor/carpet/brown,
 /area/f13/building)
 "bco" = (
@@ -2621,10 +2635,11 @@
 /area/f13/building)
 "cwG" = (
 /obj/structure/table/wood,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
 /obj/item/storage/box/drinkingglasses,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/item/reagent_containers/spray/cleaner,
 /turf/open/floor/carpet/brown,
 /area/f13/building)
 "cxV" = (
@@ -2675,6 +2690,11 @@
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "verticalinnermain0"
 	},
+/area/f13/wasteland)
+"czh" = (
+/obj/structure/closet/crate,
+/obj/item/reagent_containers/food/drinks/flask,
+/turf/open/indestructible/ground/outside/dirt/dark,
 /area/f13/wasteland)
 "czn" = (
 /obj/structure/table/wood/poker,
@@ -2863,6 +2883,11 @@
 /obj/item/reagent_containers/food/snacks/f13/sugarbombs,
 /turf/open/floor/wood/f13/carpet,
 /area/f13/building)
+"cID" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/workbench/forge,
+/turf/open/floor/plasteel/dark,
+/area/f13/building)
 "cIQ" = (
 /obj/structure/simple_door/metal/dirtystore,
 /turf/open/floor/plasteel/f13/vault_floor/neutral/neutralchess,
@@ -2892,7 +2917,9 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "cJt" = (
-/obj/structure/closet/crate/eva,
+/obj/structure/closet/crate,
+/obj/item/kitchen/knife,
+/obj/item/reagent_containers/food/drinks/flask/vault113,
 /turf/open/indestructible/ground/outside/dirt/dark,
 /area/f13/wasteland)
 "cJI" = (
@@ -4189,6 +4216,7 @@
 "dIW" = (
 /obj/structure/table,
 /obj/item/hand_labeler,
+/obj/machinery/cell_charger,
 /turf/open/floor/plasteel/dark,
 /area/f13/building)
 "dIX" = (
@@ -6335,6 +6363,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
 /area/f13/building)
+"fwn" = (
+/obj/structure/table/wood/settler,
+/obj/item/reagent_containers/pill/patch/jet,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/wasteland)
 "fxc" = (
 /obj/structure/tires/five,
 /turf/open/indestructible/ground/outside/desert,
@@ -7563,6 +7598,12 @@
 	icon_state = "dirt"
 	},
 /area/f13/wasteland)
+"gxZ" = (
+/obj/structure/closet/locker,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/stack/sheet/mineral/wood/fifty,
+/turf/open/floor/plasteel/dark,
+/area/f13/building)
 "gyc" = (
 /obj/structure/closet,
 /obj/item/clothing/mask/luchador/rudos,
@@ -10620,6 +10661,9 @@
 "iSg" = (
 /obj/structure/table/optable,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/defibrillator_mount{
+	pixel_x = -29
+	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
 /area/f13/building)
 "iSo" = (
@@ -12250,11 +12294,10 @@
 	},
 /area/f13/bunker)
 "kpf" = (
-/obj/machinery/defibrillator_mount,
-/turf/closed/wall/f13/store{
-	desc = "A pre-War wall made of solid concrete.";
-	name = "concrete wall"
-	},
+/obj/structure/rack,
+/obj/item/reagent_containers/food/drinks/beer,
+/obj/item/reagent_containers/food/drinks/beer,
+/turf/open/floor/carpet/brown,
 /area/f13/building)
 "kqt" = (
 /obj/effect/decal/cleanable/dirt,
@@ -12754,6 +12797,12 @@
 	pixel_x = 2
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/dark,
+/area/f13/building)
+"kJI" = (
+/obj/structure/closet/crate/large,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/stack/sheet/mineral/wood/fifty,
 /turf/open/floor/plasteel/dark,
 /area/f13/building)
 "kJN" = (
@@ -14009,6 +14058,11 @@
 	icon_state = "horizontaloutermain0"
 	},
 /area/f13/wasteland)
+"lHC" = (
+/obj/structure/closet/crate/large,
+/obj/item/stack/sheet/leather/ten,
+/turf/open/floor/plasteel/dark,
+/area/f13/building)
 "lHE" = (
 /obj/structure/table,
 /obj/item/kitchen/knife,
@@ -15059,6 +15113,7 @@
 /area/f13/wasteland)
 "mzF" = (
 /obj/structure/closet/crate/trashcart,
+/obj/item/reagent_containers/hypospray/medipen/medx,
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontaltopbordertop2left"
 	},
@@ -16303,6 +16358,12 @@
 	icon_state = "horizontaltopborderbottomright"
 	},
 /area/f13/wasteland)
+"nJM" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/open/floor/carpet/brown,
+/area/f13/building)
 "nJO" = (
 /obj/structure/fence/corner{
 	dir = 6
@@ -16445,10 +16506,8 @@
 /turf/open/floor/wood,
 /area/f13/building)
 "nQG" = (
-/obj/item/reagent_containers/food/drinks/bottle/nukashine,
-/obj/item/reagent_containers/food/drinks/bottle/nukashine,
-/obj/structure/closet/fridge,
-/obj/item/reagent_containers/food/drinks/bottle/nukashine,
+/obj/structure/rack,
+/obj/item/reagent_containers/food/drinks/bottle/vodka,
 /turf/open/floor/carpet/brown,
 /area/f13/building)
 "nRR" = (
@@ -18772,6 +18831,14 @@
 	},
 /turf/open/floor/wood/f13/carpet,
 /area/f13/building)
+"pOQ" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
+/obj/item/storage/box/drinkingglasses,
+/turf/open/floor/carpet/brown,
+/area/f13/building)
 "pPe" = (
 /obj/machinery/door/airlock/vault,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
@@ -18781,6 +18848,17 @@
 /obj/effect/decal/cleanable/blood/bubblegum,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
+"pPq" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/sink/kitchen{
+	dir = 4;
+	pixel_x = -12
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/redchess{
+	icon_state = "redrustychess";
+	name = "tile"
+	},
+/area/f13/building)
 "pPG" = (
 /obj/machinery/icecream_vat,
 /obj/effect/decal/cleanable/dirt,
@@ -19897,6 +19975,13 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
+/area/f13/building)
+"qKL" = (
+/obj/structure/sink/kitchen{
+	dir = 8;
+	pixel_x = 12
+	},
+/turf/open/indestructible/hotelwood,
 /area/f13/building)
 "qLk" = (
 /obj/effect/decal/cleanable/dirt,
@@ -22027,12 +22112,7 @@
 /turf/open/floor/plasteel/dark,
 /area/f13/building)
 "swB" = (
-/obj/structure/table/wood,
-/obj/item/storage/box/drinkingglasses,
-/obj/machinery/light/small{
-	dir = 1
-	},
-/obj/item/reagent_containers/spray/cleaner,
+/obj/structure/rack,
 /turf/open/floor/carpet/brown,
 /area/f13/building)
 "swS" = (
@@ -22894,6 +22974,11 @@
 /obj/structure/table/booth,
 /turf/open/floor/wood/f13/oak,
 /area/f13/wasteland)
+"thl" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/rack/shelf_metal,
+/turf/open/floor/plasteel/dark,
+/area/f13/building)
 "thY" = (
 /obj/structure/wreck/trash/engine,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -23576,6 +23661,10 @@
 	icon_state = "oakfloor4-broken"
 	},
 /area/f13/bunker)
+"tMc" = (
+/obj/item/kirbyplants/random,
+/turf/open/floor/carpet/brown,
+/area/f13/building)
 "tME" = (
 /obj/structure/table/reinforced,
 /obj/machinery/computer/terminal{
@@ -25638,6 +25727,12 @@
 /turf/open/floor/f13{
 	icon_state = "whitegreenrustychess"
 	},
+/area/f13/building)
+"vyW" = (
+/obj/structure/rack/shelf_metal,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/stack/sheet/mineral/wood/fifty,
+/turf/open/floor/plasteel/dark,
 /area/f13/building)
 "vzb" = (
 /obj/structure/wreck/trash/three_barrels,
@@ -28322,6 +28417,13 @@
 	},
 /turf/open/floor/plasteel/redyellow,
 /area/f13/building)
+"xKA" = (
+/obj/structure/closet/crate/large,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/stack/sheet/mineral/wood/twenty,
+/turf/open/floor/plasteel/dark,
+/area/f13/building)
 "xKM" = (
 /obj/structure/rack/shelf_metal,
 /obj/effect/decal/cleanable/dirt,
@@ -28683,6 +28785,9 @@
 /area/f13/wasteland)
 "xWO" = (
 /obj/structure/table/optable,
+/obj/machinery/defibrillator_mount{
+	pixel_x = -29
+	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
 /area/f13/building)
 "xXg" = (
@@ -28803,6 +28908,12 @@
 /obj/item/chair/stool/bar,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
+/area/f13/building)
+"yct" = (
+/obj/structure/closet/crate/large,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/stack/sheet/metal/fifty,
+/turf/open/floor/plasteel/dark,
 /area/f13/building)
 "ycu" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -32481,7 +32592,7 @@ svv
 xbC
 ryM
 bGC
-iPV
+fwn
 iPV
 gBT
 dTH
@@ -37375,9 +37486,9 @@ aNY
 aNY
 fAN
 fAN
-kpf
 fAN
-kpf
+fAN
+fAN
 fAN
 fAN
 oIp
@@ -38447,7 +38558,7 @@ oor
 eqK
 gMf
 fAN
-cJt
+czh
 skm
 lHW
 dSj
@@ -42218,7 +42329,7 @@ dTH
 tvr
 vRJ
 ptn
-cfD
+yct
 jfj
 llk
 jxw
@@ -42371,8 +42482,8 @@ qpx
 vRJ
 oTD
 sTc
-cwh
-cwh
+aRV
+xKA
 llk
 llk
 vRJ
@@ -42480,8 +42591,8 @@ viU
 gqv
 kNK
 gqv
-aNY
-aNY
+kNK
+kNK
 kNK
 kNK
 kNK
@@ -42521,10 +42632,10 @@ dTH
 dTH
 tvr
 vRJ
-swS
+lHC
 ptn
-cfD
-cfD
+kJI
+yct
 swS
 ptn
 vRJ
@@ -42632,9 +42743,9 @@ viU
 gqv
 kNK
 gqv
-aNY
-aNY
 kNK
+cwG
+pOQ
 cvJ
 aXI
 exW
@@ -42784,10 +42895,10 @@ sKb
 gqv
 kNK
 gqv
-aNY
-aNY
 kNK
-cwG
+kpf
+iVO
+iVO
 bTr
 exW
 omN
@@ -42936,10 +43047,10 @@ pMM
 gqv
 kNK
 gqv
-aNY
-aNY
 kNK
-swB
+nQG
+iVO
+iVO
 iVO
 exW
 omN
@@ -43088,10 +43199,10 @@ bSw
 gqv
 kNK
 gqv
-aNY
-aNY
 kNK
-nQG
+swB
+iVO
+iVO
 iVO
 exW
 omN
@@ -43136,7 +43247,7 @@ mKo
 eif
 llk
 vRJ
-wUT
+gxZ
 llk
 llk
 xQZ
@@ -43240,11 +43351,11 @@ bSw
 gqv
 kNK
 gqv
-aNY
-aNY
 kNK
+tMc
+bbV
 wsX
-iVO
+nJM
 ygM
 iVO
 iVO
@@ -43392,8 +43503,8 @@ bSw
 gqv
 kNK
 gqv
-aNY
-aNY
+kNK
+kNK
 kNK
 kNK
 kNK
@@ -43437,7 +43548,7 @@ ptn
 ptn
 tcX
 vRJ
-xQZ
+vyW
 llk
 vRJ
 wUT
@@ -46170,7 +46281,7 @@ qyi
 uFi
 gqv
 cWH
-hVx
+pPq
 iRK
 gBG
 gLp
@@ -49021,7 +49132,7 @@ kNK
 gqv
 aNY
 kNK
-xQZ
+thl
 trC
 xQZ
 kNK
@@ -49173,7 +49284,7 @@ kNK
 gqv
 aNY
 kNK
-xQZ
+cID
 llk
 xQZ
 kNK
@@ -49325,7 +49436,7 @@ kNK
 gqv
 aNY
 kNK
-xQZ
+llk
 ptn
 bXi
 kNK
@@ -52403,7 +52514,7 @@ kNK
 noW
 dou
 tRU
-dou
+qKL
 kNK
 omN
 vyi

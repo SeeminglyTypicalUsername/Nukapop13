@@ -310,17 +310,13 @@
 	id = null
 	ears = null
 	belt = null
-	backpack = /obj/item/storage/backpack/satchel/explorer
+	backpack = null
+	satchel = null
+	shoes = null
 	satchel = /obj/item/storage/backpack/satchel/explorer
 	gloves = /obj/item/clothing/gloves/f13/handwraps
-	r_pocket = /obj/item/storage/bag/money/small/reno/cap/onezero
-	backpack_contents = list(
-		/obj/item/restraints/handcuffs = 2,
-		/obj/item/reagent_containers/hypospray/medipen/stimpak = 1,
-		/obj/item/storage/bag/money/small/raider = 1,
-		/obj/item/reagent_containers/pill/patch/jet = 2,
-		/obj/item/reagent_containers/hypospray/medipen/medx = 1,
-		)
+	r_pocket = /obj/item/reagent_containers/pill/patch/jet
+	l_pocket = /obj/item/reagent_containers/hypospray/medipen/medx
 
 
 /datum/outfit/job/citizens/f13bum/pre_equip(mob/living/carbon/human/H)
@@ -332,9 +328,6 @@
 		/obj/item/clothing/under/f13/raiderrags, \
 		/obj/item/clothing/under/pants/f13/ghoul, \
 		/obj/item/clothing/under/jabroni)
-	shoes = pick(
-			/obj/item/clothing/shoes/jackboots,\
-			/obj/item/clothing/shoes/f13/raidertreads)
 
 	r_hand = pick(
 		/obj/item/melee/onehanded/club, \
@@ -487,9 +480,9 @@
 	selection_color = "#F7EFCF"
 	exp_requirements = EXP_TYPE_CITIZENS
 
-	outfit = /datum/outfit/job/citizens/f13farmer
+	outfit = /datum/outfit/job/citizens/f13peasant
 
-/datum/outfit/job/citizens/f13farmer
+/datum/outfit/job/citizens/f13peasant
 	name = "Farmer"
 	jobtype = /datum/job/citizens/f13peasant
 
@@ -576,8 +569,7 @@
 	mask = /obj/item/clothing/mask/russian_balaclava
 	backpack_contents = list(
 		/obj/item/gun/ballistic/revolver/caravan_shotgun = 1,
-		/obj/item/ammo_box/shotgun/improvised = 1,
-		/obj/item/grenade/f13/dynamite = 5,
+		/obj/item/ammo_box/shotgun/improvised = 2,
 		/obj/item/melee/classic_baton = 1)
 
 /datum/outfit/loadout/raider_bandido
@@ -617,7 +609,7 @@
 	shoes = /obj/item/clothing/shoes/jackboots
 	backpack_contents = list(
 		/obj/item/melee/classic_baton = 1,
-		/obj/item/restraints/legcuffs/bola/tactical = 2,
+		/obj/item/restraints/legcuffs/bola/tactical = 3,
 		/obj/item/ammo_box/magazine/autopipe = 1)
 
 /datum/outfit/loadout/raider_whiteleg
@@ -642,7 +634,7 @@
 	head = /obj/item/clothing/head/helmet/f13/khan/pelt
 	shoes = /obj/item/clothing/shoes/f13/military/khan_pelt
 	backpack_contents = list(
-		/obj/item/ammo_box/shotgun/improvised = 1)
+		/obj/item/ammo_box/shotgun/improvised = 2)
 
 /datum/outfit/loadout/raider_vipers
 	name = "Viper"
@@ -664,7 +656,6 @@
 		/obj/item/twohanded/fireaxe/bmprsword = 1,
 		/obj/item/reagent_containers/hypospray/medipen/medx = 1,
 		/obj/item/reagent_containers/food/snacks/meat/cutlet/plain/human = 2,
-		/obj/item/grenade/homemade/firebomb = 1,
 		/obj/item/kitchen/knife/butcher = 1)
 
 /datum/outfit/loadout/raider_80s
@@ -703,7 +694,7 @@
 	head = /obj/item/clothing/head/helmet/f13/raider/eyebot
 	backpack_contents = list(
 		/obj/item/pizzabox/bomb = 1,
-		/obj/item/bottlecap_mine = 4)
+		/obj/item/restraints/legcuffs/beartrap = 3)
 
 /*--------------------------------------------------------------*/
 
@@ -790,7 +781,7 @@
 	glasses = /obj/item/clothing/glasses/hud/health/f13
 	backpack_contents = list(
 		/obj/item/book/granter/trait/chemistry = 1,
-		/obj/item/book/granter/trait/medical = 1,
+		/obj/item/book/granter/trait/midsurgery = 1,
 		/obj/item/melee/onehanded/knife/survival = 1,
 		/obj/item/pda = 1,
 		/obj/item/card/id = 1,
