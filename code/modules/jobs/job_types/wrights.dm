@@ -166,7 +166,7 @@
 	//gloves =
 	backpack = /obj/item/storage/backpack/satchel
 	satchel = /obj/item/storage/backpack/satchel
-	//r_hand =
+	r_hand = /obj/item/gun/ballistic/revolver/detective
 	//l_hand =
 	l_pocket = /obj/item/storage/bag/money/small/reno/cap/sevenzero
 	r_pocket = /obj/item/ammo_box/a556/sport/improvised
@@ -177,7 +177,7 @@
 	uniform = /obj/item/clothing/under/f13/wrights/soldier
 	suit = /obj/item/clothing/suit/armor/f13/wrights/armored_vest
 	suit_store = /obj/item/gun/ballistic/revolver/hobo/piperifle
-	belt = /obj/item/gun/ballistic/revolver/detective
+	belt = null
 //	backpack_contents = list(
 //		/obj/item/ammo_box/m44 = 1,
 //		/obj/item/storage/bag/money/small/ncr = 1,

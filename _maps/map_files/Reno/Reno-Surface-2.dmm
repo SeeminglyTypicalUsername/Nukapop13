@@ -259,7 +259,7 @@
 "cn" = (
 /obj/structure/simple_door/room,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood/f13/carpet_brown,
+/turf/open/floor/carpet/brown,
 /area/f13/building)
 "cB" = (
 /turf/closed/wall/mineral/concrete,
@@ -623,11 +623,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/grille_or_trash,
 /turf/open/floor/wood/cold,
-/area/f13/building)
-"fP" = (
-/obj/structure/chair/pew,
-/obj/effect/landmark/start/f13/mordinos/soldier,
-/turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "fS" = (
 /obj/effect/decal/cleanable/dirt{
@@ -3204,7 +3199,6 @@
 /area/f13/tcoms)
 "Dd" = (
 /obj/structure/chair/wood,
-/obj/effect/landmark/start/f13/mordinos/capo,
 /turf/open/floor/carpet/brown,
 /area/f13/building)
 "Df" = (
@@ -3493,7 +3487,7 @@
 	},
 /area/f13/building)
 "Gh" = (
-/obj/machinery/chem_dispenser/fullupgrade,
+/obj/machinery/chem_dispenser,
 /turf/open/indestructible/ground/outside/ruins,
 /area/f13/building)
 "Gj" = (
@@ -19119,7 +19113,7 @@ Ii
 XJ
 Hg
 Hg
-HR
+Hg
 Hg
 mm
 Hg
@@ -20181,7 +20175,7 @@ xO
 dI
 dI
 XJ
-fP
+tK
 Hg
 XJ
 of
