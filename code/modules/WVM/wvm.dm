@@ -1031,7 +1031,7 @@ GLOBAL_VAR_INIT(vendor_cash, 0)
 		new /datum/data/wasteland_equipment("Type 17",						/obj/item/gun/ballistic/automatic/pistol/type17,					50),
 		new /datum/data/wasteland_equipment("N99",							/obj/item/gun/ballistic/automatic/pistol/n99,						50),
 		new /datum/data/wasteland_equipment("Desert Eagle",					/obj/item/gun/ballistic/automatic/pistol/deagle,					120),
-		new /datum/data/wasteland_equipment(".32 Detective",				/obj/item/gun/ballistic/revolver/detective,							50),
+		new /datum/data/wasteland_equipment(".38 Detective",				/obj/item/gun/ballistic/revolver/detective,							50),
 		new /datum/data/wasteland_equipment("Colt 357",						/obj/item/gun/ballistic/revolver/colt357,							60),
 		new /datum/data/wasteland_equipment("M29",							/obj/item/gun/ballistic/revolver/m29,								80),
 		new /datum/data/wasteland_equipment("M29 Snub",						/obj/item/gun/ballistic/revolver/m29/snub,							100),

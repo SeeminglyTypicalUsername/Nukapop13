@@ -147,6 +147,31 @@
 	freq_listening = list(FREQ_KHANS)
 	autolinkers = list("khans")
 
+/obj/machinery/telecomms/server/presets/salvatores
+	id = "Salvatores Server"
+	freq_listening = list(FREQ_SALVATORES)
+	autolinkers = list("salvatores")
+
+/obj/machinery/telecomms/server/presets/bishops
+	id = "Bishops Server"
+	freq_listening = list(FREQ_BISHOPS)
+	autolinkers = list("bishops")
+
+/obj/machinery/telecomms/server/presets/mordinos
+	id = "Mordinos Server"
+	freq_listening = list(FREQ_MORDINOS)
+	autolinkers = list("mordinos")
+
+/obj/machinery/telecomms/server/presets/wrights
+	id = "Wrights Server"
+	freq_listening = list(FREQ_WRIGHTS)
+	autolinkers = list("wrights")
+
+/obj/machinery/telecomms/server/presets/hotel
+	id = "Hotel Server"
+	freq_listening = list(FREQ_HOTEL)
+	autolinkers = list("hotel")
+
 //Common and other radio frequencies for people to freely use
 /obj/machinery/telecomms/server/presets/common/Initialize()
 	. = ..()

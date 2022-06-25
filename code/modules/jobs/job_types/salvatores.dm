@@ -46,7 +46,7 @@
 	name = "Don"
 	jobtype = /datum/job/salvatores/f13don
 
-	//ears =
+	ears = /obj/item/radio/headset
 	id = /obj/item/card/id/reno/salvatores/ring/don
 	//glasses =
 	//gloves =
@@ -100,7 +100,7 @@
 	name = "Underboss"
 	jobtype = /datum/job/salvatores/f13underboss
 
-	//ears =
+	ears = /obj/item/radio/headset
 	id = /obj/item/card/id/reno/salvatores/ring/officer
 	//glasses =
 	//gloves =
@@ -154,7 +154,7 @@
 	name = "Capo"
 	jobtype = /datum/job/salvatores/f13capo
 
-	//ears =
+	ears = /obj/item/radio/headset
 	id = /obj/item/card/id/reno/salvatores/ring/officer
 	//glasses =
 	//gloves =
@@ -208,7 +208,7 @@
 	name = "Soldier"
 	jobtype = /datum/job/salvatores/f13soldier
 
-	//ears =
+	ears = /obj/item/radio/headset
 	id = /obj/item/card/id/reno/salvatores/ring/soldier
 	//glasses =
 	//gloves =
@@ -272,7 +272,7 @@
 	name = "Chef"
 	jobtype = /datum/job/salvatores/f13bartender
 
-	//ears =
+	ears = /obj/item/radio/headset
 	id = /obj/item/card/id/reno/salvatores/papers/worker
 	//glasses =
 	//gloves =

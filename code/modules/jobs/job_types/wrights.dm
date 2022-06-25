@@ -45,7 +45,7 @@
 	name = "Boss"
 	jobtype = /datum/job/wrights/f13boss
 
-	//ears =
+	ears = /obj/item/radio/headset
 	id = /obj/item/card/id/reno/wrights/ring/boss
 	//glasses =
 	//gloves =
@@ -104,7 +104,7 @@
 	name = "Underboss"
 	jobtype = /datum/job/wrights/f13underboss
 
-	//ears =
+	ears = /obj/item/radio/headset
 	id = /obj/item/card/id/reno/wrights/ring/officer
 	//glasses =
 	//gloves =
@@ -160,7 +160,7 @@
 	name = "Capo"
 	jobtype = /datum/job/wrights/f13capo
 
-	//ears =
+	ears = /obj/item/radio/headset
 	id = /obj/item/card/id/reno/wrights/ring/officer
 	//glasses =
 	//gloves =
@@ -218,7 +218,7 @@
 	name = "Soldier"
 	jobtype = /datum/job/wrights/f13soldier
 
-	//ears =
+	ears = /obj/item/radio/headset
 	id = /obj/item/card/id/reno/wrights/ring/soldier
 	//glasses =
 	//gloves =

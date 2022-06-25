@@ -22,7 +22,7 @@
 	name = "Boss"
 	jobtype = /datum/job/citizens/f13hotelowner
 
-	ears = /obj/item/pen
+	ears = /obj/item/radio/headset
 	id = /obj/item/card/id/reno/hotel/papers/owner
 	glasses = /obj/item/clothing/glasses/monocle
 	gloves = /obj/item/clothing/gloves/color/white
@@ -72,7 +72,7 @@
 	name = "Hotel Concierge"
 	jobtype = /datum/job/citizens/f13hotelconcierge
 	id = /obj/item/card/id/reno/hotel/papers/worker
-	ears = /obj/item/pen
+	ears = /obj/item/radio/headset
 	gloves = /obj/item/clothing/gloves/color/white
 	backpack = /obj/item/storage/backpack/satchel/leather
 	satchel = /obj/item/storage/backpack/satchel/leather
