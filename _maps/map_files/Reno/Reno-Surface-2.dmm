@@ -231,8 +231,8 @@
 /area/f13/building)
 "bX" = (
 /obj/structure/shelf_wood,
-/obj/item/gun/ballistic/rifle/hobo/plasmacaster,
-/obj/item/gun/ballistic/rifle/hobo/plasmacaster,
+/obj/item/gun/energy/laser/wattz,
+/obj/item/gun/energy/laser/wattz,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "ce" = (
@@ -3207,13 +3207,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
-/area/f13/building)
-"Dg" = (
-/obj/structure/shelf_wood,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/item/gun/ballistic/rifle/hobo/lasmusket,
-/obj/item/gun/ballistic/rifle/hobo/lasmusket,
-/turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "Dh" = (
 /turf/closed/wall/f13/tentwall,
@@ -23263,7 +23256,7 @@ He
 xO
 wK
 PS
-Dg
+uQ
 xO
 dI
 dI
