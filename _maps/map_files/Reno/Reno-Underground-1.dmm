@@ -5650,10 +5650,6 @@
 /obj/structure/tires/five,
 /turf/open/indestructible/ground/outside/dirt/dark,
 /area/f13/wasteland)
-"eNd" = (
-/mob/living/simple_animal/hostile/raider/junker,
-/turf/open/floor/plasteel/dark,
-/area/f13/building)
 "eNp" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
@@ -7345,6 +7341,10 @@
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/caves)
+"gmF" = (
+/mob/living/simple_animal/hostile/eyebot,
+/turf/open/floor/plasteel/dark,
+/area/f13/building)
 "gmP" = (
 /obj/effect/landmark/start/f13/mordinos/capo,
 /turf/open/indestructible/ground/inside/dirt,
@@ -22167,6 +22167,10 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/dark,
 /area/f13/building)
+"spk" = (
+/mob/living/simple_animal/hostile/raider/junker,
+/turf/open/floor/plasteel/dark,
+/area/f13/building)
 "spx" = (
 /obj/structure/rack/shelf_metal,
 /obj/effect/decal/cleanable/dirt,
@@ -28345,7 +28349,7 @@
 /obj/structure/rack,
 /obj/item/stack/sheet/glass/ten,
 /obj/item/stack/sheet/metal/ten,
-/obj/item/storage/backpack/duffelbag/med,
+/obj/item/storage/backpack/duffelbag/med/surgery,
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite/rarecyan,
 /area/f13/building)
 "xtZ" = (
@@ -28586,10 +28590,6 @@
 	icon_state = "darkrusty";
 	name = "grimy tile"
 	},
-/area/f13/building)
-"xDo" = (
-/mob/living/simple_animal/hostile/eyebot,
-/turf/open/floor/plasteel/dark,
 /area/f13/building)
 "xDp" = (
 /obj/structure/destructible/tribal_torch/lit,
@@ -34196,7 +34196,7 @@ ufv
 uDT
 kNK
 ptn
-eNd
+spk
 kNK
 kNK
 kNK
@@ -34499,7 +34499,7 @@ tuS
 dZz
 fPo
 kNK
-xDo
+gmF
 ptn
 ptn
 rIv

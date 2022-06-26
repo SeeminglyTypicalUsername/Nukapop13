@@ -784,8 +784,8 @@
 		/obj/item/book/granter/trait/midsurgery = 1,
 		/obj/item/melee/onehanded/knife/survival = 1,
 		/obj/item/pda = 1,
-		/obj/item/card/id = 1,
-		/obj/item/storage/backpack/duffelbag/med = 1,
+		/obj/item/card/id/selfassign = 1,
+		/obj/item/storage/backpack/duffelbag/med/surgery = 1,
 		/obj/item/storage/bag/money/small/reno/cap/fivezero = 1)
 
 /datum/outfit/loadout/vaultcitytourist
@@ -794,7 +794,7 @@
 	shoes = /obj/item/clothing/shoes/jackboots
 	backpack_contents = list(
 		/obj/item/melee/classic_baton/telescopic = 1,
-		/obj/item/card/id = 1,
+		/obj/item/card/id/selfassign = 1,
 		/obj/item/pda = 1,
 		/obj/item/storage/bag/money/small/reno/cap/onezerozero = 1)
 
@@ -803,7 +803,7 @@
 	uniform = /obj/item/clothing/under/f13/vault/vcity
 	shoes = /obj/item/clothing/shoes/jackboots
 	backpack_contents = list(
-		/obj/item/card/id = 1,
+		/obj/item/card/id/selfassign = 1,
 		/obj/item/gun/ballistic/automatic/hobo/zipgun = 1,
 		/obj/item/pda = 1,
 		/obj/item/pen = 1,
@@ -829,7 +829,7 @@
 	uniform = /obj/item/clothing/under/lawyer/blacksuit
 	shoes = /obj/item/clothing/shoes/laceup
 	backpack_contents = list(
-		/obj/item/card/id = 1,
+		/obj/item/card/id/selfassign = 1,
 		/obj/item/card/id/dogtag/town/ncr = 1,
 		/obj/item/taperecorder = 1,
 		/obj/item/pda = 1,
@@ -873,7 +873,7 @@
 	suit_store = /obj/item/gun/ballistic/revolver/police
 	backpack_contents = list(
 		/obj/item/pda = 1,
-		/obj/item/card/id = 1,
+		/obj/item/card/id/selfassign = 1,
 		/obj/item/card/id/dogtag/town/ncr = 1,
 		/obj/item/ammo_box/a357 = 1,
 		/obj/item/storage/bag/money/small/reno/cap/threezero = 1)
