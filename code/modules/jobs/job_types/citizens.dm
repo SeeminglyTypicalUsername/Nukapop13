@@ -943,6 +943,7 @@
 	shoes = /obj/item/clothing/shoes/laceup
 	jobtype	= /datum/job/ncr/f13representative
 	id = /obj/item/card/id/dogtag/ncrrep
+	ears = /obj/item/radio/headset/headset_ncr
 	neck = /obj/item/storage/belt/holster/legholster
 	backpack = /obj/item/storage/backpack/satchel/leather
 	backpack_contents = list(
@@ -953,14 +954,14 @@
 /*--------------------------------------------------------------*/
 
 /datum/job/citizens/f13provostmarshal
-	title = "NCR Provost Marshal"
+	title = "NCRA Provost Marshal"
 	flag = F13HEADMP
 	faction = FACTION_CITIZENS
 	access = list(ACCESS_NCR, ACCESS_NCR_ARMORY, ACCESS_CHANGE_IDS, ACCESS_NCRREP, ACCESS_NCR_COMMAND)
 	total_positions = 1
 	spawn_positions = 1
 	description = "You are the Provost Marshal, you are in charge of the embassy's and ambassador's security. You'll need to manage your MPs, attempt to prevent gang wars, and ensure the safety and security of NCR citizens. If able, you may want to provide humanitarian support to NCR citizens."
-	supervisors = "NCR command"
+	supervisors = "NCR Ambassador"
 	selection_color = "#c7b775"
 	outfit = /datum/outfit/job/citizens/f13provostmarshal
 
@@ -979,7 +980,7 @@
 	uniform	= /obj/item/clothing/under/f13/ncr/ncr_officer
 	gloves = /obj/item/clothing/gloves/f13/leather
 	shoes = /obj/item/clothing/shoes/f13/military/ncr_officer_boots
-	ears = /obj/item/radio/headset
+	ears = /obj/item/radio/headset/headset_ncr
 	backpack = /obj/item/storage/backpack/satchel/trekker
 	suit_store = null
 	backpack_contents = list(
@@ -1017,7 +1018,7 @@
 	name = "NCRA Military Police"
 	jobtype	= /datum/job/citizens/f13militarypolice
 	id = /obj/item/card/id/dogtag/ncrsergeant
-	ears = /obj/item/radio/headset
+	ears = /obj/item/radio/headset/headset_ncr
 	neck = null
 	accessory = /obj/item/clothing/accessory/armband/black
 	glasses	= /obj/item/clothing/glasses/sunglasses/big
