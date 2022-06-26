@@ -554,8 +554,14 @@
 	dat += "<table><tr><td valign='top'>"
 	var/column_counter = 0
 	// render each category's available jobs
+	var/list/mapjobs
 
-	for(var/category in GLOB.position_categories)
+	if (SSmaptype.maptype == "reno")
+		mapjobs = list("Salvatores", "Wrights", "Mordinos", "Bishops", "Citizens")
+	else
+		mapjobs = GLOB.position_categories
+
+	for(var/category in mapjobs)
 		// position_categories contains category names mapped to available jobs and an appropriate color
 		var/cat_color = GLOB.position_categories[category]["color"]
 		dat += "<fieldset style='width: 185px; border: 2px solid [cat_color]; display: inline'>"
