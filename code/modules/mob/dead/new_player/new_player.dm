@@ -554,12 +554,13 @@
 	dat += "<table><tr><td valign='top'>"
 	var/column_counter = 0
 	// render each category's available jobs
-	var/list/mapjobs
+	var/list/mapjobs = GLOB.position_categories
 
 	if (SSmaptype.maptype == "reno")
 		mapjobs = list("Salvatores", "Wrights", "Mordinos", "Bishops", "Citizens")
-	else
-		mapjobs = GLOB.position_categories
+
+	if (SSmaptype.maptype == "sunnyvale")
+		mapjobs = list("Vault", "Followers", "NCR", "Legion", "Town", "Enclave", "Wasteland")
 
 	for(var/category in mapjobs)
 		// position_categories contains category names mapped to available jobs and an appropriate color
