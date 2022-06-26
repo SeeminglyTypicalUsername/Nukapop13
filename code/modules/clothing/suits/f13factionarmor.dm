@@ -1112,3 +1112,20 @@
 /obj/item/clothing/suit/armor/f13/reno/bulletproof/lite
 	name = "crude concealed kevlar armor"
 	armor = list("melee" = 17, "bullet" = 20, "laser" = 20, "bio" = 0, "rad" = 0, "fire" = 25, "acid" = 25)
+
+/obj/item/clothing/suit/armor/f13/ncrarmor/reno
+	name = "reserve NCR patrol vest"
+	desc = "A standard issue NCR Infantry vest."
+	icon_state = "ncr_infantry_vest"
+	item_state = "ncr_infantry_vest"
+	body_parts_covered = CHEST|GROIN|ARMS|LEGS
+	armor = list("melee" = 20, "bullet" = 25, "laser" = 10, "energy" = 20, "bomb" = 30, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0)
+
+/obj/item/clothing/suit/armor/f13/ncrarmor/dresscoat/reno
+	name = "NCR dress coat"
+	desc = "A special issue NCR officer's armour with an added thick overcoat for protection from the elements."
+	icon_state = "ncr_dresscoat"
+	item_state = "ncr_dresscoat"
+	armor = list("melee" = 25, "bullet" = 30, "laser" = 30, "energy" = 20, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 20, "acid" = 0)
+	body_parts_covered = CHEST|GROIN|ARMS|LEGS
+	pocket_storage_component_path = /datum/component/storage/concrete/pockets/bulletbelt

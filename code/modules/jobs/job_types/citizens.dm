@@ -922,3 +922,127 @@
 	backpack_contents = list(
 		/obj/item/clothing/head/helmet/f13/foreign_hat = 1,
 		/obj/item/reagent_containers/hypospray/medipen/stimpak = 2)
+
+/*--------------------------------------------------------------*/
+
+/datum/job/citizens/f13ambassador
+	title = "NCR Ambassador"
+	flag = F13AMBASSADOR
+	faction = FACTION_CITIZENS
+	access = list(ACCESS_NCR, ACCESS_NCR_ARMORY, ACCESS_NCRREP)
+	total_positions = 1
+	spawn_positions = 1
+	description = "You are an influential representative for the NCR and experienced bureaucrat. You are here to further the objective and ensure the interests of the NCR. Attempt to establish relations with the gangs of Reno, and keep close ties with the Bishops, your only real 'allies' in the city. Manage recruitment and make deals with the gangs. YOU represent the NCR in New Reno."
+	supervisors = "the Republic"
+	selection_color = "#c7b775"
+	outfit = /datum/outfit/job/citizens/f13ambassador
+
+/datum/outfit/job/citizens/f13ambassador
+	name = "NCR Ambassador"
+	uniform = /obj/item/clothing/under/suit/burgundy
+	shoes = /obj/item/clothing/shoes/laceup
+	jobtype	= /datum/job/ncr/f13representative
+	id = /obj/item/card/id/dogtag/ncrrep
+	neck = /obj/item/storage/belt/holster/legholster
+	backpack = /obj/item/storage/backpack/satchel/leather
+	backpack_contents = list(
+		/obj/item/gun/ballistic/revolver/m29 = 1,
+		/obj/item/ammo_box/m44 = 1,
+		/obj/item/storage/bag/money/small/reno/cap/onefivezero = 1
+		)
+/*--------------------------------------------------------------*/
+
+/datum/job/citizens/f13provostmarshal
+	title = "NCR Provost Marshal"
+	flag = F13HEADMP
+	faction = FACTION_CITIZENS
+	access = list(ACCESS_NCR, ACCESS_NCR_ARMORY, ACCESS_CHANGE_IDS, ACCESS_NCRREP, ACCESS_NCR_COMMAND)
+	total_positions = 1
+	spawn_positions = 1
+	description = "You are the Provost Marshal, you are in charge of the embassy's and ambassador's security. You'll need to manage your MPs, attempt to prevent gang wars, and ensure the safety and security of NCR citizens. If able, you may want to provide humanitarian support to NCR citizens."
+	supervisors = "NCR command"
+	selection_color = "#c7b775"
+	outfit = /datum/outfit/job/citizens/f13provostmarshal
+
+/datum/outfit/job/citizens/f13provostmarshal
+	name = "NCR Provost Marshal"
+	jobtype	= /datum/job/citizens/f13provostmarshal
+	id = /obj/item/card/id/dogtag/ncrlieutenant
+	neck = /obj/item/storage/belt/holster/legholster
+	accessory = /obj/item/clothing/accessory/ncr/LT2
+	glasses	= /obj/item/clothing/glasses/sunglasses/big
+	head = /obj/item/clothing/head/beret/ncr/reno
+	backpack = /obj/item/storage/backpack/trekker
+	satchel = /obj/item/storage/backpack/satchel/trekker
+	belt = /obj/item/storage/belt/military/assault/ncr
+	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/dresscoat/reno
+	uniform	= /obj/item/clothing/under/f13/ncr/ncr_officer
+	gloves = /obj/item/clothing/gloves/f13/leather
+	shoes = /obj/item/clothing/shoes/f13/military/ncr_officer_boots
+	ears = /obj/item/radio/headset
+	backpack = /obj/item/storage/backpack/satchel/trekker
+	suit_store = null
+	backpack_contents = list(
+		/obj/item/gun/ballistic/revolver/m29 = 1,
+		/obj/item/ammo_box/m44 = 1,
+		/obj/item/storage/bag/money/small/reno/cap/onezerozero = 1,
+		/obj/item/melee/classic_baton/militarypolice = 1,
+		/obj/item/clothing/head/f13/ncr/steelpot_mp
+		)
+
+/datum/outfit/job/citizens/f13provostmarshal/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	..()
+	if(visualsOnly)
+		return
+	ADD_TRAIT(H, TRAIT_GENERIC, src)
+	ADD_TRAIT(H, TRAIT_SELF_AWARE, src)
+	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
+	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
+
+/*--------------------------------------------------------------*/
+
+/datum/job/citizens/f13militarypolice
+	title = "NCRA Military Police"
+	flag = F13MILITARYPOLICE
+	faction = FACTION_CITIZENS
+	total_positions = 3
+	spawn_positions = 3
+	description = "You are an MP of the Reno Embassy, either a wonderful or horrible assignment based on your disposition. You are to protect the embassy, ensure the security of the NCR citizens, and protect the ambassador at all costs. Preform humanitarian efforts and prevent any fights from happening between the gangs to prevent things from getting too heated."
+	supervisors = "Provost Marshall"
+	selection_color = "#c7b775"
+	outfit = /datum/outfit/job/citizens/f13militarypolice
+	access = list(ACCESS_NCR)
+
+/datum/outfit/job/citizens/f13militarypolice
+	name = "NCRA Military Police"
+	jobtype	= /datum/job/citizens/f13militarypolice
+	id = /obj/item/card/id/dogtag/ncrsergeant
+	ears = /obj/item/radio/headset
+	neck = null
+	accessory = /obj/item/clothing/accessory/armband/black
+	glasses	= /obj/item/clothing/glasses/sunglasses/big
+	head = /obj/item/clothing/head/f13/ncr/steelpot_mp
+	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/reno
+	gloves = /obj/item/clothing/gloves/f13/leather/fingerless
+	backpack = /obj/item/storage/backpack/satchel/trekker
+	suit_store = /obj/item/gun/ballistic/revolver/police
+	backpack = /obj/item/storage/backpack/trekker
+	satchel = /obj/item/storage/backpack/satchel/trekker
+	uniform	= /obj/item/clothing/under/f13/ncr
+	belt = /obj/item/storage/belt/military/assault/ncr
+	shoes = /obj/item/clothing/shoes/f13/military/ncr
+	backpack_contents = list(
+		/obj/item/ammo_box/a357 = 1,
+		/obj/item/storage/bag/money/small/reno/cap/threezero =1,
+		/obj/item/melee/classic_baton/militarypolice = 1,
+		/obj/item/storage/survivalkit_aid = 1
+		)
+
+/datum/outfit/job/citizens/f13militarypolice/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	. = ..()
+	if(visualsOnly)
+		return
+	ADD_TRAIT(H, TRAIT_IRONFIST, src)
+	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
+
+

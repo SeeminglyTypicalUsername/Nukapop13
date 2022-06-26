@@ -434,6 +434,7 @@
 /area/f13/building)
 "ee" = (
 /obj/structure/table/wood/poker,
+/obj/item/storage/toolbox/mechanical,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "ej" = (
@@ -624,6 +625,12 @@
 /obj/effect/spawner/lootdrop/grille_or_trash,
 /turf/open/floor/wood/cold,
 /area/f13/building)
+"fP" = (
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/hand_labeler,
+/turf/open/floor/wood/f13/oak,
+/area/f13/building)
 "fS" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -734,6 +741,13 @@
 "gy" = (
 /turf/closed/indestructible/rock,
 /area/f13/caves)
+"gz" = (
+/obj/structure/rack,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/storage/toolbox/drone,
+/turf/open/floor/plasteel/dark,
+/area/f13/building)
 "gB" = (
 /turf/closed/wall/f13/wood/interior,
 /area/f13/building)
@@ -2709,6 +2723,7 @@
 /area/f13/building)
 "yQ" = (
 /obj/structure/rack/shelf_metal,
+/obj/item/storage/toolbox/mechanical,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
@@ -3207,6 +3222,12 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
+/area/f13/building)
+"Dg" = (
+/obj/structure/shelf_wood,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/storage/toolbox/mechanical,
+/turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "Dh" = (
 /turf/closed/wall/f13/tentwall,
@@ -4717,6 +4738,7 @@
 "RT" = (
 /obj/structure/rack/shelf_metal,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/storage/toolbox/mechanical,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "Sb" = (
@@ -20949,7 +20971,7 @@ dI
 dI
 dI
 ld
-tM
+gz
 qO
 Yv
 np
@@ -23256,7 +23278,7 @@ He
 xO
 wK
 PS
-uQ
+Dg
 xO
 dI
 dI
@@ -36899,7 +36921,7 @@ sj
 lr
 gv
 Lr
-eR
+fP
 eR
 cB
 dI
