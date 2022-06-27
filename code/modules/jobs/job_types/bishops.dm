@@ -33,6 +33,7 @@
 
 	id = /obj/item/card/id/reno/bishops/ring/boss
 	backpack = /obj/item/storage/backpack/satchel/leather
+	ears = /obj/item/radio/headset
 	satchel = /obj/item/storage/backpack/satchel/leather
 	r_hand = /obj/item/gun/ballistic/revolver/caravan_shotgun
 	mask = /obj/item/clothing/mask/cigarette/cigar/ncr
@@ -85,7 +86,7 @@
 	name = "Underboss"
 	jobtype = /datum/job/bishops/f13underboss
 
-	//ears =
+	ears = /obj/item/radio/headset
 	id = /obj/item/card/id/reno/bishops/ring/officer
 	//glasses =
 	//gloves =
@@ -142,7 +143,7 @@
 	name = "Capo"
 	jobtype = /datum/job/bishops/f13capo
 
-	//ears =
+	ears = /obj/item/radio/headset
 	id = /obj/item/card/id/reno/bishops/ring/officer
 	//glasses =
 	//gloves =
@@ -199,7 +200,7 @@
 	name = "Soldier"
 	jobtype = /datum/job/bishops/f13soldier
 
-	ears = null
+	ears = /obj/item/radio/headset
 	id = /obj/item/card/id/reno/bishops/ring/soldier
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
@@ -254,7 +255,7 @@
 	name = "Casino Worker"
 	jobtype = /datum/job/bishops/f13casinoworker
 
-	//ears =
+	ears = /obj/item/radio/headset
 	id = /obj/item/card/id/reno/bishops/papers/worker
 	//glasses =
 	gloves = /obj/item/clothing/gloves/color/white

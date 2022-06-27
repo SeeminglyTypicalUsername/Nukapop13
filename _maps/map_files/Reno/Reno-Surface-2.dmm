@@ -231,8 +231,8 @@
 /area/f13/building)
 "bX" = (
 /obj/structure/shelf_wood,
-/obj/item/gun/ballistic/rifle/hobo/plasmacaster,
-/obj/item/gun/ballistic/rifle/hobo/plasmacaster,
+/obj/item/gun/energy/laser/wattz,
+/obj/item/gun/energy/laser/wattz,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "ce" = (
@@ -259,7 +259,7 @@
 "cn" = (
 /obj/structure/simple_door/room,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood/f13/carpet_brown,
+/turf/open/floor/carpet/brown,
 /area/f13/building)
 "cB" = (
 /turf/closed/wall/mineral/concrete,
@@ -409,6 +409,9 @@
 /obj/item/reagent_containers/glass/beaker/large,
 /obj/item/reagent_containers/glass/beaker/large,
 /obj/item/reagent_containers/glass/beaker/large,
+/obj/item/reagent_containers/glass/beaker/large,
+/obj/item/reagent_containers/glass/beaker/large,
+/obj/item/reagent_containers/glass/beaker/large,
 /turf/open/indestructible/ground/outside/ruins,
 /area/f13/building)
 "dT" = (
@@ -431,6 +434,7 @@
 /area/f13/building)
 "ee" = (
 /obj/structure/table/wood/poker,
+/obj/item/storage/toolbox/mechanical,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "ej" = (
@@ -622,8 +626,9 @@
 /turf/open/floor/wood/cold,
 /area/f13/building)
 "fP" = (
-/obj/structure/chair/pew,
-/obj/effect/landmark/start/f13/mordinos/soldier,
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/hand_labeler,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "fS" = (
@@ -736,6 +741,13 @@
 "gy" = (
 /turf/closed/indestructible/rock,
 /area/f13/caves)
+"gz" = (
+/obj/structure/rack,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/storage/toolbox/drone,
+/turf/open/floor/plasteel/dark,
+/area/f13/building)
 "gB" = (
 /turf/closed/wall/f13/wood/interior,
 /area/f13/building)
@@ -1121,6 +1133,10 @@
 /obj/structure/chair/sofa/left,
 /turf/open/floor/carpet/brown,
 /area/f13/building)
+"kA" = (
+/obj/machinery/telecomms/server/presets/wrights,
+/turf/open/floor/plasteel/dark/telecomms/mainframe,
+/area/f13/tcoms)
 "kB" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -2067,6 +2083,16 @@
 	dir = 8
 	},
 /area/f13/tcoms)
+"sS" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sink/kitchen{
+	dir = 8;
+	pixel_x = 12
+	},
+/turf/open/floor/wood/f13/oak{
+	icon_state = "oakfloor4-broken"
+	},
+/area/f13/building)
 "sX" = (
 /obj/structure/chair/wood/normal{
 	dir = 4
@@ -2286,6 +2312,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
+"vc" = (
+/obj/machinery/telecomms/server/presets/hotel,
+/turf/open/floor/plasteel/dark/telecomms/mainframe,
+/area/f13/tcoms)
 "vd" = (
 /turf/closed/indestructible/f13/matrix,
 /area/f13/building)
@@ -2693,6 +2723,7 @@
 /area/f13/building)
 "yQ" = (
 /obj/structure/rack/shelf_metal,
+/obj/item/storage/toolbox/mechanical,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
@@ -3183,7 +3214,6 @@
 /area/f13/tcoms)
 "Dd" = (
 /obj/structure/chair/wood,
-/obj/effect/landmark/start/f13/mordinos/capo,
 /turf/open/floor/carpet/brown,
 /area/f13/building)
 "Df" = (
@@ -3196,8 +3226,7 @@
 "Dg" = (
 /obj/structure/shelf_wood,
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/item/gun/ballistic/rifle/hobo/lasmusket,
-/obj/item/gun/ballistic/rifle/hobo/lasmusket,
+/obj/item/storage/toolbox/mechanical,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "Dh" = (
@@ -3472,7 +3501,7 @@
 	},
 /area/f13/building)
 "Gh" = (
-/obj/machinery/chem_dispenser/fullupgrade,
+/obj/machinery/chem_dispenser,
 /turf/open/indestructible/ground/outside/ruins,
 /area/f13/building)
 "Gj" = (
@@ -3749,6 +3778,10 @@
 /obj/item/clothing/mask/rat/raven,
 /turf/open/floor/plasteel/f13/vault_floor/red/white,
 /area/f13/building)
+"Iq" = (
+/obj/machinery/telecomms/server/presets/mordinos,
+/turf/open/floor/plasteel/dark/telecomms/mainframe,
+/area/f13/tcoms)
 "Ir" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/bed/old,
@@ -4293,6 +4326,10 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
+"Oa" = (
+/obj/machinery/telecomms/server/presets/salvatores,
+/turf/open/floor/plasteel/dark/telecomms/mainframe,
+/area/f13/tcoms)
 "Ob" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/workbench,
@@ -4339,6 +4376,10 @@
 /obj/structure/closet/fridge,
 /turf/open/floor/carpet/red,
 /area/f13/building)
+"Ou" = (
+/obj/machinery/telecomms/server/presets/bishops,
+/turf/open/floor/plasteel/dark/telecomms/mainframe,
+/area/f13/tcoms)
 "Ox" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/crate/trashcart,
@@ -4697,6 +4738,7 @@
 "RT" = (
 /obj/structure/rack/shelf_metal,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/storage/toolbox/mechanical,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "Sb" = (
@@ -6095,7 +6137,7 @@ Sn
 BO
 NL
 du
-iB
+kA
 Eu
 dz
 jn
@@ -6243,10 +6285,10 @@ zN
 gy
 Uq
 Vi
-iB
-iB
-iB
-iB
+Oa
+Iq
+vc
+Ou
 iB
 SW
 CU
@@ -18929,8 +18971,8 @@ dI
 xO
 gT
 xO
-dI
-dI
+XJ
+XJ
 XJ
 XJ
 XJ
@@ -19081,12 +19123,12 @@ dI
 xO
 gT
 xO
-dI
-dI
+XJ
+Ii
 XJ
 Hg
 Hg
-HR
+Hg
 Hg
 mm
 Hg
@@ -19233,8 +19275,8 @@ dI
 xO
 gT
 xO
-dI
-dI
+XJ
+Ii
 XJ
 Hg
 Hg
@@ -19385,8 +19427,8 @@ dI
 xO
 gT
 xO
-dI
-dI
+XJ
+Ii
 XJ
 lB
 Hg
@@ -19537,8 +19579,8 @@ dI
 xO
 gT
 xO
-dI
-dI
+XJ
+Ii
 XA
 Hg
 Hg
@@ -19689,8 +19731,8 @@ dI
 xO
 gT
 xO
-dI
-dI
+XJ
+Ii
 XJ
 Hg
 Hg
@@ -19841,8 +19883,8 @@ dI
 xO
 gT
 xO
-dI
-dI
+XJ
+XJ
 XJ
 Hg
 Hg
@@ -20148,7 +20190,7 @@ xO
 dI
 dI
 XJ
-fP
+tK
 Hg
 XJ
 of
@@ -20929,7 +20971,7 @@ dI
 dI
 dI
 ld
-tM
+gz
 qO
 Yv
 np
@@ -36879,7 +36921,7 @@ sj
 lr
 gv
 Lr
-eR
+fP
 eR
 cB
 dI
@@ -37640,7 +37682,7 @@ NY
 aN
 ro
 pA
-XY
+sS
 cB
 dI
 dI

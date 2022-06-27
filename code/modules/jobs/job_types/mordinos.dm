@@ -46,7 +46,7 @@
 	name = "Boss"
 	jobtype = /datum/job/mordinos/f13boss
 
-	//ears =
+	ears = /obj/item/radio/headset
 	id = /obj/item/card/id/reno/mordinos/ring/boss
 	//glasses =
 	//gloves =
@@ -106,7 +106,7 @@
 	name = "Underboss"
 	jobtype = /datum/job/mordinos/f13underboss
 
-	//ears =
+	ears = /obj/item/radio/headset
 	id = /obj/item/card/id/reno/mordinos/ring/officer
 	//glasses =
 	//gloves =
@@ -163,7 +163,7 @@
 	name = "Capo"
 	jobtype = /datum/job/mordinos/f13capo
 
-	//ears =
+	ears = /obj/item/radio/headset
 	id = /obj/item/card/id/reno/mordinos/ring/officer
 	//glasses =
 	//gloves =
@@ -220,7 +220,7 @@
 	name = "Goon"
 	jobtype = /datum/job/mordinos/f13goon
 
-	//ears =
+	ears = /obj/item/radio/headset
 	id = /obj/item/card/id/reno/mordinos/ring/soldier
 	//glasses =
 	//gloves =
@@ -286,7 +286,7 @@
 	name = "Casino Worker"
 	jobtype = /datum/job/mordinos/f13casinoworker
 
-	//ears =
+	ears = /obj/item/radio/headset
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
 	id = /obj/item/card/id/reno/mordinos/papers/worker
@@ -333,7 +333,7 @@
 	id = /obj/item/card/id/reno/mordinos/papers/chemist
 	belt = /obj/item/storage/belt/medical
 	shoes = /obj/item/clothing/shoes/laceup
-	//ears = /obj/item/radio/headset/headset_den
+	ears = /obj/item/radio/headset
 	r_pocket = /obj/item/flashlight/seclite
 	uniform = /obj/item/clothing/under/suit/charcoal
 	suit = /obj/item/clothing/suit/toggle/labcoat/chemist

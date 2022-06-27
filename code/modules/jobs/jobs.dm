@@ -327,6 +327,9 @@ GLOBAL_LIST_INIT(citizens_positions, list(
 	"Raider",
 	"Tourist",
 	"Brahmin Baron",
+	"NCR Ambassador",
+	"NCRA Provost Marshal",
+	"NCRA Military Police",
 ))
 
 // job categories for rendering the late join menu

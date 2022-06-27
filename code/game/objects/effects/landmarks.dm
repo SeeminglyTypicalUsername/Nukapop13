@@ -1073,3 +1073,15 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 /obj/effect/landmark/start/f13/civilians/brahminbaron
 	name = "Brahmin Baron"
 	icon_state = "Brahmin Baron"
+
+/obj/effect/landmark/start/f13/civilians/ambassador
+	name = "NCR Ambassador"
+	icon_state = "NCR Ambassador"
+
+/obj/effect/landmark/start/f13/civilians/provostmarshal
+	name = "NCRA Provost Marshal"
+	icon_state = "NCRA Provost Marshal"
+
+/obj/effect/landmark/start/f13/civilians/militarypolice
+	name = "NCRA Military Police"
+	icon_state = "NCRA Military Police"

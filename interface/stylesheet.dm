@@ -66,6 +66,11 @@ em						{font-style: normal;	font-weight: bold;}
 .legionradio			{color: #c24d44;}
 .rangerradio			{color: #83733c;}
 .khansradio				{color: #f0420d;}
+.salvatoresradio		{color: #FF99CC;}
+.bishopsradio			{color: #8CA2BD;}
+.mordinosradio			{color: #FF7566;}
+.wrightsradio			{color: #B3875E;}
+.hotelradio				{color: #F7EFCF;}
 
 .yell					{					font-weight: bold;}
 
