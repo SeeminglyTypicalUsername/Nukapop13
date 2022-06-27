@@ -19,6 +19,7 @@
 	selection_color = "#ff915e"
 	exp_requirements = 1000
 	exp_type = EXP_TYPE_FALLOUT
+	maptype = "khan"
 
 
 	outfit = /datum/outfit/job/wasteland/f13pusher
