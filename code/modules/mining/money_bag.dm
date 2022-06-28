@@ -132,7 +132,7 @@
 ////////
 
 /obj/item/storage/bag/money/small/reno/threezerozero/PopulateContents()
-	// ~150 worth of assorted money
+	// ~300 worth of assorted money
 	new /obj/item/stack/f13Cash/ncr/onefivezero(src)
 	new /obj/item/stack/f13Cash/ncr/onefivezero(src)
 

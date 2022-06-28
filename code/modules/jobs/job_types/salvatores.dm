@@ -245,7 +245,7 @@
 	department_flag = SALVATORES
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "The capos, the underboss, and the Don"
+	supervisors = "the capos, the underboss, and the Don"
 	description = "You are the sole employee of the old Salvatore's bar. Though you're not a proper member of the family, you count with their protection and you're also expected to fulfill their demands. Serve drinks and food to the costumers and the family members, make sure the the place stays clean, and keep a constant dialogue with whoever is keeping the bar safe to kick drunkards, bums, or the more dangerous folks that may come pay a visit to the family."
 	selection_color = "#F2F2F2"
 	exp_requirements = EXP_TYPE_SALVATORES
@@ -288,5 +288,44 @@
 	shoes = /obj/item/clothing/shoes/laceup
 	uniform = /obj/item/clothing/under/rank/chef
 	suit = /obj/item/clothing/suit/toggle/chef
-	belt = /obj/item/gun/energy/laser/wattz/magneto
+	belt = null
 	//backpack_contents =
+
+/*--------------------------------------------------------------*/
+
+/datum/job/salvatores/f13roboticist
+	title = "Salvatores Roboticist"
+	flag = F13SALVATRESROBOTICIST
+	department_flag = SALVATORES
+	total_positions = 1
+	spawn_positions = 1
+	supervisors = "the underboss, and the Don"
+	description = "You are a contractor from Vault City employed by the Salvatores to maintain certain technologies given to them by a third party."
+	selection_color = "#F2F2F2"
+	exp_requirements = EXP_TYPE_SALVATORES
+
+	outfit = /datum/outfit/job/salvatores/f13roboticist
+
+/datum/outfit/job/salvatores/f13roboticist
+	name = "Roboticist"
+	jobtype = /datum/job/salvatores/f13roboticist
+
+	ears = /obj/item/radio/headset
+	id = /obj/item/card/id/reno/salvatores/papers/worker
+	belt = /obj/item/storage/belt/utility/full
+	uniform = /obj/item/clothing/under/f13/vault/vcity
+	shoes = /obj/item/clothing/shoes/jackboots
+	suit = /obj/item/clothing/suit/toggle/labcoat/f13
+	glasses = /obj/item/clothing/glasses/hud/health
+	backpack_contents = list(
+		/obj/item/gun/energy/laser/wattz/magneto = 1,
+		/obj/item/pda = 1,
+		/obj/item/storage/bag/money/small/reno/cap/fivezero = 1)
+
+/datum/outfit/job/salvatores/f13roboticist/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	..()
+	if(visualsOnly)
+		return
+	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, src)
+	ADD_TRAIT(H, TRAIT_MEDICALEXPERT, src)
+	ADD_TRAIT(H, TRAIT_SURGERY_MID, src)

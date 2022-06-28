@@ -523,7 +523,7 @@
 	outfit = /datum/outfit/job/citizens/f13renoraider
 
 	loadout_options = list(
-	/datum/outfit/loadout/raider_fugative,
+	/datum/outfit/loadout/raider_fugitive,
 	/datum/outfit/loadout/raider_bandido,
 	/datum/outfit/loadout/raider_ncradeserter,
 	/datum/outfit/loadout/raider_denslaver,
@@ -533,7 +533,7 @@
 	/datum/outfit/loadout/raider_jackals,
 	/datum/outfit/loadout/raider_80s,
 	/datum/outfit/loadout/raider_manhunter,
-	/datum/outfit/loadout/raider_painspike,
+	/datum/outfit/loadout/raider_psychotic,
 	/datum/outfit/loadout/raider_eyebot
 	)
 
@@ -562,8 +562,8 @@
 		/obj/item/clothing/under/pants/f13/ghoul, \
 		/obj/item/clothing/under/jabroni)
 
-/datum/outfit/loadout/raider_fugative
-	name = "Fugative"
+/datum/outfit/loadout/raider_fugitive
+	name = "Fugitive"
 	suit = /obj/item/clothing/suit/armor/f13/ncrcfjacket
 	uniform = /obj/item/clothing/under/f13/ncrcf
 	mask = /obj/item/clothing/mask/russian_balaclava
@@ -679,7 +679,7 @@
 		/obj/item/restraints/legcuffs/beartrap = 5,
 		/obj/item/nullrod/tribal_knife = 1)
 
-/datum/outfit/loadout/raider_painspike
+/datum/outfit/loadout/raider_psychotic
 	name = "Painspike"
 	suit = /obj/item/clothing/suit/armor/f13/raider/painspike
 	suit_store = /obj/item/gun/ballistic/revolver/caravan_shotgun
@@ -751,7 +751,7 @@
 	backpack_contents = list(
 		/obj/item/card/id/dogtag/town/ncr = 1,
 		/obj/item/melee/onehanded/club = 1,
-		/obj/item/storage/bag/money/small/reno/cap/onezerozero = 1)
+		/obj/item/storage/bag/money/small/reno/cap/onezerozero = 2)
 
 /datum/outfit/loadout/ncroffduty
 	name = "NCRA Off-Duty"
@@ -770,7 +770,7 @@
 		/obj/item/melee/onehanded/knife/bayonet = 1,
 		/obj/item/clothing/under/f13/ncr/ncr_shorts = 1,
 		/obj/item/ammo_box/a308 = 2,
-		/obj/item/storage/bag/money/small/reno/cap/threezero = 1)
+		/obj/item/storage/bag/money/small/reno/cap/threezero = 2)
 
 /datum/outfit/loadout/vaultcityscientist
 	name = "Vault City Scientist"
@@ -796,7 +796,7 @@
 		/obj/item/melee/classic_baton/telescopic = 1,
 		/obj/item/card/id/selfassign = 1,
 		/obj/item/pda = 1,
-		/obj/item/storage/bag/money/small/reno/cap/onezerozero = 1)
+		/obj/item/storage/bag/money/small/reno/cap/onezerozero = 2)
 
 /datum/outfit/loadout/vaultcitydiplomat
 	name = "Vault City Diplomat"
@@ -888,7 +888,7 @@
 	backpack_contents = list(
 		/obj/item/card/id/dogtag/town/ncr = 1,
 		/obj/item/ammo_box/a357 = 1,
-		/obj/item/storage/bag/money/small/reno/cap/onefivezero = 1)
+		/obj/item/storage/bag/money/small/reno/cap/onefivezero = 2)
 
 /*--------------------------------------------------------------*/
 
@@ -921,7 +921,8 @@
 	suit = /obj/item/clothing/suit/armor/f13/civilians/schlimmcoat
 	backpack_contents = list(
 		/obj/item/clothing/head/helmet/f13/foreign_hat = 1,
-		/obj/item/reagent_containers/hypospray/medipen/stimpak = 2)
+		/obj/item/reagent_containers/hypospray/medipen/stimpak = 2,
+		/obj/item/storage/bag/money/small/reno/cap/onefivezero = 1)
 
 /*--------------------------------------------------------------*/
 
