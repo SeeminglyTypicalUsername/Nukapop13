@@ -1126,7 +1126,8 @@ GLOBAL_VAR_INIT(vendor_cash, 0)
 	icon_state = "order_console"
 	prize_list = list(
 		new /datum/data/wasteland_equipment("Energy Cell",						/obj/item/stock_parts/cell/ammo/ec,								40),
-		new /datum/data/wasteland_equipment("Microfusion Cell",					/obj/item/stock_parts/cell/ammo/mfc,							40)
+		new /datum/data/wasteland_equipment("Battery Box",						/obj/item/ammo_box/lasmusket,									40),
+		new /datum/data/wasteland_equipment("Canister Box",						/obj/item/ammo_box/plasmamusket,								40)
 		)
 	highpop_list = list(
 		new /datum/data/wasteland_equipment("Energy Cell",						/obj/item/stock_parts/cell/ammo/ec,								40),
