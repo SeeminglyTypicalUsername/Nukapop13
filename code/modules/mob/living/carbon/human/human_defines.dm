@@ -82,8 +82,6 @@
 
 	var/thirst = THIRST_LEVEL_START
 
-	var/gouging = FALSE
-
 /// Unarmed parry data for human
 /datum/block_parry_data/unarmed/human
 	parry_respect_clickdelay = TRUE

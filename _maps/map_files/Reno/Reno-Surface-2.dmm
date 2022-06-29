@@ -365,13 +365,9 @@
 	},
 /area/f13/building)
 "dt" = (
-/obj/structure/rack/shelf_metal,
-/obj/item/clothing/head/helmet/f13/mordinos/fedora,
-/obj/item/clothing/head/helmet/f13/mordinos/fedora,
-/obj/item/clothing/head/helmet/f13/mordinos/fedora,
-/obj/item/clothing/head/helmet/f13/mordinos/fedora,
-/obj/item/clothing/head/helmet/f13/mordinos/fedora,
-/turf/open/floor/wood/f13/oak,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/building)
 "du" = (
 /obj/machinery/telecomms/server/presets/town,
@@ -1239,13 +1235,6 @@
 /obj/structure/simple_door/room/dirty,
 /turf/open/floor/plasteel/dark,
 /area/f13/building)
-"kR" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/mineral/wasteland_vendor/reno/materials,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	name = "metal plating"
-	},
-/area/f13/building)
 "kT" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/table/wood/settler,
@@ -1320,12 +1309,9 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "lB" = (
-/obj/structure/rack/shelf_metal,
-/obj/item/clothing/under/f13/mordinos/goon,
-/obj/item/clothing/under/f13/mordinos/goon,
-/obj/item/clothing/under/f13/mordinos/goon,
-/obj/item/clothing/under/f13/mordinos/goon,
-/obj/item/clothing/under/f13/mordinos/goon,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "lG" = (
@@ -1399,13 +1385,6 @@
 	color = "000000"
 	},
 /turf/open/floor/wood/cold,
-/area/f13/building)
-"md" = (
-/obj/machinery/door/unpowered/securedoor{
-	name = "Armory";
-	req_one_access_txt = "135"
-	},
-/turf/open/floor/carpet/brown,
 /area/f13/building)
 "me" = (
 /obj/effect/decal/cleanable/dirt{
@@ -1683,15 +1662,10 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "oC" = (
-/obj/machinery/light{
-	dir = 1
+/obj/machinery/door/unpowered/securedoor{
+	name = "Off Limits";
+	req_one_access_txt = "138"
 	},
-/obj/structure/rack/shelf_metal,
-/obj/item/clothing/shoes/laceup,
-/obj/item/clothing/shoes/laceup,
-/obj/item/clothing/shoes/laceup,
-/obj/item/clothing/shoes/laceup,
-/obj/item/clothing/shoes/laceup,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "oD" = (
@@ -1775,10 +1749,6 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
-/area/f13/building)
-"pt" = (
-/obj/structure/closet/crate/secure/weapon,
-/turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "pu" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2090,11 +2060,6 @@
 	},
 /obj/structure/simple_door/house,
 /turf/open/floor/wood/wood_tiled,
-/area/f13/building)
-"rD" = (
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	name = "metal plating"
-	},
 /area/f13/building)
 "rH" = (
 /obj/structure/obstacle/barbedwire,
@@ -2870,13 +2835,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/item/stack/f13Cash/caps/onezero,
 /turf/open/floor/carpet/brown,
-/area/f13/building)
-"yC" = (
-/obj/machinery/door/unpowered/securedoor{
-	name = "Off Limits";
-	req_one_access_txt = "138"
-	},
-/turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "yL" = (
 /obj/effect/decal/cleanable/dirt,
@@ -3864,11 +3822,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
-"Hq" = (
-/obj/structure/rack/shelf_metal,
-/obj/item/gun/ballistic/revolver/hobo/piperifle,
-/turf/open/floor/wood/f13/oak,
-/area/f13/building)
 "Hs" = (
 /obj/structure/chair/wood{
 	dir = 4
@@ -4031,9 +3984,11 @@
 	},
 /area/f13/building)
 "Iv" = (
-/obj/structure/table/wood/settler,
-/obj/machinery/computer/terminal,
-/turf/open/floor/wood/f13/oak,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/mineral/wasteland_vendor/reno/materials,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/building)
 "IC" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -5282,10 +5237,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
 /area/f13/building)
-"TD" = (
-/obj/structure/sign/poster/prewar/poster82,
-/turf/closed/wall/rust,
-/area/f13/building)
 "TE" = (
 /obj/machinery/door/airlock/vault{
 	name = "casino vault";
@@ -5608,9 +5559,8 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "XA" = (
-/obj/structure/rack/shelf_metal,
-/obj/item/twohanded/baseball/louisville,
-/turf/open/floor/wood/f13/oak,
+/obj/structure/sign/poster/prewar/poster82,
+/turf/closed/wall/rust,
 /area/f13/building)
 "XC" = (
 /obj/structure/chair/wood/modern,
@@ -19498,12 +19448,12 @@ xO
 gT
 xO
 XJ
-dt
-Hg
-XA
-Hg
-pt
+Ii
 XJ
+Hg
+Hg
+Hg
+Hg
 mm
 Hg
 Hg
@@ -19650,12 +19600,12 @@ xO
 gT
 xO
 XJ
-lB
-Hg
-Hq
-Hg
-pt
+Ii
 XJ
+Hg
+Hg
+Hg
+Hg
 Tf
 Hg
 Hg
@@ -19802,9 +19752,9 @@ xO
 gT
 xO
 XJ
-oC
-Hg
-Ul
+Ii
+XJ
+lB
 Hg
 XJ
 XJ
@@ -19954,9 +19904,9 @@ xO
 gT
 xO
 XJ
-Ul
+Ii
+XA
 Hg
-Ul
 Hg
 XJ
 aq
@@ -20106,8 +20056,8 @@ xO
 gT
 xO
 XJ
-Iv
-Hg
+Ii
+XJ
 Hg
 Hg
 XJ
@@ -20259,9 +20209,9 @@ gT
 xO
 XJ
 XJ
-TD
 XJ
-md
+Hg
+Hg
 XJ
 GY
 of
@@ -21220,7 +21170,7 @@ qv
 Cf
 SR
 Mq
-kR
+Iv
 XJ
 dI
 dI
@@ -21522,7 +21472,7 @@ Hb
 VH
 VH
 Cf
-rD
+dt
 VH
 Ln
 Sl
@@ -21821,12 +21771,12 @@ VH
 VH
 VH
 BF
-rD
+dt
 Mq
 mx
 VH
 SA
-rD
+dt
 VH
 AB
 XJ
@@ -21979,7 +21929,7 @@ xO
 xO
 xO
 xO
-yC
+oC
 xO
 xO
 dI

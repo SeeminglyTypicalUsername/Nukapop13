@@ -89,12 +89,6 @@
 /obj/structure/table/wood,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
-"adW" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/open/floor/plasteel/freezer,
-/area/f13/building)
 "aeh" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -998,6 +992,12 @@
 	icon_state = "outerborder"
 	},
 /area/f13/wasteland)
+"aRZ" = (
+/obj/machinery/mineral/wasteland_vendor/reno/materials,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaltopbordertop0"
+	},
+/area/f13/wasteland)
 "aSc" = (
 /obj/structure/table/wood/settler,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -1042,11 +1042,11 @@
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "aTo" = (
-/obj/machinery/mineral/wasteland_vendor/reno/materials,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaloutermain0"
+/turf/closed/wall/f13/store{
+	desc = "A pre-War wall made of solid concrete.";
+	name = "concrete wall"
 	},
-/area/f13/wasteland)
+/area/f13/bunker)
 "aTp" = (
 /obj/structure/chair/wood/modern,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -1258,6 +1258,20 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/turf/open/floor/plasteel/f13/vault_floor/red/redchess{
+	icon_state = "redrustychess";
+	name = "tile"
+	},
+/area/f13/building)
+"beF" = (
+/obj/structure/table,
+/obj/item/kitchen/rollingpin,
+/obj/item/kitchen/knife/butcher,
+/obj/item/reagent_containers/spray/cleaner{
+	pixel_x = -8;
+	pixel_y = 11
+	},
+/obj/item/kitchen/knife,
 /turf/open/floor/plasteel/f13/vault_floor/red/redchess{
 	icon_state = "redrustychess";
 	name = "tile"
@@ -7052,6 +7066,12 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/carpet,
 /area/f13/building)
+"fYn" = (
+/obj/machinery/mineral/wasteland_vendor/reno/materials,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaloutermain0"
+	},
+/area/f13/wasteland)
 "fZb" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/stripes/white/box,
@@ -11550,19 +11570,12 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "jzq" = (
-/obj/structure/table,
-/obj/item/kitchen/rollingpin,
-/obj/item/kitchen/knife/butcher,
-/obj/item/reagent_containers/spray/cleaner{
-	pixel_x = -8;
-	pixel_y = 11
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/wall/f13/store{
+	desc = "A pre-War wall made of solid concrete.";
+	name = "concrete wall"
 	},
-/obj/item/kitchen/knife,
-/turf/open/floor/plasteel/f13/vault_floor/red/redchess{
-	icon_state = "redrustychess";
-	name = "tile"
-	},
-/area/f13/building)
+/area/f13/bunker)
 "jzS" = (
 /turf/open/indestructible/ground/outside/desert{
 	icon_state = "wasteland33"
@@ -15926,12 +15939,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
-"naV" = (
-/obj/machinery/mineral/wasteland_vendor/reno/materials,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaltopbordertop0"
-	},
-/area/f13/wasteland)
 "nbb" = (
 /obj/structure/fence,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -16290,6 +16297,12 @@
 	},
 /turf/closed/wall/f13/wood,
 /area/f13/building)
+"nre" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/freezer,
+/area/f13/building)
 "nsf" = (
 /turf/open/floor/wood/f13/old/ruinedstraightsouth,
 /area/f13/building)
@@ -16436,6 +16449,15 @@
 /obj/structure/barricade/wooden/planks/pregame,
 /turf/open/floor/wood/f13/oak,
 /area/f13/wasteland)
+"nxQ" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/red/redchess{
+	icon_state = "redrustychess";
+	name = "tile"
+	},
+/area/f13/building)
 "nxR" = (
 /mob/living/simple_animal/hostile/raider/baseball,
 /turf/open/floor/carpet/red,
@@ -24151,15 +24173,6 @@
 /mob/living/simple_animal/hostile/deathclaw,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/radiation)
-"tQi" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/plasteel/f13/vault_floor/red/redchess{
-	icon_state = "redrustychess";
-	name = "tile"
-	},
-/area/f13/building)
 "tQD" = (
 /obj/structure/wreck/car/bike{
 	pixel_x = -23
@@ -31825,24 +31838,24 @@ fZb
 rRS
 pbS
 pbS
-rRS
+aTo
 wjE
-rRS
-rRS
-rRS
-rRS
+aTo
+aTo
+aTo
+aTo
 scH
-rRS
+aTo
 scH
 xXL
 scH
 uEP
-rRS
-rRS
+aTo
+aTo
 scH
-rRS
+aTo
 scH
-rRS
+aTo
 scH
 uEP
 rRS
@@ -31977,11 +31990,11 @@ dVq
 rRS
 rAR
 pbS
-rRS
+aTo
 xEC
 xEC
 gqc
-rRS
+aTo
 lqj
 hch
 lqj
@@ -31989,7 +32002,7 @@ hch
 lqj
 hch
 awp
-rRS
+aTo
 ueR
 mST
 ueR
@@ -32129,11 +32142,11 @@ dVq
 rRS
 pbS
 pbS
-rRS
+aTo
 xEC
 xEC
 rJW
-rRS
+aTo
 aqX
 awp
 awp
@@ -32141,7 +32154,7 @@ awp
 awp
 xET
 iHf
-rRS
+aTo
 lOY
 tcd
 rDO
@@ -32281,11 +32294,11 @@ dVq
 rRS
 pbS
 pbS
-rRS
+aTo
 sJU
 xEC
 svy
-rRS
+aTo
 lqj
 hch
 lqj
@@ -32293,7 +32306,7 @@ hch
 lqj
 hch
 awp
-rRS
+aTo
 ueR
 mST
 ueR
@@ -32433,26 +32446,26 @@ dVq
 rRS
 pbS
 pbS
-rRS
+aTo
 rJW
 dYq
 rJW
-rRS
-rRS
-rRS
+aTo
+aTo
+aTo
 xXL
 xXL
-rRS
-rRS
-rRS
-rRS
-rRS
-rRS
-rRS
-rRS
-rRS
-rRS
-rRS
+aTo
+aTo
+aTo
+aTo
+aTo
+aTo
+aTo
+aTo
+aTo
+aTo
+aTo
 rRS
 uRJ
 uRJ
@@ -32585,11 +32598,11 @@ fom
 roS
 pbS
 pbS
-rRS
+aTo
 qII
 xEC
 xmu
-rRS
+aTo
 lqj
 pVa
 lqj
@@ -32597,7 +32610,7 @@ hch
 lqj
 hch
 xoV
-rRS
+aTo
 ueR
 sOT
 ueR
@@ -32737,11 +32750,11 @@ rRS
 rRS
 wuX
 wuX
-rRS
-rRS
-rRS
-rRS
-rRS
+aTo
+aTo
+aTo
+aTo
+aTo
 aqX
 awp
 awp
@@ -32749,7 +32762,7 @@ awp
 awp
 xET
 iHf
-rRS
+aTo
 lOY
 tmx
 tmx
@@ -32893,7 +32906,7 @@ kYT
 wfG
 cLl
 wuX
-rRS
+aTo
 lqj
 hch
 lqj
@@ -32901,7 +32914,7 @@ hch
 lqj
 hch
 awp
-rRS
+aTo
 tqi
 dEh
 tqi
@@ -33045,20 +33058,20 @@ nTp
 kYT
 vlG
 wuX
-rRS
-rRS
+aTo
+aTo
 scH
-rRS
+aTo
 scH
-nyY
+jzq
 wWv
 pDI
-nyY
-nyY
+jzq
+jzq
 wWv
-rRS
+aTo
 scH
-rRS
+aTo
 scH
 uEP
 rRS
@@ -33514,9 +33527,9 @@ rRS
 rRS
 rRS
 ujv
-rRS
-rRS
-rRS
+aTo
+aTo
+aTo
 rRS
 uRJ
 uRJ
@@ -39236,7 +39249,7 @@ pJn
 jAN
 tcS
 tHi
-naV
+aRZ
 bGC
 eUH
 oee
@@ -41470,7 +41483,7 @@ aNY
 aNY
 aNY
 soP
-aTo
+fYn
 aNY
 aNY
 aNY
@@ -47130,7 +47143,7 @@ gqv
 nta
 iRK
 sTo
-evw
+gqv
 nqU
 djC
 vmr
@@ -47282,7 +47295,7 @@ gqv
 bee
 hVx
 ddx
-evw
+gqv
 aiu
 xvJ
 vmr
@@ -49860,7 +49873,7 @@ aNY
 aNY
 aNY
 aNY
-aTo
+fYn
 mth
 kFy
 aNY
@@ -53054,7 +53067,7 @@ kNK
 sbk
 iVO
 kNK
-jzq
+beF
 iRK
 iRK
 iRK
@@ -53664,7 +53677,7 @@ kNK
 iRK
 iRK
 iRK
-tQi
+nxQ
 lLb
 kNK
 ryM
@@ -53968,7 +53981,7 @@ kNK
 vyh
 wvk
 wvk
-adW
+nre
 axy
 kNK
 dTH
@@ -59415,7 +59428,7 @@ qIC
 rqZ
 hPD
 vRJ
-aTo
+fYn
 ryM
 bGC
 oee
