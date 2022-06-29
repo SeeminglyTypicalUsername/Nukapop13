@@ -29,7 +29,7 @@ GLOBAL_LIST_INIT(freqtospan, list(
 	"[FREQ_BISHOPS]" = "bishopsradio",
 	"[FREQ_MORDINOS]" = "mordinosradio",
 	"[FREQ_WRIGHTS]" = "wrightsradio",
-	"[FREQ_HOTEL]" = "hotelradio"
+	"[FREQ_HOTEL]" = "hotelradio",
 	"[FREQ_FOLLOWERS]" = "followersradio"
 	))
 
