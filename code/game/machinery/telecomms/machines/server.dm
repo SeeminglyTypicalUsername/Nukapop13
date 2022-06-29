@@ -147,6 +147,11 @@
 	freq_listening = list(FREQ_KHANS)
 	autolinkers = list("khans")
 
+/obj/machinery/telecomms/server/presets/followers
+	id = "Followers Server"
+	freq_listening = list(FREQ_FOLLOWERS)
+	autolinkers = list("followers")
+
 //Common and other radio frequencies for people to freely use
 /obj/machinery/telecomms/server/presets/common/Initialize()
 	. = ..()
