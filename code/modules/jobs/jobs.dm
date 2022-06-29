@@ -286,6 +286,7 @@ GLOBAL_LIST_INIT(salvatores_positions, list(
 	"Salvatores Capo",
 	"Salvatores Soldier",
 	"Salvatores Bartender",
+	"Salvatores Roboticist",
 ))
 
 GLOBAL_LIST_INIT(mordinos_positions, list(
@@ -303,6 +304,7 @@ GLOBAL_LIST_INIT(bishops_positions, list(
 	"Bishops Capo",
 	"Bishops Soldier",
 	"Bishops Casino Worker",
+	"Bishops Comedian",
 ))
 
 GLOBAL_LIST_INIT(wrights_positions, list(

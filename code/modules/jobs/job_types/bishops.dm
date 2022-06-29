@@ -234,23 +234,7 @@
 	exp_requirements = EXP_TYPE_BISHOPS
 
 	outfit = /datum/outfit/job/bishops/f13casinoworker
-/*
-	loadout_options = list(
-	/datum/outfit/loadout/pr,
-	/datum/outfit/loadout/pw,
-	)
 
-	access = list(ACCESS_BAR, ACCESS_CARGO_BOT, ACCESS_MINT_VAULT, ACCESS_CLINIC, ACCESS_KITCHEN, ACCESS_MINING, ACCESS_FORENSICS_LOCKERS)
-	minimal_access = list(ACCESS_BAR, ACCESS_CARGO_BOT, ACCESS_MINT_VAULT, ACCESS_KITCHEN, ACCESS_CLINIC, ACCESS_MINING, ACCESS_FORENSICS_LOCKERS)
-	matchmaking_allowed = list(
-		/datum/matchmaking_pref/friend = list(
-			/datum/job/oasis,
-		),
-		/datum/matchmaking_pref/rival = list(
-			/datum/job/oasis,
-		),
-	)
-*/
 /datum/outfit/job/bishops/f13casinoworker
 	name = "Casino Worker"
 	jobtype = /datum/job/bishops/f13casinoworker
@@ -278,3 +262,35 @@
 //		)
 
 /*--------------------------------------------------------------*/
+
+/datum/job/bishops/f13comedian
+	title = "Bishops Comedian"
+	flag = F13BISHOPCOMEDIAN
+	department_flag = BISHOPS
+	total_positions = 1
+	spawn_positions = 1
+	supervisors = "Bishop Capos, the Underboss, and the Bishop Boss"
+	description = "You are... well... the funny person of the Shark Club! Honk honk! This usually means you'll be expected to be funny to the tourists and whoever else is paying to see you. This is harder than it sounds."
+	selection_color = "#8CA2BD"
+	exp_requirements = EXP_TYPE_BISHOPS
+
+	outfit = /datum/outfit/job/bishops/f13bishopcomedian
+
+/datum/outfit/job/bishops/f13bishopcomedian
+	name = "comedian"
+	jobtype = /datum/job/bishops/f13comedian
+
+	ears = /obj/item/radio/headset
+	id = /obj/item/card/id/reno/bishops/papers/worker
+	gloves = /obj/item/clothing/gloves/color/white
+	backpack = /obj/item/storage/backpack/satchel
+	satchel = /obj/item/storage/backpack/satchel
+	l_pocket = /obj/item/storage/bag/money/small/reno/cap/fivezero
+	r_pocket = null
+	head = /obj/item/clothing/head/jester
+	shoes = /obj/item/clothing/shoes/jackboots
+	uniform = /obj/item/clothing/under/jester
+	backpack_contents = list(
+		/obj/item/reagent_containers/food/snacks/pie/cream = 5,
+		/obj/item/megaphone/clown = 1
+		)

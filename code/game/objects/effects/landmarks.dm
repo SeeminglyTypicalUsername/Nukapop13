@@ -949,6 +949,10 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	name = "Salvatores Bartender"
 	icon_state = "Salvatores Bartender"
 
+/obj/effect/landmark/start/f13/roboticist
+	name = "Salvatores Roboticist"
+	icon_state = "Salvatores Roboticist"
+
 //mordinos
 
 /obj/effect/landmark/start/f13/mordinos/boss
@@ -996,6 +1000,11 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 /obj/effect/landmark/start/f13/bishops/bartender
 	name = "Bishops Casino Worker"
 	icon_state = "Bishops Casino Worker"
+
+/obj/effect/landmark/start/f13/bishops/comedian
+	name = "Bishops Comedian"
+	icon_state = "Bishops Comedian"
+
 
 //wrights
 /obj/effect/landmark/start/f13/wrights/boss
