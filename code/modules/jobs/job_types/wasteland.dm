@@ -18,6 +18,7 @@
 	selection_color = "#ff915e"
 	exp_requirements = 1000
 	exp_type = EXP_TYPE_FALLOUT
+	maptype = "yuma"	//Hopefully this makes Khans not selectable outside of Yuma
 
 	outfit = /datum/outfit/job/wasteland/f13pusher
 
@@ -255,7 +256,7 @@ Raider
 		/obj/item/storage/fancy/cigarettes/cigpack_cannabis = 1,
 		/obj/item/megaphone = 1,
 		/obj/item/radio/headset = 1,
-		/obj/item/book/granter/trait/bigleagues = 1,	
+		/obj/item/book/granter/trait/bigleagues = 1,
 		/obj/item/storage/pill_bottle/chem_tin/buffout = 1,
 		/obj/item/book/granter/trait/trekking = 1
 		)
@@ -267,7 +268,7 @@ Raider
 	backpack_contents = list(
 		/obj/item/kitchen/knife/butcher = 1,
 		/obj/item/book/granter/crafting_recipe/blueprint/trapper = 1,
-		/obj/item/radio/headset = 1,	
+		/obj/item/radio/headset = 1,
 		/obj/item/book/granter/trait/explosives = 1
 		)
 
@@ -311,7 +312,7 @@ Raider
 		/obj/item/ammo_box/shotgun/buck = 1,
 		/obj/item/ammo_box/shotgun/bean = 1,
 		/obj/item/melee/onehanded/club/fryingpan = 1,
-		/obj/item/radio/headset = 1,	
+		/obj/item/radio/headset = 1,
 		/obj/item/book/granter/trait/bigleagues = 1,
 		/obj/item/book/granter/trait/trekking = 1,
 		/obj/item/grenade/chem_grenade/cleaner = 2
@@ -677,6 +678,7 @@ Raider
 	selection_color = "#ff4747"
 	exp_requirements = 600
 	exp_type = EXP_TYPE_WASTELAND
+	maptype = "yuma"	//Hopefully this makes Den not selectable outside of Yuma
 
 	outfit = /datum/outfit/job/wasteland/f13enforcer
 
@@ -749,6 +751,7 @@ Raider
 	selection_color = "#ff4747"
 	exp_requirements = 1000
 	exp_type = EXP_TYPE_OUTLAW
+	maptype = "yuma"	//Hopefully this makes Den not selectable outside of Yuma
 
 	outfit = /datum/outfit/job/wasteland/f13mobboss
 
@@ -823,6 +826,7 @@ datum/job/wasteland/f13dendoctor
 	selection_color = "#ff4747"
 	exp_requirements = 1000
 	exp_type = EXP_TYPE_OUTLAW
+	maptype = "yuma"	//Hopefully this makes Den not selectable outside of Yuma
 
 	outfit = /datum/outfit/job/wasteland/f13dendoctor
 
@@ -1018,6 +1022,7 @@ datum/job/wasteland/f13dendoctor
 	description = "You are a member of a tribe, far away from your homeland. Well, relatively far away. Whatever your reasons for coming here, you've found yourself pinned between the ongoing war of the NCR and Caesar's Legion. Try not to get shot."
 	supervisors = "the stars above"
 	selection_color = "#dddddd"
+	maptype = "yuma"
 	mapexclude = list("tribal")
 
 	outfit = /datum/outfit/job/wasteland/f13tribal

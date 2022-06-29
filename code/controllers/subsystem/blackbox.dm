@@ -169,6 +169,10 @@ SUBSYSTEM_DEF(blackbox)
 			record_feedback("tally", "radio_usage", 1, "ranger")
 		if(FREQ_KHANS)
 			record_feedback("tally", "radio_usage", 1, "khans")
+		if(FREQ_FOLLOWERS)
+			record_feedback("tally", "radio_usage", 1, "followers")
+		if(FREQ_DEN)
+			record_feedback("tally", "radio_usage", 1, "den")
 		else
 			record_feedback("tally", "radio_usage", 1, "other")
 

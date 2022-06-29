@@ -450,3 +450,7 @@
 /obj/item/circuitboard/computer/enclave_control
 	name = "Enclave Bunker Elevator Control (Computer Board)"
 	build_path = /obj/machinery/computer/shuttle/enclaveelevator
+
+/obj/item/circuitboard/computer/enclave_mini_control
+	name = "Enclave Mini Elevator Control (Computer board)"
+	build_path = /obj/machinery/computer/shuttle/enclaveminielevator
