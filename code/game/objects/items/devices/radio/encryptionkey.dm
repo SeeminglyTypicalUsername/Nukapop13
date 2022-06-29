@@ -143,8 +143,7 @@
 
 /obj/item/encryptionkey/headset_overseer
 	name = "\proper the Overseer's encryption key"
-	desc = "An encryption key for a radio headset.  Channels are as follows: :b - vault, :c - command, :s - security, :e - engineering, :m - medical, :n - science."
-	icon_state = "cap_cypherkey"
+	desc = "An encryption key for a radio headset.  Channels are as follows: :b - vault, :c - command, :s - security."
 	channels = list(RADIO_CHANNEL_VAULT = 1, RADIO_CHANNEL_COMMAND = 1, RADIO_CHANNEL_SECURITY = 1)
 
 /obj/item/encryptionkey/headset_vault_hos
@@ -237,6 +236,12 @@
 	desc = "An encryption key for a radio headset. To access the Hotel channel, use :h."
 	icon_state = "cypherkey"
 	channels = list(RADIO_CHANNEL_HOTEL = 1)
+
+/obj/item/encryptionkey/headset_followers
+	name = "Followers radio encryption key"
+	desc = "An encryption key for a radio headset.  To access the Followers channel, use :g.  To access the Town channel, use :f"
+	icon_state = "cypherkey"
+	channels = list(RADIO_CHANNEL_FOLLOWERS = 1, RADIO_CHANNEL_TOWN = 1)
 
 /obj/item/encryptionkey/ai //ported from NT, this goes 'inside' the AI.
 	channels = list(RADIO_CHANNEL_COMMAND = 1, RADIO_CHANNEL_SECURITY = 1, RADIO_CHANNEL_ENGINEERING = 1, RADIO_CHANNEL_SCIENCE = 1, RADIO_CHANNEL_MEDICAL = 1, RADIO_CHANNEL_SUPPLY = 1, RADIO_CHANNEL_SERVICE = 1, RADIO_CHANNEL_AI_PRIVATE = 1)

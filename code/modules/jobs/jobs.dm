@@ -88,7 +88,6 @@ GLOBAL_LIST_INIT(faction_whitelist_positions, list(
 
 "Legion Centurion",
 "Legion Explorer",
-"Legion Slavemaster",
 "Legion Veteran Decanus",
 "Veteran Legionnaire",
 "Legion Prime Decanus",
@@ -97,6 +96,7 @@ GLOBAL_LIST_INIT(faction_whitelist_positions, list(
 "Legion Scout",
 "Legion Auxilia",
 "Legion Slave",
+"Legion Slavemaster",
 
 "Mayor",
 "Chief of Police",

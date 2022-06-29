@@ -26,7 +26,7 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 	RADIO_CHANNEL_MORDINOS = RADIO_TOKEN_MORDINOS,
 	RADIO_CHANNEL_WRIGHTS = RADIO_TOKEN_WRIGHTS,
 	RADIO_CHANNEL_HOTEL = RADIO_TOKEN_HOTEL
-
+	RADIO_CHANNEL_FOLLOWERS = RADIO_TOKEN_FOLLOWERS
 ))
 
 /obj/item/radio/headset
@@ -264,13 +264,13 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 //FALLOUT
 /obj/item/radio/headset/headset_overseer
 	name = "\proper the overseer's radio headset"
-	desc = "This is used by the vault overseer.\nChannels are as follows: :v - vault, :c - command, :s - security, :e - engineering, :m - medical, :n - science."
+	desc = "This is used by the vault overseer.\nChannels are as follows: :i - vault, :c - command, :s - security."
 	icon_state = "com_headset"
 	keyslot = new /obj/item/encryptionkey/headset_overseer
 
 /obj/item/radio/headset/headset_vault_hos
 	name = "\proper the chief of security's radio headset"
-	desc = "The headset of the man in charge of keeping order and protecting the vault.\nChannels are as follows: :v - vault, :c - command, :s - security."
+	desc = "The headset of the man in charge of keeping order and protecting the vault.\nChannels are as follows: :i - vault, :c - command, :s - security."
 	icon_state = "com_headset"
 	keyslot = new /obj/item/encryptionkey/headset_vault_hos
 
@@ -280,12 +280,12 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 
 /obj/item/radio/headset/headset_vault
 	name = "\proper vault radio headset"
-	desc = "A vault-tec radio.\nChannels are as follows: :v - vault."
+	desc = "A vault-tec radio.\nChannels are as follows: :i - vault."
 	keyslot = new /obj/item/encryptionkey/headset_vault
 
 /obj/item/radio/headset/headset_vaultsec
 	name = "security radio headset"
-	desc = "This is used by your elite security force.\nTo access the security channel, use :s. To access the vault channel, use :v."
+	desc = "This is used by your elite security force.\nTo access the security channel, use :s. To access the vault channel, use :i."
 	icon_state = "sec_headset"
 	keyslot = new /obj/item/encryptionkey/headset_vault_security
 
@@ -295,7 +295,7 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 
 /obj/item/radio/headset/headset_vault_hos/alt
 	name = "\proper the head of security's bowman headset"
-	desc = "The headset of the man in charge of keeping order and protecting the station. Protects ears from flashbangs.\nTo access the security channel, use :s. For command, use :c. For vault, use :v"
+	desc = "The headset of the man in charge of keeping order and protecting the station. Protects ears from flashbangs.\nTo access the security channel, use :s. For command, use :c. For vault, use :i"
 	icon_state = "com_headset_alt"
 	item_state = "com_headset_alt"
 
@@ -399,9 +399,10 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 
 /obj/item/radio/headset/headset_followers
 	name = "followers radio headset"
-	desc = "This is used by the followers.\nTo access the town channel, use :f. \nTo access the medical channel, use :m"
+	desc = "This is used by the followers.\nTo access the town channel, use :f. \nTo access the followers channel, use :g"
+	keyslot = new /obj/item/encryptionkey/headset_followers
 	icon_state = "med_headset"
-	keyslot = new /obj/item/encryptionkey/headset_med
+
 
 /obj/item/radio/headset/headset_den
 	name = "den radio headset"

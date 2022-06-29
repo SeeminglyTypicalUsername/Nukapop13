@@ -1,0 +1,50 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/structure/railing{
+	dir = 10;
+	layer = 4.1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/enclave_mini_elevator)
+"h" = (
+/obj/machinery/door/window/brigdoor{
+	dir = 0;
+	req_one_access_txt = "134"
+	},
+/obj/docking_port/mobile/elevator{
+	dwidth = 1;
+	height = 2;
+	id = "enclave_mini_elevator";
+	name = "Enclave Mini Elevator";
+	width = 2
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/enclave_mini_elevator)
+"C" = (
+/obj/structure/railing{
+	dir = 5;
+	layer = 2.3
+	},
+/obj/machinery/computer/shuttle/enclaveminielevator,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/enclave_mini_elevator)
+"Y" = (
+/obj/structure/chair/f13foldupchair,
+/obj/structure/railing{
+	dir = 9;
+	layer = 2.3
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/enclave_mini_elevator)
+
+(1,1,1) = {"
+Y
+a
+"}
+(2,1,1) = {"
+C
+h
+"}

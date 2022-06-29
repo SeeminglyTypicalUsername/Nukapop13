@@ -71,6 +71,7 @@ em						{font-style: normal;	font-weight: bold;}
 .mordinosradio			{color: #FF7566;}
 .wrightsradio			{color: #B3875E;}
 .hotelradio				{color: #F7EFCF;}
+.followersradio			{color: #1D76A9;}
 
 .yell					{					font-weight: bold;}
 

@@ -21,7 +21,6 @@
 	exp_type = EXP_TYPE_FALLOUT
 	maptype = "khan"
 
-
 	outfit = /datum/outfit/job/wasteland/f13pusher
 
 	access = list(ACCESS_KHAN)
@@ -680,6 +679,7 @@ Raider
 	selection_color = "#ff4747"
 	exp_requirements = 600
 	exp_type = EXP_TYPE_WASTELAND
+	maptype = "yuma"	//Hopefully this makes Den not selectable outside of Yuma
 
 	outfit = /datum/outfit/job/wasteland/f13enforcer
 
@@ -752,6 +752,7 @@ Raider
 	selection_color = "#ff4747"
 	exp_requirements = 1000
 	exp_type = EXP_TYPE_OUTLAW
+	maptype = "yuma"	//Hopefully this makes Den not selectable outside of Yuma
 
 	outfit = /datum/outfit/job/wasteland/f13mobboss
 
@@ -826,6 +827,7 @@ datum/job/wasteland/f13dendoctor
 	selection_color = "#ff4747"
 	exp_requirements = 1000
 	exp_type = EXP_TYPE_OUTLAW
+	maptype = "yuma"	//Hopefully this makes Den not selectable outside of Yuma
 
 	outfit = /datum/outfit/job/wasteland/f13dendoctor
 
@@ -1021,6 +1023,7 @@ datum/job/wasteland/f13dendoctor
 	description = "You are a member of a tribe, far away from your homeland. Well, relatively far away. Whatever your reasons for coming here, you've found yourself pinned between the ongoing war of the NCR and Caesar's Legion. Try not to get shot."
 	supervisors = "the stars above"
 	selection_color = "#dddddd"
+	maptype = "yuma"
 	mapexclude = list("tribal")
 
 	outfit = /datum/outfit/job/wasteland/f13tribal

@@ -1,5 +1,5 @@
-## The Wasteland
-Based and maintained from Citadel Station by way of Desert Rose and Fortuna.
+## Rock Star
+Based and maintained from Citadel Station by way of Desert Rose, Fortune, Fortuna, Lone Star, and The Wasteland.
 
 [![CI Suite](https://isitmaintained.com/project/LoneStarF13/LoneStar/actions/workflows/ci_suite.yml/badge.svg?branch=master&event=push)](https://isitmaintained.com/project/LoneStarF13/LoneStar/actions/workflows/ci_suite.yml)
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/FortunaSS13/Fortuna.svg)](https://isitmaintained.com/project/LoneStarF13/LoneStar "Percentage of issues still open")
@@ -10,7 +10,7 @@ Based and maintained from Citadel Station by way of Desert Rose and Fortuna.
 **The Wasteland Information**  
 * **Code:** <https://github.com/ogrigbe/thewasteland>
 * **Wiki:** <>
-* **Discord:** <https://discord.gg/xCgEwJTppx>
+* **Discord:** <https://discord.gg/2zPtbQK7zYxCgEwJTppx>
 All relevant forum content takes place on the Discord!
 
 **Desert Rose Information**
