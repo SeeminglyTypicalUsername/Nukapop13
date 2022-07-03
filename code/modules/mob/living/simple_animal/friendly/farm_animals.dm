@@ -487,6 +487,48 @@
 	var/follow = FALSE
 	var/bridle = FALSE
 
+/mob/living/simple_animal/cow/brahmin/BiologicalLife(seconds, times_fired)
+	. = ..()
+
+	if(prob(2))
+		visible_message("<span class='alertalien'>[src] takes a dump.</span>")
+		new /obj/item/brahmin_pie(get_turf(src))
+
+/obj/item/brahmin_pie
+	name = "brahmin pie"
+	desc = "What a pile of shit."
+	icon = 'icons/fallout/mobs/animals/farmanimals.dmi'
+	icon_state = "brahmin_pie"
+	var/stunning = TRUE
+
+/obj/item/brahmin_pie/throw_impact(atom/hit_atom, datum/thrownthing/throwingdatum)
+	. = ..()
+	if(!.) //if we're not being caught
+		splat(hit_atom)
+
+/obj/item/brahmin_pie/proc/splat(atom/movable/hit_atom)
+	if(isliving(loc)) //someone caught us!
+		return
+	var/turf/T = get_turf(hit_atom)
+	new/obj/effect/decal/cleanable/pie_smudge(T)
+	if(ishuman(hit_atom))
+		var/mob/living/carbon/human/H = hit_atom
+		var/mutable_appearance/creamoverlay = mutable_appearance('icons/effects/creampie.dmi')
+		if((H.dna.species.mutant_bodyparts["mam_snouts"] && H.dna.features["mam_snouts"] != "None") || (H.dna.species.mutant_bodyparts["snout"] && H.dna.features["snout"] != "None"))
+			creamoverlay.icon_state = "creampie_snout"
+		else
+			creamoverlay.icon_state = "creampie_human"
+		if(stunning)
+			H.DefaultCombatKnockdown(20)	//splat!
+		H.adjust_blurriness(1)
+		H.visible_message("<span class='warning'>[H] is creamed by [src]!</span>", "<span class='userdanger'>You've been creamed by [src]!</span>")
+		playsound(H, "desceration", 50, TRUE)
+		if(!H.creamed)	// one layer at a time
+			H.add_overlay(creamoverlay)
+			H.creamed = TRUE
+			SEND_SIGNAL(H, COMSIG_ADD_MOOD_EVENT, "creampie", /datum/mood_event/creampie)
+	qdel(src)
+
 /obj/item/brahminbags
 	name = "brahmin bags"
 	desc = "Attach these bags to a brahmin and leave the heavy lifting to them!"
