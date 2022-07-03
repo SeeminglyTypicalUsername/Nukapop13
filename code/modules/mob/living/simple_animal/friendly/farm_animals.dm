@@ -481,53 +481,36 @@
 ///////////////////////
 //Dave's Brahmin Bags//
 ///////////////////////
-	var/bags = FALSE
-	var/collar = FALSE
+/*
+Bags for storage
+Collar for a novelty name
+Bridle for the stop/follow mechanic and temporary ownership
+Saddle for ridin'
+Brand for permanently marking brahmin as yours (won't stop people stealing em and riding em)
+*/
+
 	var/mob/living/owner = null
 	var/follow = FALSE
+
+	var/bags = FALSE
+	var/collar = FALSE
 	var/bridle = FALSE
+	var/saddle = FALSE
+	var/brand = ""
 
-/mob/living/simple_animal/cow/brahmin/BiologicalLife(seconds, times_fired)
+/mob/living/simple_animal/cow/brahmin/examine(mob/user)
 	. = ..()
-
-	if(prob(2))
-		visible_message("<span class='alertalien'>[src] takes a dump.</span>")
-		new /obj/item/brahmin_pie(get_turf(src))
-
-/obj/item/brahmin_pie
-	name = "brahmin pie"
-	desc = "What a pile of shit."
-	icon = 'icons/fallout/mobs/animals/farmanimals.dmi'
-	icon_state = "brahmin_pie"
-	var/stunning = TRUE
-
-/obj/item/brahmin_pie/throw_impact(atom/hit_atom, datum/thrownthing/throwingdatum)
-	. = ..()
-	if(!.) //if we're not being caught
-		splat(hit_atom)
-
-/obj/item/brahmin_pie/proc/splat(atom/movable/hit_atom)
-	if(isliving(loc)) //someone caught us!
-		return
-	var/turf/T = get_turf(hit_atom)
-	new/obj/effect/decal/cleanable/pie_smudge(T)
-	if(ishuman(hit_atom))
-		var/mob/living/carbon/human/H = hit_atom
-		var/mutable_appearance/creamoverlay = mutable_appearance('icons/effects/creampie.dmi')
-		if((H.dna.species.mutant_bodyparts["mam_snouts"] && H.dna.features["mam_snouts"] != "None") || (H.dna.species.mutant_bodyparts["snout"] && H.dna.features["snout"] != "None"))
-			creamoverlay.icon_state = "creampie_snout"
-		else
-			creamoverlay.icon_state = "creampie_human"
-		if(stunning)
-			H.DefaultCombatKnockdown(20)	//splat!
-		H.adjust_blurriness(1)
-		H.visible_message("<span class='warning'>[H] is creamed by [src]!</span>", "<span class='userdanger'>You've been creamed by [src]!</span>")
-		playsound(H, "desceration", 50, TRUE)
-		if(!H.creamed)	// one layer at a time
-			H.add_overlay(creamoverlay)
-			H.creamed = TRUE
-			SEND_SIGNAL(H, COMSIG_ADD_MOOD_EVENT, "creampie", /datum/mood_event/creampie)
-	qdel(src)
+	desc = initial(desc)
+	if(collar)
+		desc += "<br>A collar with a tag etched '[name]' is hanging from its neck."
+	if(brand)
+		desc += "<br>It has a brand reading '[brand]' on its backside."
+	if(bridle)
+		desc += "<br>It has a bridle and reins attached to its head."
+	if(bags)
+		desc += "<br>It has some bags attached."
+	if(saddle)
+		desc += "<br>It has a saddle across its back."
 
 /obj/item/brahminbags
 	name = "brahmin bags"
@@ -542,18 +525,29 @@
 	icon_state = "petcollar"
 
 /obj/item/brahminbridle
-	name = "brahmin bridle set"
+	name = "brahmin bridle gear"
 	desc = "A set of headgear used to control and claim a brahmin. Consists of a bit, reins, and leather straps stored in a satchel."
-	icon = 'icons/fallout/objects/storage.dmi'
-	icon_state = "satchel_enclave"
+	icon = 'icons/fallout/objects/tools.dmi'
+	icon_state = "brahminbridle"
+
+/obj/item/brahminsaddle
+	name = "brahmin saddle"
+	desc = "A saddle fit for a mutant beast of burden."
+	icon = 'icons/fallout/objects/tools.dmi'
+	icon_state = "brahminsaddle"
+
+/obj/item/brahminbrand
+	name = "brahmin branding tool"
+	desc = "Use this on a brahmin to claim it as yours!"
+	icon = 'icons/fallout/objects/tools.dmi'
+	icon_state = "brahminbrand"
 
 /datum/crafting_recipe/brahminbags
 	name = "Brahmin bags"
 	result = /obj/item/brahminbags
 	time = 60
-	reqs = list(/obj/item/stack/sheet/leather = 2,
-				/obj/item/storage/backpack/duffelbag = 2,
-				/obj/item/weaponcrafting/string = 2)
+	reqs = list(/obj/item/storage/backpack/duffelbag = 2,
+				/obj/item/stack/sheet/cloth = 5)
 	tools = list(TOOL_WORKBENCH)
 	subcategory = CAT_FARMING
 	category = CAT_MISC
@@ -562,19 +556,40 @@
 	name = "Brahmin collar"
 	result = /obj/item/brahmincollar
 	time = 60
-	reqs = list(/obj/item/stack/crafting/metalparts = 1,
+	reqs = list(/obj/item/stack/sheet/metal = 1,
 				/obj/item/stack/sheet/cloth = 1)
 	tools = list(TOOL_WORKBENCH)
 	subcategory = CAT_FARMING
 	category = CAT_MISC
 
 /datum/crafting_recipe/brahminbridle
-	name = "Brahmin bridle set"
+	name = "Brahmin bridle gear"
 	result = /obj/item/brahminbridle
 	time = 60
 	reqs = list(/obj/item/stack/sheet/metal = 3,
 				/obj/item/stack/sheet/leather = 2,
 				/obj/item/stack/sheet/cloth = 1)
+	tools = list(TOOL_WORKBENCH)
+	subcategory = CAT_FARMING
+	category = CAT_MISC
+
+/datum/crafting_recipe/brahminsaddle
+	name = "Brahmin saddle"
+	result = /obj/item/brahminsaddle
+	time = 60
+	reqs = list(/obj/item/stack/sheet/metal = 1,
+				/obj/item/stack/sheet/leather = 4,
+				/obj/item/stack/sheet/cloth = 1)
+	tools = list(TOOL_WORKBENCH)
+	subcategory = CAT_FARMING
+	category = CAT_MISC
+
+/datum/crafting_recipe/brahminbrand
+	name = "Brahmin branding tool"
+	result = /obj/item/brahminbrand
+	time = 60
+	reqs = list(/obj/item/stack/sheet/metal = 1,
+				/obj/item/stack/rods = 1)
 	tools = list(TOOL_WORKBENCH)
 	subcategory = CAT_FARMING
 	category = CAT_MISC
@@ -590,7 +605,6 @@
 			return
 		to_chat(user, "<span class='notice'>You add [I] to [src]...</span>")
 		bags = TRUE
-		desc += "<br>This one has some bags attached."
 		qdel(I)
 		src.ComponentInitialize()
 		return
@@ -606,7 +620,6 @@
 			return
 
 		collar = TRUE
-		desc += "<br>A collar with a tag etched '[name]' is hanging from its neck."
 		to_chat(user, "<span class='notice'>You add [I] to [src]...</span>")
 		message_admins("<span class='notice'>[ADMIN_LOOKUPFLW(user)] renamed a brahmin to [name].</span>") //So people don't name their brahmin the N-Word without notice
 		qdel(I)
@@ -619,10 +632,39 @@
 
 		owner = user
 		bridle = TRUE
+		tame = TRUE
 		to_chat(user, "<span class='notice'>You add [I] to [src], claiming it as yours.</span>")
-		desc += "<br>It has a bridle and reins attached to its head."
 		qdel(I)
 		return
+
+	if(istype(I,/obj/item/brahminsaddle))
+		if(saddle)
+			to_chat(user, "<span class='warning'>This brahmin already has a saddle!</span>")
+			return
+
+		saddle = TRUE
+		can_buckle = TRUE
+		buckle_lying = FALSE
+		var/datum/component/riding/D = LoadComponent(/datum/component/riding)
+		D.set_riding_offsets(RIDING_OFFSET_ALL, list(TEXT_NORTH = list(0, 8), TEXT_SOUTH = list(0, 8), TEXT_EAST = list(-2, 8), TEXT_WEST = list(2, 8)))
+		D.set_vehicle_dir_layer(SOUTH, ABOVE_MOB_LAYER)
+		D.set_vehicle_dir_layer(NORTH, OBJ_LAYER)
+		D.set_vehicle_dir_layer(EAST, OBJ_LAYER)
+		D.set_vehicle_dir_layer(WEST, OBJ_LAYER)
+		D.drive_verb = "ride"
+		to_chat(user, "<span class='notice'>You add [I] to [src].</span>")
+		qdel(I)
+		return
+
+	if(istype(I,/obj/item/brahminbrand))
+		if(brand)
+			to_chat(user, "<span class='warning'>This brahmin already has a brand!</span>")
+			return
+
+		brand = input("What would you like to brand on your brahmin?","Brand", brand)
+
+		if(!brand)
+			return
 
 /datum/component/storage/concrete/brahminbag
 	max_w_class = WEIGHT_CLASS_HUGE //Allows the storage of shotguns and other two handed items.
@@ -652,46 +694,93 @@
 			step_to(src, owner)
 
 /mob/living/simple_animal/cow/brahmin/CtrlShiftClick(mob/user)
-	//if user not close return check!!!
 	if(get_dist(user, src) > 1)
 		return
 
-	if(!bridle)
-		return
-
 	if(bridle && user.a_intent == INTENT_DISARM)
+		if(user != owner) //Brahmin thieves!
+			user.visible_message("[user] begins to remove the bridle gear from [src]!", "<span class='notice'>You begin to remove the bridle gear from [src]...</span>")
+			if(do_after(user,60, target = src))
+				new /obj/item/brahminbridle(user.loc)
+				bridle = FALSE
+				owner = null
+				tame = FALSE
+				return
+
 		bridle = FALSE
+		tame = FALSE
 		owner = null
 		to_chat(user, "<span class='notice'>You remove the bridle gear from [src], dropping it on the ground.</span>")
 		new /obj/item/brahminbridle(user.loc)
-		desc = "Brahmin or brahma are mutated cattle with two heads and looking udderly ridiculous.<br>Known for their milk, just don't tip them over."
-		if(collar)
-			desc += "<br>A collar with a tag etched '[name]' is hanging from its neck."
-		if(bags)
-			desc += "<br>This one has some bags attached."
-		return
 
 	if(collar && user.a_intent == INTENT_GRAB)
 		collar = FALSE
-		name = "brahmin"
+		name = initial(name)
 		to_chat(user, "<span class='notice'>You remove the collar from [src], dropping it on the ground.</span>")
 		new /obj/item/brahmincollar(user.loc)
-		desc = "Brahmin or brahma are mutated cattle with two heads and looking udderly ridiculous.<br>Known for their milk, just don't tip them over."
-		if(bridle)
-			desc += "<br>It has a bridle and reins attached to its head."
-		if(bags)
-			desc += "<br>This one has some bags attached."
 
 	if(user == owner)
 		if(bridle && user.a_intent == INTENT_HELP)
 			if(follow)
-				to_chat(user, "<span class='notice'>You tug on the reins of [src], telling it to stop.</span>")
+				to_chat(user, "<span class='notice'>You tug on the reins of [src], telling it to stay.</span>")
 				follow = FALSE
 				return
 			else if(!follow)
 				to_chat(user, "<span class='notice'>You tug on the reins of [src], telling it to follow.</span>")
 				follow = TRUE
 				return
+
+//Brahmin pies
+/mob/living/simple_animal/cow/brahmin/BiologicalLife(seconds, times_fired)
+	. = ..()
+
+	if(prob(2))
+		visible_message("<span class='alertalien'>[src] takes a dump.</span>")
+		new /obj/item/brahmin_pie(get_turf(src))
+
+/obj/item/brahmin_pie
+	name = "brahmin pie"
+	desc = "What a pile of shit."
+	icon = 'icons/fallout/mobs/animals/farmanimals.dmi'
+	icon_state = "brahmin_pie"
+	var/stunning = TRUE
+
+/obj/item/brahmin_pie/throw_impact(atom/hit_atom, datum/thrownthing/throwingdatum)
+	. = ..()
+	if(!.) //if we're not being caught
+		splat(hit_atom)
+
+/obj/effect/decal/cleanable/brahminpie_smudge
+	name = "smashed brahmin pie"
+	desc = "Nasty."
+	gender = NEUTER
+	icon = 'icons/fallout/mobs/animals/farmanimals.dmi'
+	random_icon_states = list("smashed_brahminpie")
+
+/obj/item/brahmin_pie/proc/splat(atom/movable/hit_atom)
+	if(isliving(loc)) //someone caught us!
+		return
+	var/turf/T = get_turf(hit_atom)
+	new/obj/effect/decal/cleanable/brahminpie_smudge(T)
+	if(ishuman(hit_atom))
+		var/mob/living/carbon/human/H = hit_atom
+		var/mutable_appearance/creamoverlay = mutable_appearance('icons/fallout/mobs/animals/farmanimals.dmi')
+		creamoverlay.icon_state = "brahminpie_human"
+		if(stunning)
+			H.DefaultCombatKnockdown(20)	//splat!
+		H.adjust_blurriness(1)
+		H.visible_message("<span class='warning'>[H] is splatted by [src]!</span>", "<span class='userdanger'>You've been splatted by [src]!</span>")
+		playsound(H, "desceration", 50, TRUE)
+		if(!H.creamed)	// one layer at a time
+			H.add_overlay(creamoverlay)
+			H.creamed = TRUE
+			SEND_SIGNAL(H, COMSIG_ADD_MOOD_EVENT, "brahminpie", /datum/mood_event/brahminpie)
+	qdel(src)
+
+/datum/mood_event/brahminpie
+	description = "<span class='warning'>I've been splatted with a brahmin pie. Disgusting!</span>\n"
+	mood_change = -5
+	timeout = 3 MINUTES
 
 ///////////////////////////
 //End Dave's Brahmin Bags//
