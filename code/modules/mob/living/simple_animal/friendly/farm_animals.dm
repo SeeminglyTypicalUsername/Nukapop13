@@ -662,8 +662,8 @@
 /obj/item/brahmin_pie
 	name = "brahmin pie"
 	desc = "What a pile of shit."
-	icon = 'icons/fallout/mobs/animals/farmanimals.dmi'
-	icon_state = "brahmin_pie"
+	icon = 'icons/obj/food/food.dmi'
+	icon_state = "badrecipe"
 	var/stunning = TRUE
 
 /obj/item/brahmin_pie/throw_impact(atom/hit_atom, datum/thrownthing/throwingdatum)
