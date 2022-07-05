@@ -337,6 +337,9 @@
 		/obj/item/melee/onehanded/knife/cosmicdirty, \
 		/obj/item/reagent_containers/food/drinks/beer)
 
+	var/datum/reagent/jet = new /datum/reagent/drug/jet
+	H.reagents.addiction_list.Add(jet)
+
 /*--------------------------------------------------------------*/
 /datum/job/citizens/f13mercenary
 	title = "Mercenary"
