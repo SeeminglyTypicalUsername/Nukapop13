@@ -320,25 +320,25 @@
 
 
 /datum/outfit/job/citizens/f13bum/pre_equip(mob/living/carbon/human/H)
-    . = ..()
-    uniform = pick(
-        /obj/item/clothing/under/f13/brahmin, \
-        /obj/item/clothing/under/f13/rag, \
-        /obj/item/clothing/under/f13/raider_leather, \
-        /obj/item/clothing/under/f13/raiderrags, \
-        /obj/item/clothing/under/pants/f13/ghoul, \
-        /obj/item/clothing/under/jabroni)
+	. = ..()
+	uniform = pick(
+		/obj/item/clothing/under/f13/brahmin, \
+		/obj/item/clothing/under/f13/rag, \
+		/obj/item/clothing/under/f13/raider_leather, \
+		/obj/item/clothing/under/f13/raiderrags, \
+		/obj/item/clothing/under/pants/f13/ghoul, \
+		/obj/item/clothing/under/jabroni)
 
-    r_hand = pick(
-        /obj/item/melee/onehanded/club, \
-        /obj/item/kitchen/knife, \
-        /obj/item/melee/onehanded/club/tireiron, \
-        /obj/item/gun/ballistic/revolver/hobo/pepperbox, \
-        /obj/item/melee/onehanded/knife/cosmicdirty, \
-        /obj/item/reagent_containers/food/drinks/beer)
+	r_hand = pick(
+		/obj/item/melee/onehanded/club, \
+		/obj/item/kitchen/knife, \
+		/obj/item/melee/onehanded/club/tireiron, \
+		/obj/item/gun/ballistic/revolver/hobo/pepperbox, \
+		/obj/item/melee/onehanded/knife/cosmicdirty, \
+		/obj/item/reagent_containers/food/drinks/beer)
 
-    var/datum/reagent/jet = new /datum/reagent/drug/jet
-    H.reagents.addiction_list.Add(jet)
+	var/datum/reagent/jet = new /datum/reagent/drug/jet
+	H.reagents.addiction_list.Add(jet)
 
 /*--------------------------------------------------------------*/
 /datum/job/citizens/f13mercenary
