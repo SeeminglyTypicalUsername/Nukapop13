@@ -2505,8 +2505,7 @@
 /area/f13/building)
 "cpf" = (
 /obj/structure/fence{
-	dir = 8;
-	icon_state = "straight"
+	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
 /area/f13/building)
@@ -2883,8 +2882,7 @@
 /area/f13/wasteland)
 "cGR" = (
 /obj/structure/fence{
-	dir = 8;
-	icon_state = "straight"
+	dir = 8
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontaloutermain0"
@@ -3192,8 +3190,7 @@
 /area/f13/wasteland)
 "cSU" = (
 /obj/structure/musician/piano{
-	desc = "What a wierd piano..";
-	name = "minimoog"
+	desc = "What a wierd piano.."
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -7329,8 +7326,7 @@
 /area/f13/building)
 "gjG" = (
 /obj/structure/chair/wood/modern{
-	dir = 4;
-	icon_state = "wooden_chair_settler"
+	dir = 4
 	},
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "horizontalinnermain0"
@@ -10325,8 +10321,7 @@
 /area/f13/building)
 "iyB" = (
 /obj/structure/fence{
-	dir = 8;
-	icon_state = "straight"
+	dir = 8
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontalbottomborderbottom0"
@@ -10715,8 +10710,7 @@
 /area/f13/wasteland)
 "iOG" = (
 /obj/structure/chair/wood/modern{
-	dir = 8;
-	icon_state = "wooden_chair_settler"
+	dir = 8
 	},
 /turf/open/indestructible/ground/outside/desert{
 	icon_state = "wasteland33"
@@ -11332,8 +11326,7 @@
 /area/f13/wasteland)
 "jpQ" = (
 /obj/structure/fence{
-	dir = 8;
-	icon_state = "straight"
+	dir = 8
 	},
 /turf/open/indestructible/ground/outside/desert{
 	icon_state = "wasteland33"
@@ -12605,15 +12598,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/f13/carpet,
 /area/f13/building)
-"ksr" = (
-/obj/structure/chair/wood/modern{
-	dir = 4;
-	icon_state = "wooden_chair_settler"
-	},
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaloutermain0"
-	},
-/area/f13/wasteland)
 "ksJ" = (
 /obj/structure/fence/handrail{
 	density = 0;
@@ -12923,9 +12907,7 @@
 /turf/open/floor/carpet/black,
 /area/f13/bunker)
 "kGG" = (
-/obj/structure/chair/wood/modern{
-	icon_state = "wooden_chair_settler"
-	},
+/obj/structure/chair/wood/modern,
 /obj/effect/landmark/start/f13/civilians/mercenary,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
@@ -13383,8 +13365,7 @@
 /area/f13/wasteland)
 "kYc" = (
 /obj/structure/chair/wood/modern{
-	dir = 4;
-	icon_state = "wooden_chair_settler"
+	dir = 4
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontalbottomborderbottom0"
@@ -13715,8 +13696,7 @@
 /area/f13/building)
 "lkP" = (
 /obj/structure/chair/wood/modern{
-	dir = 4;
-	icon_state = "wooden_chair_settler"
+	dir = 4
 	},
 /obj/effect/landmark/start/f13/civilians/bum,
 /turf/open/indestructible/ground/outside/road{
@@ -16277,8 +16257,7 @@
 /area/f13/building)
 "nqS" = (
 /obj/structure/fence{
-	dir = 8;
-	icon_state = "straight"
+	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/dark{
@@ -16744,9 +16723,7 @@
 /turf/closed/wall/rust,
 /area/f13/building)
 "nNR" = (
-/obj/machinery/vending/medical{
-	req_access = null
-	},
+/obj/machinery/vending/medical,
 /turf/open/floor/plasteel/dark,
 /area/f13/building)
 "nNS" = (
@@ -20928,8 +20905,7 @@
 /area/f13/wasteland)
 "rkk" = (
 /obj/structure/chair/wood/modern{
-	dir = 4;
-	icon_state = "wooden_chair_settler"
+	dir = 4
 	},
 /turf/open/floor/carpet/brown,
 /area/f13/building)
@@ -22123,10 +22099,7 @@
 	},
 /area/f13/bunker)
 "sgd" = (
-/obj/structure/bed/dogbed{
-	desc = "A comfy-looking dog bed. This one has the words "woman bed" carved into it. Strange.";
-	name = "woman bed"
-	},
+/obj/structure/bed/dogbed,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
@@ -22367,8 +22340,7 @@
 /area/f13/building)
 "srC" = (
 /obj/structure/fence{
-	dir = 8;
-	icon_state = "straight"
+	dir = 8
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontaltopbordertop0"
@@ -23922,9 +23894,7 @@
 	},
 /area/f13/wasteland)
 "tFZ" = (
-/obj/structure/chair/wood/modern{
-	icon_state = "wooden_chair_settler"
-	},
+/obj/structure/chair/wood/modern,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "tGm" = (
@@ -23979,9 +23949,7 @@
 /turf/closed/wall/f13/supermart,
 /area/f13/building)
 "tGW" = (
-/obj/structure/chair/wood/modern{
-	icon_state = "wooden_chair_settler"
-	},
+/obj/structure/chair/wood/modern,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13{
@@ -24412,8 +24380,7 @@
 /area/f13/wasteland)
 "tZp" = (
 /obj/structure/chair/wood/modern{
-	dir = 4;
-	icon_state = "wooden_chair_settler"
+	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/f13{
@@ -24637,8 +24604,7 @@
 /area/f13/bunker)
 "ueU" = (
 /obj/structure/chair/wood/modern{
-	dir = 4;
-	icon_state = "wooden_chair_settler"
+	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/f13/oak,
@@ -24909,14 +24875,6 @@
 	icon_state = "verticalleftborderleft2"
 	},
 /area/f13/wasteland)
-"uri" = (
-/obj/structure/chair/wood/modern{
-	dir = 8;
-	icon_state = "wooden_chair_settler"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood/f13/oak,
-/area/f13/building)
 "urJ" = (
 /obj/structure/table,
 /obj/item/paper_bin,
@@ -25644,8 +25602,7 @@
 /area/f13/radiation)
 "vax" = (
 /obj/structure/fence{
-	dir = 8;
-	icon_state = "straight"
+	dir = 8
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	dir = 4;
@@ -25658,8 +25615,7 @@
 /area/f13/building)
 "vaZ" = (
 /obj/structure/fence{
-	dir = 8;
-	icon_state = "straight"
+	dir = 8
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	dir = 4;
@@ -26149,8 +26105,7 @@
 /area/f13/building)
 "vwf" = (
 /obj/structure/chair/wood/modern{
-	dir = 4;
-	icon_state = "wooden_chair_settler"
+	dir = 4
 	},
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "verticalinnermain2top"
@@ -26774,8 +26729,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/fence{
-	dir = 8;
-	icon_state = "straight"
+	dir = 8
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontaloutermain0"
@@ -27080,8 +27034,7 @@
 /area/f13/building)
 "wlK" = (
 /obj/structure/chair/wood/modern{
-	dir = 1;
-	icon_state = "wooden_chair_settler"
+	dir = 1
 	},
 /turf/open/floor/carpet/brown,
 /area/f13/building)
@@ -28262,8 +28215,7 @@
 /area/f13/wasteland)
 "xkq" = (
 /obj/structure/chair/wood/modern{
-	dir = 8;
-	icon_state = "wooden_chair_settler"
+	dir = 8
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontaloutermain0"
@@ -28352,8 +28304,7 @@
 /area/f13/building)
 "xmo" = (
 /obj/structure/fence{
-	dir = 8;
-	icon_state = "straight"
+	dir = 8
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
@@ -28719,8 +28670,7 @@
 /area/f13/wasteland)
 "xAk" = (
 /obj/structure/chair/wood/modern{
-	dir = 4;
-	icon_state = "wooden_chair_settler"
+	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13{
@@ -29684,8 +29634,7 @@
 /area/f13/wasteland)
 "yls" = (
 /obj/structure/chair/wood/modern{
-	dir = 4;
-	icon_state = "wooden_chair_settler"
+	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -38891,7 +38840,7 @@ gqv
 kNK
 gqv
 aNY
-ksr
+moG
 kNK
 ifN
 llk
@@ -58222,7 +58171,7 @@ mFP
 yls
 jAN
 rfY
-uri
+ikG
 dTH
 pIf
 qZs
