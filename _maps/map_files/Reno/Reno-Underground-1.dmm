@@ -19399,9 +19399,8 @@
 "pWV" = (
 /obj/docking_port/stationary{
 	area_type = /area/f13/wasteland;
-	dir = 4;
-	height = 5;
-	id = "emergency_reno";
+	height = 6;
+	id = "emergency_home";
 	name = "BoxStation emergency evac bay";
 	width = 25
 	},
@@ -56676,7 +56675,7 @@ eQd
 gqv
 kNK
 gqv
-gqv
+skm
 skm
 lrI
 skm
@@ -56828,7 +56827,7 @@ mFP
 gqv
 kNK
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -56980,7 +56979,7 @@ qBe
 gqv
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -57132,7 +57131,7 @@ blH
 guR
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -57284,7 +57283,7 @@ skm
 guR
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -57436,7 +57435,7 @@ skm
 gZi
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -57588,7 +57587,7 @@ skm
 vhi
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -57740,7 +57739,7 @@ skm
 geQ
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -57892,7 +57891,7 @@ skm
 cjb
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -58044,7 +58043,7 @@ uVZ
 qJd
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -58196,8 +58195,8 @@ gqv
 gqv
 gqv
 kNK
-gqv
-pWV
+skm
+skm
 lrI
 skm
 lrI
@@ -58348,7 +58347,7 @@ usz
 usz
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -58500,7 +58499,7 @@ pMM
 dpr
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -58652,7 +58651,7 @@ pMM
 pMM
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -58804,7 +58803,7 @@ pMM
 pMM
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -58956,7 +58955,7 @@ pMM
 pMM
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -59108,7 +59107,7 @@ pMM
 pMM
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -59260,7 +59259,7 @@ pMM
 pMM
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -59412,7 +59411,7 @@ pMM
 pMM
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -59564,7 +59563,7 @@ bSw
 pMM
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -59716,7 +59715,7 @@ sjK
 pMM
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -59868,7 +59867,7 @@ sjK
 bSw
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -60020,7 +60019,7 @@ kVv
 bSw
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -60172,7 +60171,7 @@ kVv
 pMM
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -60324,7 +60323,7 @@ nxX
 rqm
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -60476,7 +60475,7 @@ lAc
 pMM
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -60628,7 +60627,7 @@ tHi
 pMM
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -60780,7 +60779,7 @@ tHi
 wiN
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -60932,7 +60931,7 @@ tHi
 bSw
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -61084,7 +61083,7 @@ nxX
 bSw
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -61236,7 +61235,7 @@ bSw
 fGo
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -61388,7 +61387,7 @@ pMM
 pMM
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -61540,7 +61539,7 @@ pMM
 wuZ
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -61692,7 +61691,7 @@ pMM
 pMM
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -61844,7 +61843,7 @@ wiN
 pMM
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -61996,7 +61995,7 @@ bSw
 pMM
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -62148,7 +62147,7 @@ sKt
 pMM
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -62300,7 +62299,7 @@ pMM
 pMM
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -62452,12 +62451,12 @@ pMM
 gqv
 gqv
 kNK
-gqv
+skm
 skm
 lrI
 skm
 lrI
-skm
+pWV
 aNY
 aNY
 dTH
@@ -62604,7 +62603,7 @@ pMM
 gqv
 kNK
 kNK
-gqv
+skm
 skm
 lrI
 skm
@@ -62756,7 +62755,7 @@ pMM
 gqv
 kNK
 gqv
-gqv
+skm
 skm
 lrI
 skm
