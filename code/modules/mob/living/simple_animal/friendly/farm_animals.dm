@@ -660,6 +660,7 @@
 	desc = "What a pile of shit."
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "badrecipe"
+	merge_type = /obj/item/stack/brahmin_pie
 
 /obj/item/stack/brahmin_pie/throw_impact(atom/hit_atom, datum/thrownthing/throwingdatum)
 	. = ..()
