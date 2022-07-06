@@ -3,13 +3,13 @@ on:
   push:
     branches:
     - main
-    - maps/newreno
-    - maps/sunnyvale
+    - 'maps/newreno'
+    - 'maps/sunnyvale'
   pull_request:
     branches:
     - main
-    - maps/newreno
-    - maps/sunnyvale
+    - 'maps/newreno'
+    - 'maps/sunnyvale'
 env:
   toolchain: stable
   target: i686-unknown-linux-gnu
