@@ -596,12 +596,6 @@
 	AddComponent(/datum/component/storage/concrete/brahminbag)
 	return
 
-/mob/living/simple_animal/cow/brahmin/BiologicalLife(seconds, times_fired)
-	if(!(. = ..()))
-		return
-	handle_following()
-
-
 /mob/living/simple_animal/cow/brahmin/proc/handle_following()
 	if(owner)
 		if(!follow)
@@ -655,6 +649,7 @@
 /mob/living/simple_animal/cow/brahmin/BiologicalLife(seconds, times_fired)
 	if(!(. = ..()))
 		return
+	handle_following()
 	if(stat == CONSCIOUS)
 		if(prob(1))
 			visible_message("<span class='alertalien'>[src] takes a dump.</span>")
