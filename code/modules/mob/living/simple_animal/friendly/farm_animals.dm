@@ -660,14 +660,6 @@
 			visible_message("<span class='alertalien'>[src] takes a dump.</span>")
 			new /obj/item/stack/brahmin_pie(get_turf(src))
 
-/mob/living/simple_animal/cow/brahmin/death(gibbed)
-	. = ..()
-	if(can_buckle)
-		can_buckle = FALSE
-	if(buckled_mobs)
-		for(var/mob/living/M in buckled_mobs)
-			unbuckle_mob(M)
-
 /obj/item/stack/brahmin_pie
 	name = "brahmin pie"
 	desc = "What a pile of shit."
