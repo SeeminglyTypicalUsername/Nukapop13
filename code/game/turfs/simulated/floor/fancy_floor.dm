@@ -287,6 +287,41 @@
 	smooth = SMOOTH_FALSE
 	canSmoothWith = list()
 
+/turf/open/floor/carpet/reno/blue
+	icon = 'icons/fallout/turfs/floors.dmi'
+	icon_state = "tile-carpet_blue"
+	floor_tile = /obj/item/stack/tile/carpet/reno/blue
+	smooth = SMOOTH_FALSE
+	canSmoothWith = list()
+
+/turf/open/floor/carpet/reno/green
+	icon = 'icons/fallout/turfs/floors.dmi'
+	icon_state = "tile-carpet_green"
+	floor_tile = /obj/item/stack/tile/carpet/reno/green
+	smooth = SMOOTH_FALSE
+	canSmoothWith = list()
+
+/turf/open/floor/carpet/reno/burgandy
+	icon = 'icons/fallout/turfs/floors.dmi'
+	icon_state = "tile-carpet_burgandy"
+	floor_tile = /obj/item/stack/tile/carpet/reno/burgandy
+	smooth = SMOOTH_FALSE
+	canSmoothWith = list()
+
+/turf/open/floor/carpet/reno/pattern1
+	icon = 'icons/fallout/turfs/floors.dmi'
+	icon_state = "tile-carpet_pattern1"
+	floor_tile = /obj/item/stack/tile/carpet/reno/pattern1
+	smooth = SMOOTH_FALSE
+	canSmoothWith = list()
+
+/turf/open/floor/carpet/reno/pattern2
+	icon = 'icons/fallout/turfs/floors.dmi'
+	icon_state = "tile-carpet_pattern2"
+	floor_tile = /obj/item/stack/tile/carpet/reno/pattern2
+	smooth = SMOOTH_FALSE
+	canSmoothWith = list()
+
 /turf/open/floor/wood/f13/carpet_brown
 	icon_state = "tile-carpet_brown"
 
