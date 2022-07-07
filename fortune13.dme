@@ -1295,6 +1295,7 @@
 #include "code\game\objects\structures\plasticflaps.dm"
 #include "code\game\objects\structures\railings.dm"
 #include "code\game\objects\structures\reflector.dm"
+#include "code\game\objects\structures\roulettetable.dm"
 #include "code\game\objects\structures\safe.dm"
 #include "code\game\objects\structures\showcase.dm"
 #include "code\game\objects\structures\spawner.dm"
