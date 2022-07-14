@@ -596,12 +596,6 @@
 	AddComponent(/datum/component/storage/concrete/brahminbag)
 	return
 
-/mob/living/simple_animal/cow/brahmin/BiologicalLife(seconds, times_fired)
-	if(!(. = ..()))
-		return
-	handle_following()
-
-
 /mob/living/simple_animal/cow/brahmin/proc/handle_following()
 	if(owner)
 		if(!follow)
@@ -653,20 +647,22 @@
 
 //Brahmin pies
 /mob/living/simple_animal/cow/brahmin/BiologicalLife(seconds, times_fired)
-	. = ..()
+	if(!(. = ..()))
+		return
+	handle_following()
+	if(stat == CONSCIOUS)
+		if(prob(1))
+			visible_message("<span class='alertalien'>[src] takes a dump.</span>")
+			new /obj/item/stack/brahmin_pie(get_turf(src))
 
-	if(prob(2))
-		visible_message("<span class='alertalien'>[src] takes a dump.</span>")
-		new /obj/item/brahmin_pie(get_turf(src))
-
-/obj/item/brahmin_pie
+/obj/item/stack/brahmin_pie
 	name = "brahmin pie"
 	desc = "What a pile of shit."
 	icon = 'icons/obj/food/food.dmi'
 	icon_state = "badrecipe"
-	var/stunning = TRUE
+	merge_type = /obj/item/stack/brahmin_pie
 
-/obj/item/brahmin_pie/throw_impact(atom/hit_atom, datum/thrownthing/throwingdatum)
+/obj/item/stack/brahmin_pie/throw_impact(atom/hit_atom, datum/thrownthing/throwingdatum)
 	. = ..()
 	if(!.) //if we're not being caught
 		splat(hit_atom)
@@ -678,7 +674,7 @@
 	icon = 'icons/fallout/mobs/animals/farmanimals.dmi'
 	random_icon_states = list("smashed_brahminpie")
 
-/obj/item/brahmin_pie/proc/splat(atom/movable/hit_atom)
+/obj/item/stack/brahmin_pie/proc/splat(atom/movable/hit_atom)
 	if(isliving(loc)) //someone caught us!
 		return
 	var/turf/T = get_turf(hit_atom)
@@ -687,8 +683,6 @@
 		var/mob/living/carbon/human/H = hit_atom
 		var/mutable_appearance/creamoverlay = mutable_appearance('icons/fallout/mobs/animals/farmanimals.dmi')
 		creamoverlay.icon_state = "brahminpie_human"
-		if(stunning)
-			H.DefaultCombatKnockdown(20)	//splat!
 		H.adjust_blurriness(1)
 		H.visible_message("<span class='warning'>[H] is splatted by [src]!</span>", "<span class='userdanger'>You've been splatted by [src]!</span>")
 		playsound(H, "desceration", 50, TRUE)

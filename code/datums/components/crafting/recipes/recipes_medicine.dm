@@ -156,7 +156,7 @@
 	name = "Jet"
 	result = /obj/item/reagent_containers/pill/patch/jet
 	reqs = list(/obj/item/clothing/mask/cigarette = 1,
-				/obj/item/brahmin_pie = 1,
+				/obj/item/stack/brahmin_pie = 1,
 				/obj/item/toy/crayon/spraycan = 1)
 	time = 35
 	tools = list(TOOL_WORKBENCH)
