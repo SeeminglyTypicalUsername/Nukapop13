@@ -210,6 +210,117 @@
 	flags_inv = HIDEJUMPSUIT|HIDESHOES
 	mutantrace_variation = NONE
 
+/////////////////////////////
+//Children Of the Cathadrel//
+/////////////////////////////
+
+/obj/item/clothing/suit/hooded/robes/cotc/neophyte
+	name = "neophyte robes"
+	desc = "When was the last time these things were washed?"
+	icon_state = "neophyte"
+	item_state = "brobes"
+	flags_inv = HIDESHOES|HIDEJUMPSUIT
+	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS
+	hoodtype = /obj/item/clothing/head/hooded/robes
+	armor = list("melee" = 15, "bullet" = 20, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 10, "rad" = 0, "fire" = 20, "acid" = 5)
+
+
+/obj/item/clothing/head/hooded/robes/cotc/neophyte
+	name = "neophyte hood"
+	desc = "Perfect for concealing your identity."
+	icon_state = "neophyte"
+	icon_state = "neophyte"
+	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
+	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
+	flash_protect = 2
+	armor = list("melee" = 15, "bullet" = 20, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 10, "rad" = 0, "fire" = 20, "acid" = 5)
+
+/obj/item/clothing/suit/hooded/robes/cotc/proselytizer
+	name = "proselytizer robes"
+	desc = "When was the last time these things were washed?"
+	icon_state = "proselytizer"
+	item_state = "bkrobes"
+	flags_inv = HIDESHOES|HIDEJUMPSUIT
+	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS
+	hoodtype = /obj/item/clothing/head/hooded/robes
+	armor = list("melee" = 15, "bullet" = 20, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 10, "rad" = 0, "fire" = 20, "acid" = 5)
+
+
+/obj/item/clothing/head/hooded/robes/cotc/proselytizer
+	name = "proselytizer hood"
+	desc = "Perfect for concealing your identity."
+	icon_state = "proselytizer"
+	icon_state = "proselytizer"
+	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
+	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
+	flash_protect = 2
+	armor = list("melee" = 15, "bullet" = 20, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 10, "rad" = 0, "fire" = 20, "acid" = 5)
+
+/obj/item/clothing/suit/hooded/robes/cotc/acolyte
+	name = "acolyte robes"
+	desc = "When was the last time these things were washed?"
+	icon_state = "acolyte"
+	item_state = "wrobes"
+	flags_inv = HIDESHOES|HIDEJUMPSUIT
+	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS
+	hoodtype = /obj/item/clothing/head/hooded/robes
+	armor = list("melee" = 15, "bullet" = 20, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 10, "rad" = 0, "fire" = 20, "acid" = 5)
+
+
+/obj/item/clothing/head/hooded/robes/cotc/acolyte
+	name = "acolyte hood"
+	desc = "Perfect for concealing your identity."
+	icon_state = "acolyte"
+	icon_state = "acolyte"
+	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
+	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
+	flash_protect = 2
+	armor = list("melee" = 15, "bullet" = 20, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 10, "rad" = 0, "fire" = 20, "acid" = 5)
+
+/obj/item/clothing/suit/hooded/robes/cotc/servitor
+	name = "servitor robes"
+	desc = "When was the last time these things were washed?"
+	icon_state = "priest"
+	item_state = "probes"
+	flags_inv = HIDESHOES|HIDEJUMPSUIT
+	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS
+	hoodtype = /obj/item/clothing/head/hooded/robes
+	armor = list("melee" = 15, "bullet" = 20, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 10, "rad" = 0, "fire" = 20, "acid" = 5)
+
+
+/obj/item/clothing/head/hooded/robes/cotc/servitor
+	name = "servitor hood"
+	desc = "Perfect for concealing your identity."
+	icon_state = "servitor"
+	icon_state = "servitor"
+	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
+	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
+	flash_protect = 2
+	armor = list("melee" = 15, "bullet" = 20, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 10, "rad" = 0, "fire" = 20, "acid" = 5)
+
+/obj/item/clothing/suit/hooded/robes/cotc/highpriest
+	name = "high priest robes"
+	desc = "When was the last time these things were washed?"
+	icon_state = "priest"
+	item_state = "probes"
+	flags_inv = HIDESHOES|HIDEJUMPSUIT
+	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS
+	hoodtype = /obj/item/clothing/head/hooded/robes
+	armor = list("melee" = 15, "bullet" = 20, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 10, "rad" = 0, "fire" = 20, "acid" = 5)
+
+
+/obj/item/clothing/head/hooded/robes/cotc/highpriest
+	name = "high priest hood"
+	desc = "Perfect for concealing your identity."
+	icon_state = "highpriest"
+	icon_state = "highpriest"
+	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
+	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
+	flash_protect = 2
+	armor = list("melee" = 15, "bullet" = 20, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 10, "rad" = 0, "fire" = 20, "acid" = 5)
+
+
+
 /obj/item/clothing/suit/hooded/robes
 	name = "thick brown robes"
 	desc = "When was the last time these things were washed?"

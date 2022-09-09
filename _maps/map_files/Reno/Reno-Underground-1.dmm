@@ -22635,9 +22635,7 @@
 /obj/machinery/door/poddoor/shutters{
 	id = "NCR"
 	},
-/turf/open/floor/f13{
-	icon_state = "whitegreenrustychess"
-	},
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/building)
 "svG" = (
 /obj/machinery/light{
@@ -54486,7 +54484,7 @@ ryM
 bGC
 oee
 oee
-jna
+oee
 gko
 pkO
 pkO
@@ -54638,7 +54636,7 @@ ryM
 bGC
 gaW
 jWH
-jna
+oee
 gko
 pkO
 pkO
