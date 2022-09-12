@@ -487,6 +487,15 @@
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/treasurer
 	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 10) // Le captain
 
+/obj/item/clothing/suit/armor/f13/ncrarmor/dresscoat
+	name = "NCR officer dress coat"
+	desc = "A special issue NCR officer's dress coat."
+	icon_state = "ncr_dresscoat"
+	item_state = "ncr_dresscoat"
+	armor = list("melee" = 25, "bullet" = 50, "laser" = 45, "energy" = 20, "bomb" = 50, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 55)
+	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 5)
+	pocket_storage_component_path = /datum/component/storage/concrete/pockets/bulletbelt
+
 /obj/item/clothing/suit/armor/f13/ncrarmor/ncr_dressjack
 	name = "NCR dress jacket"
 	desc = "A brown dress uniform jacket intended for enlisted NCRA personnel."

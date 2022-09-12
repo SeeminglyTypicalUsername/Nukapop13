@@ -9,7 +9,7 @@
 	new /obj/item/reagent_containers/hypospray/medipen/stimpak(src)
 	new /obj/item/stack/medical/gauze/improvised(src)
 	new /obj/item/stack/medical/mesh/aloe(src)
-	new /obj/item/flashlight/seclite(src)
+	new /obj/item/flashlight/flare(src)
 	new /obj/item/reagent_containers/pill/radx(src)
 
 /obj/item/storage/survivalkit_khan
@@ -77,7 +77,7 @@
 	. = ..()
 	new /obj/item/reagent_containers/hypospray/medipen/stimpak(src)
 	new /obj/item/stack/medical/gauze(src)
-	new /obj/item/flashlight/seclite(src)
+	new /obj/item/flashlight/flare(src)
 	new /obj/item/stack/medical/suture(src)
 	new /obj/item/stack/medical/ointment(src)
 	new /obj/item/stack/medical/gauze(src)
