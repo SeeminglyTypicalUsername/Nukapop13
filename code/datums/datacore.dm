@@ -93,7 +93,7 @@
 
 /datum/datacore/proc/get_manifest_dr(monochrome, OOC)
 	var/list/command = list()
-	var/list/bos = list()	
+	var/list/bos = list()
 	var/list/enclave = list()
 	var/list/oasis = list()
 	var/list/leg = list()
@@ -129,7 +129,7 @@
 			department = 1
 		if(rank in GLOB.brotherhood_positions)
 			bos[name] = rank
-			department = 1		
+			department = 1
 		if(rank in GLOB.enclave_positions)
 			enclave[name] = rank
 			department = 1

@@ -670,3 +670,14 @@
 	suffix = "elevator"
 	name = "Enclave elevator"
 	port_id = "enclave"
+
+/datum/map_template/shuttle/emergency/reno
+	suffix = "reno"
+	name = "Reno train"
+	credit_cost = 2000
+	description = "A train to return the occupants back to New California."
+
+/datum/map_template/shuttle/enclave_mini_elevator
+	suffix = "elevator"
+	name = "Enclave mini elevator"
+	port_id = "enclave mini elevator"

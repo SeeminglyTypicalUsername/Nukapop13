@@ -199,6 +199,30 @@
 				</html>
 			"}
 
+/obj/item/book/manual/thebook
+	name = "The Book"
+	icon_state = "the_book"
+	author = "unknown"
+	title = "The Book"
+	dat = {"<html>
+				<p><strong>THE FIRST TESTAMENT: THE LIFE AND DEATH OF THE HOLY FATHER </strong></p>
+<p>And it is written that, in our time of need, the Holy Father did come to our aid. When His Holy Flame had purified this earth, and left naught but remnants, he did come to us. And he did say to us, his children, that he had come to make a better place. He had come to make us whole. And we, his children, listened.</p>
+<p>So it is written that the First Church, and the Last, was built by the Holy Father&rsquo;s children on this earth. And we did toil in the Holy Father&rsquo;s light, and it was good. We turned His garden, now sodden with weeds, into a Vineyard of Life, and the Holy Father spoke unto us &ldquo;You have done well, my children. Through you, I shall bring utopia to all who lie under the sun and below the earth.&rdquo; And we knew it to be true.</p>
+<p>Then came the devils, the unbelievers, the heretics. They came to the First Church, and they spat poison and treachery. Twisted were they, corrupted by the venomous words of the Arch Unbeliever. Their words were blasphemy, but we did welcome them with open arms, as we welcome all children of the Holy Father, and asked them to join us in Utopia. They spat at us, and slaughtered the children.</p>
+<p>The Holy Father&rsquo;s angels fought to save the children, but the hordes of the Unbeliever were unending, and they too fell beneath their twisted flesh. The Arch Unbeliever, having slaughtered all the Holy Father&rsquo;s children and angels, came to the Holy Father himself. The Holy Father saw what the unbelievers had done, and he wept. This world was not yet ready for the Utopia that was promised, he did say. And so the Holy Father returned to the place beyond, and the Arch Unbelievers dogs did rule the earth.</p>
+<p><strong>THE SECOND TESTAMENT: THE EXODUS </strong></p>
+<p>So it is written that the Holy Father left us, his surviving children. The Unbeliever had poisoned the sacred vineyard with the blood of the holy, and made a new Hell upon earth. So it is that we, the children that survived, departed the tainted lands in search of new Truth.</p>
+<p>For 900 days and 900 nights, the children traveled the tainted Vineyard, searching for salvation beyond. On the last night, the Holy Father spoke to them thus: &ldquo;You have traveled long and far, my children, and you have found salvation. These lands are yet untouched by the Unbelievers' corruption, and they shall be the foundations for a new Church, a new Vineyard. Go out, and bring my word to all the children of my world.&rdquo; And the children did know that the Holy Father&rsquo;s word was good. And so, the New Church was born.</p>
+<p>The people of the new Vineyard were low and miserable. Untouched by the Holy Father&rsquo;s light, they were naught but insects, crawling in the muck of creation. The children felt the Father&rsquo;s pity for them, and they did bring them the Father&rsquo;s blessings. The children vowed to tend their wounds, and the people of the Vineyard vowed to help the children create their Church. So was the pact sealed</p>
+<p>So it is that the children of the Father and the children of the Vineyard did mingle, and become one. The new children served their Father and his servitors diligently, and did ever work for the good of life. Ever vigilant for the unbelievers and heretics that would corrupt their sacred work, they did toil in the Father&rsquo;s name, and for the Father&rsquo;s dream of Unity.</p>
+<p><strong>THE THIRD TESTAMENT: ARMAGEDDON AND UNITY</strong></p>
+<p>And it is written that one day, the Holy Father will return to his children on earth. His Angels shall descend from the heavens, and they shall destroy the Unbeliever&rsquo;s works, and bring the children into the Utopia the Holy Father has promised them.</p>
+<p>It shall begin with a sign from the Holy Father. He shall bestow a great gift to the children, a gift of the sacred unguents that once brought peace to the Vineyard. His children will know this gift to be his, and they shall begin the return of the Angels to earth.</p>
+<p>When the Angels return, the Father shall bring holy vengeance upon those who destroyed his children. It is written that the Vineyard shall run red with the blood of the Unbelievers, and holy fire shall consume all of the Unbelievers work. Purifying flames shall cleanse the Vineyard of old, and all shall know that the Holy Father is their lord.</p>
+<p>When the Vineyard has been cleansed of Unbelievers, the Children shall return to the First Church, and shall create the Utopia the Father promised. All the world shall join the Father&rsquo;s children, and we shall all march together into sacred Unity.</p>
+				</html>
+			"}
+
 /obj/item/book/manual/nuka_recipes
 	name = "Nuka-Cola Recipes"
 	icon_state = "barbook"

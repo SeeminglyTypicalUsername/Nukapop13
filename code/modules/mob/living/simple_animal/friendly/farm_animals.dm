@@ -596,12 +596,6 @@
 	AddComponent(/datum/component/storage/concrete/brahminbag)
 	return
 
-/mob/living/simple_animal/cow/brahmin/BiologicalLife(seconds, times_fired)
-	if(!(. = ..()))
-		return
-	handle_following()
-
-
 /mob/living/simple_animal/cow/brahmin/proc/handle_following()
 	if(owner)
 		if(!follow)
@@ -650,6 +644,58 @@
 				to_chat(user, "<span class='notice'>You tug on the reins of [src], telling it to follow.</span>")
 				follow = TRUE
 				return
+
+//Brahmin pies
+/mob/living/simple_animal/cow/brahmin/BiologicalLife(seconds, times_fired)
+	if(!(. = ..()))
+		return
+	handle_following()
+	if(stat == CONSCIOUS)
+		if(prob(1))
+			visible_message("<span class='alertalien'>[src] takes a dump.</span>")
+			new /obj/item/stack/brahmin_pie(get_turf(src))
+
+/obj/item/stack/brahmin_pie
+	name = "brahmin pie"
+	desc = "What a pile of shit."
+	icon = 'icons/obj/food/food.dmi'
+	icon_state = "badrecipe"
+	merge_type = /obj/item/stack/brahmin_pie
+
+/obj/item/stack/brahmin_pie/throw_impact(atom/hit_atom, datum/thrownthing/throwingdatum)
+	. = ..()
+	if(!.) //if we're not being caught
+		splat(hit_atom)
+
+/obj/effect/decal/cleanable/brahminpie_smudge
+	name = "smashed brahmin pie"
+	desc = "Nasty."
+	gender = NEUTER
+	icon = 'icons/fallout/mobs/animals/farmanimals.dmi'
+	random_icon_states = list("smashed_brahminpie")
+
+/obj/item/stack/brahmin_pie/proc/splat(atom/movable/hit_atom)
+	if(isliving(loc)) //someone caught us!
+		return
+	var/turf/T = get_turf(hit_atom)
+	new/obj/effect/decal/cleanable/brahminpie_smudge(T)
+	if(ishuman(hit_atom))
+		var/mob/living/carbon/human/H = hit_atom
+		var/mutable_appearance/creamoverlay = mutable_appearance('icons/fallout/mobs/animals/farmanimals.dmi')
+		creamoverlay.icon_state = "brahminpie_human"
+		H.adjust_blurriness(1)
+		H.visible_message("<span class='warning'>[H] is splatted by [src]!</span>", "<span class='userdanger'>You've been splatted by [src]!</span>")
+		playsound(H, "desceration", 50, TRUE)
+		if(!H.creamed)	// one layer at a time
+			H.add_overlay(creamoverlay)
+			H.creamed = TRUE
+			SEND_SIGNAL(H, COMSIG_ADD_MOOD_EVENT, "brahminpie", /datum/mood_event/brahminpie)
+	qdel(src)
+
+/datum/mood_event/brahminpie
+	description = "<span class='warning'>I've been splatted with a brahmin pie. Disgusting!</span>\n"
+	mood_change = -5
+	timeout = 3 MINUTES
 
 ///////////////////////////
 //End Dave's Brahmin Bags//

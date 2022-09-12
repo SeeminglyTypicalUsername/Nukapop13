@@ -46,8 +46,8 @@
 #define RADIO_TOKEN_CENTCOM ":y"
 
 #define RADIO_CHANNEL_VAULT "Vault"
-#define RADIO_KEY_VAULT "b"
-#define RADIO_TOKEN_VAULT ":b"
+#define RADIO_KEY_VAULT "i"
+#define RADIO_TOKEN_VAULT ":i"
 
 #define RADIO_CHANNEL_NCR "NCR"
 #define RADIO_KEY_NCR "w"
@@ -81,6 +81,30 @@
 #define RADIO_KEY_DEN "j"
 #define RADIO_TOKEN_DEN ":j"
 
+#define RADIO_CHANNEL_SALVATORES "Salvatores"
+#define RADIO_KEY_SALVATORES "s"
+#define RADIO_TOKEN_SALVATORES ":s"
+
+#define RADIO_CHANNEL_BISHOPS "Bishops"
+#define RADIO_KEY_BISHOPS"b"
+#define RADIO_TOKEN_BISHOPS ":b"
+
+#define RADIO_CHANNEL_MORDINOS "Mordinos"
+#define RADIO_KEY_MORDINOS "m"
+#define RADIO_TOKEN_MORDINOS ":m"
+
+#define RADIO_CHANNEL_WRIGHTS "Wrights"
+#define RADIO_KEY_WRIGHTS "w"
+#define RADIO_TOKEN_WRIGHTS ":w"
+
+#define RADIO_CHANNEL_HOTEL "Hotel"
+#define RADIO_KEY_HOTEL "h"
+#define RADIO_TOKEN_HOTEL ":h"
+
+#define RADIO_CHANNEL_FOLLOWERS "Followers"
+#define RADIO_KEY_FOLLOWERS "g"
+#define RADIO_TOKEN_FOLLOWERS ":g"
+
 #define RADIO_CHANNEL_CTF_RED "Red Team"
 #define RADIO_CHANNEL_CTF_BLUE "Blue Team"
 
@@ -107,6 +131,12 @@
 #define FREQ_RANGER 1373 //Ranger
 #define FREQ_DEN 1375 //Den
 #define FREQ_KHANS 1376 //Khans
+#define FREQ_SALVATORES 1377 //Salvatores
+#define FREQ_BISHOPS 1379 //Bishops
+#define FREQ_MORDINOS 1381 //Mordinos
+#define FREQ_WRIGHTS 1383 //Wrights
+#define FREQ_HOTEL 1385 //Hotel
+#define FREQ_FOLLOWERS 1378 //Followers
 
 #define FREQ_HOLOGRID_SOLUTION 1433
 #define FREQ_STATUS_DISPLAYS 1435

@@ -248,6 +248,7 @@
 	var/list/brotherhood = list()
 	var/list/wastelanders = list()
 	var/list/followers = list()
+	var/list/vault = list()
 	var/list/misc = list()
 	for(var/datum/data/record/R in GLOB.data_core.general)
 		var/name = R.fields["name"]
@@ -267,6 +268,8 @@
 			command[name] = rank
 		else if(real_rank in GLOB.wasteland_positions)
 			wastelanders[name] = rank
+		else if(real_rank in GLOB.vault_positions)
+			vault[name] = rank
 		else
 			misc[name] = rank
 		// mixed departments, /datum/department when
@@ -280,6 +283,7 @@
 	.["Followers"] = followers
 	.["Brotherhood of Steel"] = brotherhood
 	.["Oasis"] = oasis
+	.["Vault"] = vault
 	.["Wastelanders"] = wastelanders
 	.["Other"] = misc
 	return json_encode(.)

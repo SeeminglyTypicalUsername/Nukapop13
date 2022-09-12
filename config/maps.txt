@@ -14,11 +14,16 @@ Format:
 endmap
 
 map pahrump
-	default
+	disabled
 endmap
 map stjeromesvalley
 	disabled
 endmap
 map sunnyvale
-	voteweight 0
+	voteweight 1
 endmap
+map reno
+	voteweight 1
+endmap
+
+
