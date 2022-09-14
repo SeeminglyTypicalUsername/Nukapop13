@@ -1,6 +1,6 @@
 /*
 Town access doors
-Oasis government: 130  ACCESS_COMMAND
+Kebab government: 130  ACCESS_COMMAND
 Sheriff/Deputy, Gatehouse etc: 62 ACCESS_GATEWAY
 General access: 25 ACCESS_BAR
 Clinic: 133 ACCESS_CLINIC
@@ -26,8 +26,8 @@ Mayor
 	department_flag = DEP_OASIS
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "Oasis"
-	description = "You are the benevolent tyrant of Oasis, chosen by the people to represent and lead them. Pass laws to protect your citizens, distribute town funds and make deals with the powers present within the Region to better the people, and yourself, of course."
+	supervisors = "Kebab"
+	description = "You are the benevolent tyrant of Kebab, chosen by the people to represent and lead them. Pass laws to protect your citizens, distribute town funds and make deals with the powers present within the Region to better the people, and yourself, of course."
 	selection_color = "#d7b088"
 
 	exp_requirements = 1500
@@ -222,8 +222,8 @@ Mayor
 	head_announce = list("Security")
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "Oasis Government"
-	description = "You are the Mayor's best friend, you helped them get where they are. While they handle civil matters, you've been rewarded with more hands-on work, as preferred. With your loyal patrolmen, you maintain your claim to authority by keeping the peace, and protecting the citizens from threats within and without. Never leave Oasis undefended, and don't let its people die out. You have nowhere left to go, if this town falls, so will you."
+	supervisors = "Kebab Mayor"
+	description = "You are the Mayor's goon (do not betray him). While they handle civil matters, you've been rewarded with more hands-on work, as preferred. With your loyal patrolmen, you maintain your claim to authority by keeping the peace, and protecting the citizens from threats within and without. Never leave Kebab undefended, and don't let its people die out. You have nowhere left to go, if this town falls, so will you."
 	selection_color = "#d7b088"
 	exp_requirements = 1500
 
@@ -310,8 +310,8 @@ Mayor
 	department_flag = DEP_OASIS
 	total_positions = 5
 	spawn_positions = 5
-	supervisors = "Oasis Police Department"
-	description = "You've passed the training and tests to join the OPD, and your loyalty to the Chief is absolute - this is your new home, your family. This oasis of civilization will not fall as long as you breathe. Protect its citizens and property, for that is your new purpose."
+	supervisors = "Kebab Police Department"
+	description = "You've passed the training and tests to join the KPD, and your loyalty to the Chief is absolute - this is your new home, your family. This Kebab of civilization will not fall as long as you breathe. Protect its citizens and property, for that is your new purpose."
 	selection_color = "#dcba97"
 	exp_requirements = 12
 	exp_type = EXP_TYPE_FALLOUT
@@ -401,8 +401,8 @@ Mayor
 	department_flag = DEP_OASIS
 	total_positions = 3
 	spawn_positions = 3
-	supervisors = "Oasis Government & Police Department"
-	description = "Growing up in the Oasis, you have an endless love for the sacred Oak, for nowhere in the valley is the soil as fertile, the bounty as rich. Behind the safety of the walls, you grow crops, medicines, and raise livestock. The community depends on you, you are a manifestation of the Oak’s will."
+	supervisors = "Kebab Government & Police Department"
+	description = "Growing up in the Kebab, you have an endless love for the Mayor. Nowhere in the valley is the soil as fertile, the bounty as rich. Behind the safety of the walls, you grow crops, medicines, and raise livestock."
 	selection_color = "#dcba97"
 
 	outfit = /datum/outfit/job/den/f13farmer
@@ -454,7 +454,7 @@ Mayor
 	department_flag = DEP_OASIS
 	total_positions = 4
 	spawn_positions = 4
-	supervisors = "Oasis Government & Police Department"
+	supervisors = "Kebab Government & Police Department"
 	description = "Prospecting is a complicated business, some call it scrounging or looting, but there is more to it than sifting through rubble - few can boast the skills you possess in mining and delving through the ruins of the fallen empire. Not many survive this line of business, and the pay has always been uncertain, but perhaps today you'll strike gold."
 	selection_color = "#dcba97"
 
@@ -509,14 +509,14 @@ Mayor
 	ADD_TRAIT(H, TRAIT_GENERIC, src)
 
 /*--------------------------------------------------------------*/
-
+/*
 /datum/job/oasis/f13towndoctor
 	title = "Town Doctor"
 	flag = F13TOWNDOCTOR
 	department_flag = DEP_OASIS
 	total_positions = 3
 	spawn_positions = 3
-	supervisors = "Oasis Government & Police Department"
+	supervisors = "Kebab Government & Police Department"
 	description = "Handy with a scalpel and scanner, your expertise in the practice of medicine makes you an indispensible asset to the Town. Because you are independent, you are free to pick your patients and charge for your work."
 	selection_color = "#dcba97"
 	outfit = /datum/outfit/job/f13towndoctor
@@ -604,6 +604,7 @@ Mayor
 	ADD_TRAIT(H, TRAIT_SURGERY_HIGH, src)
 	ADD_TRAIT(H, TRAIT_MEDICALGRADUATE, src)
 	ADD_TRAIT(H, TRAIT_MEDICALEXPERT, src)
+*/
 
 //--------------------------------------------------//
 /datum/job/oasis/f13preacher
@@ -782,8 +783,8 @@ Mayor
 	department_flag = DEP_OASIS
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "Oasis Government & Police Department"
-	description = "As the innkeeper, you are responsible for comfort and full bellies in town. Hidden safely away behind the town walls, you are free to refine your skills without always watching your back. As a citizen of the town you must follow its laws. However the inn is your private business, and you decide who is allowed to dine or reside in your hospitality."
+	supervisors = "Den boss"
+	description = "You are an employee of the Den in charge of managing the Kebab Casino . Under the protection of your benefactors you are free to do mostly as you please but are expected to pay up to the boss."
 	selection_color = "#dcba97"
 
 	outfit = /datum/outfit/job/den/f13barkeep
@@ -794,8 +795,8 @@ Mayor
 	/datum/outfit/loadout/richmantender,
 	/datum/outfit/loadout/diner)
 
-	access = list(ACCESS_BAR, ACCESS_KITCHEN)
-	minimal_access = list(ACCESS_BAR, ACCESS_KITCHEN)
+	access = list(ACCESS_DEN)
+	minimal_access = list(ACCESS_DEN)
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
 			/datum/job/oasis,
@@ -867,8 +868,8 @@ Mayor
 	department_flag = DEP_OASIS
 	total_positions = 8
 	spawn_positions = 8
-	supervisors = "Oasis Government & Police Department"
-	description = "You are a citizen living in the Town of Oasis - as the name suggests, it is a somewhat safe place amidst the chaos of the continent. Treat it as such, be sure to follow the laws of the land and do not associate with those who have a tendency not to, or you are likely to face exile. Remember that Oasis is your home, DO NOT act in a manner that would threaten it's safety or other citizens."
+	supervisors = "Kebab Government & Police Department"
+	description = "You are a citizen living in the Town of Kebab - as the name suggests, it is a somewhat safe place amidst the chaos of the continent. Treat it as such, be sure to follow the laws of the land and do not associate with those who have a tendency not to, or you are likely to face exile. Remember that Kebab is your home, DO NOT act in a manner that would threaten it's safety or other citizens."
 	selection_color = "#dcba97"
 
 	outfit = /datum/outfit/job/den/f13settler

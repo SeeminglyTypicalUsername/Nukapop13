@@ -43,7 +43,7 @@ Overseer
 	selection_color = "#95bd95"
 	req_admin_notify = 1
 	exp_requirements = 1500
-	maptype = "yuma"
+	maptype = "sunnyvale"
 
 	outfit = /datum/outfit/job/vault/f13overseer
 
