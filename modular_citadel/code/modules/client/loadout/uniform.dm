@@ -150,7 +150,7 @@
 	name = "torn rags"
 	path = /obj/item/clothing/under/f13/rag
 
-//suits 
+//suits
 
 /datum/gear/uniform/suit
 	name = "black suit"
@@ -617,15 +617,6 @@
 							"NCR Representative"
 						)
 
-/datum/gear/uniform/sniper
-	name = "NCR sniper outfit"
-	path = /obj/item/clothing/under/f13/ncr/sniper
-	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_FACTIONS
-	restricted_desc = "Sergeants, Corporals"
-	restricted_roles = list("NCR Corporal",
-							"NCR Sergeant"
-						)
-
 /datum/gear/uniform/ranger
 	name = "ranger outfit"
 	path = /obj/item/clothing/under/f13/ranger
@@ -666,7 +657,7 @@
 							"Barkeep",
 							)
 
-//Khans 
+//Khans
 
 /datum/gear/uniform/khans
 	name = "great khans jorts"

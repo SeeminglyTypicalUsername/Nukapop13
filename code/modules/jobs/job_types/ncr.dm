@@ -355,24 +355,18 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 // DRILL SERGEANT
 
 /datum/job/ncr/f13drillsergeant
-	title = "NCR Senior Enlisted Advisor"
+	title = "NCR Provost Marshal"
 	flag = F13DRILLSERGEANT
 	total_positions = 1
 	spawn_positions = 1
-	description = "The direct superior to all enlisted, you are to provide training exercises, maintain military discipline, and instill orderliness within the ranks. You may also manage the NCOs. You are the pinnacle of the NCR's enlisted ranks, and are to advise the commissioned officers. You are not a frontline trooper, you are camp support."
-	supervisors = "Lieutenant and Above"
+	description = "You are the Provost Marshal, you are tasked with commanding the Military Police officers in this base to maintain internal order and discipline."
+	supervisors = "Captain"
 	selection_color = "#fff5cc"
 	access = list(ACCESS_NCR, ACCESS_NCR_ARMORY, ACCESS_NCR_COMMAND)
 	display_order = JOB_DISPLAY_ORDER_SERGEANT
 	outfit = /datum/outfit/job/ncr/f13drillsergeant
 	exp_type = EXP_TYPE_NCR
 	exp_requirements = 1500
-
-	loadout_options = list( // ALL: Bayonet
-		/datum/outfit/loadout/seatechnical,
-		/datum/outfit/loadout/seacommand,
-		/datum/outfit/loadout/seastaff,
-		)
 
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
@@ -384,54 +378,39 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		)
 
 
-/datum/outfit/job/ncr/f13drillsergeant
-	name = "NCR Senior Enlisted Advisor"
-	jobtype = /datum/job/ncr/f13drillsergeant
+/datum/outfit/job/ncr/f13drillsergeant		// .44 Revolver, Riot Shotgun, Military baton
+	name = "NCR Provost Marshal"
+	jobtype	= /datum/job/ncr/f13mp
 	id = /obj/item/card/id/dogtag/ncrsergeant
+	neck = /obj/item/storage/belt/holster/legholster
+	accessory = /obj/item/clothing/accessory/ncr/LT2
+	glasses	= /obj/item/clothing/glasses/sunglasses/big
+	head = /obj/item/clothing/head/beret/ncr
+	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/dresscoat
+	uniform	= /obj/item/clothing/under/f13/ncr/ncr_officer
 	gloves = /obj/item/clothing/gloves/f13/leather
-	head = /obj/item/clothing/head/f13/ncr/ncr_campaign
 	shoes = /obj/item/clothing/shoes/f13/military/ncr_officer_boots
-	glasses	= /obj/item/clothing/glasses/sunglasses
-	head = /obj/item/clothing/head/f13/ncr/ncr_campaign
-	neck = /obj/item/storage/belt/holster
+	ears = /obj/item/radio/headset/headset_ncr_com
+	backpack = /obj/item/storage/backpack/satchel/trekker
+	suit_store = /obj/item/gun/ballistic/rifle/hunting
 	backpack_contents = list(
-		/obj/item/melee/onehanded/knife/bayonet = 1,
+		/obj/item/gun/ballistic/revolver/m29 = 1,
+		/obj/item/ammo_box/m44 = 1,
+		/obj/item/ammo_box/a762 = 2,
 		/obj/item/storage/bag/money/small/ncrofficers = 1,
-		/obj/item/melee/classic_baton/telescopic = 1,
-		/obj/item/storage/box/ration/menu_two = 1,
-		/obj/item/stack/crafting/armor_plate = 5
+		/obj/item/melee/classic_baton/militarypolice = 1,
+		/obj/item/stack/crafting/armor_plate = 4,
+		/obj/item/clothing/head/f13/ncr/steelpot_mp = 1
 		)
 
-/datum/outfit/loadout/seatechnical
-	name = "Technical Senior Advisor"
-	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/mantle/reinforced
-	backpack_contents = list(
-		/obj/item/gun/ballistic/automatic/assault_carbine = 1,
-		/obj/item/ammo_box/magazine/m5mm = 1,
-		/obj/item/clothing/accessory/ncr/FSGT = 1
-		)
-
-/datum/outfit/loadout/seacommand
-	name = "Command Senior Advisor"
-	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/ncr_dressjack
-	shoes = /obj/item/clothing/shoes/laceup
-	backpack_contents = list(
-		/obj/item/gun/ballistic/revolver/revolver45/gunslinger = 1,
-		/obj/item/ammo_box/a45lcbox = 1,
-		/obj/item/binoculars = 1,
-		/obj/item/clothing/accessory/ncr/FSGT = 1
-		)
-
-/datum/outfit/loadout/seastaff
-	name = "Drill Sergeant"
-	uniform = /obj/item/clothing/under/f13/ncr/ncr_dress
-	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/ncr_dressjack
-	backpack_contents = list(
-		/obj/item/book/granter/trait/rifleman = 1,
-		/obj/item/gun/ballistic/automatic/pistol/ninemil = 1,
-		/obj/item/ammo_box/magazine/m9mmds = 2,
-		/obj/item/clothing/accessory/ncr/SSGT = 1
-		)
+/datum/outfit/job/ncr/f13drillsergeant/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	..()
+	if(visualsOnly)
+		return
+	ADD_TRAIT(H, TRAIT_GENERIC, src)
+	ADD_TRAIT(H, TRAIT_SELF_AWARE, src)
+	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
+	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
 
 
 // REPRESENATIVE
@@ -889,10 +868,10 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 /datum/job/ncr/f13mp
 	title = "NCR Military Police"
 	flag = F13MP
-	total_positions = 2
-	spawn_positions = 2
-	description = "You are NOT allowed to participate in front-line combat outside the base/embassy. You are tasked with the supervision of the NCRA to maintain internal order and disciplice and to prevent any warcrimes from happening."
-	supervisors = "NCRA Officers"
+	total_positions = 3
+	spawn_positions = 3
+	description = "As an MP you should avoid engaging directly in combat with the enemy whenever possible, but you are allowed to act as a rear unit to prevent cowardice. You are tasked with the supervision of the NCRA to maintain internal order, uphold the chain of command, ensure military code (for instance the uniform regulations) is being followed, and upholding NCR and military law."
+	supervisors = "Provost Marshal"
 	selection_color = "#fff5cc"
 	display_order = JOB_DISPLAY_ORDER_TROOPER
 	outfit = /datum/outfit/job/ncr/f13mp
@@ -903,16 +882,17 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	jobtype	= /datum/job/ncr/f13mp
 	id = /obj/item/card/id/dogtag/ncrsergeant
 	neck = /obj/item/storage/belt/holster/legholster
-	accessory = /obj/item/clothing/accessory/armband/black
+	accessory = /obj/item/clothing/accessory/ncr/SSGT
 	glasses	= /obj/item/clothing/glasses/sunglasses/big
 	head = /obj/item/clothing/head/f13/ncr/steelpot_mp
 	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/mantle/reinforced
 	gloves = /obj/item/clothing/gloves/f13/leather/fingerless
 	backpack = /obj/item/storage/backpack/satchel/trekker
-	suit_store = /obj/item/gun/ballistic/shotgun/police
+	suit_store = /obj/item/gun/ballistic/rifle/hunting
 	backpack_contents = list(
 		/obj/item/gun/ballistic/automatic/pistol/m1911 = 1,
 		/obj/item/ammo_box/magazine/m45 = 3,
+		/obj/item/ammo_box/a762 = 2,
 		/obj/item/storage/bag/money/small/ncrenlisted = 1,
 		/obj/item/ammo_box/shotgun/bean = 2,
 		/obj/item/melee/classic_baton/militarypolice = 1,

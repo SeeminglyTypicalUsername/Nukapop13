@@ -192,3 +192,10 @@
 	freqlock = TRUE
 	frequency = 1363
 	channels = list(RADIO_CHANNEL_NCR = 1)
+
+/obj/item/radio/intercom/cotc
+	name = "Telescreen"
+	freqlock = TRUE
+	icon_state = "telescreen"
+	frequency = 1369
+	channels = list(RADIO_CHANNEL_TOWN = 1)

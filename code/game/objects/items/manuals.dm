@@ -201,8 +201,8 @@
 
 /obj/item/book/manual/thebook
 	name = "The Book"
-	icon_state = "the_book"
-	author = "unknown"
+	icon_state = "the_book_2"
+	author = "High Priest Atlas"
 	title = "The Book"
 	dat = {"<html>
 				<p><strong>THE FIRST TESTAMENT: THE LIFE AND DEATH OF THE HOLY FATHER </strong></p>

@@ -227,6 +227,13 @@
 	item_state = "khanflag"
 	faction = "Great Khans"
 
+/obj/item/flag/cotc
+	name = "Children of the Cathedral flag"
+	desc = "A blood red flag featuring a symbol associated with nuclear radiation."
+	icon_state = "cotc"
+	item_state = "cotc"
+	faction = "COTC"
+
 /obj/item/flag/attackby(obj/item/I, mob/user, params)
 	if(istype(I, /obj/item/stack/sheet/leather) && item_state == "emptyflag")
 		visible_message("<span class='notice'>[user] begins to make a flag.</span>")
