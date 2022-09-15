@@ -112,6 +112,10 @@ also be like that but I can't be arsed to go back and change them all*/
 #define ACCESS_PHAR			142 //pharamacy
 #define ACCESS_YAKUZA 		143 //yakuza dojo
 #define ACCESS_GYM			144 //gym/store
+#define ACCESS_COTC			145 //General Church
+#define ACCESS_COTC_ARMORY	146 //Church Armory
+#define ACCESS_COTC_SECRET	147 //Church Special Rooms
+
 
 	//The Syndicate
 #define ACCESS_SYNDICATE 150//General Syndicate Access. Includes Syndicate mechs and ruins.

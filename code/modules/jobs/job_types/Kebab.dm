@@ -393,58 +393,7 @@ Mayor
 		return
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 
-/*--------------------------------------------------------------*/
 
-/datum/job/oasis/f13farmer
-	title = "Farmer"
-	flag = F13FARMER
-	department_flag = DEP_OASIS
-	total_positions = 3
-	spawn_positions = 3
-	supervisors = "Kebab Government & Police Department"
-	description = "Growing up in the Kebab, you have an endless love for the Mayor. Nowhere in the valley is the soil as fertile, the bounty as rich. Behind the safety of the walls, you grow crops, medicines, and raise livestock."
-	selection_color = "#dcba97"
-
-	outfit = /datum/outfit/job/den/f13farmer
-
-	access = list(ACCESS_BAR,  ACCESS_KITCHEN)
-	minimal_access = list(ACCESS_BAR,  ACCESS_KITCHEN)
-	matchmaking_allowed = list(
-		/datum/matchmaking_pref/friend = list(
-			/datum/job/oasis,
-		),
-		/datum/matchmaking_pref/rival = list(
-			/datum/job/oasis,
-		),
-	)
-
-/datum/outfit/job/den/f13farmer
-	name = "Farmer"
-	jobtype = /datum/job/oasis/f13farmer
-
-	id = /obj/item/card/id/dogtag/town
-	ears = 			/obj/item/radio/headset/headset_town
-	backpack = /obj/item/storage/backpack/satchel/explorer
-	satchel = /obj/item/storage/backpack/satchel/explorer
-	l_pocket = /obj/item/storage/bag/money/small/settler
-	r_pocket = /obj/item/flashlight/flare
-	belt = /obj/item/storage/bag/plants
-	backpack_contents = list(
-		/obj/item/cultivator=1, \
-		/obj/item/hatchet=1,
-		/obj/item/shovel/spade=1, \
-		/obj/item/gun/ballistic/automatic/pistol/n99, \
-		/obj/item/ammo_box/magazine/m10mm_adv/simple=2)
-	shoes = 		/obj/item/clothing/shoes/workboots
-
-/datum/outfit/job/den/f13settler/pre_equip(mob/living/carbon/human/H)
-	..()
-	uniform = pick(
-		/obj/item/clothing/under/f13/settler, \
-		/obj/item/clothing/under/f13/brahminm, \
-		/obj/item/clothing/under/f13/machinist, \
-		/obj/item/clothing/under/f13/lumberjack, \
-		/obj/item/clothing/under/f13/roving)
 
 /*--------------------------------------------------------------*/
 
@@ -1184,3 +1133,342 @@ Mayor
 	..()
 	if(visualsOnly)
 		return
+
+/*--------------------------------------------------------------*/
+
+/datum/job/oasis/f13kebabhighpriest
+	title = "High Priest"
+	flag = F13KEBABHIGHPRIEST
+	department_flag = DEP_OASIS
+	total_positions = 1
+	spawn_positions = 1
+	supervisors = "the All Father"
+	description = "You are the leader of the Church, at least for now. Your sworn duty is to expand and protect the faith, through any means necessary, in preparation for the day of retribution that is to come. You are the spiritual leader of the faith, and are expected to give sermons, advise members, and perform all major rituals. You are beholden to no one but the Father above, and the Servitors answer directly to you."
+	selection_color = "#9500C7"
+	forbids = "Exposing the secrets of the Church, fraternizing with the NCR, treating patients for nothing in return, consuming alcohol, and using chems."
+	enforces = "Preaching the faith, following the faith's internal structure and rules."
+	exp_requirements = 1000
+
+	outfit = /datum/outfit/job/cotc/f13highpriest
+	access = list(ACCESS_COTC, ACCESS_COTC_ARMORY, ACCESS_COTC_SECRET)
+	minimal_access = list(ACCESS_COTC, ACCESS_COTC_ARMORY, ACCESS_COTC_SECRET)
+
+	matchmaking_allowed = list(
+		/datum/matchmaking_pref/friend = list(
+			/datum/job/oasis,
+		),
+		/datum/matchmaking_pref/rival = list(
+			/datum/job/oasis,
+		),
+	)
+
+/datum/outfit/job/cotc/f13highpriest
+	name = "High Priest"
+	jobtype = /datum/job/oasis/f13kebabhighpriest
+
+	id = /obj/item/card/id/dogtag/town
+	uniform = /obj/item/clothing/under/f13/religion/priest
+	suit = /obj/item/clothing/suit/hooded/robes/cotc/highpriest
+	suit_store = /obj/item/gun/energy/laser/plasma/pistol
+	ears = /obj/item/radio/headset/headset_town
+	backpack = /obj/item/storage/backpack/satchel/leather
+	satchel = /obj/item/storage/backpack/satchel/leather
+	duffelbag = /obj/item/storage/backpack/duffelbag
+	gloves = null
+	l_pocket = /obj/item/storage/bag/money/small/den
+	r_pocket = /obj/item/flashlight/glowstick
+	shoes = /obj/item/clothing/shoes/laceup
+	backpack_contents = list(
+		/obj/item/book/manual/thebook = 1,
+		/obj/item/reagent_containers/hypospray/medipen/stimpak = 2,
+		/obj/item/storage/fancy/candle_box = 1,
+		/obj/item/stock_parts/cell/ammo/ec = 2,
+		/obj/item/storage/bag/money/small/settler
+		)
+/datum/outfit/job/cotc/f13kebabhighpriest/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	..()
+	if(visualsOnly)
+		return
+	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, src)
+	ADD_TRAIT(H, TRAIT_CHEMWHIZ, src)
+	ADD_TRAIT(H, TRAIT_MEDICALEXPERT, src)
+	ADD_TRAIT(H, TRAIT_SURGERY_MID, src)
+
+/*--------------------------------------------------------------*/
+
+/datum/job/oasis/f13kebabservitormedici
+	title = "Servitor Medici"
+	flag = F13KEBABSERVITORMEDICI
+	department_flag = DEP_OASIS
+	total_positions = 1
+	spawn_positions = 1
+	supervisors = "the High Priest and the All Father"
+	description = "You are an inducted member of the Church’s inner circle, sworn to direct the medical arm of the faith. You are expected to be knowledgeable about all medical matters, and to put the interests of your faith above those of your patients. Your role is to direct the Acolytes and ensure they provide excellent care while staying true to Church dogma."
+	selection_color = "#9500C7"
+	forbids = "Exposing the secrets of the Church, fraternizing with the NCR, treating patients for nothing in return, consuming alcohol, and using chems."
+	enforces = "Preaching the faith, following the faith's internal structure and rules."
+	exp_requirements = 800
+
+	outfit = /datum/outfit/job/cotc/f13kebabservitormedici
+	access = list(ACCESS_COTC, ACCESS_COTC_ARMORY, ACCESS_COTC_SECRET)
+	minimal_access = list(ACCESS_COTC, ACCESS_COTC_ARMORY, ACCESS_COTC_SECRET)
+
+	matchmaking_allowed = list(
+		/datum/matchmaking_pref/friend = list(
+			/datum/job/oasis,
+		),
+		/datum/matchmaking_pref/rival = list(
+			/datum/job/oasis,
+		),
+	)
+
+/datum/outfit/job/cotc/f13kebabservitormedici
+	name = "Servitor Medici"
+	jobtype = /datum/job/oasis/f13kebabhighpriest
+
+	id = /obj/item/card/id/dogtag/town
+	uniform = /obj/item/clothing/under/f13/religion/priest
+	suit = /obj/item/clothing/suit/hooded/robes/cotc/servitor
+	suit_store = /obj/item/gun/energy/laser/wattz
+	ears = /obj/item/radio/headset/headset_town
+	backpack = /obj/item/storage/backpack/satchel/leather
+	satchel = /obj/item/storage/backpack/satchel/leather
+	duffelbag =	/obj/item/storage/backpack/duffelbag/med
+	gloves = null
+	l_pocket = null
+	r_pocket = null
+	shoes = /obj/item/clothing/shoes/laceup
+	backpack_contents = list(
+		/obj/item/book/manual/thebook = 1,
+		/obj/item/melee/onehanded/knife/hunting = 1,
+		/obj/item/stack/medical/bruise_pack = 1,
+		/obj/item/reagent_containers/hypospray/medipen/stimpak = 4
+		)
+
+/datum/outfit/job/cotc/f13kebabservitormedici/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	..()
+	if(visualsOnly)
+		return
+	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, src)
+	ADD_TRAIT(H, TRAIT_GENERIC, src)
+	ADD_TRAIT(H, TRAIT_CHEMWHIZ, src)
+	ADD_TRAIT(H, TRAIT_MEDICALEXPERT, src)
+	ADD_TRAIT(H, TRAIT_SURGERY_HIGH, src)
+
+/*--------------------------------------------------------------*/
+
+/datum/job/oasis/f13kebabservitormilitant
+	title = "Servitor Militant"
+	flag = F13KEBABSERVITORMILITANT
+	department_flag = DEP_OASIS
+	total_positions = 1
+	spawn_positions = 1
+	supervisors = "the High Priest and the All Father"
+	description = "You are an inducted member of the Church’s inner circle, sworn to lead the faith’s military forces into battle. You know much of the secrets that dwell within the Faith’s inner sanctum, and you know what is at stake if they are discovered. You directly command the Church’s Proselytizers, and answer directly to the High Priest."
+	selection_color = "#9500C7"
+	forbids = "Exposing the secrets of the Church, fraternizing with the NCR, treating patients for nothing in return, consuming alcohol, and using chems."
+	enforces = "Preaching the faith, following the faith's internal structure and rules."
+	exp_requirements = 800
+
+	outfit = /datum/outfit/job/cotc/f13servitormilitant
+	access = list(ACCESS_COTC, ACCESS_COTC_ARMORY, ACCESS_COTC_SECRET)
+	minimal_access = list(ACCESS_COTC, ACCESS_COTC_ARMORY, ACCESS_COTC_SECRET)
+
+	matchmaking_allowed = list(
+		/datum/matchmaking_pref/friend = list(
+			/datum/job/oasis,
+		),
+		/datum/matchmaking_pref/rival = list(
+			/datum/job/oasis,
+		),
+	)
+
+/datum/outfit/job/cotc/f13servitormilitant
+	name = "Servitor Militant"
+	jobtype = /datum/job/oasis/f13kebabservitormilitant
+
+	id = /obj/item/card/id/dogtag/town
+	uniform = /obj/item/clothing/under/f13/religion/priest
+	suit = /obj/item/clothing/suit/hooded/robes/cotc/servitor
+	suit_store = /obj/item/gun/energy/laser/wattz2k
+	ears = /obj/item/radio/headset/headset_town
+	backpack = /obj/item/storage/backpack/satchel/leather
+	satchel = /obj/item/storage/backpack/satchel/leather
+	duffelbag = /obj/item/storage/backpack/duffelbag
+	gloves = null
+	l_pocket = null
+	r_pocket = null
+	shoes = /obj/item/clothing/shoes/laceup
+	backpack_contents = list(
+		/obj/item/book/manual/thebook = 1,
+		/obj/item/melee/classic_baton = 1,
+		/obj/item/stock_parts/cell/ammo/mfc = 2,
+		/obj/item/stack/medical/bruise_pack = 1,
+		/obj/item/reagent_containers/hypospray/medipen/stimpak = 2
+		)
+/*--------------------------------------------------------------*/
+
+/datum/job/oasis/f13kebabproselytizer
+	title = "Proselytizer"
+	flag = F13KEBABPROSELYTIZER
+	department_flag = DEP_OASIS
+	total_positions = 2
+	spawn_positions = 2
+	supervisors = "the High Priest and the All Father"
+	description = "You are the strong right arm of the Church. You answer directly to the Servitor Militant. Your role is to guard the Church, put pressure upon outsiders, drum up business with your bludgeon, and collect debts."
+	selection_color = "#CB2EFF"
+	forbids = "Exposing the secrets of the Church, fraternizing with the NCR, treating patients for nothing in return, consuming alcohol, and using chems."
+	enforces = "Preaching the faith, following the faith's internal structure and rules."
+	exp_requirements = 500
+
+	outfit = /datum/outfit/job/cotc/f13proselytizer
+	access = list(ACCESS_COTC, ACCESS_COTC_ARMORY)
+	minimal_access = list(ACCESS_COTC, ACCESS_COTC_ARMORY)
+
+	matchmaking_allowed = list(
+		/datum/matchmaking_pref/friend = list(
+			/datum/job/oasis,
+		),
+		/datum/matchmaking_pref/rival = list(
+			/datum/job/oasis,
+		),
+	)
+
+/datum/outfit/job/cotc/f13proselytizer
+	name = "Proselytizer"
+	jobtype = /datum/job/oasis/f13kebabproselytizer
+
+	id = /obj/item/card/id/dogtag/town
+	uniform = /obj/item/clothing/under/f13/brahminm
+	suit = /obj/item/clothing/suit/hooded/robes/cotc/proselytizer
+	suit_store = /obj/item/gun/energy/laser/wattz
+	ears = /obj/item/radio/headset/headset_town
+	backpack = /obj/item/storage/backpack/satchel/trekker
+	satchel = /obj/item/storage/backpack/satchel/trekker
+	duffelbag = /obj/item/storage/backpack/duffelbag
+	gloves = null
+	l_pocket = null
+	r_pocket = null
+	shoes = /obj/item/clothing/shoes/f13/rag
+	backpack_contents = list(
+		/obj/item/book/manual/thebook = 1,
+		/obj/item/melee/classic_baton = 1,
+		/obj/item/restraints/handcuffs/cable = 1,
+		/obj/item/stock_parts/cell/ammo/ec = 2,
+		/obj/item/reagent_containers/hypospray/medipen/stimpak = 1
+		)
+
+/*--------------------------------------------------------------*/
+
+/datum/job/oasis/f13kebabacolyte
+	title = "Acolyte"
+	flag = F13KEBABACOLYTE
+	department_flag = DEP_OASIS
+	total_positions = 2
+	spawn_positions = 2
+	supervisors = "the Servitor Medici and the All Father"
+	description = "You are a trained healer and a sworn member of the Church. You follow all orders given to you by the Servitor Medici and the High Priest. The faith does not give medical services freely, those who are unable to pay will be held in the Church until their medical fees are paid, or they agree to join the faith."
+	selection_color = "#CB2EFF"
+	forbids = "Exposing the secrets of the Church, fraternizing with the NCR, treating patients for nothing in return, consuming alcohol, and using chems."
+	enforces = "Preaching the faith, following the faith's internal structure and rules."
+	exp_requirements = 500
+
+	outfit = /datum/outfit/job/cotc/f13acolyte
+	access = list(ACCESS_COTC)
+	minimal_access = list(ACCESS_COTC)
+
+	matchmaking_allowed = list(
+		/datum/matchmaking_pref/friend = list(
+			/datum/job/oasis,
+		),
+		/datum/matchmaking_pref/rival = list(
+			/datum/job/oasis,
+		),
+	)
+
+/datum/outfit/job/cotc/f13acolyte
+	name = "Acolyte"
+	jobtype = /datum/job/oasis/f13kebabacolyte
+
+	id = /obj/item/card/id/dogtag/town
+	uniform = /obj/item/clothing/under/f13/brahminm
+	suit = /obj/item/clothing/suit/hooded/robes/cotc/acolyte
+	suit_store = null
+	ears = /obj/item/radio/headset/headset_town
+	backpack = /obj/item/storage/backpack/satchel/med
+	satchel = /obj/item/storage/backpack/satchel/med
+	duffelbag =	/obj/item/storage/backpack/duffelbag/med
+	gloves = null
+	l_pocket = null
+	r_pocket = null
+	shoes = /obj/item/clothing/shoes/f13/rag
+	backpack_contents = list(
+		/obj/item/book/manual/thebook = 1,
+		/obj/item/stack/medical/bruise_pack = 1,
+		/obj/item/restraints/handcuffs/cable = 1,
+		/obj/item/melee/onehanded/knife/hunting = 1,
+		/obj/item/reagent_containers/hypospray/medipen/stimpak = 4
+		)
+
+/datum/outfit/job/cotc/f13acolyte/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	..()
+	if(visualsOnly)
+		return
+	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, src)
+	ADD_TRAIT(H, TRAIT_CHEMWHIZ, src)
+	ADD_TRAIT(H, TRAIT_MEDICALEXPERT, src)
+	ADD_TRAIT(H, TRAIT_SURGERY_MID, src)
+
+/*--------------------------------------------------------------*/
+
+/datum/job/oasis/f13farmer
+	title = "Neophyte"
+	flag = F13FARMER
+	department_flag = DEP_OASIS
+	total_positions = 4
+	spawn_positions = 4
+	supervisors = "Servitors and up"
+	description = "By some means or another you have become indebted to the Church. There was none to pay your debt, so all that was left was to give your body and mind to the Church. Attend to menial duties such as cleaning, farming, and cooking."
+	selection_color = "#CB2EFF"
+	forbids = "Exposing the secrets of the Church, fraternizing with the NCR, treating patients for nothing in return, consuming alcohol, and using chems."
+	enforces = "Preaching the faith, following the faith's internal structure and rules."
+
+	outfit = /datum/outfit/job/cotc/neophyte
+
+	access = list(ACCESS_COTC)
+	minimal_access = list(ACCESS_COTC)
+	matchmaking_allowed = list(
+		/datum/matchmaking_pref/friend = list(
+			/datum/job/oasis,
+		),
+		/datum/matchmaking_pref/rival = list(
+			/datum/job/oasis,
+		),
+	)
+
+/datum/outfit/job/cotc/neophyte
+	name = "Neophyte"
+	jobtype = /datum/job/oasis/f13farmer
+
+	id = /obj/item/card/id/dogtag/town
+	ears = 	/obj/item/radio/headset/headset_town
+	suit = /obj/item/clothing/suit/hooded/robes/cotc
+	backpack = /obj/item/storage/backpack/satchel/explorer
+	satchel = /obj/item/storage/backpack/satchel/explorer
+	l_pocket = null
+	r_pocket = /obj/item/flashlight/flare
+	belt = /obj/item/storage/bag/plants
+	shoes = /obj/item/clothing/shoes/f13/rag
+	backpack_contents = list(
+		/obj/item/cultivator=1, \
+		/obj/item/hatchet=1,
+		/obj/item/shovel/spade=1)
+
+/datum/outfit/job/cotc/neophyte/pre_equip(mob/living/carbon/human/H)
+	..()
+	uniform = pick(
+		/obj/item/clothing/under/f13/settler, \
+		/obj/item/clothing/under/f13/brahminm, \
+		/obj/item/clothing/under/f13/machinist, \
+		/obj/item/clothing/under/f13/lumberjack, \
+		/obj/item/clothing/under/f13/roving)

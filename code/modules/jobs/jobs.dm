@@ -159,12 +159,18 @@ GLOBAL_LIST_INIT(oasis_positions, list(
 	"Officer",
 	"Shopkeeper",
 	"Shop Assistant",
-	"Farmer",
 	"Prospector",
 	"Detective",
 	"Barkeep",
-	"Town Doctor",
-	"Preacher"
+	//"Town Doctor",
+	"Preacher",
+	"High Priest",
+	"Servitor Militant",
+	"Servitor Medici",
+	"Proselytizer",
+	"Acolyte",
+	"Neophyte",
+
 ))
 
 GLOBAL_LIST_INIT(legion_command_positions, list(

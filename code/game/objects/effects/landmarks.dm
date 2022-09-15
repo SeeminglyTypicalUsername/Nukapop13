@@ -1094,3 +1094,29 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 /obj/effect/landmark/start/f13/civilians/militarypolice
 	name = "NCRA Military Police"
 	icon_state = "NCRA Military Police"
+
+//COTC
+
+/obj/effect/landmark/start/f13/cotc/highpriest
+	name = "High Priest"
+	icon_state = "High Priest"
+
+/obj/effect/landmark/start/f13/cotc/servitormilitant
+	name = "Servitor Militant"
+	icon_state = "Servitor Militant"
+
+/obj/effect/landmark/start/f13/cotc/servitormedici
+	name = "Servitor Medici"
+	icon_state = "Servitor Medici"
+
+/obj/effect/landmark/start/f13/cotc/proselytizer
+	name = "Proselytizer"
+	icon_state = "Proselytizer"
+
+/obj/effect/landmark/start/f13/cotc/acolyte
+	name = "Acolyte"
+	icon_state = "Acolyte"
+
+/obj/effect/landmark/start/f13/cotc/neophyte
+	name = "Neophyte"
+	icon_state = "Neophyte"
