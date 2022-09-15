@@ -10310,15 +10310,12 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "gzN" = (
-/obj/structure/rack,
-/obj/item/clothing/shoes/f13/brownie,
-/obj/item/clothing/shoes/f13/brownie,
-/obj/item/clothing/shoes/f13/brownie,
-/obj/item/clothing/shoes/f13/brownie,
-/obj/item/clothing/shoes/f13/brownie,
-/obj/item/clothing/shoes/f13/brownie,
-/obj/item/clothing/shoes/f13/brownie,
-/turf/open/floor/f13/wood,
+/obj/structure/chair/office/dark{
+	dir = 8
+	},
+/turf/open/floor/f13{
+	icon_state = "darkrusty"
+	},
 /area/f13/ncr)
 "gzP" = (
 /obj/machinery/smartfridge/bottlerack/seedbin,
@@ -10452,13 +10449,13 @@
 /obj/item/clothing/under/f13/ncr/ncr_dress,
 /obj/item/clothing/under/f13/ncr/ncr_dress,
 /obj/item/clothing/under/f13/ncr/ncr_dress,
+/obj/item/clothing/under/f13/ncr/ncr_dress,
 /obj/machinery/light{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
 	},
-/obj/item/clothing/under/f13/ncr/ncr_dress,
 /obj/item/clothing/under/f13/ncr/ncr_dress,
 /turf/open/floor/f13/wood,
 /area/f13/ncr)
@@ -11037,6 +11034,17 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/armory)
+"gTt" = (
+/obj/structure/rack,
+/obj/item/clothing/suit/armor/f13/ncrarmor/ncr_codressjack,
+/obj/item/clothing/suit/armor/f13/ncrarmor/ncr_codressjack,
+/obj/item/clothing/suit/armor/f13/ncrarmor/ncr_codressjack,
+/obj/item/clothing/suit/armor/f13/ncrarmor/ncr_codressjack,
+/obj/item/clothing/suit/armor/f13/ncrarmor/ncr_codressjack,
+/obj/item/clothing/suit/armor/f13/ncrarmor/ncr_codressjack,
+/obj/item/clothing/suit/armor/f13/ncrarmor/ncr_codressjack,
+/turf/open/floor/f13/wood,
+/area/f13/ncr)
 "gTv" = (
 /obj/effect/decal/cleanable/blood/old{
 	icon_state = "gibbearcore"
@@ -12909,6 +12917,14 @@
 	icon_state = "greencorner"
 	},
 /area/f13/den)
+"itr" = (
+/obj/structure/chair/office/dark{
+	dir = 4
+	},
+/turf/open/floor/f13{
+	icon_state = "darkrusty"
+	},
+/area/f13/ncr)
 "itC" = (
 /obj/structure/fence/wooden{
 	pixel_x = -18
@@ -15287,6 +15303,27 @@
 /area/f13/den)
 "ksi" = (
 /obj/structure/rack,
+/obj/item/clothing/shoes/f13/military/ncr_officer_boots{
+	name = "dress boots"
+	},
+/obj/item/clothing/shoes/f13/military/ncr_officer_boots{
+	name = "dress boots"
+	},
+/obj/item/clothing/shoes/f13/military/ncr_officer_boots{
+	name = "dress boots"
+	},
+/obj/item/clothing/shoes/f13/military/ncr_officer_boots{
+	name = "dress boots"
+	},
+/obj/item/clothing/shoes/f13/military/ncr_officer_boots{
+	name = "dress boots"
+	},
+/obj/item/clothing/shoes/f13/military/ncr_officer_boots{
+	name = "dress boots"
+	},
+/obj/item/clothing/shoes/f13/military/ncr_officer_boots{
+	name = "dress boots"
+	},
 /obj/item/clothing/head/beret/ncr_dresscap,
 /obj/item/clothing/head/beret/ncr_dresscap,
 /obj/item/clothing/head/beret/ncr_dresscap,
@@ -15294,13 +15331,6 @@
 /obj/item/clothing/head/beret/ncr_dresscap,
 /obj/item/clothing/head/beret/ncr_dresscap,
 /obj/item/clothing/head/beret/ncr_dresscap,
-/obj/item/clothing/shoes/f13/brownie,
-/obj/item/clothing/shoes/f13/brownie,
-/obj/item/clothing/shoes/f13/brownie,
-/obj/item/clothing/shoes/f13/brownie,
-/obj/item/clothing/shoes/f13/brownie,
-/obj/item/clothing/shoes/f13/brownie,
-/obj/item/clothing/shoes/f13/brownie,
 /turf/open/floor/f13/wood,
 /area/f13/ncr)
 "ksk" = (
@@ -22562,6 +22592,21 @@
 "pTD" = (
 /turf/closed/wall/r_wall,
 /area/f13/brotherhood/chemistry)
+"pUu" = (
+/obj/structure/rack,
+/obj/item/clothing/under/f13/ncr/ncr_dress,
+/obj/item/clothing/under/f13/ncr/ncr_dress,
+/obj/item/clothing/under/f13/ncr/ncr_dress,
+/obj/item/clothing/under/f13/ncr/ncr_dress,
+/obj/item/clothing/under/f13/ncr/ncr_dress,
+/obj/item/clothing/under/f13/ncr/ncr_dress,
+/obj/machinery/light,
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/item/clothing/under/f13/ncr/ncr_dress,
+/turf/open/floor/f13/wood,
+/area/f13/ncr)
 "pUB" = (
 /obj/structure/bed/old,
 /obj/effect/decal/cleanable/blood/old{
@@ -22636,12 +22681,8 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
 /area/f13/bunker)
 "pXO" = (
-/obj/machinery/light,
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/turf/open/floor/f13/wood,
-/area/f13/ncr)
+/turf/closed/wall/f13/supermart,
+/area/f13/caves)
 "pYd" = (
 /obj/structure/timeddoor,
 /turf/closed/wall/r_wall/rust,
@@ -29555,6 +29596,41 @@
 /obj/structure/destructible/tribal_torch/wall/lit,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/den)
+"vBw" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/structure/rack,
+/obj/item/clothing/shoes/f13/military/ncr_officer_boots{
+	name = "dress boots"
+	},
+/obj/item/clothing/shoes/f13/military/ncr_officer_boots{
+	name = "dress boots"
+	},
+/obj/item/clothing/shoes/f13/military/ncr_officer_boots{
+	name = "dress boots"
+	},
+/obj/item/clothing/shoes/f13/military/ncr_officer_boots{
+	name = "dress boots"
+	},
+/obj/item/clothing/shoes/f13/military/ncr_officer_boots{
+	name = "dress boots"
+	},
+/obj/item/clothing/shoes/f13/military/ncr_officer_boots{
+	name = "dress boots"
+	},
+/obj/item/clothing/shoes/f13/military/ncr_officer_boots{
+	name = "dress boots"
+	},
+/obj/item/clothing/head/beret/ncr_codresscap,
+/obj/item/clothing/head/beret/ncr_codresscap,
+/obj/item/clothing/head/beret/ncr_codresscap,
+/obj/item/clothing/head/beret/ncr_codresscap,
+/obj/item/clothing/head/beret/ncr_codresscap,
+/obj/item/clothing/head/beret/ncr_codresscap,
+/obj/item/clothing/head/beret/ncr_codresscap,
+/turf/open/floor/f13/wood,
+/area/f13/ncr)
 "vBO" = (
 /obj/structure/barricade/wooden,
 /turf/open/indestructible/ground/inside/mountain,
@@ -32471,6 +32547,14 @@
 	icon_state = "rampdowntop"
 	},
 /area/f13/brotherhood/rnd)
+"yjq" = (
+/obj/structure/chair/office/dark{
+	dir = 1
+	},
+/turf/open/floor/f13{
+	icon_state = "darkrusty"
+	},
+/area/f13/ncr)
 "ylk" = (
 /obj/structure/closet/crate/freezer/blood,
 /turf/open/floor/plasteel/f13/vault_floor/blue/white,
@@ -35621,7 +35705,7 @@ cNj
 cNj
 cNj
 cNj
-tKd
+cNj
 cNj
 cNj
 cNj
@@ -36129,7 +36213,7 @@ cNj
 rWM
 rWM
 qtT
-cNj
+tKd
 rwf
 rKJ
 rKJ
@@ -36389,9 +36473,9 @@ qQF
 cNj
 rwk
 rKJ
-rKJ
-rKJ
-rKJ
+itr
+itr
+itr
 rKJ
 rwf
 cNj
@@ -36906,7 +36990,7 @@ rKJ
 shx
 sUs
 tzi
-rKJ
+yjq
 rwf
 cNj
 rDk
@@ -37417,9 +37501,9 @@ gHE
 cNj
 nAV
 rKJ
-rKJ
-rKJ
-rKJ
+gzN
+gzN
+gzN
 rKJ
 rwf
 cNj
@@ -37671,7 +37755,7 @@ cNj
 rwf
 rWM
 rWM
-cNj
+tKd
 rwf
 rKJ
 rKJ
@@ -38443,11 +38527,11 @@ yhn
 rWM
 bWU
 cNj
-gzN
+ksi
 iOg
 fXF
 cNj
-rDk
+pXO
 rDk
 rDk
 rDk
@@ -38702,9 +38786,9 @@ mUQ
 cNj
 xgj
 tnf
-xgj
-cNj
-rDk
+tnf
+vBw
+pXO
 uoO
 uoO
 uoO
@@ -38959,9 +39043,9 @@ rWM
 lYT
 tnf
 tnf
+xgj
+pUu
 pXO
-cNj
-rDk
 uoO
 uoO
 uoO
@@ -39214,11 +39298,11 @@ mEe
 rWM
 mUQ
 cNj
-xgj
-xgj
 tnf
-cNj
-rDk
+tnf
+xgj
+gTt
+pXO
 uoO
 uoO
 uoO
@@ -39475,7 +39559,7 @@ ksi
 gCJ
 fXF
 cNj
-rDk
+pXO
 uoO
 uoO
 uoO
