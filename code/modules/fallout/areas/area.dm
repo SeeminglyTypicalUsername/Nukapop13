@@ -548,3 +548,13 @@
 	blob_allowed = 0
 	environment = 5
 	grow_chance = 5
+
+/area/f13/cotc
+	name = "Children of the Cathedral"
+	icon_state = "children"
+//	ambience_area =  list('sound/f13ambience/warehouse.ogg')
+//	ambientmusic = list('sound/f13music/fo2_vats.ogg','sound/f13music/fo2_outpost.ogg','sound/misc/null.ogg')
+	ambientsounds = list('sound/f13ambience/cotc.ogg','sound/f13ambience/cotc2.ogg')
+	blob_allowed = 0
+	environment = 5
+	grow_chance = 5
