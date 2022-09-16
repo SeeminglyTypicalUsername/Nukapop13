@@ -789,18 +789,23 @@ Brand for permanently marking brahmin as yours (won't stop people stealing em an
 	AddComponent(/datum/component/storage/concrete/brahminbag)
 	return
 
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
 /mob/living/simple_animal/cow/brahmin/BiologicalLife(seconds, times_fired)
 	if(!(. = ..()))
 		return
 	handle_following()
 
-
+=======
 /mob/living/simple_animal/slepnir/ComponentInitialize()
 	if(!bags)
 		return
 	AddComponent(/datum/component/storage/concrete/brahminbag)
 	return
+>>>>>>> Stashed changes
 
+>>>>>>> Stashed changes
 /mob/living/simple_animal/cow/brahmin/proc/handle_following()
 	if(owner)
 		if(!follow)

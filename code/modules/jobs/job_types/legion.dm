@@ -722,8 +722,10 @@ commented out pending rework*/
 		/obj/item/reagent_containers/pill/patch/healpoultice = 3,
 		/obj/item/melee/onehanded/machete/forgedmachete = 1,
 		)
-
+<<<<<<< Updated upstream
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13recleg/pre_equip(mob/living/carbon/human/H)
+=======
+<<<<<<< Updated upstream
 
 /datum/outfit/loadout/primelancer
 	name = "Guardian"
@@ -753,8 +755,9 @@ commented out pending rework*/
 		/obj/item/storage/backpack/spearquiver = 1,
 		/obj/item/reagent_containers/pill/patch/healpoultice = 2,
 		)
-
+=======
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13legionary/pre_equip(mob/living/carbon/human/H)
+>>>>>>> Stashed changes
 	. = ..()
 	r_hand = pick(
 		/obj/item/storage/box/gunbox/legion/prime/set1, //lance, bola, trekking
@@ -762,6 +765,10 @@ commented out pending rework*/
 		/obj/item/storage/box/gunbox/legion/prime/set3, //357, shield
 		/obj/item/storage/box/gunbox/legion/prime/set4, //caravan shotgun
 		/obj/item/storage/box/gunbox/legion/prime/set5) //hunting shotgun
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 
 // RECRUIT
 
