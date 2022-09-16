@@ -2461,12 +2461,9 @@
 	},
 /area/f13/building)
 "bdj" = (
-/obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 1;
-	pixel_y = 12
-	},
-/turf/open/indestructible/ground/outside/dirt{
-	icon_state = "dirt"
+/obj/structure/obstacle/barbedwire/end,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontalbottomborderbottom0"
 	},
 /area/f13/wasteland)
 "bdp" = (
@@ -4235,7 +4232,6 @@
 	},
 /area/f13/farm)
 "bNn" = (
-/obj/effect/landmark/start/f13/ncrveteranranger,
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "horizontaltopborderbottom0"
 	},
@@ -17141,6 +17137,14 @@
 	icon_state = "bluerustychess2"
 	},
 /area/f13/building)
+"hpM" = (
+/mob/living/simple_animal/slepnir{
+	dir = 4
+	},
+/turf/open/indestructible/ground/outside/dirt{
+	icon_state = "dirtcorner"
+	},
+/area/f13/wasteland)
 "hqf" = (
 /obj/item/storage/fancy/donut_box,
 /obj/structure/table,
@@ -20573,7 +20577,7 @@
 /obj/structure/chair/office/dark{
 	dir = 8
 	},
-/obj/effect/landmark/start/f13/ncrcorporal,
+/obj/effect/landmark/start/f13/ncrcaptain,
 /turf/open/floor/f13{
 	icon_state = "darkdirtysolid"
 	},
@@ -22378,7 +22382,9 @@
 	},
 /area/f13/building)
 "juT" = (
-/obj/structure/fence/wooden,
+/mob/living/simple_animal/slepnir{
+	dir = 8
+	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "jvg" = (
@@ -26888,6 +26894,13 @@
 	icon_state = "verticalrightborderleft2"
 	},
 /area/f13/wasteland)
+"lts" = (
+/obj/structure/obstacle/barbedwire/end,
+/turf/open/indestructible/ground/outside/sidewalk{
+	dir = 1;
+	icon_state = "outerpavement"
+	},
+/area/f13/wasteland)
 "ltv" = (
 /obj/item/chair/stool/retro,
 /turf/open/floor/f13/wood{
@@ -30042,6 +30055,11 @@
 	icon_state = "bluerustychess2"
 	},
 /area/f13/building)
+"mOV" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/start/f13/ncrlogisticsofficer,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
+/area/f13/ncr)
 "mPh" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -32261,11 +32279,12 @@
 	},
 /area/f13/building)
 "nNn" = (
-/obj/effect/landmark/start/f13/ncrcaptain,
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "innershade"
+/obj/structure/obstacle/barbedwire/end,
+/turf/open/indestructible/ground/outside/sidewalk{
+	dir = 9;
+	icon_state = "outerpavement"
 	},
-/area/f13/caves)
+/area/f13/wasteland)
 "nNo" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 10
@@ -33595,10 +33614,10 @@
 	},
 /area/f13/wasteland)
 "ose" = (
-/obj/effect/overlay/barbed{
-	dir = 8
+/obj/structure/obstacle/barbedwire/end{
+	dir = 1;
+	pixel_x = 6
 	},
-/obj/effect/overlay/barbed,
 /turf/open/indestructible/ground/outside/sidewalk{
 	dir = 1;
 	icon_state = "outerpavement"
@@ -33824,12 +33843,9 @@
 	},
 /area/f13/wasteland)
 "oxu" = (
-/obj/effect/overlay/barbed,
-/obj/effect/overlay/barbed{
-	dir = 4
-	},
-/obj/structure/destructible/tribal_torch/lit{
-	pixel_y = 15
+/obj/structure/obstacle/barbedwire/end{
+	dir = 1;
+	pixel_x = 6
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
@@ -34702,10 +34718,10 @@
 	},
 /area/f13/wasteland)
 "oSE" = (
-/obj/effect/overlay/barbed{
-	dir = 8
+/obj/structure/obstacle/barbedwire/end{
+	dir = 1;
+	pixel_x = 6
 	},
-/obj/effect/overlay/barbed,
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticalrightborderright0"
 	},
@@ -35778,11 +35794,8 @@
 /turf/open/floor/plating,
 /area/f13/building)
 "pvt" = (
-/obj/effect/overlay/barbed,
-/obj/effect/overlay/barbed{
-	dir = 4
-	},
-/turf/open/indestructible/ground/outside/desert,
+/mob/living/simple_animal/slepnir,
+/turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "pvw" = (
 /obj/structure/cable{
@@ -36875,13 +36888,9 @@
 	},
 /area/f13/building)
 "pSx" = (
-/obj/effect/overlay/barbed,
-/obj/effect/overlay/barbed{
-	dir = 4
-	},
+/obj/structure/obstacle/barbedwire/end,
 /turf/open/indestructible/ground/outside/sidewalk{
-	dir = 1;
-	icon_state = "outerpavement"
+	icon_state = "verticalrightborderright0"
 	},
 /area/f13/wasteland)
 "pSC" = (
@@ -42351,8 +42360,8 @@
 	},
 /area/f13/wasteland)
 "ssq" = (
-/obj/structure/fence/corner/wooden{
-	dir = 8
+/obj/structure/fence/wooden{
+	dir = 4
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
@@ -42444,6 +42453,12 @@
 /obj/structure/flora/rock/jungle,
 /turf/open/indestructible/ground/outside/water,
 /area/f13/caves)
+"sur" = (
+/mob/living/simple_animal/slepnir{
+	dir = 4
+	},
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "suy" = (
 /obj/effect/decal/fakelattice{
 	density = 1
@@ -47589,17 +47604,8 @@
 /turf/closed/wall/f13/wood,
 /area/f13/legion)
 "uNL" = (
-/obj/effect/overlay/barbed{
-	dir = 8
-	},
-/obj/effect/overlay/barbed,
-/obj/structure/destructible/tribal_torch/lit{
-	pixel_y = 15
-	},
-/turf/open/indestructible/ground/outside/sidewalk{
-	dir = 8;
-	icon_state = "outerpavement"
-	},
+/obj/structure/obstacle/barbedwire/end,
+/turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "uNQ" = (
 /obj/structure/flora/tree/tall{
@@ -55892,7 +55898,7 @@ vaA
 vaA
 wxK
 bNn
-nNn
+ojl
 ojl
 hHm
 vaA
@@ -58947,10 +58953,10 @@ fyf
 fyf
 fyf
 fyf
-fyf
-fyf
-fyf
-fyf
+tBN
+srL
+sur
+mvv
 gcK
 ktB
 gcK
@@ -59204,10 +59210,10 @@ fyf
 fyf
 fyf
 fyf
-qOV
-cWG
-cWG
-cWG
+tBN
+ssq
+mvv
+mvv
 gcK
 gcK
 gcK
@@ -59462,7 +59468,7 @@ cWG
 cWG
 wDc
 tBN
-mvv
+ssq
 mvv
 mvv
 gcK
@@ -59719,7 +59725,7 @@ mfD
 pyZ
 hCg
 tBN
-mvv
+ssq
 mvv
 mvv
 gcK
@@ -59976,9 +59982,9 @@ fyf
 fyf
 fyf
 tBN
+ssq
 mvv
-mvv
-mvv
+pvt
 gcK
 ufN
 xGv
@@ -60235,7 +60241,7 @@ fyf
 tBN
 ssq
 juT
-juT
+mvv
 gcK
 ufN
 bkk
@@ -64089,7 +64095,7 @@ fyf
 fyf
 ufN
 xUp
-jQd
+mOV
 iYG
 ufN
 jQd
@@ -106914,7 +106920,7 @@ sCK
 gmX
 koD
 sIf
-ees
+pSx
 oSE
 wTB
 wTB
@@ -107170,8 +107176,8 @@ pqO
 pqO
 gmX
 koD
-sUX
-uNL
+nNn
+mWH
 euW
 lsz
 lsz
@@ -107426,7 +107432,7 @@ dRA
 pqO
 pqO
 gmX
-koD
+bdj
 ose
 tvN
 dkY
@@ -107466,7 +107472,7 @@ oXV
 oXV
 ugj
 hom
-qOV
+hpM
 cWG
 gcK
 gcK
@@ -107724,7 +107730,7 @@ sWG
 hjc
 hom
 tBN
-mvv
+pvt
 bpD
 gcK
 gcK
@@ -108237,10 +108243,10 @@ xNm
 nKs
 xNm
 hom
-bdj
-mvv
-bpD
-hwC
+cRh
+prm
+cRh
+gcK
 gcK
 gcK
 gcK
@@ -108497,7 +108503,7 @@ rgS
 dHq
 mvv
 bpD
-hwC
+gcK
 gcK
 gcK
 gcK
@@ -108754,7 +108760,7 @@ rgS
 dHq
 mvv
 bpD
-hwC
+gcK
 gcK
 gcK
 gcK
@@ -112052,8 +112058,8 @@ bLY
 pqO
 vaP
 gmX
-koD
-pSx
+bdj
+ose
 tvN
 dkY
 swL
@@ -112310,7 +112316,7 @@ pqO
 pqO
 gmX
 koD
-dMW
+lts
 oxu
 tvN
 dkY
@@ -112568,8 +112574,8 @@ pqO
 gmX
 koD
 dMW
-fyf
-pvt
+uNL
+oxu
 tvN
 tvN
 ktB

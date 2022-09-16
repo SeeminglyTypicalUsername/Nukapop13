@@ -24384,6 +24384,16 @@
 	icon_state = "greenrusty"
 	},
 /area/f13/den)
+"rdD" = (
+/obj/structure/chair/wood{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/effect/landmark/start/f13/ncrveteranranger,
+/turf/open/floor/carpet/black,
+/area/f13/ncr)
 "rdL" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = -32
@@ -35949,7 +35959,7 @@ nzI
 lXF
 xgj
 lYi
-ppt
+rdD
 ppt
 lYi
 cNj

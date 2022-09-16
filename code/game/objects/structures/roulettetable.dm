@@ -1,4 +1,3 @@
-
 /datum/crafting_recipe/roulette
 	name = "Roulette Table"
 	result = /obj/structure/roulettetable
@@ -26,7 +25,7 @@
 	bound_width = 64
 	var/working = FALSE
 	var/result
-	var/spin_timer = 30
+	var/spin_timer = 40
 
 /obj/structure/roulettetable/wrench_act(mob/living/user, obj/item/I)
 	if(working)
@@ -48,11 +47,12 @@
 	visible_message("<span class='notice'>[user] spins the roulette wheel!</span>")
 	working = TRUE
 	update_icon()
+	playsound(src, 'sound/f13machines/roulette_wheel.ogg', 50, 1)
 
 	spawn(spin_timer)
 		result = rand(0,36)
 		var/comment = ""
-		//if result 
+		//if result
 		if(result in list(1,3,5,7,9,12,14,16,18,19,21,23,25,27,30,32,34,35,36))
 			comment = "Red!"
 		else if(result in list(2,4,6,8,10,11,13,15,17,20,22,24,26,28,29,31,33))
@@ -68,4 +68,3 @@
 		icon_state = "roulette_act"
 	else
 		icon_state = "roulette"
-
