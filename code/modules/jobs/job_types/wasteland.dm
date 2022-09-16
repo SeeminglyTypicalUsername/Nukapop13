@@ -12,8 +12,8 @@
 	department_head = list("Captain")
 	head_announce = list("Security")
 	faction = FACTION_WASTELAND
-	total_positions = 5
-	spawn_positions = 5
+	total_positions = 8
+	spawn_positions = 8
 	description = "You are no common raider or tribal settler, for you are a Great Khan. Your ancestry is that of fierce warriors and noble chieftans, whose rites and sagas tell of blood soaked battlefields and great sacrifice for your tribe. At least, this was once the case: after the massacre at Bitter Springs by the NCR, your people have lost much of their strength - now you and many other Khans travel west of Vegas through Red Rock Canyon in the hopes of settling in the region of Yuma."
 	supervisors = "your gang leadership"
 	selection_color = "#ff915e"
@@ -75,6 +75,12 @@
 		GK.add_member(H)
 		H.gang = GK
 
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/set_vrboard/den,)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/trail_carbine)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/varmintrifle)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/combatrifle)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/uzi)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/smg10mm)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/gate_khanate)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/jet)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/turbo)
@@ -94,9 +100,9 @@
 
 /datum/outfit/loadout/khanskirmisher
 	name = "Skirmisher"
-	r_hand = /obj/item/gun/ballistic/automatic/smg/greasegun
+	r_hand = /obj/item/gun/ballistic/automatic/smg/mini_uzi
 	backpack_contents = list(
-		/obj/item/ammo_box/magazine/greasegun = 2,
+		/obj/item/ammo_box/magazine/uzim9mm = 3,
 		/obj/item/reagent_containers/hypospray/medipen/stimpak = 1,
 		/obj/item/storage/belt/holster = 1,
 		/obj/item/book/granter/trait/trekking = 1
@@ -715,10 +721,10 @@ Raider
 
 /datum/outfit/loadout/hitman
 	name = "Hitman"
-	r_hand = /obj/item/gun/ballistic/automatic/smg/greasegun
+	r_hand = /obj/item/gun/ballistic/automatic/smg/mini_uzi
 	suit = /obj/item/clothing/suit/armor/vest
 	backpack_contents = list(
-						/obj/item/ammo_box/magazine/greasegun = 2,
+						/obj/item/ammo_box/magazine/uzim9mm = 3,
 						/obj/item/suppressor = 1
 						)
 
@@ -814,8 +820,8 @@ datum/job/wasteland/f13dendoctor
 	flag = F13DENDOCTOR
 	faction = FACTION_WASTELAND
 	social_faction = FACTION_RAIDERS
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 4
+	spawn_positions = 4
 	description = "While you prioritize providing medical treatment in emergency situations, you are still trained in combat and have the additional role as a loyal combanteer to the Den."
 	supervisors = "The Boss."
 	selection_color = "#ff4747"
