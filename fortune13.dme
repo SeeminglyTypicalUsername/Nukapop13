@@ -2368,6 +2368,10 @@
 #include "code\modules\jobs\job_types\bishops.dm"
 #include "code\modules\jobs\job_types\bos.dm"
 #include "code\modules\jobs\job_types\citizens.dm"
+<<<<<<< Updated upstream
+=======
+#include "code\modules\jobs\job_types\followers.dm"
+>>>>>>> Stashed changes
 #include "code\modules\jobs\job_types\Kebab.dm"
 #include "code\modules\jobs\job_types\legion.dm"
 #include "code\modules\jobs\job_types\mordinos.dm"

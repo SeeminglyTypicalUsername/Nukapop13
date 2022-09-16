@@ -563,20 +563,15 @@ commented out pending rework*/
 //EXPLORER
 
 /datum/job/CaesarsLegion/Legionnaire/f13explorer
-	title = "Legion Scout"
+	title = "Legion Explorer"
 	flag = F13EXPLORER
-	total_positions = 3
-	spawn_positions = 3
-	description = "Scout the area, secure key points, but do not ignore orders or wordlessly die some place. A good explorer helps his unit by taking initiative and helping the commander without needing micro-managment."
-	supervisors = "the Veteran Decanus and Centurion must be obeyed, and as always, respect must be given to other Decanus. You are not a officer, but you are a specialist."
+	total_positions = 4
+	spawn_positions = 4
+	description = "You are a scout; in charge of gathering intel, keeping your superiors well informed, and occasionally ambushing the enemy if the opportunity presents itself. Take initiative and help paint a picture of the situation for your commander."
+	supervisors = "the Decanii and the Centurion"
 	display_order = JOB_DISPLAY_ORDER_EXPLORER
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13explorer
 	exp_requirements = 300
-
-	loadout_options = list(	// ALL: .45 Revolver, Machete
-		/datum/outfit/loadout/expambusher,	// lever-action shotgun, Bottlecap mine, MP5
-		/datum/outfit/loadout/expsniper,	// SKS, Smokebomb
-		)
 
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
@@ -598,46 +593,25 @@ commented out pending rework*/
 
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13explorer
-	name = "Legion Scout"
+	name = "Legion Explorer"
 	jobtype = /datum/job/CaesarsLegion/Legionnaire/f13explorer
 	id = /obj/item/card/id/dogtag/legprime
 	suit = /obj/item/clothing/suit/armor/f13/legion/vet/explorer
+	glasses = /obj/item/clothing/glasses/sunglasses/big
+	belt = /obj/item/storage/backpack/spearquiver
 	head = /obj/item/clothing/head/helmet/f13/legion/vet/explorer
 	neck = /obj/item/storage/belt/holster
+	suit_store = /obj/item/gun/ballistic/rifle/hunting
 	r_pocket = /obj/item/flashlight
 	l_pocket = /obj/item/binoculars
 	backpack_contents = list(
-		/obj/item/gun/ballistic/revolver/revolver45 = 1,
-		/obj/item/ammo_box/c45rev = 1,
 		/obj/item/reagent_containers/pill/patch/healingpowder = 1,
 		/obj/item/storage/bag/money/small/legenlisted = 1,
+		/obj/item/attachments/scope = 1,
 		/obj/item/melee/onehanded/machete = 1,
 		/obj/item/restraints/handcuffs = 1,
+		/obj/item/ammo_box/a308 = 2,
 		)
-
-/datum/outfit/loadout/expambusher
-	name = "Ambusher"
-	suit_store = /obj/item/gun/ballistic/automatic/smg/mp5
-	glasses = /obj/item/clothing/glasses/sunglasses/big
-	backpack_contents = list(
-		/obj/item/ammo_box/magazine/uzim9mm = 2,
-		/obj/item/gun/ballistic/shotgun/automatic/combat/shotgunlever = 1,
-		/obj/item/bottlecap_mine = 1,
-		/obj/item/grenade/smokebomb = 1,
-		/obj/item/restraints/legcuffs/bola/tactical = 1,
-		)
-
-/datum/outfit/loadout/expsniper
-	name = "Sniper"
-	glasses = /obj/item/clothing/glasses/sunglasses/big
-	suit_store = /obj/item/gun/ballistic/automatic/m1garand/sks
-	backpack_contents = list(
-		/obj/item/ammo_box/magazine/sks = 2,
-		/obj/item/grenade/smokebomb = 1,
-		/obj/item/attachments/scope = 1,
-		)
-
-
 
 
 ///////////////////
@@ -748,7 +722,42 @@ commented out pending rework*/
 		/obj/item/reagent_containers/pill/patch/healpoultice = 3,
 		/obj/item/melee/onehanded/machete/forgedmachete = 1,
 		)
+<<<<<<< Updated upstream
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13recleg/pre_equip(mob/living/carbon/human/H)
+=======
+<<<<<<< Updated upstream
+
+/datum/outfit/loadout/primelancer
+	name = "Guardian"
+	suit_store = /obj/item/gun/ballistic/revolver/colt357
+	r_hand = /obj/item/shield/riot/legion
+	backpack_contents = list(
+		/obj/item/ammo_box/a357 = 3,
+		/obj/item/restraints/legcuffs/bola = 2,
+		/obj/item/reagent_containers/pill/patch/healpoultice = 2,
+		)
+
+/datum/outfit/loadout/primerifle
+	name = "Gunner"
+	suit_store = /obj/item/gun/ballistic/rifle/repeater/cowboy
+	backpack_contents = list(
+		/obj/item/ammo_box/a357 = 3,
+		/obj/item/grenade/homemade/firebomb = 2,
+		/obj/item/reagent_containers/pill/patch/healpoultice = 2,
+		)
+
+/datum/outfit/loadout/primebrave
+	name = "Skirmish"
+	suit_store = /obj/item/gun/ballistic/shotgun/hunting
+	backpack_contents = list(
+		/obj/item/ammo_box/shotgun/buck = 1,
+		/obj/item/melee/onehanded/knife/bayonet = 1,
+		/obj/item/storage/backpack/spearquiver = 1,
+		/obj/item/reagent_containers/pill/patch/healpoultice = 2,
+		)
+=======
+/datum/outfit/job/CaesarsLegion/Legionnaire/f13legionary/pre_equip(mob/living/carbon/human/H)
+>>>>>>> Stashed changes
 	. = ..()
 	r_hand = pick(
 		/obj/item/storage/box/gunbox/legion/prime/set1, //lance, bola, trekking
@@ -756,6 +765,10 @@ commented out pending rework*/
 		/obj/item/storage/box/gunbox/legion/prime/set3, //357, shield
 		/obj/item/storage/box/gunbox/legion/prime/set4, //caravan shotgun
 		/obj/item/storage/box/gunbox/legion/prime/set5) //hunting shotgun
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 
 // RECRUIT
 
@@ -823,8 +836,8 @@ commented out pending rework*/
 /datum/job/CaesarsLegion/Legionnaire/f13immune
 	title = "Legion Immune"
 	flag = F13IMMUNE
-	total_positions = 4
-	spawn_positions = 1
+	total_positions = 0 //I am casting this role into the shadow realm. This role was used specifically for ERP and the fact that a slave army supposedly has paid vacation is baffling.
+	spawn_positions = 0 //"I am an immune" *dies of cringe*
 	description = "An Immune is a legionnaire temporarily assigned to keeping the camp in order, according to their tasking on any given week."
 	supervisors = "the Centurion."
 	display_order = JOB_DISPLAY_ORDER_IMMUNE
@@ -1108,11 +1121,11 @@ Plans: Add recipes/traits to keep refining support roles, Forgemaster done, othe
 Venator  - Zero slots, role built on cloning vet ranger, linear just vastly better than all but the Cent, snowflakey in command when it suits them, messes up the chain of command thats already messy for Legion. FUCK IT ENABLE IT
 */
 /datum/job/CaesarsLegion/Legionnaire/f13venator
-	title = "Legion Explorer"
+	title = "Legion Venator"
 	flag = F13VENATOR
-	total_positions = 1
-	spawn_positions = 1
-	description = "You are the Explorer -- the Hunter. With your powerful rifle and your many years of experience, you are a formidable killing machine, capable of taking down even the most formidable targets. Note that you are not a rank-and-file legionary, and you should not be operating as such -- your job is special operations, not fighting alongside the hordes of the Legion."
+	total_positions = 0
+	spawn_positions = 0
+	description = "You are the Explorer; in charge of leading this camp's scouting operations and directing the scouts to gain a clear picture of the coming battlefield. You shouldn't just be killing the enemy, ensure your superiors know what's going on outside the camp and report in often."
 	supervisors = "the Centurion"
 	selection_color = "#ffdddd"
 	display_order = JOB_DISPLAY_ORDER_VENATOR
@@ -1130,7 +1143,7 @@ Venator  - Zero slots, role built on cloning vet ranger, linear just vastly bett
 	ADD_TRAIT(H, TRAIT_SILENT_STEP, src)
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13venator
-	name = "Legion Explorer"
+	name = "Legion Venator"
 	jobtype = /datum/job/CaesarsLegion/Legionnaire/f13explorer
 	id = /obj/item/card/id/dogtag/legvenator
 	suit = /obj/item/clothing/suit/armor/f13/legion/venator
@@ -1140,13 +1153,13 @@ Venator  - Zero slots, role built on cloning vet ranger, linear just vastly bett
 	glasses = /obj/item/clothing/glasses/night/polarizing
 	ears = /obj/item/radio/headset/headset_legion
 	r_pocket = /obj/item/binoculars
-	suit_store = /obj/item/gun/ballistic/automatic/marksman/sniper/snipervenator
+	suit_store = /obj/item/gun/ballistic/rifle/hunting
 	backpack_contents = list(
-		/obj/item/ammo_box/magazine/w308 = 3,
+		/obj/item/ammo_box/a308 = 2,
+		/obj/item/bottlecap_mine = 2,
 		/obj/item/melee/onehanded/machete/gladius = 1,
-		/obj/item/reagent_containers/pill/patch/healpoultice = 3,
-		/obj/item/gun/ballistic/revolver/revolver45 = 1,
-		/obj/item/ammo_box/c45rev = 3,
+		/obj/item/reagent_containers/pill/patch/healpoultice = 1,
+		/obj/item/attachments/scope = 1,
 		)
 
 // Slavemaster
