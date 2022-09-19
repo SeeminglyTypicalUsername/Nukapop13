@@ -91,6 +91,7 @@
 	footstep = FOOTSTEP_SAND
 	barefootstep = FOOTSTEP_SAND
 	clawfootstep = FOOTSTEP_SAND
+	gallopfootstep = FOOTSTEP_GENERIC_GALLOP
 
 /turf/open/indestructible/ground/outside/savannah/center
 	icon_state = "savannahcenter"
@@ -142,6 +143,7 @@
 	footstep = FOOTSTEP_SAND
 	barefootstep = FOOTSTEP_SAND
 	clawfootstep = FOOTSTEP_SAND
+	gallopfootstep = FOOTSTEP_GENERIC_GALLOP
 	var/dug = FALSE				//FALSE = has not yet been dug, TRUE = has already been dug
 	var/pit_sand = 1
 	var/storedindex = 0			//amount of stored items
@@ -170,6 +172,7 @@
 	footstep = FOOTSTEP_LOOSE_SAND
 	barefootstep = FOOTSTEP_LOOSE_SAND
 	clawfootstep = FOOTSTEP_LOOSE_SAND
+	gallopfootstep = FOOTSTEP_GENERIC_GALLOP
 
 /turf/open/indestructible/ground/outside/desert/sonora/coarse
 	icon_state = "desertcoarse"
@@ -275,6 +278,7 @@
 	footstep = FOOTSTEP_SAND
 	barefootstep = FOOTSTEP_SAND
 	clawfootstep = FOOTSTEP_SAND
+	gallopfootstep = FOOTSTEP_GENERIC_GALLOP
 
 /turf/open/indestructible/ground/outside/dirt/MakeSlippery(wet_setting, min_wet_time, wet_time_to_add, max_wet_time, permanent)
 	return //same thing here, dirt absorbs the liquid... :(
@@ -300,6 +304,7 @@
 	icon_state = "innermiddle"
 	icon = 'icons/fallout/turfs/asphalt.dmi'
 	footstep = FOOTSTEP_ROAD
+	gallopfootstep = FOOTSTEP_GENERIC_GALLOP
 	barefootstep = FOOTSTEP_HARD_BAREFOOT
 //	step_sounds = list("human" = "erikafootsteps")
 
@@ -314,6 +319,7 @@
 	icon_state = "outermiddle"
 	icon = 'icons/fallout/turfs/sidewalk.dmi'
 	footstep = FOOTSTEP_ROAD
+	gallopfootstep = FOOTSTEP_GENERIC_GALLOP
 	barefootstep = FOOTSTEP_HARD_BAREFOOT
 //	step_sounds = list("human" = "erikafootsteps")
 
@@ -329,6 +335,7 @@
 	icon_state = "rubblefull"
 	icon = 'icons/fallout/turfs/ground.dmi'
 	footstep = FOOTSTEP_ROAD
+	gallopfootstep = FOOTSTEP_GENERIC_GALLOP
 	barefootstep = FOOTSTEP_HARD_BAREFOOT
 //	step_sounds = list("human" = "erikafootsteps")
 
@@ -363,6 +370,7 @@
 	footstep = FOOTSTEP_WATER
 	barefootstep = FOOTSTEP_WATER
 	clawfootstep = FOOTSTEP_WATER
+	gallopfootstep = FOOTSTEP_WATER
 	heavyfootstep = FOOTSTEP_WATER
 
 /turf/open/indestructible/ground/outside/water/Initialize()
@@ -402,6 +410,7 @@
 	footstep = FOOTSTEP_SNOW
 	barefootstep = FOOTSTEP_SNOW
 	clawfootstep = FOOTSTEP_SNOW
+	gallopfootstep = FOOTSTEP_GENERIC_GALLOP
 
 /turf/open/indestructible/ground/outside/ruins/ex_act(severity, target)
 	contents_explosion(severity, target)
@@ -526,6 +535,7 @@
 	icon_state = "outermiddle"
 	icon = 'icons/fallout/turfs/sidewalkdirt.dmi'
 	footstep = FOOTSTEP_ROAD
+	gallopfootstep = FOOTSTEP_GENERIC_GALLOP
 	barefootstep = FOOTSTEP_HARD_BAREFOOT
 //	step_sounds = list("human" = "erikafootsteps")
 
@@ -544,6 +554,7 @@
 	footstep = FOOTSTEP_GRAVEL
 	barefootstep = FOOTSTEP_GRAVEL
 	clawfootstep = FOOTSTEP_GRAVEL
+	gallopfootstep = FOOTSTEP_GENERIC_GALLOP
 
 /turf/open/indestructible/ground/outside/gravel/alt
 	name = "gravel"

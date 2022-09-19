@@ -1776,3 +1776,42 @@ list(/obj/item/stack/sheet/metal = 20,
 	new /obj/item/gun/ballistic/automatic/smg/smg14(src)
 	new /obj/item/ammo_box/magazine/smg14(src)
 	new /obj/item/ammo_box/magazine/smg14(src)
+
+/////Vermin/////
+
+/obj/item/storage/box/gunbox/vipers/set1/PopulateContents()
+	new /obj/item/gun/ballistic/automatic/smg/greasegun(src)
+	new /obj/item/ammo_box/magazine/greasegun(src)
+	new /obj/item/ammo_box/magazine/greasegun(src)
+	new /obj/item/bottlecap_mine(src)
+
+/obj/item/storage/box/gunbox/vipers/set2/PopulateContents()
+	new /obj/item/gun/ballistic/automatic/marksman/sniper(src)
+	new /obj/item/ammo_box/magazine/w308(src)
+	new /obj/item/ammo_box/magazine/w308(src)
+	new /obj/item/bottlecap_mine(src)
+
+/obj/item/storage/box/gunbox/vipers/set3/PopulateContents()
+	new /obj/item/gun/ballistic/revolver/caravan_shotgun(src)
+	new /obj/item/ammo_box/shotgun/improvised(src)
+	new /obj/item/ammo_box/shotgun/improvised(src)
+	new /obj/item/grenade/homemade/coffeepotbomb(src)
+
+/obj/item/storage/box/gunbox/vipers/set4/PopulateContents()
+	new /obj/item/gun/ballistic/revolver/single_shotgun(src)
+	new /obj/item/ammo_box/shotgun/improvised(src)
+	new /obj/item/ammo_box/shotgun/improvised(src)
+	new /obj/item/grenade/homemade/coffeepotbomb(src)
+
+/obj/item/storage/box/gunbox/vipers/set5/PopulateContents()
+	new /obj/item/gun/ballistic/automatic/autopipe(src)
+	new /obj/item/ammo_box/magazine/autopipe(src)
+	new /obj/item/ammo_box/magazine/autopipe(src)
+	new /obj/item/grenade/homemade/coffeepotbomb(src)
+
+/obj/item/storage/box/gunbox/vipers/set6/PopulateContents()
+	new /obj/item/gun/ballistic/revolver/hobo/knifegun(src)
+	new /obj/item/ammo_box/m44box/improvised(src)
+	new /obj/item/ammo_box/m44box/improvised(src)
+	new /obj/item/bottlecap_mine(src)
+	new /obj/item/bottlecap_mine(src)

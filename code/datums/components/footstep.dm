@@ -36,6 +36,8 @@
 			return
 		if(FOOTSTEP_MOB_CLAW)
 			footstep_sounds = GLOB.clawfootstep
+		if(FOOTSTEP_MOB_GALLOP)
+			footstep_sounds = GLOB.gallopfootstep
 		if(FOOTSTEP_MOB_BAREFOOT)
 			footstep_sounds = GLOB.barefootstep
 		if(FOOTSTEP_MOB_HEAVY)
@@ -93,6 +95,8 @@
 	switch(footstep_type)
 		if(FOOTSTEP_MOB_CLAW)
 			turf_footstep = T.clawfootstep
+		if(FOOTSTEP_MOB_GALLOP)
+			turf_footstep = T.gallopfootstep
 		if(FOOTSTEP_MOB_BAREFOOT)
 			turf_footstep = T.barefootstep
 		if(FOOTSTEP_MOB_HEAVY)
@@ -116,7 +120,6 @@
 		switch(H.physiology.footstep_type)
 			if(FOOTSTEP_MOB_CLAW)
 				turf_footstep = T.clawfootstep
-				L = GLOB.clawfootstep
 			if(FOOTSTEP_MOB_BAREFOOT)
 				turf_footstep = T.barefootstep
 				L = GLOB.barefootstep
@@ -126,6 +129,9 @@
 			if(FOOTSTEP_MOB_SHOE)
 				turf_footstep = T.footstep
 				L = GLOB.footstep
+			if(FOOTSTEP_MOB_GALLOP)
+				turf_footstep = T.gallopfootstep
+				L = GLOB.gallopfootstep
 			if(FOOTSTEP_MOB_SLIME)
 				playsound(T, 'sound/effects/footstep/slime1.ogg', 50 * volume)
 				return

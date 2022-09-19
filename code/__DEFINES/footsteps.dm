@@ -19,8 +19,10 @@
 #define FOOTSTEP_HARD_BAREFOOT "hardbarefoot"
 #define FOOTSTEP_HARD_CLAW "hardclaw"
 #define FOOTSTEP_CARPET_BAREFOOT "carpetbarefoot"
+
 //misc footstep sounds
 #define FOOTSTEP_GENERIC_HEAVY "heavy"
+#define FOOTSTEP_GENERIC_GALLOP "gallop"
 
 #define FOOTPRINT_SHOE	"shoe"
 #define FOOTPRINT_FOOT	"foot"
@@ -30,6 +32,7 @@
 #define FOOTPRINT_TRAIL	"trails_"
 #define FOOTPRINT_SNAKE	"snake"
 #define FOOTPRINT_DRAG	"drag"
+#define FOOTPRINT_GALLOP "gallop"
 
 //footstep mob defines
 #define FOOTSTEP_MOB_CLAW 1
@@ -39,6 +42,7 @@
 #define FOOTSTEP_MOB_HUMAN 5 //Warning: Only works on /mob/living/carbon/human
 #define FOOTSTEP_MOB_SLIME 6
 #define FOOTSTEP_MOB_CRAWL 7
+#define FOOTSTEP_MOB_GALLOP 8
 
 /*
 
@@ -226,6 +230,117 @@ GLOBAL_LIST_INIT(heavyfootstep, list(
 	FOOTSTEP_GENERIC_HEAVY = list(list(
 		'sound/effects/footstep/heavy1.ogg',
 		'sound/effects/footstep/heavy2.ogg'), 100, 2),
+	FOOTSTEP_WATER = list(list(
+		'sound/effects/footstep/water1.ogg',
+		'sound/effects/footstep/water2.ogg',
+		'sound/effects/footstep/water3.ogg',
+		'sound/effects/footstep/water4.ogg'), 100, 2),
+	FOOTSTEP_LAVA = list(list(
+		'sound/effects/footstep/lava1.ogg',
+		'sound/effects/footstep/lava2.ogg',
+		'sound/effects/footstep/lava3.ogg'), 100, 0),
+	FOOTSTEP_MEAT = list(list(
+		'sound/effects/meatslap.ogg'), 100, 0),
+	FOOTSTEP_RUST = list(list(
+		'sound/effects/footstep/rustystep1.ogg'), 150, 2)
+))
+/*
+//gallop footsteps list
+GLOBAL_LIST_INIT(gallopfootstep, list(
+	FOOTSTEP_WOOD_GALLOP = list(list(
+		'sound/effects/footstep/gallop1.ogg',
+		'sound/effects/footstep/gallop2.ogg',
+		'sound/effects/footstep/gallop3.ogg',
+		'sound/effects/footstep/gallop4.ogg',
+		'sound/effects/footstep/gallop5.ogg'), 100, 1),
+	FOOTSTEP_FLOOR_GALLOP = list(list(
+		'sound/effects/footstep/gallop1.ogg',
+		'sound/effects/footstep/gallop2.ogg',
+		'sound/effects/footstep/gallop3.ogg',
+		'sound/effects/footstep/gallop4.ogg',
+		'sound/effects/footstep/gallop5.ogg'), 100, 1),
+	FOOTSTEP_PLATING_GALLOP = list(list(
+		'sound/effects/footstep/gallop1.ogg',
+		'sound/effects/footstep/gallop2.ogg',
+		'sound/effects/footstep/gallop3.ogg',
+		'sound/effects/footstep/gallop4.ogg',
+		'sound/effects/footstep/gallop5.ogg'), 100, 1),,
+	FOOTSTEP_CARPET_GALLOP = list(list(
+		'sound/effects/footstep/gallop1.ogg',
+		'sound/effects/footstep/gallop2.ogg',
+		'sound/effects/footstep/gallop3.ogg',
+		'sound/effects/footstep/gallop4.ogg',
+		'sound/effects/footstep/gallop5.ogg'), 100, 1),
+	FOOTSTEP_SAND_GALLOP = list(list(
+		'sound/effects/footstep/gallop1.ogg',
+		'sound/effects/footstep/gallop2.ogg',
+		'sound/effects/footstep/gallop3.ogg',
+		'sound/effects/footstep/gallop4.ogg',
+		'sound/effects/footstep/gallop5.ogg'), 100, 1),
+	FOOTSTEP_GRASS_GALLOP = list(list(
+		'sound/effects/footstep/gallop1.ogg',
+		'sound/effects/footstep/gallop2.ogg',
+		'sound/effects/footstep/gallop3.ogg',
+		'sound/effects/footstep/gallop4.ogg',
+		'sound/effects/footstep/gallop5.ogg'), 100, 1),,
+	FOOTSTEP_WATER = list(list(
+		'sound/effects/footstep/water1.ogg',
+		'sound/effects/footstep/water2.ogg',
+		'sound/effects/footstep/water3.ogg',
+		'sound/effects/footstep/water4.ogg'), 100, 1),
+	FOOTSTEP_LAVA_GALLOP = list(list(
+		'sound/effects/footstep/gallop1.ogg',
+		'sound/effects/footstep/gallop2.ogg',
+		'sound/effects/footstep/gallop3.ogg',
+		'sound/effects/footstep/gallop4.ogg',
+		'sound/effects/footstep/gallop5.ogg'), 100, 1),
+	FOOTSTEP_MEAT_GALLOP = list(list(
+		'sound/effects/footstep/gallop1.ogg',
+		'sound/effects/footstep/gallop2.ogg',
+		'sound/effects/footstep/gallop3.ogg',
+		'sound/effects/footstep/gallop4.ogg',
+		'sound/effects/footstep/gallop5.ogg'), 100, 1),
+	FOOTSTEP_RUST_GALLOP = list(list(
+		'sound/effects/footstep/gallop1.ogg',
+		'sound/effects/footstep/gallop2.ogg',
+		'sound/effects/footstep/gallop3.ogg',
+		'sound/effects/footstep/gallop4.ogg',
+		'sound/effects/footstep/gallop5.ogg'), 100, 1),
+	FOOTSTEP_SNOW = list(list(
+		'sound/effects/footstep/snow1.ogg',
+		'sound/effects/footstep/snow2.ogg',
+		'sound/effects/footstep/snow3.ogg',
+		'sound/effects/footstep/snow4.ogg',
+		'sound/effects/footstep/snow5.ogg'), 100, 1),
+	FOOTSTEP_GRAVEL_GALLOP = list(list(
+		'sound/effects/footstep/gallop1.ogg',
+		'sound/effects/footstep/gallop2.ogg',
+		'sound/effects/footstep/gallop3.ogg',
+		'sound/effects/footstep/gallop4.ogg',
+		'sound/effects/footstep/gallop5.ogg'), 100, 1),
+	FOOTSTEP_LOOSE_SAND_GALLOP = list(list(
+		'sound/effects/footstep/gallop1.ogg',
+		'sound/effects/footstep/gallop2.ogg',
+		'sound/effects/footstep/gallop3.ogg',
+		'sound/effects/footstep/gallop4.ogg',
+		'sound/effects/footstep/gallop5.ogg'), 100, 1),
+	FOOTSTEP_ROAD_GALLOP = list(list(
+		'sound/effects/footstep/gallop1.ogg',
+		'sound/effects/footstep/gallop2.ogg',
+		'sound/effects/footstep/gallop3.ogg',
+		'sound/effects/footstep/gallop4.ogg',
+		'sound/effects/footstep/gallop5.ogg'), 100, 1),
+))
+*/
+
+//heavy footsteps list
+GLOBAL_LIST_INIT(gallopfootstep, list(
+	FOOTSTEP_GENERIC_GALLOP = list(list(
+		'sound/effects/footstep/gallop1.ogg',
+		'sound/effects/footstep/gallop2.ogg',
+		'sound/effects/footstep/gallop3.ogg',
+		'sound/effects/footstep/gallop4.ogg',
+		'sound/effects/footstep/gallop5.ogg'), 100, 2),
 	FOOTSTEP_WATER = list(list(
 		'sound/effects/footstep/water1.ogg',
 		'sound/effects/footstep/water2.ogg',

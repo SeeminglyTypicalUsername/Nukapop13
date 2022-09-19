@@ -323,6 +323,17 @@
 	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
 	flash_protect = 2
 
+/obj/item/clothing/suit/hooded/robes/vipers
+	name = "serpent priest robes"
+	desc = "Praise the snek."
+	hoodtype = /obj/item/clothing/head/hooded/robes/vipers
+	armor = list("melee" = 20, "bullet" = 32, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 10, "rad" = 0, "fire" = 20, "acid" = 5)
+
+/obj/item/clothing/head/hooded/robes/vipers
+	name = "serpent priest hood"
+	desc = "Perfect for concealing your identity."
+	armor = list("melee" = 20, "bullet" = 32, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 10, "rad" = 0, "fire" = 20, "acid" = 5)
+
 /obj/item/clothing/suit/hooded/robes/grey
 	name = "grey robes"
 	desc = "Requisite attire for the monthly meetings of your local cult."

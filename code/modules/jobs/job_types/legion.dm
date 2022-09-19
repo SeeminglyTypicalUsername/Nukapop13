@@ -723,7 +723,7 @@ commented out pending rework*/
 		/obj/item/reagent_containers/pill/patch/healpoultice = 3,
 		/obj/item/melee/onehanded/machete/forgedmachete = 1,
 		)
-/datum/outfit/job/CaesarsLegion/Legionnaire/Legionnaire/pre_equip(mob/living/carbon/human/H)
+/datum/outfit/job/CaesarsLegion/Legionnaire/f13legionary/pre_equip(mob/living/carbon/human/H)
 	. = ..()
 	r_hand = pick(
 		/obj/item/storage/box/gunbox/legion/prime/set1, //lance, bola, trekking

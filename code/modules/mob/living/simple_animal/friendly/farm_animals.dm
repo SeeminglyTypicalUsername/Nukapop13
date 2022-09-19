@@ -1058,12 +1058,12 @@ mob/living/simple_animal/cow/brahmin/Topic(href, href_list)
 
 /mob/living/simple_animal/slepnir
 	name = "Slepnir"
-	desc = "Brahmin or brahma are mutated cattle with two heads and looking udderly ridiculous.<br>Known for their milk, just don't tip them over."
+	desc = "Slepnirs are mutated horses with six legs commonly used for logistics and transportation over long distances."
 	icon = 'icons/fallout/mobs/animals/slepnir.dmi'
 	icon_state = "slepnir"
 	icon_living = "slepnir"
 	icon_dead = "slepnir_dead"
-	turns_per_move = 10
+	turns_per_move = 5
 	speak = list("Naaay?","Naaay","NAAAAYY")
 	speak_emote = list("nays","nays hauntingly")
 	emote_hear = list("brays.")
@@ -1082,6 +1082,8 @@ mob/living/simple_animal/cow/brahmin/Topic(href, href_list)
 	mob_biotypes = MOB_ORGANIC|MOB_BEAST
 	attack_verb_simple = "rams"
 	attack_sound = 'sound/weapons/punch1.ogg'
+	idlesound = list('sound/f13npc/slepnir/slepnir_1.ogg', 'sound/f13npc/slepnir/slepnir_2.ogg', 'sound/f13npc/slepnir/slepnir_3.ogg', 'sound/f13npc/slepnir/slepnir_4.ogg', 'sound/f13npc/slepnir/slepnir_5.ogg')
+	footstep_type = FOOTSTEP_MOB_GALLOP
 	melee_damage_lower = 25
 	melee_damage_upper = 20
 	environment_smash = ENVIRONMENT_SMASH_NONE
@@ -1183,9 +1185,52 @@ Brand for permanently marking brahmin as yours (won't stop people stealing em an
 		D.set_vehicle_dir_layer(EAST, OBJ_LAYER)
 		D.set_vehicle_dir_layer(WEST, OBJ_LAYER)
 		D.drive_verb = "ride"
-		D.vehicle_move_delay = 0.95
+		D.vehicle_move_delay = 1.5
 		to_chat(user, "<span class='notice'>You add [I] to [src].</span>")
 		qdel(I)
 		return
+
+/mob/living/simple_animal/slepnir/death(gibbed)
+	. = ..()
+	if(can_buckle)
+		can_buckle = FALSE
+	if(buckled_mobs)
+		for(var/mob/living/M in buckled_mobs)
+			unbuckle_mob(M)
+
+/mob/living/simple_animal/slepnir/proc/handle_following()
+	if(owner)
+		if(!follow)
+			return
+		else if(CHECK_MOBILITY(src, MOBILITY_MOVE) && isturf(loc))
+			step_to(src, owner)
+
+/mob/living/simple_animal/slepnir/CtrlShiftClick(mob/user)
+	if(get_dist(user, src) > 1)
+		return
+
+	if(bridle && user.a_intent == INTENT_DISARM)
+		bridle = FALSE
+		tame = FALSE
+		owner = null
+		to_chat(user, "<span class='notice'>You remove the bridle gear from [src], dropping it on the ground.</span>")
+		new /obj/item/brahminbridle(user.loc)
+
+	if(collar && user.a_intent == INTENT_GRAB)
+		collar = FALSE
+		name = initial(name)
+		to_chat(user, "<span class='notice'>You remove the collar from [src], dropping it on the ground.</span>")
+		new /obj/item/brahmincollar(user.loc)
+
+	if(user == owner)
+		if(bridle && user.a_intent == INTENT_HELP)
+			if(follow)
+				to_chat(user, "<span class='notice'>You tug on the reins of [src], telling it to stay.</span>")
+				follow = FALSE
+				return
+			else if(!follow)
+				to_chat(user, "<span class='notice'>You tug on the reins of [src], telling it to follow.</span>")
+				follow = TRUE
+				return
 
 ////////////////////

@@ -1154,6 +1154,11 @@
 /obj/effect/spawner/lootdrop/f13/cash_random_med,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
+"aPr" = (
+/obj/structure/destructible/tribal_torch/lit,
+/mob/living/simple_animal/hostile/retaliate/poison/snake/evil,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/caves)
 "aPx" = (
 /obj/structure/barricade/bars{
 	max_integrity = 9999
@@ -1259,6 +1264,10 @@
 /obj/effect/spawner/lootdrop/f13/alcoholspawner,
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/f13/tunnel)
+"aUv" = (
+/mob/living/simple_animal/hostile/retaliate/poison/snake/evil,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/caves)
 "aUW" = (
 /obj/effect/spawner/lootdrop/trash,
 /turf/open/indestructible/ground/inside/subway,
@@ -2720,10 +2729,15 @@
 	},
 /area/f13/tunnel)
 "bPD" = (
-/obj/structure/chair/stool/retro/black,
-/obj/effect/landmark/start/f13/raider,
-/turf/open/floor/wood/f13/oak,
-/area/f13/den)
+/obj/structure/chair/wood{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/effect/landmark/start/f13/ncrveteranranger,
+/turf/open/floor/carpet/black,
+/area/f13/ncr)
 "bPI" = (
 /obj/machinery/light/small,
 /turf/open/floor/plasteel/f13/vault_floor/red{
@@ -8408,6 +8422,12 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/cotc)
+"fjR" = (
+/obj/structure/stairs/north{
+	color = "#A47449"
+	},
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/caves)
 "fka" = (
 /turf/closed/wall/r_wall/rust,
 /area/f13/building)
@@ -11268,7 +11288,6 @@
 /area/f13/radiation)
 "hdu" = (
 /obj/structure/chair/stool/retro/black,
-/obj/effect/landmark/start/f13/raider,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/den)
 "hdF" = (
@@ -17072,6 +17091,10 @@
 /obj/effect/spawner/lootdrop/f13/armor/clothes,
 /obj/effect/spawner/lootdrop/f13/armor/tier3,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/caves)
+"lTj" = (
+/obj/structure/destructible/tribal_torch/lit,
+/turf/open/indestructible/ground/inside/subway,
 /area/f13/caves)
 "lTu" = (
 /obj/item/reagent_containers/food/snacks/deadmouse,
@@ -24244,7 +24267,6 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 8
 	},
-/obj/effect/landmark/start/f13/raider,
 /turf/open/floor/wood/f13/oak,
 /area/f13/den)
 "qYA" = (
@@ -24384,16 +24406,6 @@
 	icon_state = "greenrusty"
 	},
 /area/f13/den)
-"rdD" = (
-/obj/structure/chair/wood{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/obj/effect/landmark/start/f13/ncrveteranranger,
-/turf/open/floor/carpet/black,
-/area/f13/ncr)
 "rdL" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = -32
@@ -29078,6 +29090,10 @@
 	icon_state = "white"
 	},
 /area/f13/den)
+"veO" = (
+/obj/structure/simple_door/wood,
+/turf/open/indestructible/ground/inside/subway,
+/area/f13/caves)
 "veR" = (
 /obj/structure/fence,
 /turf/open/floor/f13{
@@ -35959,7 +35975,7 @@ nzI
 lXF
 xgj
 lYi
-rdD
+bPD
 ppt
 lYi
 cNj
@@ -58178,7 +58194,7 @@ xOn
 xOn
 hox
 gTB
-bPD
+aET
 dUO
 efa
 dUO
@@ -83367,11 +83383,11 @@ lLd
 xVz
 uoO
 uoO
-uoO
-uoO
-uoO
-uoO
-uoO
+eLE
+eLE
+eLE
+eLE
+eLE
 uoO
 uoO
 uoO
@@ -83624,11 +83640,11 @@ lLd
 xVz
 uoO
 uoO
-uoO
-uoO
-uoO
-uoO
-uoO
+eLE
+aUv
+aUv
+lTj
+eLE
 uoO
 uoO
 eLE
@@ -83881,10 +83897,10 @@ xVz
 uoO
 uoO
 uoO
-uoO
-uoO
-uoO
-uoO
+eLE
+aUv
+aUv
+aUv
 eLE
 eLE
 eLE
@@ -84139,9 +84155,9 @@ uoO
 eLE
 eLE
 eLE
-eLE
-eLE
-eLE
+aPr
+aUv
+aUv
 eLE
 uoO
 uoO
@@ -84397,7 +84413,7 @@ eLE
 uoO
 uoO
 uoO
-uoO
+veO
 uoO
 uoO
 uoO
@@ -84653,8 +84669,8 @@ eLE
 uoO
 uoO
 uoO
-uoO
-uoO
+fjR
+myy
 uoO
 uoO
 uoO
@@ -88484,8 +88500,8 @@ uoO
 uoO
 aoj
 aoj
-uoO
-uoO
+aoj
+aoj
 uoO
 uoO
 uoO
