@@ -667,6 +667,10 @@
 	item_state = "ncr_officer_beret"
 	armor = list("melee" = 35, "bullet" = 35, "laser" = 25, "energy" = 20, "bomb" = 50, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 40)
 
+/obj/item/clothing/head/beret/ncr/reno
+	name = "NCR officer beret"
+	armor = list("melee" = 10, "bullet" = 15, "laser" = 10, "energy" = 10, "bomb" = 5, "bio" = 5, "rad" = 5, "fire" = 5, "acid" = 0, "wound" = 0)
+
 /obj/item/clothing/head/beret/ncr/ncr_medic
 	name = "NCR medical beret"
 	desc = "A white beret, issued to officers of the medical corps."

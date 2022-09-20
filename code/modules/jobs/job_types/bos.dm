@@ -142,7 +142,7 @@ Head Paladin
 	name = "Head Paladin"
 	jobtype = /datum/job/bos/f13sentinel
 	uniform = 		/obj/item/clothing/under/f13/recon
-	accessory = 	/obj/item/clothing/accessory/bos/sentinel
+	accessory = 	/obj/item/clothing/accessory/bos/headpaladin
 	glasses =       /obj/item/clothing/glasses/sunglasses
 	belt =			/obj/item/storage/belt/military/assault
 	mask =			/obj/item/clothing/mask/gas/sechailer
@@ -317,7 +317,7 @@ Head Knight
 	suit = 			/obj/item/clothing/suit/armor/f13/combat/brotherhood/captain
 	glasses =		/obj/item/clothing/glasses/night
 	uniform =		/obj/item/clothing/under/syndicate/brotherhood
-	accessory =		/obj/item/clothing/accessory/bos/knightcaptain
+	accessory =		/obj/item/clothing/accessory/bos/headknight
 	belt =			/obj/item/storage/belt/security/full
 	neck =			/obj/item/storage/belt/holster
 	mask =			/obj/item/clothing/mask/gas/sechailer
