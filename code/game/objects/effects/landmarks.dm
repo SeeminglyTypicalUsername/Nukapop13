@@ -801,12 +801,16 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	icon_state = "Wastelander"
 
 /obj/effect/landmark/start/f13/raider
-	name = "Outlaw"
+	name = "Wasteland Raider"
 	icon_state = "Raider"
 
 /obj/effect/landmark/start/f13/pusher
-	name = "Great Khan"
+	name = "Viper"
 	icon_state = "Pusher"
+
+/obj/effect/landmark/start/f13/serpentpriest
+	name = "Viper Serpent Priest"
+	icon_state = "Priest"
 
 /obj/effect/landmark/start/f13/enforcer
 	name = "Den Mob Enforcer"
