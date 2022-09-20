@@ -9,146 +9,6 @@
 /obj/item/clothing/under/f13/female
 	fitted = FEMALE_UNIFORM_TOP
 
-//Salvatores
-
-/obj/item/clothing/under/f13/salvatores/don
-	name = "don suit"
-	desc = "A white suit and tie, with a black undershirt."
-	icon_state = "salvatores_don"
-	item_state = "salvatores_don"
-
-/obj/item/clothing/under/f13/salvatores/officer
-	name = "officer suit"
-	desc = "A white suit and tie, with a black undershirt."
-	icon_state = "salvatores_officer"
-	item_state = "salvatores_officer"
-
-/obj/item/clothing/under/f13/salvatores/soldier
-	name = "salvatore family suit"
-	desc = "A white suit and tie, with a black undershirt."
-	icon_state = "salvatores_soldier"
-	item_state = "salvatores_soldier"
-
-//Mordinos
-
-/obj/item/clothing/under/f13/mordinos/boss
-	name = "stylish uuit"
-	desc = "A charcoal suit with a red shirt and black tie."
-	icon_state = "mordino_boss"
-	item_state = "mordino_boss"
-
-/obj/item/clothing/under/f13/mordinos/goon
-	name = "mordino family suit"
-	desc = "A black suit with a blue tie. Nice."
-	icon_state = "mordino_goon"
-	item_state = "mordino_goon"
-
-//Bishops
-
-/obj/item/clothing/under/f13/bishops/boss
-	name = "blue checkers"
-	desc = "Ay, dat's a nice suit ya got there. Be a shame if something were to happen to it."
-	icon_state = "bishop_boss"
-	item_state = "bishop_boss"
-
-/obj/item/clothing/under/f13/bishops/officer
-	name = "officer suit"
-	desc = "A navy blue suit with a light blue undershirt."
-	icon_state = "bishop_officer"
-	item_state = "bishop_officer"
-
-/obj/item/clothing/under/f13/bishops/soldier
-	name = "bishop family suit"
-	desc = "A light blue suit. Nice."
-	icon_state = "bishop_soldier"
-	item_state = "bishop_soldier"
-
-/obj/item/clothing/under/f13/bishops/casino_worker
-	name = "shark club uniform"
-	desc = "The standard uniform for workers at sharkclub"
-	icon_state = "bishop_casino_worker"
-	item_state = "bishop_casino_worker"
-
-//wrights
-
-/obj/item/clothing/under/f13/wrights/boss
-	name = "formal suit"
-	desc = "A neat, well maintained suit."
-	icon_state = "wright_boss"
-	item_state = "wright_boss"
-
-/obj/item/clothing/under/f13/wrights/officer
-	name = "wright officer suit"
-	desc = "A brown suit with a sense of formality to it."
-	icon_state = "wright_officer"
-	item_state = "wright_officer"
-
-/obj/item/clothing/under/f13/wrights/soldier
-	name = "wright family suit"
-	desc = "A suit with suspenders."
-	icon_state = "wright_soldier"
-	item_state = "wright_soldier"
-
-//hotel
-
-/obj/item/clothing/under/f13/hotel/concierge/uniform
-	name = "concierger uniform"
-	desc = "An old yellowish shirt with a black tie, intended for the hotel staff."
-	icon_state = "concierge_uniform"
-	item_state = "concierge_uniform"
-
-/obj/item/clothing/under/f13/hotel/concierge/uniform/skirt
-	name = "concierge skirt"
-	desc = "An old yellowish shirt with a black tie and a feminine skirt, intended for the hotel staff."
-	icon_state = "concierge_skirt"
-	item_state = "concierge_skirt"
-
-//religion
-
-/obj/item/clothing/under/f13/religion/priest
-	name = "priest clothing"
-	desc = "Typical priest clothing."
-	icon_state = "priest"
-	item_state = "priest"
-
-//civilian
-
-/obj/item/clothing/under/f13/hawaiian/red
-	name = "red hawaiian outfit"
-	desc = "Woooaahh, dude, party on."
-	icon_state = "hawaiianred_s"
-	item_state = "hawaiianred_s"
-
-/obj/item/clothing/under/f13/hawaiian/blue
-	name = "blue hawaiian outfit"
-	desc = "Woooaahh, dude, party on."
-	icon_state = "hawaiianblue_s"
-	item_state = "hawaiianblue_s"
-
-/obj/item/clothing/under/f13/hawaiian/orange
-	name = "orange hawaiian outfit"
-	desc = "Woooaahh, dude, party on."
-	icon_state = "hawaiianorange_s"
-	item_state = "hawaiianorange_s"
-
-/obj/item/clothing/under/f13/hawaiian/pink
-	name = "pink hawaiian outfit"
-	desc = "Woooaahh, dude, party on."
-	icon_state = "hawaiianpink_s"
-	item_state = "hawaiianpink_s"
-
-/obj/item/clothing/under/f13/ncr/police
-	name = "NCR police uniform"
-	desc = "A standard issue NCR police uniform, repurposed from the old world."
-	icon_state = "ahp_uniform"
-	item_state = "ahp_uniform"
-
-/obj/item/clothing/under/f13/brahminbaron/foreign_suit
-	name = "foreign suit"
-	desc = "A very well made suit."
-	icon_state = "schlimmsuit"
-	item_state = "schlimmsuit"
-
 //ENCLAVE PEACEKEEPERS
 
 /obj/item/clothing/under/f13/enclave/science
@@ -788,6 +648,8 @@
 	item_state = "raiderrags"
 	item_color = "raiderrags"
 
+// Khan Uniforms Below
+
 /obj/item/clothing/under/f13/khan
 	name = "great khan uniform"
 	desc = "Clothing marking the wearer as one of the the Great Khans. Most common are denim pants."
@@ -797,9 +659,11 @@
 	item_state = "khan_uniform"
 	item_color = "khan_uniform"
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 10, "fire" = 10, "acid" = 40)
+	body_parts_covered = GROIN|LEGS
+	fitted = NO_FEMALE_UNIFORM
 	var/uniformtoggled = FALSE
 
-/obj/item/clothing/under/f13/khan/shorts
+/obj/item/clothing/under/f13/khan/shorts //Skirt aswell, if you alt click on it, turns into khan skirt.
 	name = "great khan jorts"
 	desc = "Clothing marking the wearer as one of the the Great Khans. Most common are denim pants, but jorts is a acceptable alternative."
 	icon = 'icons/fallout/clothing/khans.dmi'
@@ -1834,6 +1698,19 @@
 	icon_state = "masonduds"
 	item_state = "masonduds"
 
+/obj/item/clothing/under/f13/schlimmsuit
+	name = "foreign gentleman's attire"
+	desc = "A red paisley vest and silk cravat paired with beige slacks. These clothes are strangely antiquated for their time place."
+	icon_state = "schlimmsuit"
+	item_state = "schlimmsuit"
+
+/obj/item/clothing/under/f13/ahp_uniform
+	name = "highway patrol uniform"
+	desc = "An old tan police uniform with tight-fitting breeches and a gold badge with the logo of the 'Arizona State Troopers'."
+	icon_state = "ahp_uniform"
+	item_state = "ahp_uniform"
+	item_color = "ahp_uniform"
+
 //Super Mutants
 
 /obj/item/clothing/under/f13/mutieshorts
@@ -1870,7 +1747,7 @@
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 30, "fire" = 20, "acid" = 50)
 
 /obj/item/clothing/under/f13/densuit
-	name = "the den outfit"
+	name = "mafioso outfit"
 	desc = "A dark grey, and finely pressed suit, complete with kneepads and a suspiciously golden silk shirt, only the best."
 	icon_state = "den_suit"
 	item_state = "den_suit"
@@ -2004,3 +1881,153 @@
 	desc = "Funny little tracksuit for a funny little man."
 	icon_state = "tracksuit"
 	item_state = "tracksuit"
+
+/// Custom items
+
+/obj/item/clothing/under/f13/blackdress/maus
+	name = "gothic lolita officer dress"
+	desc = "An eccentric dress that resembles a historic officer uniform."
+	icon_state = "mausgothlolidress"
+	item_state = "mausgothlolidress"
+	fitted = FEMALE_UNIFORM_TOP
+	can_adjust = FALSE
+
+//Salvatores
+
+/obj/item/clothing/under/f13/salvatores/don
+	name = "don suit"
+	desc = "A white suit and tie, with a black undershirt."
+	icon_state = "salvatores_don"
+	item_state = "salvatores_don"
+
+/obj/item/clothing/under/f13/salvatores/officer
+	name = "officer suit"
+	desc = "A white suit and tie, with a black undershirt."
+	icon_state = "salvatores_officer"
+	item_state = "salvatores_officer"
+
+/obj/item/clothing/under/f13/salvatores/soldier
+	name = "salvatore family suit"
+	desc = "A white suit and tie, with a black undershirt."
+	icon_state = "salvatores_soldier"
+	item_state = "salvatores_soldier"
+
+//Mordinos
+
+/obj/item/clothing/under/f13/mordinos/boss
+	name = "stylish uuit"
+	desc = "A charcoal suit with a red shirt and black tie."
+	icon_state = "mordino_boss"
+	item_state = "mordino_boss"
+
+/obj/item/clothing/under/f13/mordinos/goon
+	name = "mordino family suit"
+	desc = "A black suit with a blue tie. Nice."
+	icon_state = "mordino_goon"
+	item_state = "mordino_goon"
+
+//Bishops
+
+/obj/item/clothing/under/f13/bishops/boss
+	name = "blue checkers"
+	desc = "Ay, dat's a nice suit ya got there. Be a shame if something were to happen to it."
+	icon_state = "bishop_boss"
+	item_state = "bishop_boss"
+
+/obj/item/clothing/under/f13/bishops/officer
+	name = "officer suit"
+	desc = "A navy blue suit with a light blue undershirt."
+	icon_state = "bishop_officer"
+	item_state = "bishop_officer"
+
+/obj/item/clothing/under/f13/bishops/soldier
+	name = "bishop family suit"
+	desc = "A light blue suit. Nice."
+	icon_state = "bishop_soldier"
+	item_state = "bishop_soldier"
+
+/obj/item/clothing/under/f13/bishops/casino_worker
+	name = "shark club uniform"
+	desc = "The standard uniform for workers at sharkclub"
+	icon_state = "bishop_casino_worker"
+	item_state = "bishop_casino_worker"
+
+//wrights
+
+/obj/item/clothing/under/f13/wrights/boss
+	name = "formal suit"
+	desc = "A neat, well maintained suit."
+	icon_state = "wright_boss"
+	item_state = "wright_boss"
+
+/obj/item/clothing/under/f13/wrights/officer
+	name = "wright officer suit"
+	desc = "A brown suit with a sense of formality to it."
+	icon_state = "wright_officer"
+	item_state = "wright_officer"
+
+/obj/item/clothing/under/f13/wrights/soldier
+	name = "wright family suit"
+	desc = "A suit with suspenders."
+	icon_state = "wright_soldier"
+	item_state = "wright_soldier"
+
+//hotel
+
+/obj/item/clothing/under/f13/hotel/concierge/uniform
+	name = "concierger uniform"
+	desc = "An old yellowish shirt with a black tie, intended for the hotel staff."
+	icon_state = "concierge_uniform"
+	item_state = "concierge_uniform"
+
+/obj/item/clothing/under/f13/hotel/concierge/uniform/skirt
+	name = "concierge skirt"
+	desc = "An old yellowish shirt with a black tie and a feminine skirt, intended for the hotel staff."
+	icon_state = "concierge_skirt"
+	item_state = "concierge_skirt"
+
+//religion
+
+/obj/item/clothing/under/f13/religion/priest
+	name = "priest clothing"
+	desc = "Typical priest clothing."
+	icon_state = "priest"
+	item_state = "priest"
+
+//civilian
+
+/obj/item/clothing/under/f13/hawaiian/red
+	name = "red hawaiian outfit"
+	desc = "Woooaahh, dude, party on."
+	icon_state = "hawaiianred_s"
+	item_state = "hawaiianred_s"
+
+/obj/item/clothing/under/f13/hawaiian/blue
+	name = "blue hawaiian outfit"
+	desc = "Woooaahh, dude, party on."
+	icon_state = "hawaiianblue_s"
+	item_state = "hawaiianblue_s"
+
+/obj/item/clothing/under/f13/hawaiian/orange
+	name = "orange hawaiian outfit"
+	desc = "Woooaahh, dude, party on."
+	icon_state = "hawaiianorange_s"
+	item_state = "hawaiianorange_s"
+
+/obj/item/clothing/under/f13/hawaiian/pink
+	name = "pink hawaiian outfit"
+	desc = "Woooaahh, dude, party on."
+	icon_state = "hawaiianpink_s"
+	item_state = "hawaiianpink_s"
+
+/obj/item/clothing/under/f13/ncr/police
+	name = "NCR police uniform"
+	desc = "A standard issue NCR police uniform, repurposed from the old world."
+	icon_state = "ahp_uniform"
+	item_state = "ahp_uniform"
+
+/obj/item/clothing/under/f13/brahminbaron/foreign_suit
+	name = "foreign suit"
+	desc = "A very well made suit."
+	icon_state = "schlimmsuit"
+	item_state = "schlimmsuit"
