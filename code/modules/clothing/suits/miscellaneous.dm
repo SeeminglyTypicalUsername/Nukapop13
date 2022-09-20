@@ -209,6 +209,7 @@
 	item_state = "w_suit"
 	flags_inv = HIDEJUMPSUIT|HIDESHOES
 	mutantrace_variation = NONE
+
 /////////////////////////////
 //Children Of the Cathadrel//
 /////////////////////////////
@@ -221,7 +222,7 @@
 	flags_inv = HIDESHOES|HIDEJUMPSUIT
 	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS
 	hoodtype = /obj/item/clothing/head/hooded/robes/cotc
-	armor = list("melee" = 10, "bullet" = 15, "laser" = 10, "energy" = 10, "bomb" = 6, "bio" = 14, "rad" = 0, "fire" = 5, "acid" = 5)
+	armor = list("melee" = 5, "bullet" = 15, "laser" = 10, "energy" = 10, "bomb" = 6, "bio" = 14, "rad" = 0, "fire" = 0, "acid" = 5)
 
 /obj/item/clothing/head/hooded/robes/cotc
 	name = "neophyte hood"
@@ -231,7 +232,7 @@
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR
 	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
 	flash_protect = 2
-	armor = list("melee" = 10, "bullet" = 15, "laser" = 10, "energy" = 10, "bomb" = 6, "bio" = 14, "rad" = 0, "fire" = 5, "acid" = 5)
+	armor = list("melee" = 5, "bullet" = 15, "laser" = 10, "energy" = 10, "bomb" = 6, "bio" = 14, "rad" = 0, "fire" = 0, "acid" = 5)
 
 //acolyte
 
@@ -241,7 +242,7 @@
 	icon_state = "acolyte"
 	item_state = "acolyte"
 	hoodtype = /obj/item/clothing/head/hooded/robes/cotc/acolyte
-	armor = list("melee" = 10, "bullet" = 18, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 10, "rad" = 0, "fire" = 20, "acid" = 5)
+	armor = list("melee" = 5, "bullet" = 15, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 10, "rad" = 0, "fire" = 0, "acid" = 5)
 
 
 /obj/item/clothing/head/hooded/robes/cotc/acolyte
@@ -249,7 +250,7 @@
 	desc = "Perfect for concealing your identity."
 	icon_state = "acolyte"
 	icon_state = "acolyte"
-	armor = list("melee" = 10, "bullet" = 18, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 10, "rad" = 0, "fire" = 20, "acid" = 5)
+	armor = list("melee" = 5, "bullet" = 15, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 10, "rad" = 0, "fire" = 0, "acid" = 5)
 
 //proselytizer
 
@@ -259,7 +260,7 @@
 	icon_state = "proselytizer"
 	item_state = "proselytizer"
 	hoodtype = /obj/item/clothing/head/hooded/robes/cotc/proselytizer
-	armor = list("melee" = 20, "bullet" = 30, "laser" = 15, "energy" = 15, "bomb" = 10, "bio" = 10, "rad" = 0, "fire" = 20, "acid" = 5)
+	armor = list("melee" = 5, "bullet" = 25, "laser" = 15, "energy" = 15, "bomb" = 10, "bio" = 10, "rad" = 0, "fire" = 0, "acid" = 5)
 
 
 /obj/item/clothing/head/hooded/robes/cotc/proselytizer
@@ -267,7 +268,7 @@
 	desc = "Perfect for concealing your identity."
 	icon_state = "proselytizer"
 	icon_state = "proselytizer"
-	armor = list("melee" = 20, "bullet" = 30, "laser" = 15, "energy" = 15, "bomb" = 10, "bio" = 10, "rad" = 0, "fire" = 20, "acid" = 5)
+	armor = list("melee" = 5, "bullet" = 25, "laser" = 15, "energy" = 15, "bomb" = 10, "bio" = 10, "rad" = 0, "fire" = 0, "acid" = 5)
 
 //servitor
 
@@ -277,14 +278,14 @@
 	icon_state = "priest"
 	item_state = "priest"
 	hoodtype = /obj/item/clothing/head/hooded/robes/cotc/servitor
-	armor = list("melee" = 20, "bullet" = 20, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 10, "rad" = 0, "fire" = 20, "acid" = 5)
+	armor = list("melee" = 10, "bullet" = 20, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 10, "rad" = 0, "fire" = 0, "acid" = 5)
 
 /obj/item/clothing/head/hooded/robes/cotc/servitor
 	name = "servitor hood"
 	desc = "Perfect for concealing your identity."
 	icon_state = "servitor"
 	icon_state = "servitor"
-	armor = list("melee" = 20, "bullet" = 20, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 10, "rad" = 0, "fire" = 20, "acid" = 5)
+	armor = list("melee" = 10, "bullet" = 20, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 10, "rad" = 0, "fire" = 0, "acid" = 5)
 
 //high priest
 
@@ -294,14 +295,14 @@
 	icon_state = "priest"
 	item_state = "priest"
 	hoodtype = /obj/item/clothing/head/hooded/robes/cotc/highpriest
-	armor = list("melee" = 20, "bullet" = 20, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 10, "rad" = 0, "fire" = 20, "acid" = 5)
+	armor = list("melee" = 10, "bullet" = 20, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 10, "rad" = 0, "fire" = 20, "acid" = 5)
 
 /obj/item/clothing/head/hooded/robes/cotc/highpriest
 	name = "high priest hood"
 	desc = "Perfect for concealing your identity."
 	icon_state = "highpriest"
 	icon_state = "highpriest"
-	armor = list("melee" = 20, "bullet" = 20, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 10, "rad" = 0, "fire" = 20, "acid" = 5)
+	armor = list("melee" = 10, "bullet" = 20, "laser" = 10, "energy" = 10, "bomb" = 15, "bio" = 10, "rad" = 0, "fire" = 20, "acid" = 5)
 
 /////////////////////////////////////////////////////////////////////
 
@@ -346,9 +347,6 @@
 	desc = "Keeps the sun out of your face, so you can brood in peace."
 	item_state = "greyrobes"
 	icon_state = "greyrobes"
-
-///////////////////////////////////////////////////////////////////
-
 
 /obj/item/clothing/suit/hooded/carp_costume
 	name = "carp costume"

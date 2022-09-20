@@ -49,8 +49,8 @@
 	icon_state = "bosshouldercape_r"
 
 /obj/item/clothing/neck/mantle/bos/paladin
-	name = "Paladin cape"
-	desc = "This stylish deep crimson cape is made to be worn below a power armor pauldron, a shoulder holster is added for utility."
+	name = "Paladin cloak"
+	desc = "This stylish dark navy cloak that is made to be worn below a power armor pauldron, a shoulder holster is added for utility."
 	icon_state = "paladin"
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/bos/paladin
 
@@ -129,3 +129,9 @@
 	name = "Fancy Cape"
 	desc = "A fancy looking cape that has been manufactured for an androgynous person."
 	icon_state = "snugglycape"
+
+/obj/item/clothing/neck/mantle/chieftess
+	name = "chieftess mantle"
+	desc = "A long cloak made to fit the high chieftess of the Wayfarer tribe."
+	icon_state = "chieftess"
+	item_state = "cheiftess"
