@@ -1358,6 +1358,13 @@
 "nb" = (
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
+"nl" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/radscorpion/black{
+	dir = 8
+	},
+/turf/open/floor/f13/wood,
+/area/f13/raiders)
 "no" = (
 /obj/structure/destructible/tribal_torch/wall/lit,
 /obj/effect/decal/cleanable/dirt,
@@ -2069,6 +2076,15 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
+"uA" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/radscorpion/blue{
+	dir = 8
+	},
+/turf/open/floor/f13/wood{
+	icon_state = "housewood3-broken"
+	},
+/area/f13/raiders)
 "uF" = (
 /turf/open/transparent/openspace,
 /area/f13/legion)
@@ -2819,6 +2835,7 @@
 "Cp" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/wood/settler,
+/obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/lowmid,
 /turf/open/floor/f13/wood,
 /area/f13/raiders)
 "Cv" = (
@@ -3003,6 +3020,7 @@
 /area/f13/wasteland)
 "Er" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/nest/scorpion,
 /turf/open/floor/f13/wood{
 	icon_state = "housewood4-broken"
 	},
@@ -3810,15 +3828,6 @@
 "MS" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/bed/dogbed,
-/mob/living/simple_animal/hostile/wolf/alpha{
-	icon_living = "tippen";
-	icon_state = "tippen";
-	icon_dead = "tippen_dead";
-	faction = list("neutral");
-	desc = "Sheepdogs are known for their intelligence and have worked alongside humans for thousands of years. This one has a dopey smile and smells of barbecue sauce.";
-	health = 200;
-	name = "Dreams-of-Moonlight"
-	},
 /turf/open/floor/f13/wood,
 /area/f13/raiders)
 "Na" = (
@@ -5027,6 +5036,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/f13/oak,
 /area/f13/bar)
+"Yd" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/radscorpion,
+/turf/open/floor/f13/wood,
+/area/f13/raiders)
 "Yg" = (
 /obj/structure/lattice/catwalk,
 /obj/machinery/button/door{
@@ -17939,7 +17953,7 @@ DU
 sR
 yx
 Zb
-Zb
+Yd
 Gv
 qo
 Tk
@@ -18708,8 +18722,8 @@ oM
 Zb
 Gv
 Zb
-CJ
-Zb
+uA
+nl
 Zb
 Zb
 qD

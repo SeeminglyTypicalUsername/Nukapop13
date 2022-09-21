@@ -229,11 +229,6 @@ Mayor
 
 	outfit = /datum/outfit/job/den/f13sheriff
 
-	loadout_options = list(
-	/datum/outfit/loadout/dakka,
-	/datum/outfit/loadout/pew,
-	)
-
 	access = list(ACCESS_BAR, ACCESS_COMMAND, ACCESS_CLONING, ACCESS_GATEWAY, ACCESS_CARGO_BOT, ACCESS_MINT_VAULT, ACCESS_KITCHEN, ACCESS_MINING, ACCESS_FORENSICS_LOCKERS)
 	minimal_access = list(ACCESS_BAR, ACCESS_COMMAND, ACCESS_CLONING, ACCESS_GATEWAY, ACCESS_CARGO_BOT, ACCESS_MINT_VAULT, ACCESS_CLINIC, ACCESS_KITCHEN, ACCESS_MINING, ACCESS_FORENSICS_LOCKERS)
 	matchmaking_allowed = list(
@@ -262,32 +257,14 @@ Mayor
 	shoes = /obj/item/clothing/shoes/jackboots
 	glasses = /obj/item/clothing/glasses/sunglasses
 	l_pocket = /obj/item/storage/bag/money/small/den
+	suit_store = /obj/item/gun/ballistic/automatic/assault_carbine/policerifle
 	backpack_contents = list(
 		/obj/item/storage/box/deputy_badges = 1,
 		/obj/item/restraints/handcuffs = 2,
 		/obj/item/melee/classic_baton = 1,
 		/obj/item/melee/onehanded/knife/bowie = 1,
+		/obj/item/ammo_box/magazine/m5mm = 1,
 		/obj/item/grenade/flashbang = 1,
-		)
-
-/datum/outfit/loadout/dakka
-	name = "Door kicker"
-	suit_store = /obj/item/gun/ballistic/automatic/assault_carbine
-	backpack_contents = list(
-		/obj/item/ammo_box/magazine/m5mm = 2,
-		/obj/item/ammo_box/m44 = 2,
-		/obj/item/gun/ballistic/revolver/m29/peacekeeper = 1,
-		)
-
-/datum/outfit/loadout/pew
-	name = "Tactical"
-	suit_store = /obj/item/gun/ballistic/shotgun/automatic/combat/citykiller
-	backpack_contents = list(
-		/obj/item/stock_parts/cell/ammo/ecp = 1,
-		/obj/item/ammo_box/shotgun/bean = 1,
-		/obj/item/ammo_box/shotgun/buck = 1,
-		/obj/item/ammo_box/shotgun/trainshot = 1,
-		/obj/item/gun/energy/laser/auto/oasis = 1,
 		)
 
 /datum/outfit/job/den/f13sheriff/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
@@ -361,7 +338,6 @@ Mayor
 	backpack_contents = list(
 		/obj/item/ammo_box/shotgun/bean = 1,
 		/obj/item/ammo_box/shotgun/buck = 1,
-		/obj/item/ammo_box/shotgun/trainshot = 1,
 		/obj/item/flashlight/seclite = 1,
 		)
 

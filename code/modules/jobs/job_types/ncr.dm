@@ -1017,8 +1017,8 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/storage/box/gunbox/ncr/corporal/set4) //m1carbine compact, binoculars
 
 	head = pick(
-		/obj/item/clothing/head/f13/ncr, \
-		/obj/item/clothing/head/f13/ncr/steelpot_bandolier, \
+		/obj/item/clothing/head/f13/ncr,
+		/obj/item/clothing/head/f13/ncr/steelpot_bandolier,
 		/obj/item/clothing/head/f13/ncr/steelpot_goggles)
 
 // TROOPER
@@ -1068,8 +1068,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 /datum/outfit/job/ncr/f13trooper/pre_equip(mob/living/carbon/human/H)
 	. = ..()
 	r_hand = pick(
-		/obj/item/storage/box/gunbox/ncr/trooper/set1, //service rifle
-		/obj/item/storage/box/gunbox/ncr/trooper/set2) //m1carbine
+		/obj/item/storage/box/gunbox/ncr/trooper/set1) //service rifle
 
 
 // CONSCRIPT
@@ -1109,8 +1108,6 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 /datum/outfit/job/ncr/f13conscript/pre_equip(mob/living/carbon/human/H)
 	. = ..()
 	r_hand = pick(
-		/obj/item/storage/box/gunbox/ncr/conscript/set1, //double barrel, trench shovel
-		/obj/item/storage/box/gunbox/ncr/conscript/set2, //hunting rifle, trench shovel
 		/obj/item/storage/box/gunbox/ncr/conscript/set3, //varmint, bayonet
 		/obj/item/storage/box/gunbox/ncr/conscript/set4) //service rifle, bayonet
 
