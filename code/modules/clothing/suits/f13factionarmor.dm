@@ -704,7 +704,7 @@
 	name = "town combat coat"
 	desc = " A trenchcoat which does not attempt to hide the full-body combat armor beneath it."
 	icon_state = "towntrench_heavy"
-	armor = list("melee" = 40, "bullet" = 40, "laser" = 15,  "energy" = 25, "bomb" = 40, "bio" = 40, "rad" = 40, "fire" = 50, "acid" = 10, "wound" = 55)
+	armor = list("melee" = 15, "bullet" = 30, "laser" = 15,  "energy" = 25, "bomb" = 40, "bio" = 40, "rad" = 40, "fire" = 50, "acid" = 10, "wound" = 40)
 	slowdown = 0.12
 
 /obj/item/clothing/suit/armor/f13/town/chief
@@ -714,7 +714,7 @@
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/suit_cosmetic.dmi'
 	icon_state = "police_chief"
 	item_state = "police_chief"
-	armor = list("melee" = 40, "bullet" = 40, "laser" = 15,  "energy" = 25, "bomb" = 40, "bio" = 40, "rad" = 40, "fire" = 50, "acid" = 10, "wound" = 55)
+	armor = list("melee" = 15, "bullet" = 30, "laser" = 15,  "energy" = 25, "bomb" = 25, "bio" = 40, "rad" = 40, "fire" = 50, "acid" = 10, "wound" = 40)
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/small/holdout
 	slowdown = 0.1  //CA statline
 

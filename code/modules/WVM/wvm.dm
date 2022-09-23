@@ -1283,6 +1283,96 @@ GLOBAL_VAR_INIT(vendor_cash, 0)
 		new /datum/data/wasteland_equipment("Metal",						/obj/item/stack/sheet/metal/fifty,									25)
 		)
 
+//////////////////////
+//yuma//////////////
+//////////////////////
+
+/obj/machinery/mineral/wasteland_vendor/yuma/ncr/gear
+	name = "supply console"
+	icon_state = "order_console"
+	prize_list = list(
+		new /datum/data/wasteland_equipment("Fatigues",						/obj/item/clothing/under/f13/ncr,									10),
+		new /datum/data/wasteland_equipment("Shorts Fatigues",				/obj/item/clothing/under/f13/ncr/ncr_shorts,						10),
+		new /datum/data/wasteland_equipment("Boots",						/obj/item/clothing/shoes/f13/military/ncr,							10),
+		new /datum/data/wasteland_equipment("Belt",							/obj/item/storage/belt/military/assault/ncr,						10),
+		new /datum/data/wasteland_equipment("Reserve Patrol Vest",			/obj/item/clothing/suit/armor/f13/ncrarmor/reserve,					25),
+		new /datum/data/wasteland_equipment("Patrol Vest",					/obj/item/clothing/suit/armor/f13/ncrarmor,							50),
+		new /datum/data/wasteland_equipment("Service Rifle",				/obj/item/gun/ballistic/automatic/service,							150),
+		new /datum/data/wasteland_equipment("R82",							/obj/item/gun/ballistic/automatic/service/r82,						700),
+		new /datum/data/wasteland_equipment("556 Magazine",					/obj/item/ammo_box/magazine/m556/rifle,								40),
+		new /datum/data/wasteland_equipment("Bayonet",						/obj/item/melee/onehanded/knife/bayonet,							50),
+		new /datum/data/wasteland_equipment("Scope",						/obj/item/attachments/scope,										50),
+		new /datum/data/wasteland_equipment("Suppressor",					/obj/item/suppressor,												50),
+		new /datum/data/wasteland_equipment("Bottlecap Mine",				/obj/item/bottlecap_mine,											100),
+		new /datum/data/wasteland_equipment("Firebomb",						/obj/item/grenade/homemade/firebomb,								80),
+		new /datum/data/wasteland_equipment("Frag Grenade",					/obj/item/grenade/f13/frag,											200),
+		new /datum/data/wasteland_equipment("Glass",						/obj/item/stack/sheet/glass/fifty,									100),
+		new /datum/data/wasteland_equipment("Metal",						/obj/item/stack/sheet/metal/fifty,									150)
+		)
+	highpop_list = list(
+		new /datum/data/wasteland_equipment("Fatigues",						/obj/item/clothing/under/f13/ncr,									10),
+		new /datum/data/wasteland_equipment("Shorts Fatigues",				/obj/item/clothing/under/f13/ncr/ncr_shorts,						10),
+		new /datum/data/wasteland_equipment("Boots",						/obj/item/clothing/shoes/f13/military/ncr,							10),
+		new /datum/data/wasteland_equipment("Belt",							/obj/item/storage/belt/military/assault/ncr,						10),
+		new /datum/data/wasteland_equipment("Reserve Patrol Vest",			/obj/item/clothing/suit/armor/f13/ncrarmor/reserve,					25),
+		new /datum/data/wasteland_equipment("Patrol Vest",					/obj/item/clothing/suit/armor/f13/ncrarmor,							50),
+		new /datum/data/wasteland_equipment("Service Rifle",				/obj/item/gun/ballistic/automatic/service,							150),
+		new /datum/data/wasteland_equipment("R82",							/obj/item/gun/ballistic/automatic/service/r82,						700),
+		new /datum/data/wasteland_equipment("556 Magazine",					/obj/item/ammo_box/magazine/m556/rifle,								40),
+		new /datum/data/wasteland_equipment("Bayonet",						/obj/item/melee/onehanded/knife/bayonet,							50),
+		new /datum/data/wasteland_equipment("Scope",						/obj/item/attachments/scope,										50),
+		new /datum/data/wasteland_equipment("Suppressor",					/obj/item/suppressor,												50),
+		new /datum/data/wasteland_equipment("Bottlecap Mine",				/obj/item/bottlecap_mine,											100),
+		new /datum/data/wasteland_equipment("Firebomb",						/obj/item/grenade/homemade/firebomb,								80),
+		new /datum/data/wasteland_equipment("Frag Grenade",					/obj/item/grenade/f13/frag,											200),
+		new /datum/data/wasteland_equipment("Glass",						/obj/item/stack/sheet/glass/fifty,									100),
+		new /datum/data/wasteland_equipment("Metal",						/obj/item/stack/sheet/metal/fifty,									150)
+		)
+
+/obj/machinery/mineral/wasteland_vendor/yuma/legion/gear
+	name = "supply console"
+	icon_state = "order_console"
+	prize_list = list(
+		new /datum/data/wasteland_equipment("Fatigues",						/obj/item/clothing/under/f13/legskirt,								10),
+		new /datum/data/wasteland_equipment("Recruit Armor",				/obj/item/clothing/suit/armor/f13/legion/recruit,					25),
+		new /datum/data/wasteland_equipment("Recruit Helmet",				/obj/item/clothing/head/helmet/f13/legion/recruit,					25),
+		new /datum/data/wasteland_equipment("Prime Armor",					/obj/item/clothing/suit/armor/f13/legion/prime,						50),
+		new /datum/data/wasteland_equipment("Prime Helmet",					/obj/item/clothing/head/helmet/f13/legion/prime,					50),
+		new /datum/data/wasteland_equipment("Belt",							/obj/item/storage/belt/military/assault/legion,						20),
+		new /datum/data/wasteland_equipment("Boots",						/obj/item/clothing/shoes/f13/military/leather,						10),
+		new /datum/data/wasteland_equipment("Machete",						/obj/item/melee/onehanded/machete,									50),
+		new /datum/data/wasteland_equipment("Throwing Spears",				/obj/item/storage/backpack/spearquiver,								60),
+		new /datum/data/wasteland_equipment("Bola",							/obj/item/restraints/legcuffs/bola,									40),
+		new /datum/data/wasteland_equipment("Trail Carbine",				/obj/item/gun/ballistic/rifle/repeater/trail,						600),
+		new /datum/data/wasteland_equipment("Scope",						/obj/item/attachments/scope,										50),
+		new /datum/data/wasteland_equipment("Suppressor",					/obj/item/suppressor,												50),
+		new /datum/data/wasteland_equipment("Bottlecap Mine",				/obj/item/bottlecap_mine,											100),
+		new /datum/data/wasteland_equipment("Firebomb",						/obj/item/grenade/homemade/firebomb,								80),
+		new /datum/data/wasteland_equipment("Frag Grenade",					/obj/item/grenade/f13/frag,											200),
+		new /datum/data/wasteland_equipment("Glass",						/obj/item/stack/sheet/glass/fifty,									100),
+		new /datum/data/wasteland_equipment("Metal",						/obj/item/stack/sheet/metal/fifty,									150)
+		)
+	highpop_list = list(
+		new /datum/data/wasteland_equipment("Fatigues",						/obj/item/clothing/under/f13/legskirt,								10),
+		new /datum/data/wasteland_equipment("Recruit Armor",				/obj/item/clothing/suit/armor/f13/legion/recruit,					25),
+		new /datum/data/wasteland_equipment("Recruit Helmet",				/obj/item/clothing/head/helmet/f13/legion/recruit,					25),
+		new /datum/data/wasteland_equipment("Prime Armor",					/obj/item/clothing/suit/armor/f13/legion/prime,						50),
+		new /datum/data/wasteland_equipment("Prime Helmet",					/obj/item/clothing/head/helmet/f13/legion/prime,					50),
+		new /datum/data/wasteland_equipment("Belt",							/obj/item/storage/belt/military/assault/legion,						20),
+		new /datum/data/wasteland_equipment("Boots",						/obj/item/clothing/shoes/f13/military/leather,						10),
+		new /datum/data/wasteland_equipment("Machete",						/obj/item/melee/onehanded/machete,									50),
+		new /datum/data/wasteland_equipment("Throwing Spears",				/obj/item/storage/backpack/spearquiver,								60),
+		new /datum/data/wasteland_equipment("Bola",							/obj/item/restraints/legcuffs/bola,									40),
+		new /datum/data/wasteland_equipment("Trail Carbine",				/obj/item/gun/ballistic/rifle/repeater/trail,						600),
+		new /datum/data/wasteland_equipment("Scope",						/obj/item/attachments/scope,										50),
+		new /datum/data/wasteland_equipment("Suppressor",					/obj/item/suppressor,												50),
+		new /datum/data/wasteland_equipment("Bottlecap Mine",				/obj/item/bottlecap_mine,											100),
+		new /datum/data/wasteland_equipment("Firebomb",						/obj/item/grenade/homemade/firebomb,								80),
+		new /datum/data/wasteland_equipment("Frag Grenade",					/obj/item/grenade/f13/frag,											200),
+		new /datum/data/wasteland_equipment("Glass",						/obj/item/stack/sheet/glass/fifty,									100),
+		new /datum/data/wasteland_equipment("Metal",						/obj/item/stack/sheet/metal/fifty,									150)
+		)
+
 /datum/data/wasteland_equipment
 	var/equipment_name = "generic"
 	var/equipment_path = null

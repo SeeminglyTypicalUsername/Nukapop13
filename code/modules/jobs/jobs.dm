@@ -216,7 +216,7 @@ GLOBAL_LIST_INIT(ncr_positions, list(
 	"NCR Sergeant",
 	"NCR Corporal",
 	"NCR Combat Medic",
-	"NCR Combat Engineer",
+	"NCR Specialist",
 	"NCR Trooper",
 	"NCR Conscript",
 	"NCR Medical Officer",
