@@ -562,7 +562,7 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	icon_state = "NCR Trooper"
 
 /obj/effect/landmark/start/f13/ncrcombatengineer
-	name = "NCR Combat Engineer"
+	name = "NCR Specialist"
 	icon_state = "NCR Trooper"
 
 /obj/effect/landmark/start/f13/ncrcombatmedic

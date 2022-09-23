@@ -25,7 +25,7 @@
 	check_friendly_fire = TRUE
 	status_flags = CANPUSH
 	del_on_death = FALSE
-	loot = list(/obj/item/melee/onehanded/knife/survival)
+	loot = null
 
 /obj/effect/mob_spawn/human/corpse/raider
 	name = "Raider"
@@ -83,7 +83,7 @@
 	minimum_distance = 6
 	projectiletype = /obj/item/projectile/bullet/c9mm/op
 	projectilesound = 'sound/f13weapons/ninemil.ogg'
-	loot = list(/obj/effect/spawner/lootdrop/f13/npc_raider)
+	loot = null
 
 // LEGENDARY MELEE RAIDER
 /mob/living/simple_animal/hostile/raider/legendary
@@ -95,7 +95,7 @@
 	speed = 1.2
 	obj_damage = 300
 	aggro_vision_range = 15
-	loot = list(/obj/item/melee/onehanded/knife/survival, /obj/item/reagent_containers/food/snacks/kebab/human)
+	loot = null
 
 // LEGENDARY RANGED RAIDER
 /mob/living/simple_animal/hostile/raider/ranged/legendary
@@ -111,7 +111,7 @@
 	extra_projectiles = 1
 	aggro_vision_range = 15
 	obj_damage = 300
-	loot = list(/obj/item/gun/ballistic/revolver/m29)
+	loot = null
 
 // RAIDER BOSS
 /mob/living/simple_animal/hostile/raider/ranged/boss
@@ -123,7 +123,7 @@
 	health = 170
 	extra_projectiles = 3
 	projectiletype = /obj/item/projectile/bullet/c45/op
-	loot = list(/obj/item/gun/ballistic/automatic/smg/greasegun, /obj/item/clothing/head/helmet/f13/combat/mk2/raider, /obj/item/clothing/suit/armor/f13/combat/mk2/raider, /obj/item/clothing/under/f13/ravenharness)
+	loot = null
 
 /mob/living/simple_animal/hostile/raider/ranged/boss/Aggro()
 	..()
@@ -139,15 +139,14 @@
 	health = 180
 	projectiletype = /obj/item/projectile/bullet/c45/op
 	projectilesound = 'sound/weapons/gunshot.ogg'
-	loot = list(/obj/item/gun/ballistic/automatic/pistol/m1911/custom, /obj/item/clothing/suit/armor/f13/metalarmor/reinforced, /obj/item/clothing/head/helmet/f13/metalmask/mk2)
-
+	loot = null
 
 // FIREFIGHTER RAIDER
 /mob/living/simple_animal/hostile/raider/firefighter
 	icon_state = "firefighter_raider"
 	icon_living = "firefighter_raider"
 	icon_dead = "firefighter_raider_dead"
-	loot = list(/obj/item/twohanded/fireaxe)
+	loot = null
 
 // BIKER RAIDER
 /mob/living/simple_animal/hostile/raider/ranged/biker
@@ -161,7 +160,7 @@
 	projectiletype = /obj/item/projectile/bullet/c45/op
 	projectilesound = 'sound/f13weapons/magnum_fire.ogg'
 	casingtype = /obj/item/ammo_casing/a556
-	loot = list(/obj/item/gun/ballistic/revolver/thatgun, /obj/item/clothing/suit/armor/f13/combatrusted, /obj/item/clothing/head/helmet/f13/raidercombathelmet)
+	loot = null
 
 /obj/effect/mob_spawn/human/corpse/raider/ranged/biker
 	uniform = /obj/item/clothing/under/f13/ncrcf
@@ -182,7 +181,7 @@
 	melee_damage_upper = 40
 	maxHealth = 200
 	health = 200
-	loot = list(/obj/item/twohanded/baseball)
+	loot = null
 
 /obj/effect/mob_spawn/human/corpse/raider/baseball
 	uniform = /obj/item/clothing/under/f13/mechanic
@@ -198,7 +197,7 @@
 	icon_dead = "tribal_raider_dead"
 	melee_damage_lower = 40
 	melee_damage_upper = 40
-	loot = list(/obj/item/twohanded/spear)
+	loot = null
 
 /obj/effect/mob_spawn/human/corpse/raider/tribal
 	uniform = /obj/item/clothing/under/f13/raiderrags
@@ -221,7 +220,7 @@
 	health = 220
 	melee_damage_lower = 40
 	melee_damage_upper = 55
-	loot = list(/obj/item/locked_box/misc/money/all/low)
+	loot = null
 
 /////////////
 // JUNKERS //

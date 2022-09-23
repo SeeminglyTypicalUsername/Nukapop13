@@ -372,13 +372,13 @@ Mayor
 
 
 /*--------------------------------------------------------------*/
-
+/*
 /datum/job/oasis/f13prospector
 	title = "Prospector"
 	flag = F13PROSPECTOR
 	department_flag = DEP_OASIS
-	total_positions = 4
-	spawn_positions = 4
+	total_positions = 0
+	spawn_positions = 0
 	supervisors = "Kebab Government & Police Department"
 	description = "Prospecting is a complicated business, some call it scrounging or looting, but there is more to it than sifting through rubble - few can boast the skills you possess in mining and delving through the ruins of the fallen empire. Not many survive this line of business, and the pay has always been uncertain, but perhaps today you'll strike gold."
 	selection_color = "#dcba97"
@@ -432,7 +432,7 @@ Mayor
 		return
 	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, src)
 	ADD_TRAIT(H, TRAIT_GENERIC, src)
-
+*/
 /*--------------------------------------------------------------*/
 /*
 /datum/job/oasis/f13towndoctor
@@ -532,12 +532,13 @@ Mayor
 */
 
 //--------------------------------------------------//
+/*
 /datum/job/oasis/f13preacher
 	title = "Preacher"
 	flag = F13PREACHER
 	faction = DEP_OASIS
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 0
+	spawn_positions = 0
 	supervisors = "God"
 	description = "You are the last bastion of faith in this God-forsaken Wasteland. Spread your word and preach to the faithless."
 	selection_color = "#dcba97"
@@ -699,7 +700,7 @@ Mayor
 		/obj/item/storage/fancy/candle_box = 1,
 		/obj/item/storage/bag/money/small/settler
 		)
-
+*/
 /*--------------------------------------------------------------*/
 
 /datum/job/oasis/f13barkeep

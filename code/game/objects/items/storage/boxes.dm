@@ -1547,6 +1547,12 @@ list(/obj/item/stack/sheet/metal = 20,
 	new /obj/item/binoculars
 	new /obj/item/storage/box/ration/menu_one(src)
 
+/obj/item/storage/box/gunbox/ncr/corporal/set5/PopulateContents() //r82, bayonet
+	new /obj/item/gun/ballistic/automatic/service/r82(src)
+	new /obj/item/ammo_box/magazine/m556/rifle(src)
+	new /obj/item/ammo_box/magazine/m556/rifle(src)
+	new /obj/item/melee/onehanded/knife/bayonet(src)
+
 //Heavy Trooper
 
 /obj/item/storage/box/gunbox/ncr/heavytrooper/set1/PopulateContents() //minigun
@@ -1583,6 +1589,12 @@ list(/obj/item/stack/sheet/metal = 20,
 	new /obj/item/ammo_box/shotgun/buck(src)
 	new /obj/item/melee/onehanded/knife/bayonet(src)
 	new /obj/item/storage/box/ration/menu_eight(src)
+
+/obj/item/storage/box/gunbox/ncr/sergeant/set4/PopulateContents() //r82, bayonet
+	new /obj/item/gun/ballistic/automatic/service/r82(src)
+	new /obj/item/ammo_box/magazine/m556/rifle(src)
+	new /obj/item/ammo_box/magazine/m556/rifle(src)
+	new /obj/item/melee/onehanded/knife/bayonet(src)
 
 /////Legion/////
 
