@@ -979,12 +979,13 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	flag = F13TROOPER
 	total_positions = 10
 	spawn_positions = 10
-	description = "You are a professional soldier of the NCR Army. Obey your the NCOs and officers, no matter what you are expected to follow military discipline."
+	description = "You are a soldier of the NCR Army. Obey your the NCOs and officers, no matter what you are expected to follow military discipline."
 	supervisors = "Corporals and Above"
 	selection_color = "#fff5cc"
 	display_order = JOB_DISPLAY_ORDER_TROOPER
 	outfit = /datum/outfit/job/ncr/f13trooper
 	exp_requirements = 60
+	blacklisted_quirks = list(/datum/quirk/mute, /datum/quirk/brainproblems, /datum/quirk/nonviolent, /datum/quirk/paraplegic, /datum/quirk/blindness, /datum/quirk/monophobia)
 
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
