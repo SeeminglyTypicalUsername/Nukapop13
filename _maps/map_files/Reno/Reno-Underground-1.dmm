@@ -23128,11 +23128,11 @@
 /obj/item/clothing/suit/armor/f13/ncrarmor/reno,
 /obj/item/clothing/suit/armor/f13/ncrarmor/reno,
 /obj/item/clothing/suit/armor/f13/ncrarmor/reno,
-/obj/item/clothing/head/f13/ncr/standard/conscript/reno,
-/obj/item/clothing/head/f13/ncr/standard/conscript/reno,
-/obj/item/clothing/head/f13/ncr/standard/conscript/reno,
-/obj/item/clothing/head/f13/ncr/standard/conscript/reno,
-/obj/item/clothing/head/f13/ncr/standard/conscript/reno,
+/obj/item/clothing/head/f13/ncr,
+/obj/item/clothing/head/f13/ncr,
+/obj/item/clothing/head/f13/ncr,
+/obj/item/clothing/head/f13/ncr,
+/obj/item/clothing/head/f13/ncr,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/building)
 "sPZ" = (
