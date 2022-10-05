@@ -360,6 +360,9 @@ Raider
 /datum/outfit/loadout/raider_ncr
 	name = "NCR Deserter"
 	suit = /obj/item/clothing/suit/armor/f13/exile/ncrexile
+	head = /obj/item/clothing/head/f13/ncr/standard/conscript
+	belt = /obj/item/storage/belt/military/assault/ncr
+	shoes = /obj/item/clothing/shoes/f13/military/ncr
 	uniform = /obj/item/clothing/under/f13/exile
 	id = /obj/item/card/id/rusted
 	backpack_contents = list(
@@ -374,6 +377,10 @@ Raider
 /datum/outfit/loadout/raider_legion
 	name = "Disgraced Legionnaire"
 	suit = /obj/item/clothing/suit/armor/f13/exile/legexile
+	belt = /obj/item/storage/belt/military/assault/legion
+	shoes = /obj/item/clothing/shoes/f13/military/legion
+	mask = /obj/item/clothing/mask/bandana/legion/legprime
+	head = /obj/item/clothing/head/helmet/f13/legion/prime
 	uniform = /obj/item/clothing/under/f13/exile/legion
 	id = /obj/item/card/id/rusted/rustedmedallion
 	backpack_contents = list(
@@ -478,7 +485,7 @@ Raider
 	total_positions = -1
 	spawn_positions = -1
 	description = "You arrive in Yuma Valley, hoping to escape your past, the war, or perhaps something worse. But you’ve seen the torchlight and heard the bark of the military officers. You haven’t escaped anything. Try to survive, establish your own settlement, make your own legend. Suffer well and die gladly."
-	supervisors = "God"
+	supervisors = "yourself"
 	selection_color = "#dddddd"
 
 	outfit = /datum/outfit/job/wasteland/f13wastelander

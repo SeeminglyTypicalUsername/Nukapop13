@@ -19,6 +19,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	selection_color = "#ffeeaa"
 	faction = FACTION_NCR
 	exp_type = EXP_TYPE_FALLOUT
+	maptype = "yuma"
 
 	access = list(ACCESS_NCR)
 	minimal_access = list(ACCESS_NCR)
