@@ -17,6 +17,7 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 	department_flag = LEGION
 	selection_color = "#ffeeee"
 	faction = FACTION_LEGION
+	maptype = "yuma"
 
 	forbids = "The Legion forbids: Using drugs such as stimpacks and alcohol. Ghouls joining. Women fighting (self defense and suicide allowed). Slaves carrying weapons. Using robots and advanced machines. Killing Legion members in secret, only if according to law and in public is it acceptable."
 	enforces = "The Legion demands: Obeying orders of superiors. A roman style name. Wearing the uniform, unless acting as a NON-COMBAT infiltrator. Expect death as punishment for failing to obey."
@@ -134,45 +135,49 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 	box = /obj/item/storage/box/legate
 
 
-// ORATOR
+// Frumentarius
 
-/datum/job/CaesarsLegion/Legionnaire/f13orator
-	title = "Legion Orator"
-	flag = F13ORATOR
-	supervisors = "Centurion"
+/datum/job/CaesarsLegion/Legionnaire/f13frumentarius
+	title = "Legion Frumentarius"
+	flag = F13FRUMENTARIUS
+	supervisors = "Vulpes Inculta"
 	selection_color = "#ffdddd"
 	total_positions = 1
 	spawn_positions = 1
-	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13orator
-	display_order = JOB_DISPLAY_ORDER_ORATOR
+	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13frumentarius
+	display_order = JOB_DISPLAY_ORDER_FRUMENTARIUS
 	access = list(ACCESS_LEGION, ACCESS_CHANGE_IDS, ACCESS_LEGION_COMMAND)
 	minimal_access = list(ACCESS_LEGION, ACCESS_CHANGE_IDS, ACCESS_LEGION_COMMAND)
 	exp_type = EXP_TYPE_LEGION
 	exp_requirements = 1500
 
-
-/datum/outfit/job/CaesarsLegion/Legionnaire/f13orator	// .357 Revolver, Spatha
-	name = "Orator"
-	jobtype = /datum/job/CaesarsLegion/Legionnaire/f13orator
-	neck = /obj/item/storage/belt/holster
+/datum/outfit/job/CaesarsLegion/Legionnaire/f13frumentarius	// .357 Revolver, Spatha
+	name = "Frumentarius"
+	jobtype = /datum/job/CaesarsLegion/Legionnaire/f13frumentarius
+	neck = null
 	shoes = /obj/item/clothing/shoes/f13/military/plated
-	suit = /obj/item/clothing/suit/armor/f13/legion/orator
-	head = /obj/item/clothing/head/helmet/f13/legion/orator
+	suit = /obj/item/clothing/suit/armor/f13/legion/vet/explorer
+	head = /obj/item/clothing/head/helmet/f13/legion/vet/frum
+	mask = null
+	glasses = /obj/item/clothing/glasses/sunglasses/big
 	id = /obj/item/card/id/dogtag/legorator
-	gloves = null
-	backpack = /obj/item/storage/backpack/legionr
-	shoes = /obj/item/clothing/shoes/roman
-	suit_store = /obj/item/gun/ballistic/revolver/colt357
+	gloves = /obj/item/clothing/gloves/legion
+	backpack = /obj/item/storage/backpack/explorer
+	satchel = /obj/item/storage/backpack/satchel/explorer
+	uniform = /obj/item/clothing/under/f13/legskirt
+	shoes = /obj/item/clothing/shoes/f13/military/legion
+	suit_store = /obj/item/gun/ballistic/automatic/smg/greasegun
 	r_pocket = /obj/item/storage/bag/money/small/legofficers
 	l_pocket = /obj/item/flashlight/lantern
 	l_hand = /obj/item/melee/onehanded/machete/spatha
 	backpack_contents = list(
 		/obj/item/binoculars = 1,
-		/obj/item/ammo_box/a357 = 2,
+		/obj/item/card/id/syndicate = 1,
+		/obj/item/ammo_box/magazine/greasegun = 2,
 		/obj/item/reagent_containers/pill/patch/bitterdrink = 2,
 		)
 
-/datum/outfit/job/CaesarsLegion/Legionnaire/f13orator/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+/datum/outfit/job/CaesarsLegion/Legionnaire/f13frumentarius/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
 	if(visualsOnly)
 		return
@@ -568,7 +573,7 @@ commented out pending rework*/
 	total_positions = 4
 	spawn_positions = 4
 	description = "You are a scout; in charge of gathering intel, keeping your superiors well informed, and occasionally ambushing the enemy if the opportunity presents itself. Take initiative and help paint a picture of the situation for your commander."
-	supervisors = "the Decanii and the Centurion"
+	supervisors = "the decanii"
 	display_order = JOB_DISPLAY_ORDER_EXPLORER
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13explorer
 	exp_requirements = 300

@@ -1408,7 +1408,7 @@ obj/item/gun/ballistic/automatic/bar
 	burst_shot_delay = 1.5
 	is_automatic = TRUE
 	automatic = 1
-	autofire_shot_delay = 2.2
+	autofire_shot_delay = 1.5
 	fire_delay = 4
 	extra_damage = 30
 	extra_penetration = 0.1
