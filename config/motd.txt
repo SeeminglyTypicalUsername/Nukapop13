@@ -1,5 +1,5 @@
 <!-- Most valid html will work in here, excluding images. -->
-
-<h1>Welcome to The Wasteland!</h1>
-<br>
-We hope you have a lovely day!<br>
+<h1 style="text-align: center;">Welcome to F13: Brave New World!</h1>
+<p style="text-align: center;"><br />The Fallout 13 server of the month!</p>
+<p style="text-align: center;"><a href="https://discord.gg/5dsycCUb57">https://discord.gg/5dsycCUb57</a></p>
+<p>&nbsp;</p>
