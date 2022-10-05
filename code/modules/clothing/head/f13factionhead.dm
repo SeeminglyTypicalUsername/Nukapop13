@@ -64,6 +64,8 @@
 	desc = "It's a makeshift raider helmet, made of leather. It heavily smells with chems and sweat."
 	icon_state = "supafly"
 	item_state = "supafly"
+	dynamic_hair_suffix = ""
+	dynamic_fhair_suffix = ""
 
 /obj/item/clothing/head/helmet/f13/raider/supafly/Initialize() //HQ parts reinforcement
 	. = ..()
@@ -112,7 +114,9 @@
 	desc = "Long time ago, it has belonged to a football player, now it belongs to wasteland."
 	icon_state = "yankee"
 	item_state = "yankee"
-	flags_inv = HIDEEARS|HIDEEYES|HIDEFACE
+	flags_inv = HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR
+	dynamic_hair_suffix = ""
+	dynamic_fhair_suffix = ""
 
 /obj/item/clothing/head/helmet/f13/raider/yankee/Initialize()
 	. = ..()
@@ -141,6 +145,8 @@
 	item_state = "psychotic"
 	flags_cover = HEADCOVERSEYES
 	flags_inv = HIDEEARS|HIDEEYES|HIDEHAIR
+	dynamic_hair_suffix = ""
+	dynamic_fhair_suffix = ""
 
 /obj/item/clothing/head/helmet/f13/raider/psychotic/Initialize()
 	. = ..()
@@ -371,6 +377,13 @@
 	icon_state = "legion-vex"
 	item_state = "legion-vex"
 	armor = list("melee" = 50, "bullet" = 35, "laser" = 20, "energy" = 20, "bomb" = 25, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0, "wound" = 40)
+
+/obj/item/clothing/head/helmet/f13/legion/vet/frum
+	name = "legion fox frumentarius helmet"
+	desc = "This helmet is decorated with the pelt of a desert fox."
+	icon_state = "legion-frum"
+	item_state = "legion-frum"
+	armor = list("melee" = 40, "bullet" = 30, "laser" = 20, "energy" = 20, "bomb" = 25, "bio" = 20, "rad" = 20, "fire" = 25, "acid" = 0, "wound" = 40)
 
 /obj/item/clothing/head/helmet/f13/legion/vet/vexil
 	name = "legion fox vexillarius helmet"

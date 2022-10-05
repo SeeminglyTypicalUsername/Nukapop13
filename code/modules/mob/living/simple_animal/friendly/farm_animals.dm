@@ -1056,7 +1056,7 @@ mob/living/simple_animal/cow/brahmin/Topic(href, href_list)
 		..()
 */
 
-/mob/living/simple_animal/slepnir
+/mob/living/simple_animal/slepnir //SlapDrink#0083 |he made the sprite :0|
 	name = "Slepnir"
 	desc = "Slepnirs are mutated horses with six legs commonly used for logistics and transportation over long distances."
 	icon = 'icons/fallout/mobs/animals/slepnir.dmi'

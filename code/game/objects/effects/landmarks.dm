@@ -603,8 +603,9 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	name = "Legion Centurion"
 	icon_state = "Centurion"
 
-/obj/effect/landmark/start/f13/orator
-	name = "Legion Orator"
+/obj/effect/landmark/start/f13/frumentarius
+	name = "Legion Frumentarius"
+	icon_state = "Vexillarius"
 
 /obj/effect/landmark/start/f13/immune
 	name = "Legion Immune"
