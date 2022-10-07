@@ -9139,7 +9139,7 @@
 	name = "Barracks"
 	},
 /obj/machinery/door/poddoor/shutters/preopen{
-	id = 151
+	id = 345
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/cotc)
@@ -14526,6 +14526,9 @@
 /area/f13/wasteland)
 "ggR" = (
 /obj/structure/rack,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/cotc)
 "ggX" = (
@@ -20027,7 +20030,8 @@
 "ipm" = (
 /obj/machinery/button/door{
 	pixel_x = 28;
-	id = 151
+	id = 151;
+	name = "exterior"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/cotc)
@@ -20947,7 +20951,7 @@
 /turf/open/floor/f13,
 /area/f13/building)
 "iJR" = (
-/obj/item/radio/intercom/cotc{
+/obj/structure/soundbox{
 	pixel_x = 32
 	},
 /turf/open/floor/carpet/black,
@@ -21933,6 +21937,9 @@
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/medspray/synthflesh,
 /obj/item/reagent_containers/medspray/synthflesh,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
 /turf/open/floor/f13{
 	icon_state = "freezerfloor"
 	},
@@ -41118,6 +41125,10 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
+"rkD" = (
+/obj/machinery/chem_master/primitive,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/cotc)
 "rkR" = (
 /obj/structure/rack,
 /obj/item/clothing/head/nursehat,
@@ -50714,6 +50725,17 @@
 /obj/structure/destructible/tribal_torch/lit,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
+"vAg" = (
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4
+	},
+/obj/machinery/button/door{
+	pixel_x = 28;
+	id = 345;
+	name = "interior"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/cotc)
 "vAt" = (
 /obj/structure/table,
 /obj/structure/barricade/bars,
@@ -90729,8 +90751,8 @@ nQW
 xUO
 evL
 jXn
+rkD
 qXT
-osQ
 osQ
 osQ
 vPX
@@ -90987,7 +91009,7 @@ age
 age
 jXn
 qXT
-hdY
+qXT
 hdY
 hdY
 vPX
@@ -91244,7 +91266,7 @@ nQW
 age
 jXn
 qXT
-ohp
+qXT
 ohp
 ohp
 vPX
@@ -92266,7 +92288,7 @@ mHj
 jXn
 qXT
 ipm
-mCm
+vAg
 qXT
 qXT
 qXT

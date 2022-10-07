@@ -562,7 +562,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	total_positions = 3
 	spawn_positions = 3
 	description = "As an NCR Ranger, you are the premier special forces unit of the NCR. You are the forward observations and support the Army in it's campaigns, as well as continuing the tradition of stopping slavery in it's tracks."
-	supervisors = "Veteran Ranger"
+	supervisors = "Lieutenant and above"
 	selection_color = "#fff5cc"
 	display_order = JOB_DISPLAY_ORDER_RANGER
 	outfit = /datum/outfit/job/ncr/f13ranger
