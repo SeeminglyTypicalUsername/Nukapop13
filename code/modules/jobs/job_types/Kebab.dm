@@ -1127,7 +1127,7 @@ Mayor
 	enforces = "Preaching the faith, following the faith's internal structure and rules."
 	exp_requirements = 1000
 
-	outfit = /datum/outfit/job/cotc/f13highpriest
+	outfit = /datum/outfit/job/cotc/f13kebabhighpriest
 	access = list(ACCESS_COTC, ACCESS_COTC_ARMORY, ACCESS_COTC_SECRET)
 	minimal_access = list(ACCESS_COTC, ACCESS_COTC_ARMORY, ACCESS_COTC_SECRET)
 
@@ -1140,7 +1140,7 @@ Mayor
 		),
 	)
 
-/datum/outfit/job/cotc/f13highpriest
+/datum/outfit/job/cotc/f13kebabhighpriest
 	name = "High Priest"
 	jobtype = /datum/job/oasis/f13kebabhighpriest
 
@@ -1167,10 +1167,12 @@ Mayor
 	..()
 	if(visualsOnly)
 		return
+	H.grant_language(/datum/language/shorthand)
 	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, src)
 	ADD_TRAIT(H, TRAIT_CHEMWHIZ, src)
 	ADD_TRAIT(H, TRAIT_MEDICALEXPERT, src)
 	ADD_TRAIT(H, TRAIT_SURGERY_MID, src)
+
 
 /*--------------------------------------------------------------*/
 
@@ -1227,6 +1229,7 @@ Mayor
 	..()
 	if(visualsOnly)
 		return
+	H.grant_language(/datum/language/shorthand)
 	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, src)
 	ADD_TRAIT(H, TRAIT_GENERIC, src)
 	ADD_TRAIT(H, TRAIT_CHEMWHIZ, src)
@@ -1284,6 +1287,13 @@ Mayor
 		/obj/item/stack/medical/bruise_pack = 1,
 		/obj/item/reagent_containers/hypospray/medipen/stimpak = 2
 		)
+
+/datum/outfit/job/cotc/f13kebabservitormilitant/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	..()
+	if(visualsOnly)
+		return
+	H.grant_language(/datum/language/shorthand)
+
 /*--------------------------------------------------------------*/
 
 /datum/job/oasis/f13kebabproselytizer
