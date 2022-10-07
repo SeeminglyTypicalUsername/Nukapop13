@@ -2777,6 +2777,12 @@
 /area/f13/cotc)
 "Bg" = (
 /obj/structure/rack/shelf_metal,
+/obj/item/melee/onehanded/slavewhip{
+	name = "tool of the faith"
+	},
+/obj/item/melee/onehanded/slavewhip{
+	name = "tool of the faith"
+	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/cotc)
 "Bj" = (
