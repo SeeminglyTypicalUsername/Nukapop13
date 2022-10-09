@@ -1164,143 +1164,6 @@
 	icon_state = "vtcc_riot_helmet"
 	item_state = "vtcc_riot_helmet"
 
-//Old World Militaries
-//US Army and PLA
-
-/obj/item/clothing/head/f13/army
-	name = "US Army field cap"
-	desc = "Standard issue US Army field cap."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
-	icon_state = "army_cap"
-	item_state = "army_cap"
-	armor = list("melee" = 25, "bullet" = 10, "laser" = 10, "energy" = 15, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0, "wound" = 30)
-	dynamic_hair_suffix = "+generic"
-	dynamic_fhair_suffix = null
-
-/obj/item/clothing/head/f13/army/officer
-	name = "US Army officer's cap"
-	desc = "US Army officer's cap."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
-	icon_state = "army_officer"
-	item_state = "army_officer"
-
-/obj/item/clothing/head/f13/army/general
-	name = "US Army general's cap"
-	desc = "US Army officer's cap."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
-	icon_state = "army_general"
-	item_state = "army_general"
-	armor = list("melee" = 27, "bullet" = 12, "laser" = 12, "energy" = 15, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0, "wound" = 30)
-
-obj/item/clothing/head/f13/army/beret
-	name = "US Army beret"
-	desc = "A black beret, standard issue for all US Army personnel not authorised to wear a different beret."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
-	icon_state = "army_beret"
-	item_state = "army_beret"
-	armor = list("melee" = 27, "bullet" = 12, "laser" = 12, "energy" = 15, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0, "wound" = 30)
-
-/obj/item/clothing/head/f13/army/beret/airborne
-	name = "US Army airborne beret"
-	desc = "A red beret, issued to US Army Airborne personnel."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
-	icon_state = "army_beret_airborne"
-	item_state = "army_beret_airborne"
-
-/obj/item/clothing/head/f13/army/beret/rangers
-	name = "US Army rangers beret"
-	desc = "A tan beret, issued to US Army Rangers."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
-	icon_state = "army_beret_ranger"
-	item_state = "army_beret_ranger"
-
-/obj/item/clothing/head/f13/army/beret/specialforces
-	name = "US Army special forces beret"
-	desc = "A green beret, issued to US Army Special Forces personnel."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
-	icon_state = "army_beret_specialforces"
-	item_state = "army_beret_specialforces"
-
-//People's Liberation Army
-
-/obj/item/clothing/head/f13/chinese
-	name = "PLA field cap"
-	desc = "A People's Liberation Army cap, worn by enlisted and non-commissioned officers."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
-	icon_state = "chinese_soldier"
-	item_state = "chinese_soldier"
-	armor = list("melee" = 25, "bullet" = 10, "laser" = 10, "energy" = 15, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0, "wound" = 30)
-
-/obj/item/clothing/head/f13/chinese/officer
-	name = "PLA officer's cap"
-	desc = "A People's Liberation Army peaked cap, worn by officers."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
-	icon_state = "chinese_officer"
-	item_state = "chinese_officer"
-
-//Old World Law Enforcement
-//Police and State Police
-
-/obj/item/clothing/head/f13/police/officer
-	name = "police officer's cap"
-	desc = "A simple dark navy peaked cap, worn by police."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
-	icon_state = "police_officer"
-	item_state = "police_officer"
-	armor = list("melee" = 25, "bullet" = 10, "laser" = 10, "energy" = 15, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0, "wound" = 30)
-	dynamic_hair_suffix = "+generic"
-	dynamic_fhair_suffix = null
-
-/obj/item/clothing/head/f13/police/sergeant
-	name = "police campaign hat"
-	desc = "A simple dark navy campaign hat, worn by police."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
-	icon_state = "police_sergeant"
-	item_state = "police_sergeant"
-	armor = list("melee" = 25, "bullet" = 10, "laser" = 10, "energy" = 15, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0, "wound" = 30)
-	dynamic_hair_suffix = "+generic"
-	dynamic_fhair_suffix = null
-
-/obj/item/clothing/head/f13/police/lieutenant
-	name = "police lieutenant's cap"
-	desc = "A simple dark navy peaked cap, worn by police."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
-	icon_state = "police_lieutenant"
-	item_state = "police_lieutenant"
-	armor = list("melee" = 25, "bullet" = 10, "laser" = 10, "energy" = 15, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0, "wound" = 30)
-
-/obj/item/clothing/head/f13/police/chief
-	name = "police chief's cap"
-	desc = "A simple dark navy peaked cap, worn by police."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
-	icon_state = "police_chief"
-	item_state = "police_chief"
-	armor = list("melee" = 27, "bullet" = 12, "laser" = 12, "energy" = 15, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0, "wound" = 30)
-
-/obj/item/clothing/head/f13/police/trooper
-	name = "state police campaign hat"
-	desc = "A gray campaign hat, worn by the State Police."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
-	icon_state = "police_chief"
-	item_state = "police_chief"
-	icon_state = "state_trooper"
-	item_state = "state_trooper"
-	armor = list("melee" = 27, "bullet" = 12, "laser" = 12, "energy" = 15, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0)
-
 //THE GRAVEYARD
 //UNUSED or LEGACY - RETAINED IN CASE DESIRED FOR ADMIN SPAWN OR REIMPLEMENATION. MAY NOT BE EVERYTHING THAT'S UNUSED. TEST BEFORE USING
 //IF PUT BACK INTO USE, PLEASE FILE IT BACK SOMEWHERE ABOVE
@@ -1472,3 +1335,187 @@ obj/item/clothing/head/f13/army/beret
 	desc = "A very well made hat."
 	icon_state = "schlimmhat"
 	item_state = "schlimmhat"
+
+//Old World Militaries
+//US Army and PLA
+
+/obj/item/clothing/head/f13/army
+	name = "US Army field cap"
+	desc = "Standard issue US Army field cap."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "army_cap"
+	item_state = "army_cap"
+	dynamic_hair_suffix = "+generic"
+	dynamic_fhair_suffix = null
+
+/obj/item/clothing/head/f13/army/officer
+	name = "US Army officer's cap"
+	desc = "US Army officer's cap."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "army_officer"
+	item_state = "army_officer"
+
+/obj/item/clothing/head/f13/army/general
+	name = "US Army general's cap"
+	desc = "US Army officer's cap."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "army_general"
+	item_state = "army_general"
+	dynamic_hair_suffix = "+generic"
+	dynamic_fhair_suffix = null
+
+obj/item/clothing/head/f13/army/beret
+	name = "US Army beret"
+	desc = "A black beret, standard issue for all US Army personnel not authorised to wear a different beret."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "army_beret"
+	item_state = "army_beret"
+	dynamic_hair_suffix = "+generic"
+	dynamic_fhair_suffix = null
+
+/obj/item/clothing/head/f13/army/beret/airborne
+	name = "US Army airborne beret"
+	desc = "A red beret, issued to US Army Airborne personnel."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "army_beret_airborne"
+	item_state = "army_beret_airborne"
+	dynamic_hair_suffix = "+generic"
+	dynamic_fhair_suffix = null
+
+/obj/item/clothing/head/f13/army/beret/rangers
+	name = "US Army rangers beret"
+	desc = "A tan beret, issued to US Army Rangers."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "army_beret_ranger"
+	item_state = "army_beret_ranger"
+	dynamic_hair_suffix = "+generic"
+	dynamic_fhair_suffix = null
+
+/obj/item/clothing/head/f13/army/beret/specialforces
+	name = "US Army special forces beret"
+	desc = "A green beret, issued to US Army Special Forces personnel."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "army_beret_specialforces"
+	item_state = "army_beret_specialforces"
+	dynamic_hair_suffix = "+generic"
+	dynamic_fhair_suffix = null
+
+//People's Liberation Army
+
+/obj/item/clothing/head/f13/chinese
+	name = "PLA field cap"
+	desc = "A People's Liberation Army field cap, worn by enlisted and non-commissioned officers."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "chinese_cap"
+	item_state = "chinese_cap"
+	dynamic_hair_suffix = "+generic"
+	dynamic_fhair_suffix = null
+
+/obj/item/clothing/head/f13/chinese/officer
+	name = "PLA officer's cap"
+	desc = "A People's Liberation Army peaked cap, worn by officers."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "chinese_officer"
+	item_state = "chinese_officer"
+	dynamic_hair_suffix = "+generic"
+	dynamic_fhair_suffix = null
+
+/obj/item/clothing/head/f13/chinese/helmet
+	name = "PLA helmet"
+	desc = "A People's Liberation Army helmet."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	flags_inv = HIDEEARS
+	flags_cover = HEADCOVERSEYES
+	visor_flags_cover = HEADCOVERSEYES
+	icon_state = "chinese_helmet"
+	item_state = "chinese_helmet"
+	armor = list("melee" = 20, "bullet" = 20, "laser" = 10, "energy" = 20, "bomb" = 30, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 40)
+
+/obj/item/clothing/head/f13/chinese/ushanka
+	name = "PLA ushanka"
+	desc = "A People's Liberation Army ushanka."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "chinese_ushanka"
+	item_state = "chinese_ushanka"
+	flags_inv = HIDEEARS|HIDEHAIR
+	var/earflaps = 1
+	cold_protection = HEAD
+	min_cold_protection_temperature = FIRE_HELM_MIN_TEMP_PROTECT
+
+/obj/item/clothing/head/f13/chinese/ushanka/attack_self(mob/user)
+	if(earflaps)
+		src.icon_state = "chinese_ushankaup"
+		src.item_state = "chinese_ushankaup"
+		earflaps = 0
+		to_chat(user, "<span class='notice'>You raise the ear flaps on the ushanka.</span>")
+	else
+		src.icon_state = "chinese_ushankadown"
+		src.item_state = "chinese_ushankadown"
+		earflaps = 1
+		to_chat(user, "<span class='notice'>You lower the ear flaps on the ushanka.</span>")
+
+//Old World Law Enforcement
+//Police and State Police
+
+/obj/item/clothing/head/f13/police/officer
+	name = "police officer's cap"
+	desc = "A simple dark navy peaked cap, worn by police."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "police_officer"
+	item_state = "police_officer"
+	dynamic_hair_suffix = "+generic"
+	dynamic_fhair_suffix = null
+
+/obj/item/clothing/head/f13/police/sergeant
+	name = "police campaign hat"
+	desc = "A simple dark navy campaign hat, worn by police."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "police_sergeant"
+	item_state = "police_sergeant"
+	dynamic_hair_suffix = "+generic"
+	dynamic_fhair_suffix = null
+
+/obj/item/clothing/head/f13/police/lieutenant
+	name = "police lieutenant's cap"
+	desc = "A simple dark navy peaked cap, worn by police."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "police_lieutenant"
+	item_state = "police_lieutenant"
+	dynamic_hair_suffix = "+generic"
+	dynamic_fhair_suffix = null
+
+/obj/item/clothing/head/f13/police/chief
+	name = "police chief's cap"
+	desc = "A simple dark navy peaked cap, worn by police."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "police_chief"
+	item_state = "police_chief"
+ 	dynamic_hair_suffix = "+generic"
+	dynamic_fhair_suffix = null
+
+/obj/item/clothing/head/f13/police/trooper
+	name = "state police campaign hat"
+	desc = "A gray campaign hat, worn by the State Police."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "police_chief"
+	item_state = "police_chief"
+	icon_state = "state_trooper"
+	item_state = "state_trooper"
+	dynamic_hair_suffix = "+generic"
+	dynamic_fhair_suffix = null
