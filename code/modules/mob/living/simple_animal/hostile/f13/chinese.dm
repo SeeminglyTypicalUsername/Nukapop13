@@ -2,8 +2,8 @@
 	name = "chinese remnant soldier"
 	desc = "Chinese soldiers who survived the Great War via ghoulification, and now shoot anything that isn't their own on sight."
 	icon = 'icons/fallout/mobs/humans/ghouls.dmi'
-	icon_state = "chinesesoldier"
-	icon_living = "chinesesoldier"
+	icon_state = "chinese_soldier"
+	icon_living = "chinese_soldier"
 	icon_gib = "syndicate_gib"
 	mob_biotypes = MOB_ORGANIC|MOB_HUMANOID
 	speak_chance = 0
@@ -29,8 +29,8 @@
 	del_on_death = 1
 
 /mob/living/simple_animal/hostile/chinese/ranged
-	icon_state = "chinesepistol"
-	icon_living = "chinesepistol"
+	icon_state = "chinese_pistol"
+	icon_living = "chinese_pistol"
 	loot = list(/obj/effect/mob_spawn/human/corpse/chineseremnant/pistol, /obj/item/gun/ballistic/automatic/pistol/type17, /obj/item/ammo_box/magazine/m9mm)
 	ranged = 1
 	maxHealth = 110
@@ -41,9 +41,9 @@
 	projectilesound =  'sound/f13weapons/ninemil.ogg'
 
 /mob/living/simple_animal/hostile/chinese/ranged/assault
-	name = "chinese remnant assault soldier"
-	icon_state = "chineseassault"
-	icon_living = "chineseassault"
+	name = "chinese remnant soldier"
+	icon_state = "chinese_assault"
+	icon_living = "chines_eassault"
 	maxHealth = 200
 	health = 200
 	extra_projectiles = 2
@@ -54,3 +54,15 @@
 /mob/living/simple_animal/hostile/chinese/ranged/assault/Aggro()
 	..()
 	summon_backup(15)
+
+/mob/living/simple_animal/hostile/chinese/ranged/officer
+	icon_state = "chinese_officer"
+	icon_living = "chinese_officer"
+	loot = list(/obj/effect/mob_spawn/human/corpse/chineseremnant/officer, /obj/item/gun/ballistic/automatic/pistol/type17, /obj/item/ammo_box/magazine/m9mm)
+	ranged = 1
+	maxHealth = 110
+	health = 110
+	retreat_distance = 4
+	minimum_distance = 6
+	projectiletype = /obj/item/projectile/bullet/c9mm
+	projectilesound =  'sound/f13weapons/ninemil.ogg'
