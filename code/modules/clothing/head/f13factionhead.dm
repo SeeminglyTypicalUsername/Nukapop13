@@ -1512,7 +1512,7 @@ obj/item/clothing/head/f13/army/beret
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
 	icon_state = "police_chief"
 	item_state = "police_chief"
- 	dynamic_hair_suffix = "+generic"
+	dynamic_hair_suffix = "+generic"
 	dynamic_fhair_suffix = null
 
 /obj/item/clothing/head/f13/police/trooper
