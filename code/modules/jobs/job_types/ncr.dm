@@ -193,7 +193,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/grenade/syndieminibomb/concussion = 2,
 		/obj/item/reagent_containers/hypospray/medipen/stimpak/super = 3,
 		/obj/item/lighter = 1,
-		/obj/item/reagent_containers/food/snacks/grown/tobacco/dried = 1,
+		/obj/item/reagent_containers/food/snacks/grown/tobacco/dried = 2,
 		/obj/item/stack/crafting/armor_plate = 5
 		)
 
@@ -442,6 +442,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	name = "NCR Representative"
 	jobtype	= /datum/job/ncr/f13representative
 	uniform = /obj/item/clothing/under/suit/burgundy
+	head = /obj/item/clothing/head/helmet/f13/pith_helmet
 	shoes = /obj/item/clothing/shoes/laceup
 	belt = null
 	id = /obj/item/card/id/yuma/ncr/papers
@@ -452,7 +453,9 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/gun/ballistic/revolver/revolver45 = 1,
 		/obj/item/ammo_box/c45rev = 2,
 		/obj/item/storage/bag/money/small/ncr = 1,
-		/obj/item/storage/box/ration/menu_two = 1
+		/obj/item/storage/box/ration/menu_two = 1,
+		/obj/item/reagent_containers/food/snacks/grown/tobacco/dried = 2,
+		/obj/item/clothing/mask/cigarette/pipe = 1
 		)
 
 ///////////////
