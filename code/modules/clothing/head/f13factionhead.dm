@@ -554,8 +554,8 @@
 /obj/item/clothing/head/f13/ncr/steelpot_goggles
 	name = "NCR storm helmet"
 	desc = "A standard issue NCR steel helmet, issued with an additional pair of storm goggles for weather resistance."
-	icon_state = "steelpot_goggles"
-	item_state = "steelpot_goggles"
+	icon_state = "ncr_goggles_helmet"
+	item_state = "ncr_goggles_helmet"
 	alt_toggle_message = "You push the goggles down "
 	can_toggle = 1
 	flags_inv = HIDEEARS
@@ -564,6 +564,7 @@
 	flags_cover = HEADCOVERSEYES
 	visor_flags_cover = HEADCOVERSEYES
 	dog_fashion = null
+	unique_reskin = list("M1" = "steelpot_goggles")
 
 
 /obj/item/clothing/head/f13/ncr/steelpot_goggles/attack_self(mob/user)
@@ -595,30 +596,36 @@
 /obj/item/clothing/head/f13/ncr/steelpot_med
 	name = "NCR medic helmet"
 	desc = "A standard issue NCR steel helmet with the addition of decalling signifying a medic."
-	icon_state = "steelpot_med"
-	item_state = "steelpot_med"
-	unique_reskin = list("M1" = "ncr_old_med")
+	icon_state = "ncr_med"
+	item_state = "ncr_med"
+	unique_reskin = list("M1" = "ncr_med_old")
 
 /obj/item/clothing/head/f13/ncr/steelpot_mp
 	name = "NCR military police helmet"
 	desc = "A standard issue NCR steel helmet emblazoned with the initials of the military police."
-	icon_state = "steelpot_mp"
-	item_state = "steelpot_mp"
-	unique_reskin = list("M1" = "ncr_old_mp")
+	icon_state = "ncr_mp"
+	item_state = "ncr_mp"
+	unique_reskin = list("M1" = "ncr_mp_old")
 
 /obj/item/clothing/head/f13/ncr/steelpot_gambler
 	name = "NCR gambler helmet"
 	desc = "A standard issue NCR steel helmet. Stashed in the strap are decks of cards, dominoes and cigarettes for personal use."
-	icon_state = "steelpot_gambler"
-	item_state = "steelpot_gambler"
-	unique_reskin = list("M1" = "ncr_old_gambler")
+	icon_state = "ncr_gambler"
+	item_state = "ncr_gambler"
+	unique_reskin = list("M1" = "ncr_gambler_old")
+
+/obj/item/clothing/head/f13/ncr/patriot
+	name = "NCR patriot helmet"
+	desc = "A standard issue NCR steel helmet. Only true patriots wear this helmet; kimball is calling for you."
+	icon_state = "ncr_patriot"
+	item_state = "ncr_patriot"
 
 /obj/item/clothing/head/f13/ncr/steelpot_bandolier
 	name = "NCR bandolier helmet"
 	desc = "A standard issue NCR steel helmet. This one has clearly seen heavy use, as well as having additional bullets tucked into the strap."
-	icon_state = "steelpot_bandolier"
-	item_state = "steelpot_bandolier"
-	unique_reskin = list("M1" = "ncr_old_bandolier")
+	icon_state = "ncr_bandolier"
+	item_state = "ncr_bandolier"
+	unique_reskin = list("M1" = "ncr_bandolier_old")
 
 /obj/item/clothing/head/hardhat/ncr
 	name = "NCR engineer helmet"
@@ -678,7 +685,7 @@
 	desc = "A green beret, standard issue for all commissioned NCR Officers."
 	icon_state = "ncr_officer_beret"
 	item_state = "ncr_officer_beret"
-	armor = list("melee" = 35, "bullet" = 35, "laser" = 25, "energy" = 20, "bomb" = 50, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 40)
+	armor = list("melee" = 10, "bullet" = 15, "laser" = 10, "energy" = 10, "bomb" = 5, "bio" = 5, "rad" = 5, "fire" = 5, "acid" = 0, "wound" = 10)
 
 /obj/item/clothing/head/beret/ncr/reno
 	name = "NCR officer beret"
