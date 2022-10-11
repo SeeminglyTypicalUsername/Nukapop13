@@ -18,7 +18,7 @@
 	var/spread = 10
 	var/damage_modifier = 25
 	var/penetration_modifier = 10
-	var/mag_type = /obj/item/ammo_box/magazine/ammobelt
+	var/mag_type = /obj/item/ammo_box/magazine/mm762
 	var/obj/item/ammo_box/magazine/magazine = null
 	var/reload_time = 20
 
@@ -220,7 +220,7 @@
 //////////////
 //Ammo Belts//
 //////////////
-
+/*
 /obj/item/ammo_box/magazine/ammobelt
 	name = "ammo belt (7.62mm)"
 	icon_state = "762belt"
@@ -242,3 +242,4 @@
 /obj/item/ammo_box/magazine/ammobelt/proc/delempty()
 	if(ammo_count() < 1)
 		del src
+*/
