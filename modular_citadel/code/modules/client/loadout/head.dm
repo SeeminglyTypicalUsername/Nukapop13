@@ -262,6 +262,11 @@
 	path = /obj/item/clothing/head/f13/chinese/officer
 	cost = 3
 
+/datum/gear/head/chinese/ushanka
+	name = "PLA ushanka"
+	path = /obj/item/clothing/head/f13/chinese/ushanka
+	cost = 2
+
 //NCR
 
 /datum/gear/head/ncr_sapper
