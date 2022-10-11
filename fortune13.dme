@@ -15,7 +15,7 @@
 
 // BEGIN_INCLUDE
 #include "_maps\_basemap.dm"
-#include "_maps\reno.dm"
+#include "_maps\pahrump.dm"
 #include "_maps\templates\dungeons\dungeons.dm"
 #include "code\_compile_options.dm"
 #include "code\world.dm"
@@ -2370,7 +2370,7 @@
 #include "code\modules\jobs\job_types\bos.dm"
 #include "code\modules\jobs\job_types\citizens.dm"
 #include "code\modules\jobs\job_types\followers.dm"
-#include "code\modules\jobs\job_types\Kebab.dm"
+#include "code\modules\jobs\job_types\kebab.dm"
 #include "code\modules\jobs\job_types\legion.dm"
 #include "code\modules\jobs\job_types\mordinos.dm"
 #include "code\modules\jobs\job_types\ncr.dm"
@@ -3469,6 +3469,7 @@
 #include "code\modules\smithing\finished_items.dm"
 #include "code\modules\smithing\furnace.dm"
 #include "code\modules\smithing\smithed_items.dm"
+#include "code\modules\soundbox\soundbox.dm"
 #include "code\modules\spells\spell.dm"
 #include "code\modules\spells\spell_types\aimed.dm"
 #include "code\modules\spells\spell_types\area_teleport.dm"

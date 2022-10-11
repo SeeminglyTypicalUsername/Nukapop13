@@ -1516,10 +1516,11 @@ list(/obj/item/stack/sheet/metal = 20,
 
 //corporal
 
-/obj/item/storage/box/gunbox/ncr/corporal/set1/PopulateContents() //marksman, ninemil, legholster
-	new /obj/item/gun/ballistic/automatic/marksman(src)
+/obj/item/storage/box/gunbox/ncr/corporal/set1/PopulateContents() //scout carbine, ninemil, legholster
+	new /obj/item/gun/ballistic/automatic/service/carbine(src)
 	new /obj/item/ammo_box/magazine/m556/rifle(src)
 	new /obj/item/ammo_box/magazine/m556/rifle(src)
+	new /obj/item/attachments/scope(src)
 	new /obj/item/storage/belt/holster/legholster
 	new /obj/item/gun/ballistic/automatic/pistol/ninemil(src)
 	new /obj/item/ammo_box/magazine/m9mmds(src)
@@ -1570,10 +1571,11 @@ list(/obj/item/stack/sheet/metal = 20,
 
 //sergeant
 
-/obj/item/storage/box/gunbox/ncr/sergeant/set1/PopulateContents() //marksman
-	new /obj/item/gun/ballistic/automatic/marksman(src)
+/obj/item/storage/box/gunbox/ncr/sergeant/set1/PopulateContents() //scout carbine, bowie knife
+	new /obj/item/gun/ballistic/automatic/service/carbine(src)
 	new /obj/item/ammo_box/magazine/m556/rifle(src)
 	new /obj/item/ammo_box/magazine/m556/rifle(src)
+	new /obj/item/attachments/scope(src)
 	new /obj/item/melee/onehanded/knife/bowie(src)
 	new /obj/item/storage/box/ration/menu_two(src)
 
