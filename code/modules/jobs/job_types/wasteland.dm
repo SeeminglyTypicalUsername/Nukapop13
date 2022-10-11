@@ -788,8 +788,6 @@ Raider
 	minimal_access = list(ACCESS_DEN)
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/rival = list(
-			/datum/job/oasis/f13mayor,
-			/datum/job/oasis/f13sheriff,
 			/datum/job/oasis/f13detective,
 		),
 		/datum/matchmaking_pref/patron = list(

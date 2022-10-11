@@ -151,15 +151,11 @@ GLOBAL_LIST_INIT(brotherhood_positions, list(
 ))
 
 GLOBAL_LIST_INIT(oasis_positions, list(
-	"Mayor",
-	"Secretary",
-	"Chief of Police",
-	"Doctor",
+	"Merchant",
+	"Apprentice",
+	"Mercenary",
+	"Indentured Servant",
 	"Citizen",
-	"Officer",
-	"Shopkeeper",
-	"Shop Assistant",
-	"Prospector",
 	"Detective",
 	"Barkeep",
 	//"Town Doctor",
