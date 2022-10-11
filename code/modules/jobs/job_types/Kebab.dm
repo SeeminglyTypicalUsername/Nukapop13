@@ -20,13 +20,13 @@ Mayor
 	exp_type = EXP_TYPE_FALLOUT
 	faction = FACTION_OASIS
 	maptype = "yuma"
-
+/*
 /datum/job/oasis/f13mayor
 	title = "Mayor"
 	flag = F13MAYOR
 	department_flag = DEP_OASIS
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	supervisors = "Kebab"
 	description = "You are the benevolent tyrant of Kebab, chosen by the people to represent and lead them. Pass laws to protect your citizens, distribute town funds and make deals with the powers present within the Region to better the people, and yourself, of course."
 	selection_color = "#d7b088"
@@ -126,9 +126,9 @@ Mayor
 		/obj/item/ammo_box/magazine/m10mm_adv/simple = 2,
 	)
 
-
+*/
 /*--------------------------------------------------------------*/
-
+/*
 /datum/job/oasis/f13secretary
 	title = "Secretary"
 	flag = F13SECRETARY
@@ -213,9 +213,9 @@ Mayor
 	ADD_TRAIT(H, TRAIT_GENERIC, src)
 	ADD_TRAIT(H, TRAIT_SELF_AWARE, src)
 
-
+*/
 /*--------------------------------------------------------------*/
-
+/*
 /datum/job/oasis/f13sheriff
 	title = "Chief of Police"
 	flag = F13POLICECHIEF
@@ -279,30 +279,158 @@ Mayor
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
 	ADD_TRAIT(H, TRAIT_SELF_AWARE, src)
+*/
+/*--------------------------------------------------------------*/
+/datum/job/oasis/f13shopkeeper
+	title = "Merchant"
+	flag = F13SHOPKEEPER
+	department_flag = DEP_OASIS
+	total_positions = 1
+	spawn_positions = 1
+	supervisors = "free hand of the market"
+	description = "The greed of the United States survived better than its people. You are an organ of this greed. Ensure its continuation."
+	selection_color = "#dcba97"
+	exp_requirements = 800
+
+	outfit = /datum/outfit/job/den/f13shopkeeper
+	access = list(ACCESS_BAR, ACCESS_CARGO_BOT, ACCESS_MINING, ACCESS_GATEWAY)
+	minimal_access = list(ACCESS_BAR, ACCESS_CARGO_BOT, ACCESS_MINING, ACCESS_GATEWAY)
+
+	matchmaking_allowed = list(
+		/datum/matchmaking_pref/friend = list(
+			/datum/job/oasis,
+		),
+		/datum/matchmaking_pref/rival = list(
+			/datum/job/oasis,
+		),
+	)
+
+/datum/outfit/job/den/f13shopkeeper
+	name = "Shopkeeper"
+	jobtype = /datum/job/oasis/f13shopkeeper
+
+	id = /obj/item/card/id/dogtag/town
+	shoes = /obj/item/clothing/shoes/f13/brownie
+	uniform = /obj/item/clothing/under/f13/brahminbaron/foreign_suit
+	head = /obj/item/clothing/head/helmet/f13/foreign_hat
+	suit = /obj/item/clothing/suit/armor/f13/civilians/schlimmcoat
+	ears = /obj/item/radio/headset/headset_town
+	backpack = /obj/item/storage/backpack/satchel/leather/withwallet
+	satchel = /obj/item/storage/backpack/satchel/leather/withwallet
+	gloves = null
+	l_pocket = null
+	r_pocket = /obj/item/flashlight/glowstick
+	backpack_contents = list(/obj/item/storage/bag/money/small/den = 1)
+
+/datum/outfit/job/den/f13shopkeeper/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	..()
+	if(visualsOnly)
+		return
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/policepistol)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/policerifle)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/steelbib/heavy)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/armyhelmetheavy)
+	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, src)
+	ADD_TRAIT(H, TRAIT_GENERIC, src)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/trail_carbine)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/lever_action)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/huntingrifle)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/varmintrifle)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/huntingshotgun)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/thatgun)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/frag_shrapnel)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/concussion)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/explosive/shrapnelmine)
+
+/datum/outfit/job/den/f13shopkeeper/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	..()
+	if(visualsOnly)
+		return
 
 /*--------------------------------------------------------------*/
 
+/datum/job/oasis/f13apprentice
+	title = "Apprentice"
+	flag = F13APPRENTICE
+	department_flag = DEP_OASIS
+	total_positions = 2
+	spawn_positions = 2
+	supervisors = "the Merchant"
+	description = "You are the merchant's right hand and heir apparent; handle the menial duties of running the store, arrange deals on the merchant's behalf, and set quotas for the slaves."
+	selection_color = "#dcba97"
+	exp_requirements = 600
+	outfit = /datum/outfit/job/oasis/f13apprentice
+
+	access = list(ACCESS_BAR, ACCESS_CARGO_BOT, ACCESS_GATEWAY, ACCESS_MINING)
+	minimal_access = list(ACCESS_BAR, ACCESS_CARGO_BOT, ACCESS_GATEWAY, ACCESS_MINING)
+
+	matchmaking_allowed = list(
+		/datum/matchmaking_pref/friend = list(
+			/datum/job/oasis,
+		),
+		/datum/matchmaking_pref/rival = list(
+			/datum/job/oasis,
+		),
+	)
+/datum/outfit/job/oasis/f13apprentice
+	name = "Shop Assistant"
+	jobtype = /datum/job/oasis/f13apprentice
+	head = /obj/item/clothing/head/f13/ranger_hat/tan
+	uniform = /obj/item/clothing/under/f13/ikeduds
+	suit = /obj/item/clothing/suit/f13/cowboybvest
+	belt = /obj/item/storage/belt/utility
+	gloves = /obj/item/clothing/gloves/f13/blacksmith
+	id = /obj/item/card/id/dogtag/town
+	ears = /obj/item/radio/headset/headset_town
+	shoes = /obj/item/clothing/shoes/workboots/mining
+	r_pocket = /obj/item/flashlight/flare
+	backpack = /obj/item/storage/backpack/satchel/leather
+	satchel = /obj/item/storage/backpack/satchel/leather
+	suit_store = /obj/item/gun/ballistic/shotgun/hunting
+	backpack_contents = list(
+		/obj/item/storage/bag/money/small/ = 1)
+
+
+
+/datum/outfit/job/oasis/f13apprentice/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	..()
+	if(visualsOnly)
+		return
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/policepistol)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/policerifle)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/steelbib/heavy)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/armyhelmetheavy)
+	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, src)
+	ADD_TRAIT(H, TRAIT_GENERIC, src)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/huntingrifle)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/varmintrifle)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/huntingshotgun)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/thatgun)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/frag_shrapnel)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/concussion)
+
+/datum/outfit/job/oasis/f13assist/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	..()
+	if(visualsOnly)
+		return
+
+/*--------------------------------------------------------------*/
 /datum/job/oasis/f13deputy
-	title = "Officer"
+	title = "Mercenary"
 	flag = F13POLICEMAN
 	department_flag = DEP_OASIS
-	total_positions = 5
-	spawn_positions = 5
-	supervisors = "Kebab Police Department"
-	description = "You've passed the training and tests to join the KPD, and your loyalty to the Chief is absolute - this is your new home, your family. This Kebab of civilization will not fall as long as you breathe. Protect its citizens and property, for that is your new purpose."
+	total_positions = 2
+	spawn_positions = 2
+	supervisors = "the Merchant"
+	description = "You are a loyal hired gun of the Merchant; follow his bidding, keep his slaves in line, and make sure no one holds out payment from him."
 	selection_color = "#dcba97"
 	exp_requirements = 12
 	exp_type = EXP_TYPE_FALLOUT
 	exp_requirements = 600
 
-	loadout_options = list(
-	/datum/outfit/loadout/standardpd,
-	/datum/outfit/loadout/police,
-	/datum/outfit/loadout/swat,)
-
 	outfit = /datum/outfit/job/oasis/f13deputy
-	access = list(ACCESS_BAR, ACCESS_GATEWAY)
-	minimal_access = list(ACCESS_BAR, ACCESS_GATEWAY)
+	access = list(ACCESS_BAR, ACCESS_CARGO_BOT, ACCESS_MINING, ACCESS_GATEWAY)
+	minimal_access = list(ACCESS_BAR, ACCESS_CARGO_BOT, ACCESS_MINING, ACCESS_GATEWAY)
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
 			/datum/job/oasis,
@@ -313,55 +441,28 @@ Mayor
 	)
 
 /datum/outfit/job/oasis/f13deputy
-	name = "Officer"
+	name = "Merc"
 	jobtype = /datum/job/oasis/f13deputy
+	head = /obj/item/clothing/head/helmet/riot
+	mask = /obj/item/clothing/mask/balaclava
 	ears = /obj/item/radio/headset/headset_town
 	id = /obj/item/card/id/dogtag/deputy
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
+	gloves = /obj/item/clothing/gloves/f13/military
 	belt = /obj/item/storage/belt/military/assault
 	suit = /obj/item/clothing/suit/armor/bulletproof
 	neck = /obj/item/storage/belt/holster/legholster/police
 	l_pocket = /obj/item/storage/bag/money/small/settler
 	r_pocket = /obj/item/flashlight/flare
 	shoes = /obj/item/clothing/shoes/jackboots
-	uniform = /obj/item/clothing/under/f13/police/officer
-	backpack_contents = list(
-		/obj/item/restraints/handcuffs = 2,
-		/obj/item/melee/onehanded/knife/bowie = 1,
-		/obj/item/grenade/flashbang = 1,
-		)
-
-/datum/outfit/loadout/standardpd
-	name = "Standard"
-	head = /obj/item/clothing/head/f13/town/officer
-	suit_store = /obj/item/gun/ballistic/shotgun/police
-	backpack_contents = list(
-		/obj/item/ammo_box/shotgun/bean = 1,
-		/obj/item/ammo_box/shotgun/buck = 1,
-		/obj/item/flashlight/seclite = 1,
-		)
-
-/datum/outfit/loadout/police
-	name = "Police Marksman"
-	head = /obj/item/clothing/head/f13/town/officer
-	gloves = /obj/item/clothing/gloves/rifleman
-	suit_store = /obj/item/gun/ballistic/rifle/hunting/remington
-	backpack_contents = list(
-		/obj/item/attachments/scope = 1,
-		/obj/item/ammo_box/a762 = 3,
-		/obj/item/book/granter/trait/rifleman = 1,
-		)
-
-/datum/outfit/loadout/swat
-	name = "S.W.A.T. Officer"
-	uniform = /obj/item/clothing/under/f13/police/swat
-	head = /obj/item/clothing/head/helmet/alt
-	mask = /obj/item/clothing/mask/balaclava
-	gloves = /obj/item/clothing/gloves/f13/military
+	uniform = /obj/item/clothing/under/syndicate/camo
 	suit_store = /obj/item/gun/ballistic/automatic/assault_carbine/policerifle
 	backpack_contents = list(
-		/obj/item/ammo_box/magazine/m5mm = 1,
+		/obj/item/restraints/handcuffs = 2,
+		/obj/item/ammo_box/magazine/m5mm = 2,
+		/obj/item/melee/onehanded/knife/bowie = 1,
+		/obj/item/grenade/flashbang = 1,
 		)
 
 /datum/outfit/job/den/f13deputy/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
@@ -373,21 +474,27 @@ Mayor
 
 
 /*--------------------------------------------------------------*/
-/*
+
 /datum/job/oasis/f13prospector
-	title = "Prospector"
+	title = "Indentured Servant"
 	flag = F13PROSPECTOR
 	department_flag = DEP_OASIS
-	total_positions = 0
-	spawn_positions = 0
-	supervisors = "Kebab Government & Police Department"
-	description = "Prospecting is a complicated business, some call it scrounging or looting, but there is more to it than sifting through rubble - few can boast the skills you possess in mining and delving through the ruins of the fallen empire. Not many survive this line of business, and the pay has always been uncertain, but perhaps today you'll strike gold."
+	total_positions = 4
+	spawn_positions = 4
+	supervisors = "the Merchant"
+	description = "You are the property of the merchant, but comparatively you are quite well off compared to those in the hands of the Legion, raiders, and those who dwell across the street. You may work in the house or be a hard laborer working in the mines or salvaging cars. Work hard enough and one day you may gain your freedom."
 	selection_color = "#dcba97"
 
-	outfit = /datum/outfit/job/den/f13prospector
+	outfit = /datum/outfit/job/den/f13indenturedservant
 
-	access = list(ACCESS_BAR, ACCESS_MINING)
-	minimal_access = list(ACCESS_BAR, ACCESS_MINING)
+	loadout_options = list(
+		/datum/outfit/loadout/houseservant,
+		/datum/outfit/loadout/miner,
+		/datum/outfit/loadout/tribalservant,
+		/datum/outfit/loadout/scrapper)
+
+	access = list(ACCESS_BAR, ACCESS_MINING, ACCESS_CARGO_BOT)
+	minimal_access = list(ACCESS_BAR, ACCESS_MINING, ACCESS_CARGO_BOT)
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
 			/datum/job/oasis,
@@ -397,43 +504,52 @@ Mayor
 		),
 	)
 
-/datum/outfit/job/den/f13prospector
-	name = "Prospector"
+/datum/outfit/job/den/f13indenturedservant
+	name = "Indentured Servant"
 	jobtype = /datum/job/oasis/f13prospector
 
-	id = /obj/item/card/id/dogtag/town
-	ears = /obj/item/radio/headset/headset_town
-	suit = /obj/item/clothing/suit/armor/f13/raider/iconoclast/
+	id = /obj/item/card/id/outcasttattoo
+	ears = null
+	shoes = null
+	neck = /obj/item/electropack/shockcollar
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
-	l_pocket = /obj/item/storage/bag/money/small/settler
-	r_pocket = /obj/item/flashlight/lantern
-	r_hand = /obj/item/pickaxe
-	belt = /obj/item/storage/bag/ore
-	shoes = /obj/item/clothing/shoes/workboots
-	backpack_contents = list(
-		/obj/item/mining_scanner,
-		/obj/item/shovel,
-		/obj/item/melee/onehanded/knife/hunting,
-		/obj/item/gun/ballistic/automatic/pistol/n99,
-		/obj/item/ammo_box/magazine/m10mm_adv/simple = 2,
-		/obj/item/book/granter/crafting_recipe/ODF = 1,
-		)
 
-/datum/outfit/job/den/f13settler/pre_equip(mob/living/carbon/human/H)
+/datum/outfit/job/den/f13indenturedservant/pre_equip(mob/living/carbon/human/H)
 	..()
 	uniform = pick(
-		/obj/item/clothing/under/f13/machinist, \
-		/obj/item/clothing/under/f13/roving, \
-		/obj/item/clothing/under/f13/cowboyt)
+		/obj/item/clothing/under/f13/rag,
+		/obj/item/clothing/under/f13/raiderrags,
+		/obj/item/clothing/under/f13/raider_leather)
 
-/datum/outfit/job/den/f13prospector/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
-	..()
-	if(visualsOnly)
-		return
-	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, src)
-	ADD_TRAIT(H, TRAIT_GENERIC, src)
-*/
+/datum/outfit/loadout/houseservant
+	name = "House Servant"
+	uniform = /obj/item/clothing/under/f13/relaxedwear
+	shoes = /obj/item/clothing/shoes/f13/fancy
+	backpack_contents = list(
+		/obj/item/soap = 1)
+
+/datum/outfit/loadout/tribalservant
+	name = "Tribal Servant"
+	uniform = /obj/item/clothing/under/f13/exile/tribal
+	backpack_contents = list(
+		/obj/item/soap = 1,
+		/obj/item/warpaint_bowl = 1,)
+
+/datum/outfit/loadout/miner
+	name = "Miner"
+	belt = /obj/item/storage/bag/ore
+	shoes = /obj/item/clothing/shoes/jackboots
+	backpack_contents = list(
+		/obj/item/mining_scanner = 1,
+		/obj/item/pickaxe = 1,)
+
+/datum/outfit/loadout/scrapper
+	name = "Scrapper"
+	shoes = /obj/item/clothing/shoes/jackboots
+	belt = /obj/item/storage/belt/utility/full
+	head = /obj/item/clothing/head/welding/f13
+
 /*--------------------------------------------------------------*/
 /*
 /datum/job/oasis/f13towndoctor
@@ -975,142 +1091,6 @@ Mayor
 		/obj/item/storage/box/gloves=1,
 		/obj/item/storage/box/evidence=1,
 		/obj/item/ammo_box/a357=2)
-
-/*--------------------------------------------------------------*/
-
-/datum/job/oasis/f13assistant
-	title = "Shop Assistant"
-	flag = F13ASSIST
-	department_flag = DEP_OASIS
-	total_positions = 2
-	spawn_positions = 2
-	supervisors = "The Shopkeeper"
-	description = "Sometimes you need a cog in the machine to keep it turning. You are the cog, capitalism is the machine, and the shopkeeper turns the handle. In return for being taught the ways of commerce and crafting, you help keep the shop orderly and customers happy."
-	selection_color = "#dcba97"
-	exp_requirements = 600
-	outfit = /datum/outfit/job/oasis/f13assist
-
-	access = list(ACCESS_BAR, ACCESS_CARGO_BOT)
-	minimal_access = list(ACCESS_BAR, ACCESS_CARGO_BOT)
-
-	matchmaking_allowed = list(
-		/datum/matchmaking_pref/friend = list(
-			/datum/job/oasis,
-		),
-		/datum/matchmaking_pref/rival = list(
-			/datum/job/oasis,
-		),
-	)
-/datum/outfit/job/oasis/f13assist
-	name = "Shop Assistant"
-	jobtype = /datum/job/oasis/f13assistant
-
-	uniform = /obj/item/clothing/under/f13/mechanic
-	suit = /obj/item/clothing/suit/f13/blacksmith_apron
-	belt = /obj/item/storage/belt/utility
-	gloves = /obj/item/clothing/gloves/f13/blacksmith
-	id = /obj/item/card/id/dogtag/town
-	ears = /obj/item/radio/headset/headset_town
-	shoes = /obj/item/clothing/shoes/f13/cowboy
-	r_pocket = /obj/item/flashlight/flare
-	backpack = /obj/item/storage/backpack/satchel/leather
-	satchel = /obj/item/storage/backpack/satchel/leather
-	backpack_contents = list(
-		/obj/item/storage/bag/money/small/ = 1)
-
-
-
-/datum/outfit/job/oasis/f13assist/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
-	..()
-	if(visualsOnly)
-		return
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/policepistol)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/policerifle)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/steelbib/heavy)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/armyhelmetheavy)
-	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, src)
-	ADD_TRAIT(H, TRAIT_GENERIC, src)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/huntingrifle)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/varmintrifle)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/huntingshotgun)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/thatgun)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/frag_shrapnel)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/concussion)
-
-/datum/outfit/job/oasis/f13assist/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
-	..()
-	if(visualsOnly)
-		return
-
-
-/*--------------------------------------------------------------*/
-/datum/job/oasis/f13shopkeeper
-	title = "Shopkeeper"
-	flag = F13SHOPKEEPER
-	department_flag = DEP_OASIS
-	total_positions = 1
-	spawn_positions = 1
-	supervisors = "free hand of the market"
-	description = "The greed of the United States survived better than its people. You are an organ of this greed. Ensure its continuation."
-	selection_color = "#dcba97"
-	exp_requirements = 800
-
-	outfit = /datum/outfit/job/den/f13shopkeeper
-	access = list(ACCESS_BAR, ACCESS_CARGO_BOT)
-	minimal_access = list(ACCESS_BAR, ACCESS_CARGO_BOT)
-
-	matchmaking_allowed = list(
-		/datum/matchmaking_pref/friend = list(
-			/datum/job/oasis,
-		),
-		/datum/matchmaking_pref/rival = list(
-			/datum/job/oasis,
-		),
-	)
-
-/datum/outfit/job/den/f13shopkeeper
-	name = "Shopkeeper"
-	jobtype = /datum/job/oasis/f13shopkeeper
-
-	id = /obj/item/card/id/dogtag/town
-	uniform = /obj/item/clothing/under/f13/roving
-	ears = /obj/item/radio/headset/headset_town
-	backpack = /obj/item/storage/backpack
-	satchel = /obj/item/storage/backpack/satchel
-	duffelbag = /obj/item/storage/backpack/duffelbag
-	gloves = /obj/item/clothing/gloves/fingerless
-	l_pocket = /obj/item/storage/bag/money/small/den
-	r_pocket = /obj/item/flashlight/glowstick
-	shoes = /obj/item/clothing/shoes/f13/explorer
-	backpack_contents = list(/obj/item/storage/box/shopkeeper = 1)
-
-/datum/outfit/job/den/f13shopkeeper/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
-	..()
-	if(visualsOnly)
-		return
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/policepistol)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/policerifle)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/steelbib/heavy)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/armyhelmetheavy)
-	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, src)
-	ADD_TRAIT(H, TRAIT_GENERIC, src)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/trail_carbine)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/lever_action)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/a180)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/huntingrifle)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/varmintrifle)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/huntingshotgun)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/thatgun)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/uzi)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/smg10mm)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/frag_shrapnel)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/concussion)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/explosive/shrapnelmine)
-
-/datum/outfit/job/den/f13shopkeeper/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
-	..()
-	if(visualsOnly)
-		return
 
 /*--------------------------------------------------------------*/
 

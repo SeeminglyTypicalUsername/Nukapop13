@@ -759,14 +759,14 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	icon_state = "Chief of Police"
 
 /obj/effect/landmark/start/f13/deputy
-	name = "Officer"
+	name = "Mercenary"
 	icon_state = "Officer"
 
 /obj/effect/landmark/start/f13/farmer
 	name = "Farmer"
 
 /obj/effect/landmark/start/f13/prospector
-	name = "Prospector"
+	name = "Indentured Servant"
 
 /obj/effect/landmark/start/f13/settler
 	name = "Citizen"
@@ -777,11 +777,11 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	icon_state = "Medical Doctor"
 
 /obj/effect/landmark/start/f13/shopkeeper
-	name = "Shopkeeper"
+	name = "Merchant"
 	icon_state = "Shopkeeper"
 
 /obj/effect/landmark/start/f13/assistant
-	name = "Shop Assistant"
+	name = "Apprentice"
 	icon_state = "Janitor"
 
 /obj/effect/landmark/start/f13/barkeep
