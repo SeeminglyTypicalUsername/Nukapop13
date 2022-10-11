@@ -4190,6 +4190,10 @@
 	icon_state = "whitegreenrustychess"
 	},
 /area/f13/building)
+"dHc" = (
+/obj/structure/roulettetable,
+/turf/open/floor/carpet/reno/pattern1,
+/area/f13/building)
 "dHs" = (
 /obj/structure/rack/shelf_metal,
 /obj/effect/decal/cleanable/dirt,
@@ -21612,6 +21616,10 @@
 /turf/open/floor/f13{
 	icon_state = "darkrusty"
 	},
+/area/f13/building)
+"rHe" = (
+/obj/structure/roulettetable,
+/turf/open/floor/carpet/reno/pattern2,
 /area/f13/building)
 "rHs" = (
 /obj/structure/simple_door/metal/fence/wooden,
@@ -43533,7 +43541,7 @@ uiz
 hbk
 wlK
 ggM
-mkz
+dHc
 iBL
 iBL
 irq
@@ -43685,7 +43693,7 @@ iBL
 wEt
 iBL
 ggM
-irq
+ggM
 iBL
 iBL
 mkz
@@ -52384,7 +52392,7 @@ cyF
 hXP
 kNK
 djs
-hog
+rHe
 rBN
 djs
 xYN
@@ -52536,7 +52544,7 @@ hXP
 rSc
 kNK
 wbk
-lYu
+djs
 rBN
 djs
 lLJ
@@ -52688,8 +52696,8 @@ hXP
 hXP
 kNK
 djs
-hog
-rBN
+djs
+djs
 djs
 djs
 djs
