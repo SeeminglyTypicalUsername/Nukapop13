@@ -455,8 +455,8 @@ Mayor
 	neck = /obj/item/storage/belt/holster/legholster/police
 	l_pocket = /obj/item/storage/bag/money/small/settler
 	r_pocket = /obj/item/flashlight/flare
-	shoes = /obj/item/clothing/shoes/jackboots
-	uniform = /obj/item/clothing/under/syndicate/camo
+	shoes = /obj/item/clothing/shoes/f13/military
+	uniform = /obj/item/clothing/under/f13/camo/desert
 	suit_store = /obj/item/gun/ballistic/automatic/assault_carbine/policerifle
 	backpack_contents = list(
 		/obj/item/restraints/handcuffs = 2,

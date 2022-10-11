@@ -42,9 +42,11 @@
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/brotherhood/surface)
 "ar" = (
-/turf/open/floor/f13{
-	icon_state = "bluerustysolid"
+/obj/structure/pool/ladder{
+	dir = 8;
+	pixel_x = 4
 	},
+/turf/open/pool,
 /area/f13/building)
 "at" = (
 /obj/effect/decal/cleanable/dirt,
@@ -586,19 +588,18 @@
 /turf/open/floor/wood/f13/stage_b/outdoors,
 /area/f13/wasteland)
 "ff" = (
-/obj/structure/rack,
+/obj/structure/rack/shelf_metal,
 /obj/item/storage/belt/security,
 /obj/item/storage/belt/security,
 /obj/item/storage/belt/security,
 /obj/item/storage/belt/security,
-/obj/effect/decal/fakelattice{
-	pixel_y = -17
+/obj/item/clothing/suit/armor/vest,
+/obj/item/clothing/suit/armor/vest,
+/obj/item/clothing/suit/armor/vest,
+/obj/item/clothing/suit/armor/vest,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
 	},
-/obj/item/clothing/suit/armor/vest,
-/obj/item/clothing/suit/armor/vest,
-/obj/item/clothing/suit/armor/vest,
-/obj/item/clothing/suit/armor/vest,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/building)
 "fg" = (
 /obj/effect/decal/cleanable/dirt,
@@ -765,16 +766,13 @@
 /turf/open/floor/f13/wood,
 /area/f13/legion)
 "ha" = (
-/obj/structure/rack,
+/obj/structure/rack/shelf_metal,
 /obj/item/storage/box/handcuffs,
 /obj/item/storage/box/handcuffs,
 /obj/item/restraints/legcuffs/bola,
 /obj/item/restraints/legcuffs/bola,
 /obj/item/restraints/legcuffs/bola,
 /obj/item/restraints/legcuffs/bola,
-/obj/effect/decal/fakelattice{
-	pixel_y = -17
-	},
 /obj/item/electropack/shockcollar/explosive{
 	name = "Explosive Community Service collar"
 	},
@@ -791,7 +789,9 @@
 /obj/item/electropack/shockcollar{
 	name = "Community Service Collar"
 	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/building)
 "hb" = (
 /obj/effect/decal/cleanable/dirt,
@@ -839,9 +839,7 @@
 	},
 /area/f13/cotc)
 "hq" = (
-/turf/open/floor/f13{
-	icon_state = "bluedirtychess2"
-	},
+/turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building)
 "hs" = (
 /turf/closed/indestructible/rock,
@@ -916,9 +914,6 @@
 "ik" = (
 /obj/structure/bed/pod,
 /obj/item/bedsheet/rd,
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
 /turf/open/floor/carpet/purple,
 /area/f13/building)
 "io" = (
@@ -1183,8 +1178,6 @@
 	},
 /area/f13/building)
 "jZ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/pool/ladder{
 	dir = 1;
 	pixel_y = -21
@@ -1195,9 +1188,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/f13{
-	icon_state = "bluerustysolid"
-	},
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/f13/building)
 "kb" = (
 /obj/structure/window/fulltile/house{
@@ -1286,7 +1277,9 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/building)
 "lx" = (
 /obj/structure/simple_door/wood,
@@ -1766,10 +1759,7 @@
 /turf/closed/wall/f13/wood/house,
 /area/f13/bar)
 "qa" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13{
-	icon_state = "bluerustysolid"
-	},
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/f13/building)
 "qd" = (
 /obj/machinery/light/small/broken{
@@ -2116,7 +2106,10 @@
 	},
 /area/f13/brotherhood/surface)
 "to" = (
-/obj/structure/closet/cabinet,
+/obj/structure/table/wood/settler,
+/obj/item/storage/secure/safe{
+	pixel_x = 37
+	},
 /turf/open/floor/wood/wood_tiled,
 /area/f13/building)
 "tq" = (
@@ -2203,10 +2196,7 @@
 	},
 /area/f13/wasteland)
 "ue" = (
-/obj/effect/decal/fakelattice{
-	pixel_y = -17
-	},
-/obj/structure/rack,
+/obj/structure/rack/shelf_metal,
 /obj/item/ammo_box/magazine/autopipe,
 /obj/item/ammo_box/magazine/autopipe,
 /obj/item/ammo_box/magazine/autopipe/empty,
@@ -2415,10 +2405,12 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/bar)
 "wp" = (
-/obj/structure/rack,
+/obj/structure/rack/shelf_metal,
 /obj/item/ammo_box/shotgun/buck,
 /obj/item/ammo_box/shotgun/buck,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/building)
 "wq" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2437,9 +2429,7 @@
 /obj/structure/toilet{
 	dir = 4
 	},
-/turf/open/floor/f13{
-	icon_state = "bluedirtychess2"
-	},
+/turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building)
 "ww" = (
 /obj/structure/dresser,
@@ -2565,9 +2555,7 @@
 	dir = 4
 	},
 /obj/structure/decoration/vent,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	name = "metal plating"
-	},
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/f13/building)
 "xc" = (
 /obj/structure/fireplace,
@@ -2736,15 +2724,18 @@
 /turf/open/floor/wood/f13/carpet,
 /area/f13/building)
 "zf" = (
-/obj/structure/rack,
+/obj/structure/rack/shelf_metal,
 /obj/item/shield/riot,
 /obj/item/shield/riot,
+/obj/item/clothing/mask/gas/glass,
 /obj/item/clothing/mask/gas/glass,
 /obj/item/clothing/mask/gas/glass,
 /obj/item/clothing/mask/gas/glass,
 /obj/item/storage/box/teargas,
 /obj/item/storage/box/flashbangs,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/building)
 "zk" = (
 /turf/closed/indestructible/riveted,
@@ -2792,7 +2783,7 @@
 /turf/open/floor/plasteel/grimy,
 /area/f13/brotherhood/surface)
 "zV" = (
-/obj/structure/rack,
+/obj/structure/rack/shelf_metal,
 /obj/item/storage/box/citizenship_permits,
 /obj/item/radio/headset/headset_town,
 /obj/item/radio/headset/headset_town,
@@ -2803,10 +2794,9 @@
 /obj/item/radio/headset/headset_town,
 /obj/item/radio/headset/headset_town,
 /obj/item/radio/headset/headset_town,
-/obj/effect/decal/fakelattice{
-	pixel_y = -17
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
 	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/building)
 "zY" = (
 /obj/effect/overlay/junk/curtain{
@@ -2834,9 +2824,6 @@
 /turf/open/floor/wood/wood_tiled,
 /area/f13/building)
 "Ai" = (
-/obj/structure/reagent_dispensers/peppertank{
-	pixel_y = 32
-	},
 /obj/machinery/autolathe/ammo/unlocked{
 	advanced = 0;
 	intermediate = 0
@@ -3151,7 +3138,7 @@
 /area/f13/brotherhood/surface)
 "CB" = (
 /obj/machinery/light,
-/obj/item/twohanded/required/kirbyplants/random,
+/obj/structure/dresser,
 /turf/open/floor/wood/wood_tiled,
 /area/f13/building)
 "CC" = (
@@ -3657,29 +3644,20 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "HK" = (
-/obj/effect/decal/fakelattice{
-	pixel_y = -17
-	},
-/obj/structure/rack,
+/obj/structure/rack/shelf_metal,
 /obj/item/melee/baton/cattleprod,
 /obj/item/melee/baton/cattleprod,
 /obj/item/reagent_containers/spray/pepper,
 /obj/item/reagent_containers/spray/pepper,
 /obj/item/reagent_containers/spray/pepper,
 /obj/item/reagent_containers/spray/pepper,
-/obj/item/melee/classic_baton/militarypolice{
-	desc = "Sturdy stick painted white, used by police to get unruly suspects into line.";
-	name = "police baton"
+/obj/item/melee/classic_baton/police,
+/obj/item/melee/classic_baton/police,
+/obj/item/melee/classic_baton/police,
+/obj/item/melee/classic_baton/police,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
 	},
-/obj/item/melee/classic_baton/militarypolice{
-	desc = "Sturdy stick painted white, used by police to get unruly suspects into line.";
-	name = "police baton"
-	},
-/obj/item/melee/classic_baton/militarypolice{
-	desc = "Sturdy stick painted white, used by police to get unruly suspects into line.";
-	name = "police baton"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/building)
 "HU" = (
 /obj/structure/table/wood/settler,
@@ -4014,9 +3992,6 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/obj/structure/sign/poster/official/safety_report{
-	pixel_y = 32
-	},
 /obj/item/stock_parts/cell/high/plus{
 	pixel_y = 7
 	},
@@ -4044,6 +4019,7 @@
 /obj/item/flashlight{
 	pixel_y = 8
 	},
+/obj/machinery/cell_charger,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
@@ -4137,10 +4113,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/f13/carpet,
 /area/f13/bar)
-"Ma" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/pool,
-/area/f13/building)
 "Mb" = (
 /obj/structure/junk/arcade,
 /obj/effect/decal/cleanable/dirt,
@@ -4462,9 +4434,7 @@
 	dir = 8;
 	pixel_x = 12
 	},
-/turf/open/floor/f13{
-	icon_state = "bluedirtychess2"
-	},
+/turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building)
 "OH" = (
 /obj/machinery/light{
@@ -4696,24 +4666,29 @@
 /turf/open/floor/wood/f13/stage_b/outdoors,
 /area/f13/wasteland)
 "QP" = (
-/obj/structure/rack,
+/obj/structure/rack/shelf_metal,
 /obj/item/clothing/gloves/f13/military,
 /obj/item/clothing/gloves/f13/military,
 /obj/item/clothing/gloves/f13/military,
 /obj/item/clothing/gloves/f13/military,
-/obj/item/clothing/shoes/jackboots,
-/obj/item/clothing/shoes/jackboots,
-/obj/item/clothing/shoes/jackboots,
-/obj/item/clothing/shoes/jackboots,
-/obj/item/clothing/under/syndicate/camo,
-/obj/item/clothing/under/syndicate/camo,
-/obj/item/clothing/under/syndicate/camo,
-/obj/item/clothing/under/syndicate/camo,
+/obj/item/clothing/shoes/f13/military,
+/obj/item/clothing/shoes/f13/military,
+/obj/item/clothing/shoes/f13/military,
+/obj/item/clothing/shoes/f13/military,
+/obj/item/clothing/under/f13/camo/desert,
+/obj/item/clothing/under/f13/camo/desert,
+/obj/item/clothing/under/f13/camo/desert,
+/obj/item/clothing/under/f13/camo/desert,
 /obj/item/clothing/head/flakhelm,
 /obj/item/clothing/head/flakhelm,
 /obj/item/clothing/head/flakhelm,
 /obj/item/clothing/head/flakhelm,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/obj/structure/reagent_dispensers/peppertank{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/building)
 "Ra" = (
 /obj/structure/railing/corner,
@@ -4803,6 +4778,7 @@
 /area/f13/brotherhood/surface)
 "RG" = (
 /obj/structure/bed/pod,
+/obj/item/bedsheet/brown,
 /turf/open/floor/carpet/brown,
 /area/f13/building)
 "RH" = (
@@ -5214,6 +5190,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/item/bedsheet/brown,
 /turf/open/floor/carpet/brown,
 /area/f13/building)
 "Vd" = (
@@ -5355,7 +5332,9 @@
 /turf/open/floor/f13/wood,
 /area/f13/wasteland)
 "Wm" = (
-/obj/structure/dresser,
+/obj/structure/closet/cabinet/anchored,
+/obj/item/storage/secure/briefcase,
+/obj/item/storage/briefcase,
 /turf/open/floor/wood/wood_tiled,
 /area/f13/building)
 "Wp" = (
@@ -5513,11 +5492,6 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/wasteland)
-"XF" = (
-/turf/open/floor/plasteel/f13/vault_floor/dark{
-	icon_state = "darkrusty"
-	},
-/area/f13/building)
 "XN" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/ground/outside/woodalt,
@@ -5570,9 +5544,7 @@
 	dir = 1;
 	icon_state = "shower"
 	},
-/turf/open/floor/f13{
-	icon_state = "bluerustysolid"
-	},
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/f13/building)
 "Yk" = (
 /obj/structure/table/wood,
@@ -27475,10 +27447,10 @@ mI
 wr
 xb
 tM
-ar
-ar
+qa
+qa
 ka
-ar
+qa
 mI
 CC
 CC
@@ -27989,10 +27961,10 @@ tM
 hv
 tM
 tM
-Ma
+YO
 YO
 jZ
-ar
+qa
 mI
 Wx
 Wx
@@ -28247,7 +28219,7 @@ HD
 CB
 tM
 ZQ
-YO
+ar
 ZQ
 Yg
 mI
@@ -28497,16 +28469,16 @@ PL
 ad
 mI
 rb
-HD
 Ae
+HD
 HD
 HD
 HD
 Ce
 qa
-ar
-ar
-ar
+qa
+qa
+qa
 mI
 Wx
 Wx
@@ -32361,7 +32333,7 @@ ad
 ad
 ad
 yj
-XF
+yj
 ad
 ad
 CC
@@ -32618,7 +32590,7 @@ ad
 ad
 wp
 yj
-XF
+yj
 ue
 ad
 CC
@@ -32874,7 +32846,7 @@ hQ
 ad
 ad
 zf
-XF
+yj
 yj
 HK
 ad
@@ -33131,7 +33103,7 @@ hQ
 ad
 ad
 QP
-XF
+yj
 yj
 ff
 ad
@@ -33388,8 +33360,8 @@ hQ
 ad
 ad
 Lv
-XF
-XF
+yj
+yj
 ha
 ad
 CC
@@ -33646,7 +33618,7 @@ ad
 ad
 Ai
 yj
-XF
+yj
 zV
 ad
 CC
