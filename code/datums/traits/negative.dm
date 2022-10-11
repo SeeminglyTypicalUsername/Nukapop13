@@ -448,3 +448,18 @@ GLOBAL_LIST_EMPTY(family_heirlooms)
 	. = ..()
 	var/mob/living/carbon/human/H = quirk_holder
 	H?.cure_trauma_type(/datum/brain_trauma/severe/monophobia, TRAUMA_RESILIENCE_ABSOLUTE)
+
+/datum/quirk/foreigner
+	name = "Foreigner"
+	desc = "You're not from around here. You don't know English!"
+	value = -3
+	gain_text = "<span class='notice'>The words being spoken around you don't make any sense."
+	lose_text = "<span class='notice'>You've developed fluency in English."
+
+/datum/quirk/foreigner/add()
+	var/mob/living/carbon/human/human_holder = quirk_holder
+	human_holder.add_blocked_language(/datum/language/common)
+
+/datum/quirk/foreigner/remove()
+	var/mob/living/carbon/human/human_holder = quirk_holder
+	human_holder.remove_blocked_language(/datum/language/common)
