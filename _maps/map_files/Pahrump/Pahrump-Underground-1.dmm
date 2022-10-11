@@ -257,8 +257,7 @@
 "avu" = (
 /obj/structure/closet/crate/secure,
 /obj/item/clothing/under/f13/recon,
-/obj/item/clothing/suit/armor/f13/power_armor/t45d,
-/obj/item/clothing/head/helmet/f13/power_armor/t45d,
+/obj/effect/spawner/lootdrop/f13/armor/tier4,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
 "avG" = (
@@ -9792,6 +9791,12 @@
 /obj/item/reagent_containers/spray/cleaner,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
+"kFw" = (
+/obj/structure/HMG{
+	dir = 8
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/bunker)
 "kFA" = (
 /obj/machinery/computer/telecomms/server{
 	dir = 4;
@@ -9955,9 +9960,11 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
 "kRu" = (
-/obj/effect/landmark/start/f13/prospector,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/building)
+/obj/structure/HMG,
+/turf/open/floor/f13{
+	icon_state = "greenrustyfull"
+	},
+/area/f13/clinic)
 "kRI" = (
 /obj/structure/flora/junglebush/b,
 /turf/open/indestructible/ground/outside/water,
@@ -25828,7 +25835,7 @@ oOE
 eUk
 bcN
 bcN
-bcN
+kRu
 bcN
 puJ
 eLE
@@ -41266,7 +41273,7 @@ fka
 gSD
 irB
 jJT
-kRu
+kiM
 kiM
 mNt
 fka
@@ -41523,7 +41530,7 @@ fka
 fka
 fka
 jMT
-kRu
+kiM
 kiM
 mSs
 fka
@@ -58634,7 +58641,7 @@ rex
 rKY
 rKY
 fxu
-fxu
+kFw
 rKY
 rKY
 rex
