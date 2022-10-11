@@ -155,9 +155,9 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	exp_requirements = 1500
 
 	loadout_options = list(
-		/datum/outfit/loadout/captainbackline, //marksman, 14mm
-		/datum/outfit/loadout/captainfrontline, //marksman, 14mm
-		/datum/outfit/loadout/captainformal, //marksman, 14mm
+		/datum/outfit/loadout/captainbackline, //deagle
+		/datum/outfit/loadout/captainfrontline, //deagle
+		/datum/outfit/loadout/captainformal, //deagle
 		)
 
 /datum/outfit/job/ncr/f13captain/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
@@ -199,36 +199,33 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 
 /datum/outfit/loadout/captainfrontline
 	name = "The Court Martial"
-	suit_store = /obj/item/gun/ballistic/automatic/marksman
+	suit_store = null
 	backpack_contents = list(
 		/obj/item/clothing/suit/armor/f13/ncrarmor/captain/ncr_officer_coat = 1,
-		/obj/item/ammo_box/magazine/m556/rifle/assault = 2,
-		/obj/item/gun/ballistic/automatic/pistol/deagle/elcapitan = 1,
-		/obj/item/ammo_box/magazine/m14mm = 3,
+		/obj/item/gun/ballistic/automatic/pistol/deagle = 1,
+		/obj/item/ammo_box/magazine/m44 = 3,
 		/obj/item/storage/box/ration/menu_two = 1,
 		/obj/item/melee/onehanded/knife/trench = 1,
 		)
 
 /datum/outfit/loadout/captainbackline
 	name = "El Capitan"
-	suit_store = /obj/item/gun/ballistic/automatic/marksman
+	suit_store = null
 	backpack_contents = list(
 		/obj/item/clothing/suit/armor/f13/ncrarmor/captain/ncr_officer_coat = 1,
-		/obj/item/ammo_box/magazine/m556/rifle/assault = 2,
-		/obj/item/gun/ballistic/automatic/pistol/deagle/elcapitan = 1,
-		/obj/item/ammo_box/magazine/m14mm = 3,
+		/obj/item/gun/ballistic/automatic/pistol/deagle = 1,
+		/obj/item/ammo_box/magazine/m44 = 3,
 		/obj/item/storage/box/ration/menu_two = 1,
 		/obj/item/melee/onehanded/knife/trench = 1,
 		)
 
 /datum/outfit/loadout/captainformal
 	name = "Parade Captain"
-	suit_store = /obj/item/gun/ballistic/automatic/marksman
+	suit_store = null
 	backpack_contents = list(
 		/obj/item/clothing/suit/armor/f13/ncrarmor/dresscoat = 1,
-		/obj/item/gun/ballistic/automatic/pistol/deagle/elcapitan = 1,
-		/obj/item/ammo_box/magazine/m14mm = 3,
-		/obj/item/ammo_box/magazine/m556/rifle/assault = 2,
+		/obj/item/gun/ballistic/automatic/pistol/deagle = 1,
+		/obj/item/ammo_box/magazine/m44 = 3,
 		/obj/item/storage/box/ration/menu_eight = 1,
 		)
 
@@ -349,7 +346,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 /datum/outfit/job/ncr/f13sergeant/pre_equip(mob/living/carbon/human/H)
 	. = ..()
 	r_hand = pick(
-		/obj/item/storage/box/gunbox/ncr/sergeant/set1, //marksman
+		/obj/item/storage/box/gunbox/ncr/sergeant/set1, //scout carbine, bowie knife
 		/obj/item/storage/box/gunbox/ncr/sergeant/set2, //greasegun
 		/obj/item/storage/box/gunbox/ncr/sergeant/set3, //trenchgun
 		/obj/item/storage/box/gunbox/ncr/sergeant/set4) //r82, bayonet
@@ -962,7 +959,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 /datum/outfit/job/ncr/f13corporal/pre_equip(mob/living/carbon/human/H)
 	. = ..()
 	r_hand = pick(
-		/obj/item/storage/box/gunbox/ncr/corporal/set1, //marksman, ninemil, legholster
+		/obj/item/storage/box/gunbox/ncr/corporal/set1, //scout carbine, ninemil, legholster
 		/obj/item/storage/box/gunbox/ncr/corporal/set2, //greasegun
 		/obj/item/storage/box/gunbox/ncr/corporal/set3, //hunting shotgun
 		/obj/item/storage/box/gunbox/ncr/corporal/set4, //m1carbine compact, binoculars

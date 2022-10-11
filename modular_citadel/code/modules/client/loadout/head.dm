@@ -313,6 +313,25 @@
 							"NCR Trooper",
 						)
 
+/datum/gear/head/f13/ncr/patriot
+	name = "NCR patriot helmet"
+	path = /obj/item/clothing/head/f13/ncr/patriot
+	subcategory = LOADOUT_SUBCATEGORY_HEAD_FACTIONS
+	cost = 2
+	restricted_desc = "NCR"
+	restricted_roles = list("NCR Captain",
+							"NCR Lieutenant",
+							"NCR Medical Officer",
+							"NCR Sergeant First Class",
+							"NCR Lieutenant",
+							"NCR Heavy Trooper",
+							"NCR Sergeant",
+							"NCR Corporal",
+							"NCR Combat Engineer",
+							"NCR Combat Medic",
+							"NCR Trooper",
+						)
+
 /datum/gear/head/steelpot_gambler
 	name = "NCR gambler helmet"
 	path = /obj/item/clothing/head/f13/ncr/steelpot_gambler
@@ -401,7 +420,9 @@ datum/gear/head/steelpot_bandolier
 	subcategory = LOADOUT_SUBCATEGORY_HEAD_FACTIONS
 	cost = 4
 	restricted_desc = "NCR"
-	restricted_roles = list("NCR Sergeant",
+	restricted_roles = list("NCR Captain",
+							"NCR Lieutenant",
+							"NCR Sergeant",
 							"NCR Heavy Trooper"
 						)
 
