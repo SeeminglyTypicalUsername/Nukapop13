@@ -1754,6 +1754,20 @@
 	fitted = FEMALE_UNIFORM_TOP
 	can_adjust = TRUE
 
+// Camo Uniforms
+
+/obj/item/clothing/under/f13/camo
+	name = "woodland camouflage uniform"
+	desc = "A pre-war camouflaged military uniform, mercs and collectors love these."
+	icon_state = "camo_woodland"
+	item_state = "camo_woodland"
+
+/obj/item/clothing/under/f13/camo/desert
+	name = "desert camouflage uniform"
+	desc = "A pre-war camouflaged military uniform, mercs and collectors love these."
+	icon_state = "camo_desert"
+	item_state = "camo_desert"
+
 /// Item Update
 
 /obj/item/clothing/under/f13/drill_sarge
