@@ -554,7 +554,17 @@
 	category = CAT_WEAPONRY
 	subcategory = CAT_AMMO
 
+/datum/crafting_recipe/belt357
 
+	name = "autopipe belt"
+	result = /obj/item/ammo_box/magazine/autopipe
+	reqs = list(/obj/item/stack/crafting/metalparts = 2,
+	/obj/item/stack/ore/blackpowder = 2,
+	)
+	tools = list(TOOL_AWORKBENCH)
+	time = 5
+	category = CAT_WEAPONRY
+	subcategory = CAT_AMMO
 
 /////////////////
 ///GUN CRAFTING//
