@@ -115,6 +115,7 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 	if(H.mind)
 		var/obj/effect/proc_holder/spell/terrifying_presence/S = new /obj/effect/proc_holder/spell/terrifying_presence
 		H.mind.AddSpell(S)
+	H.grant_language(/datum/language/latin)
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13legate	// 14mm Pistol, Goliath
 	name = "Legate"
@@ -184,6 +185,7 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
 	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
+	H.grant_language(/datum/language/latin)
 
 /////////////////
 //// Officers ///
@@ -226,6 +228,7 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 	if(H.mind)
 		var/obj/effect/proc_holder/spell/terrifying_presence/S = new /obj/effect/proc_holder/spell/terrifying_presence
 		H.mind.AddSpell(S)
+	H.grant_language(/datum/language/latin)
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13centurion
 	name = "Legion Centurion"
@@ -302,10 +305,8 @@ commented out pending rework*/
 	minimal_access = list(ACCESS_LEGION, ACCESS_CHANGE_IDS, ACCESS_LEGION_COMMAND)
 
 	loadout_options = list(
-		/datum/outfit/loadout/decvetbull,	// Supersledge, 10mm SMG, Smokebomb
-		/datum/outfit/loadout/decvetwolf,	// Thermic lance, Carl Gustaf, Extra Bitter
-		/datum/outfit/loadout/decvetsnake, // Brush gun, Ripper, Extra Bitters
-		/datum/outfit/loadout/decvetbrave, // trench shotgun, 44 revolver, ballistic fist
+		/datum/outfit/loadout/decvetbull,
+		/datum/outfit/loadout/decvetwolf,
 		)
 
 
@@ -317,6 +318,7 @@ commented out pending rework*/
 	ADD_TRAIT(H, TRAIT_IRONFIST, src)
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
+	H.grant_language(/datum/language/latin)
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13decanvet
 	name = "Legion Veteran Decanus"
@@ -354,14 +356,6 @@ commented out pending rework*/
 	name = "Mark of the Wolf"
 	head = /obj/item/clothing/head/helmet/f13/legion/vet/decan
 
-/datum/outfit/loadout/decvetsnake
-	name = "Mark of the Snake"
-	head = /obj/item/clothing/head/helmet/f13/legion/vet/decan
-
-/datum/outfit/loadout/decvetbrave
-	name = "Mark of the Brave"
-	head = /obj/item/clothing/head/helmet/f13/legion/vet/decan
-
 
 // PRIME DECANUS
 
@@ -395,6 +389,7 @@ commented out pending rework*/
 	ADD_TRAIT(H, TRAIT_IRONFIST, src)
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
+	H.grant_language(/datum/language/latin)
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13decan
 	name = "Prime Decanus"
@@ -456,6 +451,7 @@ commented out pending rework*/
 	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
+	H.grant_language(/datum/language/latin)
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13decanrec
 	name = "Legion Recruit Decanus"
@@ -524,6 +520,7 @@ commented out pending rework*/
 	ADD_TRAIT(H, TRAIT_IRONFIST, src)
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
+	H.grant_language(/datum/language/latin)
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13vexillarius
 	name = "Vexillarius"
@@ -654,6 +651,7 @@ commented out pending rework*/
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 	ADD_TRAIT(H, TRAIT_IRONFIST, src)
+	H.grant_language(/datum/language/latin)
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/vetlegionnaire
 	name = "Veteran Legionnaire"

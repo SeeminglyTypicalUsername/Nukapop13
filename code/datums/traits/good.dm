@@ -68,6 +68,101 @@
 	if(!QDELETED(H))
 		H.remove_language(/datum/language/tribal)
 
+/datum/quirk/whiteleg
+	name = "White Leg Dialect Comprehension"
+	desc = "You're somehow capable of understanding and speaking the White Leg dialect."
+	value = 1
+	gain_text = "<span class='notice'>You remember the old ways of your tribe..</span>"
+	lose_text = "<span class='notice'>You've forgotten the ways of your ancestors..</span>"
+
+/datum/quirk/whiteleg/add()
+	var/mob/living/carbon/human/H = quirk_holder
+	H.grant_language(/datum/language/whiteleg)
+
+/datum/quirk/whiteleg/remove()
+	var/mob/living/carbon/human/H = quirk_holder
+	if(!QDELETED(H))
+		H.remove_language(/datum/language/whiteleg)
+
+/datum/quirk/sorrows
+	name = "Sorrows Dialect Comprehension"
+	desc = "You're somehow capable of understanding and speaking the Sorrows dialect."
+	value = 1
+	gain_text = "<span class='notice'>You remember the old ways of your tribe..</span>"
+	lose_text = "<span class='notice'>You've forgotten the ways of your ancestors..</span>"
+
+/datum/quirk/sorrows/add()
+	var/mob/living/carbon/human/H = quirk_holder
+	H.grant_language(/datum/language/sorrows)
+
+/datum/quirk/sorrows/remove()
+	var/mob/living/carbon/human/H = quirk_holder
+	if(!QDELETED(H))
+		H.remove_language(/datum/language/sorrows)
+
+/datum/quirk/deadhorse
+	name = "Dead Horse Dialect Comprehension"
+	desc = "You're somehow capable of understanding and speaking the Dead Horse dialect."
+	value = 1
+	gain_text = "<span class='notice'>You remember the old ways of your tribe..</span>"
+	lose_text = "<span class='notice'>You've forgotten the ways of your ancestors..</span>"
+
+/datum/quirk/deadhorse/add()
+	var/mob/living/carbon/human/H = quirk_holder
+	H.grant_language(/datum/language/deadhorse)
+
+/datum/quirk/deadhorse/remove()
+	var/mob/living/carbon/human/H = quirk_holder
+	if(!QDELETED(H))
+		H.remove_language(/datum/language/deadhorse)
+
+/datum/quirk/deadhorse
+	name = "Dead Horse Dialect Comprehension"
+	desc = "You're somehow capable of understanding and speaking the Dead Horse dialect."
+	value = 1
+	gain_text = "<span class='notice'>You remember the old ways of your tribe..</span>"
+	lose_text = "<span class='notice'>You've forgotten the ways of your ancestors..</span>"
+
+/datum/quirk/deadhorse/add()
+	var/mob/living/carbon/human/H = quirk_holder
+	H.grant_language(/datum/language/deadhorse)
+
+/datum/quirk/deadhorse/remove()
+	var/mob/living/carbon/human/H = quirk_holder
+	if(!QDELETED(H))
+		H.remove_language(/datum/language/deadhorse)
+
+/datum/quirk/latin
+	name = "Latin Language Comprehension"
+	desc = "You're somehow capable of understanding and speaking Latin."
+	value = 1
+	gain_text = "<span class='notice'>You remember the old ways of Rome..</span>"
+	lose_text = "<span class='notice'>You've forgotten the ways of your Rome..</span>"
+
+/datum/quirk/latin/add()
+	var/mob/living/carbon/human/H = quirk_holder
+	H.grant_language(/datum/language/latin)
+
+/datum/quirk/latin/remove()
+	var/mob/living/carbon/human/H = quirk_holder
+	if(!QDELETED(H))
+		H.remove_language(/datum/language/latin)
+
+/datum/quirk/italian
+	name = "Italian Language Comprehension"
+	desc = "You're somehow capable of understanding and speaking Italian."
+	value = 1
+	gain_text = "<span class='notice'>You remember the old ways of pizza..</span>"
+	lose_text = "<span class='notice'>You've forgotten the ways of your pizza..</span>"
+
+/datum/quirk/italian/add()
+	var/mob/living/carbon/human/H = quirk_holder
+	H.grant_language(/datum/language/italian)
+
+/datum/quirk/italian/remove()
+	var/mob/living/carbon/human/H = quirk_holder
+	if(!QDELETED(H))
+		H.remove_language(/datum/language/italian)
 
 /datum/quirk/apathetic
 	name = "Apathetic"
@@ -286,7 +381,7 @@
 	gain_text = "<span class='notice'>You want to buy the whole world a nuka-cola!</span>"
 	lose_text = "<span class='danger'>What's the big deal about nuka-cola?</span>"
 	medical_record_text = "Patient has an addiction to the soft drink Nuka-Cola. Somehow, their metabolism has adapted to the sugars and artifical flavorings."
-	
+
 /datum/quirk/nukalover/add()
 	var/mob/living/carbon/human/H = quirk_holder
 	var/datum/species/species = H.dna.species
