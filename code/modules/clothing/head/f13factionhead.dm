@@ -1460,8 +1460,8 @@ obj/item/clothing/head/f13/army/beret
 	desc = "A People's Liberation Army ushanka."
 	icon = 'icons/fallout/clothing/hats.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
-	icon_state = "chinese_ushanka"
-	item_state = "chinese_ushanka"
+	icon_state = "chinese_ushankadown"
+	item_state = "chinese_ushankadown"
 	flags_inv = HIDEEARS|HIDEHAIR
 	var/earflaps = 1
 	cold_protection = HEAD
