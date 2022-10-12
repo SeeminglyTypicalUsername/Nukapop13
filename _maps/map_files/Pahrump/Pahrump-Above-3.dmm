@@ -431,7 +431,7 @@
 /area/f13/building)
 "dJ" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/destructible/tribal_torch/wall/lit{
+/obj/structure/destructible/tribal_torch/wall{
 	dir = 8
 	},
 /turf/open/floor/f13/wood,
@@ -1045,7 +1045,7 @@
 /area/f13/wasteland)
 "ja" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/destructible/tribal_torch/lit,
+/obj/structure/destructible/tribal_torch,
 /turf/open/floor/f13/wood,
 /area/f13/wasteland)
 "ji" = (
@@ -1457,7 +1457,7 @@
 /turf/open/floor/f13/wood,
 /area/f13/raiders)
 "no" = (
-/obj/structure/destructible/tribal_torch/wall/lit,
+/obj/structure/destructible/tribal_torch/wall,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/f13/raiders)
@@ -1810,7 +1810,7 @@
 /area/f13/bar)
 "qC" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/destructible/tribal_torch/wall/lit{
+/obj/structure/destructible/tribal_torch/wall{
 	dir = 4
 	},
 /turf/open/floor/f13/wood,
@@ -2438,9 +2438,9 @@
 "wx" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/wood/fancy/royalblack,
-/obj/item/candle/infinite{
-	pixel_x = 5;
-	pixel_y = 5
+/obj/item/trash/candle{
+	pixel_y = 5;
+	pixel_x = 5
 	},
 /turf/open/floor/f13/wood,
 /area/f13/wasteland)
@@ -2694,11 +2694,11 @@
 /area/f13/wasteland)
 "yx" = (
 /obj/structure/table/wood/settler,
-/obj/item/candle/infinite{
-	pixel_x = -4;
-	pixel_y = 12
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/item/trash/candle{
+	pixel_y = 12;
+	pixel_x = -4
+	},
 /turf/open/floor/f13/wood,
 /area/f13/raiders)
 "yB" = (
@@ -4559,6 +4559,12 @@
 	},
 /turf/open/floor/wood/f13/carpet,
 /area/f13/ncr)
+"PI" = (
+/obj/structure/destructible/tribal_torch/wall{
+	dir = 4
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "PK" = (
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 1;
@@ -4960,11 +4966,11 @@
 /area/f13/cotc)
 "Tf" = (
 /obj/structure/table/wood/settler,
-/obj/item/candle/infinite{
-	pixel_x = 5;
-	pixel_y = 5
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/item/trash/candle{
+	pixel_y = 5;
+	pixel_x = 5
+	},
 /turf/open/floor/f13/wood,
 /area/f13/raiders)
 "Tk" = (
@@ -5095,7 +5101,7 @@
 /area/f13/raiders)
 "Uv" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/destructible/tribal_torch/wall/lit{
+/obj/structure/destructible/tribal_torch/wall{
 	dir = 4
 	},
 /turf/open/floor/f13/wood,
@@ -5590,9 +5596,9 @@
 "YG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/wood/fancy/royalblack,
-/obj/item/candle/infinite{
-	pixel_x = -4;
-	pixel_y = 12
+/obj/item/trash/candle{
+	pixel_y = 11;
+	pixel_x = -4
 	},
 /obj/item/warpaint_bowl,
 /turf/open/floor/f13/wood,
@@ -19994,7 +20000,7 @@ AM
 AM
 AM
 AM
-Ih
+PI
 AM
 AM
 AM
@@ -20756,7 +20762,7 @@ PL
 PL
 PL
 AM
-Ih
+PI
 kC
 kC
 kC
@@ -21769,7 +21775,7 @@ kC
 PL
 PL
 PL
-Ih
+PI
 AM
 Gl
 Gl
@@ -22031,7 +22037,7 @@ AM
 Gl
 Gl
 Gl
-Ih
+PI
 kC
 kC
 kC
