@@ -380,7 +380,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 /datum/outfit/job/ncr/f13drillsergeant		// .44 Revolver, Riot Shotgun, Military baton
 	name = "NCR Provost Marshal"
 	jobtype	= /datum/job/ncr/f13mp
-	id = /obj/item/card/id/dogtag/ncrsergeant
+	id = /obj/item/card/id/dogtag/ncrlieutenant
 	neck = /obj/item/storage/belt/holster/legholster
 	accessory = /obj/item/clothing/accessory/ncr/LT2
 	glasses	= /obj/item/clothing/glasses/sunglasses/big
