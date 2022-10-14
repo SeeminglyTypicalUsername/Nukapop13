@@ -217,7 +217,9 @@
 /turf/open/floor/f13,
 /area/f13/building)
 "aeG" = (
-/obj/effect/mob_spawn/human/skeleton/alive,
+/obj/effect/decal/remains/human{
+	name = "remains of Eagle"
+	},
 /obj/effect/decal/cleanable/blood/old{
 	icon_state = "floor3"
 	},
@@ -3130,7 +3132,7 @@
 /area/f13/building)
 "bog" = (
 /obj/effect/decal/cleanable/blood/old,
-/obj/effect/mob_spawn/human/skeleton/alive,
+/obj/effect/decal/remains/human,
 /obj/item/clothing/under/f13/khan,
 /obj/item/clothing/head/chefhat,
 /turf/open/indestructible/ground/outside/dirt,
@@ -3187,9 +3189,10 @@
 /obj/structure/sign/poster/prewar/poster61{
 	pixel_x = 29
 	},
-/obj/item/mine/shrapnel,
-/obj/effect/mob_spawn/human/skeleton/alive,
 /obj/effect/decal/cleanable/blood/old,
+/obj/effect/decal/remains/human{
+	name = "remains of Makarov"
+	},
 /obj/item/clothing/under/f13/khan/shorts,
 /turf/open/floor/f13/wood{
 	icon_state = "housewood4-broken"
@@ -5139,7 +5142,9 @@
 /obj/effect/decal/cleanable/blood/old{
 	pixel_x = 12
 	},
-/obj/effect/mob_spawn/human/skeleton/alive,
+/obj/effect/decal/remains/human{
+	name = "remains of Kassidy West"
+	},
 /obj/item/clothing/under/shorts/blackbshorts,
 /obj/item/clothing/suit/armor/f13/trailranger{
 	armor = list("melee"=0,"bullet"=0,"laser"=0,"energy"=0,"bomb"=0,"bio"=0,"rad"=0,"fire"=0,"acid"=0,"wound"=0)
@@ -5333,6 +5338,7 @@
 /area/f13/building)
 "cny" = (
 /obj/structure/simple_door/repaired,
+/obj/item/mine/shrapnel,
 /turf/open/floor/f13/wood{
 	icon_state = "housewood4-broken"
 	},
@@ -8691,7 +8697,9 @@
 /area/f13/building)
 "dNA" = (
 /obj/structure/junk/small/bed,
-/obj/effect/mob_spawn/human/skeleton/alive,
+/obj/effect/decal/remains/human{
+	name = "remains of Carrion"
+	},
 /obj/effect/decal/cleanable/blood/old{
 	icon_state = "floor2";
 	pixel_y = 6
@@ -9511,7 +9519,9 @@
 /turf/open/floor/f13/wood,
 /area/f13/caves)
 "egy" = (
-/obj/effect/mob_spawn/human/skeleton/alive,
+/obj/effect/decal/remains/human{
+	name = "remains of Foxtrot"
+	},
 /obj/item/clothing/head/helmet/f13/khan/bandana,
 /obj/item/clothing/under/f13/khan/booty,
 /obj/structure/destructible/tribal_torch/wall{
@@ -9940,7 +9950,9 @@
 	},
 /area/f13/wasteland)
 "eqa" = (
-/obj/effect/mob_spawn/human/skeleton/alive,
+/obj/effect/decal/remains/human{
+	name = "remains of Cascade"
+	},
 /obj/effect/decal/cleanable/blood/old{
 	icon_state = "floor2"
 	},
@@ -16488,7 +16500,9 @@
 /area/f13/tunnel)
 "gYA" = (
 /obj/structure/chair/sofa/left,
-/obj/effect/mob_spawn/human/skeleton/alive,
+/obj/effect/decal/remains/human{
+	name = "remains of Ash"
+	},
 /obj/item/clothing/suit/toggle/labcoat/f13/khan_jacket,
 /obj/item/instrument/guitar,
 /obj/effect/decal/cleanable/blood/old{
@@ -30464,7 +30478,9 @@
 	icon_state = "floor3";
 	pixel_x = -6
 	},
-/obj/effect/mob_spawn/human/skeleton/alive,
+/obj/effect/decal/remains/human{
+	name = "remains of Sketchkin"
+	},
 /obj/item/clothing/suit/toggle/labcoat/f13/khan_jacket,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/raiders)
@@ -31873,7 +31889,10 @@
 /area/f13/wasteland)
 "nwZ" = (
 /obj/structure/barricade/wooden/strong,
-/obj/structure/barricade/wooden/planks/pregame,
+/obj/item/paper/fluff{
+	icon_state = "paper_words";
+	info = "This "khamp" has been cleansed by the New California Republic Army. Hoorah!"
+	},
 /turf/open/indestructible/ground/outside/dirt{
 	icon_state = "dirt"
 	},
@@ -32366,7 +32385,9 @@
 /turf/open/floor/carpet,
 /area/f13/building)
 "nJr" = (
-/obj/effect/mob_spawn/human/skeleton/alive,
+/obj/effect/decal/remains/human{
+	name = "remains of Theresa"
+	},
 /obj/effect/decal/cleanable/blood/old,
 /obj/item/clothing/neck/apron/chef,
 /turf/open/indestructible/ground/outside/dirt,
@@ -46097,7 +46118,8 @@
 "tPD" = (
 /obj/item/paper/fluff{
 	info = "By order of Legatus Saturn Atticus, all able-bodied men are obligated to maintain routine clearings of Yuma encampment possessions. Under no means, shall chem-enamored wastrels of the Yuma Valley infiltrate or establish hives of degenerancy under the nose of the Son of Mars. Maintain the virtue of vigilance and diligence.";
-	name = "instruction"
+	name = "instruction";
+	icon_state = "paper_words"
 	},
 /turf/closed/wall/f13/wood,
 /area/f13/legion)
@@ -47116,7 +47138,9 @@
 /area/f13/building)
 "ulL" = (
 /obj/structure/bed/old,
-/obj/effect/mob_spawn/human/skeleton/alive,
+/obj/effect/decal/remains/human{
+	name = "remains of Sunny"
+	},
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/raiders)
@@ -54124,7 +54148,9 @@
 	dir = 4;
 	icon_state = "bench"
 	},
-/obj/effect/mob_spawn/human/skeleton/alive,
+/obj/effect/decal/remains/human{
+	name = "remains of Wrench"
+	},
 /obj/effect/decal/cleanable/blood/old{
 	icon_state = "floor2"
 	},
