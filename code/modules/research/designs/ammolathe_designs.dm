@@ -323,7 +323,6 @@
 	build_path = /obj/item/ammo_box/a762box
 	category = list("initial", "Basic Ammo")
 
-
 /datum/design/ammolathe/a22
 	name = ".22lr ammo box"
 	id = "a22"
@@ -445,6 +444,13 @@
 	id = "m762"
 	materials = list(/datum/material/iron = 6000)
 	build_path = /obj/item/ammo_box/magazine/m762/empty
+	category = list("initial", "Intermediate Magazines")
+
+/datum/design/ammolathe/m762belt
+	name = "7.62 HMG belt"
+	id = "m762 belt"
+	materials = list(/datum/material/iron = 43000, /datum/material/blackpowder = 4500)
+	build_path = /obj/item/ammo_box/magazine/ammobelt
 	category = list("initial", "Intermediate Magazines")
 
 /datum/design/ammolathe/w308
