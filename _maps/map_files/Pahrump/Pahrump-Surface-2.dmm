@@ -7090,6 +7090,14 @@
 /obj/item/crafting/lunchbox,
 /turf/open/floor/f13/wood,
 /area/f13/village)
+"dfH" = (
+/obj/structure/table/wood/settler,
+/obj/item/paper{
+	info = "<p>Recommend Pricing Scheme:<br />50-100 caps: Non-stimpack first aid.<br />150 caps: Price of stimpaks used or sold.<br />200-250 caps: Price of surgery<br />300-400 caps: Price of revival.</p>";
+	name = "pricing"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/cotc)
 "dfR" = (
 /turf/closed/wall/rust,
 /area/f13/caves)
@@ -13751,6 +13759,10 @@
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
+"fTe" = (
+/obj/machinery/smartfridge/bottlerack/alchemy_rack,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/cotc)
 "fTn" = (
 /obj/effect/spawner/lootdrop/f13/junkspawners,
 /turf/open/floor/f13/wood{
@@ -16782,6 +16794,34 @@
 /area/f13/building)
 "hdY" = (
 /obj/structure/table/wood/settler,
+/obj/item/paper/pamphlet{
+	name = "Church pamplet";
+	info = "<p>Father, guide your children through your Vineyard.<br />Father, guide us down the path to Unity.<br />Father, have mercy upon us<br />Father, have no mercy for the Unbelievers.</p><p>Father, who brought forth the Angels, protect us.<br />Father, who saved us from destruction, protect us.<br />Father, who shielded us from barbarism, protect us.<br />Father, who showed us the way to Unity, protect us.</p>"
+	},
+/obj/item/paper/pamphlet{
+	name = "Church pamplet";
+	info = "<p>Father, guide your children through your Vineyard.<br />Father, guide us down the path to Unity.<br />Father, have mercy upon us<br />Father, have no mercy for the Unbelievers.</p><p>Father, who brought forth the Angels, protect us.<br />Father, who saved us from destruction, protect us.<br />Father, who shielded us from barbarism, protect us.<br />Father, who showed us the way to Unity, protect us.</p>"
+	},
+/obj/item/paper/pamphlet{
+	name = "Church pamplet";
+	info = "<p>Father, guide your children through your Vineyard.<br />Father, guide us down the path to Unity.<br />Father, have mercy upon us<br />Father, have no mercy for the Unbelievers.</p><p>Father, who brought forth the Angels, protect us.<br />Father, who saved us from destruction, protect us.<br />Father, who shielded us from barbarism, protect us.<br />Father, who showed us the way to Unity, protect us.</p>"
+	},
+/obj/item/paper/pamphlet{
+	name = "Church pamplet";
+	info = "<p>Father, guide your children through your Vineyard.<br />Father, guide us down the path to Unity.<br />Father, have mercy upon us<br />Father, have no mercy for the Unbelievers.</p><p>Father, who brought forth the Angels, protect us.<br />Father, who saved us from destruction, protect us.<br />Father, who shielded us from barbarism, protect us.<br />Father, who showed us the way to Unity, protect us.</p>"
+	},
+/obj/item/paper/pamphlet{
+	name = "Church pamplet";
+	info = "<p>Father, guide your children through your Vineyard.<br />Father, guide us down the path to Unity.<br />Father, have mercy upon us<br />Father, have no mercy for the Unbelievers.</p><p>Father, who brought forth the Angels, protect us.<br />Father, who saved us from destruction, protect us.<br />Father, who shielded us from barbarism, protect us.<br />Father, who showed us the way to Unity, protect us.</p>"
+	},
+/obj/item/paper/pamphlet{
+	name = "Church pamplet";
+	info = "<p>Father, guide your children through your Vineyard.<br />Father, guide us down the path to Unity.<br />Father, have mercy upon us<br />Father, have no mercy for the Unbelievers.</p><p>Father, who brought forth the Angels, protect us.<br />Father, who saved us from destruction, protect us.<br />Father, who shielded us from barbarism, protect us.<br />Father, who showed us the way to Unity, protect us.</p>"
+	},
+/obj/item/paper/pamphlet{
+	name = "Church pamplet";
+	info = "<p>Father, guide your children through your Vineyard.<br />Father, guide us down the path to Unity.<br />Father, have mercy upon us<br />Father, have no mercy for the Unbelievers.</p><p>Father, who brought forth the Angels, protect us.<br />Father, who saved us from destruction, protect us.<br />Father, who shielded us from barbarism, protect us.<br />Father, who showed us the way to Unity, protect us.</p>"
+	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/cotc)
 "heh" = (
@@ -16912,7 +16952,7 @@
 	color = "000000"
 	},
 /obj/structure/closet/crate/large,
-/obj/item/ammo_box/magazine/mm762,
+/obj/item/ammo_box/magazine/ammobelt,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "hgd" = (
@@ -19693,6 +19733,13 @@
 /obj/structure/destructible/tribal_torch/wall/lit,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
+"imL" = (
+/obj/structure/table/wood/settler,
+/obj/item/reagent_containers/glass/beaker/large,
+/obj/item/reagent_containers/glass/beaker/large,
+/obj/item/reagent_containers/glass/beaker/large,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/cotc)
 "imO" = (
 /obj/structure/window/fulltile/store{
 	icon_state = "ruinswindow"
@@ -32252,6 +32299,10 @@
 	icon_state = "shadowleft"
 	},
 /area/f13/wasteland)
+"nFN" = (
+/obj/machinery/photocopier,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/cotc)
 "nFT" = (
 /obj/structure/closet/crate,
 /obj/effect/decal/cleanable/dirt{
@@ -41266,6 +41317,11 @@
 /obj/structure/window/fulltile/store,
 /turf/open/floor/f13,
 /area/f13/building)
+"rHq" = (
+/obj/machinery/reagentgrinder,
+/obj/structure/table/wood/settler,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/cotc)
 "rHw" = (
 /obj/structure/table,
 /obj/structure/barricade/bars,
@@ -43516,6 +43572,14 @@
 	icon_state = "plating"
 	},
 /area/f13/building)
+"sHs" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/white/box,
+/obj/structure/rack,
+/obj/item/ammo_box/magazine/ammobelt,
+/obj/item/ammo_box/magazine/ammobelt,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
+/area/f13/ncr)
 "sHt" = (
 /obj/effect/mob_spawn/human/corpse/raidermelee,
 /obj/effect/decal/cleanable/blood/old,
@@ -45780,6 +45844,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/structure/stairs/north,
 /turf/open/floor/wood/f13/carpet,
 /area/f13/ncr)
 "tHN" = (
@@ -64454,7 +64519,7 @@ tUM
 vim
 ufN
 ufN
-tvh
+sHs
 jQd
 sGG
 ioP
@@ -89767,7 +89832,7 @@ nQW
 eku
 iyJ
 jXn
-qXT
+fTe
 qXT
 cSr
 ybx
@@ -90026,7 +90091,7 @@ evL
 jXn
 rkD
 qXT
-osQ
+qXT
 osQ
 vPX
 giZ
@@ -90281,9 +90346,9 @@ nQW
 age
 age
 jXn
+rHq
 qXT
 qXT
-hdY
 hdY
 vPX
 giZ
@@ -90538,9 +90603,9 @@ jJn
 nQW
 age
 jXn
+imL
 qXT
 qXT
-ohp
 ohp
 vPX
 dCV
@@ -90795,10 +90860,10 @@ nQW
 iJR
 eyC
 jXn
-qXT
+dfH
 qXT
 mCm
-qXT
+nFN
 jXn
 dCV
 giZ

@@ -3800,6 +3800,10 @@
 "Jo" = (
 /obj/structure/table/wood/settler,
 /obj/item/assembly/signaler/advanced,
+/obj/item/paper{
+	info = "<p>Recommend Pricing Scheme:<br />50-100 caps: Non-stimpack first aid.<br />150 caps: Price of stimpaks used or sold.<br />200-250 caps: Price of surgery<br />300-400 caps: Price of revival.</p>";
+	name = "pricing"
+	},
 /turf/open/floor/f13{
 	color = "#818181";
 	icon_state = "floorrustysolid"
@@ -5439,11 +5443,10 @@
 /area/f13/wasteland)
 "WX" = (
 /obj/structure/rack,
-/obj/item/ammo_box/magazine/mm762/empty,
-/obj/item/ammo_box/magazine/mm762/empty,
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 4
 	},
+/obj/item/ammo_box/magazine/ammobelt,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/cotc)
 "WZ" = (

@@ -547,7 +547,7 @@
 /area/f13/caves)
 "aPr" = (
 /obj/structure/destructible/tribal_torch/lit,
-/mob/living/simple_animal/hostile/retaliate/poison/snake/evil,
+/mob/living/simple_animal/hostile/snake,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/caves)
 "aPx" = (
@@ -623,7 +623,7 @@
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/f13/tunnel)
 "aUv" = (
-/mob/living/simple_animal/hostile/retaliate/poison/snake/evil,
+/mob/living/simple_animal/hostile/snake,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/caves)
 "aUW" = (
@@ -10716,7 +10716,10 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/caves)
 "lTj" = (
-/obj/structure/destructible/tribal_torch/lit,
+/obj/machinery/button/door{
+	pixel_x = 22;
+	id = "snake"
+	},
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/caves)
 "lTu" = (
@@ -17315,6 +17318,9 @@
 /area/f13/den)
 "veO" = (
 /obj/structure/simple_door/wood,
+/obj/machinery/door/poddoor/shutters{
+	id = "snake"
+	},
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/caves)
 "veR" = (
@@ -70073,7 +70079,7 @@ uoO
 eLE
 aUv
 aUv
-lTj
+aPr
 eLE
 uoO
 uoO
@@ -71100,7 +71106,7 @@ uoO
 uoO
 uoO
 fjR
-myy
+lTj
 uoO
 uoO
 uoO
