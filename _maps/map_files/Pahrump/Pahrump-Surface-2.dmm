@@ -1882,7 +1882,7 @@
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/wasteland)
 "aNJ" = (
-/obj/structure/bed/pod,
+/obj/structure/bed/wooden,
 /obj/item/bedsheet/black,
 /turf/open/floor/f13/wood,
 /area/f13/building)
@@ -7066,15 +7066,18 @@
 /area/f13/wasteland)
 "deX" = (
 /obj/structure/table/reinforced,
-/obj/item/clothing/accessory/medal/gold,
-/obj/structure/window{
+/obj/item/card/id/dogtag/deputy,
+/obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/structure/window{
+/obj/structure/window/reinforced{
 	dir = 4
 	},
-/obj/machinery/door/window/southleft{
+/obj/machinery/door/window/brigdoor/southleft{
 	req_one_access_txt = "34"
+	},
+/obj/item/clothing/head/f13/police/officer{
+	name = "OPD officer's cap"
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
@@ -9941,7 +9944,9 @@
 "epF" = (
 /obj/item/clothing/shoes/combat,
 /obj/structure/closet,
-/obj/item/clothing/head/f13/police/officer,
+/obj/item/clothing/head/f13/police/officer{
+	name = "OPD officer's cap"
+	},
 /obj/item/clothing/under/f13/police/officer,
 /obj/machinery/light{
 	dir = 1
@@ -12647,12 +12652,7 @@
 /obj/item/stack/sheet/metal/fifty,
 /obj/item/stack/sheet/metal/fifty,
 /obj/item/stack/sheet/metal/fifty,
-/obj/effect/turf_decal/box/white{
-	light_color = "#AAAAAA"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
-	icon_state = "darkdirtysolid"
-	},
+/turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "fvH" = (
 /obj/structure/chair{
@@ -12815,12 +12815,7 @@
 /obj/item/stack/ore/blackpowder/fifty,
 /obj/item/stack/ore/blackpowder/fifty,
 /obj/item/stack/ore/blackpowder/fifty,
-/obj/effect/turf_decal/box/white{
-	light_color = "#AAAAAA"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
-	icon_state = "darkdirtysolid"
-	},
+/turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "fzx" = (
 /obj/structure/rack,
@@ -12835,13 +12830,10 @@
 /obj/structure/rack{
 	pixel_x = 2
 	},
-/obj/effect/turf_decal/bot_red,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/mid,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/highmid,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/lowmid,
-/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
-	icon_state = "darkdirtysolid"
-	},
+/turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "fzD" = (
 /turf/open/indestructible/ground/outside/road{
@@ -14296,11 +14288,6 @@
 /area/f13/building)
 "gew" = (
 /obj/structure/rack,
-/obj/effect/turf_decal/bot_red,
-/obj/machinery/light{
-	dir = 4;
-	pixel_y = -16
-	},
 /obj/effect/spawner/lootdrop/f13/weapon/melee/random_high,
 /obj/effect/spawner/lootdrop/f13/weapon/melee/random_high,
 /obj/effect/spawner/lootdrop/f13/weapon/melee/random_high,
@@ -14309,9 +14296,7 @@
 /obj/effect/spawner/lootdrop/f13/armor/tier3,
 /obj/effect/spawner/lootdrop/f13/armor/tier2,
 /obj/effect/spawner/lootdrop/f13/armor/tier2,
-/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
-	icon_state = "darkdirtysolid"
-	},
+/turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "gez" = (
 /obj/structure/closet/crate/trashcart,
@@ -14670,6 +14655,12 @@
 	icon_state = "floordirty"
 	},
 /area/f13/building)
+"gkF" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "gkV" = (
 /obj/structure/destructible/tribal_torch/lit,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -15240,13 +15231,13 @@
 	pixel_y = -4;
 	pixel_x = -3
 	},
-/obj/structure/window{
+/obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/structure/window{
+/obj/structure/window/reinforced{
 	dir = 4
 	},
-/obj/machinery/door/window/northleft{
+/obj/machinery/door/window/brigdoor/northleft{
 	req_one_access_txt = "34"
 	},
 /turf/open/floor/f13/wood,
@@ -15839,12 +15830,7 @@
 /obj/item/stack/sheet/glass/fifty,
 /obj/item/stack/sheet/glass/fifty,
 /obj/item/stack/sheet/plastic/fifty,
-/obj/effect/turf_decal/box/white{
-	light_color = "#AAAAAA"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
-	icon_state = "darkdirtysolid"
-	},
+/turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "gHT" = (
 /obj/structure/barricade/sandbags,
@@ -15911,12 +15897,7 @@
 /obj/item/stack/sheet/leather/twenty,
 /obj/item/stack/sheet/cloth/thirty,
 /obj/item/stack/sheet/hay/fifty,
-/obj/effect/turf_decal/box/white{
-	light_color = "#AAAAAA"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
-	icon_state = "darkdirtysolid"
-	},
+/turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "gJp" = (
 /obj/effect/decal/cleanable/dirt,
@@ -15927,15 +15908,12 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "gJx" = (
-/obj/effect/turf_decal/bot_red,
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/blueprintLowPartsWeighted,
 /obj/effect/spawner/lootdrop/f13/blueprintLowPartsWeighted,
 /obj/effect/spawner/lootdrop/f13/blueprintLowPartsWeighted,
 /obj/effect/spawner/lootdrop/f13/blueprintLowPartsWeighted,
-/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
-	icon_state = "darkdirtysolid"
-	},
+/turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "gJY" = (
 /obj/machinery/light/broken{
@@ -16251,10 +16229,10 @@
 /obj/item/reagent_containers/food/drinks/bottle/holywater{
 	pixel_y = -3
 	},
-/obj/structure/window{
+/obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/machinery/door/window/northright{
+/obj/machinery/door/window/brigdoor/northright{
 	req_one_access_txt = "34"
 	},
 /turf/open/floor/f13/wood,
@@ -18210,7 +18188,9 @@
 "hHj" = (
 /obj/item/clothing/shoes/combat,
 /obj/structure/closet,
-/obj/item/clothing/head/f13/police/officer,
+/obj/item/clothing/head/f13/police/officer{
+	name = "OPD officer's cap"
+	},
 /obj/item/clothing/under/f13/police/officer,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
@@ -19626,15 +19606,15 @@
 /area/f13/raiders)
 "ijO" = (
 /obj/structure/table/reinforced,
-/obj/item/reagent_containers/food/drinks/flask/gold{
-	pixel_y = -1;
-	name = "navy captain's flask"
-	},
-/obj/structure/window{
+/obj/item/card/id/dogtag/sheriff,
+/obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/machinery/door/window/southright{
+/obj/machinery/door/window/brigdoor/southright{
 	req_one_access_txt = "34"
+	},
+/obj/item/clothing/head/f13/police/chief{
+	name = "OPD chief's cap"
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
@@ -19917,7 +19897,7 @@
 /area/f13/building)
 "iqN" = (
 /obj/structure/table/wood,
-/turf/open/floor/wood/f13/oak,
+/turf/open/floor/wood/f13/stage_r,
 /area/f13/wasteland)
 "iqT" = (
 /obj/machinery/light/small{
@@ -25367,7 +25347,9 @@
 "kCa" = (
 /obj/item/clothing/shoes/combat,
 /obj/structure/closet,
-/obj/item/clothing/head/f13/police/officer,
+/obj/item/clothing/head/f13/police/officer{
+	name = "OPD officer's cap"
+	},
 /obj/item/clothing/under/f13/police/officer,
 /obj/machinery/light,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/low,
@@ -26898,13 +26880,15 @@
 	},
 /area/f13/legion)
 "llq" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
+/obj/structure/rack,
+/obj/effect/spawner/lootdrop/f13/blueprintLowPartsWeighted,
+/obj/effect/spawner/lootdrop/f13/blueprintLowPartsWeighted,
+/obj/effect/spawner/lootdrop/f13/blueprintLowPartsWeighted,
+/obj/effect/spawner/lootdrop/f13/blueprintLowPartsWeighted,
+/obj/machinery/light{
+	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/turf/closed/wall/f13/wood,
+/turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "lly" = (
 /obj/structure/chair/wood{
@@ -34345,7 +34329,9 @@
 /obj/structure/closet,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier1,
-/obj/item/clothing/head/f13/police/officer,
+/obj/item/clothing/head/f13/police/officer{
+	name = "OPD officer's cap"
+	},
 /obj/item/clothing/under/f13/police/officer,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
@@ -38573,7 +38559,9 @@
 /obj/item/clothing/shoes/combat,
 /obj/structure/closet,
 /obj/effect/spawner/lootdrop/f13/weapon/melee/random,
-/obj/item/clothing/head/f13/police/officer,
+/obj/item/clothing/head/f13/police/officer{
+	name = "OPD officer's cap"
+	},
 /obj/item/clothing/under/f13/police/officer,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
@@ -38611,8 +38599,8 @@
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
 	},
-/obj/machinery/light/small{
-	dir = 4
+/obj/machinery/light{
+	dir = 8
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
@@ -38736,6 +38724,9 @@
 "qAz" = (
 /obj/machinery/light{
 	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
@@ -77994,11 +77985,11 @@ nvg
 ePY
 kEI
 dCV
-ydO
+iRC
 fFF
 mvv
-mvv
-mvv
+gkF
+gkF
 dCV
 giZ
 tAe
@@ -78255,7 +78246,7 @@ ydO
 fGh
 mvv
 juT
-mvv
+gkF
 dCV
 giZ
 mHj
@@ -78508,7 +78499,7 @@ dge
 kEI
 cbr
 mHj
-ydO
+iRC
 fFF
 mvv
 mvv
@@ -78761,13 +78752,13 @@ ueA
 sYX
 sYX
 qAz
-ydO
+iRC
 mHj
 mHj
-ydO
-ydO
+iRC
+iRC
 fFF
-mvv
+gkF
 mvv
 dCV
 giZ
@@ -79017,12 +79008,12 @@ dlG
 dlG
 ueA
 sYX
-mHj
+ixe
+iRC
 ydO
-ydO
-ydO
-ydO
-ydO
+iRC
+iRC
+iRC
 dCV
 dCV
 dCV
@@ -79274,7 +79265,7 @@ lak
 mUZ
 iVA
 dSg
-mHj
+ixe
 ydO
 kEI
 kEI
@@ -79531,7 +79522,7 @@ lak
 mUZ
 ueA
 sYX
-mHj
+ixe
 ydO
 kEI
 bGu
@@ -79788,7 +79779,7 @@ lak
 mUZ
 iVA
 dSg
-mHj
+ixe
 ydO
 kEI
 bMG
@@ -81587,7 +81578,7 @@ fJy
 rSM
 sYX
 iqN
-uCT
+uJC
 ydO
 dCV
 dCV
@@ -81844,7 +81835,7 @@ fJy
 gRL
 sYX
 dCV
-dCV
+ueA
 ueA
 kTf
 dCV
@@ -82614,9 +82605,9 @@ ozq
 ftA
 ozq
 ozq
-kTf
+qye
 jcm
-aRl
+ozq
 lEJ
 ueA
 ydO
@@ -82871,9 +82862,9 @@ ozq
 aRl
 ozq
 ozq
-qye
-aRl
-aRl
+kTf
+ozq
+ozq
 ooE
 kTf
 ydO
@@ -84668,7 +84659,7 @@ dCV
 dQI
 aRl
 gew
-gJx
+llq
 ozq
 dCV
 jlm
@@ -84930,7 +84921,7 @@ dCV
 dCV
 ceT
 kTf
-llq
+nVb
 dCV
 lgL
 ydO
