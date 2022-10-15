@@ -12,6 +12,12 @@
 	icon_state = "boots_enclave"
 	item_state = "boots_enclave"
 
+/obj/item/clothing/shoes/f13/enclave/serviceboots/undertown
+	name = "old world service boots"
+	desc = "Tall shiny boots with kevlar layers."
+	icon_state = "boots_enclave"
+	item_state = "boots_enclave"
+
 /obj/item/clothing/shoes/f13/rag
 	name = "footcloths"
 	desc = "Ripped cloth used as improvised foot strips, instead of shoes. Crude and gets dirty fast."

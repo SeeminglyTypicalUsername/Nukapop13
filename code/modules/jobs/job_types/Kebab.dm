@@ -290,7 +290,7 @@ Mayor
 	supervisors = "free hand of the market"
 	description = "The greed of the United States survived better than its people. You are an organ of this greed. Ensure its continuation."
 	selection_color = "#dcba97"
-	exp_requirements = 800
+	exp_requirements = 0
 
 	outfit = /datum/outfit/job/den/f13shopkeeper
 	access = list(ACCESS_BAR, ACCESS_CARGO_BOT, ACCESS_MINING, ACCESS_GATEWAY)
@@ -358,7 +358,7 @@ Mayor
 	supervisors = "the Merchant"
 	description = "You are the merchant's right hand and heir apparent; handle the menial duties of running the store, arrange deals on the merchant's behalf, and set quotas for the slaves."
 	selection_color = "#dcba97"
-	exp_requirements = 600
+	exp_requirements = 0
 	outfit = /datum/outfit/job/oasis/f13apprentice
 
 	access = list(ACCESS_BAR, ACCESS_CARGO_BOT, ACCESS_GATEWAY, ACCESS_MINING)
@@ -424,9 +424,8 @@ Mayor
 	supervisors = "the Merchant"
 	description = "You are a loyal hired gun of the Merchant; follow his bidding, keep his slaves in line, and make sure no one holds out payment from him."
 	selection_color = "#dcba97"
-	exp_requirements = 12
 	exp_type = EXP_TYPE_FALLOUT
-	exp_requirements = 600
+	exp_requirements = 0
 
 	outfit = /datum/outfit/job/oasis/f13deputy
 	access = list(ACCESS_BAR, ACCESS_CARGO_BOT, ACCESS_MINING, ACCESS_GATEWAY)
@@ -1105,7 +1104,7 @@ Mayor
 	selection_color = "#9500C7"
 	forbids = "Exposing the secrets of the Church, fraternizing with the NCR, treating patients for nothing in return, consuming alcohol, and using chems."
 	enforces = "Preaching the faith, following the faith's internal structure and rules."
-	exp_requirements = 1000
+	exp_requirements = 0
 
 	outfit = /datum/outfit/job/cotc/f13kebabhighpriest
 	access = list(ACCESS_COTC, ACCESS_COTC_ARMORY, ACCESS_COTC_SECRET)
@@ -1167,7 +1166,7 @@ Mayor
 	selection_color = "#9500C7"
 	forbids = "Exposing the secrets of the Church, fraternizing with the NCR, treating patients for nothing in return, consuming alcohol, and using chems."
 	enforces = "Preaching the faith, following the faith's internal structure and rules."
-	exp_requirements = 800
+	exp_requirements = 0
 
 	outfit = /datum/outfit/job/cotc/f13kebabservitormedici
 	access = list(ACCESS_COTC, ACCESS_COTC_ARMORY, ACCESS_COTC_SECRET)
@@ -1229,9 +1228,9 @@ Mayor
 	selection_color = "#9500C7"
 	forbids = "Exposing the secrets of the Church, fraternizing with the NCR, treating patients for nothing in return, consuming alcohol, and using chems."
 	enforces = "Preaching the faith, following the faith's internal structure and rules."
-	exp_requirements = 800
+	exp_requirements = 0
 
-	outfit = /datum/outfit/job/cotc/f13servitormilitant
+	outfit = /datum/outfit/job/cotc/f13kebabservitormilitant
 	access = list(ACCESS_COTC, ACCESS_COTC_ARMORY, ACCESS_COTC_SECRET)
 	minimal_access = list(ACCESS_COTC, ACCESS_COTC_ARMORY, ACCESS_COTC_SECRET)
 
@@ -1244,7 +1243,7 @@ Mayor
 		),
 	)
 
-/datum/outfit/job/cotc/f13servitormilitant
+/datum/outfit/job/cotc/f13kebabservitormilitant
 	name = "Servitor Militant"
 	jobtype = /datum/job/oasis/f13kebabservitormilitant
 
@@ -1287,9 +1286,9 @@ Mayor
 	selection_color = "#CB2EFF"
 	forbids = "Exposing the secrets of the Church, fraternizing with the NCR, treating patients for nothing in return, consuming alcohol, and using chems."
 	enforces = "Preaching the faith, following the faith's internal structure and rules."
-	exp_requirements = 500
+	exp_requirements = 0
 
-	outfit = /datum/outfit/job/cotc/f13proselytizer
+	outfit = /datum/outfit/job/cotc/f13kebabproselytizer
 	access = list(ACCESS_COTC, ACCESS_COTC_ARMORY)
 	minimal_access = list(ACCESS_COTC, ACCESS_COTC_ARMORY)
 
@@ -1302,7 +1301,7 @@ Mayor
 		),
 	)
 
-/datum/outfit/job/cotc/f13proselytizer
+/datum/outfit/job/cotc/f13kebabproselytizer
 	name = "Proselytizer"
 	jobtype = /datum/job/oasis/f13kebabproselytizer
 
@@ -1339,9 +1338,9 @@ Mayor
 	selection_color = "#CB2EFF"
 	forbids = "Exposing the secrets of the Church, fraternizing with the NCR, treating patients for nothing in return, consuming alcohol, and using chems."
 	enforces = "Preaching the faith, following the faith's internal structure and rules."
-	exp_requirements = 500
+	exp_requirements = 0
 
-	outfit = /datum/outfit/job/cotc/f13acolyte
+	outfit = /datum/outfit/job/cotc/f13kebabacolyte
 	access = list(ACCESS_COTC)
 	minimal_access = list(ACCESS_COTC)
 
@@ -1354,7 +1353,7 @@ Mayor
 		),
 	)
 
-/datum/outfit/job/cotc/f13acolyte
+/datum/outfit/job/cotc/f13kebabacolyte
 	name = "Acolyte"
 	jobtype = /datum/job/oasis/f13kebabacolyte
 
@@ -1378,7 +1377,7 @@ Mayor
 		/obj/item/reagent_containers/hypospray/medipen/stimpak = 4
 		)
 
-/datum/outfit/job/cotc/f13acolyte/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+/datum/outfit/job/cotc/f13kebabacolyte/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
 	if(visualsOnly)
 		return
@@ -1435,8 +1434,8 @@ Mayor
 /datum/outfit/job/cotc/neophyte/pre_equip(mob/living/carbon/human/H)
 	..()
 	uniform = pick(
-		/obj/item/clothing/under/f13/settler, \
-		/obj/item/clothing/under/f13/brahminm, \
-		/obj/item/clothing/under/f13/machinist, \
-		/obj/item/clothing/under/f13/lumberjack, \
+		/obj/item/clothing/under/f13/settler,
+		/obj/item/clothing/under/f13/brahminm,
+		/obj/item/clothing/under/f13/machinist,
+		/obj/item/clothing/under/f13/lumberjack,
 		/obj/item/clothing/under/f13/roving)

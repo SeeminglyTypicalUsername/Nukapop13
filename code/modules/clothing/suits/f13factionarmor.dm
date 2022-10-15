@@ -1146,3 +1146,15 @@
 	armor = list("melee" = 25, "bullet" = 30, "laser" = 30, "energy" = 20, "bomb" = 20, "bio" = 20, "rad" = 20, "fire" = 20, "acid" = 0)
 	body_parts_covered = CHEST|GROIN|ARMS|LEGS
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/bulletbelt
+
+////////////
+//Undertown//
+////////////
+
+/obj/item/clothing/suit/armor/f13/mordinos/grey_trench_coat/undertown
+	name = "grey trench coat"
+	desc = "An armored coat with large pockets."
+	icon_state = "grey_trench_coat"
+	item_state = "grey_trench_coat"
+	armor = list("melee" = 25, "bullet" = 25, "laser" = 25, "bio" = 0, "rad" = 0, "fire" = 25, "acid" = 25) //up to change
+	pocket_storage_component_path = /datum/component/storage/concrete/pockets/bulletbelt

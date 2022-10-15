@@ -1507,6 +1507,7 @@
 	access = list(ACCESS_YAKUZA)
 
 //Yuma
+
 /obj/item/card/id/yuma/ncr/papers
 	name = "identification papers"
 	desc = "Papers detailing general information personal information used for identification."
@@ -1515,3 +1516,13 @@
 	uses_overlays = FALSE
 	assignment = "NCR identification papers"
 	access = list(ACCESS_NCR, ACCESS_NCR_ARMORY, ACCESS_NCRREP)
+
+//undertown
+
+/obj/item/card/id/undertown/papers
+	name = "identification papers"
+	desc = "Papers detailing general information personal information used for identification."
+	icon_state = "papers"
+	item_state = null
+	uses_overlays = FALSE
+	assignment = "identification papers"

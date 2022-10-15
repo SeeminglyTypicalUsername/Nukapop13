@@ -17,6 +17,12 @@
 		#include "map_files\Reno\Reno-Surface-2.dmm"
 		#include "map_files\Reno\Reno-Underground-1.dmm"
 
+		#include "undertown-above-3.dmm"
+		#include "undertown-surface-2.dmm"
+		#include "undertown-underground-1.dmm"
+
+
+
 		#ifdef TRAVISBUILDING
 			#include "templates.dm"
 		#endif
