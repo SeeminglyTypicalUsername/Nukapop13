@@ -385,7 +385,7 @@
 	custom_materials = list(/datum/material/iron=100)
 	resistance_flags = FIRE_PROOF
 
-//BOSRanks
+///BOS Ranks///
 
 /obj/item/clothing/accessory/bos/initiateK
 	name = "Knight-Aspirant pin"
@@ -492,39 +492,98 @@
 	item_color = "elder"
 	minimize_when_attached = TRUE
 
-//Ranks
+///NCR Ranks///
+
+/obj/item/clothing/accessory/ncr/LTG
+	name = "(O-8) Lieutenant General rank pin"
+	desc = "An officer holding the rank of Major General should wear these."
+	icon_state = "lieutenant_general"
+	item_color = "lieutenant_general"
+	minimize_when_attached = TRUE
+
+/obj/item/clothing/accessory/ncr/MG
+	name = "(O-8) Major General rank pin"
+	desc = "An officer holding the rank of Major General should wear these."
+	icon_state = "major_general"
+	item_color = "major_general"
+	minimize_when_attached = TRUE
+
+/obj/item/clothing/accessory/ncr/BG
+	name = "(O-7) Brigadier General rank pin"
+	desc = "An officer holding the rank of Brigadier General should wear these."
+	icon_state = "major_general"
+	item_color = "major_general"
+	minimize_when_attached = TRUE
 
 /obj/item/clothing/accessory/ncr
 	name = "(O-6) Colonel rank pin"
 	desc = "An officer holding the rank of Colonel should wear these."
-	icon_state = "colonelrank"
-	item_color = "colonelrank"
+	icon_state = "colonel"
+	item_color = "colonel"
+	minimize_when_attached = TRUE
+
+/obj/item/clothing/accessory/ncr/LTCOL
+	name = "(O-5) Lieutenant Colonel rank pin"
+	desc = "An officer holding the rank of Lieutenant Colonel should wear this."
+	icon_state = "major"
+	item_color = "major"
+	minimize_when_attached = TRUE
+
+/obj/item/clothing/accessory/ncr/MAJ
+	name = "(O-4) Major rank pin"
+	desc = "An officer holding the rank of Major should wear this."
+	icon_state = "major"
+	item_color = "major"
 	minimize_when_attached = TRUE
 
 /obj/item/clothing/accessory/ncr/CPT
 	name = "(O-3) Captain rank pin"
 	desc = "An officer holding the rank of Captain should wear this."
-	icon_state = "captainrank"
-	item_color = "captainrank"
+	icon_state = "captain"
+	item_color = "captain"
 	minimize_when_attached = TRUE
 
 /obj/item/clothing/accessory/ncr/LT1
 	name = "(O-2) First Lieutenant rank pin"
 	desc = "An officer holding the rank of First Lieutenant should wear this."
-	icon_state = "firstlieutenantrank"
-	item_color = "firstlieutenantrank"
+	icon_state = "first_lieutenant"
+	item_color = "first_lieutenant"
 	minimize_when_attached = TRUE
 
 /obj/item/clothing/accessory/ncr/LT2
 	name = "(O-1) Second Lieutenant rank pin"
 	desc = "An officer holding the rank of Second Lieutenant should wear this."
-	icon_state = "secondlieutenantrank"
-	item_color = "secondlieutenantrank"
+	icon_state = "second_lieutenant"
+	item_color = "second_lieutenant"
 	minimize_when_attached = TRUE
 
-/obj/item/clothing/accessory/armband/med/ncr
-	name = "Medical Personnel armband"
-	desc = "An armband worn by NCR medical personnel. This one is white."
+/obj/item/clothing/accessory/ncr/SMA
+	name = "(E-9) Sergeant Major of the Army rank pins"
+	desc = "A trooper holding the rank of Sergeant Major of the Army should wear this."
+	icon_state = "ncrenlisted"
+	item_color = "ncrenlisted"
+	minimize_when_attached = TRUE
+
+/obj/item/clothing/accessory/ncr/SGM
+	name = "(E-9) Sergeant Major rank pins"
+	desc = "A trooper holding the rank of Sergeant Major should wear this."
+	icon_state = "ncrenlisted"
+	item_color = "ncrenlisted"
+	minimize_when_attached = TRUE
+
+/obj/item/clothing/accessory/ncr/1SG
+	name = "(E-8) First Sergeant rank pins"
+	desc = "A trooper holding the rank of First Sergeant should wear this."
+	icon_state = "ncrenlisted"
+	item_color = "ncrenlisted"
+	minimize_when_attached = TRUE
+
+/obj/item/clothing/accessory/ncr/MSG
+	name = "(E-8) Master Sergeant rank pins"
+	desc = "A trooper holding the rank of Master Sergeant should wear this."
+	icon_state = "ncrenlisted"
+	item_color = "ncrenlisted"
+	minimize_when_attached = TRUE
 
 /obj/item/clothing/accessory/ncr/FSGT
 	name = "(E-7) Sergeant First Class rank pins"
@@ -547,20 +606,9 @@
 	item_color = "ncrenlisted"
 	minimize_when_attached = TRUE
 
-/obj/item/clothing/accessory/armband/engine/ncr
-	name = "engineering armband (E-5 Engineer)"
-	desc = "An armband worn by NCR Engineers to display their rank and speciality. This one is orange with a reflective strip!"
-
 /obj/item/clothing/accessory/ncr/CPL
 	name = "(E-4) Corporal rank pins"
 	desc = "A Corporal should wear this."
-	icon_state = "ncrenlisted"
-	item_color = "ncrenlisted"
-	minimize_when_attached = TRUE
-
-/obj/item/clothing/accessory/ncr/MCPL
-	name = "(E-4E) Master Corporal rank pins"
-	desc = "A Master Corporal should wear this."
 	icon_state = "ncrenlisted"
 	item_color = "ncrenlisted"
 	minimize_when_attached = TRUE
@@ -591,6 +639,16 @@
 	desc = "An armband issued to NCR Military Police, signifying their alignment with NCROSI rather than the typical chain of command."
 	icon_state = "blackband"
 	item_color = "blackband"
+
+/obj/item/clothing/accessory/armband/engine/ncr
+	name = "engineering armband (E-5 Engineer)"
+	desc = "An armband worn by NCR Engineers to display their rank and speciality. This one is orange with a reflective strip!"
+
+/obj/item/clothing/accessory/armband/med/ncr
+	name = "Medical Personnel armband"
+	desc = "An armband worn by NCR medical personnel. This one is white."
+
+//Ranger Ranks (eugh)
 
 /obj/item/clothing/accessory/ranger
 	name = "'Ranger' rank pins"
@@ -632,8 +690,8 @@
 	icon_state = "colonelrank" //TO-DO: Add a new sprite
 	item_color = "colonelrank"
 
-/* Enclave ranks */
-// Bunker duty
+///Enclave Ranks///
+
 /obj/item/clothing/accessory/enclave
 	name = "(E-2) Private rank pins"
 	desc = "A rank pin denominating its wearer as Private within United States army."
