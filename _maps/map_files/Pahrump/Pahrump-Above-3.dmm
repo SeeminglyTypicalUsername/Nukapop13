@@ -588,15 +588,7 @@
 /turf/open/floor/wood/f13/stage_b/outdoors,
 /area/f13/wasteland)
 "ff" = (
-/obj/structure/rack/shelf_metal,
-/obj/item/storage/belt/security,
-/obj/item/storage/belt/security,
-/obj/item/storage/belt/security,
-/obj/item/storage/belt/security,
-/obj/item/clothing/suit/armor/vest,
-/obj/item/clothing/suit/armor/vest,
-/obj/item/clothing/suit/armor/vest,
-/obj/item/clothing/suit/armor/vest,
+/obj/structure/table,
 /obj/machinery/light,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
@@ -768,8 +760,6 @@
 /area/f13/legion)
 "ha" = (
 /obj/structure/rack/shelf_metal,
-/obj/item/storage/box/handcuffs,
-/obj/item/storage/box/handcuffs,
 /obj/item/restraints/legcuffs/bola,
 /obj/item/restraints/legcuffs/bola,
 /obj/item/restraints/legcuffs/bola,
@@ -1105,6 +1095,28 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/wasteland)
+"jE" = (
+/obj/structure/rack/shelf_metal,
+/obj/item/clothing/gloves/f13/military,
+/obj/item/clothing/gloves/f13/military,
+/obj/item/clothing/gloves/f13/military,
+/obj/item/clothing/gloves/f13/military,
+/obj/item/clothing/shoes/f13/military,
+/obj/item/clothing/shoes/f13/military,
+/obj/item/clothing/shoes/f13/military,
+/obj/item/clothing/shoes/f13/military,
+/obj/item/clothing/under/f13/camo/desert,
+/obj/item/clothing/under/f13/camo/desert,
+/obj/item/clothing/under/f13/camo/desert,
+/obj/item/clothing/under/f13/camo/desert,
+/obj/item/clothing/glasses/sunglasses,
+/obj/item/clothing/glasses/sunglasses,
+/obj/item/clothing/glasses/sunglasses,
+/obj/item/clothing/glasses/sunglasses,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/building)
 "jF" = (
 /obj/structure/rack,
 /obj/machinery/light/small{
@@ -2732,14 +2744,18 @@
 /area/f13/building)
 "zf" = (
 /obj/structure/rack/shelf_metal,
-/obj/item/shield/riot,
-/obj/item/shield/riot,
-/obj/item/clothing/mask/gas/glass,
-/obj/item/clothing/mask/gas/glass,
-/obj/item/clothing/mask/gas/glass,
-/obj/item/clothing/mask/gas/glass,
-/obj/item/storage/box/teargas,
-/obj/item/storage/box/flashbangs,
+/obj/item/storage/belt/security,
+/obj/item/storage/belt/security,
+/obj/item/storage/belt/security,
+/obj/item/storage/belt/security,
+/obj/item/clothing/suit/armor/vest,
+/obj/item/clothing/suit/armor/vest,
+/obj/item/clothing/suit/armor/vest,
+/obj/item/clothing/suit/armor/vest,
+/obj/item/clothing/head/flakhelm,
+/obj/item/clothing/head/flakhelm,
+/obj/item/clothing/head/flakhelm,
+/obj/item/clothing/head/flakhelm,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
@@ -2790,20 +2806,10 @@
 /turf/open/floor/plasteel/grimy,
 /area/f13/brotherhood/surface)
 "zV" = (
-/obj/structure/rack/shelf_metal,
-/obj/item/storage/box/citizenship_permits,
-/obj/item/radio/headset/headset_town,
-/obj/item/radio/headset/headset_town,
-/obj/item/radio/headset/headset_town,
-/obj/item/radio/headset/headset_town,
-/obj/item/radio/headset/headset_town,
-/obj/item/radio/headset/headset_town,
-/obj/item/radio/headset/headset_town,
-/obj/item/radio/headset/headset_town,
-/obj/item/radio/headset/headset_town,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	name = "metal plating"
+/obj/machinery/light{
+	dir = 4
 	},
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/f13/building)
 "zY" = (
 /obj/effect/overlay/junk/curtain{
@@ -2831,12 +2837,15 @@
 /turf/open/floor/wood/wood_tiled,
 /area/f13/building)
 "Ai" = (
-/obj/machinery/autolathe/ammo/unlocked{
-	advanced = 0;
-	intermediate = 0
-	},
-/obj/item/stack/ore/blackpowder/twenty,
-/obj/item/stack/sheet/metal/fifty,
+/obj/structure/rack/shelf_metal,
+/obj/item/storage/box/teargas,
+/obj/item/storage/box/flashbangs,
+/obj/item/shield/riot,
+/obj/item/shield/riot,
+/obj/item/clothing/mask/gas/glass,
+/obj/item/clothing/mask/gas/glass,
+/obj/item/clothing/mask/gas/glass,
+/obj/item/clothing/mask/gas/glass,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
@@ -3999,46 +4008,11 @@
 	},
 /area/f13/building)
 "Lv" = (
-/obj/structure/table,
-/obj/item/clothing/glasses/sunglasses,
-/obj/item/clothing/glasses/sunglasses,
-/obj/item/clothing/glasses/sunglasses,
-/obj/item/clothing/glasses/sunglasses,
-/obj/item/clothing/glasses/sunglasses,
-/obj/item/clothing/glasses/sunglasses,
-/obj/item/clothing/glasses/sunglasses,
-/obj/item/clothing/glasses/sunglasses,
-/obj/machinery/light/small{
-	dir = 1
-	},
-/obj/item/stock_parts/cell/high/plus{
-	pixel_y = 7
-	},
-/obj/item/stock_parts/cell/high/plus{
-	pixel_y = 7
-	},
-/obj/item/flashlight{
-	pixel_y = 8
-	},
-/obj/item/flashlight{
-	pixel_y = 8
-	},
-/obj/item/flashlight{
-	pixel_y = 8
-	},
-/obj/item/flashlight{
-	pixel_y = 8
-	},
-/obj/item/flashlight{
-	pixel_y = 8
-	},
-/obj/item/flashlight{
-	pixel_y = 8
-	},
-/obj/item/flashlight{
-	pixel_y = 8
-	},
-/obj/machinery/cell_charger,
+/obj/structure/rack/shelf_metal,
+/obj/item/storage/box/handcuffs,
+/obj/item/storage/box/handcuffs,
+/obj/item/flashlight/seclite,
+/obj/item/flashlight/seclite,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
@@ -4451,12 +4425,12 @@
 /area/f13/brotherhood/surface)
 "OG" = (
 /obj/machinery/light,
-/obj/structure/mirror{
-	pixel_x = 32
-	},
-/obj/structure/sink/kitchen{
-	dir = 8;
+/obj/structure/sink{
+	dir = 4;
 	pixel_x = 12
+	},
+/obj/structure/mirror{
+	pixel_x = 26
 	},
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building)
@@ -4668,7 +4642,16 @@
 /turf/open/floor/f13/wood,
 /area/f13/wasteland)
 "Qn" = (
-/turf/open/indestructible/ground/outside/roof,
+/obj/effect/decal/remains/human,
+/obj/item/clothing/under/f13/police/formal,
+/obj/item/clothing/suit/f13/police/chief{
+	name = "OPD chief's jacket"
+	},
+/obj/item/restraints/handcuffs,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plasteel/f13/vault_floor/plating{
+	name = "plating"
+	},
 /area/f13/building)
 "Qs" = (
 /obj/effect/decal/cleanable/dirt{
@@ -4706,23 +4689,10 @@
 /turf/open/floor/wood/f13/stage_b/outdoors,
 /area/f13/wasteland)
 "QP" = (
-/obj/structure/rack/shelf_metal,
-/obj/item/clothing/gloves/f13/military,
-/obj/item/clothing/gloves/f13/military,
-/obj/item/clothing/gloves/f13/military,
-/obj/item/clothing/gloves/f13/military,
-/obj/item/clothing/shoes/f13/military,
-/obj/item/clothing/shoes/f13/military,
-/obj/item/clothing/shoes/f13/military,
-/obj/item/clothing/shoes/f13/military,
-/obj/item/clothing/under/f13/camo/desert,
-/obj/item/clothing/under/f13/camo/desert,
-/obj/item/clothing/under/f13/camo/desert,
-/obj/item/clothing/under/f13/camo/desert,
-/obj/item/clothing/head/flakhelm,
-/obj/item/clothing/head/flakhelm,
-/obj/item/clothing/head/flakhelm,
-/obj/item/clothing/head/flakhelm,
+/obj/structure/table,
+/obj/machinery/cell_charger,
+/obj/item/stock_parts/cell/high/plus,
+/obj/item/stock_parts/cell/high/plus,
 /obj/structure/reagent_dispensers/peppertank{
 	pixel_y = 32
 	},
@@ -4820,7 +4790,7 @@
 /turf/open/floor/plasteel/grimy,
 /area/f13/brotherhood/surface)
 "RG" = (
-/obj/structure/bed/pod,
+/obj/structure/bed/wooden,
 /obj/item/bedsheet/brown,
 /turf/open/floor/carpet/brown,
 /area/f13/building)
@@ -5229,7 +5199,7 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/bar)
 "Vc" = (
-/obj/structure/bed/pod,
+/obj/structure/bed/wooden,
 /obj/machinery/light{
 	dir = 1
 	},
@@ -28522,7 +28492,7 @@ HD
 Ce
 qa
 qa
-qa
+zV
 qa
 mI
 Wx
@@ -29809,8 +29779,8 @@ BB
 tM
 tM
 Br
-gb
-oJ
+Br
+mI
 PL
 PL
 PL
@@ -30323,8 +30293,8 @@ Gf
 HU
 tM
 Nu
-Br
-mI
+gb
+oJ
 PL
 PL
 PL
@@ -30580,7 +30550,7 @@ mI
 tM
 tM
 tM
-Xl
+Br
 mI
 PL
 PL
@@ -30837,7 +30807,7 @@ mI
 tL
 yB
 BB
-Br
+Xl
 mI
 PL
 PL
@@ -31351,8 +31321,8 @@ mI
 RG
 Gf
 tM
-Br
-mI
+gb
+oJ
 CC
 CC
 CC
@@ -31608,8 +31578,8 @@ mI
 tM
 tM
 tM
-Br
-mI
+gb
+oJ
 CC
 CC
 CC
@@ -31866,7 +31836,7 @@ Nu
 YA
 Br
 Br
-ad
+mI
 CC
 CC
 CC
@@ -32375,11 +32345,11 @@ PL
 PL
 hQ
 ad
-ad
-ad
+Kv
+Kv
 yj
 yj
-ad
+Kv
 ad
 CC
 CC
@@ -32632,11 +32602,11 @@ PL
 PL
 hQ
 ad
-ad
-wp
+Kv
+jE
 yj
 yj
-ue
+ha
 ad
 CC
 CC
@@ -32889,11 +32859,11 @@ PL
 PL
 hQ
 ad
-ad
+Kv
 zf
 yj
 yj
-HK
+Lv
 ad
 CC
 CC
@@ -33146,7 +33116,7 @@ PL
 PL
 hQ
 ad
-ad
+Kv
 QP
 yj
 yj
@@ -33403,11 +33373,11 @@ PL
 PL
 hQ
 ad
-ad
-Lv
+Kv
+HK
 yj
 yj
-ha
+wp
 ad
 CC
 CC
@@ -33660,11 +33630,11 @@ PL
 PL
 hQ
 ad
-ad
+Kv
 Ai
 yj
 yj
-zV
+ue
 ad
 CC
 CC
@@ -33917,11 +33887,11 @@ PL
 PL
 hQ
 ad
-ad
-ad
+Kv
+Kv
 Ww
 lw
-ad
+Kv
 ad
 CC
 CC
@@ -34174,10 +34144,10 @@ PL
 PL
 hQ
 ad
+Qn
 Kv
-ad
-ad
-ad
+Kv
+Kv
 ad
 ad
 ad
@@ -34435,7 +34405,7 @@ ad
 ad
 ad
 ad
-qs
+ad
 PL
 PL
 PL
@@ -34688,10 +34658,10 @@ PL
 PL
 hQ
 ad
-Qn
-Qn
-Qn
-Qn
+CC
+CC
+CC
+CC
 CC
 PL
 PL
@@ -34945,10 +34915,10 @@ PL
 PL
 hQ
 ad
-Qn
-Qn
-Qn
-Qn
+CC
+CC
+CC
+CC
 CC
 PL
 PL
@@ -35202,10 +35172,10 @@ PL
 PL
 hQ
 ad
-Qn
-Qn
-Qn
-Qn
+CC
+CC
+CC
+CC
 CC
 PL
 PL
@@ -35459,10 +35429,10 @@ PL
 PL
 hQ
 ad
-Qn
-Qn
-Qn
-Qn
+CC
+CC
+CC
+CC
 CC
 PL
 PL
@@ -35716,10 +35686,10 @@ PL
 PL
 hQ
 ad
-Qn
-Qn
-Qn
-Qn
+CC
+CC
+CC
+CC
 CC
 PL
 PL
@@ -35973,10 +35943,10 @@ PL
 PL
 hQ
 ad
-Qn
-Qn
-Qn
-Qn
+CC
+CC
+CC
+CC
 CC
 PL
 PL

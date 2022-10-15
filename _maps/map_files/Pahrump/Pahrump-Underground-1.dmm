@@ -1139,6 +1139,10 @@
 	},
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
+"bsM" = (
+/obj/machinery/door/window/westright,
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
+/area/f13/caves)
 "btB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/reagent_dispensers/barrel/dangerous,
@@ -2581,8 +2585,10 @@
 /turf/closed/indestructible/f13vaultrusted,
 /area/f13/bunker)
 "cJJ" = (
-/obj/structure/sign/poster/contraband/pinup_pink,
-/turf/closed/wall/r_wall/rust,
+/obj/structure/curtain{
+	color = "#363636"
+	},
+/turf/open/floor/carpet/royalblack,
 /area/f13/den)
 "cKA" = (
 /obj/effect/decal/cleanable/blood/tracks{
@@ -2734,8 +2740,8 @@
 /turf/open/floor/carpet/royalblack,
 /area/f13/den)
 "cQW" = (
-/obj/structure/simple_door/room,
-/turf/open/floor/carpet/royalblack,
+/obj/structure/filingcabinet,
+/turf/open/floor/wood/f13/old,
 /area/f13/den)
 "cRh" = (
 /obj/structure/rack,
@@ -2752,10 +2758,14 @@
 /turf/open/floor/carpet,
 /area/f13/den)
 "cRz" = (
-/obj/structure/closet/cabinet,
-/obj/effect/decal/cleanable/dirt,
+/obj/structure/bed{
+	pixel_y = 14
+	},
+/obj/item/bedsheet/black{
+	pixel_y = 14
+	},
 /turf/open/floor/carpet/royalblack,
-/area/f13/den)
+/area/f13/caves)
 "cRR" = (
 /obj/structure/nest/raider{
 	max_mobs = 3;
@@ -2944,8 +2954,8 @@
 /turf/closed/wall/r_wall/rust,
 /area/f13/den)
 "ddg" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/carpet/royalblack,
+/obj/structure/simple_door/room,
+/turf/open/floor/wood/f13/old,
 /area/f13/den)
 "ddv" = (
 /obj/effect/decal/remains/human,
@@ -3062,14 +3072,14 @@
 /turf/open/floor/plasteel/f13/vault_floor/green,
 /area/f13/bunker)
 "diL" = (
-/obj/machinery/light,
-/turf/open/floor/carpet/royalblack,
+/obj/machinery/light{
+	pixel_x = 16
+	},
+/turf/open/floor/wood/f13/old,
 /area/f13/den)
 "diR" = (
-/obj/structure/dresser,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/carpet/royalblack,
-/area/f13/den)
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/f13/caves)
 "diX" = (
 /obj/structure/wreck/trash/machinepiletwo,
 /turf/open/floor/plasteel/f13{
@@ -4222,16 +4232,20 @@
 	},
 /area/f13/den)
 "eco" = (
-/obj/structure/sign/poster/contraband/pinup_shower,
-/turf/closed/wall/r_wall/rust,
-/area/f13/den)
+/obj/structure/toilet{
+	pixel_y = 13
+	},
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/f13/caves)
 "ecp" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
 "ecs" = (
-/obj/structure/sign/poster/contraband/pinup_bed,
-/turf/closed/wall/r_wall/rust,
+/obj/structure/chair/wood{
+	dir = 4
+	},
+/turf/open/floor/carpet/royalblack,
 /area/f13/den)
 "ede" = (
 /obj/effect/decal/cleanable/blood/gibs/down,
@@ -4292,8 +4306,12 @@
 	},
 /area/f13/den)
 "eeU" = (
-/obj/structure/sign/poster/contraband/pinup_funk,
-/turf/closed/wall/r_wall/rust,
+/obj/structure/dresser,
+/obj/machinery/light{
+	dir = 1;
+	pixel_x = 16
+	},
+/turf/open/floor/wood/f13/old,
 /area/f13/den)
 "efa" = (
 /turf/open/floor/wood/f13/oak,
@@ -4645,11 +4663,15 @@
 /turf/open/floor/wood/f13/carpet,
 /area/f13/bunker)
 "exN" = (
-/obj/item/kirbyplants{
-	icon_state = "plant-21"
+/obj/structure/table/wood,
+/obj/structure/window{
+	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/carpet/royalblack,
+/obj/item/clothing/head/f13/town/mayor,
+/obj/machinery/door/window/southright{
+	req_one_access_txt = "87"
+	},
+/turf/open/floor/wood/f13/old,
 /area/f13/den)
 "eym" = (
 /obj/structure/fluff/railing,
@@ -4737,9 +4759,10 @@
 /area/f13/den)
 "eBZ" = (
 /obj/machinery/light{
-	dir = 1
+	dir = 1;
+	pixel_x = 16
 	},
-/turf/open/floor/carpet/royalblack,
+/turf/open/floor/wood/f13/old,
 /area/f13/den)
 "eCe" = (
 /obj/structure/timeddoor,
@@ -4864,9 +4887,15 @@
 	},
 /area/f13/bunker)
 "eHr" = (
-/obj/structure/filingcabinet,
-/turf/open/floor/carpet/royalblack,
-/area/f13/den)
+/obj/structure/decoration/vent,
+/obj/machinery/shower{
+	pixel_y = 20
+	},
+/obj/structure/window{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
+/area/f13/caves)
 "eHs" = (
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug,
 /turf/open/floor/f13{
@@ -5044,11 +5073,8 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
 "eMh" = (
-/obj/structure/chair/wood{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/carpet/royalblack,
+/obj/structure/closet/cabinet,
+/turf/open/floor/wood/f13/old,
 /area/f13/den)
 "eME" = (
 /obj/effect/decal/cleanable/dirt,
@@ -5402,8 +5428,8 @@
 /turf/open/water,
 /area/f13/tunnel)
 "fdI" = (
-/obj/structure/sign/poster/contraband/pinup_couch,
-/turf/closed/wall/r_wall/rust,
+/obj/structure/simple_door/room,
+/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/f13/den)
 "fed" = (
 /obj/effect/decal/cleanable/oil/slippery,
@@ -5517,9 +5543,11 @@
 /turf/open/floor/wood/f13/old,
 /area/f13/den)
 "fnc" = (
-/obj/structure/bed,
-/obj/item/bedsheet/cult,
-/turf/open/floor/carpet/royalblack,
+/obj/structure/table/wood,
+/obj/machinery/light{
+	pixel_x = 16
+	},
+/turf/open/floor/wood/f13/old,
 /area/f13/den)
 "fnd" = (
 /obj/structure/chair/comfy/black{
@@ -5758,9 +5786,9 @@
 /turf/open/floor/wood/f13/old,
 /area/f13/caves)
 "fyC" = (
-/obj/structure/sign/poster/contraband/punch_shit,
-/turf/closed/wall/r_wall/rust,
-/area/f13/den)
+/obj/machinery/light,
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/f13/caves)
 "fzj" = (
 /obj/structure/rack,
 /turf/open/floor/f13{
@@ -5768,8 +5796,15 @@
 	},
 /area/f13/den)
 "fzC" = (
-/obj/structure/sign/poster/contraband/pinup_vixen,
-/turf/closed/wall/r_wall/rust,
+/obj/structure/table/wood,
+/obj/structure/window{
+	dir = 4
+	},
+/obj/machinery/door/window/northright{
+	req_one_access_txt = "87"
+	},
+/obj/item/gun/ballistic/revolver/police,
+/turf/open/floor/wood/f13/old,
 /area/f13/den)
 "fzP" = (
 /obj/structure/table/wood/settler,
@@ -5785,9 +5820,10 @@
 	},
 /area/f13/bunker)
 "fAy" = (
-/obj/structure/sign/poster/contraband/revolver,
-/turf/closed/wall/r_wall/rust,
-/area/f13/den)
+/obj/structure/bed,
+/obj/item/bedsheet/black,
+/turf/open/floor/carpet/royalblack,
+/area/f13/caves)
 "fAR" = (
 /mob/living/simple_animal/hostile/eyebot{
 	faction = list("raider");
@@ -8382,12 +8418,14 @@
 /turf/open/floor/wood/f13/carpet,
 /area/f13/tunnel)
 "iDd" = (
-/obj/machinery/light{
-	dir = 4
+/obj/structure/sink{
+	pixel_y = 19
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/carpet/royalblack,
-/area/f13/den)
+/obj/structure/mirror{
+	pixel_y = 32
+	},
+/turf/open/floor/plasteel/f13/vault_floor/white,
+/area/f13/caves)
 "iDs" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
@@ -54641,10 +54679,10 @@ lBm
 ddN
 kUN
 exN
-cxY
-cxY
-ddg
-exN
+wss
+wss
+wss
+fzC
 kUN
 fUu
 xUA
@@ -54896,13 +54934,13 @@ dgO
 bMH
 dEG
 dPc
-eco
-ddg
-cxY
-eMh
-cxY
-cxY
-fyC
+kUN
+wss
+wss
+wss
+wss
+wss
+kUN
 agK
 uPs
 xUA
@@ -55153,13 +55191,13 @@ bzQ
 jPz
 dEG
 dSX
-ecs
+kUN
 eBZ
-cGg
-eNf
-dbv
+ecs
+ecs
+ecs
 diL
-fzC
+kUN
 aou
 aDe
 cbQ
@@ -55410,13 +55448,13 @@ dhQ
 dxH
 dJx
 nFW
-eeU
-ddg
-eHr
-cQS
+kUN
+wss
+cGg
+eNf
 fcy
-ddg
-fAy
+wss
+kUN
 kUN
 kUN
 kUN
@@ -55668,11 +55706,11 @@ xSv
 dJx
 dTG
 kUN
-ddg
+wss
 cxY
-cxY
-ddg
-ddg
+cQS
+dbv
+wss
 kUN
 uoO
 uoO
@@ -55925,11 +55963,11 @@ wYo
 dJx
 qrm
 kUN
-kUN
-kUN
 cQW
-fdI
-kUN
+wss
+wss
+wss
+wss
 kUN
 uoO
 uoO
@@ -56182,11 +56220,11 @@ dxK
 hiB
 lmD
 kUN
-uoO
+kUN
 kUN
 ddg
-cxY
-diR
+kUN
+kUN
 kUN
 uoO
 uoO
@@ -56439,10 +56477,10 @@ dLk
 dqh
 kcf
 kUN
-uoO
-kUN
-cRz
-iDd
+eeU
+wss
+wss
+wss
 fnc
 kUN
 uoO
@@ -56696,11 +56734,11 @@ dgO
 dEL
 pOe
 kUN
-uoO
-kUN
-kUN
-cJJ
-kUN
+eMh
+wss
+wss
+wss
+wss
 kUN
 uoO
 uoO
@@ -56953,12 +56991,12 @@ kUN
 dIN
 kUN
 kUN
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
+kUN
+fdI
+kUN
+cJJ
+cJJ
+kUN
 uoO
 uoO
 uoO
@@ -57210,12 +57248,12 @@ bNI
 dfO
 veJ
 kUN
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
+iDd
+diR
+hQE
+fAy
+cRz
+hQE
 uoO
 uoO
 uoO
@@ -57467,12 +57505,12 @@ bNV
 iIU
 blx
 kUN
-uoO
-uoO
-uoO
-uoO
-uoO
-uoO
+eco
+fyC
+hQE
+hQE
+hQE
+hQE
 uoO
 uoO
 uoO
@@ -57724,9 +57762,9 @@ bHI
 veJ
 bXn
 kUN
-uoO
-uoO
-uoO
+eHr
+bsM
+hQE
 uoO
 uoO
 uoO
@@ -57981,9 +58019,9 @@ dyB
 jnK
 dTK
 kUN
-uoO
-uoO
-uoO
+hQE
+hQE
+hQE
 uoO
 uoO
 uoO
