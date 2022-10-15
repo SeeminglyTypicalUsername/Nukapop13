@@ -3604,8 +3604,7 @@
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "bwC" = (
-/obj/structure/table/reinforced,
-/obj/item/storage/box/drinkingglasses,
+/obj/machinery/microwave/stove,
 /obj/machinery/light{
 	dir = 8
 	},
@@ -4302,6 +4301,7 @@
 "bMB" = (
 /obj/structure/table/reinforced,
 /obj/item/kitchen/knife/butcher,
+/obj/item/kitchen/knife,
 /turf/open/floor/plasteel/f13/vault_floor/red/redchess,
 /area/f13/building)
 "bMG" = (
@@ -5402,13 +5402,11 @@
 	},
 /area/f13/wasteland)
 "cok" = (
-/obj/structure/fence/corner{
-	dir = 6
+/obj/structure/chair/comfy/purple{
+	dir = 4
 	},
-/turf/open/indestructible/ground/outside/dirt{
-	icon_state = "dirt"
-	},
-/area/f13/wasteland)
+/turf/open/floor/carpet/purple,
+/area/f13/building)
 "cos" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/wall/f13/wood/house,
@@ -7066,7 +7064,6 @@
 /area/f13/wasteland)
 "deX" = (
 /obj/structure/table/reinforced,
-/obj/item/card/id/dogtag/deputy,
 /obj/structure/window/reinforced{
 	dir = 8
 	},
@@ -7076,6 +7073,7 @@
 /obj/machinery/door/window/brigdoor/southleft{
 	req_one_access_txt = "34"
 	},
+/obj/item/card/id/dogtag/deputy,
 /obj/item/clothing/head/f13/police/officer{
 	name = "OPD officer's cap"
 	},
@@ -8093,12 +8091,8 @@
 	},
 /area/f13/village)
 "dAn" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/obj/structure/sign/painting/library{
-	persistence_id = "oasis_bar";
-	pixel_x = 32
+/obj/machinery/light{
+	pixel_x = 16
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark{
 	icon_state = "darkrusty";
@@ -9012,14 +9006,14 @@
 	},
 /area/f13/wasteland)
 "dVy" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
+/obj/structure/barricade/bars,
+/obj/structure/window/fulltile/store{
+	icon_state = "storewindowbottom"
 	},
-/obj/machinery/light/small,
-/turf/open/floor/plasteel/f13/vault_floor/dark{
-	icon_state = "darkrusty";
-	name = "grimy tile"
+/obj/structure/window/fulltile/store{
+	icon_state = "storewindowvertical"
 	},
+/turf/open/floor/plating,
 /area/f13/building)
 "dVA" = (
 /obj/structure/car/rubbish2,
@@ -9514,11 +9508,11 @@
 	},
 /area/f13/building)
 "egb" = (
-/obj/structure/window/fulltile/store{
-	icon_state = "storewindowbottom"
+/obj/machinery/light/small{
+	dir = 4
 	},
-/turf/open/floor/wood/f13/oak,
-/area/f13/building)
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "egn" = (
 /obj/structure/barricade/wooden,
 /obj/structure/decoration/rag,
@@ -9872,7 +9866,7 @@
 /turf/open/floor/wood/f13/carpet,
 /area/f13/ncr)
 "enM" = (
-/obj/machinery/light/small{
+/obj/machinery/light{
 	dir = 4
 	},
 /obj/structure/stairs/north{
@@ -11108,20 +11102,11 @@
 /turf/open/floor/wood/f13/old,
 /area/f13/building)
 "ePQ" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
+/obj/machinery/computer/slot_machine,
+/obj/machinery/light{
+	dir = 8
 	},
-/obj/machinery/light/small{
-	dir = 1
-	},
-/obj/structure/sign/painting/library{
-	persistence_id = "oasis_bar";
-	pixel_y = 32
-	},
-/turf/open/floor/plasteel/f13/vault_floor/dark{
-	icon_state = "darkrusty";
-	name = "grimy tile"
-	},
+/turf/open/floor/carpet/reno/pattern2,
 /area/f13/building)
 "ePY" = (
 /obj/structure/rack,
@@ -11356,6 +11341,9 @@
 /obj/structure/sign/painting/library{
 	persistence_id = "oasis_bar";
 	pixel_y = 32
+	},
+/obj/machinery/light{
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark{
 	icon_state = "darkrusty";
@@ -11885,10 +11873,10 @@
 	},
 /area/f13/wasteland)
 "fgB" = (
-/obj/structure/chair/sofa/left{
-	dir = 4
+/obj/structure/sink/kitchen{
+	pixel_y = 27
 	},
-/turf/open/floor/carpet/reno/pattern2,
+/turf/open/floor/plasteel/f13/vault_floor/red/redchess,
 /area/f13/building)
 "fgG" = (
 /obj/effect/decal/cleanable/dirt{
@@ -13925,14 +13913,6 @@
 /obj/machinery/microwave/stove,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
-"fWX" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	name = "metal plating"
-	},
-/area/f13/wasteland)
 "fXh" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -15227,12 +15207,12 @@
 /area/f13/wasteland)
 "gvr" = (
 /obj/structure/table/reinforced,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
 /obj/item/katana{
 	pixel_y = -4;
 	pixel_x = -3
-	},
-/obj/structure/window/reinforced{
-	dir = 8
 	},
 /obj/structure/window/reinforced{
 	dir = 4
@@ -16226,14 +16206,14 @@
 /area/f13/building)
 "gRL" = (
 /obj/structure/table/reinforced,
-/obj/item/reagent_containers/food/drinks/bottle/holywater{
-	pixel_y = -3
-	},
 /obj/structure/window/reinforced{
 	dir = 8
 	},
 /obj/machinery/door/window/brigdoor/northright{
 	req_one_access_txt = "34"
+	},
+/obj/item/reagent_containers/food/drinks/bottle/holywater{
+	pixel_y = -3
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
@@ -19606,13 +19586,13 @@
 /area/f13/raiders)
 "ijO" = (
 /obj/structure/table/reinforced,
-/obj/item/card/id/dogtag/sheriff,
 /obj/structure/window/reinforced{
 	dir = 8
 	},
 /obj/machinery/door/window/brigdoor/southright{
 	req_one_access_txt = "34"
 	},
+/obj/item/card/id/dogtag/sheriff,
 /obj/item/clothing/head/f13/police/chief{
 	name = "OPD chief's cap"
 	},
@@ -20974,7 +20954,11 @@
 /turf/open/indestructible/ground/outside/ruins,
 /area/f13/wasteland)
 "iOg" = (
-/obj/machinery/microwave/stove,
+/obj/structure/closet/locker,
+/obj/item/storage/fancy/candle_box,
+/obj/item/storage/fancy/candle_box,
+/obj/item/storage/box/drinkingglasses,
+/obj/item/storage/box/drinkingglasses,
 /turf/open/floor/plasteel/f13/vault_floor/red/redchess,
 /area/f13/building)
 "iOm" = (
@@ -23871,11 +23855,10 @@
 	},
 /area/f13/building)
 "jWH" = (
-/obj/structure/barricade/bars,
 /obj/structure/window/fulltile/store{
-	icon_state = "storewindowbottom"
+	icon_state = "storewindowvertical"
 	},
-/turf/open/floor/plating,
+/turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "jWM" = (
 /obj/item/reagent_containers/pill/patch/turbo,
@@ -24374,7 +24357,9 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "kgU" = (
-/obj/structure/chair/comfy/brown,
+/obj/structure/chair/comfy/brown{
+	color = "#FF0000"
+	},
 /obj/machinery/light{
 	dir = 1
 	},
@@ -26060,6 +26045,8 @@
 /obj/structure/curtain{
 	color = "#5c131b"
 	},
+/obj/item/reagent_containers/food/drinks/bottle/sake,
+/obj/item/reagent_containers/food/drinks/bottle/vodka,
 /obj/item/reagent_containers/food/drinks/bottle/whiskey,
 /obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
 /obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
@@ -26091,6 +26078,10 @@
 /area/f13/wasteland)
 "kTy" = (
 /obj/structure/table/wood/fancy/red,
+/obj/item/phone{
+	desc = "A pre-war long range communication device.";
+	name = "telephone"
+	},
 /turf/open/floor/carpet/red,
 /area/f13/building)
 "kUa" = (
@@ -29653,7 +29644,10 @@
 /area/f13/raiders)
 "mwL" = (
 /obj/structure/table,
-/obj/item/phone,
+/obj/item/phone{
+	desc = "A pre-war long range communication device.";
+	name = "telephone"
+	},
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
@@ -29835,10 +29829,6 @@
 "mCs" = (
 /obj/structure/chair/left{
 	dir = 4
-	},
-/obj/structure/sign/painting/library{
-	persistence_id = "oasis_bar";
-	pixel_y = 32
 	},
 /turf/open/floor/carpet/reno/pattern2,
 /area/f13/building)
@@ -31728,23 +31718,12 @@
 	},
 /area/f13/bunker)
 "nse" = (
-/obj/structure/table/wood/fancy/red,
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
-	pixel_x = -6
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
-	pixel_x = 4
-	},
-/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
-	pixel_x = 8;
-	pixel_y = 12
-	},
-/obj/item/reagent_containers/food/drinks/bottle/whiskey{
-	pixel_y = 19;
-	pixel_x = -5
-	},
+/obj/structure/table/wood/fancy,
 /obj/machinery/light{
 	dir = 8
+	},
+/obj/item/statuebust{
+	pixel_y = 13
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
@@ -33603,7 +33582,10 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/obj/item/phone,
+/obj/item/phone{
+	desc = "A pre-war long range communication device.";
+	name = "telephone"
+	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "okz" = (
@@ -42693,7 +42675,10 @@
 /area/f13/building)
 "slL" = (
 /obj/structure/table,
-/obj/item/phone,
+/obj/item/phone{
+	desc = "A pre-war long range communication device.";
+	name = "telephone"
+	},
 /turf/open/floor/plasteel/barber{
 	icon = 'icons/turf/f13floors2.dmi';
 	icon_state = "bluerustychess2"
@@ -43214,10 +43199,11 @@
 	},
 /area/f13/wasteland)
 "sxu" = (
-/obj/item/statuebust{
-	pixel_y = 13
+/obj/structure/table/wood,
+/obj/item/phone{
+	desc = "A pre-war long range communication device.";
+	name = "telephone"
 	},
-/obj/structure/table/wood/fancy,
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "sxT" = (
@@ -43236,7 +43222,10 @@
 /area/f13/building)
 "syo" = (
 /obj/structure/table/reinforced,
-/obj/item/phone,
+/obj/item/phone{
+	desc = "A pre-war long range communication device.";
+	name = "telephone"
+	},
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
@@ -43791,9 +43780,6 @@
 /area/f13/wasteland)
 "sLD" = (
 /obj/structure/chair/stool,
-/obj/machinery/light{
-	dir = 8
-	},
 /turf/open/floor/carpet/reno/pattern2,
 /area/f13/building)
 "sLL" = (
@@ -48347,6 +48333,7 @@
 	pixel_x = -3;
 	pixel_y = 2
 	},
+/obj/item/folder/red,
 /turf/open/floor/carpet/red,
 /area/f13/building)
 "uNF" = (
@@ -49468,7 +49455,10 @@
 /area/f13/legion)
 "vjX" = (
 /obj/structure/table/wood,
-/obj/item/phone,
+/obj/item/phone{
+	desc = "A pre-war long range communication device.";
+	name = "telephone"
+	},
 /obj/effect/spawner/lootdrop/f13/cash_random_low,
 /turf/open/floor/wood,
 /area/f13/building)
@@ -51183,10 +51173,8 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "vWL" = (
-/obj/structure/sink/kitchen{
-	dir = 4;
-	pixel_x = -12
-	},
+/obj/structure/table/reinforced,
+/obj/machinery/processor/chopping_block,
 /turf/open/floor/plasteel/f13/vault_floor/red/redchess,
 /area/f13/building)
 "vWS" = (
@@ -54866,10 +54854,13 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/cotc)
 "xAx" = (
-/obj/structure/chair/sofa/right{
-	dir = 4
+/obj/structure/window/fulltile/store{
+	icon_state = "storewindowbottom"
 	},
-/turf/open/floor/carpet/reno/pattern2,
+/obj/structure/window/fulltile/store{
+	icon_state = "storewindowvertical"
+	},
+/turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "xAB" = (
 /turf/closed/wall,
@@ -54915,6 +54906,9 @@
 /obj/structure/sign/painting/library{
 	persistence_id = "oasis_bar";
 	pixel_y = 32
+	},
+/obj/machinery/light{
+	dir = 1
 	},
 /turf/open/floor/carpet/reno/pattern2,
 /area/f13/building)
@@ -55820,9 +55814,6 @@
 "xXX" = (
 /obj/structure/chair/right{
 	dir = 8
-	},
-/obj/machinery/light/small{
-	dir = 4
 	},
 /turf/open/floor/carpet/reno/pattern2,
 /area/f13/building)
@@ -78477,7 +78468,7 @@ fyf
 fyf
 sND
 fyf
-xHN
+tBN
 giZ
 dCV
 kTh
@@ -78485,7 +78476,7 @@ lIT
 lIT
 lIT
 uCO
-jwu
+fgB
 jwu
 jwu
 nkZ
@@ -78734,7 +78725,7 @@ fyf
 fyf
 fyf
 fyf
-xHN
+tBN
 giZ
 dCV
 sYX
@@ -78742,9 +78733,9 @@ fJy
 nMs
 lzW
 uCO
-iOg
 aSY
 sIJ
+iOg
 uCO
 ueA
 ueA
@@ -78991,7 +78982,7 @@ fyf
 fyf
 fyf
 fyf
-xHN
+tBN
 giZ
 dCV
 sYX
@@ -79004,7 +78995,7 @@ uCO
 uCO
 uCO
 dlG
-dlG
+cok
 dlG
 ueA
 sYX
@@ -79248,7 +79239,7 @@ fyf
 fyf
 rtR
 fyf
-cok
+tBN
 giZ
 dCV
 sYX
@@ -80288,7 +80279,7 @@ rpu
 csO
 uCO
 uCO
-sDp
+yjG
 uCO
 uCO
 sYX
@@ -88006,11 +87997,11 @@ piA
 qOV
 daU
 mvv
-mvv
+egb
 mHj
 ydO
 ydO
-fWX
+jmO
 aBH
 xGH
 mHj
@@ -88263,9 +88254,9 @@ cWG
 exL
 eLl
 giZ
-egb
-egb
+giZ
 eOd
+jWH
 eOd
 giZ
 giZ
@@ -88513,15 +88504,15 @@ dCV
 fyf
 giZ
 giZ
+dVy
 giZ
 giZ
-jWH
 giZ
-giZ
-egb
-giZ
-fgB
 xAx
+giZ
+giZ
+vGG
+nyv
 nyv
 uEK
 wOU
@@ -88768,11 +88759,11 @@ qOV
 giZ
 dCV
 ydw
-eCK
+giZ
 cDz
 cOM
 sLD
-eyf
+ePQ
 eLM
 eyf
 eLM
@@ -89038,7 +89029,7 @@ nyv
 nyv
 nyv
 nyv
-vGG
+nyv
 rkt
 mHj
 ydO
@@ -89282,7 +89273,7 @@ tBN
 giZ
 dCV
 cWG
-eCK
+giZ
 cEH
 cEH
 nyv
@@ -90825,13 +90816,13 @@ giZ
 dCV
 bZi
 giZ
-eVJ
+fGC
 npF
 mfh
 fGC
 giZ
 eCD
-fGC
+dAn
 giZ
 fjg
 fqD
@@ -91082,7 +91073,7 @@ giZ
 dCV
 cdp
 giZ
-ePQ
+npF
 cPj
 cUZ
 npF
@@ -91095,7 +91086,7 @@ nMl
 fBO
 bXm
 gaw
-eCK
+giZ
 mvv
 mHj
 ydO
@@ -91342,7 +91333,7 @@ giZ
 eVJ
 cRf
 dzI
-fGC
+gks
 giZ
 giZ
 giZ
@@ -91596,10 +91587,10 @@ giZ
 dCV
 mvv
 giZ
-eVJ
+fGC
 cUZ
 cUZ
-dVy
+npF
 giZ
 eDp
 ydO
@@ -91855,8 +91846,8 @@ mvv
 giZ
 npF
 biF
-dAn
-dAn
+npF
+npF
 giZ
 mHj
 ydO

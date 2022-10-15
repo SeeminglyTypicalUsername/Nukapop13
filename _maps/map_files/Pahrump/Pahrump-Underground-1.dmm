@@ -547,7 +547,6 @@
 /area/f13/caves)
 "aPr" = (
 /obj/structure/destructible/tribal_torch/lit,
-/mob/living/simple_animal/hostile/snake,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/caves)
 "aPx" = (
@@ -623,9 +622,11 @@
 /turf/open/floor/plasteel/f13/vault_floor/yellow,
 /area/f13/tunnel)
 "aUv" = (
-/mob/living/simple_animal/hostile/snake,
-/turf/open/indestructible/ground/inside/subway,
-/area/f13/caves)
+/obj/structure/table/wood,
+/obj/item/storage/fancy/cigarettes/cigars,
+/obj/item/lighter,
+/turf/open/floor/wood/f13/old,
+/area/f13/den)
 "aUW" = (
 /obj/effect/spawner/lootdrop/trash,
 /turf/open/indestructible/ground/inside/subway,
@@ -2542,8 +2543,14 @@
 /area/f13/cotc)
 "cGg" = (
 /obj/structure/table/wood/fancy/royalblack,
-/obj/item/lighter/gold,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/folder/yellow{
+	pixel_x = 4
+	},
+/obj/item/folder/yellow{
+	pixel_x = -3;
+	pixel_y = 2
+	},
 /turf/open/floor/carpet/royalblack,
 /area/f13/den)
 "cGo" = (
@@ -4306,7 +4313,7 @@
 	},
 /area/f13/den)
 "eeU" = (
-/obj/structure/dresser,
+/obj/structure/table/wood,
 /obj/machinery/light{
 	dir = 1;
 	pixel_x = 16
@@ -5073,7 +5080,9 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
 "eMh" = (
-/obj/structure/closet/cabinet,
+/obj/structure/chair/office/dark{
+	dir = 1
+	},
 /turf/open/floor/wood/f13/old,
 /area/f13/den)
 "eME" = (
@@ -5398,9 +5407,8 @@
 "fcy" = (
 /obj/structure/table/wood/fancy/royalblack,
 /obj/item/paper_bin,
-/obj/item/pen/fountain/captain{
-	name = "Den Boss's Fountain Pen"
-	},
+/obj/item/pen,
+/obj/item/pen/fountain,
 /turf/open/floor/carpet/royalblack,
 /area/f13/den)
 "fcU" = (
@@ -5543,7 +5551,7 @@
 /turf/open/floor/wood/f13/old,
 /area/f13/den)
 "fnc" = (
-/obj/structure/table/wood,
+/obj/structure/closet/cabinet,
 /obj/machinery/light{
 	pixel_x = 16
 	},
@@ -55963,7 +55971,7 @@ wYo
 dJx
 qrm
 kUN
-cQW
+aUv
 wss
 wss
 wss
@@ -56478,9 +56486,9 @@ dqh
 kcf
 kUN
 eeU
+eMh
 wss
-wss
-wss
+dbs
 fnc
 kUN
 uoO
@@ -56734,7 +56742,7 @@ dgO
 dEL
 pOe
 kUN
-eMh
+cQW
 wss
 wss
 wss
@@ -70115,8 +70123,8 @@ xVz
 uoO
 uoO
 eLE
-aUv
-aUv
+myy
+myy
 aPr
 eLE
 uoO
@@ -70372,9 +70380,9 @@ uoO
 uoO
 uoO
 eLE
-aUv
-aUv
-aUv
+myy
+myy
+myy
 eLE
 eLE
 eLE
@@ -70630,8 +70638,8 @@ eLE
 eLE
 eLE
 aPr
-aUv
-aUv
+myy
+myy
 eLE
 uoO
 uoO
