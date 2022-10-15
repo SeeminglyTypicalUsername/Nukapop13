@@ -1533,3 +1533,23 @@ obj/item/clothing/head/f13/army/beret
 	item_state = "state_trooper"
 	dynamic_hair_suffix = "+generic"
 	dynamic_fhair_suffix = null
+
+/////////////
+//undertown//
+/////////////
+
+/obj/item/clothing/head/f13/army/officer/undertown
+	name = "Undertown Peaked cap"
+	desc = "An old world military cap repurposed by the local town."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "army_officer"
+	item_state = "army_officer"
+	armor = list("melee" = 10, "bullet" = 10, "laser" = 35, "energy" = 25, "bomb" = 5, "bio" = 5, "rad" = 5, "fire" = 5, "acid" = 5, "wound" = 5)
+
+/obj/item/clothing/head/helmet/blueshirt/undertown
+	name = "light security helmet"
+	desc = "A helmet that by its markings on the interior seemed to belong to some sort of long dead militia group."
+	icon_state = "blueshift"
+	item_state = "blueshift"
+	armor = list("melee" = 25, "bullet" = 35, "laser" = 35, "energy" = 10, "bomb" = 60, "bio" = 30, "rad" = 30, "fire" = 30, "acid" = 30, "wound" = 15)

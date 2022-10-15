@@ -561,7 +561,7 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	name = "NCR Military Police"
 	icon_state = "NCR Trooper"
 
-/obj/effect/landmark/start/f13/ncrcombatengineer
+/obj/effect/landmark/start/f13/specialist
 	name = "NCR Specialist"
 	icon_state = "NCR Trooper"
 
@@ -1125,3 +1125,179 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 /obj/effect/landmark/start/f13/cotc/neophyte
 	name = "Neophyte"
 	icon_state = "Neophyte"
+
+
+
+//Undertown
+
+/obj/effect/landmark/start/f13/undertown/merchant
+	name = "Undertown Merchant"
+	icon_state = "Brahmin Baron"
+
+/obj/effect/landmark/start/f13/undertown/inspector
+	name = "Undertown Inspector"
+	icon_state = "Arms Dealer"
+
+/obj/effect/landmark/start/f13/undertown/captain
+	name = "Undertown Captain"
+	icon_state = "Arms Dealer"
+
+/obj/effect/landmark/start/f13/undertown/watchman
+	name = "Undertown Watchman"
+	icon_state = "Arms Dealer"
+
+/obj/effect/landmark/start/f13/undertown/enforcer
+	name = "Undertown Enforcer"
+	icon_state = "Arms Dealer"
+
+/obj/effect/landmark/start/f13/undertown/foreman
+	name = "Undertown Foreman"
+	icon_state = "Station Engineer"
+
+/obj/effect/landmark/start/f13/undertown/worker
+	name = "Undertown Worker"
+	icon_state = "Shaft Miner"
+
+/obj/effect/landmark/start/f13/undertown/cotc/highpriest
+	name = "Undertown High Priest"
+	icon_state = "High Priest"
+
+/obj/effect/landmark/start/f13/undertown/cotc/servitormilitant
+	name = "Undertown Servitor Militant"
+	icon_state = "Servitor Militant"
+
+/obj/effect/landmark/start/f13/undertown/cotc/servitormedici
+	name = "Undertown Servitor Medici"
+	icon_state = "Servitor Medici"
+
+/obj/effect/landmark/start/f13/undertown/cotc/proselytizer
+	name = "Undertown Proselytizer"
+	icon_state = "Proselytizer"
+
+/obj/effect/landmark/start/f13/undertown/cotc/acolyte
+	name = "Undertown Acolyte"
+	icon_state = "Acolyte"
+
+/obj/effect/landmark/start/f13/undertown/cotc/neophyte
+	name = "Undertown Neophyte"
+	icon_state = "Neophyte"
+
+/obj/effect/landmark/start/f13/undertown/raider
+	name = "Undertown Raider"
+	icon_state = "Raider"
+
+/obj/effect/landmark/start/f13/undertown/waster
+	name = "Waster"
+	icon_state = "Settler"
+
+/obj/effect/landmark/start/f13/undertown/savage
+	name = "Savage"
+	icon_state = "Tribal"
+
+// NCR
+
+/obj/effect/landmark/start/f13/undertown/undertown/ncrcaptain
+	name = "Captain"
+	icon_state = "NCR Captain"
+
+/obj/effect/landmark/start/f13/undertown/ncrlieutenant
+	name = "Lieutenant"
+	icon_state = "NCR Lieutenant"
+
+obj/effect/landmark/start/f13/undertown/ncrlogisticsofficer
+	name = "Logistics Officer"
+	icon_state = "NCR Lieutenant"
+
+/obj/effect/landmark/start/f13/undertown/ncrmedofficer
+	name = "Medical Officer"
+	icon_state = "NCR Lieutenant"
+
+/obj/effect/landmark/start/f13/undertown/ncrdrillsergeant
+	name = "Provost Marshal"
+	icon_state = "NCR Provost Marshal"
+
+/obj/effect/landmark/start/f13/undertown/ncrsergeant
+	name = "Sergeant"
+	icon_state = "NCR Sergeant"
+
+/obj/effect/landmark/start/f13/undertown/ncrcorporal
+	name = "Corporal"
+	icon_state = "NCR Trooper"
+
+/obj/effect/landmark/start/f13/undertown/ncrrep
+	name = "Representative"
+	icon_state = "NCR Trooper"
+
+/obj/effect/landmark/start/f13/undertown/ncrmp
+	name = "Military Police"
+	icon_state = "NCR Trooper"
+
+/obj/effect/landmark/start/f13/undertown/specialist
+	name = "Specialist"
+	icon_state = "NCR Trooper"
+
+/obj/effect/landmark/start/f13/undertown/ncrtrooper
+	name = "Trooper"
+	icon_state = "NCR Trooper"
+
+/obj/effect/landmark/start/f13/undertown/ncrrearechelon
+	name = "Rear Echelon"
+	icon_state = "NCR Trooper"
+
+// Legion
+
+/obj/effect/landmark/start/f13/undertown/legate
+	name = "Legate"
+	icon_state = "Legate"
+
+/obj/effect/landmark/start/f13/undertown/centurion
+	name = "Centurion"
+	icon_state = "Centurion"
+
+/obj/effect/landmark/start/f13/undertown/frumentarius
+	name = "Frumentarius"
+	icon_state = "Vexillarius"
+
+/obj/effect/landmark/start/f13/undertown/decanvet
+	name = "Veteran Decanus"
+	icon_state = "Decanus"
+
+/obj/effect/landmark/start/f13/undertown/vexillarius
+	name = "Vexillarius"
+	icon_state = "Vexillarius"
+
+/obj/effect/landmark/start/f13/undertown/vetlegionary
+	name = "Veteran Legionary"
+	icon_state = "Veteran Legionnaire"
+
+/obj/effect/landmark/start/f13/undertown/decan
+	name = "Prime Decanus"
+	icon_state = "Decanus"
+
+/obj/effect/landmark/start/f13/undertown/legionary
+	name = "Prime Legionary"
+	icon_state = "Veteran Legionnaire"
+
+/obj/effect/landmark/start/f13/undertown/decanrec
+	name = "Recruit Decanus"
+	icon_state = "Decanus"
+
+/obj/effect/landmark/start/f13/undertown/recleg
+	name = "Recruit Legionary"
+	icon_state = "Legionary"
+
+/obj/effect/landmark/start/f13/undertown/explorer
+	name = "Explorer"
+	icon_state = "Legionary"
+
+/obj/effect/landmark/start/f13/undertown/auxilia
+	name = "Auxilia"
+	icon_state = "Auxilla"
+
+/obj/effect/landmark/start/f13/undertown/campfollower
+	name = "Forgemaster"
+	icon_state = "Legionary"
+
+/obj/effect/landmark/start/f13/undertown/slave
+	name = "Slave"
+	icon_state = "Wastelander"

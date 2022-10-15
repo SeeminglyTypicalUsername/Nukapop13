@@ -17018,7 +17018,7 @@
 	},
 /area/f13/wasteland)
 "hie" = (
-/obj/effect/landmark/start/f13/ncrcombatmedic,
+/obj/effect/landmark/start/f13/specialist,
 /turf/open/floor/f13{
 	icon_state = "freezerfloor"
 	},
@@ -28724,7 +28724,7 @@
 /area/f13/building)
 "mco" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/start/f13/ncrcombatengineer,
+/obj/effect/landmark/start/f13/specialist,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
 "mcp" = (
@@ -43501,7 +43501,6 @@
 "sGG" = (
 /obj/structure/chair/office/dark,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/landmark/start/f13/ncrcombatengineer,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
 "sGI" = (
@@ -65531,7 +65530,7 @@ fyf
 ufN
 kEJ
 jQd
-jQd
+mco
 nsK
 tvh
 wvV
@@ -65788,7 +65787,7 @@ fyf
 ufN
 xXo
 jQd
-jQd
+mco
 jQd
 jQd
 jQd
@@ -66053,7 +66052,7 @@ ufN
 fCg
 qdZ
 qdZ
-hie
+qdZ
 bko
 fxz
 ufN
@@ -66558,7 +66557,7 @@ fyf
 fyf
 ufN
 gmP
-mco
+jQd
 jQd
 tvh
 jQd
@@ -66568,7 +66567,7 @@ jaj
 qdZ
 qdZ
 hie
-qdZ
+hie
 ebv
 ufN
 cbI

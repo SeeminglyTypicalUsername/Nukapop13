@@ -102,7 +102,7 @@
 	supervisors = "the Great Snake"
 	selection_color = "#ff915e"
 	exp_type = EXP_TYPE_FALLOUT
-	exp_requirements = 200
+	exp_requirements = 0
 	maptype = "yuma"
 
 	outfit = /datum/outfit/job/wasteland/f13serpentpriest
@@ -705,7 +705,7 @@ Raider
 	description = "The mob rules in Yuma. A hitman for the Den's Boss, you are a highly loyal enforcer charged with keeping order among the outlaw groups inhabiting the Den."
 	supervisors = "The Boss."
 	selection_color = "#ff4747"
-	exp_requirements = 600
+	exp_requirements = 0
 	exp_type = EXP_TYPE_WASTELAND
 	maptype = "yuma"	//Hopefully this makes Den not selectable outside of Yuma
 
@@ -778,7 +778,7 @@ Raider
 	description = "The mob rules in Yuma, and you're on top. Keeping the loose association of Khans, outlaws, and other no-goods together you maintain order in The Den by force. Ensure that all inhabitants of the Den obey their rules, and spread your influence over the wasteland. Be careful though - even your own men can't be trusted."
 	supervisors = "The Overboss, God."
 	selection_color = "#ff4747"
-	exp_requirements = 1000
+	exp_requirements = 0
 	exp_type = EXP_TYPE_OUTLAW
 	maptype = "yuma"	//Hopefully this makes Den not selectable outside of Yuma
 
@@ -851,7 +851,7 @@ datum/job/wasteland/f13dendoctor
 	description = "While you prioritize providing medical treatment in emergency situations, you are still trained in combat and have the additional role as a loyal combanteer to the Den."
 	supervisors = "The Boss."
 	selection_color = "#ff4747"
-	exp_requirements = 1000
+	exp_requirements = 0
 	exp_type = EXP_TYPE_OUTLAW
 	maptype = "yuma"	//Hopefully this makes Den not selectable outside of Yuma
 
@@ -935,7 +935,7 @@ datum/job/wasteland/f13dendoctor
 	description = "You have come a long way to reach this god forsaken place... it is now your job to protect its inhabitants from all sorts of injustice. Your moral codex requires you to help anyone in need and to never harm an innocent. Always try to capture and reeducate criminals instead of killing. Do not get involved in the conflicts between the major factions, that is not your fight."
 	supervisors = "your moral code"
 	selection_color = "#76885f"
-	exp_requirements = 3000
+	exp_requirements = 0
 	exp_type = EXP_TYPE_FALLOUT
 
 	outfit = /datum/outfit/job/wasteland/f13vigilante

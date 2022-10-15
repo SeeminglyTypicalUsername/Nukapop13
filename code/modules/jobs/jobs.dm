@@ -337,6 +337,56 @@ GLOBAL_LIST_INIT(citizens_positions, list(
 	"NCRA Military Police",
 ))
 
+GLOBAL_LIST_INIT(undertown_positions, list(
+	"Undertown Merchant",
+	"Undertown Inspector",
+	"Undertown Captain",
+	"Undertown Watchman",
+	"Undertown Enforcer",
+	"Undertown Foreman",
+	"Undertown Worker",
+	"Undertown High Priest",
+	"Undertown Servitor Medici",
+	"Undertown Servitor Militant",
+	"Undertown Proselytizer",
+	"Undertown Acolyte",
+	"Undertown Neophyte",
+	"Undertown Raider",
+	"Waster",
+	"Savage",
+))
+
+GLOBAL_LIST_INIT(uncr_positions, list(
+	"Captain",
+	"Lieutenant",
+	"Representative",
+	"Military Police",
+	"Provost Marshal",
+	"Sergeant",
+	"Corporal",
+	"Specialist",
+	"Trooper",
+	"Medical Officer",
+	"Logistics Officer",
+	"Rear Echelon",
+))
+
+GLOBAL_LIST_INIT(ulegion_positions, list(
+	"Centurion",
+	"Frumentarius",
+	"Veteran Decanus",
+	"Prime Decanus",
+	"Recruit Decanus",
+	"Vexillarius",
+	"Explorer",
+	"Veteran Legionary",
+	"Prime Legionary",
+	"Recruit Legionary",
+	"Forgemaster",
+	"Auxilia",
+	"Slave",
+))
+
 // job categories for rendering the late join menu
 GLOBAL_LIST_INIT(position_categories, list(
 	EXP_TYPE_NCR = list("jobs" = ncr_positions, "color" = "#ffeeaa"),
@@ -353,6 +403,9 @@ GLOBAL_LIST_INIT(position_categories, list(
 	EXP_TYPE_BISHOPS = list("jobs" = bishops_positions, "color" = "#8CA2BD"),
 	EXP_TYPE_WRIGHTS = list("jobs" = wrights_positions, "color" = "#B3875E"),
 	EXP_TYPE_CITIZENS = list("jobs" = citizens_positions, "color" = "#F7EFCF"),
+	EXP_TYPE_UNDERTOWN = list("jobs" = undertown_positions, "color" = "#F7EFCF"),
+	EXP_TYPE_ULEGION = list("jobs" = ulegion_positions, "color" = "#f81717"),
+	EXP_TYPE_UNCR = list("jobs" = uncr_positions, "color" = "#ffeeaa"),
 ))
 
 GLOBAL_LIST_INIT(exp_jobsmap, list(
@@ -386,6 +439,9 @@ GLOBAL_LIST_INIT(exp_jobsmap, list(
 	EXP_TYPE_BISHOPS = list("titles" = bishops_positions),
 	EXP_TYPE_WRIGHTS = list("titles" = wrights_positions),
 	EXP_TYPE_CITIZENS = list("titles" = citizens_positions),
+	EXP_TYPE_UNDERTOWN = list("jobs" = undertown_positions),
+	EXP_TYPE_ULEGION = list("jobs" = ulegion_positions),
+	EXP_TYPE_UNCR = list("jobs" = uncr_positions),
 
 	EXP_TYPE_TRIBALCOMMAND = list("titles" = list("Chief","Shaman","Head Hunter")),
 	EXP_TYPE_FOLLOWERSCOMMAND = list("titles" = list("Followers Administrator")),

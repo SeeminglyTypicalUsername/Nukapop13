@@ -89,6 +89,10 @@
 #define EXP_TYPE_BISHOPS		"Bishops"
 #define EXP_TYPE_WRIGHTS		"Wrights"
 #define EXP_TYPE_CITIZENS		"Citizens"
+#define EXP_TYPE_UNDERTOWN		"Undertown"
+#define EXP_TYPE_UNCR			"UNCR"
+#define EXP_TYPE_ULEGION		"ULegion"
+
 //Flags in the players table in the db
 #define DB_FLAG_EXEMPT 							(1<<0)
 #define DB_FLAG_AGE_CONFIRMATION_INCOMPLETE		(1<<1)

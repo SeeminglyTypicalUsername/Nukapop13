@@ -25,5 +25,7 @@ endmap
 map reno
 	voteweight 1
 endmap
-
+map undertown
+	voteweight 1
+endmap
 
