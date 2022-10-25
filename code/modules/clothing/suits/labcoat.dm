@@ -10,18 +10,6 @@
 	togglename = "buttons"
 	species_exception = list(/datum/species/golem)
 
-/obj/item/clothing/suit/toggle/labcoat/clean
-	name = "labcoat"
-	desc = "A well washed and ironed labcoat."
-	icon_state = "labcoat_clean"
-	item_state = "labcoat_clean"
-
-/obj/item/clothing/suit/toggle/labcoat/enclave
-	name = "military labcoat"
-	desc = "An abnormally shiny labcoat. Patches bearing an odd logo composed of a E surrounded by stars are sewn onto the shoulders."
-	icon_state = "labcoat_enclave"
-	item_state = "labcoat_enclave"
-
 /obj/item/clothing/suit/toggle/labcoat/cmo
 	name = "chief medical officer's labcoat"
 	desc = "Bluer than the standard model."
@@ -36,22 +24,22 @@
 
 /obj/item/clothing/suit/toggle/labcoat/genetics
 	name = "geneticist labcoat"
-	desc = "A suit that protects against minor chemical spills. Has a blue stripe on the shoulders."
+	desc = "A suit that protects against minor chemical spills. Has a blue stripe on the shoulder."
 	icon_state = "labcoat_gen"
 
 /obj/item/clothing/suit/toggle/labcoat/chemist
 	name = "chemist labcoat"
-	desc = " A suit that protects against minor chemical spills. Has an orange stripe on the shoulders."
+	desc = " A suit that protects against minor chemical spills. Has an orange stripe on the shoulder."
 	icon_state = "labcoat_chem"
 
 /obj/item/clothing/suit/toggle/labcoat/virologist
 	name = "virologist labcoat"
-	desc = "A suit that protects against minor chemical spills. Offers slightly more protection against biohazards than the standard model. Has a green stripe on the shoulders."
+	desc = "A suit that protects against minor chemical spills. Offers slightly more protection against biohazards than the standard model. Has a green stripe on the shoulder."
 	icon_state = "labcoat_vir"
 
 /obj/item/clothing/suit/toggle/labcoat/science
 	name = "scientist labcoat"
-	desc = "A suit that protects against minor chemical spills. Has a purple stripe on the shoulders."
+	desc = "A suit that protects against minor chemical spills. Has a purple stripe on the shoulder."
 	icon_state = "labcoat_tox"
 
 // Departmental Jackets
