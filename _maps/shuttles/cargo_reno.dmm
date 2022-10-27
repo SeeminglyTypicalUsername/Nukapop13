@@ -1,0 +1,71 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/closed/wall/mineral/wood,
+/area/shuttle/supply)
+"j" = (
+/obj/docking_port/mobile/supply{
+	dwidth = 7;
+	width = 7;
+	dir = 4;
+	dheight = 5;
+	height = 5
+	},
+/turf/closed/wall/mineral/wood,
+/area/shuttle/supply)
+"r" = (
+/obj/machinery/light,
+/turf/open/floor/wood/f13/oak,
+/area/shuttle/supply)
+"A" = (
+/turf/open/floor/wood/f13/oak,
+/area/shuttle/supply)
+
+(1,1,1) = {"
+a
+a
+a
+a
+j
+"}
+(2,1,1) = {"
+a
+A
+A
+A
+a
+"}
+(3,1,1) = {"
+a
+A
+A
+A
+A
+"}
+(4,1,1) = {"
+a
+A
+A
+r
+a
+"}
+(5,1,1) = {"
+a
+A
+A
+A
+A
+"}
+(6,1,1) = {"
+a
+A
+A
+A
+a
+"}
+(7,1,1) = {"
+a
+a
+a
+a
+a
+"}

@@ -19,12 +19,16 @@
 
 /datum/outfit/waldo
 	name = "Waldo"
-	uniform = /obj/item/clothing/under/pants/jeans
-	suit = /obj/item/clothing/suit/striped_sweater
-	head = /obj/item/clothing/head/beanie/waldo
-	shoes = /obj/item/clothing/shoes/sneakers/brown
-	ears = /obj/item/radio/headset
-	glasses = /obj/item/clothing/glasses/regular/circle
+	suit = /obj/item/clothing/suit/armor/f13/raider/badlands
+	suit_store = /obj/item/melee/onehanded/club/warclub
+	belt = /obj/item/storage/backpack/spearquiver
+	uniform = /obj/item/clothing/under/f13/whitelegs
+	backpack_contents = list(
+		/obj/item/clothing/under/f13/female/whitelegs = 1,
+		/obj/item/book/granter/trait/trekking = 1,
+		/obj/item/book/granter/trait/iron_fist = 1,
+		/obj/item/warpaint_bowl = 1,
+		/obj/item/book/granter/crafting_recipe/tribal/whitelegs = 1)
 
 /datum/outfit/waldo/post_equip(mob/living/carbon/human/H, visualsOnly=FALSE)
 	if(visualsOnly)

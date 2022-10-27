@@ -87,8 +87,24 @@
 	return ..()
 
 /datum/status_effect/incapacitating/sleeping/tick()
-	if(owner.getStaminaLoss())
-		owner.adjustStaminaLoss(-0.5) //reduce stamina loss by 0.5 per tick, 10 per 2 seconds
+	if(owner.maxHealth)
+		var/health_ratio = owner.health / owner.maxHealth
+		if(health_ratio > 0.8)
+			var/healing = -0.2
+			if((locate(/obj/structure/bed/pod) in owner.loc))
+				healing -= 0.8
+			else if((locate(/obj/structure/bed) in owner.loc))
+				healing -= 0.6
+			else if((locate(/obj/structure/bed/old) in owner.loc))
+				healing -= 0.5
+			else if((locate(/obj/structure/bed/mattress) in owner.loc))
+				healing -= 0.3
+			else if((locate(/obj/structure/table) in owner.loc))
+				healing -= 0.1
+			owner.adjustBruteLoss(healing)
+			owner.adjustFireLoss(healing)
+			owner.adjustToxLoss(healing * 0.5, TRUE, TRUE)
+			owner.adjustStaminaLoss(healing)
 	if(human_owner && human_owner.drunkenness)
 		human_owner.drunkenness *= 0.997 //reduce drunkenness by 0.3% per tick, 6% per 2 seconds
 	if(carbon_owner && !carbon_owner.dreaming && prob(2))

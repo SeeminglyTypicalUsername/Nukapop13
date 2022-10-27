@@ -15,7 +15,7 @@
 
 // BEGIN_INCLUDE
 #include "_maps\_basemap.dm"
-#include "_maps\pahrump.dm"
+#include "_maps\reno.dm"
 #include "_maps\templates\dungeons\dungeons.dm"
 #include "code\_compile_options.dm"
 #include "code\world.dm"
@@ -1686,6 +1686,8 @@
 #include "code\modules\antagonists\eldritch_cult\knowledge\flesh_lore.dm"
 #include "code\modules\antagonists\eldritch_cult\knowledge\rust_lore.dm"
 #include "code\modules\antagonists\ert\ert.dm"
+#include "code\modules\antagonists\f13invasion\f13invasion.dm"
+#include "code\modules\antagonists\f13invasion\f13invasion_outfits.dm"
 #include "code\modules\antagonists\fugitive\fugitive.dm"
 #include "code\modules\antagonists\fugitive\fugitive_outfits.dm"
 #include "code\modules\antagonists\fugitive\fugitive_ship.dm"
@@ -2046,6 +2048,7 @@
 #include "code\modules\events\disease_outbreak.dm"
 #include "code\modules\events\dust.dm"
 #include "code\modules\events\electrical_storm.dm"
+#include "code\modules\events\f13invasion_spawning.dm"
 #include "code\modules\events\fake_virus.dm"
 #include "code\modules\events\false_alarm.dm"
 #include "code\modules\events\fugitive_spawning.dm"
