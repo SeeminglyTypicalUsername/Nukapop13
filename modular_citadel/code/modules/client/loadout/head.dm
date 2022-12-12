@@ -211,6 +211,11 @@
 	path = /obj/item/clothing/head/f13/pot
 	cost = 4
 
+/datum/gear/head/sea_captain
+	name = "sea captain's cap"
+	path = /obj/item/clothing/head/f13/sea_captain
+	cost = 4
+
 //POLICE
 
 /datum/gear/head/police
@@ -249,6 +254,16 @@
 	name = "US Army airborne beret"
 	path = /obj/item/clothing/head/f13/army/beret/airborne
 	cost = 3
+
+/datum/gear/head/usmarines
+	name = "US Marines utility cap"
+	path = /obj/item/clothing/head/f13/marine
+	cost = 2
+
+/datum/gear/head/usnavy
+	name = "US Navy utility cap"
+	path = /obj/item/clothing/head/f13/navy
+	cost = 2
 
 //CHINA
 

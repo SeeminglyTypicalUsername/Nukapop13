@@ -1936,44 +1936,62 @@
 //US Army
 
 /obj/item/clothing/under/f13/army
-	name = "US Army combat uniform"
-	desc = "Standard issue combat uniform for the Army, worn by enlisted and NCOs."
+	name = "army combat uniform"
+	desc = "The standard issue combat uniform of the old-world US Army."
 	icon = 'icons/fallout/clothing/uniforms.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/uniform.dmi'
+	can_adjust = TRUE
 	icon_state = "army_uniform"
 	item_state = "army_uniform"
 
 /obj/item/clothing/under/f13/army/officer
-	name = "US Army officer's combat uniform"
-	desc = "Standard issue combat uniform for the Army, worn by officers."
+	name = "army officer's combat uniform"
+	desc = "Standard issue combat uniform of the old-world US Army."
 	icon = 'icons/fallout/clothing/uniforms.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/uniform.dmi'
+	can_adjust = TRUE
 	icon_state = "army_officer"
 	item_state = "army_officer"
 
-/obj/item/clothing/under/f13/army/general
-	name = "US Army officer's combat uniform"
-	desc = "Standard issue combat uniform for the Army, worn by general rank officers."
+//US Marines
+
+/obj/item/clothing/under/f13/marine
+	name = "marine combat uniform"
+	desc = "The standard issue combat uniform of the old-world US Marine Corps."
 	icon = 'icons/fallout/clothing/uniforms.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/uniform.dmi'
-	icon_state = "army_general"
-	item_state = "army_general"
+	can_adjust = TRUE
+	icon_state = "army_uniform"
+	item_state = "army_uniform"
+
+/obj/item/clothing/under/f13/marine/officer
+	name = "marine officer's combat uniform"
+	desc = "Standard issue combat uniform of the old-world US Marine Corps."
+	icon = 'icons/fallout/clothing/uniforms.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/uniform.dmi'
+	can_adjust = TRUE
+	icon_state = "army_officer"
+	item_state = "army_officer"
 
 //US Navy
 
 /obj/item/clothing/under/f13/navy
-	name = "US Navy jumpsuit"
-	desc = "Pre-War standard naval uniform."
-	icon_state = "navy"
-	item_state = "bl_suit"
-	item_color = "navy"
+	name = "navy uniform"
+	desc = "The standard issue combat uniform of the old-world US Navy."
+	icon = 'icons/fallout/clothing/uniforms.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/uniform.dmi'
+	can_adjust = TRUE
+	icon_state = "navy_uniform"
+	item_state = "navy_uniform"
 
 /obj/item/clothing/under/f13/navy/officer
-	name = "US Navy officer's jumpsuit"
-	desc = "Pre-War standard naval uniform for ranked officers."
-	icon_state = "navyofficer"
-	item_state = "bl_suit"
-	item_color = "navyofficer"
+	name = "navy officer's uniform"
+	desc = "Standard issue combat uniform of the old-world US Navy."
+	icon = 'icons/fallout/clothing/uniforms.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/uniform.dmi'
+	can_adjust = TRUE
+	icon_state = "navy_officer"
+	item_state = "navy_officer"
 
 //People's Liberation Army
 
