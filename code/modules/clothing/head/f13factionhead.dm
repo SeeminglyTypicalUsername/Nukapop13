@@ -1350,11 +1350,21 @@
 	icon_state = "schlimmhat"
 	item_state = "schlimmhat"
 
+/obj/item/clothing/head/f13/sea_captain
+	name = "sea captain's cap"
+	desc = "A peaked cap worn by old-world sea captains."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "sea_captain"
+	item_state = "sea_captain"
+	dynamic_hair_suffix = "+generic"
+	dynamic_fhair_suffix = null
+
 //Old World Militaries
-//US Army and PLA
+//US Army
 
 /obj/item/clothing/head/f13/army
-	name = "US Army field cap"
+	name = "army field cap"
 	desc = "Standard issue US Army field cap."
 	icon = 'icons/fallout/clothing/hats.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
@@ -1363,26 +1373,8 @@
 	dynamic_hair_suffix = "+generic"
 	dynamic_fhair_suffix = null
 
-/obj/item/clothing/head/f13/army/officer
-	name = "US Army officer's cap"
-	desc = "US Army officer's cap."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
-	icon_state = "army_officer"
-	item_state = "army_officer"
-
-/obj/item/clothing/head/f13/army/general
-	name = "US Army general's cap"
-	desc = "US Army officer's cap."
-	icon = 'icons/fallout/clothing/hats.dmi'
-	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
-	icon_state = "army_general"
-	item_state = "army_general"
-	dynamic_hair_suffix = "+generic"
-	dynamic_fhair_suffix = null
-
 obj/item/clothing/head/f13/army/beret
-	name = "US Army beret"
+	name = "army beret"
 	desc = "A black beret, standard issue for all US Army personnel not authorised to wear a different beret."
 	icon = 'icons/fallout/clothing/hats.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
@@ -1392,7 +1384,7 @@ obj/item/clothing/head/f13/army/beret
 	dynamic_fhair_suffix = null
 
 /obj/item/clothing/head/f13/army/beret/airborne
-	name = "US Army airborne beret"
+	name = "army airborne beret"
 	desc = "A red beret, issued to US Army Airborne personnel."
 	icon = 'icons/fallout/clothing/hats.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
@@ -1402,7 +1394,7 @@ obj/item/clothing/head/f13/army/beret
 	dynamic_fhair_suffix = null
 
 /obj/item/clothing/head/f13/army/beret/rangers
-	name = "US Army rangers beret"
+	name = "army rangers beret"
 	desc = "A tan beret, issued to US Army Rangers."
 	icon = 'icons/fallout/clothing/hats.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
@@ -1412,12 +1404,36 @@ obj/item/clothing/head/f13/army/beret
 	dynamic_fhair_suffix = null
 
 /obj/item/clothing/head/f13/army/beret/specialforces
-	name = "US Army special forces beret"
+	name = "army special forces beret"
 	desc = "A green beret, issued to US Army Special Forces personnel."
 	icon = 'icons/fallout/clothing/hats.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
 	icon_state = "army_beret_specialforces"
 	item_state = "army_beret_specialforces"
+	dynamic_hair_suffix = "+generic"
+	dynamic_fhair_suffix = null
+
+//US Marines
+
+/obj/item/clothing/head/f13/marine
+	name = "marine utility cover"
+	desc = "Standard issue US Marine Corp utility cover."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "marine_cap"
+	item_state = "marine_cap"
+	dynamic_hair_suffix = "+generic"
+	dynamic_fhair_suffix = null
+
+//US Navy
+
+/obj/item/clothing/head/f13/navy
+	name = "navy utility cover"
+	desc = "Standard issue US Navy utility cover."
+	icon = 'icons/fallout/clothing/hats.dmi'
+	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
+	icon_state = "navy_cap"
+	item_state = "navy_cap"
 	dynamic_hair_suffix = "+generic"
 	dynamic_fhair_suffix = null
 

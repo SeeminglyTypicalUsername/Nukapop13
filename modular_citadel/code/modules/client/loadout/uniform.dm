@@ -536,6 +536,16 @@
 	path = /obj/item/clothing/under/f13/army/officer
 	cost = 3
 
+/datum/gear/uniform/usmarines
+	name = "US Marines combat uniform"
+	path = /obj/item/clothing/under/f13/marine
+	cost = 2
+
+/datum/gear/uniform/usmarines/officer
+	name = "US Marines officer's combat uniform"
+	path = /obj/item/clothing/under/f13/marine/officer
+	cost = 3
+
 /datum/gear/uniform/usnavy
 	name = "US Navy jumpsuit"
 	path = /obj/item/clothing/under/f13/navy
