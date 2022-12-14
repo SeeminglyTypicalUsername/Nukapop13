@@ -401,7 +401,7 @@
 	icon_state = "ncr_infantry_vest"
 	item_state = "ncr_infantry_vest"
 	body_parts_covered = CHEST|GROIN|ARMS|LEGS
-	armor = list("melee" = 25, "bullet" = 25, "laser" = 15, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 40)
+	armor = list("melee" = 25, "bullet" = 30, "laser" = 15, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 40)
 	slowdown = 0.15
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/bulletbelt/ncr
 	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 2)
@@ -439,31 +439,31 @@
 	desc = "A standard issue NCR Infantry vest reinforced with a groinpad."
 	icon_state = "ncr_reinforced_vest"
 	item_state = "ncr_reinforced_vest"
-	armor = list("melee" = 30, "bullet" = 30, "laser" = 15, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 40)
+	armor = list("melee" = 30, "bullet" = 35, "laser" = 15, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 40)
 	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 3)
 
 /obj/item/clothing/suit/armor/f13/ncrarmor/reinforced/engineer
 	name = "NCR blast-padded reinforced patrol vest"
 	desc = "A standard issue NCR Engineer vest reinforced with a groinpad."
-	armor = list("melee" = 30, "bullet" = 30, "laser" = 15, "energy" = 20, "bomb" = 85, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 40)
+	armor = list("melee" = 30, "bullet" = 35, "laser" = 15, "energy" = 20, "bomb" = 85, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 40)
 
 /obj/item/clothing/suit/armor/f13/ncrarmor/mantle/reinforced
 	name = "NCR reinforced mantle vest"
 	desc = "A standard issue NCR Infantry vest reinforced with a groinpad and a mantle."
 	icon_state = "ncr_reinforced_mantle"
-	armor = list("melee" = 30, "bullet" = 30, "laser" = 20, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 40)
+	armor = list("melee" = 30, "bullet" = 35, "laser" = 20, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 40)
 
 /obj/item/clothing/suit/armor/f13/ncrarmor/mantle/reinforced/trenchraider
 	name = "NCR reinforced trench mantle vest"
 	desc = "A standard issue NCR Infantry vest with a really long name and extra melee plating."
-	armor = list("melee" = 40, "bullet" = 30, "laser" = 15, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 40)
+	armor = list("melee" = 40, "bullet" = 35, "laser" = 15, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 40)
 
 /obj/item/clothing/suit/armor/f13/ncrarmor/labcoat
 	name = "NCR medical labcoat"
 	desc = "An armored labcoat typically issued to NCR Medical Officers. It's a standard white labcoat with the Medical Officer's name stitched into the breast and a two headed bear sewn into the shoulder."
 	icon_state = "ncr_labcoat"
 	item_state = "ncr_labcoat"
-	armor = list("melee" = 15, "bullet" = 25, "laser" = 10, "energy" = 20, "bomb" = 50, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 55)
+	armor = list("melee" = 15, "bullet" = 10, "laser" = 10, "energy" = 20, "bomb" = 50, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 55)
 	allowed = list(/obj/item/gun, /obj/item/analyzer, /obj/item/stack/medical, /obj/item/dnainjector, /obj/item/reagent_containers/dropper, /obj/item/reagent_containers/syringe, /obj/item/reagent_containers/hypospray, /obj/item/healthanalyzer, /obj/item/flashlight/pen, /obj/item/reagent_containers/glass/bottle, /obj/item/reagent_containers/glass/beaker, /obj/item/reagent_containers/pill, /obj/item/storage/pill_bottle, /obj/item/paper, /obj/item/melee/classic_baton/telescopic, /obj/item/soap, /obj/item/sensor_device, /obj/item/tank/internals/emergency_oxygen, /obj/item/tank/internals/plasmaman)
 	salvage_loot = list() // It's a labcoat
 
@@ -472,7 +472,7 @@
 	desc = "A reinforced set of NCR mantle armour, with added padding on the groin, neck and shoulders. Intended for use by the officer class."
 	icon_state = "ncr_lt_armour"
 	item_state = "ncr_lt_armour"
-	armor = list("melee" = 40, "bullet" = 30, "laser" = 20, "energy" = 20, "bomb" = 50, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 50)
+	armor = list("melee" = 40, "bullet" = 37, "laser" = 20, "energy" = 20, "bomb" = 50, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 50)
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/treasurer
 
 /obj/item/clothing/suit/armor/f13/ncrarmor/captain/ncr_officer_coat
@@ -480,7 +480,7 @@
 	desc = "A special issue NCR officer's armour with an added thick overcoat for protection from the elements."
 	icon_state = "ncr_officer_coat"
 	item_state = "ncr_officer_coat"
-	armor = list("melee" = 35, "bullet" = 35, "laser" = 25, "energy" = 20, "bomb" = 50, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 55)
+	armor = list("melee" = 35, "bullet" = 37, "laser" = 25, "energy" = 20, "bomb" = 50, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 55)
 	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 5)
 
 /obj/item/clothing/suit/armor/f13/ncrarmor/captain
@@ -488,7 +488,7 @@
 	desc = "A heavily reinforced set of NCR mantle armour, with large ceramic plating fitted to cover the torso and back, with additional plating on the shoulders and arms. Intended for use by high ranking officers."
 	icon_state = "ncr_captain_armour"
 	item_state = "ncr_captain_armour"
-	armor = list("melee" = 35, "bullet" = 45, "laser" = 15, "energy" = 20, "bomb" = 50, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 40)
+	armor = list("melee" = 35, "bullet" = 37, "laser" = 15, "energy" = 20, "bomb" = 50, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 40)
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/treasurer
 	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 10) // Le captain
 
@@ -497,7 +497,7 @@
 	desc = "A special issue NCR officer's coat."
 	icon_state = "ncr_dresscoat"
 	item_state = "ncr_dresscoat"
-	armor = list("melee" = 35, "bullet" = 35, "laser" = 25, "energy" = 20, "bomb" = 50, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 55)
+	armor = list("melee" = 35, "bullet" = 37, "laser" = 25, "energy" = 20, "bomb" = 50, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 55)
 	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 10)
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/bulletbelt
 
@@ -506,14 +506,14 @@
 	desc = "A brown dress uniform jacket intended for enlisted NCRA personnel."
 	icon_state = "ncr_dressjack"
 	item_state = "ncr_dressjack"
-	armor = list("melee" = 20, "bullet" = 20, "laser" = 20, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 30)
+	armor = list("melee" = 10, "bullet" = 10, "laser" = 20, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 30)
 
 /obj/item/clothing/suit/armor/f13/ncrarmor/ncr_codressjack
 	name = "NCR dress jacket"
 	desc = "A brown dress uniform jacket for commissioned NCRA personnel."
 	icon_state = "ncr_codressjack"
 	item_state = "ncr_codressjack"
-	armor = list("melee" = 20, "bullet" = 20, "laser" = 20, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 30)
+	armor = list("melee" = 10, "bullet" = 10, "laser" = 20, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 30)
 
 /obj/item/clothing/suit/armor/f13/combat/ncr/mutant
 	name = "NCR mutant armor"
