@@ -159,9 +159,9 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 	shoes = /obj/item/clothing/shoes/f13/military/plated
 	suit = /obj/item/clothing/suit/armor/f13/legion/vet/explorer
 	head = /obj/item/clothing/head/helmet/f13/legion/vet/frum
-	mask = null
+	mask = /obj/item/clothing/mask/chameleon/legion
 	glasses = /obj/item/clothing/glasses/sunglasses/big
-	id = /obj/item/card/id/dogtag/legorator
+	id = /obj/item/card/id/dogtag/legveteran
 	gloves = /obj/item/clothing/gloves/legion
 	backpack = /obj/item/storage/backpack/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer

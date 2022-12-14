@@ -497,6 +497,12 @@ CHAMELEON_CLOTHING_DEFINE(/obj/item/clothing/mask/chameleon)
 /obj/item/clothing/mask/chameleon/drone/attack_self(mob/user)
 	to_chat(user, "<span class='notice'>[src] does not have a voice changer.</span>")
 
+/obj/item/clothing/mask/chameleon/legion
+	name = "frumentarii mask"
+	desc = "Legion technology given only to Frumentarii agents." //special job
+	icon_state = "legvet"
+	item_state = "legvet"
+
 CHAMELEON_CLOTHING_DEFINE(/obj/item/clothing/shoes/chameleon)
 	name = "black shoes"
 	icon_state = "black"
