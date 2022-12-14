@@ -5953,11 +5953,12 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "cDz" = (
-/obj/machinery/door/unpowered/securedoor{
-	autoclose = 1;
-	name = "Employee Entrance";
-	req_one_access_txt = "87"
-	},
+/obj/structure/closet/fridge,
+/obj/effect/spawner/lootdrop/f13/foodspawner,
+/obj/effect/spawner/lootdrop/f13/foodspawner,
+/obj/item/reagent_containers/food/condiment/flour,
+/obj/item/reagent_containers/food/condiment/flour,
+/obj/item/reagent_containers/food/condiment/enzyme,
 /turf/open/floor/f13{
 	color = "#818181";
 	icon_state = "floorrustysolid"
@@ -6133,9 +6134,13 @@
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "cHt" = (
-/obj/structure/simple_door/metal/barred,
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "Pit_Entrance"
+/obj/structure/chair/wood/modern{
+	dir = 4;
+	icon_state = "wooden_chair_settler"
+	},
+/obj/machinery/light{
+	dir = 8;
+	pixel_y = -16
 	},
 /turf/open/floor/f13{
 	color = "#818181";
@@ -7401,12 +7406,11 @@
 	},
 /area/f13/wasteland)
 "dnb" = (
-/obj/structure/closet/fridge,
-/obj/effect/spawner/lootdrop/f13/foodspawner,
-/obj/effect/spawner/lootdrop/f13/foodspawner,
-/obj/item/reagent_containers/food/condiment/milk,
-/obj/item/reagent_containers/food/condiment/milk,
-/obj/item/reagent_containers/food/condiment/enzyme,
+/obj/machinery/door/unpowered/securedoor{
+	autoclose = 1;
+	name = "Bookie";
+	req_one_access_txt = "87"
+	},
 /turf/open/floor/f13{
 	color = "#818181";
 	icon_state = "floorrustysolid"
@@ -7838,14 +7842,6 @@
 	icon_state = "bar"
 	},
 /area/f13/bar)
-"dxa" = (
-/obj/structure/table/reinforced,
-/obj/item/kitchen/rollingpin,
-/turf/open/floor/f13{
-	color = "#818181";
-	icon_state = "floorrustysolid"
-	},
-/area/f13/building)
 "dxb" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -9721,7 +9717,7 @@
 /area/f13/tunnel)
 "emC" = (
 /obj/structure/table/reinforced,
-/obj/item/kitchen/knife/butcher,
+/obj/item/kitchen/rollingpin,
 /turf/open/floor/f13{
 	color = "#818181";
 	icon_state = "floorrustysolid"
@@ -10497,13 +10493,10 @@
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/brotherhood/surface)
 "eDp" = (
-/obj/structure/chair/wood/modern{
-	dir = 4;
-	icon_state = "wooden_chair_settler"
-	},
-/obj/machinery/light{
-	dir = 8;
-	pixel_y = -16
+/obj/machinery/door/unpowered/securedoor{
+	autoclose = 1;
+	name = "Employee Entrance";
+	req_one_access_txt = "87"
 	},
 /turf/open/floor/f13{
 	color = "#818181";
@@ -10690,12 +10683,6 @@
 	},
 /turf/open/floor/f13,
 /area/f13/brotherhood/surface)
-"eJw" = (
-/obj/structure/barricade/wooden,
-/turf/open/indestructible/ground/outside/wood{
-	icon_state = "wood"
-	},
-/area/f13/wasteland)
 "eJO" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -10820,6 +10807,14 @@
 /obj/item/shovel,
 /turf/open/indestructible/ground/outside/sidewalk,
 /area/f13/wasteland)
+"eLl" = (
+/obj/structure/table/reinforced,
+/obj/item/kitchen/knife/butcher,
+/turf/open/floor/f13{
+	color = "#818181";
+	icon_state = "floorrustysolid"
+	},
+/area/f13/building)
 "eLo" = (
 /turf/open/floor/f13{
 	icon_state = "bar"
@@ -11285,10 +11280,10 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "eWW" = (
+/obj/structure/simple_door/metal/barred,
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "Pit_Entrance"
 	},
-/obj/structure/simple_door/metal/barred,
 /turf/open/floor/f13{
 	color = "#818181";
 	icon_state = "floorrustysolid"
@@ -13796,6 +13791,12 @@
 /mob/living/simple_animal/chicken,
 /turf/open/indestructible/ground/outside/savannah,
 /area/f13/wasteland)
+"fZy" = (
+/obj/structure/barricade/wooden,
+/turf/open/indestructible/ground/outside/wood{
+	icon_state = "wood"
+	},
+/area/f13/wasteland)
 "fZD" = (
 /obj/structure/obstacle/barbedwire/end{
 	dir = 4
@@ -15242,8 +15243,8 @@
 /obj/structure/closet/fridge,
 /obj/effect/spawner/lootdrop/f13/foodspawner,
 /obj/effect/spawner/lootdrop/f13/foodspawner,
-/obj/item/reagent_containers/food/condiment/flour,
-/obj/item/reagent_containers/food/condiment/flour,
+/obj/item/reagent_containers/food/condiment/milk,
+/obj/item/reagent_containers/food/condiment/milk,
 /obj/item/reagent_containers/food/condiment/enzyme,
 /turf/open/floor/f13{
 	color = "#818181";
@@ -55525,11 +55526,10 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
 "ydw" = (
-/obj/machinery/door/unpowered/securedoor{
-	autoclose = 1;
-	name = "Bookie";
-	req_one_access_txt = "87"
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "Pit_Entrance"
 	},
+/obj/structure/simple_door/metal/barred,
 /turf/open/floor/f13{
 	color = "#818181";
 	icon_state = "floorrustysolid"
@@ -78464,7 +78464,7 @@ giZ
 eXd
 ydO
 ydO
-eJw
+fZy
 ydO
 uAE
 ydO
@@ -88984,19 +88984,19 @@ dCV
 bLl
 giZ
 giZ
+dnb
+giZ
+giZ
+giZ
 ydw
-giZ
-giZ
+eWW
 giZ
 eWW
-cHt
-giZ
-cHt
-cHt
+eWW
 giZ
 giZ
 giZ
-cDz
+eDp
 giZ
 mHj
 ydO
@@ -89242,7 +89242,7 @@ mCs
 mCs
 cxx
 mCs
-eDp
+cHt
 cPg
 dve
 mCs
@@ -92848,7 +92848,7 @@ mCs
 mCs
 mCs
 giZ
-dnb
+gBY
 mCs
 mCs
 nVE
@@ -93105,7 +93105,7 @@ nlv
 mCs
 mCs
 giZ
-gBY
+cDz
 mCs
 xXX
 giZ
@@ -93363,8 +93363,8 @@ uZD
 fiy
 giZ
 bBy
-dxa
 emC
+eLl
 giZ
 dCV
 uqa

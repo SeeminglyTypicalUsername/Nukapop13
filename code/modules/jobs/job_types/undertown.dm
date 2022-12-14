@@ -1,3 +1,5 @@
+/*
+
 /datum/job/undertown
 	exp_type = EXP_TYPE_UNDERTOWN
 	faction = FACTION_UNDERTOWN
@@ -474,7 +476,7 @@
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the High Priest and the Holy Father"
-	description = "You are an inducted member of the Church’s inner circle, sworn to direct the medical arm of the faith. You are expected to be knowledgeable about all medical matters, and to put the interests of your faith above those of your patients. Your role is to direct the Acolytes and ensure they provide excellent care while staying true to Church dogma."
+	description = "You are an inducted member of the Churchï¿½s inner circle, sworn to direct the medical arm of the faith. You are expected to be knowledgeable about all medical matters, and to put the interests of your faith above those of your patients. Your role is to direct the Acolytes and ensure they provide excellent care while staying true to Church dogma."
 	selection_color = "#9500C7"
 	forbids = "Exposing the secrets of the Church, fraternizing with the NCR, treating patients for nothing in return, consuming alcohol, and using chems."
 	enforces = "Preaching the faith, following the faith's internal structure and rules."
@@ -535,7 +537,7 @@
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the High Priest and the Holy Father"
-	description = "You are an inducted member of the Church’s inner circle, sworn to lead the faith’s military forces into battle. You know much of the secrets that dwell within the Faith’s inner sanctum, and you know what is at stake if they are discovered. You directly command the Church’s Proselytizers, and answer directly to the High Priest."
+	description = "You are an inducted member of the Churchï¿½s inner circle, sworn to lead the faithï¿½s military forces into battle. You know much of the secrets that dwell within the Faithï¿½s inner sanctum, and you know what is at stake if they are discovered. You directly command the Churchï¿½s Proselytizers, and answer directly to the High Priest."
 	selection_color = "#9500C7"
 	forbids = "Exposing the secrets of the Church, fraternizing with the NCR, treating patients for nothing in return, consuming alcohol, and using chems."
 	enforces = "Preaching the faith, following the faith's internal structure and rules."
@@ -916,7 +918,7 @@
 	flag = F13WASTER
 	total_positions = -1
 	spawn_positions = -1
-	description = "You arrive at Undertown hoping to escape your past, the war, or perhaps something worse. But you’ve seen the torchlight and heard the bark of the military officers. You haven’t escaped anything. Try to survive, establish your own settlement, make your own legend. Suffer well and die gladly."
+	description = "You arrive at Undertown hoping to escape your past, the war, or perhaps something worse. But youï¿½ve seen the torchlight and heard the bark of the military officers. You havenï¿½t escaped anything. Try to survive, establish your own settlement, make your own legend. Suffer well and die gladly."
 	supervisors = "yourself"
 	selection_color = "#dddddd"
 
@@ -1510,7 +1512,7 @@
 	)
 
 /*--------------------------------------------------------------*/
-/*
+
 
 /datum/job/undertown/f13undertowntribal
 	title = "Tribal"
@@ -1591,4 +1593,5 @@
 		/obj/item/warpaint_bowl = 1,
 		/obj/item/flashlight/lantern = 1
 		)
-	*/
+	
+*/
