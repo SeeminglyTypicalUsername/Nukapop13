@@ -217,12 +217,29 @@
 /turf/open/floor/f13,
 /area/f13/building)
 "aej" = (
-/obj/structure/wreck/trash/one_tire,
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 1;
-	icon_state = "dirt"
+/obj/structure/closet/crate/trashcart,
+/obj/item/paper{
+	icon_state = "paper_words";
+	name = "sheet music";
+	info = "[b]THE STAR-SPANGLED BANNER[/b][i]Lyrics by: Francis Scott Key[/i]O say can you see, by the dawn's early light,What so proudly we hailed at the twilight's last gleaming,Whose broad stripes and bright stars through the perilous fight,O'er the ramparts we watched, were so gallantly streaming?And the rocket's red glare, the bombs bursting in air,Gave proof through the night that our flag was still there;O say does that star-spangled banner yet waveO'er the land of the free and the home of the brave?On the shore dimly seen through the mists of the deep,Where the foe's haughty host in dread silence reposes,What is that which the breeze, o'er the towering steep,As it fitfully blows, half conceals, half discloses?Now it catches the gleam of the morning's first beam,In full glory reflected now shines in the stream:'Tis the star-spangled banner, O long may it waveO'er the land of the free and the home of the brave.And where is that band who so vauntingly sworeThat the havoc of war and the battle's confusion,A home and a country, should leave us no more?Their blood has washed out their foul footsteps' pollution.No refuge could save the hireling and slaveFrom the terror of flight, or the gloom of the grave:And the star-spangled banner in triumph doth wave,O'er the land of the free and the home of the brave.O thus be it ever, when freemen shall standBetween their loved homes and the war's desolation.Blest with vict'ry and peace, may the Heav'n rescued landPraise the Power that hath made and preserved us a nation!Then conquer we must, when our cause it is just,And this be our motto: 'In God is our trust.'And the star-spangled banner in triumph shall waveO'er the land of the free and the home of the brave!"
 	},
-/area/f13/wasteland)
+/obj/item/paper{
+	icon_state = "paper_words";
+	name = "sheet music";
+	info = "[b]THE STAR-SPANGLED BANNER[/b][i]Lyrics by: Francis Scott Key[/i]O say can you see, by the dawn's early light,What so proudly we hailed at the twilight's last gleaming,Whose broad stripes and bright stars through the perilous fight,O'er the ramparts we watched, were so gallantly streaming?And the rocket's red glare, the bombs bursting in air,Gave proof through the night that our flag was still there;O say does that star-spangled banner yet waveO'er the land of the free and the home of the brave?On the shore dimly seen through the mists of the deep,Where the foe's haughty host in dread silence reposes,What is that which the breeze, o'er the towering steep,As it fitfully blows, half conceals, half discloses?Now it catches the gleam of the morning's first beam,In full glory reflected now shines in the stream:'Tis the star-spangled banner, O long may it waveO'er the land of the free and the home of the brave.And where is that band who so vauntingly sworeThat the havoc of war and the battle's confusion,A home and a country, should leave us no more?Their blood has washed out their foul footsteps' pollution.No refuge could save the hireling and slaveFrom the terror of flight, or the gloom of the grave:And the star-spangled banner in triumph doth wave,O'er the land of the free and the home of the brave.O thus be it ever, when freemen shall standBetween their loved homes and the war's desolation.Blest with vict'ry and peace, may the Heav'n rescued landPraise the Power that hath made and preserved us a nation!Then conquer we must, when our cause it is just,And this be our motto: 'In God is our trust.'And the star-spangled banner in triumph shall waveO'er the land of the free and the home of the brave!"
+	},
+/obj/item/paper{
+	icon_state = "paper_words";
+	name = "sheet music";
+	info = "[b]THE STAR-SPANGLED BANNER[/b][i]Lyrics by: Francis Scott Key[/i]O say can you see, by the dawn's early light,What so proudly we hailed at the twilight's last gleaming,Whose broad stripes and bright stars through the perilous fight,O'er the ramparts we watched, were so gallantly streaming?And the rocket's red glare, the bombs bursting in air,Gave proof through the night that our flag was still there;O say does that star-spangled banner yet waveO'er the land of the free and the home of the brave?On the shore dimly seen through the mists of the deep,Where the foe's haughty host in dread silence reposes,What is that which the breeze, o'er the towering steep,As it fitfully blows, half conceals, half discloses?Now it catches the gleam of the morning's first beam,In full glory reflected now shines in the stream:'Tis the star-spangled banner, O long may it waveO'er the land of the free and the home of the brave.And where is that band who so vauntingly sworeThat the havoc of war and the battle's confusion,A home and a country, should leave us no more?Their blood has washed out their foul footsteps' pollution.No refuge could save the hireling and slaveFrom the terror of flight, or the gloom of the grave:And the star-spangled banner in triumph doth wave,O'er the land of the free and the home of the brave.O thus be it ever, when freemen shall standBetween their loved homes and the war's desolation.Blest with vict'ry and peace, may the Heav'n rescued landPraise the Power that hath made and preserved us a nation!Then conquer we must, when our cause it is just,And this be our motto: 'In God is our trust.'And the star-spangled banner in triumph shall waveO'er the land of the free and the home of the brave!"
+	},
+/obj/item/paper{
+	icon_state = "paper_words";
+	name = "sheet music";
+	info = "[b]THE STAR-SPANGLED BANNER[/b][i]Lyrics by: Francis Scott Key[/i]O say can you see, by the dawn's early light,What so proudly we hailed at the twilight's last gleaming,Whose broad stripes and bright stars through the perilous fight,O'er the ramparts we watched, were so gallantly streaming?And the rocket's red glare, the bombs bursting in air,Gave proof through the night that our flag was still there;O say does that star-spangled banner yet waveO'er the land of the free and the home of the brave?On the shore dimly seen through the mists of the deep,Where the foe's haughty host in dread silence reposes,What is that which the breeze, o'er the towering steep,As it fitfully blows, half conceals, half discloses?Now it catches the gleam of the morning's first beam,In full glory reflected now shines in the stream:'Tis the star-spangled banner, O long may it waveO'er the land of the free and the home of the brave.And where is that band who so vauntingly sworeThat the havoc of war and the battle's confusion,A home and a country, should leave us no more?Their blood has washed out their foul footsteps' pollution.No refuge could save the hireling and slaveFrom the terror of flight, or the gloom of the grave:And the star-spangled banner in triumph doth wave,O'er the land of the free and the home of the brave.O thus be it ever, when freemen shall standBetween their loved homes and the war's desolation.Blest with vict'ry and peace, may the Heav'n rescued landPraise the Power that hath made and preserved us a nation!Then conquer we must, when our cause it is just,And this be our motto: 'In God is our trust.'And the star-spangled banner in triumph shall waveO'er the land of the free and the home of the brave!"
+	},
+/turf/open/floor/wood/f13/oak,
+/area/f13/building)
 "aeG" = (
 /obj/effect/decal/remains/human{
 	name = "remains of Eagle"
@@ -2541,13 +2558,6 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/building)
-"bdt" = (
-/obj/structure/barricade/bars,
-/obj/structure/table/wood/settler,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaltopbordertop0"
-	},
-/area/f13/wasteland)
 "bdF" = (
 /obj/structure/chair/stool{
 	dir = 1;
@@ -3667,9 +3677,11 @@
 	},
 /area/f13/caves)
 "bys" = (
-/obj/structure/destructible/tribal_torch/lit,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaltopbordertop0"
+/obj/effect/decal/marking{
+	icon_state = "dottedverticaldegraded"
+	},
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain2right"
 	},
 /area/f13/wasteland)
 "byv" = (
@@ -4372,13 +4384,9 @@
 	},
 /area/f13/wasteland)
 "bNK" = (
-/obj/structure/chair/pew/right{
-	dir = 1
-	},
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaloutermain0"
-	},
-/area/f13/wasteland)
+/obj/structure/chair/pew/right,
+/turf/open/floor/wood/f13/oak,
+/area/f13/building)
 "bNL" = (
 /obj/item/stack/sheet/mineral/wood,
 /turf/open/floor/wood/f13/old/ruinedstraightnorth,
@@ -5085,15 +5093,6 @@
 /obj/structure/chair/f13chair1,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
-	},
-/area/f13/wasteland)
-"ciG" = (
-/obj/structure/wreck/trash/autoshaft{
-	pixel_x = 14;
-	pixel_y = -14
-	},
-/turf/open/indestructible/ground/outside/desert{
-	icon_state = "wasteland33"
 	},
 /area/f13/wasteland)
 "ciO" = (
@@ -5898,12 +5897,6 @@
 	icon_state = "whitegreenrustychess"
 	},
 /area/f13/village)
-"cCu" = (
-/obj/structure/wreck/trash/three_barrels,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "verticalrightborderright0"
-	},
-/area/f13/wasteland)
 "cCH" = (
 /obj/structure/simple_door/metal/store{
 	icon_state = "brokenstore"
@@ -6512,12 +6505,10 @@
 /turf/open/floor/plating/dirt/dark,
 /area/f13/caves)
 "cRX" = (
-/obj/structure/barricade/bars,
-/obj/structure/table,
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontalinnermain0"
-	},
-/area/f13/wasteland)
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/pew,
+/turf/open/floor/wood/f13/oak,
+/area/f13/building)
 "cSk" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/trash,
@@ -6598,12 +6589,9 @@
 	},
 /area/f13/legion)
 "cUk" = (
-/obj/machinery/light/lampost{
-	dir = 1;
-	pixel_x = -32
-	},
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontalbottomborderbottom0"
+/obj/effect/decal/marking,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalbottombordertop2"
 	},
 /area/f13/wasteland)
 "cUG" = (
@@ -8219,14 +8207,12 @@
 	},
 /area/f13/raiders)
 "dEt" = (
-/obj/structure/closet/crate/trashcart,
-/obj/item/storage/book/bible,
-/obj/item/storage/book/bible,
-/obj/item/storage/book/bible,
-/obj/item/storage/book/bible,
-/obj/item/storage/book/bible,
+/obj/structure/wreck/trash/two_tire{
+	pixel_y = -11
+	},
 /turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontalbottomborderbottom0"
+	dir = 8;
+	icon_state = "outermaincornerinner"
 	},
 /area/f13/wasteland)
 "dEw" = (
@@ -9298,13 +9284,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/brotherhood/surface)
-"ecm" = (
-/obj/structure/barricade/bars,
-/obj/structure/table,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontalbottomborderbottom0"
-	},
-/area/f13/wasteland)
 "ecy" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontalbottomborderbottom0"
@@ -9562,9 +9541,10 @@
 	},
 /area/f13/wasteland)
 "ehG" = (
-/obj/structure/table/wood/settler,
-/obj/structure/barricade/wooden,
-/turf/open/indestructible/ground/outside/dirt,
+/obj/effect/decal/marking,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontaltopborderbottom1"
+	},
 /area/f13/wasteland)
 "ehN" = (
 /turf/open/indestructible/ground/outside/road{
@@ -10179,12 +10159,11 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "evk" = (
-/obj/structure/barricade/bars,
-/obj/structure/table,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaltopbordertop0"
+/obj/structure/obstacle/tanktrap,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontaltopborderbottom0"
 	},
-/area/f13/wasteland)
+/area/f13/tunnel)
 "evs" = (
 /obj/structure/chair/stool{
 	dir = 8;
@@ -10258,16 +10237,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building)
-"exD" = (
-/obj/structure/flora/tree/tall{
-	layer = 2;
-	pixel_y = 9
-	},
-/obj/structure/flora/grass/wasteland{
-	icon_state = "tall_grass_3"
-	},
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
 "exG" = (
 /obj/structure/simple_door/house,
 /obj/structure/barricade/wooden/planks/pregame,
@@ -10301,9 +10270,9 @@
 /turf/open/floor/f13,
 /area/f13/building)
 "eyT" = (
-/obj/structure/simple_door/metal/barred,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaltopbordertop0"
+/obj/effect/decal/marking,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain2left"
 	},
 /area/f13/wasteland)
 "ezo" = (
@@ -11471,12 +11440,6 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/city)
-"faN" = (
-/obj/machinery/door/unpowered/secure_legion,
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontalbottombordertop1"
-	},
-/area/f13/wasteland)
 "faW" = (
 /turf/open/indestructible/ground/outside/ruins,
 /area/f13/wasteland)
@@ -11964,9 +11927,9 @@
 	},
 /area/f13/wasteland)
 "fmC" = (
-/obj/structure/table/wood,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaltopbordertop0"
+/obj/effect/decal/marking,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain2right"
 	},
 /area/f13/wasteland)
 "fmP" = (
@@ -12779,12 +12742,8 @@
 	},
 /area/f13/building)
 "fBX" = (
-/obj/structure/table,
-/obj/structure/barricade/sandbags,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaltopbordertop2"
-	},
-/area/f13/wasteland)
+/turf/open/floor/wood/f13/old/ruinedstraightwest,
+/area/f13/building)
 "fCg" = (
 /obj/item/tank/internals/anesthetic,
 /obj/item/tank/internals/anesthetic,
@@ -13528,11 +13487,15 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/cotc)
 "fTm" = (
-/obj/structure/closet,
-/obj/item/lock_construct,
-/obj/item/key,
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontaltopborderbottom1"
+/obj/structure/sign/plaques{
+	icon = 'icons/fallout/objects/decals.dmi';
+	icon_state = "memorial";
+	name = "The Church of Jesus Christ of Latter-day Saints";
+	pixel_y = -33;
+	desc = "A plaque identifying a building."
+	},
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontalbottomborderbottom2left"
 	},
 /area/f13/wasteland)
 "fTn" = (
@@ -13959,11 +13922,10 @@
 /turf/closed/mineral/random/low_chance,
 /area/f13/caves)
 "gcS" = (
-/obj/structure/flora/tree/tall{
-	layer = 2;
-	pixel_y = 9
+/obj/structure/chair/pew/right,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontalbottomborderbottom1"
 	},
-/turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "gdc" = (
 /obj/structure/table/wood,
@@ -13975,9 +13937,13 @@
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/building)
 "gdv" = (
-/obj/structure/table,
-/obj/structure/barricade/sandbags,
-/turf/open/indestructible/ground/outside/dirt,
+/obj/effect/decal/marking{
+	icon_state = "dottedverticalcorroded"
+	},
+/turf/open/indestructible/ground/outside/road{
+	dir = 1;
+	icon_state = "innermaincornerinner"
+	},
 /area/f13/wasteland)
 "gdN" = (
 /obj/structure/wreck/trash/three_barrels,
@@ -14213,9 +14179,9 @@
 	},
 /area/f13/wasteland)
 "gij" = (
-/obj/structure/wreck/trash/five_tires,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "verticalleftborderleft1"
+/obj/effect/decal/marking,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontaltopborderbottom2right"
 	},
 /area/f13/wasteland)
 "gin" = (
@@ -18123,14 +18089,14 @@
 	},
 /area/f13/building)
 "hMb" = (
-/obj/item/reagent_containers/glass/bucket{
-	desc = "It smells awful.";
-	name = "waste bucket"
-	},
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontalbottomborderbottom0"
-	},
-/area/f13/wasteland)
+/obj/structure/closet/crate/trashcart,
+/obj/item/storage/book/bible,
+/obj/item/storage/book/bible,
+/obj/item/storage/book/bible,
+/obj/item/storage/book/bible,
+/obj/item/storage/book/bible,
+/turf/open/floor/wood/f13/oak,
+/area/f13/building)
 "hMz" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/storage/toolbox/mechanical/old,
@@ -18198,13 +18164,6 @@
 	icon_state = "verticaloutermaintop"
 	},
 /area/f13/building)
-"hNT" = (
-/obj/structure/table,
-/obj/structure/barricade/sandbags,
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontalbottombordertop1"
-	},
-/area/f13/wasteland)
 "hNZ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/curtain{
@@ -18382,12 +18341,11 @@
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/building)
 "hSe" = (
-/obj/structure/table/wood/settler,
-/obj/structure/barricade/wooden,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontalbottomborderbottom0"
+/obj/structure/chair/pew/left{
+	dir = 1
 	},
-/area/f13/wasteland)
+/turf/open/floor/wood/f13/oak,
+/area/f13/building)
 "hSz" = (
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt{
@@ -18396,11 +18354,8 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "hSA" = (
-/turf/open/floor/f13{
-	icon_state = "rampdowntop";
-	name = "stairs"
-	},
-/area/f13/wasteland)
+/turf/open/floor/wood/f13/old/ruinedcornertr,
+/area/f13/building)
 "hSD" = (
 /obj/structure/flora/rock/pile/largejungle,
 /obj/structure/flora/rock/jungle,
@@ -18541,10 +18496,10 @@
 /turf/open/floor/f13/wood,
 /area/f13/village)
 "hVV" = (
-/obj/structure/table,
+/obj/effect/decal/marking,
 /obj/structure/barricade/sandbags,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontalbottomborderbottom1"
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain1"
 	},
 /area/f13/wasteland)
 "hVW" = (
@@ -19291,16 +19246,6 @@
 	icon_state = "dirt"
 	},
 /area/f13/wasteland)
-"ilo" = (
-/obj/structure/flora/grass/wasteland{
-	pixel_y = 17
-	},
-/obj/structure/flora/grass/wasteland{
-	layer = 4.2;
-	pixel_x = -3
-	},
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
 "ilt" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -19577,11 +19522,11 @@
 /turf/open/floor/wood/f13/carpet,
 /area/f13/ncr)
 "irF" = (
-/obj/structure/chair/pew{
-	dir = 8
+/turf/open/floor/f13{
+	icon_state = "rampdowntop";
+	dir = 1;
+	name = "stairs"
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "irI" = (
 /obj/structure/flora/grass/jungle/b,
@@ -20094,9 +20039,8 @@
 /turf/open/floor/carpet/purple,
 /area/f13/cotc)
 "iEa" = (
-/obj/structure/chair/pew/left{
-	dir = 8
-	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/pew/left,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "iEg" = (
@@ -20908,16 +20852,12 @@
 /turf/closed/wall/f13/wood,
 /area/f13/cotc)
 "iSU" = (
-/obj/structure/obstacle/barbedwire/end{
-	dir = 1;
-	pixel_x = 6
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/pew{
+	dir = 8
 	},
-/turf/open/floor/f13{
-	icon_state = "rampdowntop";
-	dir = 4;
-	name = "stairs"
-	},
-/area/f13/wasteland)
+/turf/open/floor/wood/f13/oak,
+/area/f13/building)
 "iTx" = (
 /turf/closed/wall/f13/wood/house/broken,
 /area/f13/caves)
@@ -21598,11 +21538,10 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "jfG" = (
-/obj/structure/chair/pew/right{
-	dir = 8
+/turf/open/floor/f13{
+	icon_state = "rampdowntop";
+	name = "stairs"
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "jfH" = (
 /obj/structure/rack,
@@ -24999,11 +24938,14 @@
 	},
 /area/f13/wasteland)
 "kCR" = (
-/obj/structure/chair{
-	dir = 8
+/obj/structure/wreck/trash/autoshaft{
+	pixel_x = 14;
+	pixel_y = -14
 	},
-/turf/open/floor/wood/f13/oak,
-/area/f13/building)
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticaloutermainbottom"
+	},
+/area/f13/wasteland)
 "kDc" = (
 /obj/structure/dresser,
 /obj/machinery/light/small{
@@ -26566,11 +26508,14 @@
 /turf/open/floor/f13,
 /area/f13/building)
 "lnX" = (
-/obj/machinery/door/unpowered/secure_legion,
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontalinnermain1"
+/obj/effect/decal/marking{
+	icon_state = "doublehorizontal"
 	},
-/area/f13/wasteland)
+/obj/structure/obstacle/tanktrap,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/tunnel)
 "loa" = (
 /obj/structure/rack,
 /obj/item/clothing/head/beanie/red,
@@ -28374,13 +28319,13 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "mdP" = (
-/obj/structure/obstacle/barbedwire/end,
+/obj/structure/obstacle/barbedwire,
 /turf/open/floor/f13{
 	icon_state = "rampdowntop";
 	dir = 4;
 	name = "stairs"
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "mee" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/f13/armor/random,
@@ -28502,18 +28447,6 @@
 /obj/effect/decal/remains/human,
 /turf/open/floor/f13/wood,
 /area/f13/village)
-"mfU" = (
-/obj/structure/sign/plaques{
-	icon = 'icons/fallout/objects/decals.dmi';
-	icon_state = "memorial";
-	name = "The Church of Jesus Christ of Latter-day Saints";
-	pixel_x = -32;
-	pixel_y = -1
-	},
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "verticalleftborderleft0"
-	},
-/area/f13/wasteland)
 "mfV" = (
 /obj/machinery/light/small/broken,
 /turf/open/indestructible/ground/outside/road{
@@ -28589,13 +28522,16 @@
 	},
 /area/f13/wasteland)
 "mhQ" = (
-/obj/structure/obstacle/barbedwire,
+/obj/structure/obstacle/barbedwire/end{
+	dir = 1;
+	pixel_x = 6
+	},
 /turf/open/floor/f13{
 	icon_state = "rampdowntop";
 	dir = 4;
 	name = "stairs"
 	},
-/area/f13/wasteland)
+/area/f13/building)
 "mhT" = (
 /obj/structure/table,
 /obj/structure/barricade/bars,
@@ -29433,14 +29369,6 @@
 /obj/effect/spawner/lootdrop/f13/alcoholspawner,
 /turf/open/floor/wood/f13/carpet,
 /area/f13/building)
-"mCE" = (
-/obj/structure/closet,
-/obj/item/lock_construct,
-/obj/item/key,
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontaltopborderbottom2"
-	},
-/area/f13/wasteland)
 "mCG" = (
 /obj/structure/fence/corner{
 	dir = 4
@@ -29517,10 +29445,10 @@
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "mGc" = (
-/obj/structure/table,
+/obj/effect/decal/marking,
 /obj/structure/barricade/sandbags,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontalbottomborderbottom2"
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontaltopborderbottom1"
 	},
 /area/f13/wasteland)
 "mGe" = (
@@ -29981,12 +29909,11 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "mPS" = (
-/obj/structure/flora/grass/wasteland{
-	icon_state = "tall_grass_2";
-	pixel_x = -1;
-	pixel_y = 1
+/obj/effect/decal/marking,
+/obj/structure/car/rubbish2,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain1"
 	},
-/turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "mPT" = (
 /obj/structure/closet/cabinet,
@@ -30698,9 +30625,9 @@
 /turf/closed/wall/f13/wood/house,
 /area/f13/building)
 "neu" = (
-/obj/structure/wreck/trash/brokenvendor,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontalbottomborderbottom0"
+/obj/structure/sink/well,
+/turf/open/indestructible/ground/outside/desert{
+	icon_state = "wasteland32"
 	},
 /area/f13/wasteland)
 "nev" = (
@@ -31134,17 +31061,16 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "nps" = (
-/obj/structure/flora/grass/wasteland{
-	icon_state = "tall_grass_2";
-	pixel_x = 8;
-	pixel_y = 1
+/obj/structure/sign/plaques{
+	icon = 'icons/fallout/objects/decals.dmi';
+	icon_state = "memorial";
+	name = "The Church of Jesus Christ of Latter-day Saints";
+	pixel_y = 32;
+	desc = "A plaque identifying a building."
 	},
-/obj/structure/flora/grass/wasteland{
-	icon_state = "tall_grass_2";
-	pixel_x = -3;
-	pixel_y = 5
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontaltopbordertop0"
 	},
-/turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "npv" = (
 /obj/structure/barricade/wooden,
@@ -31624,12 +31550,12 @@
 /turf/open/floor/plasteel/f13/vault_floor/floor,
 /area/f13/village)
 "nzA" = (
-/obj/structure/barricade/bars,
-/obj/structure/table,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaloutermain0"
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/pew/right{
+	dir = 8
 	},
-/area/f13/wasteland)
+/turf/open/floor/wood/f13/oak,
+/area/f13/building)
 "nzI" = (
 /obj/structure/table/reinforced,
 /obj/effect/spawner/lootdrop/trash,
@@ -34058,13 +33984,11 @@
 /turf/open/floor/carpet,
 /area/f13/ncr)
 "oEP" = (
-/obj/structure/chair/pew/left{
-	dir = 8
+/obj/structure/obstacle/tanktrap,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalbottombordertop0"
 	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood/f13/oak,
-/area/f13/building)
+/area/f13/tunnel)
 "oES" = (
 /obj/structure/closet/crate/miningcar,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/lowmid,
@@ -34143,15 +34067,6 @@
 /obj/item/newspaper,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/building)
-"oHu" = (
-/obj/structure/flora/grass/wasteland{
-	icon_state = "tall_grass_4";
-	pixel_x = 4;
-	pixel_y = 13
-	},
-/obj/structure/flora/grass/wasteland,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
 "oHH" = (
 /obj/structure/bed/mattress{
 	icon_state = "mattress6"
@@ -35094,15 +35009,17 @@
 /turf/open/floor/wood/f13/carpet,
 /area/f13/bar)
 "pfj" = (
-/obj/structure/flora/grass/wasteland{
-	icon_state = "tall_grass_4";
-	pixel_x = 4;
-	pixel_y = 13
+/obj/structure/sign/plaques{
+	icon = 'icons/fallout/objects/decals.dmi';
+	icon_state = "memorial";
+	name = "The Church of Jesus Christ of Latter-day Saints";
+	pixel_x = -32;
+	pixel_y = -1;
+	desc = "A plaque identifying a building."
 	},
-/obj/structure/flora/grass/wasteland{
-	icon_state = "tall_grass_2"
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "verticalleftborderleft0"
 	},
-/turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "pfl" = (
 /turf/open/indestructible/ground/outside/road{
@@ -35572,13 +35489,6 @@
 /obj/effect/spawner/lootdrop/trash,
 /turf/open/floor/f13/wood,
 /area/f13/building)
-"prg" = (
-/obj/structure/table,
-/obj/structure/barricade/bars,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontalbottomborderbottom2"
-	},
-/area/f13/wasteland)
 "prm" = (
 /obj/structure/simple_door/metal/fence{
 	dir = 8
@@ -35863,9 +35773,12 @@
 	},
 /area/f13/wasteland)
 "pzh" = (
-/obj/structure/wreck/trash/machinepiletwo,
+/obj/structure/table/wood,
+/obj/item/storage/box/matches{
+	pixel_y = 10
+	},
 /turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontalbottomborderbottom0"
+	icon_state = "horizontaltopbordertop0"
 	},
 /area/f13/wasteland)
 "pzm" = (
@@ -36071,16 +35984,9 @@
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "pEp" = (
-/obj/structure/flora/grass/wasteland{
-	icon_state = "tall_grass_3";
-	pixel_x = 21;
-	pixel_y = 5
-	},
-/obj/structure/flora/grass/wasteland{
-	icon_state = "tall_grass_3"
-	},
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood/f13/old/ruinedcornerbr,
+/area/f13/building)
 "pEs" = (
 /obj/effect/spawner/lootdrop/trash,
 /obj/effect/decal/cleanable/dirt,
@@ -36483,29 +36389,11 @@
 	},
 /area/f13/wasteland)
 "pLE" = (
-/obj/structure/closet/crate/trashcart,
-/obj/item/paper{
-	icon_state = "paper_words";
-	name = "sheet music";
-	info = "[b]THE STAR-SPANGLED BANNER[/b][i]Lyrics by: Francis Scott Key[/i]O say can you see, by the dawn's early light,What so proudly we hailed at the twilight's last gleaming,Whose broad stripes and bright stars through the perilous fight,O'er the ramparts we watched, were so gallantly streaming?And the rocket's red glare, the bombs bursting in air,Gave proof through the night that our flag was still there;O say does that star-spangled banner yet waveO'er the land of the free and the home of the brave?On the shore dimly seen through the mists of the deep,Where the foe's haughty host in dread silence reposes,What is that which the breeze, o'er the towering steep,As it fitfully blows, half conceals, half discloses?Now it catches the gleam of the morning's first beam,In full glory reflected now shines in the stream:'Tis the star-spangled banner, O long may it waveO'er the land of the free and the home of the brave.And where is that band who so vauntingly sworeThat the havoc of war and the battle's confusion,A home and a country, should leave us no more?Their blood has washed out their foul footsteps' pollution.No refuge could save the hireling and slaveFrom the terror of flight, or the gloom of the grave:And the star-spangled banner in triumph doth wave,O'er the land of the free and the home of the brave.O thus be it ever, when freemen shall standBetween their loved homes and the war's desolation.Blest with vict'ry and peace, may the Heav'n rescued landPraise the Power that hath made and preserved us a nation!Then conquer we must, when our cause it is just,And this be our motto: 'In God is our trust.'And the star-spangled banner in triumph shall waveO'er the land of the free and the home of the brave!"
+/obj/effect/decal/marking{
+	icon_state = "dottedverticalcorroded"
 	},
-/obj/item/paper{
-	icon_state = "paper_words";
-	name = "sheet music";
-	info = "[b]THE STAR-SPANGLED BANNER[/b][i]Lyrics by: Francis Scott Key[/i]O say can you see, by the dawn's early light,What so proudly we hailed at the twilight's last gleaming,Whose broad stripes and bright stars through the perilous fight,O'er the ramparts we watched, were so gallantly streaming?And the rocket's red glare, the bombs bursting in air,Gave proof through the night that our flag was still there;O say does that star-spangled banner yet waveO'er the land of the free and the home of the brave?On the shore dimly seen through the mists of the deep,Where the foe's haughty host in dread silence reposes,What is that which the breeze, o'er the towering steep,As it fitfully blows, half conceals, half discloses?Now it catches the gleam of the morning's first beam,In full glory reflected now shines in the stream:'Tis the star-spangled banner, O long may it waveO'er the land of the free and the home of the brave.And where is that band who so vauntingly sworeThat the havoc of war and the battle's confusion,A home and a country, should leave us no more?Their blood has washed out their foul footsteps' pollution.No refuge could save the hireling and slaveFrom the terror of flight, or the gloom of the grave:And the star-spangled banner in triumph doth wave,O'er the land of the free and the home of the brave.O thus be it ever, when freemen shall standBetween their loved homes and the war's desolation.Blest with vict'ry and peace, may the Heav'n rescued landPraise the Power that hath made and preserved us a nation!Then conquer we must, when our cause it is just,And this be our motto: 'In God is our trust.'And the star-spangled banner in triumph shall waveO'er the land of the free and the home of the brave!"
-	},
-/obj/item/paper{
-	icon_state = "paper_words";
-	name = "sheet music";
-	info = "[b]THE STAR-SPANGLED BANNER[/b][i]Lyrics by: Francis Scott Key[/i]O say can you see, by the dawn's early light,What so proudly we hailed at the twilight's last gleaming,Whose broad stripes and bright stars through the perilous fight,O'er the ramparts we watched, were so gallantly streaming?And the rocket's red glare, the bombs bursting in air,Gave proof through the night that our flag was still there;O say does that star-spangled banner yet waveO'er the land of the free and the home of the brave?On the shore dimly seen through the mists of the deep,Where the foe's haughty host in dread silence reposes,What is that which the breeze, o'er the towering steep,As it fitfully blows, half conceals, half discloses?Now it catches the gleam of the morning's first beam,In full glory reflected now shines in the stream:'Tis the star-spangled banner, O long may it waveO'er the land of the free and the home of the brave.And where is that band who so vauntingly sworeThat the havoc of war and the battle's confusion,A home and a country, should leave us no more?Their blood has washed out their foul footsteps' pollution.No refuge could save the hireling and slaveFrom the terror of flight, or the gloom of the grave:And the star-spangled banner in triumph doth wave,O'er the land of the free and the home of the brave.O thus be it ever, when freemen shall standBetween their loved homes and the war's desolation.Blest with vict'ry and peace, may the Heav'n rescued landPraise the Power that hath made and preserved us a nation!Then conquer we must, when our cause it is just,And this be our motto: 'In God is our trust.'And the star-spangled banner in triumph shall waveO'er the land of the free and the home of the brave!"
-	},
-/obj/item/paper{
-	icon_state = "paper_words";
-	name = "sheet music";
-	info = "[b]THE STAR-SPANGLED BANNER[/b][i]Lyrics by: Francis Scott Key[/i]O say can you see, by the dawn's early light,What so proudly we hailed at the twilight's last gleaming,Whose broad stripes and bright stars through the perilous fight,O'er the ramparts we watched, were so gallantly streaming?And the rocket's red glare, the bombs bursting in air,Gave proof through the night that our flag was still there;O say does that star-spangled banner yet waveO'er the land of the free and the home of the brave?On the shore dimly seen through the mists of the deep,Where the foe's haughty host in dread silence reposes,What is that which the breeze, o'er the towering steep,As it fitfully blows, half conceals, half discloses?Now it catches the gleam of the morning's first beam,In full glory reflected now shines in the stream:'Tis the star-spangled banner, O long may it waveO'er the land of the free and the home of the brave.And where is that band who so vauntingly sworeThat the havoc of war and the battle's confusion,A home and a country, should leave us no more?Their blood has washed out their foul footsteps' pollution.No refuge could save the hireling and slaveFrom the terror of flight, or the gloom of the grave:And the star-spangled banner in triumph doth wave,O'er the land of the free and the home of the brave.O thus be it ever, when freemen shall standBetween their loved homes and the war's desolation.Blest with vict'ry and peace, may the Heav'n rescued landPraise the Power that hath made and preserved us a nation!Then conquer we must, when our cause it is just,And this be our motto: 'In God is our trust.'And the star-spangled banner in triumph shall waveO'er the land of the free and the home of the brave!"
-	},
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontalbottomborderbottom0"
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain2right"
 	},
 /area/f13/wasteland)
 "pLJ" = (
@@ -36608,12 +36496,8 @@
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/brotherhood/surface)
 "pOg" = (
-/turf/open/floor/f13{
-	icon_state = "rampdowntop";
-	dir = 1;
-	name = "stairs"
-	},
-/area/f13/wasteland)
+/turf/open/floor/wood/f13/old/ruinedstraighteast,
+/area/f13/building)
 "pOs" = (
 /obj/structure/sign/departments/medbay,
 /turf/closed/wall/f13/wood/house,
@@ -37394,10 +37278,8 @@
 	},
 /area/f13/village)
 "qgM" = (
-/obj/structure/chair/pew/right{
-	dir = 8
-	},
-/turf/open/floor/wood/f13/oak,
+/obj/structure/bonfire,
+/turf/open/indestructible/ground/outside/desert,
 /area/f13/building)
 "qgP" = (
 /obj/structure/closet,
@@ -37617,10 +37499,11 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "qlK" = (
-/obj/structure/barricade/bars,
-/obj/structure/table,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/obj/structure/chair/pew/right{
+	dir = 1
+	},
+/turf/open/floor/wood/f13/oak,
+/area/f13/building)
 "qmc" = (
 /obj/machinery/light/small,
 /turf/open/floor/wood,
@@ -38374,13 +38257,6 @@
 	icon_state = "horizontaltopborderbottom0"
 	},
 /area/f13/wasteland)
-"qDk" = (
-/obj/structure/barricade/bars,
-/obj/structure/table,
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontalbottombordertop1"
-	},
-/area/f13/wasteland)
 "qDr" = (
 /obj/structure/displaycase,
 /obj/item/clothing/neck/necklace/dope,
@@ -38492,8 +38368,7 @@
 	},
 /area/f13/building)
 "qGu" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood/f13/carpet,
+/turf/open/floor/wood/f13/old/ruinedstraightsouth,
 /area/f13/building)
 "qGx" = (
 /obj/effect/decal/cleanable/dirt,
@@ -39372,12 +39247,6 @@
 "qXT" = (
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/cotc)
-"qXW" = (
-/obj/structure/wreck/trash/engine,
-/turf/open/indestructible/ground/outside/desert{
-	icon_state = "wasteland32"
-	},
-/area/f13/wasteland)
 "qYa" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/decoration/cctv{
@@ -40223,10 +40092,10 @@
 	},
 /area/f13/wasteland)
 "rth" = (
-/obj/structure/destructible/tribal_torch/wall/lit,
-/obj/structure/chair/pew{
-	dir = 1
+/obj/structure/obstacle/barbedwire{
+	dir = 4
 	},
+/obj/structure/destructible/tribal_torch/wall/lit,
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontaloutermain0"
 	},
@@ -40873,10 +40742,6 @@
 	icon_state = "bar"
 	},
 /area/f13/ncr)
-"rKj" = (
-/obj/structure/wreck/trash/four_barrels,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
 "rKp" = (
 /obj/structure/obstacle/barbedwire/end,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -41070,10 +40935,9 @@
 	},
 /area/f13/building)
 "rOJ" = (
-/obj/structure/table,
-/obj/structure/barricade/sandbags,
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontaltopborderbottom1"
+/obj/structure/chair/pew/left,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontalbottomborderbottom1"
 	},
 /area/f13/wasteland)
 "rOY" = (
@@ -41866,18 +41730,13 @@
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/village)
 "shy" = (
-/obj/structure/flora/grass/wasteland{
-	icon_state = "tall_grass_2";
-	pixel_x = -3;
-	pixel_y = 5
+/obj/structure/obstacle/barbedwire/end,
+/turf/open/floor/f13{
+	icon_state = "rampdowntop";
+	dir = 4;
+	name = "stairs"
 	},
-/obj/structure/flora/grass/wasteland{
-	icon_state = "tall_grass_3";
-	pixel_x = 21;
-	pixel_y = 5
-	},
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/area/f13/building)
 "shD" = (
 /obj/structure/destructible/tribal_torch,
 /turf/open/indestructible/ground/outside/dirt{
@@ -42896,11 +42755,9 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "sFR" = (
-/obj/structure/chair/pew/left{
-	dir = 1
-	},
+/obj/structure/table/wood/junk,
 /turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaloutermain0"
+	icon_state = "horizontalbottomborderbottom0"
 	},
 /area/f13/wasteland)
 "sFS" = (
@@ -46767,11 +46624,11 @@
 /turf/open/floor/wood/f13/stage_t,
 /area/f13/wasteland)
 "uqh" = (
-/obj/structure/chair/wood{
-	dir = 8
+/obj/structure/wreck/bus/rusted,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain1"
 	},
-/turf/open/floor/wood/f13/oak,
-/area/f13/building)
+/area/f13/wasteland)
 "uqj" = (
 /obj/structure/simple_door/dirtyglass,
 /turf/open/floor/f13/wood,
@@ -47047,15 +46904,6 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
-"uwE" = (
-/obj/structure/chair/pew/left{
-	dir = 1
-	},
-/turf/open/indestructible/ground/outside/sidewalk{
-	dir = 1;
-	icon_state = "horizontaloutermain1"
-	},
-/area/f13/wasteland)
 "uwG" = (
 /obj/structure/flora/grass/wasteland{
 	icon_state = "tall_grass_2";
@@ -48162,16 +48010,12 @@
 	},
 /area/f13/wasteland)
 "uTL" = (
-/obj/structure/sign/plaques{
-	icon = 'icons/fallout/objects/decals.dmi';
-	icon_state = "memorial";
-	name = "The Church of Jesus Christ of Latter-day Saints";
-	pixel_y = -33
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/pew/left{
+	dir = 8
 	},
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontalbottomborderbottom2left"
-	},
-/area/f13/wasteland)
+/turf/open/floor/wood/f13/oak,
+/area/f13/building)
 "uTQ" = (
 /obj/structure/chair/comfy{
 	dir = 1
@@ -49570,13 +49414,9 @@
 	},
 /area/f13/wasteland)
 "vAd" = (
-/obj/structure/table/wood/junk,
-/obj/item/storage/box/matches{
-	pixel_y = 10
-	},
+/obj/structure/wreck/trash/engine,
 /turf/open/indestructible/ground/outside/sidewalk{
-	dir = 1;
-	icon_state = "horizontaloutermain1"
+	icon_state = "verticaloutermainbottom"
 	},
 /area/f13/wasteland)
 "vAe" = (
@@ -49631,15 +49471,6 @@
 	},
 /turf/open/indestructible/ground/outside/road,
 /area/f13/building)
-"vBd" = (
-/obj/structure/barricade/sandbags,
-/obj/effect/decal/marking{
-	icon_state = "dottedverticalcorroded"
-	},
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "verticalinnermain3"
-	},
-/area/f13/wasteland)
 "vBr" = (
 /obj/structure/kitchenspike,
 /turf/open/indestructible/ground/outside/dirt,
@@ -50615,9 +50446,9 @@
 /turf/open/pool,
 /area/f13/legion)
 "vWw" = (
-/turf/closed/wall/f13/store{
-	desc = "A pre-War wall made of solid concrete.";
-	name = "concrete wall"
+/obj/structure/chair/pew,
+/turf/open/indestructible/ground/outside/sidewalk{
+	icon_state = "horizontalbottomborderbottom1"
 	},
 /area/f13/wasteland)
 "vWx" = (
@@ -53733,12 +53564,11 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/bar)
 "xmQ" = (
-/obj/structure/chair/wood{
-	dir = 8
+/obj/effect/decal/marking,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalbottombordertop1"
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood/f13/oak,
-/area/f13/building)
+/area/f13/wasteland)
 "xnh" = (
 /obj/structure/window/fulltile/house{
 	dir = 2;
@@ -53793,10 +53623,7 @@
 	},
 /area/f13/wasteland)
 "xoh" = (
-/obj/structure/chair/pew{
-	dir = 8
-	},
-/turf/open/floor/wood/f13/oak,
+/turf/open/floor/wood/f13/old/ruinedstraightnorth,
 /area/f13/building)
 "xot" = (
 /obj/structure/dresser,
@@ -54685,10 +54512,10 @@
 	},
 /area/f13/building)
 "xJm" = (
-/obj/structure/chair/folding{
-	dir = 8
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/pew{
+	dir = 1
+	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "xJA" = (
@@ -55094,16 +54921,8 @@
 	},
 /area/f13/building)
 "xTr" = (
-/obj/structure/sign/plaques{
-	icon = 'icons/fallout/objects/decals.dmi';
-	icon_state = "memorial";
-	name = "The Church of Jesus Christ of Latter-day Saints";
-	pixel_y = 32
-	},
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaltopbordertop0"
-	},
-/area/f13/wasteland)
+/turf/open/floor/wood/f13/old/ruinedcornerbl,
+/area/f13/building)
 "xTK" = (
 /obj/structure/flora/grass/wasteland{
 	icon_state = "tall_grass_4"
@@ -55582,13 +55401,6 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/building)
-"yel" = (
-/obj/structure/table,
-/obj/structure/barricade/bars,
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontalbottombordertop1"
-	},
-/area/f13/wasteland)
 "yes" = (
 /obj/machinery/light/lampost,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
@@ -74906,8 +74718,8 @@ ybI
 ybI
 dkP
 sTa
+sTa
 rNn
-ybI
 onk
 qvQ
 ehN
@@ -75163,8 +74975,8 @@ xbX
 xbX
 hBN
 aJb
+aJb
 vdg
-tUb
 tUb
 ehN
 ehN
@@ -75420,8 +75232,8 @@ ehN
 hOl
 sgz
 sgz
+sgz
 kby
-ehN
 ehN
 ehN
 ehN
@@ -75677,8 +75489,8 @@ kaM
 kaM
 qoS
 dmL
+sgz
 goq
-kaM
 ehN
 ehN
 ehN
@@ -75933,11 +75745,11 @@ gQv
 gQv
 ees
 dNT
+dNT
 gQv
 ocX
 lXI
 qnS
-pqO
 pqO
 ubg
 koD
@@ -76191,10 +76003,10 @@ ptf
 ptf
 ptf
 ptf
+ptf
 gNA
 unI
 dXy
-mHW
 mHW
 snB
 koD
@@ -76448,10 +76260,10 @@ fyf
 fyf
 fyf
 fyf
+fyf
 kGc
 vCc
 dXy
-mHW
 mHW
 snB
 koD
@@ -76705,10 +76517,10 @@ fyf
 fyf
 fyf
 fyf
+fyf
 kGc
 ajD
 dXy
-mHW
 mHW
 snB
 koD
@@ -76945,7 +76757,7 @@ hAC
 fyf
 fyf
 fyf
-rVr
+fyf
 fyf
 fyf
 fyf
@@ -76959,13 +76771,13 @@ fyf
 fyf
 fyf
 hAC
+fyf
 fyf
 fyf
 fyf
 kGc
 ajD
 lSD
-mHW
 mHW
 snB
 koD
@@ -77219,11 +77031,11 @@ uey
 fyf
 fyf
 fyf
+fyf
 ilu
 rAt
 grp
 wKo
-apk
 apk
 koD
 dMW
@@ -77478,9 +77290,9 @@ fyf
 fyf
 fyf
 fyf
+uey
 fyf
 hCs
-pqO
 ubg
 koD
 dMW
@@ -77735,9 +77547,9 @@ fyf
 fyf
 fyf
 fyf
+fyf
 hWk
 rkr
-ubg
 snB
 koD
 dMW
@@ -77969,7 +77781,6 @@ fyf
 fyf
 fyf
 fyf
-fyf
 hWk
 plq
 uPP
@@ -77991,9 +77802,10 @@ fyf
 fyf
 fyf
 fyf
+neu
+fyf
 fyf
 hCs
-dmL
 dmL
 uVo
 koD
@@ -78225,7 +78037,6 @@ fyf
 fyf
 fyf
 fyf
-fyf
 hWk
 rkr
 nSN
@@ -78249,9 +78060,10 @@ fyf
 fyf
 fyf
 fyf
+fyf
+fyf
 mEL
 wKo
-apk
 snB
 koD
 dMW
@@ -78479,10 +78291,9 @@ fyf
 fyf
 fyf
 fyf
-oCi
-cWG
-noK
-nJT
+fyf
+hWk
+plq
 rkr
 sgz
 nSN
@@ -78502,13 +78313,14 @@ uJI
 fyf
 fyf
 fyf
+uey
+fyf
 fyf
 fyf
 fyf
 fyf
 fyf
 hCs
-fuU
 apk
 koD
 dMW
@@ -78736,10 +78548,9 @@ wDc
 fyf
 fyf
 fyf
-sBk
-mvv
-ajD
-dXy
+fyf
+hCs
+sgz
 dmL
 snB
 jYp
@@ -78764,8 +78575,9 @@ fyf
 fyf
 fyf
 fyf
+uey
+fyf
 hCs
-dmL
 gmX
 koD
 dMW
@@ -78993,10 +78805,9 @@ doX
 wDc
 fyf
 fyf
-sBk
-mvv
-ajD
-dXy
+fyf
+hCs
+mHW
 sgz
 pTC
 koD
@@ -79021,8 +78832,9 @@ fyf
 fyf
 fyf
 fyf
+fyf
+fyf
 hCs
-mHW
 gmX
 koD
 dMW
@@ -79249,14 +79061,13 @@ giZ
 mvv
 bpD
 xTK
-tvN
-prg
-rHw
-stK
-rKr
-lnX
-yel
-oib
+uey
+hAC
+hCs
+mHW
+wGJ
+pTC
+koD
 usx
 usx
 eKR
@@ -79274,12 +79085,13 @@ ajD
 dXy
 pWN
 plq
+plq
+plq
+plq
 oCi
-cWG
 noK
 nJT
 rkr
-mHW
 dmL
 koD
 dMW
@@ -79506,14 +79318,13 @@ giZ
 mvv
 doX
 cWG
-dWv
-mGc
+hAC
+hWk
 gdv
-fBX
-rOJ
+mHW
 wGJ
-hNT
-mhL
+pTC
+koD
 usx
 guh
 gKP
@@ -79530,12 +79341,13 @@ usx
 ajD
 dXy
 apk
-pTC
+wGJ
+pLE
+bys
+fmC
 sBk
-mvv
 ajD
 dXy
-mHW
 mHW
 gmX
 koD
@@ -79763,11 +79575,10 @@ giZ
 giZ
 giZ
 giZ
-lPT
-wwM
-ilo
-ajD
-qiP
+nJT
+rkr
+mHW
+wGJ
 pqO
 pTC
 koD
@@ -79787,12 +79598,13 @@ pzm
 ofX
 dXy
 wGJ
+wGJ
+wGJ
+wGJ
 pTC
 sBk
-mPS
 ofX
 nVr
-mHW
 mHW
 vnc
 koD
@@ -80020,11 +79832,10 @@ dCV
 dCV
 dCV
 giZ
-lPT
-koD
-mvv
-ofX
-qiP
+dXy
+mHW
+wGJ
+pqO
 pqO
 gmX
 dKW
@@ -80044,12 +79855,13 @@ usx
 vCc
 rQh
 wGJ
+wGJ
+wGJ
+wGJ
 pTC
 wwM
-mvv
 unI
 dXy
-mHW
 mHW
 snB
 koD
@@ -80277,11 +80089,10 @@ gax
 ajT
 dCV
 giZ
-lPT
-koD
-mvv
-bys
-qvQ
+gij
+srI
+srI
+pqO
 pqO
 gmX
 dKW
@@ -80301,12 +80112,13 @@ usx
 vCc
 qiP
 wGJ
-pTC
+wGJ
+srI
+srI
+xmQ
 koD
-sjl
 unI
 dXy
-mHW
 mHW
 snB
 koD
@@ -80534,15 +80346,14 @@ tnd
 npX
 dCV
 giZ
-lPT
-koD
-exD
-unI
-qvQ
+qiP
+wGJ
+wGJ
+pqO
 pqO
 pTC
 dKW
-uCW
+lTB
 usx
 eWS
 aRl
@@ -80557,13 +80368,14 @@ usx
 lTB
 vCc
 qiP
-rbe
+wGJ
+wGJ
+wGJ
+wGJ
 pTC
 koD
-mvv
 pBv
 dXy
-mHW
 mHW
 uVo
 koD
@@ -80791,21 +80603,20 @@ kEI
 iLa
 dCV
 giZ
-lPT
-koD
-mPS
-unI
 qiP
+wGJ
+wGJ
+wGJ
 wGJ
 pTC
 dKW
-vAd
-iSE
-aRl
+wvj
+cWy
+lGR
 aRl
 gGz
 gGz
-bTA
+aRl
 aRl
 aRl
 gGz
@@ -80815,12 +80626,13 @@ wvj
 vCc
 qiP
 wGJ
+wGJ
+wGJ
+wGJ
 pTC
 koD
-nps
 ajD
 dXy
-mHW
 mHW
 snB
 koD
@@ -81048,37 +80860,37 @@ ydO
 ydO
 dCV
 giZ
-lPT
-pLE
-mvv
-koT
-qiP
+ehG
+srI
+srI
+wGJ
 wGJ
 pTC
 dKW
-uwE
-usx
+wvj
+cWy
+lGR
 gGz
-oEP
-irF
-qgM
-qGu
-xJm
-uqh
+gGz
+aRl
+gGz
+gGz
+aRl
 aRl
 lGR
 cWy
 wvj
-vCc
+koT
 qiP
 wGJ
-dFQ
+wGJ
+srI
+srI
+eyT
 bfu
-aBH
-rAt
+qGZ
 plQ
 wKo
-mHW
 snB
 koD
 dMW
@@ -81305,37 +81117,37 @@ mHj
 uAE
 dCV
 giZ
-lPT
-dEt
-mvv
-fmC
 qiP
-kFx
+wGJ
+wGJ
+wGJ
+wGJ
 pTC
-koD
+dKW
 rth
 usx
 aHs
+iEa
 gGz
+kcJ
+fBX
+xTr
 gGz
-aRl
-bTA
-aRl
-gGz
-aRl
+hSe
 sbv
 usx
 oMx
-vCc
+pzh
 qiP
+wGJ
+wGJ
+kFx
 wGJ
 snB
 sBk
-aej
-ciG
+kCR
 uey
 sCT
-mHW
 snB
 koD
 dMW
@@ -81562,37 +81374,37 @@ mHj
 ydO
 dCV
 giZ
-lPT
-koD
-mvv
-koT
 qiP
 wGJ
+wGJ
+wGJ
+wGJ
 pTC
-koD
-bNK
-usx
-gGz
-iEa
+dKW
+nwM
+cWy
+lGR
+cRX
+aRl
 xoh
 qgM
 qGu
-kCR
-xJm
 gGz
+xJm
 lGR
 cWy
 nwM
-unI
+koT
 qiP
-ubg
+wGJ
+wGJ
+wGJ
+wGJ
 uVo
 sBk
-bpD
-qXW
+vAd
 hAC
 qRE
-mHW
 snB
 koD
 dMW
@@ -81819,37 +81631,37 @@ mFz
 ydO
 dCV
 giZ
-lPT
-neu
-odZ
-unI
-qiP
+ehG
+srI
+srI
+wGJ
 wGJ
 pTC
-koD
-bFJ
-pzm
+dKW
+nwM
+cWy
+lGR
+bNK
 gGz
+hSA
+pOg
+pEp
 aRl
-gGz
-gGz
-bTA
-gGz
-aRl
-aRl
+qlK
 lGR
 cWy
 nwM
 unI
 qiP
-dmL
-snB
+wGJ
+wGJ
+spV
+spV
+cUk
 sBk
-doX
-noK
+dEt
 nJT
 rkr
-mHW
 snB
 koD
 dMW
@@ -82076,36 +81888,36 @@ lKe
 ydO
 dCV
 giZ
-lPT
-hSe
-ehG
-lPT
-fTm
+qiP
+wGJ
+wGJ
+wGJ
 wGJ
 pTC
 koD
-gdY
+yil
 usx
 jdz
-iEa
-irF
-jfG
-bTA
-uqh
-xmQ
+aRl
+gGz
+gGz
+aRl
+aRl
+gGz
 gGz
 ffH
 usx
 yil
 unI
 qiP
-apk
+pqO
+wGJ
+pqO
+pqO
 qNj
 dKW
-mvv
 ajD
 dXy
-mHW
 mHW
 uVo
 koD
@@ -82333,36 +82145,36 @@ kEI
 ydO
 dCV
 giZ
-lPT
-hMb
-mvv
-bdt
 qiP
 wGJ
+wGJ
+wGJ
+wGJ
 pTC
+fTm
+usx
+usx
+aRl
+aRl
+aRl
 uTL
-usx
-usx
-aRl
-gGz
-aRl
-gGz
-qGu
-gGz
+iSU
+nzA
 gGz
 gGz
 aRl
 usx
 usx
-xTr
+nps
 qvQ
+pqO
+wGJ
+pqO
 pqO
 gmX
 koD
-mvv
 ofX
 nVr
-mHW
 mHW
 snB
 koD
@@ -82590,15 +82402,14 @@ iLa
 ydO
 dCV
 giZ
-lPT
-koD
-mvv
-eyT
-qiP
+ehG
+srI
+srI
+wGJ
 wGJ
 snB
 sBk
-pOg
+irF
 gpi
 aRl
 gGz
@@ -82610,16 +82421,17 @@ aRl
 gGz
 gGz
 gpi
-hSA
+jfG
 vCc
 qvQ
 pqO
-gmX
+wGJ
+spV
+spV
+wFh
 koD
-mPS
 vCc
 dXy
-mHW
 mHW
 snB
 koD
@@ -82847,36 +82659,36 @@ kEI
 ydO
 dCV
 giZ
-lPT
-hSe
-ehG
-lPT
-dXy
+qiP
+wGJ
+aXC
+sgz
 sgz
 snB
 sBk
-pOg
+irF
 gpi
 eVx
 aRl
 gGz
-aRl
-aRl
+hMb
+aej
 aRl
 aRl
 aRl
 ifE
 gpi
-hSA
+jfG
 vCc
 qvQ
 pqO
+wGJ
+pqO
+pqO
 gmX
 koD
-gcS
 vCc
 rQh
-mHW
 mHW
 pTC
 koD
@@ -83104,11 +82916,10 @@ kEI
 ydO
 dCV
 giZ
-lPT
-koD
-mvv
-eyT
-dXy
+qiP
+wGJ
+wGJ
+xiq
 dmL
 snB
 mQm
@@ -83128,12 +82939,13 @@ usx
 klG
 qvQ
 pqO
+wGJ
+pqO
+pqO
 gmX
 koD
-mvv
 vCc
 qiP
-apk
 apk
 pTC
 koD
@@ -83361,15 +83173,14 @@ ydO
 ydO
 dCV
 giZ
-lPT
-hMb
-mvv
-bdt
-dXy
+ehG
+srI
+srI
+sgz
 sgz
 snB
 sBk
-uaf
+lTB
 uTq
 qSH
 aRl
@@ -83385,12 +83196,13 @@ lTB
 vCc
 box
 pqO
-gmX
-koD
-mvv
+wGJ
+spV
+spV
+wFh
+sFR
 vCc
 qiP
-pqO
 pqO
 pTC
 koD
@@ -83618,15 +83430,14 @@ kEI
 qQq
 dCV
 giZ
-lPT
-hSe
-ehG
-lPT
-mCE
+qiP
+wGJ
+wGJ
+sgz
 sgz
 snB
 sBk
-cam
+wvj
 iSE
 lFM
 aRl
@@ -83642,12 +83453,13 @@ wvj
 vCc
 dXy
 dFQ
+wGJ
+pqO
+pqO
 gmX
-dKW
-pEp
+rOJ
 vCc
 qiP
-dFQ
 dFQ
 pTC
 koD
@@ -83875,15 +83687,14 @@ mHy
 nHl
 dCV
 giZ
-lPT
-pzh
-mvv
-unI
-rQh
+qiP
+wGJ
+wGJ
+wGJ
 wGJ
 pTC
 wwM
-sFR
+wvj
 usx
 hdX
 aRl
@@ -83899,13 +83710,14 @@ gDW
 pBv
 dXy
 sgz
-ubg
-dKW
-pfj
+dFQ
+wGJ
+wGJ
+pqO
+vWw
 vCc
 box
 mqo
-mHW
 pTC
 koD
 bFJ
@@ -84132,11 +83944,10 @@ rEe
 xoK
 dCV
 giZ
-lPT
-koD
-shy
-unI
-qvQ
+ehG
+srI
+srI
+pqO
 wGJ
 pTC
 koD
@@ -84156,12 +83967,13 @@ frZ
 rAt
 grp
 wKo
-uVo
-dKW
+sgz
+srI
+spV
 mPS
+gcS
 vCc
 dXy
-mHW
 mHW
 pTC
 koD
@@ -84389,15 +84201,14 @@ mJh
 hdX
 dCV
 giZ
-lPT
-koD
-mvv
-unI
-qvQ
+qiP
+wGJ
+wGJ
+pqO
 pqO
 pTC
 koD
-bNK
+nwM
 usx
 uqa
 eFC
@@ -84413,12 +84224,13 @@ gwK
 uey
 hAC
 hCs
-snB
+sgz
+wGJ
+wGJ
+pqO
 dKW
-mvv
 vCc
 rQh
-wGJ
 wGJ
 pTC
 koD
@@ -84646,15 +84458,14 @@ xYo
 dCV
 dCV
 giZ
-lPT
-koD
-mvv
-unI
-qvQ
+qiP
+wGJ
+tbO
+pqO
 pqO
 gmX
 koD
-bFJ
+nwM
 kXy
 pSW
 aRl
@@ -84670,12 +84481,13 @@ rZk
 noK
 nJT
 cvi
-snB
+sgz
+wGJ
+wGJ
+wGJ
 dKW
-mvv
 vCc
 qvQ
-wGJ
 wGJ
 snB
 koD
@@ -84903,15 +84715,14 @@ iLa
 dCV
 nnG
 giZ
-lPT
+mGc
 hVV
-gdv
-gXU
-hNT
+hVV
+sgz
+wGJ
 pqO
-nfE
-mhL
-vlG
+koD
+yil
 usx
 uMy
 aRl
@@ -84927,12 +84738,13 @@ jcl
 ofX
 dXy
 apk
-pTC
+wGJ
+srI
+srI
+xmQ
 dKW
-kbF
 vCc
 qiP
-wGJ
 wGJ
 uVo
 koD
@@ -85160,15 +84972,14 @@ fRk
 dCV
 nnG
 giZ
-lPT
-ecm
-qlK
-evk
-qDk
-faN
-cRX
-ecm
-nzA
+qiP
+wGJ
+wGJ
+sgz
+wGJ
+pqO
+koD
+bFJ
 usx
 usx
 oCN
@@ -85184,12 +84995,13 @@ bFJ
 unI
 rQh
 wGJ
+wGJ
+wGJ
+wGJ
 pTC
 dKW
-iuD
 vCc
 qiP
-wGJ
 wGJ
 snB
 koD
@@ -85417,11 +85229,10 @@ tnd
 dCV
 nnG
 giZ
-rKj
-koD
-xPO
-unI
-dXy
+qiP
+qoS
+qoS
+sgz
 sgz
 pTC
 koD
@@ -85435,21 +85246,22 @@ cWy
 cWy
 usx
 iSE
-vWw
+usx
 lYG
 bFJ
 unI
 qiP
 wGJ
+wGJ
+wGJ
+wGJ
 pTC
 dKW
-mvv
 vCc
 rQh
 wGJ
 wGJ
-wGJ
-cUk
+koD
 txs
 hAT
 tnd
@@ -85674,10 +85486,9 @@ aRl
 dCV
 nnG
 giZ
-cCu
-koD
-odZ
-unI
+ees
+ees
+muk
 dXy
 sgz
 snB
@@ -85687,9 +85498,9 @@ qyR
 qyR
 qyR
 usx
+shy
 mdP
 mhQ
-iSU
 usx
 esP
 qnE
@@ -85699,11 +85510,12 @@ unI
 qiP
 wGJ
 pTC
-dKW
-oHu
+geM
+dNT
+dNT
+sVF
 vCc
 qiP
-wGJ
 wGJ
 wGJ
 koD
@@ -85931,8 +85743,7 @@ hKe
 dCV
 dCV
 giZ
-gij
-fLc
+ybI
 ybI
 onk
 dXy
@@ -85943,7 +85754,7 @@ ybI
 ybI
 ybI
 ybI
-mfU
+pfj
 ybI
 jps
 jps
@@ -85957,10 +85768,11 @@ qiP
 wGJ
 pTC
 fLc
-ybI
-onk
+jps
+jps
+jps
+qjv
 box
-wGJ
 wGJ
 gmX
 koD
@@ -86200,7 +86012,7 @@ xbX
 hBN
 aJb
 aJb
-tBR
+aJb
 aJb
 aJb
 sgz
@@ -86457,7 +86269,7 @@ ehN
 hOl
 hOl
 hOl
-par
+sgz
 sgz
 sgz
 hOl
@@ -86714,7 +86526,7 @@ fDz
 qUy
 soE
 jJa
-vBd
+iFn
 sgz
 kjQ
 uYf
@@ -117308,7 +117120,7 @@ ees
 ees
 muk
 qvQ
-fmW
+pqO
 pqO
 bLY
 pqO
@@ -117823,7 +117635,7 @@ kGc
 unI
 qvQ
 wGJ
-wGJ
+uqh
 aSd
 wGJ
 pqO
@@ -119364,12 +119176,12 @@ fyf
 kGc
 unI
 qvQ
-mmK
+pqO
 pqO
 bLY
 pqO
 pqO
-gmX
+mHs
 koD
 dMW
 gcK
@@ -120137,7 +119949,7 @@ oZc
 rEi
 vDP
 vDP
-mTk
+lnX
 vDP
 vDP
 qAM
@@ -120391,13 +120203,13 @@ wjU
 wjU
 mGC
 oZc
-rEi
+evk
 vDP
 fzD
 mTk
 vDP
 vDP
-qAM
+oEP
 hoo
 mGC
 gcK
