@@ -6,7 +6,6 @@
 
 /obj/item/storage/survivalkit/PopulateContents()
 	. = ..()
-	new /obj/item/reagent_containers/hypospray/medipen/stimpak(src)
 	new /obj/item/stack/medical/gauze/improvised(src)
 	new /obj/item/stack/medical/mesh/aloe(src)
 	new /obj/item/flashlight/flare(src)
@@ -21,8 +20,6 @@
 
 /obj/item/storage/survivalkit_khan/PopulateContents()
 	. = ..()
-	new /obj/item/reagent_containers/hypospray/medipen/stimpak(src)
-	new /obj/item/reagent_containers/hypospray/medipen/stimpak(src)
 	new /obj/item/reagent_containers/hypospray/medipen/medx(src)
 	new /obj/item/stack/medical/gauze(src)
 	new /obj/item/reagent_containers/pill/radx(src)
@@ -35,12 +32,10 @@
 
 /obj/item/storage/survivalkit_tribal/PopulateContents() //used by legion
 	. = ..()
-	new /obj/item/reagent_containers/pill/patch/healingpowder(src)
 	new /obj/item/stack/medical/gauze/improvised(src)
 	new /obj/item/stack/medical/mesh/aloe(src)
 	new /obj/item/stack/medical/suture/emergency(src)
 	new /obj/item/flashlight/flare/torch(src)
-	new /obj/item/tank/internals/emergency_oxygen(src)
 
 /obj/item/storage/survivalkit_outlaw
 	name = "survival kit"
@@ -50,7 +45,6 @@
 
 /obj/item/storage/survivalkit_outlaw/PopulateContents()
 	. = ..()
-	new /obj/item/reagent_containers/hypospray/medipen/stimpak(src)
 	new /obj/item/stack/medical/suture(src)
 	new /obj/item/stack/medical/ointment(src)
 	new /obj/item/stack/medical/gauze(src)
@@ -61,9 +55,6 @@
 
 /obj/item/storage/survivalkit_tribal/chief/PopulateContents()
 	. = ..()
-	new /obj/item/reagent_containers/pill/patch/healingpowder(src)
-	new /obj/item/reagent_containers/pill/patch/healingpowder(src)
-	new /obj/item/reagent_containers/pill/patch/healpoultice(src)
 	new /obj/item/stack/medical/gauze(src)
 	new /obj/item/flashlight/flare/torch(src)
 
@@ -75,7 +66,6 @@
 
 /obj/item/storage/survivalkit_adv/PopulateContents()
 	. = ..()
-	new /obj/item/reagent_containers/hypospray/medipen/stimpak(src)
 	new /obj/item/stack/medical/gauze(src)
 	new /obj/item/flashlight/flare(src)
 	new /obj/item/stack/medical/suture(src)
@@ -97,7 +87,6 @@
 
 /obj/item/storage/survivalkit_aid/PopulateContents()
 	. = ..()
-	new /obj/item/reagent_containers/hypospray/medipen/stimpak(src)
 	new /obj/item/stack/medical/gauze(src)
 	new /obj/item/stack/medical/suture(src)
 	new /obj/item/stack/medical/ointment(src)
@@ -116,7 +105,6 @@
 
 /obj/item/storage/survivalkit_aid_adv/PopulateContents()
 	. = ..()
-	new /obj/item/reagent_containers/hypospray/medipen/stimpak/super(src)
 	new /obj/item/stack/medical/gauze/adv(src)
 	new /obj/item/stack/medical/suture/medicated(src)
 	new /obj/item/stack/medical/mesh/advanced(src)

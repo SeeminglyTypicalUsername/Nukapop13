@@ -175,7 +175,6 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 		/obj/item/binoculars = 1,
 		/obj/item/card/id/syndicate = 1,
 		/obj/item/ammo_box/magazine/greasegun = 2,
-		/obj/item/reagent_containers/pill/patch/bitterdrink = 2,
 		)
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13frumentarius/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
@@ -409,7 +408,6 @@ commented out pending rework*/
 		/obj/item/storage/bag/money/small/legofficers = 1,
 		/obj/item/grenade/smokebomb = 1,
 		/obj/item/binoculars = 1,
-		/obj/item/reagent_containers/pill/patch/bitterdrink = 1,
 		)
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13decan/pre_equip(mob/living/carbon/human/H)
 	. = ..()
@@ -465,7 +463,6 @@ commented out pending rework*/
 	r_pocket = /obj/item/flashlight/lantern
 	l_pocket = /obj/item/storage/survivalkit_tribal
 	backpack_contents = list(
-		/obj/item/reagent_containers/pill/patch/healpoultice = 1,
 		/obj/item/restraints/handcuffs = 1,
 		/obj/item/storage/bag/money/small/legofficers = 1,
 		)
@@ -533,7 +530,6 @@ commented out pending rework*/
 	gloves = /obj/item/clothing/gloves/legion/plated
 	r_pocket = /obj/item/flashlight/lantern
 	backpack_contents = list(
-		/obj/item/reagent_containers/pill/patch/healpoultice = 1,
 		/obj/item/restraints/handcuffs = 1,
 		/obj/item/megaphone/cornu = 1,
 		/obj/item/storage/bag/money/small/legenlisted = 1,
@@ -607,7 +603,6 @@ commented out pending rework*/
 	r_pocket = /obj/item/flashlight
 	l_pocket = /obj/item/binoculars
 	backpack_contents = list(
-		/obj/item/reagent_containers/pill/patch/healingpowder = 1,
 		/obj/item/storage/bag/money/small/legenlisted = 1,
 		/obj/item/attachments/scope = 1,
 		/obj/item/melee/onehanded/machete = 1,
@@ -665,11 +660,9 @@ commented out pending rework*/
 	shoes = /obj/item/clothing/shoes/f13/military/plated
 	r_pocket = /obj/item/flashlight/lantern
 	backpack_contents = list(
-		/obj/item/reagent_containers/pill/patch/healpoultice = 3,
 		/obj/item/storage/bag/money/small/legenlisted = 1,
 		/obj/item/restraints/legcuffs/bola = 1,
 		/obj/item/restraints/handcuffs = 1,
-		/obj/item/reagent_containers/pill/patch/bitterdrink = 1,
 		)
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/vetlegionnaire/pre_equip(mob/living/carbon/human/H)
@@ -723,7 +716,6 @@ commented out pending rework*/
 	l_pocket = /obj/item/restraints/handcuffs
 	backpack_contents = list(
 		/obj/item/storage/bag/money/small/legenlisted = 1,
-		/obj/item/reagent_containers/pill/patch/healpoultice = 3,
 		/obj/item/melee/onehanded/machete/forgedmachete = 1,
 		)
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13legionary/pre_equip(mob/living/carbon/human/H)
@@ -775,7 +767,6 @@ commented out pending rework*/
 	r_pocket = /obj/item/flashlight/lantern
 	backpack_contents = list(
 		/obj/item/storage/bag/money/small/legenlisted = 1,
-		/obj/item/reagent_containers/pill/patch/healingpowder = 1,
 		/obj/item/warpaint_bowl = 1,
 		)
 
@@ -821,7 +812,6 @@ commented out pending rework*/
 	suit_store = /obj/item/melee/onehanded/machete/forgedmachete
 	backpack_contents = list(
 		/obj/item/storage/bag/money/small/legenlisted = 1,
-		/obj/item/reagent_containers/pill/patch/healingpowder = 2
 		)
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13immune/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
@@ -889,8 +879,8 @@ commented out pending rework*/
 /datum/job/CaesarsLegion/auxilia
 	title = "Legion Auxilia"
 	flag = F13AUXILIA
-	total_positions = 3
-	spawn_positions = 3
+	total_positions = 0
+	spawn_positions = 0
 	description = "A non-combat position in the Legion for free citizens who perform tasks that need special training, such as surgery. They are loyal to the Legion even if they are not treated as equals to warriors."
 	supervisors = "the Centurion"
 	display_order = JOB_DISPLAY_ORDER_AUXILIA
@@ -990,8 +980,8 @@ commented out pending rework*/
 /datum/job/CaesarsLegion/slave
 	title = "Legion Slave"
 	flag = F13LEGIONSLAVE
-	total_positions = 3
-	spawn_positions = 3
+	total_positions = 6
+	spawn_positions = 6
 	description = "A slave that survives the breaking camps is given a Legion appropriate name (latin-tribal inspired) and bull tattoo. Be obedient, respectful, stay inside the camp. Work the farm, mine, make food, clean and help injured men. Do NOT escape on your own, up to you how to handle it if forcibly freed by outside forces."
 	supervisors = "Officers and Slavemaster first, then Auxilia, then warriors."
 	display_order = JOB_DISPLAY_ORDER_LEGIONSLAVE
@@ -1037,8 +1027,6 @@ commented out pending rework*/
 	shoes =	/obj/item/clothing/shoes/roman
 	r_pocket = /obj/item/flashlight/lantern
 	backpack_contents = list(
-		/obj/item/reagent_containers/pill/patch/healingpowder = 2,
-		/obj/item/reagent_containers/pill/patch/healpoultice = 2,
 		/obj/item/smelling_salts = 1,
 		/obj/item/book/granter/trait/lowsurgery = 1,
 		/obj/item/reagent_containers/food/condiment/flour = 2,
@@ -1118,7 +1106,6 @@ Venator  - Zero slots, role built on cloning vet ranger, linear just vastly bett
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/w308 = 3,
 		/obj/item/melee/onehanded/machete/gladius = 1,
-		/obj/item/reagent_containers/pill/patch/healpoultice = 3,
 		/obj/item/gun/ballistic/revolver/revolver45 = 1,
 		/obj/item/ammo_box/c45rev = 3,
 		)
@@ -1147,7 +1134,6 @@ datum/job/CaesarsLegion/Legionnaire/f13slavemaster
 	shoes =			/obj/item/clothing/shoes/roman
 	suit_store = 	/obj/item/melee/onehanded/machete/forgedmachete
 	backpack_contents = list(
-		/obj/item/reagent_containers/pill/patch/healingpowder = 2,
 		/obj/item/flashlight/lantern = 1,
 		/obj/item/electropack/shockcollar = 3,
 		/obj/item/assembly/signaler/advanced = 3,

@@ -2378,8 +2378,6 @@
 #include "code\modules\jobs\job_types\silicon.dm"
 #include "code\modules\jobs\job_types\tribals.dm"
 #include "code\modules\jobs\job_types\undertown.dm"
-#include "code\modules\jobs\job_types\undertown_legion.dm"
-#include "code\modules\jobs\job_types\undertown_ncr.dm"
 #include "code\modules\jobs\job_types\vault.dm"
 #include "code\modules\jobs\job_types\wasteland.dm"
 #include "code\modules\jobs\job_types\wrights.dm"

@@ -1137,7 +1137,7 @@ Mayor
 	shoes = /obj/item/clothing/shoes/laceup
 	backpack_contents = list(
 		/obj/item/book/manual/thebook = 1,
-		/obj/item/reagent_containers/hypospray/medipen/stimpak = 2,
+		/obj/item/reagent_containers/hypospray/medipen/stimpak = 1,
 		/obj/item/storage/fancy/candle_box = 1,
 		/obj/item/stock_parts/cell/ammo/ec = 2,
 		/obj/item/storage/bag/money/small/settler
@@ -1147,6 +1147,8 @@ Mayor
 	if(visualsOnly)
 		return
 	H.grant_language(/datum/language/shorthand)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/stimpak)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/stimpak5)
 	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, src)
 	ADD_TRAIT(H, TRAIT_CHEMWHIZ, src)
 	ADD_TRAIT(H, TRAIT_MEDICALEXPERT, src)
@@ -1201,7 +1203,7 @@ Mayor
 		/obj/item/book/manual/thebook = 1,
 		/obj/item/melee/onehanded/knife/hunting = 1,
 		/obj/item/stack/medical/bruise_pack = 1,
-		/obj/item/reagent_containers/hypospray/medipen/stimpak = 4
+		/obj/item/reagent_containers/hypospray/medipen/stimpak = 2
 		)
 
 /datum/outfit/job/cotc/f13kebabservitormedici/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
@@ -1209,6 +1211,8 @@ Mayor
 	if(visualsOnly)
 		return
 	H.grant_language(/datum/language/shorthand)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/stimpak)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/stimpak5)
 	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, src)
 	ADD_TRAIT(H, TRAIT_GENERIC, src)
 	ADD_TRAIT(H, TRAIT_CHEMWHIZ, src)
@@ -1264,7 +1268,7 @@ Mayor
 		/obj/item/melee/classic_baton = 1,
 		/obj/item/stock_parts/cell/ammo/mfc = 2,
 		/obj/item/stack/medical/bruise_pack = 1,
-		/obj/item/reagent_containers/hypospray/medipen/stimpak = 2
+		/obj/item/reagent_containers/hypospray/medipen/stimpak = 1
 		)
 
 /datum/outfit/job/cotc/f13kebabservitormilitant/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
@@ -1374,13 +1378,15 @@ Mayor
 		/obj/item/stack/medical/bruise_pack = 1,
 		/obj/item/restraints/handcuffs/cable = 1,
 		/obj/item/melee/onehanded/knife/hunting = 1,
-		/obj/item/reagent_containers/hypospray/medipen/stimpak = 4
+		/obj/item/reagent_containers/hypospray/medipen/stimpak = 1
 		)
 
 /datum/outfit/job/cotc/f13kebabacolyte/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
 	if(visualsOnly)
 		return
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/stimpak)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/stimpak5)
 	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, src)
 	ADD_TRAIT(H, TRAIT_CHEMWHIZ, src)
 	ADD_TRAIT(H, TRAIT_MEDICALEXPERT, src)
