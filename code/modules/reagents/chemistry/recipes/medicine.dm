@@ -368,7 +368,7 @@ datum/chemical_reaction/rezadone
 	var/location = get_turf(holder.my_atom)
 	for(var/i = 1, i <= created_volume, i++)
 		new /obj/item/stack/medical/mesh/(location)
-
+/*
 /datum/chemical_reaction/stimpak
 	name = "Stimpak Fluid"
 	id = /datum/reagent/medicine/stimpak
@@ -425,7 +425,7 @@ datum/chemical_reaction/rezadone
 	RateUpLim 			= 50 //this seems quite high but 1. runaway thermals 2. it's very slow since it's 100K
 	FermiChem 			= TRUE
 	FermiExplode 		= FALSE
-
+*/
 /datum/chemical_reaction/medx
 	name = "Med-X"
 	id = /datum/reagent/medicine/medx

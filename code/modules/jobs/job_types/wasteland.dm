@@ -214,7 +214,6 @@ Raider
 	backpack_contents = list(
 		/obj/item/restraints/handcuffs = 2,
 		/obj/item/melee/onehanded/club = 1,
-		/obj/item/reagent_containers/hypospray/medipen/stimpak = 1,
 		/obj/item/storage/bag/money/small/raider = 1
 		)
 
@@ -444,7 +443,6 @@ Raider
 	backpack_contents = list(
 		/obj/item/gun/ballistic/automatic/smg/smg10mm = 1,
 		/obj/item/ammo_box/magazine/m10mm_adv/ext = 1,
-		/obj/item/reagent_containers/hypospray/medipen/stimpak/super = 2,
 		/obj/item/radio/headset = 1
 		)
 
@@ -542,8 +540,6 @@ Raider
 	backpack = /obj/item/storage/backpack/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
 	backpack_contents = list(
-		/obj/item/reagent_containers/hypospray/medipen/stimpak,
-		/obj/item/reagent_containers/hypospray/medipen/stimpak,
 		/obj/item/reagent_containers/pill/radx,
 		)
 
@@ -736,7 +732,6 @@ Raider
 	head = /obj/item/clothing/head/beret/durathread
 	mask =  /obj/item/clothing/mask/bandana/durathread
 	backpack_contents = list(
-		/obj/item/reagent_containers/hypospray/medipen/stimpak = 1,
 		/obj/item/restraints/handcuffs = 1,
 		/obj/item/storage/bag/money/small/wastelander
 		)
@@ -818,7 +813,6 @@ Raider
 	head = /obj/item/clothing/head/caphat/beret/white
 	mask = /obj/item/clothing/mask/bandana/durathread
 	backpack_contents = list(
-		/obj/item/reagent_containers/hypospray/medipen/stimpak = 1,
 		/obj/item/restraints/handcuffs = 1,
 		/obj/item/storage/bag/money/small/raider/mobboss,
 		/obj/item/book/granter/crafting_recipe/manual/denvr
@@ -880,8 +874,7 @@ datum/job/wasteland/f13dendoctor
 	head = /obj/item/clothing/head/beret/durathread
 	mask =  /obj/item/clothing/mask/bandana/durathread
 	backpack_contents = list(
-		/obj/item/reagent_containers/hypospray/medipen/stimpak=2, \
-		/obj/item/healthanalyzer=1, \
+		/obj/item/healthanalyzer=1,
 		/obj/item/storage/bag/money/small/wastelander)
 
 /datum/outfit/job/wasteland/f13dendoctor/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
@@ -959,9 +952,8 @@ datum/job/wasteland/f13dendoctor
 	backpack = /obj/item/storage/backpack/satchel/trekker
 	gloves = /obj/item/clothing/gloves/f13/military
 	backpack_contents = list(
-		/obj/item/reagent_containers/hypospray/medipen/stimpak=4, \
-		/obj/item/reagent_containers/pill/radx=1, \
-		/obj/item/restraints/handcuffs=2, \
+		/obj/item/reagent_containers/pill/radx=1,
+		/obj/item/restraints/handcuffs=2,
 		/obj/item/storage/bag/money/small/wastelander)
 
 /datum/outfit/job/wasteland/f13vigilante/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
