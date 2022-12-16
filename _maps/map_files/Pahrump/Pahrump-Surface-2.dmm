@@ -5942,11 +5942,11 @@
 /area/f13/building)
 "cDz" = (
 /obj/structure/closet/fridge,
-/obj/effect/spawner/lootdrop/f13/foodspawner,
-/obj/effect/spawner/lootdrop/f13/foodspawner,
 /obj/item/reagent_containers/food/condiment/flour,
 /obj/item/reagent_containers/food/condiment/flour,
 /obj/item/reagent_containers/food/condiment/enzyme,
+/obj/item/storage/box/ingredients/wildcard,
+/obj/item/storage/box/ingredients/wildcard,
 /turf/open/floor/f13{
 	color = "#818181";
 	icon_state = "floorrustysolid"
@@ -6513,7 +6513,9 @@
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 8
 	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "cSB" = (
 /obj/structure/chair/bench{
@@ -7032,10 +7034,7 @@
 /obj/machinery/door/window/brigdoor/southleft{
 	req_one_access_txt = "34"
 	},
-/obj/item/card/id/dogtag/deputy,
-/obj/item/clothing/head/f13/police/officer{
-	name = "OPD officer's cap"
-	},
+/obj/item/reagent_containers/food/snacks/kebab/monkey,
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "dfo" = (
@@ -7056,7 +7055,9 @@
 	info = "<p>Recommend Pricing Scheme:<br />50-100 caps: Non-stimpack first aid.<br />150 caps: Price of stimpaks used or sold.<br />200-250 caps: Price of surgery<br />300-400 caps: Price of revival.</p>";
 	name = "pricing"
 	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "dfR" = (
 /turf/closed/wall/rust,
@@ -7748,6 +7749,11 @@
 /area/f13/ncr)
 "dva" = (
 /obj/item/kirbyplants/random,
+/obj/structure/sign/plaques/golden{
+	pixel_y = 28;
+	desc = "A deed to this mansion enscribed in gold.";
+	name = "Mansion Deed"
+	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "dvc" = (
@@ -7768,11 +7774,13 @@
 	},
 /area/f13/wasteland)
 "dvh" = (
-/obj/machinery/door/unpowered/securedoor{
-	req_access_txt = "145";
-	name = "Farm"
+/obj/structure/sink/kitchen{
+	pixel_y = 27
 	},
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/floor/plasteel/f13/vault_floor/red/redchess{
+	icon_state = "redrustychess";
+	name = "tile"
+	},
 /area/f13/cotc)
 "dvk" = (
 /obj/structure/nest/radroach,
@@ -7807,7 +7815,9 @@
 	dir = 1;
 	pixel_y = 12
 	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "dwS" = (
 /obj/machinery/light{
@@ -8249,7 +8259,9 @@
 	req_access_txt = "145";
 	name = "Medical Storage"
 	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "dGK" = (
 /obj/structure/nest/ghoul,
@@ -8365,6 +8377,9 @@
 	dir = 1
 	},
 /obj/machinery/cell_charger,
+/obj/structure/sign/plaques/golden{
+	pixel_y = 28
+	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/building)
 "dJl" = (
@@ -8960,7 +8975,9 @@
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = 345
 	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "dWv" = (
 /obj/structure/table,
@@ -8971,9 +8988,13 @@
 	},
 /area/f13/wasteland)
 "dWw" = (
-/obj/structure/simple_door/room,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/cotc)
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/wasteland)
 "dWE" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -9031,7 +9052,13 @@
 	},
 /area/f13/wasteland)
 "dXH" = (
-/obj/structure/rack,
+/obj/machinery/door/unpowered/securedoor{
+	req_access_txt = "145";
+	name = "kitchen"
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "farmshutt"
+	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/cotc)
 "dXV" = (
@@ -9554,7 +9581,9 @@
 /obj/item/wirecutters,
 /obj/item/scalpel,
 /obj/structure/table/wood/settler,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "ehY" = (
 /obj/effect/decal/cleanable/robot_debris,
@@ -10037,7 +10066,9 @@
 /area/f13/wasteland)
 "etG" = (
 /obj/structure/table/wood/junk,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "etL" = (
 /obj/machinery/door/poddoor/shutters{
@@ -10173,7 +10204,9 @@
 /area/f13/wasteland)
 "evL" = (
 /obj/machinery/iv_drip,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "ewI" = (
 /obj/item/trash/f13/cram,
@@ -12796,7 +12829,9 @@
 /area/f13/wasteland)
 "fDm" = (
 /obj/machinery/vending/medical,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "fDs" = (
 /obj/structure/chair/office/dark,
@@ -13477,7 +13512,9 @@
 /area/f13/wasteland)
 "fTe" = (
 /obj/machinery/smartfridge/bottlerack/alchemy_rack,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "fTm" = (
 /obj/structure/sign/plaques{
@@ -13860,7 +13897,9 @@
 /obj/structure/rack,
 /obj/item/storage/box/medicine/stimpaks/stimpaks5,
 /obj/item/storage/box/medicine/stimpaks/stimpaks5,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "gbG" = (
 /obj/structure/table/wood,
@@ -13909,7 +13948,9 @@
 /obj/item/book/manual/thebook,
 /obj/item/book/manual/thebook,
 /obj/item/book/manual/thebook,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "gcK" = (
 /turf/closed/mineral/random/low_chance,
@@ -13977,9 +14018,10 @@
 /obj/effect/spawner/lootdrop/f13/weapon/melee/random_high,
 /obj/effect/spawner/lootdrop/f13/weapon/melee/random_high,
 /obj/effect/spawner/lootdrop/f13/weapon/melee/random_high,
-/obj/effect/spawner/lootdrop/f13/armor/tier4,
 /obj/effect/spawner/lootdrop/f13/armor/tier3,
 /obj/effect/spawner/lootdrop/f13/armor/tier3,
+/obj/effect/spawner/lootdrop/f13/armor/tier2,
+/obj/effect/spawner/lootdrop/f13/armor/tier2,
 /obj/effect/spawner/lootdrop/f13/armor/tier2,
 /obj/effect/spawner/lootdrop/f13/armor/tier2,
 /turf/open/floor/wood/f13/oak,
@@ -14108,7 +14150,9 @@
 /obj/item/roller,
 /obj/item/roller,
 /obj/item/roller,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "ggX" = (
 /obj/structure/closet/crate/medical,
@@ -14761,7 +14805,9 @@
 	dir = 8;
 	name = "Defender of the Faith"
 	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "gtD" = (
 /obj/effect/turf_decal/stripes/white/line{
@@ -15200,11 +15246,10 @@
 /area/f13/caves)
 "gBY" = (
 /obj/structure/closet/fridge,
-/obj/effect/spawner/lootdrop/f13/foodspawner,
-/obj/effect/spawner/lootdrop/f13/foodspawner,
 /obj/item/reagent_containers/food/condiment/milk,
 /obj/item/reagent_containers/food/condiment/milk,
 /obj/item/reagent_containers/food/condiment/enzyme,
+/obj/item/storage/box/ingredients/wildcard,
 /turf/open/floor/f13{
 	color = "#818181";
 	icon_state = "floorrustysolid"
@@ -15891,9 +15936,7 @@
 /obj/machinery/door/window/brigdoor/northright{
 	req_one_access_txt = "34"
 	},
-/obj/item/reagent_containers/food/drinks/bottle/holywater{
-	pixel_y = -3
-	},
+/obj/item/stack/sheet/mineral/gold,
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "gSf" = (
@@ -16080,13 +16123,13 @@
 	},
 /area/f13/wasteland)
 "gXt" = (
-/obj/structure/sink/kitchen{
-	dir = 4;
-	pixel_x = -12
+/obj/machinery/button/door{
+	pixel_x = 28;
+	id = 151;
+	name = "exterior"
 	},
-/turf/open/floor/plasteel/f13/vault_floor/red/redchess{
-	icon_state = "redrustychess";
-	name = "tile"
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
 	},
 /area/f13/cotc)
 "gXK" = (
@@ -16445,18 +16488,24 @@
 	info = "<p>Father, guide your children through your Vineyard.<br />Father, guide us down the path to Unity.<br />Father, have mercy upon us<br />Father, have no mercy for the Unbelievers.</p><p>Father, who brought forth the Angels, protect us.<br />Father, who saved us from destruction, protect us.<br />Father, who shielded us from barbarism, protect us.<br />Father, who showed us the way to Unity, protect us.</p>"
 	},
 /obj/item/paper/pamphlet{
-	name = "Church pamplet";
-	info = "<p>Father, guide your children through your Vineyard.<br />Father, guide us down the path to Unity.<br />Father, have mercy upon us<br />Father, have no mercy for the Unbelievers.</p><p>Father, who brought forth the Angels, protect us.<br />Father, who saved us from destruction, protect us.<br />Father, who shielded us from barbarism, protect us.<br />Father, who showed us the way to Unity, protect us.</p>"
+	name = "Let Faith Be Your Shield";
+	info = <p>LET FAITH BE YOUR SHIELD:<br />Are you disillusioned with life? Starving, destitute? Do you desire community, brotherhood, and a structured life? No matter your background, past, or social status, the Church will accept you into the fold, free of charge. If you are suffering from indebtedness, the Church will even pay off any debts lower than 500 caps when you join the clergy, and will forgive any medical debt you may owe to the Faith itself. Let the Father guide you into the path of Unity! Speak to a Servitor today.</span></p>
 	},
 /obj/item/paper/pamphlet{
-	name = "Church pamplet";
-	info = "<p>Father, guide your children through your Vineyard.<br />Father, guide us down the path to Unity.<br />Father, have mercy upon us<br />Father, have no mercy for the Unbelievers.</p><p>Father, who brought forth the Angels, protect us.<br />Father, who saved us from destruction, protect us.<br />Father, who shielded us from barbarism, protect us.<br />Father, who showed us the way to Unity, protect us.</p>"
+	name = "Let Faith Be Your Shield";
+	info = <p>LET FAITH BE YOUR SHIELD:<br />Are you disillusioned with life? Starving, destitute? Do you desire community, brotherhood, and a structured life? No matter your background, past, or social status, the Church will accept you into the fold, free of charge. If you are suffering from indebtedness, the Church will even pay off any debts lower than 500 caps when you join the clergy, and will forgive any medical debt you may owe to the Faith itself. Let the Father guide you into the path of Unity! Speak to a Servitor today.</span></p>
 	},
 /obj/item/paper/pamphlet{
-	name = "Church pamplet";
-	info = "<p>Father, guide your children through your Vineyard.<br />Father, guide us down the path to Unity.<br />Father, have mercy upon us<br />Father, have no mercy for the Unbelievers.</p><p>Father, who brought forth the Angels, protect us.<br />Father, who saved us from destruction, protect us.<br />Father, who shielded us from barbarism, protect us.<br />Father, who showed us the way to Unity, protect us.</p>"
+	name = "Let Faith Be Your Shield";
+	info = <p>LET FAITH BE YOUR SHIELD:<br />Are you disillusioned with life? Starving, destitute? Do you desire community, brotherhood, and a structured life? No matter your background, past, or social status, the Church will accept you into the fold, free of charge. If you are suffering from indebtedness, the Church will even pay off any debts lower than 500 caps when you join the clergy, and will forgive any medical debt you may owe to the Faith itself. Let the Father guide you into the path of Unity! Speak to a Servitor today.</span></p>
 	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/obj/item/paper/pamphlet{
+	name = "Let Faith Be Your Shield";
+	info = <p>LET FAITH BE YOUR SHIELD:<br />Are you disillusioned with life? Starving, destitute? Do you desire community, brotherhood, and a structured life? No matter your background, past, or social status, the Church will accept you into the fold, free of charge. If you are suffering from indebtedness, the Church will even pay off any debts lower than 500 caps when you join the clergy, and will forgive any medical debt you may owe to the Faith itself. Let the Father guide you into the path of Unity! Speak to a Servitor today.</span></p>
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "heh" = (
 /obj/structure/table/wood,
@@ -19202,10 +19251,7 @@
 /obj/machinery/door/window/brigdoor/southright{
 	req_one_access_txt = "34"
 	},
-/obj/item/card/id/dogtag/sheriff,
-/obj/item/clothing/head/f13/police/chief{
-	name = "OPD chief's cap"
-	},
+/obj/item/reagent_containers/food/drinks/bottle/lizardwine,
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "ikg" = (
@@ -19300,7 +19346,9 @@
 /obj/item/reagent_containers/glass/beaker/large,
 /obj/item/reagent_containers/glass/beaker/large,
 /obj/item/reagent_containers/glass/beaker/large,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "imO" = (
 /obj/structure/window/fulltile/store{
@@ -19416,12 +19464,9 @@
 /turf/open/floor/wood/f13/old/ruinedcornerbr,
 /area/f13/wasteland)
 "ipm" = (
-/obj/machinery/button/door{
-	pixel_x = 28;
-	id = 151;
-	name = "exterior"
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
 	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/cotc)
 "ipn" = (
 /obj/structure/chair/wood/fancy{
@@ -19621,7 +19666,9 @@
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = 151
 	},
-/turf/open/floor/carpet/black,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "iuB" = (
 /obj/effect/decal/cleanable/dirt,
@@ -19815,7 +19862,9 @@
 /obj/item/wirecutters,
 /obj/item/scalpel,
 /obj/structure/table,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "iyP" = (
 /obj/effect/decal/cleanable/dirt,
@@ -21345,7 +21394,9 @@
 /area/f13/village)
 "jbY" = (
 /obj/structure/barricade/concrete,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "jcg" = (
 /obj/structure/chair,
@@ -26289,7 +26340,9 @@
 	dir = 1;
 	pixel_y = 12
 	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "ljv" = (
 /obj/structure/closet/crate/bin,
@@ -27009,7 +27062,9 @@
 	social_faction = list("neutral");
 	dir = 8
 	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "lBh" = (
 /obj/machinery/vending/clothing,
@@ -29333,10 +29388,10 @@
 /turf/closed/wall/f13/wood,
 /area/f13/legion)
 "mCm" = (
-/obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 4
+/obj/structure/filingcabinet,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
 	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/cotc)
 "mCs" = (
 /turf/open/floor/f13{
@@ -31780,7 +31835,10 @@
 /area/f13/wasteland)
 "nFN" = (
 /obj/machinery/photocopier,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/obj/structure/destructible/tribal_torch/wall/lit,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "nFT" = (
 /obj/structure/closet/crate,
@@ -32197,7 +32255,9 @@
 "nPT" = (
 /obj/structure/rack,
 /obj/item/defibrillator/primitive,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "nPX" = (
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -32526,7 +32586,9 @@
 /area/f13/clinic)
 "nXP" = (
 /obj/structure/closet/crate/freezer/blood/anchored,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "nXR" = (
 /obj/structure/chair/wood/normal{
@@ -32929,7 +32991,9 @@
 /obj/structure/chair/wood{
 	dir = 8
 	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "ohA" = (
 /obj/effect/decal/cleanable/dirt{
@@ -33527,7 +33591,9 @@
 /obj/structure/chair/wood{
 	dir = 4
 	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "otv" = (
 /obj/effect/decal/cleanable/dirt{
@@ -38699,11 +38765,16 @@
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "qOp" = (
-/obj/structure/destructible/tribal_torch/wall/lit,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	name = "metal plating"
+/obj/structure/closet/fridge,
+/obj/item/reagent_containers/food/condiment/flour,
+/obj/item/reagent_containers/food/condiment/flour,
+/obj/item/storage/box/ingredients/wildcard,
+/obj/item/storage/box/ingredients/wildcard,
+/turf/open/floor/plasteel/f13/vault_floor/red/redchess{
+	icon_state = "redrustychess";
+	name = "tile"
 	},
-/area/f13/wasteland)
+/area/f13/cotc)
 "qOw" = (
 /obj/structure/table,
 /obj/machinery/cell_charger,
@@ -39010,7 +39081,9 @@
 /area/f13/legion)
 "qSN" = (
 /obj/structure/destructible/tribal_torch/wall/lit,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "qSQ" = (
 /obj/structure/lattice/catwalk,
@@ -39773,7 +39846,9 @@
 /area/f13/wasteland)
 "rkD" = (
 /obj/machinery/chem_master/primitive,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "rkR" = (
 /obj/structure/rack,
@@ -40483,7 +40558,9 @@
 /area/f13/wasteland)
 "rDx" = (
 /obj/structure/table/wood/settler,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "rEd" = (
 /obj/structure/table/wood,
@@ -40591,7 +40668,9 @@
 "rHq" = (
 /obj/machinery/reagentgrinder,
 /obj/structure/table/wood/settler,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "rHw" = (
 /obj/structure/table,
@@ -40934,6 +41013,13 @@
 /area/f13/wasteland)
 "rPq" = (
 /obj/structure/closet/fridge,
+/obj/item/reagent_containers/food/condiment/flour,
+/obj/item/reagent_containers/food/condiment/flour,
+/obj/item/reagent_containers/food/condiment/enzyme,
+/obj/item/reagent_containers/food/condiment/milk,
+/obj/item/reagent_containers/food/condiment/milk,
+/obj/item/storage/box/ingredients/wildcard,
+/obj/item/storage/box/ingredients/wildcard,
 /turf/open/floor/plasteel/f13/vault_floor/red/redchess{
 	icon_state = "redrustychess";
 	name = "tile"
@@ -44910,7 +44996,9 @@
 "tCO" = (
 /obj/structure/rack,
 /obj/item/storage/backpack/duffelbag/med/surgery,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "tCR" = (
 /obj/structure/table,
@@ -49409,7 +49497,9 @@
 	id = 345;
 	name = "interior"
 	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "vAt" = (
 /obj/structure/table,
@@ -54105,7 +54195,9 @@
 /obj/item/book/manual/thebook,
 /obj/item/book/manual/thebook,
 /obj/item/book/manual/thebook,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "xAB" = (
 /turf/closed/wall,
@@ -55222,7 +55314,9 @@
 /area/f13/wasteland)
 "ybx" = (
 /obj/item/kirbyplants/random,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "yby" = (
 /obj/structure/table/wood,
@@ -87749,15 +87843,15 @@ ydO
 ydO
 mHj
 vPX
-qXT
-qXT
+ipm
+ipm
 nQW
 nQW
 qXT
-qXT
+ipm
 fBm
-qXT
-qXT
+ipm
+ipm
 nPT
 vPX
 dCV
@@ -88014,7 +88108,7 @@ eku
 ehW
 vPX
 xAm
-qXT
+ipm
 tCO
 vPX
 dCV
@@ -88271,7 +88365,7 @@ xUO
 qSN
 vPX
 gcv
-qXT
+ipm
 ggR
 vPX
 nvx
@@ -88528,7 +88622,7 @@ eku
 etG
 vPX
 fDm
-qXT
+ipm
 lAW
 vPX
 dQn
@@ -88777,12 +88871,12 @@ mHj
 ydO
 ydO
 vPX
-qXT
+ipm
 iDU
 nQW
 nQW
 xUO
-qXT
+ipm
 vPX
 vPX
 dFT
@@ -89042,7 +89136,7 @@ eku
 iyJ
 vPX
 fTe
-qXT
+ipm
 cSr
 ybx
 vPX
@@ -89299,8 +89393,8 @@ xUO
 evL
 vPX
 rkD
-qXT
-qXT
+ipm
+ipm
 osQ
 vPX
 giZ
@@ -89548,16 +89642,16 @@ ydO
 ydO
 mHj
 vPX
-qXT
-qXT
+ipm
+ipm
 nQW
 nQW
-qXT
-qXT
+ipm
+ipm
 vPX
 rHq
-qXT
-qXT
+ipm
+ipm
 hdY
 vPX
 giZ
@@ -89805,16 +89899,16 @@ ydO
 ydO
 mHj
 vPX
-qXT
+ipm
 nQW
 oqA
 jJn
 nQW
-qXT
+ipm
 vPX
 imL
-qXT
-qXT
+ipm
+ipm
 ohp
 vPX
 dCV
@@ -90070,8 +90164,8 @@ iJR
 qSN
 vPX
 dfH
-qXT
-mCm
+ipm
+ipm
 nFN
 vPX
 dCV
@@ -90326,10 +90420,10 @@ dxK
 vPX
 dWt
 vPX
-vPX
-dWw
-vPX
-vPX
+dvh
+aAN
+aAN
+mKG
 vPX
 dCV
 giZ
@@ -90576,16 +90670,16 @@ mHj
 ydO
 ydO
 vPX
-qXT
-qXT
+ipm
+ipm
 jbY
 jbY
-qXT
-qXT
+ipm
+ipm
 vPX
-mKG
+qOp
 aAN
-gXt
+aAN
 nWl
 vPX
 dCV
@@ -90833,12 +90927,12 @@ mHj
 ydO
 mHj
 vPX
-qXT
+mCm
 ipm
-vAg
+ipm
 gtz
-qXT
-qXT
+ipm
+ipm
 vPX
 rPq
 aAN
@@ -91090,12 +91184,12 @@ ydO
 ydO
 vYN
 vPX
-vPX
-vPX
-vPX
-jKV
-vPX
-qXT
+mCm
+gXt
+vAg
+ipm
+ipm
+ipm
 mXF
 aAN
 aAN
@@ -91346,13 +91440,13 @@ giZ
 ydO
 ydO
 ydO
-mHj
-mHj
-mvv
 vPX
-iDa
-kLO
-qSN
+vPX
+vPX
+vPX
+jKV
+vPX
+ipm
 vPX
 vPX
 cXt
@@ -91607,9 +91701,9 @@ ydO
 ydO
 mHj
 vPX
-vPX
-vPX
-vPX
+iDa
+kLO
+qSN
 vPX
 mvv
 mvv
@@ -91863,11 +91957,11 @@ ydO
 ydO
 ydO
 ydO
-mHj
-mHj
-mvv
-uRa
-dvh
+vPX
+vPX
+vPX
+vPX
+vPX
 mvv
 mvv
 mvv
@@ -92122,7 +92216,7 @@ ydO
 ydO
 ydO
 ydO
-mHj
+dWw
 mvv
 vPX
 iSN
@@ -92894,10 +92988,10 @@ ydO
 ydO
 ydO
 ydO
-qOp
-vPX
-fCA
+mHj
 dXH
+age
+fCA
 mvv
 rjH
 mvv

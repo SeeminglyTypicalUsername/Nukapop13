@@ -959,7 +959,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/storage/box/gunbox/ncr/corporal/set1, //scout carbine, ninemil, legholster
 		/obj/item/storage/box/gunbox/ncr/corporal/set2, //greasegun
 		/obj/item/storage/box/gunbox/ncr/corporal/set3, //hunting shotgun
-		/obj/item/storage/box/gunbox/ncr/corporal/set4, //m1carbine compact, binoculars
+		/obj/item/storage/box/gunbox/ncr/corporal/set4, //service rifle, binoculars
 		/obj/item/storage/box/gunbox/ncr/corporal/set5) //r82, bayonet
 
 	head = pick(

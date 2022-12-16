@@ -410,6 +410,27 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 	icon_state = "mine_headset"
 	keyslot = new /obj/item/encryptionkey/headset_den
 
+/obj/item/radio/headset/headset_pitrats
+	name = "pitrat radio headset"
+	desc = "This is used by the Pitrats. \nTo access the den channel, use :j."
+	icon_state = "mine_headset"
+	keyslot = new /obj/item/encryptionkey/headset_den
+	keyslot2 = new /obj/item/encryptionkey/headset_town
+
+/obj/item/radio/headset/headset_church
+	name = "church headset"
+	desc = "This is used by the Church.\nTo access the church channel, use :m."
+	icon_state = "mine_headset"
+	keyslot = new /obj/item/encryptionkey/headset_med
+	keyslot2 = new /obj/item/encryptionkey/headset_town
+
+/obj/item/radio/headset/headset_merchant
+	name = "merchant radio headset"
+	desc = "This is used by the merchant.\nTo access the town channel, use :u."
+	icon_state = "mine_headset"
+	keyslot = new /obj/item/encryptionkey/headset_cargo
+	keyslot2 = new /obj/item/encryptionkey/headset_town
+
 ////////
 //Reno//
 ////////
