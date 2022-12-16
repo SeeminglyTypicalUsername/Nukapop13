@@ -947,10 +947,6 @@
 /area/f13/cotc)
 "jj" = (
 /obj/structure/table/wood/fancy/black,
-/obj/structure/displaycase/trophy{
-	desc = "This plaque reads: For their bravery during the stopping of the assasination of Congressman Stone in 2070, the Yuma Police Department is awarded this Silver Cup.";
-	pixel_y = 5
-	},
 /obj/item/reagent_containers/food/drinks/trophy/silver_cup,
 /turf/open/floor/carpet/royalblack,
 /area/f13/building)
@@ -1419,30 +1415,12 @@
 	pixel_x = -13;
 	pixel_y = -4
 	},
-/obj/item/clothing/head/f13/army/officer{
-	pixel_x = -12;
-	pixel_y = -1
-	},
-/obj/item/megaphone/command{
-	name = "Police Megaphone";
-	pixel_x = 4;
-	pixel_y = -3
-	},
+/obj/item/megaphone,
 /turf/open/floor/f13,
 /area/f13/brotherhood/surface)
 "oi" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/purple/side,
-/area/f13/brotherhood/surface)
-"or" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/remains/human,
-/obj/item/clothing/head/f13/police/trooper{
-	pixel_x = 1;
-	pixel_y = -5
-	},
-/obj/item/flashlight/seclite,
-/turf/open/floor/f13,
 /area/f13/brotherhood/surface)
 "ou" = (
 /obj/structure/table/reinforced,
@@ -2374,10 +2352,6 @@
 	doc_title_2 = "National Guard Sent.";
 	doc_title_3 = "Your Family or your career.. pig."
 	},
-/obj/item/clothing/head/f13/police/chief{
-	pixel_x = -5;
-	pixel_y = 7
-	},
 /turf/open/floor/f13{
 	icon_state = "darkrusty"
 	},
@@ -2404,12 +2378,9 @@
 /area/f13/building)
 "xm" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/item/clothing/head/f13/police/trooper{
-	pixel_x = 1;
-	pixel_y = -5
-	},
 /obj/effect/decal/remains/human,
 /obj/item/flashlight/seclite,
+/obj/item/clothing/head/f13/police/state_cal,
 /turf/open/floor/f13,
 /area/f13/brotherhood/surface)
 "xp" = (
@@ -38077,7 +38048,7 @@ Rr
 Rr
 Rr
 Rr
-or
+xm
 Rr
 Rr
 Ko
@@ -38843,7 +38814,7 @@ tl
 tl
 VR
 PV
-or
+xm
 Rr
 Rr
 Rr
@@ -39875,7 +39846,7 @@ TU
 Rr
 de
 de
-or
+xm
 Rr
 hc
 Kc

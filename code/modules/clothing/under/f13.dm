@@ -2046,15 +2046,13 @@
 	icon_state = "police_formal"
 	item_state = "police_formal"
 
-/obj/item/clothing/under/f13/police/trooper
-	name = "state police uniform"
-	desc = "The uniform of the State Police force, composed of a a gray long sleeve shirt, gray pants, and a black tie."
+/obj/item/clothing/under/f13/police/state_cal
+	name = "highway patrol uniform"
+	desc = "The uniform of an old-world highway patrol force."
 	icon = 'icons/fallout/clothing/uniforms.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/uniform.dmi'
-	icon_state = "state_trooper"
-	item_state = "state_trooper"
-
-//get a custom swat sprite at some point
+	icon_state = "police_state_cal"
+	item_state = "police_state_cal"
 
 /obj/item/clothing/under/f13/police/swat
 	name = "SWAT officer uniform"
