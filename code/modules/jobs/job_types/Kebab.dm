@@ -314,7 +314,7 @@ Mayor
 	uniform = /obj/item/clothing/under/f13/brahminbaron/foreign_suit
 	head = /obj/item/clothing/head/helmet/f13/foreign_hat
 	suit = /obj/item/clothing/suit/armor/f13/civilians/schlimmcoat
-	ears = /obj/item/radio/headset/headset_town
+	ears = /obj/item/radio/headset/headset_merchant
 	backpack = /obj/item/storage/backpack/satchel/leather/withwallet
 	satchel = /obj/item/storage/backpack/satchel/leather/withwallet
 	gloves = null
@@ -381,7 +381,7 @@ Mayor
 	belt = /obj/item/storage/belt/utility
 	gloves = /obj/item/clothing/gloves/f13/blacksmith
 	id = /obj/item/card/id/dogtag/town
-	ears = /obj/item/radio/headset/headset_town
+	ears = /obj/item/radio/headset/headset_merchant
 	shoes = /obj/item/clothing/shoes/workboots/mining
 	r_pocket = /obj/item/flashlight/flare
 	backpack = /obj/item/storage/backpack/satchel/leather
@@ -416,7 +416,7 @@ Mayor
 
 /*--------------------------------------------------------------*/
 /datum/job/oasis/f13deputy
-	title = "Mercenary"
+	title = "Merchants Guard"
 	flag = F13POLICEMAN
 	department_flag = DEP_OASIS
 	total_positions = 2
@@ -444,7 +444,7 @@ Mayor
 	jobtype = /datum/job/oasis/f13deputy
 	head = /obj/item/clothing/head/helmet/riot
 	mask = /obj/item/clothing/mask/balaclava
-	ears = /obj/item/radio/headset/headset_town
+	ears = /obj/item/radio/headset/headset_merchant
 	id = /obj/item/card/id/dogtag/deputy
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
@@ -908,8 +908,8 @@ Mayor
 	title = "Citizen"
 	flag = F13SETTLER
 	department_flag = DEP_OASIS
-	total_positions = 8
-	spawn_positions = 8
+	total_positions = 0
+	spawn_positions = 0
 	supervisors = "Kebab Government & Police Department"
 	description = "You are a citizen living in the Town of Kebab - as the name suggests, it is a somewhat safe place amidst the chaos of the continent. Treat it as such, be sure to follow the laws of the land and do not associate with those who have a tendency not to, or you are likely to face exile. Remember that Kebab is your home, DO NOT act in a manner that would threaten it's safety or other citizens."
 	selection_color = "#dcba97"
@@ -1099,7 +1099,7 @@ Mayor
 	department_flag = DEP_OASIS
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the All Father"
+	supervisors = "the Holy Father"
 	description = "You are the leader of the Church, at least for now. Your sworn duty is to expand and protect the faith, through any means necessary, in preparation for the day of retribution that is to come. You are the spiritual leader of the faith, and are expected to give sermons, advise members, and perform all major rituals. You are beholden to no one but the Father above, and the Servitors answer directly to you."
 	selection_color = "#9500C7"
 	forbids = "Exposing the secrets of the Church, fraternizing with the NCR, treating patients for nothing in return, consuming alcohol, and using chems."
@@ -1127,7 +1127,7 @@ Mayor
 	uniform = /obj/item/clothing/under/f13/religion/priest
 	suit = /obj/item/clothing/suit/hooded/robes/cotc/highpriest
 	suit_store = /obj/item/gun/energy/laser/plasma/pistol
-	ears = /obj/item/radio/headset/headset_town
+	ears = /obj/item/radio/headset/headset_church
 	backpack = /obj/item/storage/backpack/satchel/leather
 	satchel = /obj/item/storage/backpack/satchel/leather
 	duffelbag = /obj/item/storage/backpack/duffelbag
@@ -1137,6 +1137,7 @@ Mayor
 	shoes = /obj/item/clothing/shoes/laceup
 	backpack_contents = list(
 		/obj/item/book/manual/thebook = 1,
+		/obj/item/book/manual/thebook/purple = 1,
 		/obj/item/reagent_containers/hypospray/medipen/stimpak = 1,
 		/obj/item/storage/fancy/candle_box = 1,
 		/obj/item/stock_parts/cell/ammo/ec = 2,
@@ -1185,13 +1186,13 @@ Mayor
 
 /datum/outfit/job/cotc/f13kebabservitormedici
 	name = "Servitor Medici"
-	jobtype = /datum/job/oasis/f13kebabhighpriest
+	jobtype = /datum/job/oasis/f13kebabservitormedici
 
 	id = /obj/item/card/id/dogtag/town
 	uniform = /obj/item/clothing/under/f13/religion/priest
 	suit = /obj/item/clothing/suit/hooded/robes/cotc/servitor
 	suit_store = /obj/item/gun/energy/laser/wattz
-	ears = /obj/item/radio/headset/headset_town
+	ears = /obj/item/radio/headset/headset_church
 	backpack = /obj/item/storage/backpack/satchel/leather
 	satchel = /obj/item/storage/backpack/satchel/leather
 	duffelbag =	/obj/item/storage/backpack/duffelbag/med
@@ -1255,7 +1256,7 @@ Mayor
 	uniform = /obj/item/clothing/under/f13/religion/priest
 	suit = /obj/item/clothing/suit/hooded/robes/cotc/servitor
 	suit_store = /obj/item/gun/energy/laser/wattz2k
-	ears = /obj/item/radio/headset/headset_town
+	ears = /obj/item/radio/headset/headset_church
 	backpack = /obj/item/storage/backpack/satchel/leather
 	satchel = /obj/item/storage/backpack/satchel/leather
 	duffelbag = /obj/item/storage/backpack/duffelbag
@@ -1313,7 +1314,7 @@ Mayor
 	uniform = /obj/item/clothing/under/f13/brahminm
 	suit = /obj/item/clothing/suit/hooded/robes/cotc/proselytizer
 	suit_store = /obj/item/gun/energy/laser/wattz
-	ears = /obj/item/radio/headset/headset_town
+	ears = /obj/item/radio/headset/headset_church
 	backpack = /obj/item/storage/backpack/satchel/trekker
 	satchel = /obj/item/storage/backpack/satchel/trekker
 	duffelbag = /obj/item/storage/backpack/duffelbag
@@ -1365,7 +1366,7 @@ Mayor
 	uniform = /obj/item/clothing/under/f13/brahminm
 	suit = /obj/item/clothing/suit/hooded/robes/cotc/acolyte
 	suit_store = null
-	ears = /obj/item/radio/headset/headset_town
+	ears = /obj/item/radio/headset/headset_church
 	backpack = /obj/item/storage/backpack/satchel/med
 	satchel = /obj/item/storage/backpack/satchel/med
 	duffelbag =	/obj/item/storage/backpack/duffelbag/med
@@ -1424,7 +1425,7 @@ Mayor
 	jobtype = /datum/job/oasis/f13farmer
 
 	id = /obj/item/card/id/dogtag/town
-	ears = 	/obj/item/radio/headset/headset_town
+	ears = 	/obj/item/radio/headset/headset_church
 	suit = /obj/item/clothing/suit/hooded/robes/cotc
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
@@ -1445,3 +1446,6 @@ Mayor
 		/obj/item/clothing/under/f13/machinist,
 		/obj/item/clothing/under/f13/lumberjack,
 		/obj/item/clothing/under/f13/roving)
+
+/*--------------------------------------------------------------*/
+

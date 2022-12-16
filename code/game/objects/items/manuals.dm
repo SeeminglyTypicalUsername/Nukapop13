@@ -223,6 +223,36 @@
 				</html>
 			"}
 
+/obj/item/book/manual/thebook/purple
+	name = "The Purple Book"
+	icon_state = "the_book"
+	author = "High Priest Gressil"
+	title = "The Purple Book"
+	dat = {"<html>
+				<p><strong>THE PURPLE BOOK </strong></p>
+				<p><strong>FOR THE HIGH PRIEST'S EYES ONLY </strong></p>
+<p><span style="font-weight: 400;">Greetings, inheritor of the Faith. This is the true history of the Church and it&rsquo;s Children, which until now has been concealed. I apologize for this deception, but I am sure you will realize the necessity of it, given the contents of these pages. It was as critical that you be kept in the dark then as it is critical that you know the true purpose now.&nbsp;</span></p>
+<p><span style="font-weight: 400;">We were not always known merely as &ldquo;the Church.&rdquo; Once, in the distant land the scriptures speak of, back when the Angels walked the Garden, we lived in the land of California. We were, as the scriptures say, in paradise there, and the Father, or as we called him, the Master, ruled us with a benevolent hand. That was until the Unbeliever, or as he is known in California, the Vault Dweller, destroyed our Master and drove us out.&nbsp;</span></p>
+<p><span style="font-weight: 400;">Only a few of us true faithful survived the destruction of the Cathedral, and fewer still survived the journey ahead. Fleeing from the murderous Unbelievers, we fled to the East for nearly a generation. It was hard, and few survived the journey. When we found this town, with its primitive people hiding within the ruins of an old world church, we knew we had found salvation.</span></p>
+<p><span style="font-weight: 400;">It was not difficult to convert them to our ways, but we kept many things hidden. The Church we founded was not like the Cathedral of old. The Master could no longer guide us, and we lacked resources. Furthermore, it grew ever more difficult to find willing converts to the cause, even when we offered free aid. It is for this reason that we grew the system of medical debt conversion, a system which I am sure you are well acquainted with. It has served us well over the years, and I trust you will preserve it until the time comes.</span></p>
+<p><span style="font-weight: 400;">What is most important is that you understand why we made the journey, and how the Master&rsquo;s death can be avenged. The Angels must be restored, and to do that, we must find the Sacred Elixir which the Master once kept in abundance. Moreover, we must take revenge upon the Master&rsquo;s killers. The Unbelievers must be made to pay for what they did to us, to him. One day, they will come for you.</span></p>
+<p><span style="font-weight: 400;">The following organizations are and were agents of the Arch Unbeliever, and must be destroyed at any cost.</span></p>
+<p><span style="font-weight: 400;">The so called &ldquo;Brotherhood of Steel&rdquo;</span></p>
+<p><span style="font-weight: 400;">The so called &ldquo;Followers of the Apocalypse&rdquo;</span></p>
+<p><span style="font-weight: 400;">The fledgeling &ldquo;New California Republic&rdquo;, which we have heard rumors of even here.</span></p>
+<p><span style="font-weight: 400;">Any man who bears the mark of the accursed Vault 13.</span><span style="font-weight: 400;"><br /><br /></span></p>
+<p style="text-align: center;"><span style="font-weight: 400;">Father, guide your children through your Vineyard.</span></p>
+<p style="text-align: center;"><span style="font-weight: 400;">Father, guide us down the path to Unity.</span></p>
+<p style="text-align: center;"><span style="font-weight: 400;">Father, have mercy upon us</span></p>
+<p style="text-align: center;"><span style="font-weight: 400;">Father, have no mercy for the Unbelievers.</span></p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><span style="font-weight: 400;">Father,&nbsp; who brought forth the Angels, protect us.</span></p>
+<p style="text-align: center;"><span style="font-weight: 400;">Father,&nbsp; who saved us from destruction, protect us.</span></p>
+<p style="text-align: center;"><span style="font-weight: 400;">Father, who shielded us from barbarism, protect us.</span></p>
+<p style="text-align: center;"><span style="font-weight: 400;">Father, who showed us the way to Unity, protect us.</span></p>
+				</html>
+			"}
+
 /obj/item/book/manual/nuka_recipes
 	name = "Nuka-Cola Recipes"
 	icon_state = "barbook"
