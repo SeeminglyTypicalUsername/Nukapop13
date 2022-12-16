@@ -269,7 +269,7 @@ IPINTEL_SAVE_BAD 3
 # WIKIURL https://f13wiki.herma.moe/index.php/Main_Page
 
 ## Rules address
-RULESURL https://discord.gg/5dsycCUb57
+RULESURL https://discord.gg/9NvBx3Ee22
 
 ## Github address
 # GITHUBURL https://github.com/Citadel-Station-13/Citadel-Station-13
