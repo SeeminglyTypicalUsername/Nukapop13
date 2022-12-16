@@ -1538,10 +1538,10 @@ list(/obj/item/stack/sheet/metal = 20,
 	new /obj/item/ammo_box/shotgun/buck(src)
 	new /obj/item/storage/box/ration/menu_one(src)
 
-/obj/item/storage/box/gunbox/ncr/corporal/set4/PopulateContents() //m1carbine compact, binoculars
-	new /obj/item/gun/ballistic/automatic/m1carbine/compact(src)
-	new /obj/item/ammo_box/magazine/m10mm_adv/ext(src)
-	new /obj/item/ammo_box/magazine/m10mm_adv/ext(src)
+/obj/item/storage/box/gunbox/ncr/corporal/set4/PopulateContents() //service rifle, binoculars
+	new /obj/item/gun/ballistic/automatic/service(src)
+	new /obj/item/ammo_box/magazine/m556/rifle(src)
+	new /obj/item/ammo_box/magazine/m556/rifle(src)
 	new /obj/item/storage/belt/holster/legholster
 	new /obj/item/gun/ballistic/automatic/pistol/ninemil(src)
 	new /obj/item/ammo_box/magazine/m9mmds(src)
@@ -1790,7 +1790,7 @@ list(/obj/item/stack/sheet/metal = 20,
 	new /obj/item/ammo_box/magazine/smg14(src)
 	new /obj/item/ammo_box/magazine/smg14(src)
 
-/////Vermin/////
+/////Vipers/////
 
 /obj/item/storage/box/gunbox/vipers/set1/PopulateContents()
 	new /obj/item/gun/ballistic/automatic/smg/greasegun(src)
@@ -1828,3 +1828,68 @@ list(/obj/item/stack/sheet/metal = 20,
 	new /obj/item/ammo_box/m44box/improvised(src)
 	new /obj/item/bottlecap_mine(src)
 	new /obj/item/bottlecap_mine(src)
+
+/////Wasteland Raider/////
+
+/obj/item/storage/box/gunbox/raider/set1/PopulateContents()//varmint rifle, bottlecap mine
+	new /obj/item/gun/ballistic/automatic/varmint(src)
+	new /obj/item/ammo_box/magazine/m556/rifle(src)
+	new /obj/item/bottlecap_mine(src)
+
+/obj/item/storage/box/gunbox/raider/set2/PopulateContents()//butcher knife, throwing knives, beartrap, reverse beartrap
+	new /obj/item/kitchen/knife/butcher(src)
+	new /obj/item/melee/onehanded/knife/throwing(src)
+	new /obj/item/melee/onehanded/knife/throwing(src)
+	new /obj/item/restraints/legcuffs/beartrap(src)
+	new /obj/item/reverse_bear_trap(src)
+
+/obj/item/storage/box/gunbox/raider/set3/PopulateContents()//caravan shotgun, coffeepot bomb
+	new /obj/item/gun/ballistic/revolver/caravan_shotgun(src)
+	new /obj/item/ammo_box/shotgun/improvised(src)
+	new /obj/item/ammo_box/shotgun/improvised(src)
+	new /obj/item/grenade/homemade/coffeepotbomb(src)
+
+/obj/item/storage/box/gunbox/raider/set4/PopulateContents() //chems
+	new /obj/item/reagent_containers/hypospray/medipen/psycho(src)
+	new /obj/item/reagent_containers/hypospray/medipen/psycho(src)
+	new /obj/item/reagent_containers/hypospray/medipen/medx (src)
+	new /obj/item/reagent_containers/hypospray/medipen/medx (src)
+	new /obj/item/reagent_containers/pill/patch/turbo(src)
+	new /obj/item/reagent_containers/pill/patch/turbo(src)
+
+/obj/item/storage/box/gunbox/raider/set5/PopulateContents()//autopipe, coffeepot bomb
+	new /obj/item/gun/ballistic/automatic/autopipe(src)
+	new /obj/item/ammo_box/magazine/autopipe(src)
+	new /obj/item/ammo_box/magazine/autopipe(src)
+	new /obj/item/grenade/homemade/coffeepotbomb(src)
+
+/obj/item/storage/box/gunbox/raider/set6/PopulateContents()//frying pan, jet
+	new /obj/item/melee/onehanded/club/fryingpan(src)
+	new /obj/item/reagent_containers/pill/patch/jet(src)
+	new /obj/item/reagent_containers/pill/patch/jet(src)
+
+/obj/item/storage/box/gunbox/raider/set7/PopulateContents()//service rifle, chems
+	new /obj/item/gun/ballistic/automatic/service(src)
+	new /obj/item/ammo_box/magazine/m556/rifle(src)
+	new /obj/item/reagent_containers/pill/patch/jet(src)
+	new /obj/item/reagent_containers/pill/patch/turbo(src)
+
+/obj/item/storage/box/gunbox/raider/set8/PopulateContents()//frying pan, jet
+	new /obj/item/melee/onehanded/club/fryingpan(src)
+	new /obj/item/reagent_containers/pill/patch/jet(src)
+	new /obj/item/reagent_containers/pill/patch/jet(src)
+
+/obj/item/storage/box/gunbox/raider/set9/PopulateContents()//10mm pistol, scrap sabre, jet
+	new /obj/item/gun/ballistic/automatic/pistol/n99(src)
+	new /obj/item/melee/onehanded/machete/scrapsabre(src)
+	new /obj/item/reagent_containers/pill/patch/jet(src)
+
+/obj/item/storage/box/gunbox/raider/set10/PopulateContents()//golf club, psycho
+	new /obj/item/twohanded/baseball/golfclub(src)
+	new /obj/item/reagent_containers/hypospray/medipen/psycho(src)
+
+/obj/item/storage/box/gunbox/raider/set11/PopulateContents() //machete
+	new /obj/item/melee/onehanded/machete(src)
+
+/obj/item/storage/box/gunbox/raider/set12/PopulateContents()//jet
+	new /obj/item/reagent_containers/pill/patch/jet(src)
