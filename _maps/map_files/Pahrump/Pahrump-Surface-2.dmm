@@ -2711,12 +2711,7 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/obj/item/clothing/under/rank/security/detective/brown,
-/obj/item/clothing/shoes/laceup,
-/obj/item/clothing/suit/det_suit/forensicsblue,
-/obj/structure/closet{
-	anchored = 1
-	},
+/obj/structure/guncase,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
@@ -9842,12 +9837,10 @@
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building)
 "epF" = (
-/obj/item/clothing/shoes/combat,
 /obj/structure/closet,
-/obj/item/clothing/head/f13/police/officer{
-	name = "OPD officer's cap"
-	},
-/obj/item/clothing/under/f13/police/officer,
+/obj/item/clothing/shoes/laceup,
+/obj/item/clothing/under/f13/police/state_cal,
+/obj/item/clothing/head/f13/police/state_cal,
 /obj/machinery/light{
 	dir = 1
 	},
@@ -17828,12 +17821,10 @@
 /turf/open/floor/f13/wood,
 /area/f13/legion)
 "hHj" = (
-/obj/item/clothing/shoes/combat,
 /obj/structure/closet,
-/obj/item/clothing/head/f13/police/officer{
-	name = "OPD officer's cap"
-	},
-/obj/item/clothing/under/f13/police/officer,
+/obj/item/clothing/shoes/laceup,
+/obj/item/clothing/under/f13/police/state_cal,
+/obj/item/clothing/head/f13/police/state_cal,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
@@ -24895,12 +24886,10 @@
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/building)
 "kCa" = (
-/obj/item/clothing/shoes/combat,
 /obj/structure/closet,
-/obj/item/clothing/head/f13/police/officer{
-	name = "OPD officer's cap"
-	},
-/obj/item/clothing/under/f13/police/officer,
+/obj/item/clothing/shoes/laceup,
+/obj/item/clothing/under/f13/police/state_cal,
+/obj/item/clothing/head/f13/police/state_cal,
 /obj/machinery/light,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/low,
 /turf/open/floor/f13{
@@ -26195,11 +26184,6 @@
 	dir = 4
 	},
 /area/f13/building)
-"lgH" = (
-/obj/effect/decal/remains/human,
-/obj/item/clothing/under/f13/police/trooper,
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/wasteland)
 "lgL" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -33475,8 +33459,8 @@
 	pixel_y = -4
 	},
 /obj/item/picket_sign{
-	desc = "It's a picket sign that reads: Stop the Police Brutality.";
-	name = "Stop the Police Brutality!"
+	desc = "This sign's message is faded, you can't read it.";
+	name = "faded picket sign"
 	},
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "horizontalbottombordertop0"
@@ -33826,14 +33810,12 @@
 	},
 /area/f13/wasteland)
 "ozI" = (
-/obj/item/clothing/shoes/combat,
 /obj/structure/closet,
+/obj/item/clothing/shoes/laceup,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier1,
-/obj/item/clothing/head/f13/police/officer{
-	name = "OPD officer's cap"
-	},
-/obj/item/clothing/under/f13/police/officer,
+/obj/item/clothing/under/f13/police/state_cal,
+/obj/item/clothing/head/f13/police/state_cal,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
@@ -37914,13 +37896,11 @@
 	},
 /area/f13/building)
 "qxA" = (
-/obj/item/clothing/shoes/combat,
 /obj/structure/closet,
+/obj/item/clothing/shoes/laceup,
 /obj/effect/spawner/lootdrop/f13/weapon/melee/random,
-/obj/item/clothing/head/f13/police/officer{
-	name = "OPD officer's cap"
-	},
-/obj/item/clothing/under/f13/police/officer,
+/obj/item/clothing/under/f13/police/state_cal,
+/obj/item/clothing/head/f13/police/state_cal,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
@@ -41648,8 +41628,8 @@
 	pixel_y = -4
 	},
 /obj/item/picket_sign{
-	desc = "It's a picket sign that reads: Repeal the Wartime Workers Act.";
-	name = "Repeal the Wartime Workers Act!"
+	desc = "This sign's message is faded, you can't read it.";
+	name = "faded picket sign"
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontalbottomborderbottom0"
@@ -45622,9 +45602,6 @@
 "tUp" = (
 /obj/machinery/light/small{
 	dir = 8
-	},
-/obj/effect/decal/remains{
-	icon_state = "remains"
 	},
 /turf/open/floor/f13{
 	icon_state = "whitegreenrustychess"
@@ -51751,8 +51728,6 @@
 /area/f13/building)
 "wBd" = (
 /obj/structure/closet,
-/obj/item/clothing/under/rank/prisoner,
-/obj/item/clothing/shoes/sneakers/orange,
 /obj/item/restraints/handcuffs,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
@@ -52880,13 +52855,11 @@
 	},
 /area/f13/building)
 "wZe" = (
-/obj/effect/decal/remains{
-	icon_state = "remains"
+/obj/item/storage/trash_stack{
+	icon_state = "trash_2"
 	},
-/turf/open/floor/f13{
-	icon_state = "whitegreenrustychess"
-	},
-/area/f13/building)
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
 "wZi" = (
 /obj/structure/weightlifter,
 /turf/open/floor/wood/f13/oak,
@@ -53985,13 +53958,6 @@
 	icon_state = "bluerustychess2"
 	},
 /area/f13/building)
-"xws" = (
-/obj/effect/decal/remains{
-	icon_state = "remains"
-	},
-/obj/item/clothing/mask/gas/sechailer/swat,
-/turf/open/indestructible/ground/outside/sidewalk,
-/area/f13/wasteland)
 "xwO" = (
 /obj/structure/table/wood/settler,
 /obj/item/soap/homemade,
@@ -54210,10 +54176,7 @@
 /area/f13/caves)
 "xDb" = (
 /obj/effect/decal/remains/human,
-/obj/item/clothing/head/f13/police/trooper{
-	pixel_x = 1;
-	pixel_y = -5
-	},
+/obj/item/clothing/head/f13/police/state_cal,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "xDv" = (
@@ -103005,7 +102968,7 @@ mHW
 mHW
 pfl
 fyf
-fyf
+wZe
 gcK
 gcK
 gcK
@@ -104032,7 +103995,7 @@ cpK
 cpK
 qGZ
 jMC
-fyf
+jJb
 gcK
 gcK
 gts
@@ -104558,7 +104521,7 @@ gts
 rbE
 vYv
 gts
-vYv
+kMS
 fFi
 gts
 gcK
@@ -105057,7 +105020,7 @@ ubg
 gmX
 koD
 cpK
-xws
+brP
 vAY
 sIO
 bYR
@@ -105326,7 +105289,7 @@ pSp
 vYv
 hHj
 gts
-hJQ
+vYv
 vYv
 uHA
 vYv
@@ -106084,7 +106047,7 @@ sQX
 ybw
 orV
 dKW
-xws
+brP
 cpK
 dpM
 kxY
@@ -106350,14 +106313,14 @@ vYv
 gts
 uwQ
 vYv
-hJQ
+vYv
 vYv
 jYn
 gts
 vYv
 vYv
 xrj
-wZe
+dhC
 tUp
 gts
 gcK
@@ -110043,7 +110006,7 @@ fyf
 xDb
 pFM
 fyf
-lgH
+xDb
 xwZ
 fyf
 fyf

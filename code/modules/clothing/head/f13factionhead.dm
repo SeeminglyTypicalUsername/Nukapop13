@@ -1538,15 +1538,13 @@ obj/item/clothing/head/f13/army/beret
 	dynamic_hair_suffix = "+generic"
 	dynamic_fhair_suffix = null
 
-/obj/item/clothing/head/f13/police/trooper
-	name = "state police campaign hat"
-	desc = "A gray campaign hat, worn by the State Police."
+/obj/item/clothing/head/f13/police/state_cal
+	name = "highway patrol campaign hat"
+	desc = "A tan campaign hat worn by the officers of an old-war highway patrol force."
 	icon = 'icons/fallout/clothing/hats.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
-	icon_state = "police_chief"
-	item_state = "police_chief"
-	icon_state = "state_trooper"
-	item_state = "state_trooper"
+	icon_state = "police_state_cal"
+	item_state = "police_state_cal"
 	dynamic_hair_suffix = "+generic"
 	dynamic_fhair_suffix = null
 
@@ -1559,8 +1557,8 @@ obj/item/clothing/head/f13/army/beret
 	desc = "An old world military cap repurposed by the local town."
 	icon = 'icons/fallout/clothing/hats.dmi'
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
-	icon_state = "army_officer"
-	item_state = "army_officer"
+	icon_state = "army_cap"
+	item_state = "army_cap"
 	armor = list("melee" = 10, "bullet" = 10, "laser" = 35, "energy" = 25, "bomb" = 5, "bio" = 5, "rad" = 5, "fire" = 5, "acid" = 5, "wound" = 5)
 
 /obj/item/clothing/head/helmet/blueshirt/undertown

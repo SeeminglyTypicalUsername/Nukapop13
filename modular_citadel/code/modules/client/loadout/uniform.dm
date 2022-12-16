@@ -1053,12 +1053,6 @@
 	cost = 3 //Its 3 because it has some small armor against damage
 	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_WASTELAND
 
-/datum/gear/uniform/wasteland/trooper
-	name = "State police uniform"
-	path = /obj/item/clothing/under/f13/police/trooper
-	cost = 2
-	subcategory = LOADOUT_SUBCATEGORY_UNIFORM_WASTELAND
-
 /datum/gear/uniform/wasteland/formal
 	name = "Police formal uniform"
 	path = /obj/item/clothing/under/f13/police/formal
