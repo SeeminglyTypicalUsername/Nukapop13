@@ -2487,6 +2487,7 @@
 /obj/structure/table/reinforced,
 /obj/item/paper_bin,
 /obj/item/pen,
+/obj/item/pen/fountain,
 /turf/open/floor/carpet,
 /area/f13/ncr)
 "yu" = (
@@ -3116,12 +3117,6 @@
 /obj/item/folder/documents{
 	desc = "A folder stamped \"Client Deposits - Property of The Yuma Bank. Unauthorized distribution is punishable by jail time.\"";
 	name = "folder- 'Client Deposits'"
-	},
-/obj/item/stamp/denied{
-	pixel_x = -4
-	},
-/obj/item/stamp{
-	pixel_x = 4
 	},
 /turf/open/floor/f13,
 /area/f13/brotherhood/surface)
@@ -4190,11 +4185,6 @@
 	},
 /turf/closed/wall/f13/wood/house,
 /area/f13/raiders)
-"Pu" = (
-/obj/structure/table/wood/settler,
-/obj/item/ship_in_a_bottle,
-/turf/open/floor/carpet,
-/area/f13/ncr)
 "Px" = (
 /obj/effect/decal/cleanable/dirt,
 /mob/living/simple_animal/hostile/trog/tunneler{
@@ -4784,7 +4774,14 @@
 /area/f13/building)
 "UI" = (
 /obj/structure/table/reinforced,
-/obj/item/stamp/captain,
+/obj/item/stamp/denied{
+	pixel_y = 2;
+	pixel_x = 6
+	},
+/obj/item/stamp{
+	pixel_y = 2;
+	pixel_x = -4
+	},
 /turf/open/floor/carpet,
 /area/f13/ncr)
 "UK" = (
@@ -12579,7 +12576,7 @@ Ak
 Ak
 Ak
 Ak
-Pu
+Zd
 Oq
 OU
 cQ
@@ -12840,7 +12837,7 @@ cQ
 Yc
 cQ
 yr
-cQ
+WL
 cQ
 Ak
 CC
@@ -13354,8 +13351,8 @@ zl
 Ak
 cQ
 UI
-WL
-Zd
+cQ
+cQ
 Ak
 CC
 CC
