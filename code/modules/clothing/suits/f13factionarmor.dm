@@ -508,11 +508,11 @@
 	item_state = "ncr_dressjack"
 	armor = list("melee" = 10, "bullet" = 10, "laser" = 20, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 30)
 
-/obj/item/clothing/suit/armor/f13/ncrarmor/ncr_codressjack
+/obj/item/clothing/suit/armor/f13/ncrarmor/ncr_dressjack_officer
 	name = "NCR dress jacket"
 	desc = "A brown dress uniform jacket for commissioned NCRA personnel."
-	icon_state = "ncr_codressjack"
-	item_state = "ncr_codressjack"
+	icon_state = "ncr_dressjack_officer"
+	item_state = "ncr_dressjack_officer"
 	armor = list("melee" = 10, "bullet" = 10, "laser" = 20, "energy" = 20, "bomb" = 25, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 30)
 
 /obj/item/clothing/suit/armor/f13/combat/ncr/mutant

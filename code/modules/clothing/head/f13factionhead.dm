@@ -650,11 +650,25 @@
 	dog_fashion = null
 	unique_reskin = list("M1" = "ncr_old")
 
-/obj/item/clothing/head/f13/ncr/ncr_flapcap
+/obj/item/clothing/head/f13/ncr/ncr_cap
 	name = "NCR field cap"
-	desc = "A special issue canvas NCR field cap with cotton neckflap, for sun protection in arid climates."
-	icon_state = "ncr_flapcap"
-	item_state = "ncr_flapcap"
+	desc = "A standard issue canvas NCR field cap with a cotton neckflap, for sun protection in arid climates."
+	flags_inv = HIDEEARS|HIDEHAIR
+	var/earflaps = 1
+	icon_state = "ncr_flapcapdown"
+	item_state = "ncr_flapcapdown"
+
+/obj/item/clothing/head/f13/ncr/ncr_cap/attack_self(mob/user)
+	if(earflaps)
+		src.icon_state = "ncr_flapcapup"
+		src.item_state = "ncr_flapcapup"
+		earflaps = 0
+		to_chat(user, "<span class='notice'>You raise the neck flaps on the field cap.</span>")
+	else
+		src.icon_state = "ncr_flapcapdown"
+		src.item_state = "ncr_flapcapdown"
+		earflaps = 1
+		to_chat(user, "<span class='notice'>You lower the ear neck flaps on the field cap.</span>")
 
 /obj/item/clothing/head/f13/ncr/ncr_slouch
 	name = "NCR slouch hat"
@@ -668,11 +682,17 @@
 	icon_state = "ncr_stetson"
 	item_state = "ncr_stetson"
 
-/obj/item/clothing/head/f13/ncr/ncr_cap
+/obj/item/clothing/head/f13/ncr/ncr_sidecap
 	name = "NCR garrison cap"
-	desc = "A simple cloth garrison cap to be worn when a helmet isn't necessary."
-	icon_state = "ncr_cap"
-	item_state = "ncr_cap"
+	desc = "A cloth garrison cap to be worn when a peaked cap isn't necessary."
+	icon_state = "ncr_sidecap"
+	item_state = "ncr_sidecap"
+
+/obj/item/clothing/head/f13/ncr/ncr_sidecap/officer
+	name = "NCR garrison cap"
+	desc = "A cloth garrison cap to be worn when a peaked cap isn't necessary."
+	icon_state = "ncr_sidecap_officer"
+	item_state = "ncr_sidecap_officer"
 
 /obj/item/clothing/head/f13/ncr/ncr_campaign
 	name = "NCR campaign hat"
@@ -710,18 +730,25 @@
 	icon_state = "ncr_sof_beret"
 	item_state = "ncr_sof_beret"
 
-/obj/item/clothing/head/beret/ncr_dresscap
+/obj/item/clothing/head/f13/ncr/ncr_dresscap
 	name = "NCR peaked cap"
-	desc = "A tan peaked cap with silver pin, designated for enlisted NCRA personnel."
+	desc = "A tan peaked cap with a small silver pin of the NCR seal attached to it. An enlistedman in the NCRA should wear this."
 	icon_state = "ncr_dresscap"
 	item_state = "ncr_dresscap"
 	armor = list("melee" = 10, "bullet" = 15, "laser" = 10, "energy" = 10, "bomb" = 5, "bio" = 5, "rad" = 5, "fire" = 5, "acid" = 0, "wound" = 0)
 
-/obj/item/clothing/head/beret/ncr_codresscap
+/obj/item/clothing/head/f13/ncr/ncr_dresscap_officer
 	name = "NCR peaked cap"
-	desc = "A tan peaked cap with golden pin, designated for commissioned NCRA personnel."
-	icon_state = "ncr_codresscap"
-	item_state = "ncr_codresscap"
+	desc = "A tan peaked cap with a large golden badge of the NCR seal attached to it. An officer in the NCRA should wear this."
+	icon_state = "ncr_dresscap_officer"
+	item_state = "ncr_dresscap_officer"
+	armor = list("melee" = 10, "bullet" = 15, "laser" = 10, "energy" = 10, "bomb" = 5, "bio" = 5, "rad" = 5, "fire" = 5, "acid" = 0, "wound" = 0)
+
+/obj/item/clothing/head/f13/ncr/ncr_dresscap_senior
+	name = "NCR peaked cap"
+	desc = "A tan peaked cap with a large golden badge of the NCR seal attached to it and gold leaf embellishments on the visor. A senior officer in the NCRA should wear this (Major +)."
+	icon_state = "ncr_dresscap_senior"
+	item_state = "ncr_dresscap_senior"
 	armor = list("melee" = 10, "bullet" = 15, "laser" = 10, "energy" = 10, "bomb" = 5, "bio" = 5, "rad" = 5, "fire" = 5, "acid" = 0, "wound" = 0)
 
 /obj/item/clothing/head/helmet/f13/pith_helmet
