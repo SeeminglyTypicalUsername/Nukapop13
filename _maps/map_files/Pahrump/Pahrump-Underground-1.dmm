@@ -4264,15 +4264,10 @@
 	},
 /area/f13/den)
 "ewg" = (
-/obj/structure/table/reinforced,
-/obj/item/card/id/dogtag/town/ncr,
-/obj/item/card/id/dogtag/town/ncr,
-/obj/item/card/id/dogtag/town/ncr,
-/obj/item/card/id/dogtag/town/ncr,
-/obj/item/card/id/dogtag/town/ncr,
-/turf/open/floor/f13{
-	icon_state = "darkrusty"
-	},
+/obj/structure/table/wood/fancy/royalblack,
+/obj/item/folder/yellow,
+/obj/item/folder/yellow,
+/turf/open/floor/wood/wood_tiled,
 /area/f13/ncr)
 "ewF" = (
 /obj/structure/flora/rock/pile/largejungle,
@@ -5034,6 +5029,8 @@
 	dir = 1;
 	pixel_x = 16
 	},
+/obj/item/pen/fourcolor,
+/obj/item/pen/fountain,
 /turf/open/floor/wood/wood_tiled,
 /area/f13/ncr)
 "fcV" = (
@@ -5865,6 +5862,13 @@
 /obj/item/clothing/suit/armor/f13/ncrarmor/ncr_dressjack,
 /obj/item/clothing/suit/armor/f13/ncrarmor/ncr_dressjack,
 /obj/item/clothing/suit/armor/f13/ncrarmor/ncr_dressjack,
+/obj/item/clothing/head/f13/ncr/ncr_dresscap,
+/obj/item/clothing/head/f13/ncr/ncr_dresscap,
+/obj/item/clothing/head/f13/ncr/ncr_dresscap,
+/obj/item/clothing/head/f13/ncr/ncr_dresscap,
+/obj/item/clothing/head/f13/ncr/ncr_dresscap,
+/obj/item/clothing/head/f13/ncr/ncr_dresscap,
+/obj/item/clothing/head/f13/ncr/ncr_dresscap,
 /turf/open/floor/f13/wood,
 /area/f13/ncr)
 "fYj" = (
@@ -6425,13 +6429,13 @@
 /obj/item/clothing/under/f13/ncr/ncr_dress,
 /obj/item/clothing/under/f13/ncr/ncr_dress,
 /obj/item/clothing/under/f13/ncr/ncr_dress,
+/obj/item/clothing/under/f13/ncr/ncr_dress,
 /obj/machinery/light{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
 	},
-/obj/item/clothing/under/f13/ncr/ncr_dress,
 /turf/open/floor/f13/wood,
 /area/f13/ncr)
 "gCS" = (
@@ -6723,13 +6727,20 @@
 /area/f13/tunnel)
 "gTt" = (
 /obj/structure/rack,
-/obj/item/clothing/suit/armor/f13/ncrarmor/ncr_codressjack,
-/obj/item/clothing/suit/armor/f13/ncrarmor/ncr_codressjack,
-/obj/item/clothing/suit/armor/f13/ncrarmor/ncr_codressjack,
-/obj/item/clothing/suit/armor/f13/ncrarmor/ncr_codressjack,
-/obj/item/clothing/suit/armor/f13/ncrarmor/ncr_codressjack,
-/obj/item/clothing/suit/armor/f13/ncrarmor/ncr_codressjack,
-/obj/item/clothing/suit/armor/f13/ncrarmor/ncr_codressjack,
+/obj/item/clothing/suit/armor/f13/ncrarmor/ncr_dressjack_officer,
+/obj/item/clothing/suit/armor/f13/ncrarmor/ncr_dressjack_officer,
+/obj/item/clothing/suit/armor/f13/ncrarmor/ncr_dressjack_officer,
+/obj/item/clothing/suit/armor/f13/ncrarmor/ncr_dressjack_officer,
+/obj/item/clothing/suit/armor/f13/ncrarmor/ncr_dressjack_officer,
+/obj/item/clothing/suit/armor/f13/ncrarmor/ncr_dressjack_officer,
+/obj/item/clothing/suit/armor/f13/ncrarmor/ncr_dressjack_officer,
+/obj/item/clothing/head/f13/ncr/ncr_dresscap_officer,
+/obj/item/clothing/head/f13/ncr/ncr_dresscap_officer,
+/obj/item/clothing/head/f13/ncr/ncr_dresscap_officer,
+/obj/item/clothing/head/f13/ncr/ncr_dresscap_officer,
+/obj/item/clothing/head/f13/ncr/ncr_dresscap_officer,
+/obj/item/clothing/head/f13/ncr/ncr_dresscap_officer,
+/obj/item/clothing/head/f13/ncr/ncr_dresscap_officer,
 /turf/open/floor/f13/wood,
 /area/f13/ncr)
 "gTv" = (
@@ -8035,13 +8046,13 @@
 /obj/item/clothing/under/f13/ncr/ncr_dress,
 /obj/item/clothing/under/f13/ncr/ncr_dress,
 /obj/item/clothing/under/f13/ncr/ncr_dress,
+/obj/item/clothing/under/f13/ncr/ncr_dress,
 /obj/machinery/light{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
 	},
-/obj/item/clothing/under/f13/ncr/ncr_dress,
 /turf/open/floor/f13/wood,
 /area/f13/ncr)
 "iOJ" = (
@@ -9195,13 +9206,13 @@
 /obj/item/clothing/shoes/f13/military/ncr_officer_boots{
 	name = "dress boots"
 	},
-/obj/item/clothing/head/beret/ncr_dresscap,
-/obj/item/clothing/head/beret/ncr_dresscap,
-/obj/item/clothing/head/beret/ncr_dresscap,
-/obj/item/clothing/head/beret/ncr_dresscap,
-/obj/item/clothing/head/beret/ncr_dresscap,
-/obj/item/clothing/head/beret/ncr_dresscap,
-/obj/item/clothing/head/beret/ncr_dresscap,
+/obj/item/clothing/head/f13/ncr/ncr_sidecap,
+/obj/item/clothing/head/f13/ncr/ncr_sidecap,
+/obj/item/clothing/head/f13/ncr/ncr_sidecap,
+/obj/item/clothing/head/f13/ncr/ncr_sidecap,
+/obj/item/clothing/head/f13/ncr/ncr_sidecap,
+/obj/item/clothing/head/f13/ncr/ncr_sidecap,
+/obj/item/clothing/head/f13/ncr/ncr_sidecap,
 /turf/open/floor/f13/wood,
 /area/f13/ncr)
 "ktQ" = (
@@ -11574,7 +11585,11 @@
 	},
 /area/f13/bunker)
 "nAV" = (
-/obj/item/kirbyplants/random,
+/obj/structure/table,
+/obj/item/folder/yellow,
+/obj/item/folder/yellow,
+/obj/item/folder/yellow,
+/obj/item/folder/yellow,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
 	icon_state = "darkrustysolid"
 	},
@@ -11968,13 +11983,11 @@
 	},
 /area/f13/clinic)
 "nXS" = (
-/obj/item/card/id/dogtag/ncrtrooper,
-/obj/item/card/id/dogtag/ncrtrooper,
-/obj/item/card/id/dogtag/ncrtrooper,
-/obj/item/card/id/dogtag/ncrsergeant,
-/obj/structure/table/reinforced,
-/turf/open/floor/f13{
-	icon_state = "darkrusty"
+/obj/structure/table,
+/obj/item/storage/fancy/donut_box,
+/obj/item/storage/fancy/donut_box,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
+	icon_state = "darkrustysolid"
 	},
 /area/f13/ncr)
 "nYi" = (
@@ -13341,11 +13354,11 @@
 /obj/item/clothing/under/f13/ncr/ncr_dress,
 /obj/item/clothing/under/f13/ncr/ncr_dress,
 /obj/item/clothing/under/f13/ncr/ncr_dress,
+/obj/item/clothing/under/f13/ncr/ncr_dress,
 /obj/machinery/light,
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
 	},
-/obj/item/clothing/under/f13/ncr/ncr_dress,
 /turf/open/floor/f13/wood,
 /area/f13/ncr)
 "pUB" = (
@@ -13401,8 +13414,11 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
 /area/f13/bunker)
 "pXO" = (
-/turf/closed/wall/f13/supermart,
-/area/f13/caves)
+/obj/item/kirbyplants,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
+	icon_state = "darkrustysolid"
+	},
+/area/f13/ncr)
 "pYd" = (
 /obj/structure/timeddoor,
 /turf/closed/wall/r_wall/rust,
@@ -14438,7 +14454,7 @@
 	},
 /area/f13/ncr)
 "rwk" = (
-/obj/machinery/photocopier,
+/obj/structure/filingcabinet,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
 	icon_state = "darkrustysolid"
 	},
@@ -14453,12 +14469,6 @@
 /obj/structure/simple_door/metal/barred,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
-"rxf" = (
-/obj/structure/filingcabinet/chestdrawer,
-/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
-	icon_state = "darkrustysolid"
-	},
-/area/f13/ncr)
 "rxw" = (
 /obj/structure/table,
 /obj/item/kitchen/rollingpin,
@@ -14488,10 +14498,15 @@
 	},
 /area/f13/caves)
 "ryy" = (
-/obj/structure/filingcabinet/chestdrawer,
+/obj/structure/table,
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/item/paper_bin,
+/obj/item/pen/fourcolor,
+/obj/item/pen/fourcolor,
+/obj/item/pen/fourcolor,
+/obj/item/pen/fourcolor,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
 	icon_state = "darkrustysolid"
 	},
@@ -15056,11 +15071,7 @@
 /area/f13/ncr)
 "shc" = (
 /obj/structure/table/reinforced,
-/obj/item/storage/fancy/cigarettes/cigars/havana{
-	pixel_y = 12
-	},
-/obj/item/storage/fancy/cigarettes/cigars/havana,
-/obj/item/lighter,
+/obj/item/folder/yellow,
 /turf/open/floor/f13{
 	icon_state = "darkrusty"
 	},
@@ -15448,16 +15459,9 @@
 	},
 /area/f13/ncr)
 "sSP" = (
-/obj/structure/table/reinforced,
-/obj/item/folder/blue{
-	pixel_x = 7
-	},
-/obj/item/folder/red,
-/obj/item/folder{
-	pixel_x = -7
-	},
-/turf/open/floor/f13{
-	icon_state = "darkrusty"
+/obj/structure/table,
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
+	icon_state = "darkrustysolid"
 	},
 /area/f13/ncr)
 "sTo" = (
@@ -15466,10 +15470,12 @@
 /turf/open/floor/f13/wood,
 /area/f13/caves)
 "sUs" = (
-/obj/item/documents{
-	desc = "Documents and maps concerning the local NCR presence."
-	},
 /obj/structure/table/reinforced,
+/obj/item/paper_bin,
+/obj/item/pen/fourcolor,
+/obj/item/pen/fourcolor,
+/obj/item/pen/fourcolor,
+/obj/item/pen/fourcolor,
 /turf/open/floor/f13{
 	icon_state = "darkrusty"
 	},
@@ -15482,9 +15488,12 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
 "sWp" = (
+/obj/structure/table,
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/item/book/manual/ncr/jobguide/regs,
+/obj/item/book/manual/ncr/jobguide/regs,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
 	icon_state = "darkrustysolid"
 	},
@@ -15854,8 +15863,17 @@
 /turf/open/floor/plasteel/f13/vault_floor/blue/white,
 /area/f13/bunker)
 "txg" = (
-/obj/structure/table/reinforced,
-/obj/item/storage/box/cups,
+/obj/structure/table,
+/obj/item/storage/fancy/cigarettes/cigars{
+	pixel_y = 7
+	},
+/obj/item/storage/fancy/cigarettes/cigars{
+	pixel_y = 7
+	},
+/obj/item/lighter,
+/obj/item/lighter,
+/obj/item/lighter,
+/obj/item/lighter,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
 	icon_state = "darkrustysolid"
 	},
@@ -15884,26 +15902,16 @@
 /area/f13/bunker)
 "tzg" = (
 /obj/structure/table/reinforced,
-/obj/item/paper_bin,
+/obj/item/stamp,
+/obj/item/stamp/denied,
 /turf/open/floor/f13{
 	icon_state = "darkrusty"
 	},
 /area/f13/ncr)
 "tzi" = (
 /obj/structure/table/reinforced,
-/obj/item/pen/fountain{
-	pixel_x = 8
-	},
-/obj/item/pen/fountain{
-	pixel_x = 4
-	},
-/obj/item/pen/fountain,
-/obj/item/pen/fountain{
-	pixel_x = -4
-	},
-/obj/item/pen/fountain{
-	pixel_x = -8
-	},
+/obj/item/folder/yellow,
+/obj/item/folder/yellow,
 /turf/open/floor/f13{
 	icon_state = "darkrusty"
 	},
@@ -17108,13 +17116,13 @@
 /obj/item/clothing/shoes/f13/military/ncr_officer_boots{
 	name = "dress boots"
 	},
-/obj/item/clothing/head/beret/ncr_codresscap,
-/obj/item/clothing/head/beret/ncr_codresscap,
-/obj/item/clothing/head/beret/ncr_codresscap,
-/obj/item/clothing/head/beret/ncr_codresscap,
-/obj/item/clothing/head/beret/ncr_codresscap,
-/obj/item/clothing/head/beret/ncr_codresscap,
-/obj/item/clothing/head/beret/ncr_codresscap,
+/obj/item/clothing/head/f13/ncr/ncr_sidecap/officer,
+/obj/item/clothing/head/f13/ncr/ncr_sidecap/officer,
+/obj/item/clothing/head/f13/ncr/ncr_sidecap/officer,
+/obj/item/clothing/head/f13/ncr/ncr_sidecap/officer,
+/obj/item/clothing/head/f13/ncr/ncr_sidecap/officer,
+/obj/item/clothing/head/f13/ncr/ncr_sidecap/officer,
+/obj/item/clothing/head/f13/ncr/ncr_sidecap/officer,
 /turf/open/floor/f13/wood,
 /area/f13/ncr)
 "vBO" = (
@@ -21878,13 +21886,13 @@ rWM
 rWM
 qtT
 cNj
+pXO
 rwf
-rKE
-rwf
+nXS
 sSt
 txg
 rwf
-nAV
+rKE
 cNj
 rDk
 rDk
@@ -22649,11 +22657,11 @@ qtT
 rWM
 rwf
 cNj
-rxf
+rwk
 rKJ
 shc
-sSP
-tzg
+shx
+shx
 rKJ
 rwf
 cNj
@@ -22908,11 +22916,11 @@ rwf
 cNj
 ryy
 rKJ
-shx
+tzg
 sUs
 tzi
 yjq
-rwf
+oIK
 cNj
 rDk
 uoO
@@ -23163,11 +23171,11 @@ qtT
 rWM
 rwf
 cNj
-ryL
+rwk
 rKJ
-nXS
+shc
 shx
-ewg
+shx
 rKJ
 rwf
 cNj
@@ -23420,7 +23428,7 @@ qta
 rWM
 gHE
 cNj
-nAV
+rwk
 rKJ
 gzN
 gzN
@@ -23934,13 +23942,13 @@ rwf
 rWM
 qGq
 cNj
+pXO
+rwf
+nAV
+sWp
+sSP
 rwf
 rKE
-rwf
-sWp
-rwf
-rwf
-rwf
 cNj
 rDk
 uoO
@@ -24452,7 +24460,7 @@ ksi
 iOg
 fXF
 cNj
-pXO
+cNj
 rDk
 rDk
 rDk
@@ -24709,8 +24717,8 @@ xgj
 tnf
 tnf
 vBw
-pXO
-uoO
+cNj
+rDk
 uoO
 uoO
 uoO
@@ -24966,8 +24974,8 @@ tnf
 tnf
 xgj
 pUu
-pXO
-uoO
+cNj
+rDk
 uoO
 uoO
 uoO
@@ -25223,8 +25231,8 @@ tnf
 tnf
 xgj
 gTt
-pXO
-uoO
+cNj
+rDk
 uoO
 uoO
 uoO
@@ -25480,8 +25488,8 @@ ksi
 gCJ
 fXF
 cNj
-pXO
-uoO
+cNj
+rDk
 uoO
 uoO
 uoO
@@ -28298,7 +28306,7 @@ rDk
 rDk
 cNj
 xkX
-vrv
+ewg
 xSD
 vrv
 qtW

@@ -295,7 +295,7 @@
 						)
 
 /datum/gear/head/ncr_cap
-	name = "NCR garrison cap"
+	name = "NCR field cap"
 	path = /obj/item/clothing/head/f13/ncr/ncr_cap
 	subcategory = LOADOUT_SUBCATEGORY_HEAD_FACTIONS
 	restricted_desc = "NCR"
@@ -395,27 +395,6 @@ datum/gear/head/steelpot_bandolier
 /datum/gear/head/ncr_slouch
 	name = "NCR slouch hat"
 	path = /obj/item/clothing/head/f13/ncr/ncr_slouch
-	subcategory = LOADOUT_SUBCATEGORY_HEAD_FACTIONS
-	cost = 2
-	restricted_desc = "NCR"
-	restricted_roles = list("NCR Captain",
-							"NCR Lieutenant",
-							"NCR Medical Officer",
-							"NCR Sergeant First Class",
-							"NCR Lieutenant",
-							"NCR Heavy Trooper",
-							"NCR Sergeant",
-							"NCR Corporal",
-							"NCR Combat Engineer",
-							"NCR Combat Medic",
-							"NCR Trooper",
-							"NCR Rear Echelon",
-							"NCR Off-Duty"
-						)
-
-/datum/gear/head/ncr_flapcap
-	name = "NCR field cap"
-	path = /obj/item/clothing/head/f13/ncr/ncr_flapcap
 	subcategory = LOADOUT_SUBCATEGORY_HEAD_FACTIONS
 	cost = 2
 	restricted_desc = "NCR"
