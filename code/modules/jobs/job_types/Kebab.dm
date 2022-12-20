@@ -416,7 +416,7 @@ Mayor
 
 /*--------------------------------------------------------------*/
 /datum/job/oasis/f13deputy
-	title = "Merchants Guard"
+	title = "Hired Gun"
 	flag = F13POLICEMAN
 	department_flag = DEP_OASIS
 	total_positions = 2
@@ -478,8 +478,8 @@ Mayor
 	title = "Indentured Servant"
 	flag = F13PROSPECTOR
 	department_flag = DEP_OASIS
-	total_positions = 4
-	spawn_positions = 4
+	total_positions = 0
+	spawn_positions = 0
 	supervisors = "the Merchant"
 	description = "You are the property of the merchant, but comparatively you are quite well off compared to those in the hands of the Legion, raiders, and those who dwell across the street. You may work in the house or be a hard laborer working in the mines or salvaging cars. Work hard enough and one day you may gain your freedom."
 	selection_color = "#dcba97"
@@ -818,13 +818,13 @@ Mayor
 		)
 */
 /*--------------------------------------------------------------*/
-
+/*
 /datum/job/oasis/f13barkeep
 	title = "Barkeep"
 	flag = F13BARKEEP
 	department_flag = DEP_OASIS
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 0
+	spawn_positions = 0
 	supervisors = "Den boss"
 	description = "You are an employee of the Den in charge of managing the Kebab Casino . Under the protection of your benefactors you are free to do mostly as you please but are expected to pay up to the boss."
 	selection_color = "#dcba97"
@@ -902,142 +902,7 @@ Mayor
 	neck = /obj/item/clothing/neck/apron/chef
 	gloves = /obj/item/clothing/gloves/color/white
 	shoes = /obj/item/clothing/shoes/f13/military/ncr
-
-/*--------------------------------------------------------------*/
-/datum/job/oasis/f13settler
-	title = "Citizen"
-	flag = F13SETTLER
-	department_flag = DEP_OASIS
-	total_positions = 0
-	spawn_positions = 0
-	supervisors = "Kebab Government & Police Department"
-	description = "You are a citizen living in the Town of Kebab - as the name suggests, it is a somewhat safe place amidst the chaos of the continent. Treat it as such, be sure to follow the laws of the land and do not associate with those who have a tendency not to, or you are likely to face exile. Remember that Kebab is your home, DO NOT act in a manner that would threaten it's safety or other citizens."
-	selection_color = "#dcba97"
-
-	outfit = /datum/outfit/job/den/f13settler
-
-	loadout_options = list(
-		/datum/outfit/loadout/provisioner,
-		/datum/outfit/loadout/groundskeeper,
-		/datum/outfit/loadout/artisan,
-		/datum/outfit/loadout/outdoorsman,
-		/datum/outfit/loadout/militia,
-		/datum/outfit/loadout/singer,
-	)
-	access = list(ACCESS_BAR)
-	minimal_access = list(ACCESS_BAR)
-	matchmaking_allowed = list(
-		/datum/matchmaking_pref/friend = list(
-			/datum/job/oasis,
-		),
-		/datum/matchmaking_pref/rival = list(
-			/datum/job/oasis,
-		),
-	)
-
-
-/datum/outfit/job/den/f13settler
-	name = "Citizen"
-	jobtype = /datum/job/oasis/f13settler
-	ears = /obj/item/radio/headset/headset_town
-	belt = null
-	id = /obj/item/card/id/dogtag/town
-	ears = /obj/item/radio/headset/headset_town
-	uniform = /obj/item/clothing/under/f13/settler
-	shoes = /obj/item/clothing/shoes/jackboots
-	backpack = /obj/item/storage/backpack/satchel/explorer
-	r_pocket = /obj/item/flashlight/flare
-	r_hand = /obj/item/book/granter/trait/selection
-	backpack_contents = list(
-		/obj/item/storage/bag/money/small/settler = 1,
-		/obj/item/melee/onehanded/knife/hunting = 1,
-		)
-
-/datum/outfit/loadout/provisioner
-	name = "Provisioner"
-	neck = /obj/item/clothing/neck/scarf/cptpatriot
-	suit = /obj/item/clothing/suit/jacket/miljacket
-	neck = /obj/item/clothing/ears/headphones
-	uniform = /obj/item/clothing/under/f13/merca
-	gloves = /obj/item/clothing/gloves/f13/leather
-	shoes = /obj/item/clothing/shoes/f13/explorer
-	backpack_contents = list(/obj/item/reagent_containers/food/drinks/flask = 1,
-	/obj/item/gun/ballistic/automatic/pistol/n99 = 1,
-	/obj/item/ammo_box/magazine/m10mm_adv/simple = 1,
-	)
-
-/datum/outfit/loadout/groundskeeper
-	name = "Groundskeeper"
-	head = /obj/item/clothing/head/soft/grey
-	belt = /obj/item/storage/belt
-	suit = /obj/item/clothing/under/f13/mechanic
-	gloves = /obj/item/clothing/gloves/color/yellow
-	backpack_contents = list(/obj/item/storage/bag/trash = 1, /obj/item/reagent_containers/spray/cleaner = 1,
-	/obj/item/gun/ballistic/revolver/hobo/piperifle = 1,
-	/obj/item/ammo_box/a556/stripper = 2,
-
-	)
-
-/datum/outfit/loadout/artisan
-	name = "Artisan"
-	glasses = /obj/item/clothing/glasses/welding
-	suit = /obj/item/clothing/under/f13/petrochico
-	belt = /obj/item/storage/belt/utility
-	gloves = /obj/item/clothing/gloves/f13/blacksmith
-	backpack_contents = list(/obj/item/twohanded/sledgehammer/simple = 1,
-	/obj/item/stack/sheet/metal/twenty = 1,
-	/obj/item/book/granter/crafting_recipe/ODF = 1,
-	)
-
-/datum/outfit/loadout/outdoorsman
-	name = "Outdoorsman"
-	head = /obj/item/clothing/head/f13/beaver
-	suit = /obj/item/clothing/suit/f13/cowboybvest
-	belt = /obj/item/storage/belt/bandolier
-	uniform = /obj/item/clothing/under/f13/bartenderalt
-	shoes = /obj/item/clothing/shoes/f13/fancy
-	backpack_contents = list(/obj/item/fishingrod = 1,
-	/obj/item/storage/fancy/cigarettes/cigars = 1,
-	/obj/item/gun/ballistic/revolver/widowmaker = 1,
-	/obj/item/ammo_box/shotgun/buck = 2,
-	)
-
-/datum/outfit/loadout/militia
-	name = "Militia"
-	head = /obj/item/clothing/head/helmet/armyhelmet
-	suit = /obj/item/clothing/suit/armor/f13/metalarmor/steelbib
-	uniform = /obj/item/clothing/under/f13/mercc
-	r_hand = /obj/item/gun/ballistic/rifle/hunting
-	gloves = /obj/item/clothing/gloves/f13/leather
-	backpack_contents = list(/obj/item/ammo_box/a308 = 2,
-	)
-/*
-/datum/outfit/loadout/secretary
-	name = "Secretary"
-	uniform = /obj/item/clothing/under/suit/black
-	glasses = /obj/item/clothing/glasses/regular/hipster
-	shoes = /obj/item/clothing/shoes/laceup
-	r_hand = /obj/item/storage/briefcase
-	backpack_contents = list(/obj/item/pen = 1,
-	/obj/item/clipboard = 1,
-	/obj/item/paper_bin/bundlenatural = 1,
-	/obj/item/clothing/under/suit/black/skirt = 1,
-	/obj/item/gun/ballistic/automatic/pistol/pistol22 = 1,
-	/obj/item/ammo_box/magazine/m22 = 2,
-	)
-	///we should find something to do with this
 */
-/datum/outfit/loadout/singer
-	name = "Singer"
-	shoes = /obj/item/clothing/shoes/laceup
-	backpack_contents = list(/obj/item/clothing/under/f13/classdress = 1,
-	/obj/item/clothing/under/suit/black_really = 1,
-	/obj/item/clothing/gloves/evening = 1,
-	/obj/item/clothing/gloves/color/white = 1,
-	/obj/item/gun/ballistic/revolver/police = 1,
-	/obj/item/ammo_box/a357 = 2,
-	)
-
 /*----------------------------------------------------------------
 --							Detective							--
 ----------------------------------------------------------------*/
@@ -1096,12 +961,14 @@ Mayor
 /datum/job/oasis/f13kebabhighpriest
 	title = "High Priest"
 	flag = F13KEBABHIGHPRIEST
+	head_announce = list("Security")
 	department_flag = DEP_OASIS
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the Holy Father"
+	req_admin_notify = 1
 	description = "You are the leader of the Church, at least for now. Your sworn duty is to expand and protect the faith, through any means necessary, in preparation for the day of retribution that is to come. You are the spiritual leader of the faith, and are expected to give sermons, advise members, and perform all major rituals. You are beholden to no one but the Father above, and the Servitors answer directly to you."
-	selection_color = "#9500C7"
+	selection_color = "#d580ff"
 	forbids = "Exposing the secrets of the Church, fraternizing with the NCR, treating patients for nothing in return, consuming alcohol, and using chems."
 	enforces = "Preaching the faith, following the faith's internal structure and rules."
 	exp_requirements = 0
@@ -1154,6 +1021,7 @@ Mayor
 	ADD_TRAIT(H, TRAIT_CHEMWHIZ, src)
 	ADD_TRAIT(H, TRAIT_MEDICALEXPERT, src)
 	ADD_TRAIT(H, TRAIT_SURGERY_MID, src)
+	ADD_TRAIT(H, TRAIT_MACHINE_SPIRITS, src)
 
 
 /*--------------------------------------------------------------*/
@@ -1166,7 +1034,7 @@ Mayor
 	spawn_positions = 1
 	supervisors = "the High Priest and the All Father"
 	description = "You are an inducted member of the Church’s inner circle, sworn to direct the medical arm of the faith. You are expected to be knowledgeable about all medical matters, and to put the interests of your faith above those of your patients. Your role is to direct the Acolytes and ensure they provide excellent care while staying true to Church dogma."
-	selection_color = "#9500C7"
+	selection_color = "#d580ff"
 	forbids = "Exposing the secrets of the Church, fraternizing with the NCR, treating patients for nothing in return, consuming alcohol, and using chems."
 	enforces = "Preaching the faith, following the faith's internal structure and rules."
 	exp_requirements = 0
@@ -1219,6 +1087,7 @@ Mayor
 	ADD_TRAIT(H, TRAIT_CHEMWHIZ, src)
 	ADD_TRAIT(H, TRAIT_MEDICALEXPERT, src)
 	ADD_TRAIT(H, TRAIT_SURGERY_HIGH, src)
+	ADD_TRAIT(H, TRAIT_MACHINE_SPIRITS, src)
 
 /*--------------------------------------------------------------*/
 
@@ -1230,7 +1099,7 @@ Mayor
 	spawn_positions = 1
 	supervisors = "the High Priest and the All Father"
 	description = "You are an inducted member of the Church’s inner circle, sworn to lead the faith’s military forces into battle. You know much of the secrets that dwell within the Faith’s inner sanctum, and you know what is at stake if they are discovered. You directly command the Church’s Proselytizers, and answer directly to the High Priest."
-	selection_color = "#9500C7"
+	selection_color = "#d580ff"
 	forbids = "Exposing the secrets of the Church, fraternizing with the NCR, treating patients for nothing in return, consuming alcohol, and using chems."
 	enforces = "Preaching the faith, following the faith's internal structure and rules."
 	exp_requirements = 0
@@ -1288,7 +1157,7 @@ Mayor
 	spawn_positions = 2
 	supervisors = "the High Priest and the All Father"
 	description = "You are the strong right arm of the Church. You answer directly to the Servitor Militant. Your role is to guard the Church, put pressure upon outsiders, drum up business with your bludgeon, and collect debts."
-	selection_color = "#CB2EFF"
+	selection_color = "#d580ff"
 	forbids = "Exposing the secrets of the Church, fraternizing with the NCR, treating patients for nothing in return, consuming alcohol, and using chems."
 	enforces = "Preaching the faith, following the faith's internal structure and rules."
 	exp_requirements = 0
@@ -1315,8 +1184,8 @@ Mayor
 	suit = /obj/item/clothing/suit/hooded/robes/cotc/proselytizer
 	suit_store = /obj/item/gun/energy/laser/wattz
 	ears = /obj/item/radio/headset/headset_church
-	backpack = /obj/item/storage/backpack/satchel/trekker
-	satchel = /obj/item/storage/backpack/satchel/trekker
+	backpack = /obj/item/storage/backpack/satchel/explorer
+	satchel = /obj/item/storage/backpack/satchel/explorer
 	duffelbag = /obj/item/storage/backpack/duffelbag
 	gloves = null
 	l_pocket = null
@@ -1340,7 +1209,7 @@ Mayor
 	spawn_positions = 2
 	supervisors = "the Servitor Medici and the All Father"
 	description = "You are a trained healer and a sworn member of the Church. You follow all orders given to you by the Servitor Medici and the High Priest. The faith does not give medical services freely, those who are unable to pay will be held in the Church until their medical fees are paid, or they agree to join the faith."
-	selection_color = "#CB2EFF"
+	selection_color = "#d580ff"
 	forbids = "Exposing the secrets of the Church, fraternizing with the NCR, treating patients for nothing in return, consuming alcohol, and using chems."
 	enforces = "Preaching the faith, following the faith's internal structure and rules."
 	exp_requirements = 0
@@ -1392,6 +1261,7 @@ Mayor
 	ADD_TRAIT(H, TRAIT_CHEMWHIZ, src)
 	ADD_TRAIT(H, TRAIT_MEDICALEXPERT, src)
 	ADD_TRAIT(H, TRAIT_SURGERY_MID, src)
+	ADD_TRAIT(H, TRAIT_MACHINE_SPIRITS, src)
 
 /*--------------------------------------------------------------*/
 
@@ -1403,7 +1273,7 @@ Mayor
 	spawn_positions = 4
 	supervisors = "Servitors and up"
 	description = "By some means or another you have become indebted to the Church. There was none to pay your debt, so all that was left was to give your body and mind to the Church. Attend to menial duties such as cleaning, farming, and cooking."
-	selection_color = "#CB2EFF"
+	selection_color = "#d580ff"
 	forbids = "Exposing the secrets of the Church, fraternizing with the NCR, treating patients for nothing in return, consuming alcohol, and using chems."
 	enforces = "Preaching the faith, following the faith's internal structure and rules."
 
@@ -1449,3 +1319,344 @@ Mayor
 
 /*--------------------------------------------------------------*/
 
+/datum/job/oasis/f13pitmaster
+	title = "Pitmaster"
+	flag = F13PITMASTER
+	faction = FACTION_WASTELAND
+	social_faction = FACTION_RAIDERS
+	total_positions = 1
+	spawn_positions = 1
+	description = "A veteran of the Pit-Rats, you have long outlived your rivals to the position by promising those below you with booze and entertainment, many years were spent achieving this role of honour. You are the head honcho of the Pit-Rats, you own the pit and the rats, organize fights and the capturing of slaves, take bets, and ensure your rats are topped up with booze, we wouldn't want one getting too antsy and thinking they can take your position."
+	supervisors = "no one."
+	req_admin_notify = 1
+	selection_color = "#ff8080"
+	exp_requirements = 0
+	exp_type = EXP_TYPE_WASTELAND
+	forbids = "Cowardice, soberiety, and fruit juice."
+	enforces = "Loyalty to the Pitmaster, alcoholism, violence, and challenging a fellow Pit-Rat to a duel to the death for their rank in the pit when dissatisfied with their performance."
+
+	outfit = /datum/outfit/job/oasis/f13pitmaster
+
+	access = list(ACCESS_DEN)
+	minimal_access = list(ACCESS_DEN)
+
+/datum/outfit/job/oasis/f13pitmaster
+	name = "Pitmaster"
+	jobtype = /datum/job/oasis/f13pitmaster
+
+	id = /obj/item/card/id/denid
+	belt = /obj/item/storage/belt/military/assault
+	shoes = /obj/item/clothing/shoes/jackboots
+	ears = /obj/item/radio/headset/headset_pitrats
+	l_pocket = /obj/item/melee/onehanded/knife/switchblade
+	r_pocket = /obj/item/flashlight/seclite
+	uniform = /obj/item/clothing/under/jabroni
+	backpack =	/obj/item/storage/backpack/satchel
+	satchel =  /obj/item/storage/backpack/satchel
+	gloves =  null
+	head = /obj/item/clothing/head/helmet/f13/metalmask
+	suit = /obj/item/clothing/suit/armor/f13/metalarmor
+	backpack_contents = list(
+		/obj/item/restraints/handcuffs = 1,
+		/obj/item/storage/bag/money/small/wastelander = 1
+		)
+
+/datum/outfit/job/oasis/f13pitmaster/pre_equip(mob/living/carbon/human/H)
+	. = ..()
+
+	r_hand = pick(
+		/obj/item/storage/box/gunbox/pitrats/pitmaster/set1,	//powerfist
+		/obj/item/storage/box/gunbox/pitrats/pitmaster/set2,	//ripper, 357 magnum
+		/obj/item/storage/box/gunbox/pitrats/pitmaster/set3)	//katana
+
+/*--------------------------------------------------------------*/
+
+/datum/job/oasis/f13champion
+	title = "Champion"
+	flag = F13CHAMPION
+	faction = FACTION_WASTELAND
+	social_faction = FACTION_RAIDERS
+	total_positions = 1
+	spawn_positions = 1
+	description = "A grizzled veteran of the Pit, you are the strongest and one of the moral loyal pitrats, having sworn an oath to the pitmaster. You are to fight in the pit, maintain the pitmaster's authority, and dispose of anyone who displeases him."
+	supervisors = "the Pitmaster."
+	selection_color = "#ff8080"
+	exp_requirements = 0
+	exp_type = EXP_TYPE_WASTELAND
+	forbids = "Cowardice, soberiety, and fruit juice."
+	enforces = "Loyalty to the Pitmaster, alcoholism, violence, and challenging a fellow Pit-Rat to a duel to the death for their rank in the pit when dissatisfied with their performance."
+
+	outfit = /datum/outfit/job/oasis/f13champion
+
+	access = list(ACCESS_DEN)
+	minimal_access = list(ACCESS_DEN)
+
+/datum/outfit/job/oasis/f13champion
+	name = "Champion"
+	jobtype = /datum/job/oasis/f13champion
+
+	id = /obj/item/card/id/denid
+	belt = null
+	shoes = /obj/item/clothing/shoes/f13/military/plated
+	ears = /obj/item/radio/headset/headset_pitrats
+	l_pocket = /obj/item/melee/onehanded/knife/switchblade
+	r_pocket = /obj/item/flashlight/seclite
+	uniform = /obj/item/clothing/under/jabroni
+	suit = /obj/item/clothing/suit/armor/f13/pitrat/champ
+	backpack =	/obj/item/storage/backpack/satchel
+	satchel =  /obj/item/storage/backpack/satchel
+	gloves =  /obj/item/clothing/gloves/legion/plated
+	head = /obj/item/clothing/head/f13/pitrat/champ
+	mask =  null
+	backpack_contents = list(
+		/obj/item/restraints/handcuffs = 1,
+		/obj/item/storage/bag/money/small/wastelander = 1
+		)
+/datum/outfit/job/oasis/f13champion/pre_equip(mob/living/carbon/human/H)
+	. = ..()
+
+	r_hand = pick(
+		/obj/item/storage/box/gunbox/pitrats/champion/set1,	//cqc
+		/obj/item/storage/box/gunbox/pitrats/champion/set2,	//bumper sword
+		/obj/item/storage/box/gunbox/pitrats/champion/set3,	//super sledge
+		/obj/item/storage/box/gunbox/pitrats/champion/set4,	//chainsaw
+		/obj/item/storage/box/gunbox/pitrats/champion/set5)	//protonaxe
+
+/*--------------------------------------------------------------*/
+
+
+/datum/job/oasis/f13bookie
+	title = "Bookie"
+	flag = F13BOOKIE
+	faction = FACTION_WASTELAND
+	social_faction = FACTION_RAIDERS
+	total_positions = 0
+	spawn_positions = 0
+	description = "Left unable to fight in the ring by some prior event, the Pit Rats have relegated you to the status of bookie. You are responsible for determining odds on fights, making advertisement posters, taking bets, lending money, selling tickets, and watching the front doors. While your days in the ring are over, your shrewd accounting of the Pit Rat finances are what allows the gang to flourish, and your tight-fisted behavior with loans has allowed the gang to open a profitable loan shark side buisness."
+	supervisors = "the Pitmaster."
+	selection_color = "#ff8080"
+	exp_requirements = 0
+	exp_type = EXP_TYPE_WASTELAND
+	forbids = "Cowardice, soberiety, and fruit juice."
+	enforces = "Loyalty to the Pitmaster, alcoholism, violence, and challenging a fellow Pit-Rat to a duel to the death for their rank in the pit when dissatisfied with their performance."
+
+	outfit = /datum/outfit/job/oasis/f13bookie
+
+	access = list(ACCESS_DEN)
+	minimal_access = list(ACCESS_DEN)
+
+/datum/outfit/job/oasis/f13bookie
+	name = "Bookie"
+	jobtype = /datum/job/oasis/f13bookie
+
+	id = /obj/item/card/id/denid
+	belt = null
+	shoes = /obj/item/clothing/shoes/jackboots
+	ears = /obj/item/radio/headset/headset_pitrats
+	l_pocket = /obj/item/melee/onehanded/knife/switchblade
+	r_pocket = /obj/item/flashlight/seclite
+	uniform = /obj/item/clothing/under/jabroni
+	suit = /obj/item/clothing/suit/armor/bulletproof
+	backpack =	/obj/item/storage/backpack/satchel/explorer
+	satchel =  /obj/item/storage/backpack/satchel/explorer
+	gloves =  null
+	head = null
+	mask =  null
+	glasses = /obj/item/clothing/glasses/legiongoggles
+	backpack_contents = list(
+	/obj/item/pen = 1,
+	/obj/item/clipboard = 1,
+	/obj/item/paper_bin/bundlenatural = 1,
+	/obj/item/gun/ballistic/automatic/pistol/pistol22 = 1,
+	/obj/item/ammo_box/magazine/m22 = 2)
+
+/*--------------------------------------------------------------*/
+
+/datum/job/oasis/f13grogmaster
+	title = "Grogmaster"
+	flag = F13GROGMASTER
+	faction = FACTION_WASTELAND
+	social_faction = FACTION_RAIDERS
+	total_positions = 1
+	spawn_positions = 1
+	description = "A peddler of alcohol in the pit, while not being in a fighting man's occupation you are nevertheless in an honored position for your alleged skill at serving drinks and keeping down druken brawls. Your main tasks include serving drinks, preparing food, and cleaning up any messes your questionable patrons left."
+	supervisors = "the Pitmaster."
+	selection_color = "#ff8080"
+	exp_requirements = 0
+	exp_type = EXP_TYPE_WASTELAND
+	forbids = "Cowardice, soberiety, and fruit juice."
+	enforces = "Loyalty to the Pitmaster, alcoholism, violence, and challenging a fellow Pit-Rat to a duel to the death for their rank in the pit when dissatisfied with their performance."
+
+	outfit = /datum/outfit/job/oasis/grogmaster
+
+	access = list(ACCESS_DEN)
+	minimal_access = list(ACCESS_DEN)
+
+/datum/outfit/job/oasis/grogmaster
+	name = "Grogmaster"
+	jobtype = /datum/job/oasis/f13grogmaster
+
+	id = /obj/item/card/id/denid
+	belt = null
+	shoes = /obj/item/clothing/shoes/jackboots
+	ears = /obj/item/radio/headset/headset_pitrats
+	l_pocket = /obj/item/melee/classic_baton/telescopic
+	r_pocket = /obj/item/flashlight/seclite
+	uniform = /obj/item/clothing/under/jabroni
+	suit = null
+	backpack =	/obj/item/storage/backpack/satchel/explorer
+	satchel =  /obj/item/storage/backpack/satchel/explorer
+	gloves =  null
+	head = null
+	mask =  null
+	backpack_contents = list(
+		/obj/item/book/manual/nuka_recipes = 1,
+		/obj/item/storage/bag/money/small/wastelander = 1
+		)
+
+/*--------------------------------------------------------------*/
+
+/datum/job/oasis/f13pitrat
+	title = "Pitrat"
+	flag = F13PITRAT
+	faction = FACTION_WASTELAND
+	social_faction = FACTION_RAIDERS
+	total_positions = 3
+	spawn_positions = 3
+	description = "Addict, criminal, or a plain psychopath, you somehow ended up joining the Pit-Rats. You are the Grunt of the gang, maybe your addicted to that divine ambrosia the Grogmaster cooks up, or maybe your just a sick son-of-a-bitch that wants to hurt people, whatever the case you are loyal to one thing and one thing only, the Pitmaster and the amount of grog he can provide you."
+	supervisors = "the Pitmaster."
+	selection_color = "#ff8080"
+	exp_requirements = 0
+	exp_type = EXP_TYPE_WASTELAND
+	forbids = "Cowardice, soberiety, and fruit juice."
+	enforces = "Loyalty to the Pitmaster, alcoholism, violence, and challenging a fellow Pit-Rat to a duel to the death for their rank in the pit when dissatisfied with their performance."
+
+	outfit = /datum/outfit/job/oasis/f13pitrat
+
+	access = list(ACCESS_DEN)
+	minimal_access = list(ACCESS_DEN)
+
+/datum/outfit/job/oasis/f13pitrat
+	name = "Pitrat"
+	jobtype = /datum/job/oasis/f13pitrat
+
+	id = /obj/item/card/id/denid
+	belt = null
+	ears = /obj/item/radio/headset/headset_pitrats
+	l_pocket = /obj/item/melee/onehanded/knife/switchblade
+	r_pocket = /obj/item/flashlight/seclite
+	uniform = /obj/item/clothing/under/jabroni
+	backpack =	/obj/item/storage/backpack/satchel
+	satchel =  /obj/item/storage/backpack/satchel
+	gloves =  /obj/item/clothing/gloves/f13/handwraps
+	mask =  null
+	backpack_contents = list(
+		/obj/item/restraints/handcuffs = 1,
+		/obj/item/storage/bag/money/small/raider = 1
+		)
+
+/datum/outfit/job/oasis/f13pitrat/pre_equip(mob/living/carbon/human/H)
+	. = ..()
+
+	shoes = pick(
+			/obj/item/clothing/shoes/jackboots,
+			/obj/item/clothing/shoes/f13/raidertreads,
+			/obj/item/clothing/shoes/f13/rag,
+			/obj/item/clothing/shoes/f13/explorer)
+
+	suit = pick(
+		/obj/item/clothing/suit/armor/f13/raider/supafly,
+		/obj/item/clothing/suit/armor/f13/raider/yankee,
+		/obj/item/clothing/suit/armor/f13/raider/blastmaster,
+		/obj/item/clothing/suit/armor/f13/raider/sadist,
+		/obj/item/clothing/suit/armor/f13/raider/badlands,
+		/obj/item/clothing/suit/armor/f13/raider/painspike)
+
+	head = pick(
+		/obj/item/clothing/head/f13/pitrat,
+		/obj/item/clothing/head/f13/pitrat2,
+		/obj/item/clothing/head/f13/pitrat3)
+
+	r_hand = pick(
+		/obj/item/storage/box/gunbox/pitrats/pitrat/set1,	//scrap sabre, buckler
+		/obj/item/storage/box/gunbox/pitrats/pitrat/set2,	//scrap sabre, autopipe
+		/obj/item/storage/box/gunbox/pitrats/pitrat/set3,	//scrap sabre, caravan shotgun
+		/obj/item/storage/box/gunbox/pitrats/pitrat/set4,	//sledgehammer
+		/obj/item/storage/box/gunbox/pitrats/pitrat/set5,	//fireaxe
+		/obj/item/storage/box/gunbox/pitrats/pitrat/set6,	//maceglove
+		/obj/item/storage/box/gunbox/pitrats/pitrat/set7)	//lacerator
+
+/*--------------------------------------------------------------*/
+/datum/job/oasis/f13settler
+	title = "Scab"
+	flag = F13SETTLER
+	department_flag = DEP_OASIS
+	total_positions = -1
+	spawn_positions = -1
+	supervisors = "no one."
+	description = "Welcome to Kebab, you're a deadbeat parasite infesting the slums of this shanty town. You have no inherent rights, the established locals look down upon you, and you've probably earned that."
+	selection_color = "#c3d5d5"
+
+	outfit = /datum/outfit/job/den/f13settler
+
+	access = list(ACCESS_BAR)
+	minimal_access = list(ACCESS_BAR)
+	matchmaking_allowed = list(
+		/datum/matchmaking_pref/friend = list(
+			/datum/job/oasis,
+		),
+		/datum/matchmaking_pref/rival = list(
+			/datum/job/oasis,
+		),
+	)
+
+
+/datum/outfit/job/den/f13settler
+	name = "Scab"
+	jobtype = /datum/job/oasis/f13settler
+	ears = null
+	belt = null
+	id = null
+	backpack = /obj/item/storage/backpack/satchel/explorer
+	r_pocket = /obj/item/flashlight/flare
+	backpack_contents = list(
+		/obj/item/storage/bag/money/small/raider = 1,
+		)
+/datum/outfit/job/den/f13settler/pre_equip(mob/living/carbon/human/H)
+	. = ..()
+	uniform = pick(
+		/obj/item/clothing/under/f13/merca,
+		/obj/item/clothing/under/f13/mercc,
+		/obj/item/clothing/under/f13/cowboyb,
+		/obj/item/clothing/under/f13/cowboyg,
+		/obj/item/clothing/under/f13/raider_leather,
+		/obj/item/clothing/under/f13/raiderrags,
+		/obj/item/clothing/under/f13/doctor,
+		/obj/item/clothing/under/f13/settler,
+		/obj/item/clothing/under/pants/f13/ghoul)
+
+	shoes = pick(
+		/obj/item/clothing/shoes/f13/rag,
+		/obj/item/clothing/shoes/f13/explorer,
+		/obj/item/clothing/shoes/f13/raidertreads)
+
+	mask = pick(
+		/obj/item/clothing/mask/facewrap,
+		/obj/item/clothing/mask/paper,
+		/obj/item/clothing/mask/rat,
+		/obj/item/clothing/mask/rat/raven,
+		/obj/item/clothing/mask/pig,
+		/obj/item/clothing/mask/rat/bear,
+		/obj/item/clothing/mask/rat/fox,
+		/obj/item/clothing/mask/gas/tiki_mask)
+
+	r_hand = pick(
+		/obj/item/gun/ballistic/revolver/hobo/knifegun,
+		/obj/item/gun/ballistic/revolver/hobo/pepperbox,
+		/obj/item/gun/ballistic/revolver/hobo/knucklegun,
+		/obj/item/gun/ballistic/automatic/hobo/zipgun,
+		/obj/item/kitchen/knife/butcher,
+		/obj/item/reagent_containers/pill/patch/jet,
+		/obj/item/reagent_containers/pill/patch/turbo,
+		/obj/item/reagent_containers/hypospray/medipen/psycho,
+		/obj/item/reagent_containers/hypospray/medipen/medx)

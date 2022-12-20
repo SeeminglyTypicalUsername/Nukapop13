@@ -4802,6 +4802,15 @@
 	icon_state = "yellowdirtyfull"
 	},
 /area/f13/clinic)
+"eQw" = (
+/obj/structure/rack/shelf_metal,
+/obj/item/restraints/legcuffs/bola/tactical,
+/obj/item/restraints/legcuffs/bola/tactical,
+/turf/open/floor/f13{
+	color = "#818181";
+	icon_state = "floorrustysolid"
+	},
+/area/f13/den)
 "eQC" = (
 /obj/machinery/telecomms/server/presets/engineering,
 /turf/open/floor/plasteel/dark/telecomms/mainframe,
@@ -5628,6 +5637,15 @@
 /obj/structure/spider/stickyweb,
 /turf/open/floor/plating/tunnel,
 /area/f13/bunker)
+"fLc" = (
+/obj/structure/bed,
+/obj/effect/spawner/lootdrop/bedsheet,
+/obj/effect/landmark/start/f13/pitrats/grogmaster,
+/turf/open/floor/f13{
+	color = "#818181";
+	icon_state = "floorrustysolid"
+	},
+/area/f13/den)
 "fLl" = (
 /obj/machinery/light{
 	dir = 4
@@ -7537,6 +7555,14 @@
 /obj/machinery/light,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
+"hXk" = (
+/obj/structure/rack/shelf_metal,
+/obj/item/storage/box/handcuffs,
+/turf/open/floor/f13{
+	color = "#818181";
+	icon_state = "floorrustysolid"
+	},
+/area/f13/den)
 "hXt" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/armor/random,
@@ -7552,6 +7578,13 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/bunker)
+"hZw" = (
+/obj/structure/chair/wood/modern{
+	dir = 8
+	},
+/obj/effect/landmark/start/f13/pitrats/champion,
+/turf/open/floor/wood/f13/carpet,
+/area/f13/den)
 "hZW" = (
 /obj/structure/wreck/trash/two_barrels,
 /turf/open/indestructible/ground/inside/mountain,
@@ -11244,6 +11277,15 @@
 	name = "cave"
 	},
 /area/f13/caves)
+"nfP" = (
+/obj/structure/bed,
+/obj/effect/spawner/lootdrop/bedsheet,
+/obj/effect/landmark/start/f13/pitrats/pitrat,
+/turf/open/floor/f13{
+	color = "#818181";
+	icon_state = "floorrustysolid"
+	},
+/area/f13/den)
 "nfW" = (
 /obj/machinery/computer/message_monitor{
 	dir = 4
@@ -16910,6 +16952,15 @@
 /obj/structure/table/wood/fancy/royalblack,
 /turf/open/floor/wood/wood_tiled,
 /area/f13/ncr)
+"vrS" = (
+/obj/structure/rack/shelf_metal,
+/obj/item/restraints/legcuffs/bola,
+/obj/item/restraints/legcuffs/bola,
+/turf/open/floor/f13{
+	color = "#818181";
+	icon_state = "floorrustysolid"
+	},
+/area/f13/den)
 "vsJ" = (
 /obj/item/reagent_containers/hypospray/medipen/stimpak,
 /turf/open/floor/f13{
@@ -17438,6 +17489,7 @@
 /obj/structure/chair/wood/modern{
 	dir = 8
 	},
+/obj/effect/landmark/start/f13/pitrats/pitmaster,
 /turf/open/floor/wood/f13/carpet,
 /area/f13/den)
 "wsu" = (
@@ -17530,6 +17582,13 @@
 /obj/item/stack/sheet/mineral/uranium,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
+"wxU" = (
+/obj/structure/chair/wood/modern{
+	dir = 8
+	},
+/obj/effect/landmark/start/f13/pitrats/bookie,
+/turf/open/floor/wood/f13/carpet,
+/area/f13/den)
 "wyY" = (
 /obj/structure/debris/v3{
 	layer = 2
@@ -56342,7 +56401,7 @@ uoO
 uoO
 uoO
 kUN
-wss
+wxU
 fdI
 cQW
 kUN
@@ -57370,7 +57429,7 @@ uoO
 uoO
 uoO
 kUN
-wss
+hZw
 fdI
 cQW
 kUN
@@ -58143,7 +58202,7 @@ uoO
 kUN
 cGg
 aou
-dlh
+nfP
 kUN
 kUN
 fGW
@@ -58398,7 +58457,7 @@ uoO
 uoO
 uoO
 kUN
-dlh
+nfP
 aou
 cGg
 kUN
@@ -58657,12 +58716,12 @@ uoO
 kUN
 cGg
 aou
-dlh
+nfP
 kUN
 dTK
 aou
 aou
-cMf
+eQw
 cMf
 cMf
 kUN
@@ -58912,7 +58971,7 @@ uoO
 uoO
 uoO
 kUN
-dlh
+fLc
 aou
 cGg
 kUN
@@ -59176,8 +59235,8 @@ kUN
 kPc
 aou
 kaj
-cMf
-cMf
+vrS
+hXk
 cMf
 kUN
 uoO

@@ -759,7 +759,7 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	icon_state = "Chief of Police"
 
 /obj/effect/landmark/start/f13/deputy
-	name = "Merchants Guard"
+	name = "Hired Gun"
 	icon_state = "Officer"
 
 /obj/effect/landmark/start/f13/farmer
@@ -769,7 +769,7 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	name = "Indentured Servant"
 
 /obj/effect/landmark/start/f13/settler
-	name = "Citizen"
+	name = "Scab"
 	icon_state = "Settler"
 
 /obj/effect/landmark/start/f13/towndoctor
@@ -1126,6 +1126,27 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	name = "Neophyte"
 	icon_state = "Neophyte"
 
+//pitrats
+
+/obj/effect/landmark/start/f13/pitrats/pitmaster
+	name = "Pitmaster"
+	icon_state = "Raider"
+
+/obj/effect/landmark/start/f13/pitrats/champion
+	name = "Champion"
+	icon_state = "Raider"
+
+/obj/effect/landmark/start/f13/pitrats/bookie
+	name = "Bookie"
+	icon_state = "Raider"
+
+/obj/effect/landmark/start/f13/pitrats/grogmaster
+	name = "Grogmaster"
+	icon_state = "Raider"
+
+/obj/effect/landmark/start/f13/pitrats/pitrat
+	name = "Pitrat"
+	icon_state = "Raider"
 
 
 //Undertown

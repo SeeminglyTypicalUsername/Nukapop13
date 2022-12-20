@@ -1158,3 +1158,15 @@
 	item_state = "grey_trench_coat"
 	armor = list("melee" = 25, "bullet" = 25, "laser" = 25, "bio" = 0, "rad" = 0, "fire" = 25, "acid" = 25) //up to change
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/bulletbelt
+
+///////////
+//pitrats//
+///////////
+
+
+/obj/item/clothing/suit/armor/f13/pitrat/champ
+	name = "champion armor"
+	desc = "The metal used to create this helmet seems remarkably better than what was used for the rest. This armor is traditionally worn by the pitrat champion; considered to be the strongest of the pitrats."
+	icon_state = "pitchamp"
+	item_state = "pitchamp"
+	armor = list("melee" = 40, "bullet" = 30, "laser" = 20, "energy" = 20, "bomb" = 40, "bio" = 30, "rad" = 20, "fire" = 50, "acid" = 0, "wound" = 40)
