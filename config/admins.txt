@@ -9,10 +9,8 @@
 ###############################################################################################
 
 Corydon homninem = Game Admin
-O Tal Do Pug = Game Admin
-Thebrainmasta907 = Game Admin
+Gruesomeborg68915 = Game Admin
 Monke1818 = Game Admin
 TheDoctorFate = Game Admin
 Crimpf = Game Admin
-Siege_Of_Malta_Never_Happened = Game Admin
 Compano = Game Admin
