@@ -153,9 +153,8 @@ GLOBAL_LIST_INIT(brotherhood_positions, list(
 GLOBAL_LIST_INIT(oasis_positions, list(
 	"Merchant",
 	"Apprentice",
-	"Mercenary",
+	"Hired Gun",
 	"Indentured Servant",
-	"Citizen",
 	"Detective",
 	"Barkeep",
 	//"Town Doctor",
@@ -166,6 +165,12 @@ GLOBAL_LIST_INIT(oasis_positions, list(
 	"Proselytizer",
 	"Acolyte",
 	"Neophyte",
+	"Pitmaster",
+	"Champion",
+	"Bookie",
+	"Grogmaster",
+	"Pitrat",
+	"Scab",
 
 ))
 

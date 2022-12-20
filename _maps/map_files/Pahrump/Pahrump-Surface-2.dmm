@@ -8988,13 +8988,15 @@
 	},
 /area/f13/wasteland)
 "dWw" = (
-/obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 8
+/obj/machinery/button/door{
+	pixel_x = 28;
+	id = 151;
+	name = "exterior"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
-/area/f13/wasteland)
+/area/f13/cotc)
 "dWE" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -9052,14 +9054,17 @@
 	},
 /area/f13/wasteland)
 "dXH" = (
-/obj/machinery/door/unpowered/securedoor{
-	req_access_txt = "145";
-	name = "kitchen"
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4
 	},
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "farmshutt"
+/obj/machinery/button/door{
+	pixel_x = 28;
+	id = 345;
+	name = "interior"
 	},
-/turf/open/floor/wood/f13/oak,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/cotc)
 "dXV" = (
 /turf/open/floor/f13/wood{
@@ -9581,6 +9586,7 @@
 /obj/item/wirecutters,
 /obj/item/scalpel,
 /obj/structure/table/wood/settler,
+/obj/item/surgical_drapes,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
@@ -16123,15 +16129,13 @@
 	},
 /area/f13/wasteland)
 "gXt" = (
-/obj/machinery/button/door{
-	pixel_x = 28;
-	id = 151;
-	name = "exterior"
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 8
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
-/area/f13/cotc)
+/area/f13/wasteland)
 "gXK" = (
 /obj/effect/decal/cleanable/blood/gibs/down{
 	icon_state = "gibleg"
@@ -16489,19 +16493,19 @@
 	},
 /obj/item/paper/pamphlet{
 	name = "Let Faith Be Your Shield";
-	info = <p>LET FAITH BE YOUR SHIELD:<br />Are you disillusioned with life? Starving, destitute? Do you desire community, brotherhood, and a structured life? No matter your background, past, or social status, the Church will accept you into the fold, free of charge. If you are suffering from indebtedness, the Church will even pay off any debts lower than 500 caps when you join the clergy, and will forgive any medical debt you may owe to the Faith itself. Let the Father guide you into the path of Unity! Speak to a Servitor today.</span></p>
+	info = <p>LETFAITHBEYOURSHIELD:<br/>Areyoudisillusionedwithlife?Starving,destitute?Doyoudesirecommunity,brotherhood,andastructuredlife?Nomatteryourbackground,past,orsocialstatus,theChurchwillacceptyouintothefold,freeofcharge.Ifyouaresufferingfromindebtedness,theChurchwillevenpayoffanydebtslowerthan500capswhenyoujointheclergy,andwillforgiveanymedicaldebtyoumayowetotheFaithitself.LettheFatherguideyouintothepathofUnity!SpeaktoaServitortoday.</span></p>
 	},
 /obj/item/paper/pamphlet{
 	name = "Let Faith Be Your Shield";
-	info = <p>LET FAITH BE YOUR SHIELD:<br />Are you disillusioned with life? Starving, destitute? Do you desire community, brotherhood, and a structured life? No matter your background, past, or social status, the Church will accept you into the fold, free of charge. If you are suffering from indebtedness, the Church will even pay off any debts lower than 500 caps when you join the clergy, and will forgive any medical debt you may owe to the Faith itself. Let the Father guide you into the path of Unity! Speak to a Servitor today.</span></p>
+	info = <p>LETFAITHBEYOURSHIELD:<br/>Areyoudisillusionedwithlife?Starving,destitute?Doyoudesirecommunity,brotherhood,andastructuredlife?Nomatteryourbackground,past,orsocialstatus,theChurchwillacceptyouintothefold,freeofcharge.Ifyouaresufferingfromindebtedness,theChurchwillevenpayoffanydebtslowerthan500capswhenyoujointheclergy,andwillforgiveanymedicaldebtyoumayowetotheFaithitself.LettheFatherguideyouintothepathofUnity!SpeaktoaServitortoday.</span></p>
 	},
 /obj/item/paper/pamphlet{
 	name = "Let Faith Be Your Shield";
-	info = <p>LET FAITH BE YOUR SHIELD:<br />Are you disillusioned with life? Starving, destitute? Do you desire community, brotherhood, and a structured life? No matter your background, past, or social status, the Church will accept you into the fold, free of charge. If you are suffering from indebtedness, the Church will even pay off any debts lower than 500 caps when you join the clergy, and will forgive any medical debt you may owe to the Faith itself. Let the Father guide you into the path of Unity! Speak to a Servitor today.</span></p>
+	info = <p>LETFAITHBEYOURSHIELD:<br/>Areyoudisillusionedwithlife?Starving,destitute?Doyoudesirecommunity,brotherhood,andastructuredlife?Nomatteryourbackground,past,orsocialstatus,theChurchwillacceptyouintothefold,freeofcharge.Ifyouaresufferingfromindebtedness,theChurchwillevenpayoffanydebtslowerthan500capswhenyoujointheclergy,andwillforgiveanymedicaldebtyoumayowetotheFaithitself.LettheFatherguideyouintothepathofUnity!SpeaktoaServitortoday.</span></p>
 	},
 /obj/item/paper/pamphlet{
 	name = "Let Faith Be Your Shield";
-	info = <p>LET FAITH BE YOUR SHIELD:<br />Are you disillusioned with life? Starving, destitute? Do you desire community, brotherhood, and a structured life? No matter your background, past, or social status, the Church will accept you into the fold, free of charge. If you are suffering from indebtedness, the Church will even pay off any debts lower than 500 caps when you join the clergy, and will forgive any medical debt you may owe to the Faith itself. Let the Father guide you into the path of Unity! Speak to a Servitor today.</span></p>
+	info = <p>LETFAITHBEYOURSHIELD:<br/>Areyoudisillusionedwithlife?Starving,destitute?Doyoudesirecommunity,brotherhood,andastructuredlife?Nomatteryourbackground,past,orsocialstatus,theChurchwillacceptyouintothefold,freeofcharge.Ifyouaresufferingfromindebtedness,theChurchwillevenpayoffanydebtslowerthan500capswhenyoujointheclergy,andwillforgiveanymedicaldebtyoumayowetotheFaithitself.LettheFatherguideyouintothepathofUnity!SpeaktoaServitortoday.</span></p>
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
@@ -19858,10 +19862,11 @@
 /obj/item/retractor,
 /obj/item/hatchet,
 /obj/item/weldingtool,
-/obj/item/screwdriver,
 /obj/item/wirecutters,
 /obj/item/scalpel,
 /obj/structure/table,
+/obj/item/surgical_drapes,
+/obj/item/hemostat,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
@@ -26332,7 +26337,6 @@
 /obj/item/retractor,
 /obj/item/hatchet,
 /obj/item/weldingtool,
-/obj/item/screwdriver,
 /obj/item/wirecutters,
 /obj/item/scalpel,
 /obj/structure/table/wood/settler,
@@ -26340,6 +26344,8 @@
 	dir = 1;
 	pixel_y = 12
 	},
+/obj/item/surgical_drapes,
+/obj/item/hemostat,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
@@ -29388,10 +29394,14 @@
 /turf/closed/wall/f13/wood,
 /area/f13/legion)
 "mCm" = (
-/obj/structure/filingcabinet,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	name = "metal plating"
+/obj/machinery/door/unpowered/securedoor{
+	req_access_txt = "145";
+	name = "kitchen"
 	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "farmshutt"
+	},
+/turf/open/floor/wood/f13/oak,
 /area/f13/cotc)
 "mCs" = (
 /turf/open/floor/f13{
@@ -37552,6 +37562,87 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
+"qlN" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/white/box,
+/obj/structure/rack,
+/obj/item/clothing/accessory/armband/cargo{
+	pixel_x = 5;
+	pixel_y = -5;
+	name = "yellow armband"
+	},
+/obj/item/clothing/accessory/armband/cargo{
+	pixel_x = 5;
+	pixel_y = -5;
+	name = "yellow armband"
+	},
+/obj/item/clothing/accessory/armband/cargo{
+	pixel_x = 5;
+	pixel_y = -5;
+	name = "yellow armband"
+	},
+/obj/item/clothing/accessory/armband/cargo{
+	pixel_x = 5;
+	pixel_y = -5;
+	name = "yellow armband"
+	},
+/obj/item/clothing/accessory/armband/cargo{
+	pixel_x = 5;
+	pixel_y = -5;
+	name = "yellow armband"
+	},
+/obj/item/clothing/accessory/armband/cargo{
+	pixel_x = 5;
+	pixel_y = -5;
+	name = "yellow armband"
+	},
+/obj/item/clothing/accessory/armband/deputy{
+	name = "red armband";
+	pixel_x = -6;
+	pixel_y = -5
+	},
+/obj/item/clothing/accessory/armband/deputy{
+	name = "red armband";
+	pixel_x = -6;
+	pixel_y = -5
+	},
+/obj/item/clothing/accessory/armband/deputy{
+	name = "red armband";
+	pixel_x = -6;
+	pixel_y = -5
+	},
+/obj/item/clothing/accessory/armband/deputy{
+	name = "red armband";
+	pixel_x = -6;
+	pixel_y = -5
+	},
+/obj/item/clothing/accessory/armband/deputy{
+	name = "red armband";
+	pixel_x = -6;
+	pixel_y = -5
+	},
+/obj/item/clothing/accessory/armband/science{
+	name = "purple armband";
+	pixel_y = 3
+	},
+/obj/item/clothing/accessory/armband/science{
+	name = "purple armband";
+	pixel_y = 3
+	},
+/obj/item/clothing/accessory/armband/science{
+	name = "purple armband";
+	pixel_y = 3
+	},
+/obj/item/clothing/accessory/armband/science{
+	name = "purple armband";
+	pixel_y = 3
+	},
+/obj/item/clothing/accessory/armband/science{
+	name = "purple armband";
+	pixel_y = 3
+	},
+/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
+/area/f13/ncr)
 "qmc" = (
 /obj/machinery/light/small,
 /turf/open/floor/wood,
@@ -49489,14 +49580,7 @@
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "vAg" = (
-/obj/structure/destructible/tribal_torch/wall/lit{
-	dir = 4
-	},
-/obj/machinery/button/door{
-	pixel_x = 28;
-	id = 345;
-	name = "interior"
-	},
+/obj/structure/filingcabinet,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
@@ -66138,7 +66222,7 @@ ufN
 fum
 jQd
 jQd
-tvh
+qlN
 jkr
 tvh
 ufN
@@ -75761,7 +75845,7 @@ giZ
 giZ
 giZ
 giZ
-nIp
+giZ
 sIf
 ees
 gUh
@@ -90927,7 +91011,7 @@ mHj
 ydO
 mHj
 vPX
-mCm
+vAg
 ipm
 ipm
 gtz
@@ -91184,9 +91268,9 @@ ydO
 ydO
 vYN
 vPX
-mCm
-gXt
 vAg
+dWw
+dXH
 ipm
 ipm
 ipm
@@ -92216,7 +92300,7 @@ ydO
 ydO
 ydO
 ydO
-dWw
+gXt
 mvv
 vPX
 iSN
@@ -92989,7 +93073,7 @@ ydO
 ydO
 ydO
 mHj
-dXH
+mCm
 age
 fCA
 mvv

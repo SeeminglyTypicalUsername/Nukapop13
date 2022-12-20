@@ -12,11 +12,11 @@
 	department_head = list("Captain")
 	head_announce = list("Security")
 	faction = FACTION_WASTELAND
-	total_positions = 7
-	spawn_positions = 6
+	total_positions = 0
+	spawn_positions = 0
 	description =  "You are a Viper, a raider cult hailing from Vault 15. Your people were almost annihilated at the hands of the Brotherhood of Steel.  Despite its existence hanging from a thread; the Vipers persisted. You worship the Great Snake, preform your duties to it and venerate it.  As a gang you are also concerned with pillaging the surrounding area, setting up tolls, kidnapping and ransoming. If they can't pay, then they should be fed to the snakes; they do hunger as well."
 	supervisors = "the serpent priest"
-	selection_color = "#ff915e"
+	selection_color = "#80ff80"
 	exp_type = EXP_TYPE_FALLOUT
 	maptype = "yuma"
 
@@ -96,11 +96,11 @@
 	title = "Viper Serpent Priest"
 	flag = F13SERPENTPRIEST
 	faction = FACTION_WASTELAND
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	description =  "You are the spritual and military head of the vipers gang. While other bands of Vipers have lost their culture, you help to preserve the traditions of the Great Snakekeeper. All in the Viper tribe are subordinate to you, and your duties are to ensure the tribe prospers, and the old ways are kept."
 	supervisors = "the Great Snake"
-	selection_color = "#ff915e"
+	selection_color = "#80ff80"
 	exp_type = EXP_TYPE_FALLOUT
 	exp_requirements = 0
 	maptype = "yuma"
@@ -153,7 +153,7 @@ Raider
 	spawn_positions = -1
 	description = "You are an undesirable figure of some kind- perhaps a corrupt official, or a cannibalistic bartender, or a devious conman, to name a few examples. You have more freedom than anyone else in the wastes, and are not bound by the same moral code as others, but though you may only be interested in self-gain, you still have a responsibility to make your time here interesting, fun, and engaging for others- this means that whatever path you pursue should be more nuanced and flavorful than simple highway robbery or slavery. (Adminhelp if you require help setting up your character for the round.)"
 	supervisors = "Your desire to make things interesting and fun. Don't play this as wastelander+."
-	selection_color = "#ff4747"
+	selection_color = "#c3d5d5"
 	exp_requirements = 0
 	exp_type = EXP_TYPE_FALLOUT
 
@@ -277,7 +277,7 @@ Wastelander
 	spawn_positions = -1
 	description = "You arrive in Yuma Valley, hoping to escape your past, the war, or perhaps something worse. But you’ve seen the torchlight and heard the bark of the military officers. You haven’t escaped anything. Try to survive, establish your own settlement, make your own legend. Suffer well and die gladly."
 	supervisors = "yourself"
-	selection_color = "#dddddd"
+	selection_color = "#c3d5d5"
 
 	outfit = /datum/outfit/job/wasteland/f13wastelander
 
@@ -833,7 +833,7 @@ datum/job/wasteland/f13dendoctor
 	spawn_positions = -1
 	description = "You are a member of a tribe, far away from your homeland. Well, relatively far away. Whatever your reasons for coming here, you've found yourself pinned between the ongoing war of the NCR and Caesar's Legion. Try not to get shot."
 	supervisors = "the stars above"
-	selection_color = "#dddddd"
+	selection_color = "#c3d5d5"
 	maptype = "yuma"
 	mapexclude = list("tribal")
 

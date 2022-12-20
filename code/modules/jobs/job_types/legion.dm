@@ -825,8 +825,8 @@ commented out pending rework*/
 /datum/job/CaesarsLegion/Legionnaire/f13campfollower	// Extra materials, Blueprints
 	title = "Legion Forgemaster"
 	flag = F13CAMPFOLLOWER
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 0
+	spawn_positions = 0
 	description = "The Forgemaster makes weapons of all sorts and upgrades them, keeping order in the Forge and makes sure the camp is defended."
 	supervisors = "the Centurion."
 	display_order = JOB_DISPLAY_ORDER_CAMPFOLLOWER

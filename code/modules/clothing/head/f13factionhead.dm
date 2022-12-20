@@ -1594,3 +1594,51 @@ obj/item/clothing/head/f13/army/beret
 	icon_state = "blueshift"
 	item_state = "blueshift"
 	armor = list("melee" = 25, "bullet" = 35, "laser" = 35, "energy" = 10, "bomb" = 60, "bio" = 30, "rad" = 30, "fire" = 30, "acid" = 30, "wound" = 15)
+
+///////////
+//pitrats//
+///////////
+
+/obj/item/clothing/head/f13/pitrat
+	name = "scrap helmet"
+	desc = "A helmet made of crude materials, commonly seen worn by the pitrat gang."
+	icon_state = "pitglad"
+	item_state = "pitglad"
+	armor = list("melee" = 30, "bullet" = 20, "laser" = 10, "energy" = 10, "bomb" = 10, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 20)
+	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
+	flags_inv = HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
+	dynamic_hair_suffix = ""
+	dynamic_fhair_suffix = ""
+
+/obj/item/clothing/head/f13/pitrat2
+	name = "scrap helmet"
+	desc = "A helmet made of crude materials, commonly seen worn by the pitrat gang."
+	icon_state = "pitglad2"
+	item_state = "pitglad2"
+	armor = list("melee" = 30, "bullet" = 20, "laser" = 10, "energy" = 10, "bomb" = 10, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 20)
+	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
+	flags_inv = HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
+	dynamic_hair_suffix = ""
+	dynamic_fhair_suffix = ""
+
+/obj/item/clothing/head/f13/pitrat3
+	name = "scrap helmet"
+	desc = "A helmet made of crude materials, commonly seen worn by the pitrat gang."
+	icon_state = "pitglad3"
+	item_state = "pitglad3"
+	armor = list("melee" = 30, "bullet" = 20, "laser" = 10, "energy" = 10, "bomb" = 10, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 20)
+	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
+	flags_inv = HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
+	dynamic_hair_suffix = ""
+	dynamic_fhair_suffix = ""
+
+/obj/item/clothing/head/f13/pitrat/champ
+	name = "champion helmet"
+	desc = "The metal used to create this helmet seems remarkably better than what was used for the rest. This helmet is traditionally worn by the pitrat champion; considered to be the strongest of the pitrats."
+	icon_state = "pitchamp"
+	item_state = "pitchamp"
+	armor = list("melee" = 40, "bullet" = 30, "laser" = 20, "energy" = 20, "bomb" = 40, "bio" = 30, "rad" = 20, "fire" = 50, "acid" = 0, "wound" = 40)
+	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
+	flags_inv = HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
+	dynamic_hair_suffix = ""
+	dynamic_fhair_suffix = ""

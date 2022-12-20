@@ -1893,3 +1893,63 @@ list(/obj/item/stack/sheet/metal = 20,
 
 /obj/item/storage/box/gunbox/raider/set12/PopulateContents()//jet
 	new /obj/item/reagent_containers/pill/patch/jet(src)
+
+/////Pitrats/////
+
+//Pitmaster
+
+/obj/item/storage/box/gunbox/pitrats/pitmaster/set1/PopulateContents()//powerfist
+	new /obj/item/melee/powerfist/f13(src)
+
+/obj/item/storage/box/gunbox/pitrats/pitmaster/set2/PopulateContents()//ripper, 357 magnum
+	new /obj/item/melee/powered/ripper(src)
+	new /obj/item/gun/ballistic/revolver/colt357(src)
+	new /obj/item/ammo_box/a357(src)
+
+/obj/item/storage/box/gunbox/pitrats/pitmaster/set3/PopulateContents()//katana
+	new /obj/item/katana(src)
+
+//Champion
+
+/obj/item/storage/box/gunbox/pitrats/champion/set1/PopulateContents()//cqc
+	new /obj/item/book/granter/martial/cqc(src)
+
+/obj/item/storage/box/gunbox/pitrats/champion/set2/PopulateContents()//bumper sword
+	new /obj/item/twohanded/fireaxe/bmprsword(src)
+
+/obj/item/storage/box/gunbox/pitrats/champion/set3/PopulateContents()//super sledge
+	new /obj/item/twohanded/sledgehammer/supersledge(src)
+
+/obj/item/storage/box/gunbox/pitrats/champion/set4/PopulateContents()//chainsaw
+	new /obj/item/twohanded/steelsaw(src)
+
+/obj/item/storage/box/gunbox/pitrats/champion/set5/PopulateContents()//protonaxe
+	new /obj/item/melee/transforming/energy/axe/protonaxe(src)
+
+//Pitrat
+
+/obj/item/storage/box/gunbox/pitrats/pitrat/set1/PopulateContents()//scrap sabre, buckler
+	new /obj/item/melee/onehanded/machete/scrapsabre(src)
+	new /obj/item/shield/riot/buckler/stop(src)
+
+/obj/item/storage/box/gunbox/pitrats/pitrat/set2/PopulateContents()//scrap sabre, autopipe
+	new /obj/item/melee/onehanded/machete/scrapsabre(src)
+	new /obj/item/gun/ballistic/automatic/autopipe(src)
+	new /obj/item/ammo_box/magazine/autopipe(src)
+
+/obj/item/storage/box/gunbox/pitrats/pitrat/set3/PopulateContents()//scrap sabre, caravan shotgun
+	new /obj/item/melee/onehanded/machete/scrapsabre(src)
+	new /obj/item/gun/ballistic/revolver/caravan_shotgun(src)
+	new /obj/item/ammo_box/shotgun/improvised(src)
+
+/obj/item/storage/box/gunbox/pitrats/pitrat/set4/PopulateContents()//sledgehammer
+	new /obj/item/twohanded/sledgehammer/simple(src)
+
+/obj/item/storage/box/gunbox/pitrats/pitrat/set5/PopulateContents()//fireaxe
+	new /obj/item/twohanded/fireaxe(src)
+
+/obj/item/storage/box/gunbox/pitrats/pitrat/set6/PopulateContents()//maceglove
+	new /obj/item/melee/unarmed/maceglove(src)
+
+/obj/item/storage/box/gunbox/pitrats/pitrat/set7/PopulateContents()//lacerator
+	new /obj/item/melee/unarmed/lacerator(src)
