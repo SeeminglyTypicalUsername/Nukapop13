@@ -763,7 +763,7 @@
 	belt = /obj/item/storage/belt/military/assault/ncr
 	mask = /obj/item/clothing/mask/ncr_facewrap
 	uniform = /obj/item/clothing/under/f13/ncr
-	head = /obj/item/clothing/head/beret/ncr_dresscap
+	head = /obj/item/clothing/head/f13/ncr/ncr_dresscap
 	shoes = /obj/item/clothing/shoes/f13/military/ncr
 	backpack_contents = list(
 		/obj/item/clothing/under/f13/ncr/ncr_officer = 1,
