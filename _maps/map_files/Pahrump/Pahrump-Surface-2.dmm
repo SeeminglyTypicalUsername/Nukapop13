@@ -2935,6 +2935,9 @@
 	dir = 8
 	},
 /obj/structure/destructible/tribal_torch/wall/lit,
+/obj/item/radio/intercom{
+	pixel_y = -30
+	},
 /turf/open/floor/f13{
 	color = "#818181";
 	icon_state = "floorrustysolid"
@@ -8483,19 +8486,6 @@
 /area/f13/building)
 "dKj" = (
 /obj/structure/rack,
-/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
-/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
-/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
-/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
-/obj/effect/spawner/lootdrop/f13/medical/wasteland/meds,
-/obj/item/reagent_containers/hypospray/medipen/stimpak,
-/obj/item/reagent_containers/hypospray/medipen/stimpak,
-/obj/item/reagent_containers/hypospray/medipen/stimpak,
-/obj/item/reagent_containers/hypospray/medipen/stimpak,
-/obj/item/reagent_containers/hypospray/medipen/stimpak,
-/obj/item/reagent_containers/hypospray/medipen/stimpak,
-/obj/item/reagent_containers/hypospray/medipen/stimpak,
-/obj/item/reagent_containers/hypospray/medipen/stimpak,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
@@ -10475,6 +10465,9 @@
 /obj/structure/table/wood/junk,
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 8
+	},
+/obj/item/radio/intercom{
+	pixel_x = -25
 	},
 /turf/open/floor/f13{
 	color = "#818181";
@@ -12758,6 +12751,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood{
 	icon_state = "housewood3-broken"
+	},
+/area/f13/building)
+"fBN" = (
+/obj/structure/barricade/bars,
+/obj/structure/window/fulltile/wood/broken,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
 	},
 /area/f13/building)
 "fBO" = (
@@ -19131,6 +19131,18 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
+"ifP" = (
+/obj/structure/chair/booth{
+	dir = 4
+	},
+/obj/item/radio/intercom{
+	pixel_y = 23
+	},
+/turf/open/floor/f13{
+	color = "#818181";
+	icon_state = "floorrustysolid"
+	},
+/area/f13/building)
 "ifW" = (
 /obj/structure/sign/poster/contraband/space_cola{
 	pixel_y = 32
@@ -23244,6 +23256,10 @@
 	icon_state = "horizontalinnermain0"
 	},
 /area/f13/wasteland)
+"jSJ" = (
+/obj/machinery/workbench,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/building)
 "jSN" = (
 /obj/structure/table/wood,
 /obj/item/toy/cards/deck/unum,
@@ -27192,7 +27208,6 @@
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
 	},
-/obj/machinery/workbench/advanced,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/building)
 "lEJ" = (
@@ -27229,6 +27244,15 @@
 	color = "000000"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/white,
+/area/f13/building)
+"lFl" = (
+/obj/item/radio/intercom{
+	pixel_y = -30
+	},
+/turf/open/floor/f13{
+	color = "#818181";
+	icon_state = "floorrustysolid"
+	},
 /area/f13/building)
 "lFm" = (
 /obj/structure/chair/office,
@@ -35321,6 +35345,12 @@
 	icon_state = "verticalinnermain0"
 	},
 /area/f13/wasteland)
+"pkx" = (
+/obj/item/radio/intercom{
+	pixel_x = 30
+	},
+/turf/open/floor/wood/f13/stage_b,
+/area/f13/building)
 "pkQ" = (
 /obj/structure/railing{
 	dir = 8
@@ -76348,7 +76378,7 @@ giZ
 dCV
 dCV
 dCV
-dvc
+jSJ
 lEG
 bqv
 kEI
@@ -79704,7 +79734,7 @@ iPq
 kEI
 hdX
 xft
-kEI
+fBN
 iRH
 ydO
 kjm
@@ -90223,7 +90253,7 @@ mCs
 mCs
 hpA
 giZ
-dAn
+ifP
 dAn
 fgQ
 fgQ
@@ -90234,7 +90264,7 @@ mCs
 hnq
 pwN
 mCs
-mCs
+lFl
 giZ
 ydO
 ydO
@@ -91506,7 +91536,7 @@ giZ
 dCV
 meh
 meh
-uyD
+pkx
 cOM
 cOM
 cOM
