@@ -3337,6 +3337,9 @@
 /obj/machinery/light/fo13colored/Pink{
 	name = "light tube"
 	},
+/obj/item/radio/intercom{
+	pixel_x = -25
+	},
 /turf/open/floor/f13{
 	color = "#818181";
 	icon_state = "floorrustysolid"
@@ -6638,6 +6641,15 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/bunker)
+"gNv" = (
+/obj/item/radio/intercom{
+	pixel_x = -25
+	},
+/turf/open/floor/f13{
+	color = "#818181";
+	icon_state = "floorrustysolid"
+	},
+/area/f13/den)
 "gNC" = (
 /obj/structure/nest/supermutant/melee{
 	max_mobs = 1;
@@ -8671,6 +8683,15 @@
 	},
 /turf/open/floor/carpet/black,
 /area/f13/ncr)
+"jLI" = (
+/obj/item/radio/intercom{
+	pixel_y = -30
+	},
+/turf/open/floor/f13{
+	color = "#818181";
+	icon_state = "floorrustysolid"
+	},
+/area/f13/den)
 "jMz" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -11931,6 +11952,15 @@
 	icon_state = "whitegreenrustychess"
 	},
 /area/f13/bunker)
+"nTJ" = (
+/obj/item/radio/intercom{
+	pixel_y = 25
+	},
+/turf/open/floor/f13{
+	color = "#818181";
+	icon_state = "floorrustysolid"
+	},
+/area/f13/den)
 "nTZ" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/junkspawners,
@@ -13531,6 +13561,20 @@
 /obj/machinery/workbench,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
+"qgy" = (
+/obj/structure/rack/shelf_metal,
+/obj/item/reagent_containers/pill/patch/healingpowder,
+/obj/item/reagent_containers/pill/patch/healingpowder,
+/obj/item/reagent_containers/pill/patch/healingpowder,
+/obj/item/reagent_containers/pill/patch/healingpowder,
+/obj/item/reagent_containers/pill/patch/healingpowder,
+/obj/item/stack/medical/suture,
+/obj/item/stack/medical/suture,
+/turf/open/floor/f13{
+	color = "#818181";
+	icon_state = "floorrustysolid"
+	},
+/area/f13/den)
 "qgO" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/oil/slippery,
@@ -13931,6 +13975,15 @@
 "qLD" = (
 /turf/open/floor/plasteel/dark/telecomms/mainframe,
 /area/f13/tcoms)
+"qMz" = (
+/obj/structure/rack/shelf_metal,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/turf/open/floor/f13{
+	color = "#818181";
+	icon_state = "floorrustysolid"
+	},
+/area/f13/den)
 "qMZ" = (
 /obj/structure/fence/wooden{
 	dir = 1;
@@ -17682,6 +17735,15 @@
 /obj/structure/decoration/rag,
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
+"wIx" = (
+/obj/item/radio/intercom{
+	pixel_x = 30
+	},
+/turf/open/floor/f13{
+	color = "#818181";
+	icon_state = "floorrustysolid"
+	},
+/area/f13/den)
 "wJW" = (
 /obj/item/storage/trash_stack,
 /turf/open/floor/f13{
@@ -52298,7 +52360,7 @@ uoO
 uoO
 kUN
 aou
-aou
+gNv
 pOe
 aou
 tda
@@ -53582,7 +53644,7 @@ uoO
 uoO
 uoO
 kUN
-aou
+nTJ
 cxY
 bZE
 dSX
@@ -53853,7 +53915,7 @@ tqN
 bZE
 eGQ
 aou
-aou
+jLI
 kUN
 kUN
 dIm
@@ -55386,7 +55448,7 @@ aou
 aou
 uLW
 aou
-aou
+wIx
 aou
 aou
 aou
@@ -58730,7 +58792,7 @@ dTK
 aou
 aou
 eQw
-cMf
+qgy
 cMf
 kUN
 uoO
@@ -59245,7 +59307,7 @@ aou
 kaj
 vrS
 hXk
-cMf
+qMz
 kUN
 uoO
 uoO
