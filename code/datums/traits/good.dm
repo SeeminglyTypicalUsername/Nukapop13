@@ -50,6 +50,21 @@
 		REMOVE_TRAIT(H, TRAIT_TECHNOPHOBE, "Former Tribal")
 		REMOVE_TRAIT(H, TRAIT_TRIBAL, "Former Tribal")
 
+/datum/quirk/chinesespeak
+	name = "Chinese Language Comprehension"
+	desc = "You are somehow capable of understanding and speaking the old Chinese language."
+	value = 1
+	gain_text = span_notice("You remember the old language of China.")
+	lose_text = span_notice("You forget the old language of China.")
+
+/datum/quirk/chinesespeak/add()
+	var/mob/living/carbon/human/H = quirk_holder
+	H.grant_language(/datum/language/chinese)
+
+/datum/quirk/chinesespeak/remove()
+	var/mob/living/carbon/human/H = quirk_holder
+	if(!QDELETED(H))
+		H.remove_language(/datum/language/chinese)
 
 /datum/quirk/tribespeak
 	name = "Tribal Language Comprehension"
