@@ -102,6 +102,9 @@
 	var/list/flw = list()
 	var/list/tribe = list()
 	var/list/was = list()
+	var/list/church = list()
+	var/list/merchant = list()
+	var/list/pitrats = list()
 	var/list/misc = list()
 	var/dat = {"
 	<head><style>
@@ -141,6 +144,15 @@
 			department = 1
 		if(rank in GLOB.ncr_positions)
 			ncr[name] = rank
+			department = 1
+		if(rank in GLOB.merchant_positions)
+			merchant[name] = rank
+			department =1
+		if(rank in GLOB.church_positions)
+			church[name] = rank
+			department = 1
+		if(rank in GLOB.pitrats_positions)
+			pitrats[name] = rank
 			department = 1
 		if(rank in GLOB.followers_positions)
 			flw[name] = rank
@@ -200,6 +212,21 @@
 		dat += "<tr><th colspan=3>Vault</th></tr>"
 		for(var/name in vault)
 			dat += "<tr[even ? " class='alt'" : ""]><td>[name]</td><td>[vault[name]]</td></tr>"
+			even = !even
+	if(length(merchant))
+		dat += "<tr><th colspan=3>Merchant</th></tr>"
+		for(var/name in merchant)
+			dat += "<tr[even ? " class='alt'" : ""]><td>[name]</td><td>[merchant[name]]</td></tr>"
+			even = !even
+	if(length(church))
+		dat += "<tr><th colspan=3>Church</th></tr>"
+		for(var/name in church)
+			dat += "<tr[even ? " class='alt'" : ""]><td>[name]</td><td>[church[name]]</td></tr>"
+			even = !even
+	if(length(pitrats))
+		dat += "<tr><th colspan=3>Pitrats</th></tr>"
+		for(var/name in pitrats)
+			dat += "<tr[even ? " class='alt'" : ""]><td>[name]</td><td>[pitrats[name]]</td></tr>"
 			even = !even
 	if(length(was))
 		dat += "<tr><th colspan=3>Wasteland</th></tr>"

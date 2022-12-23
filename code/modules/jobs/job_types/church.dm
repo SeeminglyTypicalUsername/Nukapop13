@@ -20,20 +20,20 @@
 	enforces = "Preaching the faith, following the faith's internal structure and rules."
 	exp_requirements = 0
 
-	outfit = /datum/outfit/job/cotc/f13highpriest
+	outfit = /datum/outfit/job/church/f13highpriest
 	access = list(ACCESS_COTC, ACCESS_COTC_ARMORY, ACCESS_COTC_SECRET)
 	minimal_access = list(ACCESS_COTC, ACCESS_COTC_ARMORY, ACCESS_COTC_SECRET)
 
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
-			/datum/job/oasis,
+			/datum/job/church,
 		),
 		/datum/matchmaking_pref/rival = list(
-			/datum/job/oasis,
+			/datum/job/church,
 		),
 	)
 
-/datum/outfit/job/cotc/f13highpriest
+/datum/outfit/job/church/f13highpriest
 	name = "High Priest"
 	jobtype = /datum/job/church/f13highpriest
 
@@ -57,7 +57,7 @@
 		/obj/item/stock_parts/cell/ammo/ec = 2,
 		/obj/item/storage/bag/money/small/settler
 		)
-/datum/outfit/job/cotc/f13highpriest/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+/datum/outfit/job/church/f13highpriest/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
 	if(visualsOnly)
 		return
@@ -92,10 +92,10 @@
 
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
-			/datum/job/oasis,
+			/datum/job/church,
 		),
 		/datum/matchmaking_pref/rival = list(
-			/datum/job/oasis,
+			/datum/job/church,
 		),
 	)
 
@@ -122,7 +122,7 @@
 		/obj/item/reagent_containers/hypospray/medipen/stimpak = 2
 		)
 
-/datum/outfit/job/cotc/f13kebabservitormedici/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+/datum/outfit/job/church/f13servitormedici/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
 	if(visualsOnly)
 		return
@@ -157,10 +157,10 @@
 
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
-			/datum/job/oasis,
+			/datum/job/church,
 		),
 		/datum/matchmaking_pref/rival = list(
-			/datum/job/oasis,
+			/datum/job/church,
 		),
 	)
 
@@ -188,7 +188,7 @@
 		/obj/item/reagent_containers/hypospray/medipen/stimpak = 1
 		)
 
-/datum/outfit/job/cotc/f13kebabservitormilitant/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+/datum/outfit/job/church/f13servitormilitant/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
 	if(visualsOnly)
 		return
@@ -215,10 +215,10 @@
 
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
-			/datum/job/oasis,
+			/datum/job/church,
 		),
 		/datum/matchmaking_pref/rival = list(
-			/datum/job/oasis,
+			/datum/job/church,
 		),
 	)
 
@@ -298,7 +298,7 @@
 		/obj/item/reagent_containers/hypospray/medipen/stimpak = 1
 		)
 
-/datum/outfit/job/cotc/f13acolyte/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+/datum/outfit/job/church/f13acolyte/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
 	if(visualsOnly)
 		return
@@ -330,10 +330,10 @@
 	minimal_access = list(ACCESS_COTC)
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
-			/datum/job/oasis,
+			/datum/job/church,
 		),
 		/datum/matchmaking_pref/rival = list(
-			/datum/job/oasis,
+			/datum/job/church,
 		),
 	)
 
