@@ -218,7 +218,7 @@
 	config_entry_value = ""
 
 /datum/config_entry/string/discordurl
-	config_entry_value = "https://discord.gg/5dsycCUb57"
+	config_entry_value = "https://discord.gg/y8N2jVT9NV"
 
 /datum/config_entry/string/wikiurltg
 	config_entry_value = ""
@@ -227,7 +227,7 @@
 	config_entry_value = null
 
 /datum/config_entry/string/rulesurl
-	config_entry_value = null
+	config_entry_value = "https://discord.gg/y8N2jVT9NV"
 
 /datum/config_entry/string/githuburl
 	config_entry_value = null

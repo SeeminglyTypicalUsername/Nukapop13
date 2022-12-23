@@ -721,10 +721,10 @@ obj/item/storage/backpack/duffelbag/syndie/shredderbundle
 	item_state = "Legion_backpack"
 
 /obj/item/storage/backpack/Ncrbannerpack
-	name = "Ncr Banner Backpack"
+	name = "NCR Banner Backpack"
 	desc = "A backpack NCR with a big banner. Meant to be used in frontal assualts for moral."
-	icon_state = "Ncrbannerpack"
-	item_state = "Ncrbannerpack"
+	icon_state = "NCRbannerpack"
+	item_state = "NCRbannerpack"
 
 /obj/item/storage/backpack/Enclave_bannerPack
 	name = "A Enclave Banner Backpack"
