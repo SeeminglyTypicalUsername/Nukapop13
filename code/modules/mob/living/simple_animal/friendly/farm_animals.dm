@@ -1185,7 +1185,7 @@ Brand for permanently marking brahmin as yours (won't stop people stealing em an
 		D.set_vehicle_dir_layer(EAST, OBJ_LAYER)
 		D.set_vehicle_dir_layer(WEST, OBJ_LAYER)
 		D.drive_verb = "ride"
-		D.vehicle_move_delay = 1.5
+		D.vehicle_move_delay = 1.30  //adjusts slepnir riding speed
 		to_chat(user, "<span class='notice'>You add [I] to [src].</span>")
 		qdel(I)
 		return

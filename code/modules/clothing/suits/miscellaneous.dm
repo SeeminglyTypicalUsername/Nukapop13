@@ -348,6 +348,26 @@
 	item_state = "greyrobes"
 	icon_state = "greyrobes"
 
+/obj/item/clothing/suit/hooded/robes/hobologist
+	name = "hobologist robes"
+	desc = "A black robe worn by Adepts of Hubology Studies.<br>Beware - the spirits of the dead are all around us!"
+	icon_state = "hubologist"
+	item_state = "hubologist"
+	flags_inv = HIDESHOES|HIDEJUMPSUIT
+	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS
+	hoodtype = /obj/item/clothing/head/hooded/robes/hobologist
+	armor = list("melee" = 5, "bullet" = 15, "laser" = 10, "energy" = 10, "bomb" = 6, "bio" = 14, "rad" = 0, "fire" = 0, "acid" = 5)
+
+/obj/item/clothing/head/hooded/robes/hobologist
+	name = "hobologist hood"
+	desc = "Perfect for concealing your identity."
+	icon_state = "hubologist"
+	item_state = "hubologist"
+	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR
+	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
+	flash_protect = 2
+	armor = list("melee" = 5, "bullet" = 15, "laser" = 10, "energy" = 10, "bomb" = 6, "bio" = 14, "rad" = 0, "fire" = 0, "acid" = 5)
+
 /obj/item/clothing/suit/hooded/carp_costume
 	name = "carp costume"
 	desc = "A costume made from 'synthetic' carp scales, it smells."

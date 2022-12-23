@@ -308,15 +308,14 @@ Wastelander
 	)
 	loadout_options = list(
 	/datum/outfit/loadout/vault_refugee,
-	/datum/outfit/loadout/salvager,
 	/datum/outfit/loadout/medic,
 	/datum/outfit/loadout/merchant,
-	/datum/outfit/loadout/scavenger,
+	/datum/outfit/loadout/bountyhunter,
 	/datum/outfit/loadout/settler,
 	/datum/outfit/loadout/warrior,
-	/datum/outfit/loadout/ncrcitizen,
-	/datum/outfit/loadout/legioncivilian,
-	/datum/outfit/loadout/wastelander_desert_ranger
+	/datum/outfit/loadout/big_game_hunter,
+	/datum/outfit/loadout/new_canaanite,
+	/datum/outfit/loadout/hubologist
 	)
 
 /datum/outfit/job/wasteland/f13wastelander
@@ -326,6 +325,7 @@ Wastelander
 	id = null
 	ears = null
 	belt = null
+	shoes = /obj/item/clothing/shoes/f13/explorer
 	r_hand = /obj/item/book/granter/trait/selection
 	l_pocket = /obj/item/storage/bag/money/small/wastelander
 	r_pocket = /obj/item/flashlight/flare
@@ -339,85 +339,9 @@ Wastelander
 /datum/outfit/job/wasteland/f13wastelander/pre_equip(mob/living/carbon/human/H)
 	..()
 	suit = pick(
-		/obj/item/clothing/suit/armor/f13/kit, \
-		/obj/item/clothing/suit/f13/veteran, \
-		/obj/item/clothing/suit/toggle/labcoat/f13/wanderer \
-		)
-
-/datum/outfit/loadout/salvager
-	name = "Salvager"
-	uniform = /obj/item/clothing/under/f13/machinist
-	shoes = /obj/item/clothing/shoes/f13/explorer
-	gloves = /obj/item/clothing/gloves/f13/blacksmith
-	head = /obj/item/clothing/head/welding
-	r_hand = /obj/item/weldingtool/largetank
-	backpack_contents = list(/obj/item/gun/ballistic/automatic/pistol/m1911 = 1
-							)
-
-/datum/outfit/loadout/scavenger
-	name = "Scavenger"
-	uniform = /obj/item/clothing/under/f13/lumberjack
-	shoes = /obj/item/clothing/shoes/f13/explorer
-	r_hand = /obj/item/storage/backpack/duffelbag/scavengers
-	l_hand = /obj/item/pickaxe/drill
-	belt = /obj/item/storage/belt
-	backpack_contents = list(/obj/item/mining_scanner = 1,
-							/obj/item/metaldetector = 1,
-							/obj/item/shovel = 1,
-							/obj/item/gun/ballistic/automatic/pistol/m1911 = 1
-							)
-
-/datum/outfit/loadout/settler
-	name = "Settler"
-	uniform = /obj/item/clothing/under/f13/settler
-	shoes = /obj/item/clothing/shoes/f13/explorer
-	r_hand = /obj/item/hatchet
-	l_hand = /obj/item/gun/ballistic/automatic/pistol/n99
-	belt = /obj/item/storage/belt
-	backpack_contents = list(
-		/obj/item/stack/sheet/metal = 50,
-		/obj/item/stack/sheet/mineral/wood = 50,
-		/obj/item/pickaxe/mini = 1,
-		/obj/item/toy/crayon/spraycan = 1,
-		/obj/item/cultivator = 1,
-		/obj/item/reagent_containers/glass/bucket = 1,
-		/obj/item/storage/bag/plants/portaseeder = 1
-		)
-
-/datum/outfit/loadout/medic
-	name = "Wasteland Doctor"
-	uniform = /obj/item/clothing/under/f13/follower
-	suit = /obj/item/clothing/suit/toggle/labcoat/f13/followers
-	shoes = /obj/item/clothing/shoes/f13/explorer
-	gloves = /obj/item/clothing/gloves/color/latex
-	neck = /obj/item/clothing/neck/stethoscope
-	belt = /obj/item/storage/belt/medical
-	backpack_contents =  list(/obj/item/reagent_containers/medspray/synthflesh = 2,
-							/obj/item/smelling_salts = 1,
-							/obj/item/healthanalyzer = 1,
-							/obj/item/gun/ballistic/automatic/pistol/m1911 = 1,
-							/obj/item/reagent_containers/glass/bottle/epinephrine = 2,
-							/obj/item/storage/backpack/duffelbag/med/surgery = 1,
-							/obj/item/paper_bin = 1,
-							/obj/item/folder = 1,
-							/obj/item/pen/fountain = 1,
-							/obj/item/storage/firstaid/ancient = 1
-							)
-
-/datum/outfit/loadout/merchant
-	name = "Roving Trader"
-	uniform = /obj/item/clothing/under/f13/merchant
-	neck = /obj/item/clothing/neck/mantle/brown
-	shoes = /obj/item/clothing/shoes/f13/brownie
-	head = /obj/item/clothing/head/f13/stormchaser
-	gloves = /obj/item/clothing/gloves/color/brown
-	glasses = /obj/item/clothing/glasses/f13/biker
-	l_hand = /obj/item/gun/ballistic/revolver/caravan_shotgun
-	backpack_contents =  list(/obj/item/storage/box/vendingmachine = 1,
-							/obj/item/gun/ballistic/automatic/pistol/m1911 = 1
-							)
-
-//end new
+		/obj/item/clothing/suit/armor/f13/kit,
+		/obj/item/clothing/suit/f13/veteran,
+		/obj/item/clothing/suit/toggle/labcoat/f13/wanderer)
 
 /datum/outfit/loadout/vault_refugee
 	name = "Vaultie"
@@ -430,7 +354,59 @@ Wastelander
 		/obj/item/card/id/selfassign = 1,
 		/obj/item/gun/ballistic/automatic/pistol/n99 = 1,
 		/obj/item/ammo_box/magazine/m10mm_adv/simple = 2,
-		/obj/item/pda = 1
+		/obj/item/pda = 1)
+
+/datum/outfit/loadout/medic
+	name = "Wasteland Doctor"
+	suit = /obj/item/clothing/suit/toggle/labcoat/f13/followers
+	l_hand = /obj/item/storage/backpack/duffelbag/med/surgery
+	r_hand = /obj/item/book/granter/trait/midsurgery
+	suit_store = /obj/item/gun/energy/laser/wattz
+	backpack_contents = list(
+		/obj/item/stock_parts/cell/ammo/ec = 1,
+		/obj/item/storage/firstaid/ancient = 1,
+		/obj/item/storage/pill_bottle/happy = 1,
+		/obj/item/book/granter/trait/chemistry = 1,
+		/obj/item/stack/sheet/mineral/silver = 2,
+		/obj/item/defibrillator/primitive = 1)
+
+/datum/outfit/loadout/merchant
+	name = "Roving Trader"
+	uniform = /obj/item/clothing/under/f13/merchant
+	neck = /obj/item/clothing/neck/mantle/brown
+	shoes = /obj/item/clothing/shoes/f13/brownie
+	head = /obj/item/clothing/head/f13/stormchaser
+	gloves = /obj/item/clothing/gloves/color/brown
+	glasses = /obj/item/clothing/glasses/f13/biker
+	l_hand = /obj/item/gun/ballistic/revolver/caravan_shotgun
+	backpack_contents =  list(/obj/item/storage/box/vendingmachine = 1,
+							/obj/item/gun/ballistic/automatic/pistol/m1911 = 1)
+
+/datum/outfit/loadout/bountyhunter
+	name = "Bounty Hunter"
+	uniform = /obj/item/clothing/under/f13/mercc
+	shoes = /obj/item/clothing/shoes/f13/explorer
+	suit = /obj/item/clothing/suit/armor/vest
+	head = /obj/item/clothing/head/helmet/blueshirt
+	r_hand = /obj/item/gun/ballistic/automatic/autopipe
+	backpack_contents = list(/obj/item/ammo_box/magazine/autopipe = 1)
+
+/datum/outfit/loadout/settler
+	name = "Settler"
+	uniform = /obj/item/clothing/under/f13/settler
+	shoes = /obj/item/clothing/shoes/f13/explorer
+	r_hand = /obj/item/hatchet
+	l_hand = /obj/item/gun/ballistic/automatic/pistol/n99
+	belt = /obj/item/storage/belt
+	backpack_contents = list(
+		/obj/item/stack/sheet/metal = 50,
+		/obj/item/stack/sheet/mineral/wood = 50,
+		/obj/item/stack/sheet/glass/fifty = 1,
+		/obj/item/pickaxe/mini = 1,
+		/obj/item/toy/crayon/spraycan = 1,
+		/obj/item/cultivator = 1,
+		/obj/item/reagent_containers/glass/bucket = 1,
+		/obj/item/storage/bag/plants/portaseeder = 1
 		)
 
 /datum/outfit/loadout/warrior
@@ -445,44 +421,36 @@ Wastelander
 		/obj/item/melee/onehanded/machete/scrapsabre = 1
 		)
 
-/datum/outfit/loadout/legioncivilian
-	name = "Legion Civilian"
-	uniform = /obj/item/clothing/under/f13/doctor
-	shoes = /obj/item/clothing/shoes/f13/fancy
-	suit = /obj/item/clothing/suit/curator
-	head = /obj/item/clothing/head/scarecrow_hat
-	gloves = /obj/item/clothing/gloves/color/black
-	glasses = /obj/item/clothing/glasses/welding
-	id = /obj/item/card/id/dogtag/town/legion
-	l_hand = /obj/item/shield/riot/buckler
-	backpack_contents = list(
-		/obj/item/melee/onehanded/machete = 1
-		)
-
-/datum/outfit/loadout/ncrcitizen
-	name = "NCR Citizen"
-	uniform = /obj/item/clothing/under/f13/ncrcaravan
-	shoes = /obj/item/clothing/shoes/f13/tan
+/datum/outfit/loadout/big_game_hunter
+	name = "Big Game Hunter"
+	uniform = /obj/item/clothing/under/f13/merca
+	suit = /obj/item/clothing/suit/f13/duster
+	shoes = /obj/item/clothing/shoes/f13/explorer
 	head = /obj/item/clothing/head/f13/cowboy
 	gloves = /obj/item/clothing/gloves/color/brown
 	id = /obj/item/card/id/dogtag/town/ncr
-	l_hand = /obj/item/gun/ballistic/automatic/varmint
+	l_hand = /obj/item/gun/ballistic/shotgun/hunting
 	backpack_contents = list(
-		/obj/item/ammo_box/magazine/m556/rifle = 2
+		/obj/item/ammo_box/shotgun/buck = 1,
+		/obj/item/melee/onehanded/machete = 1
 		)
 
-/datum/outfit/loadout/wastelander_desert_ranger
-	name = "Desert Ranger Scout"
-	uniform = /obj/item/clothing/under/f13/desert_ranger_scout
-	shoes = /obj/item/clothing/shoes/f13/cowboy
-	head = /obj/item/clothing/head/f13/cowboy
-	gloves = /obj/item/clothing/gloves/color/brown
-	l_hand = /obj/item/gun/ballistic/revolver/colt357
+/datum/outfit/loadout/new_canaanite
+	name = "New Canaanite"
+	uniform = /obj/item/clothing/under/f13/religion/priest
+	suit = /obj/item/clothing/suit/armor/vest
+	shoes = /obj/item/clothing/shoes/laceup
+	l_hand = /obj/item/gun/ballistic/automatic/varmint
 	backpack_contents = list(
-		/obj/item/ammo_box/a357 = 2,
-		/obj/item/binoculars = 1,
-		/obj/item/radio = 1
+		/obj/item/ammo_box/magazine/m556/rifle = 2,
+		/obj/item/storage/book/bible/booze = 1
 		)
+
+/datum/outfit/loadout/hubologist
+	name = "Hubologist"
+	uniform = /obj/item/clothing/under/f13/spring
+	suit = /obj/item/clothing/suit/hooded/robes/hobologist
+	shoes = /obj/item/clothing/shoes/laceup
 
 /datum/job/wasteland/f13enforcer
 	title = "Den Mob Enforcer"

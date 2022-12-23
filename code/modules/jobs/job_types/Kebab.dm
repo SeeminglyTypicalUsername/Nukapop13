@@ -1184,8 +1184,8 @@ Mayor
 	suit = /obj/item/clothing/suit/hooded/robes/cotc/proselytizer
 	suit_store = /obj/item/gun/energy/laser/wattz
 	ears = /obj/item/radio/headset/headset_church
-	backpack = /obj/item/storage/backpack/satchel/explorer
-	satchel = /obj/item/storage/backpack/satchel/explorer
+	backpack = /obj/item/storage/backpack/satchel/sec
+	satchel = /obj/item/storage/backpack/satchel/sec
 	duffelbag = /obj/item/storage/backpack/duffelbag
 	gloves = null
 	l_pocket = null
@@ -1215,8 +1215,8 @@ Mayor
 	exp_requirements = 0
 
 	outfit = /datum/outfit/job/cotc/f13kebabacolyte
-	access = list(ACCESS_COTC)
-	minimal_access = list(ACCESS_COTC)
+	access = list(ACCESS_COTC, ACCESS_COTC_ARMORY)
+	minimal_access = list(ACCESS_COTC, ACCESS_COTC_ARMORY)
 
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
