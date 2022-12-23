@@ -4575,6 +4575,13 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/caves)
+"bRK" = (
+/obj/structure/barricade/bars,
+/obj/structure/window/fulltile/wood/broken,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/building)
 "bRP" = (
 /obj/structure/simple_door/bunker,
 /obj/structure/barricade/wooden/planks/pregame,
@@ -6129,9 +6136,8 @@
 	dir = 4;
 	icon_state = "wooden_chair_settler"
 	},
-/obj/machinery/light{
-	dir = 8;
-	pixel_y = -16
+/obj/machinery/light/fo13colored/Red{
+	dir = 8
 	},
 /turf/open/floor/f13{
 	color = "#818181";
@@ -7889,8 +7895,8 @@
 "dxK" = (
 /obj/structure/table/reinforced,
 /obj/structure/barricade/bars,
-/turf/open/indestructible/ground/outside/ruins{
-	icon_state = "rubbleslab"
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
 	},
 /area/f13/cotc)
 "dxM" = (
@@ -12753,13 +12759,6 @@
 	icon_state = "housewood3-broken"
 	},
 /area/f13/building)
-"fBN" = (
-/obj/structure/barricade/bars,
-/obj/structure/window/fulltile/wood/broken,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	name = "metal plating"
-	},
-/area/f13/building)
 "fBO" = (
 /obj/structure/fluff/railing{
 	dir = 5
@@ -16493,19 +16492,19 @@
 	},
 /obj/item/paper/pamphlet{
 	name = "Let Faith Be Your Shield";
-	info = <p>LETFAITHBEYOURSHIELD:<br/>Areyoudisillusionedwithlife?Starving,destitute?Doyoudesirecommunity,brotherhood,andastructuredlife?Nomatteryourbackground,past,orsocialstatus,theChurchwillacceptyouintothefold,freeofcharge.Ifyouaresufferingfromindebtedness,theChurchwillevenpayoffanydebtslowerthan500capswhenyoujointheclergy,andwillforgiveanymedicaldebtyoumayowetotheFaithitself.LettheFatherguideyouintothepathofUnity!SpeaktoaServitortoday.</span></p>
+	info = <p>LET FAITH BE YOUR SHIELD:<br/>Are you disillusioned with life? Starving, destitute? Do you desire community, brotherhood, and a structured life? No matter your background, past, or social status, the Church will accept you into the fold, free of charge. If you are suffering from indebtedness, the Church will even pay off any debts lower than 500 caps when you join the clergy, and will forgive any medical debt you may owe to the Faith itself. Let the Father guide you into the path of Unity! Speak to a Servitor today.</span></p>
 	},
 /obj/item/paper/pamphlet{
 	name = "Let Faith Be Your Shield";
-	info = <p>LETFAITHBEYOURSHIELD:<br/>Areyoudisillusionedwithlife?Starving,destitute?Doyoudesirecommunity,brotherhood,andastructuredlife?Nomatteryourbackground,past,orsocialstatus,theChurchwillacceptyouintothefold,freeofcharge.Ifyouaresufferingfromindebtedness,theChurchwillevenpayoffanydebtslowerthan500capswhenyoujointheclergy,andwillforgiveanymedicaldebtyoumayowetotheFaithitself.LettheFatherguideyouintothepathofUnity!SpeaktoaServitortoday.</span></p>
+	info = <p>LET FAITH BE YOUR SHIELD:<br/>Are you disillusioned with life? Starving, destitute? Do you desire community, brotherhood, and a structured life? No matter your background, past, or social status, the Church will accept you into the fold, free of charge. If you are suffering from indebtedness, the Church will even pay off any debts lower than 500 caps when you join the clergy, and will forgive any medical debt you may owe to the Faith itself. Let the Father guide you into the path of Unity! Speak to a Servitor today.</span></p>
 	},
 /obj/item/paper/pamphlet{
 	name = "Let Faith Be Your Shield";
-	info = <p>LETFAITHBEYOURSHIELD:<br/>Areyoudisillusionedwithlife?Starving,destitute?Doyoudesirecommunity,brotherhood,andastructuredlife?Nomatteryourbackground,past,orsocialstatus,theChurchwillacceptyouintothefold,freeofcharge.Ifyouaresufferingfromindebtedness,theChurchwillevenpayoffanydebtslowerthan500capswhenyoujointheclergy,andwillforgiveanymedicaldebtyoumayowetotheFaithitself.LettheFatherguideyouintothepathofUnity!SpeaktoaServitortoday.</span></p>
+	info = <p>LET FAITH BE YOUR SHIELD:<br/>Are you disillusioned with life? Starving, destitute? Do you desire community, brotherhood, and a structured life? No matter your background, past, or social status, the Church will accept you into the fold, free of charge. If you are suffering from indebtedness, the Church will even pay off any debts lower than 500 caps when you join the clergy, and will forgive any medical debt you may owe to the Faith itself. Let the Father guide you into the path of Unity! Speak to a Servitor today.</span></p>
 	},
 /obj/item/paper/pamphlet{
 	name = "Let Faith Be Your Shield";
-	info = <p>LETFAITHBEYOURSHIELD:<br/>Areyoudisillusionedwithlife?Starving,destitute?Doyoudesirecommunity,brotherhood,andastructuredlife?Nomatteryourbackground,past,orsocialstatus,theChurchwillacceptyouintothefold,freeofcharge.Ifyouaresufferingfromindebtedness,theChurchwillevenpayoffanydebtslowerthan500capswhenyoujointheclergy,andwillforgiveanymedicaldebtyoumayowetotheFaithitself.LettheFatherguideyouintothepathofUnity!SpeaktoaServitortoday.</span></p>
+	info = <p>LET FAITH BE YOUR SHIELD:<br/>Are you disillusioned with life? Starving, destitute? Do you desire community, brotherhood, and a structured life? No matter your background, past, or social status, the Church will accept you into the fold, free of charge. If you are suffering from indebtedness, the Church will even pay off any debts lower than 500 caps when you join the clergy, and will forgive any medical debt you may owe to the Faith itself. Let the Father guide you into the path of Unity! Speak to a Servitor today.</span></p>
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
@@ -19130,18 +19129,6 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/f13/oak,
-/area/f13/building)
-"ifP" = (
-/obj/structure/chair/booth{
-	dir = 4
-	},
-/obj/item/radio/intercom{
-	pixel_y = 23
-	},
-/turf/open/floor/f13{
-	color = "#818181";
-	icon_state = "floorrustysolid"
-	},
 /area/f13/building)
 "ifW" = (
 /obj/structure/sign/poster/contraband/space_cola{
@@ -23256,10 +23243,6 @@
 	icon_state = "horizontalinnermain0"
 	},
 /area/f13/wasteland)
-"jSJ" = (
-/obj/machinery/workbench,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/building)
 "jSN" = (
 /obj/structure/table/wood,
 /obj/item/toy/cards/deck/unum,
@@ -27245,15 +27228,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building)
-"lFl" = (
-/obj/item/radio/intercom{
-	pixel_y = -30
-	},
-/turf/open/floor/f13{
-	color = "#818181";
-	icon_state = "floorrustysolid"
-	},
-/area/f13/building)
 "lFm" = (
 /obj/structure/chair/office,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
@@ -27424,6 +27398,13 @@
 "lKG" = (
 /obj/structure/barricade/wooden,
 /turf/open/indestructible/ground/outside/sidewalk,
+/area/f13/wasteland)
+"lKN" = (
+/obj/item/clothing/under/f13/spring,
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 8;
+	icon_state = "dirt"
+	},
 /area/f13/wasteland)
 "lKO" = (
 /obj/structure/table,
@@ -33621,6 +33602,18 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/f13/carpet,
 /area/f13/bar)
+"osP" = (
+/obj/structure/chair/booth{
+	dir = 4
+	},
+/obj/item/radio/intercom{
+	pixel_y = 23
+	},
+/turf/open/floor/f13{
+	color = "#818181";
+	icon_state = "floorrustysolid"
+	},
+/area/f13/building)
 "osQ" = (
 /obj/structure/chair/wood{
 	dir = 4
@@ -35345,12 +35338,6 @@
 	icon_state = "verticalinnermain0"
 	},
 /area/f13/wasteland)
-"pkx" = (
-/obj/item/radio/intercom{
-	pixel_x = 30
-	},
-/turf/open/floor/wood/f13/stage_b,
-/area/f13/building)
 "pkQ" = (
 /obj/structure/railing{
 	dir = 8
@@ -40574,7 +40561,7 @@
 /area/f13/building)
 "rAC" = (
 /obj/structure/table/wood,
-/obj/machinery/light{
+/obj/machinery/light/fo13colored/Red{
 	dir = 1
 	},
 /turf/open/floor/f13{
@@ -47838,6 +47825,10 @@
 	icon_state = "dirt"
 	},
 /area/f13/wasteland)
+"uOf" = (
+/obj/machinery/workbench,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/building)
 "uOg" = (
 /obj/structure/chair/booth,
 /obj/machinery/light/fo13colored/Aqua{
@@ -50057,6 +50048,15 @@
 	icon_state = "verticalleftborderright0"
 	},
 /area/f13/village)
+"vIt" = (
+/obj/item/radio/intercom{
+	pixel_y = -30
+	},
+/turf/open/floor/f13{
+	color = "#818181";
+	icon_state = "floorrustysolid"
+	},
+/area/f13/building)
 "vIu" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/destructible/tribal_torch/wall/lit{
@@ -54375,6 +54375,12 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/item/stack/f13Cash/random/low,
 /turf/open/floor/f13/wood,
+/area/f13/building)
+"xCZ" = (
+/obj/item/radio/intercom{
+	pixel_x = 30
+	},
+/turf/open/floor/wood/f13/stage_b,
 /area/f13/building)
 "xDa" = (
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ballistic/superlow,
@@ -76378,7 +76384,7 @@ giZ
 dCV
 dCV
 dCV
-jSJ
+uOf
 lEG
 bqv
 kEI
@@ -79734,7 +79740,7 @@ iPq
 kEI
 hdX
 xft
-fBN
+bRK
 iRH
 ydO
 kjm
@@ -90253,7 +90259,7 @@ mCs
 mCs
 hpA
 giZ
-ifP
+osP
 dAn
 fgQ
 fgQ
@@ -90264,7 +90270,7 @@ mCs
 hnq
 pwN
 mCs
-lFl
+vIt
 giZ
 ydO
 ydO
@@ -91536,7 +91542,7 @@ giZ
 dCV
 meh
 meh
-pkx
+xCZ
 cOM
 cOM
 cOM
@@ -92846,7 +92852,7 @@ ydO
 ydO
 ydO
 mHj
-dIA
+vPX
 age
 age
 mvv
@@ -102775,7 +102781,7 @@ fyf
 nlO
 mfD
 mfD
-mfD
+lKN
 mfD
 ptf
 ptf

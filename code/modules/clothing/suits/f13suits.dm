@@ -178,15 +178,6 @@
 	armor = list("melee" = 30, "bullet" = 30, "laser" = 15, "energy" = 5, "bomb" = 16, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets
 
-
-/obj/item/clothing/suit/f13/hubologist
-	name = "hubologist robe"
-	desc = "A black robe worn by Adepts of Hubology Studies.<br>Beware - the spirits of the dead are all around us!"
-	icon_state = "hubologist"
-	item_state = "wcoat"
-	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEHAIR|HIDEFACIALHAIR
-	armor = list("melee" = 25, "bullet" = 15, "laser" = 15, "energy" = 5, "bomb" = 16, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
-
 /obj/item/clothing/suit/f13/sexymaid
 	name = "sexy maid outfit"
 	desc = "A maid outfit that shows just a little more skin than needed for cleaning duties."

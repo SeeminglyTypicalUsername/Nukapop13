@@ -100,13 +100,15 @@
 //Attack Hand
 /obj/structure/HMG/AltClick(mob/user)
 	if(magazine)
+		if (get_dist(src, user) >1)
+			return
 		if(do_after(user, reload_time / 2, target = src))
 			magazine.forceMove(drop_location())
 			user.put_in_hands(magazine)
 			magazine.update_icon()
 			playsound(src, "sound/weapons/gun_magazine_remove_full.ogg", 70, 1)
 			magazine = null
-			to_chat(user, "<span class='notice'>You pull the magazine out of \the [src].</span>")
+			to_chat(user, "<span class='notice'>You pull the belt out of \the [src].</span>")
 			update_icon()
 		return
 	..()
