@@ -241,7 +241,7 @@
 		/obj/item/storage/bag/money/small/raider = 1
 		)
 
-/datum/outfit/job/oasis/f13pitrat/pre_equip(mob/living/carbon/human/H)
+/datum/outfit/job/pitrats/f13pitrat/pre_equip(mob/living/carbon/human/H)
 	. = ..()
 
 	shoes = pick(
