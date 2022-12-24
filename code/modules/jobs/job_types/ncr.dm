@@ -143,8 +143,8 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	title = "NCR Captain"
 	flag = F13CAPTAIN
 	head_announce = list("Security")
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	description = "You are the commanding officer of your company and direct superior to the Veteran Ranger and Lieutenant. Coordinating with your staff, you must ensure that the objectives of High Command are completed to the letter. Working closely with your subordinates on logistics, mission planning and special operations with the Rangers, you are here to establish a strong foothold for the NCR within the region."
 	supervisors = "Colonel"
 	access = list(ACCESS_NCR, ACCESS_NCR_ARMORY, ACCESS_CHANGE_IDS, ACCESS_NCRREP, ACCESS_NCR_COMMAND, ACCESS_CAPVAULT)
@@ -236,10 +236,9 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	flag = F13LIEUTENANT
 	total_positions = 1
 	spawn_positions = 1
-	description = "You are the direct superior to the NCOs and Enlisted, and under special circumstances, Rangers. You are the XO of Camp Miller. You plan patrols, training and missions, working in some cases with Rangers in accomplishing objectives otherwise beyond the capabilities of ordinary enlisted personnel."
+	description = "You are the CO of NCR Forces in the region, you have overall responsibility for mission success."
 	supervisors = "Captain"
 	access = list(ACCESS_NCR, ACCESS_NCR_ARMORY, ACCESS_CHANGE_IDS, ACCESS_NCR_COMMAND)
-	selection_color = "#fff5cc"
 	display_order = JOB_DISPLAY_ORDER_LIEUTENANT
 	outfit = /datum/outfit/job/ncr/f13lieutenant
 	exp_type = EXP_TYPE_NCR
@@ -266,7 +265,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	glasses = /obj/item/clothing/glasses/night/ncr
 	gloves = /obj/item/clothing/gloves/f13/leather
 	ears = /obj/item/radio/headset/headset_ncr_com
-	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/lieutenant
+	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/dresscoat
 	r_pocket = /obj/item/binoculars
 	suit_store = /obj/item/gun/ballistic/automatic/m1garand/republicspride
 	backpack_contents = list(
@@ -287,6 +286,65 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	ADD_TRAIT(H, TRAIT_SELF_AWARE, src)
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
+
+// STAFF SERGEANT
+
+/datum/job/ncr/f13staffsergeant
+	title = "NCR Staff Sergeant"
+	flag = F13STAFFSERGEANT
+	total_positions = 1
+	spawn_positions = 1
+	description = "You are the enlisted leader and the platoon sergeant of all NCR forces, working with the chain of command you echo the orders of your superiors and ensure that the enlisted follow them to the letter. Additionally, you are responsible for the wellbeing of the troops and their ongoing training with the NCR."
+	supervisors = "Lieutenant"
+	selection_color = "#fff5cc"
+	access = list(ACCESS_NCR, ACCESS_NCR_ARMORY, ACCESS_NCR_COMMAND)
+	display_order = JOB_DISPLAY_ORDER_STAFFSERGEANT
+	outfit = /datum/outfit/job/ncr/f13staffsergeant
+	exp_requirements = 0
+
+	matchmaking_allowed = list(
+		/datum/matchmaking_pref/friend = list(
+			/datum/job/ncr,
+		),
+		/datum/matchmaking_pref/rival = list(
+			/datum/job/ncr,
+		),
+		)
+
+/datum/outfit/job/ncr/f13staffsergeant/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	..()
+	if(visualsOnly)
+		return
+	ADD_TRAIT(H, TRAIT_GENERIC, src)
+	ADD_TRAIT(H, TRAIT_SELF_AWARE, src)
+	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
+	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
+
+
+/datum/outfit/job/ncr/f13staffsergeant
+	name = "NCR Staff Sergeant"
+	jobtype = /datum/job/ncr/f13sergeant
+	id = /obj/item/card/id/dogtag/ncrsergeant
+	accessory = /obj/item/clothing/accessory/ncr/SSGT
+	gloves = /obj/item/clothing/gloves/f13/leather/fingerless
+	head = /obj/item/clothing/head/f13/ncr
+	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/mantle/reinforced
+	neck = /obj/item/storage/belt/holster/legholster
+	backpack_contents = list(
+		/obj/item/storage/bag/money/small/ncrofficers = 1,
+		/obj/item/grenade/f13/frag = 1,
+		/obj/item/gun/ballistic/automatic/pistol/m1911 = 1,
+		/obj/item/ammo_box/magazine/m45 = 3,
+		/obj/item/stack/crafting/armor_plate = 5
+		)
+
+/datum/outfit/job/ncr/f13staffsergeant/pre_equip(mob/living/carbon/human/H)
+	. = ..()
+	r_hand = pick(
+		/obj/item/storage/box/gunbox/ncr/sergeant/set1, //scout carbine, bowie knife
+		/obj/item/storage/box/gunbox/ncr/sergeant/set2, //greasegun
+		/obj/item/storage/box/gunbox/ncr/sergeant/set3, //trenchgun
+		/obj/item/storage/box/gunbox/ncr/sergeant/set4) //service, bayonet
 
 
 // SERGEANT
@@ -327,7 +385,6 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	name = "NCR Sergeant"
 	jobtype = /datum/job/ncr/f13sergeant
 	id = /obj/item/card/id/dogtag/ncrsergeant
-	accessory = /obj/item/clothing/accessory/ncr/SGT
 	gloves = /obj/item/clothing/gloves/f13/leather/fingerless
 	head = /obj/item/clothing/head/f13/ncr
 	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/mantle/reinforced
@@ -350,7 +407,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 
 // Provost Marshal
 
-/datum/job/ncr/f13drillsergeant
+/*datum/job/ncr/f13drillsergeant
 	title = "NCR Provost Marshal"
 	flag = F13DRILLSERGEANT
 	total_positions = 0
@@ -407,6 +464,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	ADD_TRAIT(H, TRAIT_SELF_AWARE, src)
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
+	*/
 
 
 // REPRESENATIVE
@@ -776,7 +834,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
     head = /obj/item/clothing/head/hardhat/ncr
     suit = /obj/item/clothing/suit/armor/f13/ncrarmor/reinforced/engineer
     gloves = /obj/item/clothing/gloves/color/yellow
-    accessory =    /obj/item/clothing/accessory/ncr/SPC
+    accessory = /obj/item/clothing/accessory/armband/engine/ncr
     belt = /obj/item/storage/belt/military/assault/ncr/engineer
     backpack_contents = list(
         /obj/item/shovel/trench = 1,
@@ -944,7 +1002,6 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	name = "NCR Corporal"
 	jobtype	= /datum/job/ncr/f13corporal
 	id = /obj/item/card/id/dogtag/ncrtrooper
-	accessory = /obj/item/clothing/accessory/ncr/CPL
 	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/mantle
 	backpack_contents = list(
 		/obj/item/melee/onehanded/knife/bayonet = 1,
@@ -1001,7 +1058,6 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	name = "NCR Trooper"
 	jobtype	= /datum/job/ncr/f13trooper
 	id = /obj/item/card/id/dogtag/ncrtrooper
-	accessory = /obj/item/clothing/accessory/ncr/TPR
 	head = /obj/item/clothing/head/f13/ncr
 	suit = /obj/item/clothing/suit/armor/f13/ncrarmor
 	glasses	= null
