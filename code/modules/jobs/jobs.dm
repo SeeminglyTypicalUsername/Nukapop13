@@ -52,14 +52,19 @@ GLOBAL_LIST_INIT(command_positions, list(
 	"Head Knight",
 	"Head Scribe", //Wasn't here before. Still technically command, I put it here - Kitsunemitsu
 
-	"NCR Captain",
-	"NCR Veteran Ranger",
+	"NCR Lieutenant",
 
 	"Legion Centurion",
 
 	"Chief of Police",
 
 	"Enclave Lieutenant",
+
+	"Merchant",
+
+	"High Priest",
+
+	"Pitmaster",
 
 	//For Alternative maptypes - Kitsunemitsu
 	"Chief",
@@ -194,7 +199,7 @@ GLOBAL_LIST_INIT(ncr_positions, list(
 	"NCR Veteran Ranger",
 	"NCR Representative",
 	"NCR Ranger",
-	"NCR Sergeant First Class",
+	"NCR Staff Sergeant",
 	"NCR Heavy Trooper",
 	"NCR Military Police",
 	"NCR Provost Marshal",
@@ -408,7 +413,7 @@ GLOBAL_LIST_INIT(exp_jobsmap, list(
 
 	EXP_TYPE_TRIBALCOMMAND = list("titles" = list("Chief","Shaman","Head Hunter")),
 	EXP_TYPE_FOLLOWERSCOMMAND = list("titles" = list("Followers Administrator")),
-	EXP_TYPE_NCRCOMMAND = list("titles" = list("NCR Lieutenant","NCR Sergeant First Class","NCR Captain", "NCR Veteran Ranger"))
+	EXP_TYPE_NCRCOMMAND = list("titles" = list("NCR Lieutenant","NCR Staff Sergeant","NCR Captain", "NCR Veteran Ranger"))
 ))
 
 GLOBAL_LIST_INIT(exp_specialmap, list(
