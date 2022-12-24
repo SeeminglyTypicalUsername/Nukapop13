@@ -12,7 +12,7 @@
 	spawn_positions = 1
 	supervisors = "free hand of the market"
 	description = "The greed of the United States survived better than its people. You are an organ of this greed. Ensure its continuation."
-	selection_color = "#dcba97"
+	selection_color = "#caa581"
 	exp_requirements = 0
 
 	outfit = /datum/outfit/job/merchant/f13shopkeeper

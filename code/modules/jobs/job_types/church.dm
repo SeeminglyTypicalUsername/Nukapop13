@@ -15,7 +15,7 @@
 	supervisors = "the Holy Father"
 	req_admin_notify = 1
 	description = "You are the leader of the Church, at least for now. Your sworn duty is to expand and protect the faith, through any means necessary, in preparation for the day of retribution that is to come. You are the spiritual leader of the faith, and are expected to give sermons, advise members, and perform all major rituals. You are beholden to no one but the Father above, and the Servitors answer directly to you."
-	selection_color = "#d580ff"
+	selection_color = "#c167ee"
 	forbids = "Exposing the secrets of the Church, fraternizing with the NCR, treating patients for nothing in return, consuming alcohol, and using chems."
 	enforces = "Preaching the faith, following the faith's internal structure and rules."
 	exp_requirements = 0
