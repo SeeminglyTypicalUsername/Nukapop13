@@ -754,6 +754,14 @@
 	build_path = /obj/item/pet_carrier
 	category = list("initial", "Misc")
 
+/datum/design/binoculars
+	name = "Binoculars"
+	id = "binoculars"
+	build_type = AUTOLATHE
+	materials = list(MAT_METAL = 10, MAT_GLASS = 5)
+	build_path = /obj/item/binoculars
+	category = list("initial", "Misc")
+
 /datum/design/miniature_power_cell
 	name = "Light Fixture Battery"
 	id = "miniature_power_cell"
