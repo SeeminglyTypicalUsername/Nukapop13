@@ -122,7 +122,7 @@
 	alt_toggle_message = "You push the visor up on"
 	can_toggle = 1
 	armor = list("melee" = 70, "bullet" = 20, "laser" = 10, "energy" = 10, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50, "wound" = 10)
-	flags_inv = HIDEEARS|HIDEFACE
+	flags_inv = HIDEEARS|HIDEFACE|HIDEHAIR
 	strip_delay = 80
 	actions_types = list(/datum/action/item_action/toggle)
 	visor_flags_inv = HIDEFACE
