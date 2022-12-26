@@ -682,24 +682,6 @@
 	icon_state = "ncr_stetson"
 	item_state = "ncr_stetson"
 
-/obj/item/clothing/head/f13/ncr/ncr_sidecap
-	name = "NCR garrison cap"
-	desc = "A cloth garrison cap to be worn when a peaked cap isn't necessary."
-	icon_state = "ncr_sidecap"
-	item_state = "ncr_sidecap"
-
-/obj/item/clothing/head/f13/ncr/ncr_sidecap/officer
-	name = "NCR garrison cap"
-	desc = "A cloth garrison cap to be worn when a peaked cap isn't necessary."
-	icon_state = "ncr_sidecap_officer"
-	item_state = "ncr_sidecap_officer"
-
-/obj/item/clothing/head/f13/ncr/ncr_campaign
-	name = "NCR campaign hat"
-	desc = "A khaki campaign hat, popularly used by senior NCOs in the NCRA."
-	icon_state = "ncr_campaign"
-	item_state = "ncr_campaign"
-
 /obj/item/clothing/head/beret/ncr
 	name = "NCR officer beret"
 	desc = "A green beret, standard issue for all commissioned NCR Officers."
@@ -730,33 +712,56 @@
 	icon_state = "ncr_sof_beret"
 	item_state = "ncr_sof_beret"
 
-/obj/item/clothing/head/f13/ncr/ncr_dresscap
-	name = "NCR peaked cap"
-	desc = "A tan peaked cap with a small silver pin of the NCR seal attached to it. An enlistedman in the NCRA should wear this."
-	icon_state = "ncr_dresscap"
-	item_state = "ncr_dresscap"
-	armor = list("melee" = 10, "bullet" = 15, "laser" = 10, "energy" = 10, "bomb" = 5, "bio" = 5, "rad" = 5, "fire" = 5, "acid" = 0, "wound" = 0)
-
-/obj/item/clothing/head/f13/ncr/ncr_dresscap_officer
-	name = "NCR peaked cap"
-	desc = "A tan peaked cap with a large golden badge of the NCR seal attached to it. An officer in the NCRA should wear this."
-	icon_state = "ncr_dresscap_officer"
-	item_state = "ncr_dresscap_officer"
-	armor = list("melee" = 10, "bullet" = 15, "laser" = 10, "energy" = 10, "bomb" = 5, "bio" = 5, "rad" = 5, "fire" = 5, "acid" = 0, "wound" = 0)
-
-/obj/item/clothing/head/f13/ncr/ncr_dresscap_senior
-	name = "NCR peaked cap"
-	desc = "A tan peaked cap with a large golden badge of the NCR seal attached to it and gold leaf embellishments on the visor. A senior officer in the NCRA should wear this (Major +)."
-	icon_state = "ncr_dresscap_senior"
-	item_state = "ncr_dresscap_senior"
-	armor = list("melee" = 10, "bullet" = 15, "laser" = 10, "energy" = 10, "bomb" = 5, "bio" = 5, "rad" = 5, "fire" = 5, "acid" = 0, "wound" = 0)
-
 /obj/item/clothing/head/helmet/f13/pith_helmet
 	name = "pith helmet"
 	desc = "A type of lightweight helmet often worn by rich colonialist assholes. Makes you want to bring the light of civilization to the savages."
 	icon_state = "pith_helmet"
 	item_state = "pith_helmet"
 	armor = list("melee" = 15, "bullet" = 15, "laser" = 10, "energy" = 10, "bomb" = 5, "bio" = 5, "rad" = 0, "fire" = 0, "acid" = 0, "wound" = 15)
+
+//NCR Service-Dress hats
+
+/obj/item/clothing/head/f13/ncr/ncr_dresscap
+	name = "NCR peaked cap"
+	desc = "A tan peaked cap with a small silver pin of the NCR seal attached to it. An enlistedman in the NCRA should wear this."
+	icon_state = "ncr_dresscap"
+	item_state = "ncr_dresscap"
+	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0, "wound" = 0)
+
+/obj/item/clothing/head/f13/ncr/ncr_dresscap_officer
+	name = "NCR peaked cap"
+	desc = "A tan peaked cap with a large golden badge of the NCR seal attached to it. An officer in the NCRA should wear this."
+	icon_state = "ncr_dresscap_officer"
+	item_state = "ncr_dresscap_officer"
+	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0, "wound" = 0)
+
+/obj/item/clothing/head/f13/ncr/ncr_dresscap_senior
+	name = "NCR peaked cap"
+	desc = "A tan peaked cap with a large golden badge of the NCR seal attached to it and gold leaf embellishments on the visor. A senior officer in the NCRA should wear this."
+	icon_state = "ncr_dresscap_senior"
+	item_state = "ncr_dresscap_senior"
+	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0, "wound" = 0)
+
+/obj/item/clothing/head/f13/ncr/ncr_sidecap
+	name = "NCR garrison cap"
+	desc = "A cloth garrison cap to be worn when a peaked cap is too formal. An enlistedman in the NCRA should wear this."
+	icon_state = "ncr_sidecap"
+	item_state = "ncr_sidecap"
+	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0, "wound" = 0)
+
+/obj/item/clothing/head/f13/ncr/ncr_sidecap/officer
+	name = "NCR garrison cap"
+	desc = "A cloth garrison cap to be worn when a peaked cap is too formal. An officer in the NCRA should wear this."
+	icon_state = "ncr_sidecap_officer"
+	item_state = "ncr_sidecap_officer"
+	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0, "wound" = 0)
+
+/obj/item/clothing/head/f13/ncr/ncr_campaign
+	name = "NCR campaign hat"
+	desc = "An imposing campaign hat. A senior NCO in the NCRA should wear this."
+	icon_state = "ncr_campaign"
+	item_state = "ncr_campaign"
+	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0, "wound" = 0)
 
 //NCR Ranger
 
