@@ -83,7 +83,7 @@
 
 /obj/item/clothing/under/f13/ncr
 	name = "NCR desert fatigues"
-	desc = "A set of standard issue New California Republic trooper fatigues."
+	desc = "A set of standard issue NCR Army trooper fatigues."
 	icon_state = "ncr_uniform"
 	can_adjust = TRUE
 	item_state = "ncr_uniform"
@@ -92,7 +92,7 @@
 
 /obj/item/clothing/under/f13/ncr/ncr_officer
 	name = "NCR officer fatigues"
-	desc = "A standard service uniform for commissioned officers of the New California Republic."
+	desc = "A standard issue uniform for commissioned officers of the NCR Army."
 	can_adjust = TRUE
 	icon_state = "ncr_officer"
 	item_state = "ncr_officer"
@@ -113,14 +113,6 @@
 	item_state = "scoutclothes"
 	item_color = "scoutclothes"
 
-/obj/item/clothing/under/f13/ncr/sniper
-	name = "NCR sniper fatigues"
-	desc = "A standard duty uniform for snipers of the New California Republic."
-	can_adjust = FALSE
-	icon_state = "ncr_snipermgs"
-	item_state = "ncr_snipermgs"
-	item_color = "ncr_snipermgs"
-
 /obj/item/clothing/under/f13/ncr/pants
 	name = "NCR fatigue pants"
 	desc = "A set of standard issue fatigue pants without the upper overcoat. For when you really need to show off your guns."
@@ -137,20 +129,13 @@
 	item_state = "ncr_shorts"
 	item_color = "ncr_shorts"
 
-/obj/item/clothing/under/f13/ncrcaravan
-	name = "NCR caravaneer outfit"
-	desc = "A soft outfit commonly worn by NCR caravaneers."
-	icon_state = "caravaneer"
-	item_state = "caravaneer"
-	item_color = "caravaneer"
-
-/obj/item/clothing/under/f13/ncr/ncr_dress
-	name = "NCR dress uniform"
-	desc = "A crisp tan NCRA dress uniform, complete with tie."
+/obj/item/clothing/under/f13/ncr/special_forces
+	name = "NCR special forces fatigues"
+	desc = "An experimental uniform issued to a few special forces units within the NCR Army."
 	can_adjust = TRUE
-	icon_state = "ncr_dress"
-	item_state = "ncr_dress"
-	item_color = "ncr_dress"
+	icon_state = "ncr_sof_uniform"
+	item_state = "ncr_sof_uniform"
+	item_color = "ncr_sof_uniform"
 
 /obj/item/clothing/under/f13/ncrcf
 	name = "caravaneer outfit"
@@ -159,6 +144,33 @@
 	icon_state = "ncrcf"
 	item_state = "ncrcf"
 	item_color = "ncrcf"
+
+/obj/item/clothing/under/f13/ncrcaravan
+	name = "NCR caravaneer outfit"
+	desc = "A soft outfit commonly worn by NCR caravaneers."
+	icon_state = "caravaneer"
+	item_state = "caravaneer"
+	item_color = "caravaneer"
+
+/*
+/obj/item/clothing/under/f13/ncr/sniper
+	name = "NCR sniper fatigues"
+	desc = "A standard duty uniform for snipers of the New California Republic."
+	can_adjust = FALSE
+	icon_state = "ncr_snipermgs"
+	item_state = "ncr_snipermgs"
+	item_color = "ncr_snipermgs"
+*/
+
+//NCR Service-Dress
+
+/obj/item/clothing/under/f13/ncr/ncr_dress
+	name = "NCR dress uniform"
+	desc = "A crisp tan NCRA dress uniform, complete with tie."
+	can_adjust = TRUE
+	icon_state = "ncr_dress"
+	item_state = "ncr_dress"
+	item_color = "ncr_dress"
 
 //Settlers
 
