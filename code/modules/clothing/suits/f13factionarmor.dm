@@ -497,8 +497,7 @@
 	desc = "A special issue NCR officer's coat."
 	icon_state = "ncr_dresscoat"
 	item_state = "ncr_dresscoat"
-	armor = list("melee" = 35, "bullet" = 37, "laser" = 25, "energy" = 20, "bomb" = 50, "bio" = 30, "rad" = 20, "fire" = 60, "acid" = 0, "wound" = 55)
-	salvage_loot = list(/obj/item/stack/crafting/armor_plate = 10)
+	armor = list("melee" = 5, "bullet" = 5, "laser" = 5, "energy" = 5, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0, "wound" = 0)
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/bulletbelt
 
 /obj/item/clothing/suit/armor/f13/ncrarmor/ncr_dressjack

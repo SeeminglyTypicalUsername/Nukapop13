@@ -777,7 +777,7 @@
 	fire_delay = 1
 	burst_size = 1
 	spread = 1
-	extra_damage = 25
+	extra_damage = 30
 	can_attachments = TRUE
 	automatic_burst_overlay = FALSE
 	semi_auto = TRUE
