@@ -266,6 +266,14 @@
 	build_path = /obj/item/key/collar
 	category = list("initial", "Misc")
 
+/datum/design/binoculars
+	name = "Binoculars"
+	id = "binoculars"
+	build_type = AUTOLATHE
+	materials = list(/datum/material/iron = 10, /datum/material/glass = 5)
+	build_path = /obj/item/binoculars
+	category = list("initial", "Misc")
+
 /datum/design/price_tagger
 	name = "Price Tagger"
 	id = "price_tagger"

@@ -1,6 +1,6 @@
 /datum/job/pitrats
 	department_flag = PITRATS
-	selection_color = "#d580ff"
+	selection_color = "#ff8080"
 	faction = FACTION_PITRATS
 	maptype = "yuma"
 
@@ -15,7 +15,7 @@
 	description = "A veteran of the Pit-Rats, you have long outlived your rivals to the position by promising those below you with booze and entertainment, many years were spent achieving this role of honour. You are the head honcho of the Pit-Rats, you own the pit and the rats, organize fights and the capturing of slaves, take bets, and ensure your rats are topped up with booze, we wouldn't want one getting too antsy and thinking they can take your position."
 	supervisors = "no one."
 	req_admin_notify = 1
-	selection_color = "#ff8080"
+	selection_color = "#ee6e6e"
 	exp_requirements = 0
 	exp_type = EXP_TYPE_WASTELAND
 	forbids = "Cowardice, soberiety, and fruit juice."

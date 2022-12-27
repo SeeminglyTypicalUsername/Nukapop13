@@ -38374,7 +38374,7 @@
 /obj/structure/bed/mattress{
 	pixel_y = 5
 	},
-/obj/effect/landmark/start/f13/ncrfirstsergeant,
+/obj/effect/landmark/start/f13/ncrstaffsergeant,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/ncr)
 "tYy" = (
