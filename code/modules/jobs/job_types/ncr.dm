@@ -301,7 +301,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	name = "Lead from the Front"
 	suit_store = null
 	backpack_contents = list(
-		/obj/item/clothing/suit/armor/f13/ncrarmor/captain/ncr_officer_coat = 1,
+		/obj/item/clothing/suit/armor/f13/ncrarmor/lieutenant = 1,
 		/obj/item/gun/ballistic/automatic/pistol/deagle = 1,
 		/obj/item/ammo_box/magazine/m44 = 3,
 		/obj/item/storage/box/ration/menu_two = 1,
