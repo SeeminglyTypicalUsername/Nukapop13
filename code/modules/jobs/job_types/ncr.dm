@@ -253,39 +253,72 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		),
 	)
 
-/datum/outfit/job/ncr/f13lieutenant		// Republic's Pride, Binoculars, Bayonet, M1911 custom
-	name = "NCR Lieutenant"
-	jobtype	= /datum/job/ncr/f13lieutenant
-	id = /obj/item/card/id/dogtag/ncrlieutenant
-	uniform	= /obj/item/clothing/under/f13/ncr/ncr_officer
-	shoes =	/obj/item/clothing/shoes/f13/military/ncr_officer_boots
-	accessory = /obj/item/clothing/accessory/ncr/LT1
-	head = /obj/item/clothing/head/beret/ncr
-	neck = /obj/item/storage/belt/holster/legholster
-	glasses = /obj/item/clothing/glasses/night/ncr
-	gloves = /obj/item/clothing/gloves/f13/leather
-	ears = /obj/item/radio/headset/headset_ncr_com
-	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/dresscoat
-	r_pocket = /obj/item/binoculars
-	suit_store = /obj/item/gun/ballistic/automatic/m1garand/republicspride
-	backpack_contents = list(
-		/obj/item/melee/onehanded/knife/bayonet = 1,
-		/obj/item/gun/ballistic/automatic/pistol/m1911/custom = 1,
-		/obj/item/ammo_box/magazine/m45 = 3,
-		/obj/item/storage/bag/money/small/ncrofficers = 1,
-		/obj/item/ammo_box/magazine/garand308 = 1,
-		/obj/item/grenade/syndieminibomb/concussion = 1,
-		/obj/item/stack/crafting/armor_plate = 5
+
+	loadout_options = list(
+		/datum/outfit/loadout/lieutenantbattle, //deagle
+		/datum/outfit/loadout/lieutenantformal, //deagle
 		)
+
 
 /datum/outfit/job/ncr/f13lieutenant/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
 	if(visualsOnly)
 		return
 	ADD_TRAIT(H, TRAIT_GENERIC, src)
-	ADD_TRAIT(H, TRAIT_SELF_AWARE, src)
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
 	ADD_TRAIT(H, TRAIT_LIFEGIVER, src)
+	ADD_TRAIT(H, TRAIT_SELF_AWARE, src)
+	if(H.mind)
+		var/obj/effect/proc_holder/spell/terrifying_presence/S = new /obj/effect/proc_holder/spell/terrifying_presence
+		H.mind.AddSpell(S)
+
+
+/datum/outfit/job/ncr/f13lieutenant	// Binoculars, Trench knife
+	name = "NCR Lieutenant"
+	jobtype = /datum/job/ncr/f13lieutenant
+	id = /obj/item/card/id/dogtag/f13lieutenant
+	uniform	= /obj/item/clothing/under/f13/ncr/ncr_officer
+	head = /obj/item/clothing/head/beret/ncr
+	glasses = /obj/item/clothing/glasses/sunglasses/big
+	ears = /obj/item/radio/headset/headset_ncr_com
+	glasses = /obj/item/clothing/glasses/night/ncr
+	gloves = /obj/item/clothing/gloves/f13/leather
+	shoes = /obj/item/clothing/shoes/f13/military/ncr_officer_boots
+	accessory = /obj/item/clothing/accessory/ncr/LT
+	mask = /obj/item/clothing/mask/cigarette/pipe
+	neck = /obj/item/storage/belt/holster/legholster
+	r_pocket = /obj/item/binoculars
+	backpack_contents = list(
+		/obj/item/storage/bag/money/small/ncr = 1,
+		/obj/item/megaphone = 1,
+		/obj/item/grenade/syndieminibomb/concussion = 2,
+		/obj/item/lighter = 1,
+		/obj/item/reagent_containers/food/snacks/grown/tobacco/dried = 2,
+		/obj/item/stack/crafting/armor_plate = 5
+		)
+
+/datum/outfit/loadout/lieutenantbattle
+	name = "Lead from the Front"
+	suit_store = null
+	backpack_contents = list(
+		/obj/item/clothing/suit/armor/f13/ncrarmor/captain/ncr_officer_coat = 1,
+		/obj/item/gun/ballistic/automatic/pistol/deagle = 1,
+		/obj/item/ammo_box/magazine/m44 = 3,
+		/obj/item/storage/box/ration/menu_two = 1,
+		/obj/item/melee/onehanded/knife/trench = 1,
+		)
+
+/datum/outfit/loadout/lieutenantformal
+	name = "Parade Lieutenant"
+	suit_store = null
+	backpack_contents = list(
+		/obj/item/clothing/suit/armor/f13/ncrarmor/dresscoat = 1,
+		/obj/item/gun/ballistic/automatic/pistol/deagle = 1,
+		/obj/item/ammo_box/magazine/m44 = 3,
+		/obj/item/storage/box/ration/menu_eight = 1,
+		)
+
+
 
 // STAFF SERGEANT
 
@@ -323,18 +356,23 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 
 /datum/outfit/job/ncr/f13staffsergeant
 	name = "NCR Staff Sergeant"
-	jobtype = /datum/job/ncr/f13sergeant
+	jobtype	= /datum/job/ncr/f13lieutenant
 	id = /obj/item/card/id/dogtag/ncrsergeant
 	accessory = /obj/item/clothing/accessory/ncr/SSGT
-	gloves = /obj/item/clothing/gloves/f13/leather/fingerless
-	head = /obj/item/clothing/head/f13/ncr
-	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/mantle/reinforced
 	neck = /obj/item/storage/belt/holster/legholster
+	glasses = /obj/item/clothing/glasses/night/ncr
+	gloves = /obj/item/clothing/gloves/f13/leather
+	ears = /obj/item/radio/headset/headset_ncr_com
+	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/mantle/reinforced
+	r_pocket = /obj/item/binoculars
+	suit_store = /obj/item/gun/ballistic/automatic/m1garand/republicspride
 	backpack_contents = list(
-		/obj/item/storage/bag/money/small/ncrofficers = 1,
-		/obj/item/grenade/f13/frag = 1,
-		/obj/item/gun/ballistic/automatic/pistol/m1911 = 1,
+		/obj/item/melee/onehanded/knife/bayonet = 1,
+		/obj/item/gun/ballistic/automatic/pistol/m1911/custom = 1,
 		/obj/item/ammo_box/magazine/m45 = 3,
+		/obj/item/storage/bag/money/small/ncrofficers = 1,
+		/obj/item/ammo_box/magazine/garand308 = 1,
+		/obj/item/grenade/syndieminibomb/concussion = 1,
 		/obj/item/stack/crafting/armor_plate = 5
 		)
 
@@ -1002,6 +1040,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	name = "NCR Corporal"
 	jobtype	= /datum/job/ncr/f13corporal
 	id = /obj/item/card/id/dogtag/ncrtrooper
+	accessory = /obj/item/clothing/accessory/ncr/CPL
 	suit = /obj/item/clothing/suit/armor/f13/ncrarmor/mantle
 	backpack_contents = list(
 		/obj/item/melee/onehanded/knife/bayonet = 1,
@@ -1058,6 +1097,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	name = "NCR Trooper"
 	jobtype	= /datum/job/ncr/f13trooper
 	id = /obj/item/card/id/dogtag/ncrtrooper
+	accessory = /obj/item/clothing/accessory/ncr/TPR
 	head = /obj/item/clothing/head/f13/ncr
 	suit = /obj/item/clothing/suit/armor/f13/ncrarmor
 	glasses	= null
