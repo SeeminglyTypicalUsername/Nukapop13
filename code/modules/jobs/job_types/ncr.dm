@@ -276,7 +276,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 /datum/outfit/job/ncr/f13lieutenant	// Binoculars, Trench knife
 	name = "NCR Lieutenant"
 	jobtype = /datum/job/ncr/f13lieutenant
-	id = /obj/item/card/id/dogtag/f13lieutenant
+	id = /obj/item/card/id/dogtag/ncrlieutenant
 	uniform	= /obj/item/clothing/under/f13/ncr/ncr_officer
 	head = /obj/item/clothing/head/beret/ncr
 	glasses = /obj/item/clothing/glasses/sunglasses/big
@@ -284,7 +284,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	glasses = /obj/item/clothing/glasses/night/ncr
 	gloves = /obj/item/clothing/gloves/f13/leather
 	shoes = /obj/item/clothing/shoes/f13/military/ncr_officer_boots
-	accessory = /obj/item/clothing/accessory/ncr/LT
+	accessory = /obj/item/clothing/accessory/ncr/LT1
 	mask = /obj/item/clothing/mask/cigarette/pipe
 	neck = /obj/item/storage/belt/holster/legholster
 	r_pocket = /obj/item/binoculars
