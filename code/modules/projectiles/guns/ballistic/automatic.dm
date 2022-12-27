@@ -1089,12 +1089,12 @@
 	suppressor_y_offset = 28
 
 
-//R91 assault rifle				Keywords: 5.56mm, Automatic, 20 (10-50) round magazine, 25dmg
+//M16 assault rifle (RIP R91 REST IN PISS)				Keywords: 5.56mm, Automatic, 20 (10-50) round magazine, 25dmg
 /obj/item/gun/ballistic/automatic/assault_rifle
-	name = "r91 assault rifle"
-	desc = "The R91 was the standard US Army assault rifle, and so saw wide-spread use after the war. Most are worn out by now."
-	icon_state = "assault_rifle"
-	item_state = "fnfal"
+	name = "M16 assault rifle"
+	desc = "A 5.56mm assault rifle that was widely used by the old-world United States military for over one-hundred years."
+	icon_state = "m16a1"
+	item_state = "assault_carbine"
 	mag_type = /obj/item/ammo_box/magazine/m556/rifle
 	fire_delay = 2.5
 	slowdown = 0.35
@@ -1114,13 +1114,13 @@
 	suppressor_y_offset = 15
 	suppressor_state = "ar_suppressor"
 	actions_types = list(/datum/action/item_action/toggle_firemode)
-	fire_sound = 'sound/f13weapons/varmint_rifle.ogg'
+	fire_sound = 'sound/f13weapons/assault_carbine.ogg'
 
 
 //Infiltrator			Keywords: 5.56mm, Automatic, 20 (10-50) round magazine, Suppressed, Small scope, Pistol grip
 /obj/item/gun/ballistic/automatic/assault_rifle/infiltrator
 	name = "infiltrator"
-	desc = "A customized R91 assault rifle, with an integrated suppressor, small scope, cut down stock and polymer furniture."
+	desc = "A customized assault rifle, with an integrated suppressor, small scope, cut down stock and polymer furniture."
 	icon_state = "infiltrator"
 	item_state = "fnfal"
 	mag_type = /obj/item/ammo_box/magazine/m556/rifle

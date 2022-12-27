@@ -226,7 +226,7 @@
 /obj/item/book/manual/thebook/purple
 	name = "The Purple Book"
 	icon_state = "the_book"
-	author = "High Priest Gressil"
+	author = "High Priest Atlas"
 	title = "The Purple Book"
 	dat = {"<html>
 				<p><strong>THE PURPLE BOOK </strong></p>

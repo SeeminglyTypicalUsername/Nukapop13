@@ -3495,7 +3495,7 @@
 /obj/structure/table/wood/settler,
 /obj/item/assembly/signaler/advanced,
 /obj/item/paper{
-	info = "<p>Recommend Pricing Scheme:<br />50-100 caps: Non-stimpack first aid.<br />150 caps: Price of stimpaks used or sold.<br />200-250 caps: Price of surgery<br />300-400 caps: Price of revival.</p>";
+	info = "<p>Recommend Pricing Scheme:<br />50 caps: Non-stimpack first aid.<br />100 caps: Price of stimpaks used or sold.<br />100-150 caps: Price of surgery<br />200-300 caps: Price of revival.</p>";
 	name = "pricing"
 	},
 /turf/open/floor/f13{
