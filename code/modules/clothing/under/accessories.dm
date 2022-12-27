@@ -495,10 +495,38 @@
 //Ranks
 
 /obj/item/clothing/accessory/ncr
+	name = "Conscript pins"
+	desc = "Conscripts should wear these."
+	icon_state = "ncrenlisted"
+	item_color = "ncrenlisted"
+	minimize_when_attached = TRUE
+
+/obj/item/clothing/accessory/ncr/BRIG
+	name = "(O-7) Brigadier General rank pin"
+	desc = "An officer holding the rank of Brigadier General should wear these."
+	icon_state = "brigadiergeneralrank"
+	item_color = "brigadiergeneralrank"
+	minimize_when_attached = TRUE
+
+/obj/item/clothing/accessory/ncr/COL
 	name = "(O-6) Colonel rank pin"
 	desc = "An officer holding the rank of Colonel should wear these."
 	icon_state = "colonelrank"
 	item_color = "colonelrank"
+	minimize_when_attached = TRUE
+
+/obj/item/clothing/accessory/ncr/LTCOL
+	name = "(O-5) Lieutenant Colonel rank pin"
+	desc = "An officer holding the rank of Lieutenant Colonel should wear this."
+	icon_state = "lieutenantcolonelrank"
+	item_color = "lieutenantcolonelrank"
+	minimize_when_attached = TRUE
+
+/obj/item/clothing/accessory/ncr/MAJ
+	name = "(O-4) Major rank pin"
+	desc = "An officer holding the rank of Major should wear this."
+	icon_state = "majorrank"
+	item_color = "majorrank"
 	minimize_when_attached = TRUE
 
 /obj/item/clothing/accessory/ncr/CPT
@@ -520,13 +548,27 @@
 	desc = "An officer holding the rank of Second Lieutenant should wear this."
 	icon_state = "secondlieutenantrank"
 	item_color = "secondlieutenantrank"
-	minimize_when_attached = TRUE
+	minimize_when_attached = TRUE	
 
 /obj/item/clothing/accessory/armband/med/ncr
 	name = "Medical Personnel armband"
 	desc = "An armband worn by NCR medical personnel. This one is white."
 
+/obj/item/clothing/accessory/ncr/SGTMAJ
+	name = "(E-9) Sergeant Major rank pins"
+	desc = "A trooper holding the rank of Sergeant Major should wear this."
+	icon_state = "ncrenlisted"
+	item_color = "ncrenlisted"
+	minimize_when_attached = TRUE
+
 /obj/item/clothing/accessory/ncr/FSGT
+	name = "(E-8) First Sergeant rank pins"
+	desc = "A trooper holding the rank of First Sergeant should wear this."
+	icon_state = "ncrenlisted"
+	item_color = "ncrenlisted"
+	minimize_when_attached = TRUE
+
+/obj/item/clothing/accessory/ncr/SFC
 	name = "(E-7) Sergeant First Class rank pins"
 	desc = "A trooper holding the rank of Sergeant First Class should wear this."
 	icon_state = "ncrenlisted"
@@ -558,13 +600,6 @@
 	item_color = "ncrenlisted"
 	minimize_when_attached = TRUE
 
-/obj/item/clothing/accessory/ncr/MCPL
-	name = "(E-4E) Master Corporal rank pins"
-	desc = "A Master Corporal should wear this."
-	icon_state = "ncrenlisted"
-	item_color = "ncrenlisted"
-	minimize_when_attached = TRUE
-
 /obj/item/clothing/accessory/ncr/SPC
 	name = "(E-4) Specialist rank pins"
 	desc = "A Specialist should wear this."
@@ -572,16 +607,23 @@
 	item_color = "ncrenlisted"
 	minimize_when_attached = TRUE
 
-/obj/item/clothing/accessory/ncr/TPR
+/obj/item/clothing/accessory/ncr/PFC
 	name = "(E-3) Private First Class rank pins"
 	desc = "A trooper should wear this."
 	icon_state = "ncrenlisted"
 	item_color = "ncrenlisted"
 	minimize_when_attached = TRUE
 
-/obj/item/clothing/accessory/ncr/REC
+/obj/item/clothing/accessory/ncr/PVT
 	name = "(E-2) Private rank pins"
-	desc = "A conscript should wear this."
+	desc = "A private should wear this."
+	icon_state = "ncrenlisted"
+	item_color = "ncrenlisted"
+	minimize_when_attached = TRUE
+
+/obj/item/clothing/accessory/ncr/REC
+	name = "(E-1) Recruit rank pins"
+	desc = "A recruit should wear this."
 	icon_state = "ncrenlisted"
 	item_color = "ncrenlisted"
 	minimize_when_attached = TRUE
@@ -597,34 +639,6 @@
 	desc = "A ranger should wear this."
 	icon_state = "ncrenlisted"
 	item_color = "ncrenlisted"
-
-/obj/item/clothing/accessory/ranger/SGT
-	name = "'Ranger-Sergeant' rank pins"
-	desc = "A Ranger-Sergeant should wear this."
-
-/obj/item/clothing/accessory/ranger/LT
-	name = "'Ranger-Lieutenant' rank pins"
-	desc = "A Ranger-Lieutenant should wear this."
-	icon_state = "lieutenantrank"
-	item_color = "lieutenantrank"
-
-/obj/item/clothing/accessory/ranger/CPT
-	name = "'Ranger-Captain' rank pins"
-	desc = "A Ranger-Captain should wear this."
-	icon_state = "captainrank"
-	item_color = "captainrank"
-
-/obj/item/clothing/accessory/ranger/MAJ
-	name = "'Ranger-Major' rank pins"
-	desc = "A Ranger-Major should wear this."
-	icon_state = "majorrank"
-	item_color = "majorrank"
-
-/obj/item/clothing/accessory/ranger/ACR
-	name = "'Assistant-Chief Ranger' rank pins"
-	desc = "An Assistant-Chief Ranger should wear this."
-	icon_state = "colonelrank" //TO-DO: Add a new sprite
-	item_color = "colonelrank"
 
 /obj/item/clothing/accessory/ranger/CR
 	name = "'Chief Ranger' rank pins"
