@@ -1507,23 +1507,21 @@ list(/obj/item/stack/sheet/metal = 20,
 	new /obj/item/melee/onehanded/knife/bayonet(src)
 	new /obj/item/storage/box/ration/menu_two(src)
 
-/obj/item/storage/box/gunbox/ncr/trooper/set2/PopulateContents() //m1carbine, trench shovel
-	new /obj/item/gun/ballistic/automatic/m1carbine/m1n(src)
-	new /obj/item/ammo_box/magazine/m10mm_adv/ext(src)
-	new /obj/item/ammo_box/magazine/m10mm_adv/ext(src)
+/obj/item/storage/box/gunbox/ncr/trooper/set2/PopulateContents() //service, trench shovel
+	new /obj/item/gun/ballistic/automatic/service(src)
+	new /obj/item/ammo_box/magazine/m556/rifle/empty(src)
+	new /obj/item/ammo_box/magazine/m556/rifle/empty(src)
+	new /obj/item/ammo_box/a556/sport(src)
 	new /obj/item/shovel/trench(src)
 	new /obj/item/storage/box/ration/menu_eight(src)
 
 //corporal
 
-/obj/item/storage/box/gunbox/ncr/corporal/set1/PopulateContents() //scout carbine, ninemil, legholster
-	new /obj/item/gun/ballistic/automatic/service/carbine(src)
-	new /obj/item/ammo_box/magazine/m556/rifle(src)
-	new /obj/item/ammo_box/magazine/m556/rifle(src)
+/obj/item/storage/box/gunbox/ncr/corporal/set1/PopulateContents() //hunting rifle, scope
+	new /obj/item/gun/ballistic/rifle/hunting(src)
 	new /obj/item/attachments/scope(src)
-	new /obj/item/storage/belt/holster/legholster
-	new /obj/item/gun/ballistic/automatic/pistol/ninemil(src)
-	new /obj/item/ammo_box/magazine/m9mmds(src)
+	new /obj/item/ammo_box/a308(src)
+	new /obj/item/ammo_box/a308(src)
 	new /obj/item/storage/box/ration/menu_two
 
 /obj/item/storage/box/gunbox/ncr/corporal/set2/PopulateContents() //greasegun
