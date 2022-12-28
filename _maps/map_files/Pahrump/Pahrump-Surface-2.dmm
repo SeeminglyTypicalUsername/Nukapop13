@@ -3182,6 +3182,15 @@
 	icon_state = "housewood4-broken"
 	},
 /area/f13/raiders)
+"boR" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/machinery/newscaster{
+	pixel_y = -28
+	},
+/turf/open/floor/wood/f13/oak,
+/area/f13/building)
 "boS" = (
 /obj/structure/car/rubbish2,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -11998,6 +12007,13 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/building)
+"fnY" = (
+/obj/item/trash/f13/rotten,
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 4;
+	icon_state = "dirt"
+	},
+/area/f13/wasteland)
 "fof" = (
 /obj/structure/chair/stool/bar,
 /turf/open/floor/f13/wood{
@@ -13677,6 +13693,12 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/city)
+"fXM" = (
+/obj/structure/wreck/trash/five_tires,
+/turf/open/indestructible/ground/outside/wood{
+	icon_state = "wood"
+	},
+/area/f13/wasteland)
 "fXO" = (
 /obj/structure/car/rubbish1,
 /turf/open/indestructible/ground/outside/road{
@@ -14612,6 +14634,13 @@
 	icon_state = "horizontalinnermain0"
 	},
 /area/f13/tunnel)
+"gqD" = (
+/obj/structure/wreck/trash/four_barrels,
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 5;
+	icon_state = "dirt"
+	},
+/area/f13/wasteland)
 "gqI" = (
 /obj/structure/table,
 /obj/item/stock_parts/manipulator/pico,
@@ -16418,38 +16447,11 @@
 /area/f13/building)
 "hdY" = (
 /obj/structure/table/wood/settler,
-/obj/item/paper/pamphlet{
-	name = "Church pamplet";
-	info = "<p>Father, guide your children through your Vineyard.<br />Father, guide us down the path to Unity.<br />Father, have mercy upon us<br />Father, have no mercy for the Unbelievers.</p><p>Father, who brought forth the Angels, protect us.<br />Father, who saved us from destruction, protect us.<br />Father, who shielded us from barbarism, protect us.<br />Father, who showed us the way to Unity, protect us.</p>"
-	},
-/obj/item/paper/pamphlet{
-	name = "Church pamplet";
-	info = "<p>Father, guide your children through your Vineyard.<br />Father, guide us down the path to Unity.<br />Father, have mercy upon us<br />Father, have no mercy for the Unbelievers.</p><p>Father, who brought forth the Angels, protect us.<br />Father, who saved us from destruction, protect us.<br />Father, who shielded us from barbarism, protect us.<br />Father, who showed us the way to Unity, protect us.</p>"
-	},
-/obj/item/paper/pamphlet{
-	name = "Church pamplet";
-	info = "<p>Father, guide your children through your Vineyard.<br />Father, guide us down the path to Unity.<br />Father, have mercy upon us<br />Father, have no mercy for the Unbelievers.</p><p>Father, who brought forth the Angels, protect us.<br />Father, who saved us from destruction, protect us.<br />Father, who shielded us from barbarism, protect us.<br />Father, who showed us the way to Unity, protect us.</p>"
-	},
-/obj/item/paper/pamphlet{
-	name = "Church pamplet";
-	info = "<p>Father, guide your children through your Vineyard.<br />Father, guide us down the path to Unity.<br />Father, have mercy upon us<br />Father, have no mercy for the Unbelievers.</p><p>Father, who brought forth the Angels, protect us.<br />Father, who saved us from destruction, protect us.<br />Father, who shielded us from barbarism, protect us.<br />Father, who showed us the way to Unity, protect us.</p>"
-	},
-/obj/item/paper/pamphlet{
-	name = "Let Faith Be Your Shield";
-	info = <p>LETFAITHBEYOURSHIELD:<br/>Areyoudisillusionedwithlife?Starving,destitute?Doyoudesirecommunity,brotherhood,andastructuredlife?Nomatteryourbackground,past,orsocialstatus,theChurchwillacceptyouintothefold,freeofcharge.Ifyouaresufferingfromindebtedness,theChurchwillevenpayoffanydebtslowerthan500capswhenyoujointheclergy,andwillforgiveanymedicaldebtyoumayowetotheFaithitself.LettheFatherguideyouintothepathofUnity!SpeaktoaServitortoday.</span></p>
-	},
-/obj/item/paper/pamphlet{
-	name = "Let Faith Be Your Shield";
-	info = <p>LETFAITHBEYOURSHIELD:<br/>Areyoudisillusionedwithlife?Starving,destitute?Doyoudesirecommunity,brotherhood,andastructuredlife?Nomatteryourbackground,past,orsocialstatus,theChurchwillacceptyouintothefold,freeofcharge.Ifyouaresufferingfromindebtedness,theChurchwillevenpayoffanydebtslowerthan500capswhenyoujointheclergy,andwillforgiveanymedicaldebtyoumayowetotheFaithitself.LettheFatherguideyouintothepathofUnity!SpeaktoaServitortoday.</span></p>
-	},
-/obj/item/paper/pamphlet{
-	name = "Let Faith Be Your Shield";
-	info = <p>LETFAITHBEYOURSHIELD:<br/>Areyoudisillusionedwithlife?Starving,destitute?Doyoudesirecommunity,brotherhood,andastructuredlife?Nomatteryourbackground,past,orsocialstatus,theChurchwillacceptyouintothefold,freeofcharge.Ifyouaresufferingfromindebtedness,theChurchwillevenpayoffanydebtslowerthan500capswhenyoujointheclergy,andwillforgiveanymedicaldebtyoumayowetotheFaithitself.LettheFatherguideyouintothepathofUnity!SpeaktoaServitortoday.</span></p>
-	},
-/obj/item/paper/pamphlet{
-	name = "Let Faith Be Your Shield";
-	info = <p>LETFAITHBEYOURSHIELD:<br/>Areyoudisillusionedwithlife?Starving,destitute?Doyoudesirecommunity,brotherhood,andastructuredlife?Nomatteryourbackground,past,orsocialstatus,theChurchwillacceptyouintothefold,freeofcharge.Ifyouaresufferingfromindebtedness,theChurchwillevenpayoffanydebtslowerthan500capswhenyoujointheclergy,andwillforgiveanymedicaldebtyoumayowetotheFaithitself.LettheFatherguideyouintothepathofUnity!SpeaktoaServitortoday.</span></p>
-	},
+/obj/item/paper/pamphlet/church1,
+/obj/item/paper/pamphlet/church1,
+/obj/item/paper/pamphlet/church1,
+/obj/item/paper/pamphlet/church1,
+/obj/item/paper/pamphlet/church1,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
@@ -17743,6 +17745,13 @@
 /obj/item/storage/box/matches,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/building)
+"hET" = (
+/obj/item/trash/pistachios,
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 8;
+	icon_state = "dirt"
+	},
+/area/f13/wasteland)
 "hFM" = (
 /obj/structure/chair/wood/worn{
 	dir = 4
@@ -19207,6 +19216,12 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/building)
+"ikV" = (
+/obj/machinery/bookbinder,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/cotc)
 "ilf" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/closet/cardboard,
@@ -19285,9 +19300,11 @@
 /area/f13/wasteland)
 "imL" = (
 /obj/structure/table/wood/settler,
-/obj/item/reagent_containers/glass/beaker/large,
-/obj/item/reagent_containers/glass/beaker/large,
-/obj/item/reagent_containers/glass/beaker/large,
+/obj/item/paper/pamphlet/church2,
+/obj/item/paper/pamphlet/church2,
+/obj/item/paper/pamphlet/church2,
+/obj/item/paper/pamphlet/church2,
+/obj/item/paper/pamphlet/church2,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
@@ -23169,6 +23186,15 @@
 	dir = 4
 	},
 /area/f13/building)
+"jSy" = (
+/obj/machinery/newscaster{
+	pixel_y = 31
+	},
+/turf/open/floor/f13{
+	color = "#818181";
+	icon_state = "floorrustysolid"
+	},
+/area/f13/building)
 "jSD" = (
 /obj/structure/barricade/bars,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
@@ -23343,7 +23369,7 @@
 /turf/open/floor/wood,
 /area/f13/building)
 "jVM" = (
-/obj/structure/table,
+/obj/structure/stairs/north,
 /turf/open/floor/wood,
 /area/f13/building)
 "jVO" = (
@@ -24138,6 +24164,17 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
+"klq" = (
+/mob/living/simple_animal/hostile/radroach{
+	desc = "The most trustworthy ally of the sheriff. This tough bug has survived dozens of attempts to squish 'em. ";
+	faction = list("neutral");
+	health = 60;
+	name = "Acolyte Bug";
+	social_faction = list("neutral");
+	dir = 8
+	},
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "kls" = (
 /obj/item/twohanded/spear/scrapspear,
 /turf/open/indestructible/ground/inside/mountain,
@@ -24167,6 +24204,12 @@
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontaltopbordertop1"
+	},
+/area/f13/wasteland)
+"klP" = (
+/obj/structure/wreck/trash/brokenvendor,
+/turf/open/indestructible/ground/outside/wood{
+	icon_state = "wood"
 	},
 /area/f13/wasteland)
 "klS" = (
@@ -25326,7 +25369,6 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "kMn" = (
-/obj/structure/table,
 /obj/structure/sink/kitchen{
 	dir = 8;
 	pixel_x = 12
@@ -26984,14 +27026,11 @@
 /area/f13/village)
 "lAW" = (
 /obj/structure/destructible/tribal_torch/wall/lit,
-/mob/living/simple_animal/hostile/radroach{
-	desc = "The most trustworthy ally of the sheriff. This tough bug has survived dozens of attempts to squish 'em. ";
-	faction = list("neutral");
-	health = 60;
-	name = "Acolyte Bug";
-	social_faction = list("neutral");
-	dir = 8
-	},
+/obj/structure/rack,
+/obj/item/reagent_containers/glass/beaker/large,
+/obj/item/reagent_containers/glass/beaker/large,
+/obj/item/reagent_containers/glass/beaker/large,
+/obj/item/reagent_containers/glass/beaker/large,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
@@ -27285,6 +27324,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/wood_large,
 /area/f13/building)
+"lIy" = (
+/obj/item/trash/tray,
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 8;
+	icon_state = "dirt"
+	},
+/area/f13/wasteland)
 "lIT" = (
 /turf/open/floor/wood/wood_tiled,
 /area/f13/building)
@@ -28799,6 +28845,13 @@
 "mpu" = (
 /turf/open/floor/carpet/black,
 /area/f13/legion)
+"mpy" = (
+/obj/structure/wreck/trash/five_tires,
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 4;
+	icon_state = "dirt"
+	},
+/area/f13/wasteland)
 "mpQ" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/indestructible/ground/inside/mountain,
@@ -35501,6 +35554,12 @@
 "ptP" = (
 /obj/structure/tires/two,
 /turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
+"ptZ" = (
+/obj/structure/closet/crate/trashcart,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
 /area/f13/wasteland)
 "puc" = (
 /obj/structure/chair/greyscale{
@@ -46863,6 +46922,10 @@
 /obj/item/stack/f13Cash/caps/fivezero,
 /turf/open/floor/wood/f13/oakbroken4,
 /area/f13/building)
+"uuJ" = (
+/obj/structure/wreck/trash/bus_door,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "uvb" = (
 /obj/structure/tires/five,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -51345,6 +51408,12 @@
 	},
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticaloutermain2top"
+	},
+/area/f13/wasteland)
+"wtS" = (
+/obj/structure/wreck/trash/two_tire,
+/turf/open/indestructible/ground/outside/wood{
+	icon_state = "wood"
 	},
 /area/f13/wasteland)
 "wue" = (
@@ -82598,7 +82667,7 @@ dxm
 aRl
 fvF
 gHP
-ozq
+boR
 dCV
 jfx
 kiH
@@ -82617,7 +82686,7 @@ hYE
 doX
 cWG
 daU
-mHj
+rRe
 kEI
 aRl
 umD
@@ -82874,7 +82943,7 @@ iPZ
 ydO
 ydO
 ydO
-ydO
+wtS
 kEI
 ftu
 kEI
@@ -87231,10 +87300,10 @@ ydO
 ydO
 ydO
 mQS
-mvv
+uuJ
 aBH
-mfD
-mfD
+lIy
+hET
 xGH
 mHj
 ydO
@@ -87489,9 +87558,9 @@ gks
 cJE
 giZ
 giZ
-doX
-cWG
-cWG
+gqD
+mpy
+fnY
 daU
 mHj
 ydO
@@ -88511,7 +88580,7 @@ mCs
 nyv
 eyf
 giZ
-mCs
+jSy
 mCs
 szP
 mCs
@@ -90838,7 +90907,7 @@ mHj
 ydO
 mHj
 vPX
-vAg
+ikV
 ipm
 ipm
 gtz
@@ -91088,10 +91157,10 @@ fky
 mCs
 giZ
 giZ
-mCs
+jSy
 hcf
 giZ
-ydO
+klP
 ydO
 vYN
 vPX
@@ -91348,7 +91417,7 @@ iZX
 mCs
 xfB
 giZ
-ydO
+fXM
 ydO
 ydO
 vPX
@@ -91610,7 +91679,7 @@ ydO
 ydO
 ydO
 ydO
-mHj
+ptZ
 vPX
 iDa
 kLO
@@ -92391,7 +92460,7 @@ buh
 fqS
 mvv
 rjH
-mvv
+klq
 rjH
 dCV
 giZ

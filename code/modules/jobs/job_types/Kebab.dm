@@ -696,7 +696,7 @@ Mayor
 	department_flag = DEP_OASIS
 	total_positions = -1
 	spawn_positions = -1
-	supervisors = "no one."
+	supervisors = "no one"
 	description = "Welcome to Kebab, you're a deadbeat parasite infesting the slums of this shanty town. You have no inherent rights, the established locals look down upon you, and you've probably earned that."
 	selection_color = "#c3d5d5"
 
@@ -763,3 +763,44 @@ Mayor
 		/obj/item/reagent_containers/pill/patch/turbo,
 		/obj/item/reagent_containers/hypospray/medipen/psycho,
 		/obj/item/reagent_containers/hypospray/medipen/medx)
+/*--------------------------------------------------------------*/
+
+/datum/job/oasis/f13radiohost
+	title = "Radio Host"
+	flag = F13RADIOHOST
+	department_flag = DEP_OASIS
+	total_positions = 1
+	spawn_positions = 1
+	supervisors = "no one"
+	description = "You are the radio host, one of the town's few independent residents. You control the pre-war radio tower, and are expected to provide regular broadcasts and news to the surrounding wasteland. You are tolerated by the town's factions because of your ability to advertise for them, but none of them has thus far managed to assimilate you into their own group."
+	selection_color = "#c3d5d5"
+
+	outfit = /datum/outfit/job/den/f13radiohost
+
+	matchmaking_allowed = list(
+		/datum/matchmaking_pref/friend = list(
+			/datum/job/oasis,
+		),
+		/datum/matchmaking_pref/rival = list(
+			/datum/job/oasis,
+		),
+	)
+
+/datum/outfit/job/den/f13radiohost
+	name = "Radio Host"
+	jobtype = /datum/job/oasis/f13radiohost
+
+	uniform = /obj/item/clothing/under/f13/jamrock
+	id = /obj/item/card/id/dogtag/town
+	ears = /obj/item/radio/headset/headset_town
+	glasses = /obj/item/clothing/glasses/sunglasses/big
+	r_pocket = /obj/item/gun/ballistic/revolver/police
+	shoes = /obj/item/clothing/shoes/laceup
+	backpack = /obj/item/storage/backpack/satchel/leather
+	backpack_contents = list(
+		/obj/item/storage/bag/money/small/settler = 1,
+		/obj/item/ammo_box/a357 = 2,
+		/obj/item/book/manual/nuka_recipes = 1,
+		/obj/item/megaphone = 1,
+		/obj/item/pda = 1,
+		/obj/item/reagent_containers/food/drinks/bottle/rotgut = 1)

@@ -1,10 +1,6 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "ab" = (
-/obj/structure/table/wood/settler,
-/obj/machinery/computer/terminal{
-	dir = 8;
-	termtag = "Secret"
-	},
+/obj/machinery/libraryscanner,
 /turf/open/floor/f13{
 	color = "#818181";
 	icon_state = "floorrustysolid"
@@ -824,6 +820,16 @@
 /obj/machinery/light/small,
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/wasteland)
+"hL" = (
+/obj/structure/window/fulltile/house{
+	dir = 2;
+	icon_state = "housewindowvertical"
+	},
+/obj/structure/curtain{
+	color = "#845f58"
+	},
+/turf/open/indestructible/ground/outside/woodalt,
+/area/f13/building)
 "hN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/wood,
@@ -1140,6 +1146,12 @@
 	},
 /turf/open/indestructible/ground/outside/roof,
 /area/f13/wasteland)
+"km" = (
+/obj/structure/table/wood/poker,
+/obj/item/folder/blue,
+/obj/item/folder/syndicate,
+/turf/open/floor/carpet/brown,
+/area/f13/building)
 "kx" = (
 /obj/structure/rack,
 /obj/machinery/light/small{
@@ -1157,6 +1169,13 @@
 "kO" = (
 /obj/structure/sign/poster/prewar/poster72,
 /turf/closed/wall/f13/store,
+/area/f13/building)
+"kU" = (
+/obj/structure/curtain{
+	color = "#5c131b"
+	},
+/obj/structure/simple_door/house,
+/turf/open/floor/plasteel/grimy,
 /area/f13/building)
 "kY" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1382,6 +1401,9 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/f13/raiders)
+"nB" = (
+/turf/open/floor/plasteel/grimy,
+/area/f13/building)
 "nE" = (
 /obj/structure/railing{
 	color = "#A47449";
@@ -1628,6 +1650,13 @@
 	icon_state = "hydrofloor"
 	},
 /area/f13/building)
+"qk" = (
+/obj/structure/chair/office{
+	dir = 8
+	},
+/obj/effect/landmark/start/f13/radiohost,
+/turf/open/floor/plasteel/grimy,
+/area/f13/building)
 "qo" = (
 /obj/structure/simple_door/repaired,
 /turf/open/floor/f13/wood,
@@ -1694,6 +1723,10 @@
 	sunlight_state = 1
 	},
 /area/f13/wasteland)
+"qM" = (
+/obj/structure/filingcabinet,
+/turf/open/floor/carpet/brown,
+/area/f13/building)
 "qQ" = (
 /obj/structure/railing{
 	color = "#A47449";
@@ -1796,6 +1829,14 @@
 /turf/open/floor/f13{
 	icon_state = "neutralrustyfull"
 	},
+/area/f13/building)
+"rF" = (
+/obj/structure/table/wood/fancy/black,
+/obj/item/radio/intercom{
+	name = "radio station intercom";
+	pixel_x = -27
+	},
+/turf/open/floor/plasteel/grimy,
 /area/f13/building)
 "rG" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1960,6 +2001,12 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
+"tw" = (
+/obj/structure/table/wood/poker,
+/obj/item/paper_bin,
+/obj/item/pen,
+/turf/open/floor/carpet/brown,
+/area/f13/building)
 "tE" = (
 /obj/structure/table,
 /obj/item/paper/crumpled/muddy/fluff/elephant_graveyard/rnd_notes{
@@ -2012,6 +2059,10 @@
 /turf/open/floor/f13{
 	icon_state = "darkrusty"
 	},
+/area/f13/building)
+"tV" = (
+/obj/item/kirbyplants/random,
+/turf/open/floor/carpet/brown,
 /area/f13/building)
 "tY" = (
 /obj/structure/railing{
@@ -2447,13 +2498,12 @@
 /turf/open/floor/f13/wood,
 /area/f13/wasteland)
 "xZ" = (
-/obj/structure/chair/wood/normal{
-	dir = 4
-	},
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 1;
 	pixel_y = 12
 	},
+/obj/machinery/computer/libraryconsole/bookmanagement,
+/obj/structure/table/wood/settler,
 /turf/open/floor/f13{
 	color = "#818181";
 	icon_state = "floorrustysolid"
@@ -2709,6 +2759,18 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/cotc)
+"Bc" = (
+/obj/structure/closet/cabinet,
+/obj/item/toy/cards/deck,
+/obj/item/taperecorder,
+/obj/item/tape,
+/obj/item/camera,
+/obj/item/key,
+/obj/item/key,
+/obj/item/lock_construct,
+/obj/item/lock_construct,
+/turf/open/floor/carpet/brown,
+/area/f13/building)
 "Bd" = (
 /obj/machinery/door/unpowered/securedoor{
 	req_access_txt = "147";
@@ -2928,6 +2990,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/f13/oak,
 /area/f13/bar)
+"CU" = (
+/obj/structure/table/wood/fancy/black,
+/obj/structure/decoration/clock/active{
+	pixel_y = 30
+	},
+/turf/open/floor/plasteel/grimy,
+/area/f13/building)
 "Da" = (
 /obj/structure/destructible/tribal_torch/wall/lit,
 /obj/effect/decal/cleanable/dirt,
@@ -2962,6 +3031,19 @@
 /obj/item/pen,
 /obj/item/pen/fountain,
 /turf/open/floor/wood/wood_tiled,
+/area/f13/building)
+"Dt" = (
+/obj/structure/table/wood/fancy/black,
+/obj/item/radio/intercom{
+	name = "radio station intercom";
+	pixel_y = 30
+	},
+/obj/item/radio/intercom{
+	name = "radio station intercom";
+	pixel_x = -27
+	},
+/obj/item/flashlight/lamp,
+/turf/open/floor/plasteel/grimy,
 /area/f13/building)
 "DB" = (
 /obj/structure/table/wood,
@@ -3011,11 +3093,19 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
+"Ea" = (
+/obj/structure/chair/stool/retro,
+/turf/open/floor/carpet/brown,
+/area/f13/building)
 "Ef" = (
 /obj/structure/table/wood/fancy,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/f13/oak,
 /area/f13/bar)
+"Eg" = (
+/obj/machinery/light,
+/turf/open/floor/carpet/brown,
+/area/f13/building)
 "En" = (
 /obj/structure/railing{
 	color = "#A47449";
@@ -3046,6 +3136,12 @@
 	},
 /turf/open/floor/plasteel/grimy,
 /area/f13/brotherhood/surface)
+"EH" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/carpet/brown,
+/area/f13/building)
 "EJ" = (
 /obj/structure/rack/shelf_metal,
 /obj/item/electropack/shockcollar,
@@ -3609,6 +3705,15 @@
 	sunlight_state = 1
 	},
 /area/f13/raiders)
+"KK" = (
+/obj/structure/table/wood/fancy/black,
+/obj/item/radio/intercom{
+	name = "radio station intercom";
+	pixel_y = 30
+	},
+/obj/item/modular_computer/laptop/preset/civillian,
+/turf/open/floor/plasteel/grimy,
+/area/f13/building)
 "KQ" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
@@ -4830,6 +4935,12 @@
 	},
 /turf/closed/wall/f13/wood/house,
 /area/f13/raiders)
+"Vt" = (
+/obj/machinery/newscaster{
+	pixel_x = 30
+	},
+/turf/open/floor/plasteel/grimy,
+/area/f13/building)
 "Vx" = (
 /obj/structure/table,
 /obj/item/paper/fluff/ruins/listeningstation/reports/may{
@@ -5124,6 +5235,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/f13/wasteland)
+"Yu" = (
+/obj/structure/closet/crate/bin/trash_fallout,
+/turf/open/floor/plasteel/grimy,
+/area/f13/building)
 "Yv" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/purple/corner,
@@ -5154,6 +5269,9 @@
 "YC" = (
 /obj/structure/chair/wood/normal{
 	dir = 4
+	},
+/obj/machinery/newscaster{
+	pixel_y = -28
 	},
 /turf/open/floor/f13{
 	color = "#818181";
@@ -5253,6 +5371,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/wasteland)
+"ZG" = (
+/obj/structure/simple_door/house{
+	icon_state = "interior"
+	},
+/turf/open/floor/carpet/brown,
+/area/f13/building)
 "ZM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/barricade/sandbags,
@@ -45279,10 +45403,10 @@ PL
 PL
 hQ
 ad
-Wx
-Wx
-Wx
-Wx
+mI
+mI
+mI
+mI
 PL
 PL
 PL
@@ -45536,15 +45660,15 @@ PL
 PL
 hQ
 ad
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
+mI
+Dt
+rF
+mI
+mI
+hL
+hL
+mI
+mI
 Wx
 Wx
 Wx
@@ -45793,15 +45917,15 @@ PL
 PL
 hQ
 ad
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
+mI
+KK
+qk
+nB
+mI
+yB
+yB
+tV
+mI
 Wx
 ad
 ad
@@ -46050,15 +46174,15 @@ PL
 PL
 hQ
 ad
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
+mI
+CU
+nB
+nB
+kU
+yB
+Ea
+Eg
+mI
 ad
 ad
 hQ
@@ -46307,15 +46431,15 @@ PL
 PL
 hQ
 ad
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
+mI
+Yu
+nB
+Vt
+mI
+yB
+tw
+km
+mI
 ad
 hQ
 hQ
@@ -46564,15 +46688,15 @@ PL
 PL
 hQ
 ad
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
+mI
+mI
+mI
+mI
+mI
+yB
+yB
+Ea
+mI
 ad
 hQ
 PL
@@ -46821,15 +46945,15 @@ PL
 PL
 hQ
 ad
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
+mI
+Bc
+ZG
+yB
+yB
+yB
+yB
+mI
+mI
 ad
 hQ
 PL
@@ -47078,14 +47202,14 @@ PL
 PL
 hQ
 ad
-ad
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
+mI
+mI
+mI
+EH
+Rg
+qM
+qM
+mI
 ad
 ad
 hQ
@@ -47337,12 +47461,12 @@ hQ
 hQ
 ad
 ad
-ad
-Wx
-Wx
-Wx
-Wx
-Wx
+mI
+mI
+mI
+mI
+mI
+mI
 ad
 hQ
 hQ
