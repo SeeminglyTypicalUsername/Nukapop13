@@ -1388,8 +1388,6 @@
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
 	icon_state = "sea_captain"
 	item_state = "sea_captain"
-	dynamic_hair_suffix = "+generic"
-	dynamic_fhair_suffix = null
 
 //Old World Militaries
 //US Army
@@ -1401,8 +1399,6 @@
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
 	icon_state = "army_cap"
 	item_state = "army_cap"
-	dynamic_hair_suffix = "+generic"
-	dynamic_fhair_suffix = null
 
 obj/item/clothing/head/f13/army/beret
 	name = "army beret"
@@ -1411,8 +1407,6 @@ obj/item/clothing/head/f13/army/beret
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
 	icon_state = "army_beret"
 	item_state = "army_beret"
-	dynamic_hair_suffix = "+generic"
-	dynamic_fhair_suffix = null
 
 /obj/item/clothing/head/f13/army/beret/airborne
 	name = "army airborne beret"
@@ -1421,8 +1415,6 @@ obj/item/clothing/head/f13/army/beret
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
 	icon_state = "army_beret_airborne"
 	item_state = "army_beret_airborne"
-	dynamic_hair_suffix = "+generic"
-	dynamic_fhair_suffix = null
 
 /obj/item/clothing/head/f13/army/beret/rangers
 	name = "army rangers beret"
@@ -1431,8 +1423,6 @@ obj/item/clothing/head/f13/army/beret
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
 	icon_state = "army_beret_ranger"
 	item_state = "army_beret_ranger"
-	dynamic_hair_suffix = "+generic"
-	dynamic_fhair_suffix = null
 
 /obj/item/clothing/head/f13/army/beret/specialforces
 	name = "army special forces beret"
@@ -1441,9 +1431,6 @@ obj/item/clothing/head/f13/army/beret
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
 	icon_state = "army_beret_specialforces"
 	item_state = "army_beret_specialforces"
-	dynamic_hair_suffix = "+generic"
-	dynamic_fhair_suffix = null
-
 //US Marines
 
 /obj/item/clothing/head/f13/marine
@@ -1453,8 +1440,6 @@ obj/item/clothing/head/f13/army/beret
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
 	icon_state = "marine_cap"
 	item_state = "marine_cap"
-	dynamic_hair_suffix = "+generic"
-	dynamic_fhair_suffix = null
 
 //US Navy
 
@@ -1465,8 +1450,6 @@ obj/item/clothing/head/f13/army/beret
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
 	icon_state = "navy_cap"
 	item_state = "navy_cap"
-	dynamic_hair_suffix = "+generic"
-	dynamic_fhair_suffix = null
 
 //People's Liberation Army
 
@@ -1477,8 +1460,6 @@ obj/item/clothing/head/f13/army/beret
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
 	icon_state = "chinese_cap"
 	item_state = "chinese_cap"
-	dynamic_hair_suffix = "+generic"
-	dynamic_fhair_suffix = null
 
 /obj/item/clothing/head/f13/chinese/officer
 	name = "PLA officer's cap"
@@ -1487,8 +1468,6 @@ obj/item/clothing/head/f13/army/beret
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
 	icon_state = "chinese_officer"
 	item_state = "chinese_officer"
-	dynamic_hair_suffix = "+generic"
-	dynamic_fhair_suffix = null
 
 /obj/item/clothing/head/f13/chinese/helmet
 	name = "PLA helmet"
@@ -1536,8 +1515,6 @@ obj/item/clothing/head/f13/army/beret
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
 	icon_state = "police_officer"
 	item_state = "police_officer"
-	dynamic_hair_suffix = "+generic"
-	dynamic_fhair_suffix = null
 
 /obj/item/clothing/head/f13/police/sergeant
 	name = "police campaign hat"
@@ -1546,8 +1523,6 @@ obj/item/clothing/head/f13/army/beret
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
 	icon_state = "police_sergeant"
 	item_state = "police_sergeant"
-	dynamic_hair_suffix = "+generic"
-	dynamic_fhair_suffix = null
 
 /obj/item/clothing/head/f13/police/lieutenant
 	name = "police lieutenant's cap"
@@ -1556,8 +1531,6 @@ obj/item/clothing/head/f13/army/beret
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
 	icon_state = "police_lieutenant"
 	item_state = "police_lieutenant"
-	dynamic_hair_suffix = "+generic"
-	dynamic_fhair_suffix = null
 
 /obj/item/clothing/head/f13/police/chief
 	name = "police chief's cap"
@@ -1566,8 +1539,6 @@ obj/item/clothing/head/f13/army/beret
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
 	icon_state = "police_chief"
 	item_state = "police_chief"
-	dynamic_hair_suffix = "+generic"
-	dynamic_fhair_suffix = null
 
 /obj/item/clothing/head/f13/police/state_cal
 	name = "highway patrol campaign hat"
@@ -1576,8 +1547,6 @@ obj/item/clothing/head/f13/army/beret
 	mob_overlay_icon = 'icons/fallout/onmob/clothes/head.dmi'
 	icon_state = "police_state_cal"
 	item_state = "police_state_cal"
-	dynamic_hair_suffix = "+generic"
-	dynamic_fhair_suffix = null
 
 /////////////
 //undertown//
