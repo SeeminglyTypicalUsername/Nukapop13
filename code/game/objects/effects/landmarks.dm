@@ -772,6 +772,10 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	name = "Scab"
 	icon_state = "Settler"
 
+/obj/effect/landmark/start/f13/radiohost
+	name = "Radio Host"
+	icon_state = "template"
+
 /obj/effect/landmark/start/f13/towndoctor
 	name = "Town Doctor"
 	icon_state = "Medical Doctor"

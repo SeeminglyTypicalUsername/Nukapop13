@@ -155,14 +155,6 @@ GLOBAL_LIST_INIT(brotherhood_positions, list(
 	"BoS Off-Duty",
 ))
 
-GLOBAL_LIST_INIT(oasis_positions, list(
-	"Detective",
-	"Barkeep",
-	//"Town Doctor",
-	"Preacher",
-	"Scab",
-))
-
 GLOBAL_LIST_INIT(legion_command_positions, list(
 	"Legate",
 	"Legion Orator",
@@ -293,6 +285,15 @@ GLOBAL_LIST_INIT(pitrats_positions, list(
 	"Pitrat",
 ))
 
+GLOBAL_LIST_INIT(oasis_positions, list(
+	"Detective",
+	"Barkeep",
+	//"Town Doctor",
+	"Preacher",
+	"Scab",
+	"Radio Host",
+))
+
 GLOBAL_LIST_INIT(followers_positions, list(
 	"Followers Administrator",
 	"Followers Doctor",
@@ -363,11 +364,11 @@ GLOBAL_LIST_INIT(position_categories, list(
 	EXP_TYPE_LEGION = list("jobs" = legion_positions, "color" = "#f81717"),
 	EXP_TYPE_WASTELAND = list("jobs" = wasteland_positions, "color" = "#5a5a5a"),
 //	EXP_TYPE_ENCLAVE = list("jobs" = enclave_positions, "color" = "#323232"),
-	EXP_TYPE_OASIS = list("jobs" = oasis_positions, "color" = "#d7b088"),
 //	EXP_TYPE_TRIBAL = list("jobs" = tribal_positions, "color" = "#006666"),
 	EXP_TYPE_CHURCH = list("jobs" = church_positions, "color" = "#d580ff"),
 	EXP_TYPE_MERCHANT = list("jobs" = merchant_positions, "color" = "#dcba97"),
 	EXP_TYPE_PITRATS = list("jobs" = pitrats_positions, "color" = "#ff8080"),
+	EXP_TYPE_OASIS = list("jobs" = oasis_positions, "color" = "#d7b088"),
 //	EXP_TYPE_VAULT = list("jobs" = vault_positions, "color" = "#ccffcc"),
 //	EXP_TYPE_SALVATORES = list("jobs" = salvatores_positions, "color" = "#ffeeaa"),
 //	EXP_TYPE_MORDINOS = list("jobs" = mordinos_positions, "color" = "#D50000"),
@@ -391,7 +392,6 @@ GLOBAL_LIST_INIT(exp_jobsmap, list(
 
 	EXP_TYPE_OUTLAW = list("titles" = list("Outlaw","Den Mob Boss","Den Mob Enforcer","Den Doctor",)),
 	//EXP_TYPE_BROTHERHOOD = list("titles" = brotherhood_positions),
-	EXP_TYPE_OASIS = list("titles" = oasis_positions ),
 	EXP_TYPE_LEGION = list("titles" = legion_positions),
 	EXP_TYPE_NCR = list("titles" = ncr_positions),
 	//EXP_TYPE_VAULT = list("titles" = vault_positions),
@@ -400,6 +400,7 @@ GLOBAL_LIST_INIT(exp_jobsmap, list(
 	EXP_TYPE_CHURCH = list("titles" = church_positions),
 	EXP_TYPE_MERCHANT = list("titles" = merchant_positions),
 	EXP_TYPE_PITRATS = list("titles" = pitrats_positions),
+	EXP_TYPE_OASIS = list("titles" = oasis_positions ),
 	//EXP_TYPE_FOLLOWERS = list("titles" = followers_positions),
 	//EXP_TYPE_ENCLAVE = list("titles" = enclave_positions),
 	EXP_TYPE_RANGER = list("titles" = list("NCR Veteran Ranger","NCR Ranger")),
