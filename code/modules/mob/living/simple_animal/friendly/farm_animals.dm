@@ -1068,8 +1068,8 @@ mob/living/simple_animal/cow/brahmin/Topic(href, href_list)
 	speak_emote = list("nays","nays hauntingly")
 	emote_hear = list("brays.")
 	emote_see = list("shakes its head.")
-	health = 150
-	maxHealth = 150
+	health = 100
+	maxHealth = 100
 	speak_chance = 1
 	see_in_dark = 6
 	guaranteed_butcher_results = list(/obj/item/reagent_containers/food/snacks/meat/slab = 4, /obj/item/stack/sheet/sinew = 2, /obj/item/stack/sheet/bone = 3)
@@ -1185,7 +1185,7 @@ Brand for permanently marking brahmin as yours (won't stop people stealing em an
 		D.set_vehicle_dir_layer(EAST, OBJ_LAYER)
 		D.set_vehicle_dir_layer(WEST, OBJ_LAYER)
 		D.drive_verb = "ride"
-		D.vehicle_move_delay = 1.30  //adjusts slepnir riding speed
+		D.vehicle_move_delay = 1.54  //adjusts slepnir riding speed
 		to_chat(user, "<span class='notice'>You add [I] to [src].</span>")
 		qdel(I)
 		return
