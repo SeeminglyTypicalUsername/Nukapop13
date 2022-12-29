@@ -2009,6 +2009,7 @@
 /obj/structure/window{
 	dir = 4
 	},
+/obj/machinery/door/window/southleft,
 /turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
 /area/f13/building)
 "tE" = (
@@ -3152,8 +3153,11 @@
 /turf/open/floor/plasteel/grimy,
 /area/f13/brotherhood/surface)
 "EH" = (
-/obj/machinery/door/window/eastleft,
-/turf/open/floor/plasteel/f13/vault_floor/white/whitesolid,
+/obj/machinery/light_switch{
+	pixel_y = -30;
+	pixel_x = 10
+	},
+/turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building)
 "EJ" = (
 /obj/structure/rack/shelf_metal,
@@ -3868,6 +3872,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/f13/carpet,
 /area/f13/bar)
+"Ma" = (
+/obj/machinery/light_switch{
+	pixel_y = -30;
+	pixel_x = -9
+	},
+/turf/open/floor/f13/wood,
+/area/f13/building)
 "Mb" = (
 /obj/structure/junk/arcade,
 /obj/effect/decal/cleanable/dirt,
@@ -4425,6 +4436,12 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
+/area/f13/building)
+"QY" = (
+/obj/machinery/light_switch{
+	pixel_x = 23
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
 /area/f13/building)
 "Ra" = (
 /obj/structure/railing/corner{
@@ -46201,7 +46218,7 @@ hQ
 ad
 mI
 CU
-Br
+Ma
 tM
 kU
 Br
@@ -47233,7 +47250,7 @@ mI
 mI
 Rg
 Rg
-qM
+QY
 mI
 mI
 ad

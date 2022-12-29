@@ -8184,6 +8184,12 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/building)
+"dDQ" = (
+/obj/machinery/light_switch{
+	pixel_y = -23
+	},
+/turf/open/floor/f13/wood,
+/area/f13/building)
 "dEc" = (
 /obj/effect/decal/cleanable/glass,
 /obj/effect/decal/cleanable/dirt,
@@ -18234,6 +18240,14 @@
 "hPJ" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp,
+/obj/item/radio/intercom{
+	name = "radio station intercom";
+	pixel_y = 23
+	},
+/obj/item/radio/intercom{
+	name = "radio station intercom";
+	pixel_x = -25
+	},
 /turf/open/floor/carpet/brown,
 /area/f13/building)
 "hPL" = (
@@ -18269,7 +18283,7 @@
 /obj/structure/table/wood,
 /obj/item/radio/intercom{
 	name = "radio station intercom";
-	pixel_y = 30
+	pixel_y = 23
 	},
 /turf/open/floor/carpet/brown,
 /area/f13/building)
@@ -20481,6 +20495,10 @@
 "iMu" = (
 /obj/structure/table/wood,
 /obj/item/modular_computer/laptop/preset/civillian,
+/obj/item/radio/intercom{
+	name = "radio station intercom";
+	pixel_y = 23
+	},
 /turf/open/floor/carpet/brown,
 /area/f13/building)
 "iMJ" = (
@@ -50354,6 +50372,13 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/legion)
+"vRc" = (
+/obj/machinery/light_switch{
+	pixel_y = -30;
+	pixel_x = -9
+	},
+/turf/open/floor/carpet/brown,
+/area/f13/building)
 "vRR" = (
 /obj/structure/fence{
 	dir = 4
@@ -96326,7 +96351,7 @@ hRB
 jsn
 uCO
 jTr
-rpu
+dDQ
 sYX
 sYX
 dCV
@@ -96837,7 +96862,7 @@ dCV
 sYX
 lXy
 iNo
-jsn
+vRc
 uCO
 rpu
 xlA
