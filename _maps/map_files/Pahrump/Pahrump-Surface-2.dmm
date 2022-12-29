@@ -7012,7 +7012,11 @@
 /obj/machinery/door/window/brigdoor/southleft{
 	req_one_access_txt = "34"
 	},
-/obj/item/reagent_containers/food/snacks/kebab/monkey,
+/obj/item/card/id/dogtag/deputy,
+/obj/item/clothing/head/f13/police/officer,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "dfo" = (
@@ -7726,11 +7730,8 @@
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/ncr)
 "dva" = (
-/obj/item/kirbyplants/random,
-/obj/structure/sign/plaques/golden{
-	pixel_y = 28;
-	desc = "A deed to this mansion enscribed in gold.";
-	name = "Mansion Deed"
+/obj/item/kirbyplants{
+	icon_state = "plant-22"
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
@@ -8182,6 +8183,12 @@
 	pixel_y = -16
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
+/area/f13/building)
+"dDQ" = (
+/obj/machinery/light_switch{
+	pixel_y = -23
+	},
+/turf/open/floor/f13/wood,
 /area/f13/building)
 "dEc" = (
 /obj/effect/decal/cleanable/glass,
@@ -11712,7 +11719,8 @@
 /area/f13/village)
 "fgB" = (
 /obj/structure/sink/kitchen{
-	pixel_y = 27
+	pixel_y = 27;
+	dispensedreagent = /datum/reagent/water/purified
 	},
 /turf/open/floor/plasteel/f13/vault_floor/red/redchess,
 /area/f13/building)
@@ -14919,6 +14927,7 @@
 /obj/machinery/door/window/brigdoor/northleft{
 	req_one_access_txt = "34"
 	},
+/obj/structure/window/reinforced,
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "gvt" = (
@@ -15921,7 +15930,11 @@
 /obj/machinery/door/window/brigdoor/northright{
 	req_one_access_txt = "34"
 	},
-/obj/item/stack/sheet/mineral/gold,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced,
+/obj/item/gun/ballistic/automatic/pistol/type17,
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "gSf" = (
@@ -18225,8 +18238,17 @@
 	},
 /area/f13/wasteland)
 "hPJ" = (
-/obj/structure/closet/cabinet/anchored,
-/turf/open/floor/wood,
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp,
+/obj/item/radio/intercom{
+	name = "radio station intercom";
+	pixel_y = 23
+	},
+/obj/item/radio/intercom{
+	name = "radio station intercom";
+	pixel_x = -25
+	},
+/turf/open/floor/carpet/brown,
 /area/f13/building)
 "hPL" = (
 /obj/structure/table/wood,
@@ -18258,9 +18280,12 @@
 	},
 /area/f13/wasteland)
 "hQQ" = (
-/obj/structure/bed/wooden,
-/obj/item/bedsheet/brown,
-/turf/open/floor/wood,
+/obj/structure/table/wood,
+/obj/item/radio/intercom{
+	name = "radio station intercom";
+	pixel_y = 23
+	},
+/turf/open/floor/carpet/brown,
 /area/f13/building)
 "hQV" = (
 /obj/structure/grille,
@@ -18291,15 +18316,11 @@
 /turf/open/floor/f13/wood,
 /area/f13/village)
 "hRB" = (
-/obj/structure/toilet/secret/low_loot{
-	pixel_y = 16
+/obj/structure/chair/office{
+	dir = 4
 	},
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria{
-	name = "tile"
-	},
+/obj/effect/landmark/start/f13/radiohost,
+/turf/open/floor/carpet/brown,
 /area/f13/building)
 "hRN" = (
 /obj/structure/fence/wooden{
@@ -18387,15 +18408,16 @@
 	},
 /area/f13/city)
 "hTL" = (
-/obj/structure/sink{
-	pixel_y = 22
-	},
-/obj/structure/mirror{
-	pixel_y = 30
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria{
-	name = "tile"
-	},
+/obj/structure/closet/cabinet,
+/obj/item/toy/cards/deck,
+/obj/item/taperecorder,
+/obj/item/tape,
+/obj/item/camera,
+/obj/item/key,
+/obj/item/key,
+/obj/item/lock_construct,
+/obj/item/lock_construct,
+/turf/open/floor/f13/wood,
 /area/f13/building)
 "hUe" = (
 /obj/structure/rack,
@@ -19202,7 +19224,14 @@
 /obj/machinery/door/window/brigdoor/southright{
 	req_one_access_txt = "34"
 	},
-/obj/item/reagent_containers/food/drinks/bottle/lizardwine,
+/obj/item/card/id/dogtag/sheriff,
+/obj/item/clothing/head/f13/police/chief,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "ikg" = (
@@ -20414,12 +20443,12 @@
 /turf/open/floor/wood,
 /area/f13/building)
 "iLK" = (
-/obj/structure/dresser,
+/obj/structure/table/wood,
 /obj/structure/curtain{
 	color = "#845f58";
 	pixel_x = -32
 	},
-/turf/open/floor/wood,
+/turf/open/floor/carpet/brown,
 /area/f13/building)
 "iLQ" = (
 /obj/structure/fence{
@@ -20464,9 +20493,13 @@
 /turf/open/floor/wood,
 /area/f13/building)
 "iMu" = (
-/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria{
-	name = "tile"
+/obj/structure/table/wood,
+/obj/item/modular_computer/laptop/preset/civillian,
+/obj/item/radio/intercom{
+	name = "radio station intercom";
+	pixel_y = 23
 	},
+/turf/open/floor/carpet/brown,
 /area/f13/building)
 "iMJ" = (
 /obj/machinery/light/built{
@@ -20485,19 +20518,16 @@
 /turf/open/floor/carpet,
 /area/f13/building)
 "iNo" = (
-/obj/machinery/shower{
-	dir = 1;
-	icon_state = "shower"
+/obj/machinery/newscaster{
+	pixel_x = 30
 	},
-/obj/structure/decoration/vent{
-	layer = 2;
-	name = "grate";
-	pixel_y = -6
+/obj/structure/chair/office{
+	dir = 8
 	},
-/obj/structure/curtain,
-/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria{
-	name = "tile"
+/obj/machinery/light{
+	dir = 4
 	},
+/turf/open/floor/carpet/brown,
 /area/f13/building)
 "iNx" = (
 /obj/structure/car/rubbish3,
@@ -22146,8 +22176,7 @@
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "jsn" = (
-/obj/structure/simple_door/house,
-/turf/open/floor/wood,
+/turf/open/floor/carpet/brown,
 /area/f13/building)
 "jsz" = (
 /obj/structure/displaycase,
@@ -22210,10 +22239,10 @@
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "jth" = (
-/obj/structure/simple_door/house,
-/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria{
-	name = "tile"
+/obj/structure/chair/office/dark{
+	dir = 8
 	},
+/turf/open/floor/f13/wood,
 /area/f13/building)
 "jtj" = (
 /obj/structure/displaycase,
@@ -23005,12 +23034,8 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "jNX" = (
-/obj/structure/rack,
-/obj/structure/curtain{
-	color = "#845f58";
-	pixel_x = -32
-	},
-/turf/open/floor/wood,
+/obj/structure/simple_door/interior,
+/turf/open/floor/carpet/brown,
 /area/f13/building)
 "jOq" = (
 /obj/structure/decoration/clock/old,
@@ -23222,13 +23247,14 @@
 /turf/open/floor/f13/wood,
 /area/f13/village)
 "jTr" = (
-/obj/structure/sign/poster/prewar/poster82{
-	pixel_y = 32
+/obj/structure/curtain{
+	color = "#845f58";
+	pixel_x = -32
 	},
-/obj/machinery/light/small{
-	dir = 1
+/obj/item/kirbyplants{
+	icon_state = "plant-21"
 	},
-/turf/open/floor/wood,
+/turf/open/floor/f13/wood,
 /area/f13/building)
 "jTC" = (
 /obj/structure/bed/old,
@@ -23362,15 +23388,20 @@
 /turf/open/floor/f13,
 /area/f13/building)
 "jVE" = (
-/obj/machinery/microwave/stove{
-	density = 0;
-	pixel_y = 16
+/obj/structure/railing{
+	color = "#A47449";
+	dir = 4
 	},
-/turf/open/floor/wood,
+/turf/open/floor/f13/wood,
 /area/f13/building)
 "jVM" = (
-/obj/structure/stairs/north,
-/turf/open/floor/wood,
+/obj/structure/stairs/south{
+	color = "#A47449"
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/f13/wood,
 /area/f13/building)
 "jVO" = (
 /obj/machinery/light/small{
@@ -25369,11 +25400,10 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "kMn" = (
-/obj/structure/sink/kitchen{
-	dir = 8;
-	pixel_x = 12
+/obj/structure/stairs/south{
+	color = "#A47449"
 	},
-/turf/open/floor/wood,
+/turf/open/floor/f13/wood,
 /area/f13/building)
 "kMo" = (
 /obj/effect/landmark/start/f13/ncrmedofficer,
@@ -26698,10 +26728,10 @@
 /turf/open/floor/f13/wood,
 /area/f13/village)
 "lrG" = (
-/obj/structure/chair/sofa/left{
-	dir = 4
-	},
-/turf/open/floor/wood,
+/obj/structure/table/wood,
+/obj/item/paper_bin,
+/obj/item/pen,
+/turf/open/floor/f13/wood,
 /area/f13/building)
 "lrQ" = (
 /turf/open/indestructible/ground/outside/ruins{
@@ -28014,10 +28044,10 @@
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "lXy" = (
-/obj/structure/chair/sofa/corner{
-	dir = 1
+/obj/structure/chair/office{
+	dir = 8
 	},
-/turf/open/floor/wood,
+/turf/open/floor/carpet/brown,
 /area/f13/building)
 "lXB" = (
 /obj/structure/chair/stool{
@@ -28076,12 +28106,6 @@
 /mob/living/simple_animal/chick,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
-"lYy" = (
-/obj/structure/chair/sofa{
-	dir = 1
-	},
-/turf/open/floor/wood,
-/area/f13/building)
 "lYA" = (
 /obj/structure/rack,
 /obj/item/gun/ballistic/bow/tribal,
@@ -28133,10 +28157,10 @@
 	},
 /area/f13/building)
 "lZJ" = (
-/obj/structure/chair/sofa/right{
-	dir = 1
-	},
-/turf/open/floor/wood,
+/obj/structure/table/wood,
+/obj/item/folder/yellow,
+/obj/machinery/light,
+/turf/open/floor/f13/wood,
 /area/f13/building)
 "lZN" = (
 /obj/effect/decal/cleanable/dirt{
@@ -28158,11 +28182,8 @@
 	},
 /area/f13/wasteland)
 "lZV" = (
-/obj/machinery/light/small,
-/obj/item/kirbyplants{
-	icon_state = "plant-21"
-	},
-/turf/open/floor/wood,
+/obj/structure/table/wood,
+/turf/open/floor/carpet/brown,
 /area/f13/building)
 "lZX" = (
 /obj/machinery/smartfridge/drying_rack,
@@ -30323,6 +30344,10 @@
 	name = "tile"
 	},
 /area/f13/cotc)
+"mXL" = (
+/obj/item/paper/pamphlet/ruin/originalcontent/yelling,
+/turf/closed/wall/f13/wood/house,
+/area/f13/building)
 "mXM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -37833,8 +37858,16 @@
 	},
 /area/f13/village)
 "qrB" = (
-/obj/structure/closet/fridge/standard,
-/turf/open/floor/wood,
+/obj/structure/table/wood/fancy/purple,
+/obj/item/reagent_containers/food/condiment/saltshaker{
+	pixel_y = 8;
+	pixel_x = 4
+	},
+/obj/item/reagent_containers/food/condiment/peppermill{
+	pixel_y = 8;
+	pixel_x = -3
+	},
+/turf/open/floor/carpet/purple,
 /area/f13/building)
 "qrR" = (
 /turf/closed/wall/f13/ruins,
@@ -41209,7 +41242,9 @@
 	},
 /area/f13/building)
 "rSM" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants{
+	icon_state = "plant-22"
+	},
 /obj/machinery/light,
 /turf/open/floor/f13/wood,
 /area/f13/building)
@@ -50337,6 +50372,13 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/legion)
+"vRc" = (
+/obj/machinery/light_switch{
+	pixel_y = -30;
+	pixel_x = -9
+	},
+/turf/open/floor/carpet/brown,
+/area/f13/building)
 "vRR" = (
 /obj/structure/fence{
 	dir = 4
@@ -78286,7 +78328,7 @@ fyf
 tBN
 giZ
 dCV
-sYX
+mXL
 kgU
 uNC
 lzW
@@ -78810,7 +78852,7 @@ rpu
 sDp
 ueA
 giS
-lak
+qrB
 mUZ
 ueA
 sYX
@@ -95793,9 +95835,9 @@ sYX
 sYX
 iLI
 sYX
-mHj
-ydO
 urO
+ydO
+mHj
 uqa
 mlD
 mCR
@@ -96050,9 +96092,9 @@ sYX
 hPJ
 iLK
 sYX
-iLI
-jsn
 sYX
+cuv
+wpx
 uqa
 uqa
 uqa
@@ -96304,12 +96346,12 @@ tBN
 giZ
 dCV
 sYX
-hQg
-uxv
-sYX
-jNX
-uxv
-sYX
+iMu
+hRB
+jsn
+uCO
+jTr
+dDQ
 sYX
 sYX
 dCV
@@ -96562,12 +96604,12 @@ giZ
 dCV
 sYX
 hQQ
-uxv
+lZV
 jsn
-uxv
-uxv
-lrG
-lXy
+jNX
+rpu
+rpu
+rpu
 sYX
 dCV
 nnG
@@ -96818,13 +96860,13 @@ mvv
 giZ
 dCV
 sYX
-sYX
-sYX
-sYX
-jTr
-uxv
-lsq
-lYy
+lXy
+iNo
+vRc
+uCO
+rpu
+xlA
+xlA
 sYX
 dCV
 giZ
@@ -97075,12 +97117,12 @@ mvv
 giZ
 dCV
 sYX
-hRB
-iMu
-jth
-uxv
-uxv
-uxv
+uCO
+uCO
+uCO
+uCO
+rpu
+lrG
 lZJ
 sYX
 dCV
@@ -97333,12 +97375,12 @@ giZ
 dCV
 sYX
 hTL
-iNo
-sYX
+sDp
+rpu
 jVE
-uxv
-uxv
-lZV
+jVE
+jth
+rpu
 sYX
 dCV
 giZ
@@ -97591,10 +97633,10 @@ dCV
 sYX
 sYX
 sYX
-sYX
+rpu
 jVM
 kMn
-qrB
+sYX
 sYX
 sYX
 dCV
@@ -97847,7 +97889,7 @@ giZ
 giZ
 dCV
 dCV
-dCV
+sYX
 sYX
 sYX
 sYX
