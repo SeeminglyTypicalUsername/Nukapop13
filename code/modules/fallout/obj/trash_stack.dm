@@ -11,8 +11,8 @@
 
 /obj/item/storage/trash_stack/proc/initialize_lootable_trash()
 	garbage_list = list(GLOB.trash_ammo, GLOB.trash_chem, GLOB.trash_clothing, GLOB.trash_craft,
-						GLOB.trash_gun, GLOB.trash_misc, GLOB.trash_money,
-						GLOB.trash_part, GLOB.trash_tool)
+						GLOB.trash_misc, GLOB.trash_part, GLOB.trash_tool)
+
 	lootable_trash = list() //we are setting them to an empty list so you can't double the amount of stuff
 	for(var/i in garbage_list)
 		for(var/ii in i)
@@ -42,7 +42,7 @@
 				var/obj/item/item = new itemtype(ST)
 				//if (prob(10+(user.special_l*3.5)))//SPECIAL Integration
 				//	to_chat(user, "<span class='notice'>You get lucky and find even more loot!</span>")
-				//	var/obj/item/bonusitem = new itemtypebonus(ST)				
+				//	var/obj/item/bonusitem = new itemtypebonus(ST)
 				//	if(istype(bonusitem))
 				//		bonusitem.from_trash = TRUE
 				if(istype(item))
