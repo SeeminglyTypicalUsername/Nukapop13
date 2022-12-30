@@ -6,8 +6,8 @@ Money		Cent & Treasurer - "small" money bag (the biggest)
 			Decanus - Officer money bag
 			Rest - Enlisted money bag
 Sidearm		None.
-Melee		Officers only - Spatha
-			Vets/Officers - Gladius
+Melee		Officers only - (null)
+			Vets/Officers - Forged machete
 			Rest - Lawnmower machete the most common
 Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns all good, very restrictive on long barrel automatics, generally limited ammo, always good melee option.
 			Avoid Police shotguns, 5,56 semis, Desert Eagle, Survival knives etc, be creative and work within the limitations to avoid powercreep and things getting bland and same.
@@ -399,7 +399,7 @@ commented out pending rework*/
 	l_pocket = /obj/item/restraints/handcuffs
 	box = /obj/item/storage/survivalkit_tribal/chief
 	backpack_contents = list(
-		/obj/item/melee/onehanded/machete/gladius = 1,
+		/obj/item/melee/onehanded/machete/forgedmachete = 1,
 		/obj/item/storage/bag/money/small/legofficers = 1,
 		/obj/item/grenade/smokebomb = 1,
 		/obj/item/binoculars = 1,
@@ -660,9 +660,9 @@ commented out pending rework*/
 /datum/outfit/job/CaesarsLegion/Legionnaire/vetlegionnaire/pre_equip(mob/living/carbon/human/H)
 	. = ..()
 	r_hand = pick(
-		/obj/item/storage/box/gunbox/legion/veteran/set1, //hunting rifle, scope, gladius
-		/obj/item/storage/box/gunbox/legion/veteran/set2, //lever action, gladius
-		/obj/item/storage/box/gunbox/legion/veteran/set3, //trail carbine, gladius
+		/obj/item/storage/box/gunbox/legion/veteran/set1, //hunting rifle, scope, forged machete
+		/obj/item/storage/box/gunbox/legion/veteran/set2, //lever action, forged machete
+		/obj/item/storage/box/gunbox/legion/veteran/set3, //trail carbine, forged machete
 		/obj/item/storage/box/gunbox/legion/veteran/set4, //.44, fireaxe
 		/obj/item/storage/box/gunbox/legion/veteran/set5) //sledgehammer, throwing knives
 
@@ -852,8 +852,6 @@ commented out pending rework*/
 		return
 	ADD_TRAIT(H, TRAIT_BIG_LEAGUES, src)
 	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, src)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/gladius)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/spatha)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/lance)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/legionshield)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/lever_action)
@@ -1097,7 +1095,7 @@ Venator  - Zero slots, role built on cloning vet ranger, linear just vastly bett
 	suit_store = /obj/item/gun/ballistic/automatic/marksman/sniper/snipervenator
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/w308 = 3,
-		/obj/item/melee/onehanded/machete/gladius = 1,
+		/obj/item/melee/onehanded/machete/forgedmachete = 1,
 		/obj/item/gun/ballistic/revolver/revolver45 = 1,
 		/obj/item/ammo_box/c45rev = 3,
 		)
@@ -1158,5 +1156,5 @@ datum/job/CaesarsLegion/Legionnaire/f13slavemaster
 	id = /obj/item/card/id/dogtag/town/legion
 	l_hand = /obj/item/shield/riot/buckler
 	backpack_contents = list(
-		/obj/item/melee/onehanded/machete/spatha = 1,
+		/obj/item/melee/onehanded/machete/forgedmachete = 1,
 		)

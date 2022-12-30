@@ -407,6 +407,12 @@
 	icon_state = "bluerustychess2"
 	},
 /area/f13/building)
+"ahv" = (
+/obj/effect/landmark/start/f13/borg,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontaltopborderbottom0"
+	},
+/area/f13/tunnel)
 "ahI" = (
 /obj/structure/nest/scorpion,
 /turf/open/indestructible/ground/inside/mountain,
@@ -12754,13 +12760,6 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/building)
-"fBj" = (
-/obj/effect/decal/cleanable/dirt{
-	color = "000000"
-	},
-/obj/machinery/recharge_station,
-/turf/open/floor/wood/f13/oak,
-/area/f13/building)
 "fBl" = (
 /obj/structure/rack,
 /obj/item/taperecorder,
@@ -21845,12 +21844,6 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/village)
-"jkH" = (
-/obj/effect/landmark/start/f13/borg,
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontalinnermain0"
-	},
-/area/f13/tunnel)
 "jkI" = (
 /obj/machinery/grill,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
@@ -26185,11 +26178,11 @@
 /turf/open/floor/f13/wood,
 /area/f13/village)
 "lfl" = (
-/obj/structure/rack,
-/obj/item/stack/crafting/armor_plate/ten,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13/wood,
-/area/f13/legion)
+/obj/effect/landmark/start/f13/borg,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "horizontalinnermain0"
+	},
+/area/f13/tunnel)
 "lfp" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/remains/human,
@@ -42461,12 +42454,6 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
-"ssW" = (
-/obj/effect/landmark/start/f13/borg,
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontaltopborderbottom0"
-	},
-/area/f13/tunnel)
 "ssX" = (
 /obj/structure/toilet{
 	dir = 4
@@ -51333,6 +51320,13 @@
 	},
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
+"wnN" = (
+/obj/effect/decal/cleanable/dirt{
+	color = "000000"
+	},
+/obj/machinery/recharge_station,
+/turf/open/floor/wood/f13/oak,
+/area/f13/building)
 "wnO" = (
 /obj/structure/sign/poster/ncr/loaded,
 /turf/closed/wall/mineral/concrete,
@@ -56585,7 +56579,7 @@ fyf
 hwC
 mGC
 sTC
-ssW
+ahv
 vDP
 pnz
 gjC
@@ -56707,7 +56701,7 @@ gcK
 gcK
 mGC
 sTC
-ssW
+ahv
 vDP
 pnz
 gjC
@@ -82091,7 +82085,7 @@ dCV
 hgc
 ozq
 ftA
-fBj
+wnN
 ozq
 qye
 jcm
@@ -115113,7 +115107,7 @@ ktB
 (231,1,1) = {"
 emz
 gqz
-jkH
+lfl
 vDP
 vDP
 vDP
@@ -118172,7 +118166,7 @@ xLu
 sSm
 oZB
 lhE
-lfl
+seY
 hom
 ggK
 ggK
