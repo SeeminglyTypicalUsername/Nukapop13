@@ -1671,25 +1671,25 @@ list(/obj/item/stack/sheet/metal = 20,
 
 //Veteran
 
-/obj/item/storage/box/gunbox/legion/veteran/set1/PopulateContents() //hunting rifle, scope, gladius
+/obj/item/storage/box/gunbox/legion/veteran/set1/PopulateContents() //hunting rifle, scope, forged machete
 	new /obj/item/gun/ballistic/rifle/hunting(src)
-	new /obj/item/melee/onehanded/machete/gladius(src)
+	new /obj/item/melee/onehanded/machete/forgedmachete(src)
 	new /obj/item/attachments/scope(src)
 	new /obj/item/ammo_box/a308(src)
 	new /obj/item/ammo_box/a308(src)
 	new /obj/item/restraints/legcuffs/beartrap(src)
 
-/obj/item/storage/box/gunbox/legion/veteran/set2/PopulateContents() //lever action, gladius
+/obj/item/storage/box/gunbox/legion/veteran/set2/PopulateContents() //lever action, forged machete
 	new /obj/item/gun/ballistic/shotgun/automatic/combat/shotgunlever(src)
 	new /obj/item/ammo_box/shotgun/buck(src)
 	new /obj/item/ammo_box/shotgun/buck(src)
-	new /obj/item/melee/onehanded/machete/gladius(src)
+	new /obj/item/melee/onehanded/machete/forgedmachete(src)
 
-/obj/item/storage/box/gunbox/legion/veteran/set3/PopulateContents()  //trail carbine, gladius
+/obj/item/storage/box/gunbox/legion/veteran/set3/PopulateContents()  //trail carbine, forged machete
 	new /obj/item/gun/ballistic/rifle/repeater/trail(src)
 	new /obj/item/ammo_box/tube/a357(src)
 	new /obj/item/ammo_box/tube/a357(src)
-	new /obj/item/melee/onehanded/machete/gladius(src)
+	new /obj/item/melee/onehanded/machete/forgedmachete(src)
 
 /obj/item/storage/box/gunbox/legion/veteran/set4/PopulateContents() //.44, fireaxe
 	new /obj/item/gun/ballistic/revolver/m29(src)
