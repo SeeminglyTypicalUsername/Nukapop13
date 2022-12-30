@@ -228,6 +228,7 @@ GLOBAL_LIST_INIT(wasteland_positions, list(
 	"Vigilante",
 	"Tribal",
 	"Wastelander",
+	"Prewar Robot",
 ))
 
 GLOBAL_LIST_INIT(enclave_positions, list(

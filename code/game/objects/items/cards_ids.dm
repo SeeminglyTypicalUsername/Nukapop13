@@ -1518,3 +1518,22 @@
 	item_state = null
 	uses_overlays = FALSE
 	assignment = "identification papers"
+
+//cotc
+
+/obj/item/card/id/yuma/cotc
+	name = "identification papers"
+	desc = "Papers detailing general information personal information used for identification."
+	icon_state = "papers"
+	item_state = null
+	uses_overlays = FALSE
+	assignment = "identification papers"
+
+/obj/item/card/id/yuma/cotc/neophyte
+	name = "neophyte identification papers"
+	desc = "Papers detailing general information personal information used for identification."
+	icon_state = "papers"
+	item_state = null
+	uses_overlays = FALSE
+	assignment = "neophyte identification papers"
+	access = list(ACCESS_COTC)
