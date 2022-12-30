@@ -674,8 +674,6 @@ datum/job/wasteland/f13dendoctor
 						/obj/item/reagent_containers/glass/beaker/large = 2
 						)
 
-
-
 //vigilante
 
 
@@ -1177,3 +1175,30 @@ datum/job/wasteland/f13dendoctor
 		/obj/item/warpaint_bowl = 1,
 		/obj/item/reagent_containers/pill/patch/healpoultice = 2
 	)
+
+/*
+Prewar Robot
+*/
+/datum/job/wasteland/f13borg
+    title = "Prewar Robot"
+    flag = F13BORG
+    department_flag = FOLLOWERS
+    faction = FACTION_WASTELAND
+    total_positions = 3
+    spawn_positions = 3
+    supervisors = "your owners"
+    description = "You are a pre-war robot. Do the job you were designed for, and obey your laws."
+    selection_color = "#c3d5d5"
+
+/datum/job/wasteland/f13borg/equip(mob/living/carbon/human/H, visualsOnly = FALSE, announce = TRUE, latejoin = FALSE, datum/outfit/outfit_override = null, client/preference_source)
+    return H.Robotize(FALSE, latejoin)
+
+/datum/job/wasteland/f13borg/override_latejoin_spawn()
+    return TRUE
+
+/datum/job/wasteland/f13borg/after_spawn(mob/living/silicon/robot/R, mob/M)
+    . = ..()
+    ADD_TRAIT(R, TRAIT_TECHNOPHREAK, TRAIT_GENERIC)
+    R.apply_pref_name("human", M.client)
+    R.gender = NEUTER
+    R.forceMove(pick(GLOB.special_borg_start))

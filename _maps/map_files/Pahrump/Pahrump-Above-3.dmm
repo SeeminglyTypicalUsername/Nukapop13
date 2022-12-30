@@ -329,6 +329,12 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/brotherhood/surface)
+"dp" = (
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/cotc)
 "dq" = (
 /obj/structure/simple_door/metal/barred,
 /obj/effect/decal/cleanable/dirt,
@@ -344,13 +350,11 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/bar)
 "dw" = (
-/obj/structure/bed/mattress{
-	icon_state = "mattress1"
+/obj/structure/guncase{
+	anchored = 1
 	},
-/turf/open/floor/f13{
-	color = "#818181";
-	icon_state = "floorrustysolid"
-	},
+/obj/item/gun/ballistic/rifle/hunting,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/cotc)
 "dx" = (
 /obj/effect/decal/cleanable/dirt,
@@ -389,6 +393,12 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/building)
+"dQ" = (
+/obj/structure/table/wood/settler,
+/obj/item/paper_bin,
+/obj/item/pen,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/cotc)
 "dR" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2,
@@ -449,6 +459,16 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/f13/oak,
 /area/f13/bar)
+"en" = (
+/obj/structure/rack/shelf_metal,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/cotc)
+"eq" = (
+/obj/machinery/photocopier,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/cotc)
 "er" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
@@ -498,6 +518,13 @@
 	name = "air";
 	sunlight_state = 1
 	},
+/area/f13/cotc)
+"eP" = (
+/obj/machinery/door/unpowered/securedoor{
+	req_access_txt = "145";
+	name = "scriptorium"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/cotc)
 "eS" = (
 /obj/structure/table,
@@ -611,6 +638,12 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
+"fL" = (
+/obj/structure/chair/office/dark{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/cotc)
 "fM" = (
 /obj/machinery/workbench,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
@@ -1193,6 +1226,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/wasteland)
+"le" = (
+/obj/structure/shelf_wood,
+/obj/item/melee/onehanded/slavewhip{
+	name = "tool of the faith"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/cotc)
 "lr" = (
 /obj/structure/sign/poster/prewar/poster60,
 /turf/closed/wall/f13/store,
@@ -1258,11 +1298,13 @@
 /turf/open/floor/carpet/purple,
 /area/f13/cotc)
 "lX" = (
-/obj/effect/landmark/start/f13/cotc/acolyte,
-/turf/open/floor/f13{
-	color = "#818181";
-	icon_state = "floorrustysolid"
-	},
+/obj/structure/filingcabinet/chestdrawer,
+/obj/item/paper/pamphlet/church1,
+/obj/item/paper/pamphlet/church1,
+/obj/item/paper/pamphlet/church1,
+/obj/item/paper/pamphlet/church1,
+/obj/item/paper/pamphlet/church1,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/cotc)
 "mc" = (
 /turf/open/indestructible/ground/outside/woodalt,
@@ -1478,6 +1520,13 @@
 	},
 /turf/open/floor/wood/wood_tiled,
 /area/f13/ncr)
+"ow" = (
+/obj/structure/closet/cabinet,
+/turf/open/floor/f13{
+	color = "#818181";
+	icon_state = "floorrustysolid"
+	},
+/area/f13/cotc)
 "oE" = (
 /obj/structure/sign/poster/contraband/scum,
 /turf/closed/wall/f13/store,
@@ -1590,6 +1639,13 @@
 /obj/structure/decoration/clock/old,
 /turf/closed/wall/f13/store,
 /area/f13/brotherhood/surface)
+"pH" = (
+/mob/living/simple_animal/pet/cat{
+	dir = 8;
+	name = "Neophyte Whiskers"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/cotc)
 "pL" = (
 /turf/closed/wall/f13/ruins,
 /area/f13/cotc)
@@ -1667,6 +1723,10 @@
 	dir = 8
 	},
 /turf/open/floor/carpet/purple,
+/area/f13/cotc)
+"qr" = (
+/obj/structure/chalkboard,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/cotc)
 "qs" = (
 /turf/closed/wall/r_wall/rust,
@@ -1758,12 +1818,13 @@
 /turf/closed/wall/f13/store,
 /area/f13/brotherhood/surface)
 "rb" = (
-/obj/structure/guncase{
-	anchored = 1
-	},
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 8
 	},
+/obj/structure/table/wood,
+/obj/item/pen,
+/obj/item/paper,
+/obj/item/pen,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/cotc)
 "rf" = (
@@ -1843,6 +1904,15 @@
 /obj/effect/decal/remains/human,
 /turf/open/floor/f13,
 /area/f13/brotherhood/surface)
+"rI" = (
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 4
+	},
+/obj/structure/table/wood/settler,
+/obj/item/folder,
+/obj/item/folder/red,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/cotc)
 "rX" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/chair/office{
@@ -1850,6 +1920,17 @@
 	},
 /turf/open/floor/f13,
 /area/f13/brotherhood/surface)
+"sa" = (
+/obj/structure/rack/shelf_metal,
+/obj/item/card/id/yuma/cotc/neophyte,
+/obj/item/card/id/yuma/cotc/neophyte,
+/obj/item/card/id/yuma/cotc/neophyte,
+/obj/item/card/id/yuma/cotc/neophyte,
+/obj/item/card/id/yuma/cotc/neophyte,
+/obj/item/card/id/yuma/cotc/neophyte,
+/obj/item/card/id/yuma/cotc/neophyte,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/cotc)
 "sc" = (
 /obj/structure/closet/cabinet,
 /obj/item/clothing/under/f13/erpdress,
@@ -1873,6 +1954,15 @@
 	sunlight_state = 1
 	},
 /area/f13/wasteland)
+"sn" = (
+/obj/structure/closet/cabinet,
+/obj/item/storage/fancy/candle_box,
+/obj/structure/destructible/tribal_torch/wall/lit,
+/turf/open/floor/f13{
+	color = "#818181";
+	icon_state = "floorrustysolid"
+	},
+/area/f13/cotc)
 "st" = (
 /obj/structure/campfire/barrel,
 /obj/effect/decal/cleanable/dirt,
@@ -1882,6 +1972,12 @@
 /obj/structure/chair/sofa/corp/corner,
 /turf/open/floor/wood/f13/oak,
 /area/f13/ncr)
+"sx" = (
+/obj/structure/chair/office/dark{
+	dir = 4
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/cotc)
 "sz" = (
 /obj/structure/table,
 /obj/machinery/computer/terminal{
@@ -2029,9 +2125,7 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/wasteland)
 "tI" = (
-/obj/structure/closet/cabinet,
-/obj/item/clothing/suit/hooded/robes/cotc,
-/obj/item/clothing/suit/hooded/robes/cotc,
+/obj/structure/dresser,
 /turf/open/floor/f13{
 	color = "#818181";
 	icon_state = "floorrustysolid"
@@ -2072,6 +2166,10 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"tW" = (
+/obj/machinery/autolathe,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/cotc)
 "tY" = (
 /obj/structure/railing{
 	color = "#A47449";
@@ -2311,6 +2409,12 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building)
+"ws" = (
+/obj/structure/destructible/tribal_torch/wall/lit{
+	dir = 8
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/cotc)
 "ww" = (
 /obj/structure/dresser,
 /turf/open/floor/f13/wood,
@@ -2562,6 +2666,21 @@
 "yB" = (
 /turf/open/floor/carpet/brown,
 /area/f13/building)
+"yH" = (
+/obj/structure/table/wood/junk,
+/turf/open/floor/f13{
+	color = "#818181";
+	icon_state = "floorrustysolid"
+	},
+/area/f13/cotc)
+"yJ" = (
+/obj/structure/filingcabinet/chestdrawer,
+/obj/item/paper/pamphlet/church2,
+/obj/item/paper/pamphlet/church2,
+/obj/item/paper/pamphlet/church2,
+/obj/item/paper/pamphlet/church2,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/cotc)
 "yP" = (
 /turf/closed/wall/r_wall,
 /area/f13/wasteland)
@@ -2783,18 +2902,17 @@
 	req_access_txt = "147";
 	name = "High Priest"
 	},
+/obj/structure/curtain{
+	color = "#610c66"
+	},
 /turf/open/floor/f13{
 	color = "#818181";
 	icon_state = "floorrustysolid"
 	},
 /area/f13/cotc)
 "Bg" = (
-/obj/structure/rack/shelf_metal,
-/obj/item/melee/onehanded/slavewhip{
-	name = "tool of the faith"
-	},
-/obj/item/melee/onehanded/slavewhip{
-	name = "tool of the faith"
+/obj/structure/chair/wood/worn{
+	dir = 1
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/cotc)
@@ -3144,6 +3262,10 @@
 	icon_state = "housewood4-broken"
 	},
 /area/f13/raiders)
+"Eu" = (
+/obj/structure/closet/cabinet,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/cotc)
 "EC" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/vending/cigarette,
@@ -3212,17 +3334,17 @@
 	},
 /area/f13/wasteland)
 "Fx" = (
-/obj/structure/bed/mattress{
-	icon_state = "mattress3"
-	},
 /obj/structure/destructible/tribal_torch/wall/lit,
+/obj/effect/landmark/start/f13/cotc/acolyte,
 /turf/open/floor/f13{
 	color = "#818181";
 	icon_state = "floorrustysolid"
 	},
 /area/f13/cotc)
 "Fz" = (
-/obj/effect/landmark/start/f13/cotc/neophyte,
+/obj/structure/chair/wood/modern{
+	dir = 4
+	},
 /turf/open/floor/f13{
 	color = "#818181";
 	icon_state = "floorrustysolid"
@@ -3343,14 +3465,17 @@
 	},
 /area/f13/building)
 "GT" = (
-/obj/structure/bed/mattress{
-	icon_state = "mattress2";
-	pixel_y = 10
-	},
+/obj/structure/bed/old,
 /turf/open/floor/f13{
 	color = "#818181";
 	icon_state = "floorrustysolid"
 	},
+/area/f13/cotc)
+"GU" = (
+/obj/structure/rack/shelf_metal,
+/obj/item/ammo_box/magazine/ammobelt,
+/obj/item/ammo_box/magazine/ammobelt,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/cotc)
 "GX" = (
 /obj/effect/decal/cleanable/dirt,
@@ -3461,6 +3586,12 @@
 /obj/structure/table/wood/settler,
 /turf/open/floor/carpet/brown,
 /area/f13/building)
+"If" = (
+/obj/structure/shelf_wood,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/metal/fifty,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/cotc)
 "Ih" = (
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 4
@@ -3487,11 +3618,10 @@
 /turf/open/floor/carpet,
 /area/f13/ncr)
 "Is" = (
-/obj/structure/destructible/tribal_torch/wall/lit,
-/turf/open/floor/f13{
-	color = "#818181";
-	icon_state = "floorrustysolid"
-	},
+/obj/structure/table/wood,
+/obj/item/paper,
+/obj/item/pen,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/cotc)
 "It" = (
 /obj/structure/rack,
@@ -3810,6 +3940,12 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/legion)
+"LD" = (
+/obj/machinery/bookbinder,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	name = "metal plating"
+	},
+/area/f13/cotc)
 "LF" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/glass,
@@ -3841,6 +3977,11 @@
 /obj/structure/destructible/tribal_torch/wall/lit,
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/legion)
+"LO" = (
+/obj/structure/table/wood/settler,
+/obj/item/book/manual/thebook,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/cotc)
 "LQ" = (
 /obj/structure/barricade/wooden/strong,
 /obj/structure/barricade/wooden/planks/pregame,
@@ -3885,14 +4026,10 @@
 /turf/open/floor/carpet/arcade,
 /area/f13/bar)
 "Mc" = (
-/obj/structure/bed/mattress{
-	icon_state = "mattress2";
-	pixel_y = 5
-	},
-/turf/open/floor/f13{
-	color = "#818181";
-	icon_state = "floorrustysolid"
-	},
+/obj/structure/table/wood/settler,
+/obj/item/folder,
+/obj/item/folder/red,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/cotc)
 "Mj" = (
 /obj/structure/railing{
@@ -3925,6 +4062,13 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/brotherhood/surface)
+"MR" = (
+/obj/machinery/door/unpowered/securedoor{
+	req_access_txt = "145";
+	name = "reeducation"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/cotc)
 "MS" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/bed/dogbed,
@@ -4194,6 +4338,16 @@
 	},
 /turf/open/transparent/openspace,
 /area/f13/building)
+"OO" = (
+/obj/structure/filingcabinet,
+/obj/item/paper,
+/obj/item/paper,
+/obj/item/paper,
+/obj/item/paper,
+/obj/item/paper,
+/obj/item/paper,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/cotc)
 "OP" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
@@ -5122,11 +5276,12 @@
 /turf/open/floor/carpet/black,
 /area/f13/wasteland)
 "WX" = (
-/obj/structure/rack,
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 4
 	},
-/obj/item/ammo_box/magazine/ammobelt,
+/obj/structure/table/wood,
+/obj/item/paper,
+/obj/item/pen,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/cotc)
 "WZ" = (
@@ -31013,8 +31168,8 @@ Wx
 PL
 PL
 PL
-Wx
-Wx
+PL
+PL
 Wx
 Wx
 Wx
@@ -31270,8 +31425,8 @@ Wx
 PL
 PL
 PL
-Wx
-Wx
+PL
+PL
 Wx
 Wx
 Wx
@@ -31527,8 +31682,8 @@ Wx
 PL
 PL
 PL
-Wx
-Wx
+PL
+PL
 Wx
 Wx
 Wx
@@ -31784,8 +31939,8 @@ Wx
 Wx
 PL
 PL
-Wx
-Wx
+PL
+PL
 Wx
 Wx
 Wx
@@ -32043,8 +32198,8 @@ PL
 PL
 PL
 PL
-PL
-PL
+Wx
+Wx
 Wx
 Wx
 Wx
@@ -32300,9 +32455,9 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
+Wx
+Wx
+Wx
 Wx
 Wx
 Wx
@@ -32557,10 +32712,10 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
-PL
+Wx
+Wx
+Wx
+Wx
 Wx
 Wx
 Wx
@@ -32814,10 +32969,10 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
-PL
+Wx
+Wx
+Wx
+Wx
 Wx
 Wx
 Wx
@@ -33072,9 +33227,9 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
+Wx
+Wx
+Wx
 Wx
 Wx
 Wx
@@ -33329,9 +33484,9 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
+Wx
+Wx
+Wx
 Wx
 Wx
 Wx
@@ -33586,13 +33741,13 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
+Wx
+Wx
+Wx
+Wx
+Wx
+Wx
+Wx
 PL
 PL
 PL
@@ -33843,13 +33998,13 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
-PL
-PL
-PL
-PL
+Wx
+Wx
+Wx
+Wx
+Wx
+Wx
+Wx
 PL
 PL
 PL
@@ -34100,9 +34255,9 @@ PL
 PL
 PL
 PL
-PL
-PL
-PL
+Wx
+Wx
+Wx
 Wx
 Wx
 Wx
@@ -34358,12 +34513,12 @@ PL
 PL
 PL
 PL
+Wx
+Wx
+Wx
+Wx
+Wx
 PL
-Wx
-Wx
-Wx
-Wx
-Wx
 PL
 PL
 PL
@@ -34614,13 +34769,13 @@ PL
 PL
 PL
 PL
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 PL
 PL
@@ -34868,16 +35023,16 @@ qg
 mI
 PL
 PL
-Wx
 PL
 PL
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 PL
 PL
@@ -35125,16 +35280,16 @@ SV
 mI
 PL
 PL
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 PL
 PL
@@ -35382,16 +35537,16 @@ Vn
 mI
 PL
 PL
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
-Wx
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
+PL
 PL
 PL
 PL
@@ -37206,14 +37361,14 @@ PL
 PL
 PL
 PL
-xN
-xN
-xN
-xN
-xN
-xN
-xN
 PL
+xN
+xN
+xN
+xN
+xN
+xN
+xN
 PL
 PL
 PL
@@ -37474,7 +37629,7 @@ xN
 xN
 xN
 xN
-PL
+xN
 PL
 PL
 PL
@@ -37731,7 +37886,7 @@ xN
 xN
 xN
 xN
-PL
+xN
 PL
 PL
 PL
@@ -37749,14 +37904,14 @@ sD
 un
 sD
 ji
-hQ
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+pL
+pL
+pL
+pL
+pL
+pL
+pL
+pL
 PL
 PL
 CC
@@ -37988,7 +38143,7 @@ xN
 xN
 xN
 xN
-PL
+xN
 PL
 PL
 PL
@@ -38006,14 +38161,14 @@ sD
 Ok
 Td
 ji
-hQ
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+ji
+ji
+ji
+ji
+ji
+ji
+ji
+pL
 PL
 PL
 CC
@@ -38245,7 +38400,7 @@ xN
 xN
 xN
 xN
-PL
+xN
 PL
 PL
 PL
@@ -38263,14 +38418,14 @@ Ok
 Ok
 ji
 ji
-hQ
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+EJ
+ws
+dw
+dw
+qf
+eY
+ji
+pL
 PL
 PL
 CC
@@ -38502,7 +38657,7 @@ xN
 xN
 xN
 xN
-PL
+xN
 PL
 PL
 PL
@@ -38517,17 +38672,17 @@ Ok
 cm
 sD
 sD
-cm
+sn
+ji
+Ha
+qf
+qf
+qf
+qf
+qf
+le
 ji
 pL
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
 PL
 PL
 CC
@@ -38759,7 +38914,7 @@ xN
 xN
 xN
 xN
-PL
+xN
 PL
 PL
 PL
@@ -38776,15 +38931,15 @@ Bb
 si
 ag
 ji
+qf
+qf
+jn
+GU
+Eu
+qf
+en
+ji
 pL
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
 PL
 PL
 CC
@@ -39016,7 +39171,7 @@ xN
 xN
 xN
 xN
-PL
+xN
 PL
 PL
 PL
@@ -39031,17 +39186,17 @@ Ok
 xZ
 sD
 sD
-Is
+sD
+lz
+qf
+qf
+qf
+qf
+qf
+qf
+en
 ji
 pL
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
 PL
 PL
 CC
@@ -39273,7 +39428,7 @@ xN
 xN
 xN
 xN
-PL
+xN
 PL
 PL
 PL
@@ -39290,15 +39445,15 @@ sD
 sD
 YC
 ji
+tW
+qf
+If
+sa
+en
+dp
+en
+ji
 pL
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
 PL
 CC
 CC
@@ -39530,7 +39685,7 @@ xN
 xN
 xN
 xN
-PL
+xN
 PL
 PL
 PL
@@ -39547,15 +39702,15 @@ sD
 Jo
 ey
 ji
+fM
+qf
 ji
-CC
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+ji
+ji
+ji
+ji
+ji
+pL
 PL
 CC
 CC
@@ -39787,7 +39942,7 @@ xN
 xN
 xN
 xN
-PL
+xN
 PL
 PL
 PL
@@ -39805,14 +39960,14 @@ Ok
 Ok
 Ok
 ji
-hQ
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+rj
+Ok
+yJ
+lX
+dQ
+Mc
+ji
+pL
 PL
 CC
 CC
@@ -40044,32 +40199,32 @@ xN
 xN
 xN
 xN
-PL
+xN
 PL
 PL
 PL
 Ok
-dw
+GT
 sD
-Mc
-Mc
-Fz
+GT
+GT
+sD
 GT
 Ok
-fM
+LO
 qf
 rb
-jn
+Bg
+Is
+Bg
+qf
 Ok
+qf
+qf
+qf
+fL
 ji
-hQ
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+pL
 PL
 CC
 CC
@@ -40301,32 +40456,32 @@ xN
 xN
 xN
 xN
-PL
+xN
 PL
 PL
 PL
 Ok
 Pd
 sD
-Fz
-lX
 ZU
+ZU
+sD
 Fx
 Ok
-Ha
+qr
 qf
 qf
 qf
-EJ
+qf
+qf
+qf
+eP
+qf
+sx
+qf
+qf
 ji
-hQ
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+pL
 PL
 CC
 CC
@@ -40558,32 +40713,32 @@ xN
 xN
 xN
 xN
-PL
+xN
 PL
 PL
 PL
 Ok
+Fz
 sD
 sD
 sD
 sD
-ZU
-dw
+sD
 Ok
 qf
 qf
+pH
 qf
 qf
-eY
+qf
+qf
+Ok
+dQ
+rI
+LD
+eq
 ji
-hQ
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+pL
 PL
 CC
 CC
@@ -40815,32 +40970,32 @@ xN
 xN
 xN
 xN
-PL
+xN
 PL
 PL
 PL
 Ok
-tI
+yH
 tI
 tI
 sD
 sD
 sD
-rj
+MR
 qf
 qf
 WX
 Bg
-Ok
+Is
+Bg
+OO
 ji
-hQ
-CC
-CC
-CC
-CC
-CC
-CC
-CC
+ji
+ji
+ji
+ji
+pL
+pL
 PL
 CC
 CC
@@ -41072,7 +41227,7 @@ xN
 xN
 xN
 xN
-PL
+xN
 PL
 PL
 PL
@@ -41081,7 +41236,7 @@ Ok
 Ok
 Ok
 AE
-sD
+ow
 Ok
 Ok
 Ok
@@ -41090,13 +41245,13 @@ Ok
 Ok
 Ok
 ji
-ad
-hQ
-CC
-CC
-CC
-CC
-CC
+ji
+pL
+pL
+pL
+pL
+pL
+pL
 PL
 PL
 PL
@@ -41329,7 +41484,7 @@ xN
 xN
 xN
 xN
-PL
+xN
 PL
 PL
 PL
@@ -41586,7 +41741,7 @@ xN
 xN
 xN
 xN
-PL
+xN
 PL
 PL
 PL
@@ -41843,7 +41998,7 @@ xN
 xN
 xN
 xN
-PL
+xN
 PL
 PL
 PL
@@ -42100,7 +42255,7 @@ xN
 xN
 xN
 xN
-PL
+xN
 PL
 PL
 PL
@@ -42357,7 +42512,7 @@ xN
 xN
 xN
 xN
-PL
+xN
 Wx
 Wx
 Wx

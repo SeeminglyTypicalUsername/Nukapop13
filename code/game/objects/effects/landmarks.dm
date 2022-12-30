@@ -805,6 +805,15 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	name = "Wastelander"
 	icon_state = "Wastelander"
 
+/obj/effect/landmark/start/f13/borg
+	name = "Prewar Robot"
+	icon_state = "Cyborg"
+
+/obj/effect/landmark/start/f13/borg/Initialize()
+	..()
+	GLOB.special_borg_start += loc
+	return INITIALIZE_HINT_QDEL
+
 /obj/effect/landmark/start/f13/raider
 	name = "Wasteland Raider"
 	icon_state = "Raider"
