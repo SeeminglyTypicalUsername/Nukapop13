@@ -27558,7 +27558,6 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/stripes/white/box,
-/obj/item/restraints/handcuffs,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/ncr)
 "lOj" = (
@@ -30197,7 +30196,9 @@
 	},
 /area/f13/building)
 "mUk" = (
-/obj/structure/table/reinforced,
+/obj/structure/chair/wood{
+	dir = 8
+	},
 /turf/open/floor/f13{
 	icon_state = "darkdirtysolid"
 	},
@@ -36048,7 +36049,6 @@
 /obj/structure/closet,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/white/box,
-/obj/item/restraints/handcuffs,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/ncr)
 "pEk" = (
@@ -40442,13 +40442,6 @@
 	icon_state = "bluerustychess2"
 	},
 /area/f13/building)
-"rxw" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table/reinforced,
-/turf/open/floor/f13{
-	icon_state = "darkdirtysolid"
-	},
-/area/f13/ncr)
 "rxC" = (
 /obj/structure/fence,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -51633,33 +51626,16 @@
 	},
 /area/f13/tunnel)
 "wuT" = (
-/obj/structure/table/reinforced,
-/obj/effect/decal/cleanable/dirt,
-/obj/item/clothing/suit/armor/f13/ncrcfjacket,
-/obj/item/clothing/suit/armor/f13/ncrcfjacket,
-/obj/item/clothing/suit/armor/f13/ncrcfjacket,
-/obj/item/clothing/suit/armor/f13/ncrcfjacket,
-/obj/item/clothing/suit/armor/f13/ncrcfjacket,
-/obj/item/clothing/suit/armor/f13/ncrcfjacket,
-/obj/item/clothing/suit/armor/f13/ncrcfjacket,
-/obj/item/clothing/suit/armor/f13/ncrcfjacket,
-/obj/item/clothing/under/f13/ncrcf,
-/obj/item/clothing/under/f13/ncrcf,
-/obj/item/clothing/under/f13/ncrcf,
-/obj/item/clothing/under/f13/ncrcf,
-/obj/item/clothing/under/f13/ncrcf,
-/obj/item/clothing/under/f13/ncrcf,
-/obj/item/clothing/under/f13/ncrcf,
-/obj/item/clothing/under/f13/ncrcf,
-/obj/item/clothing/shoes/f13/brownie,
-/obj/item/clothing/shoes/f13/brownie,
-/obj/item/clothing/shoes/f13/brownie,
-/obj/item/clothing/shoes/f13/brownie,
-/obj/item/clothing/shoes/f13/brownie,
-/obj/item/clothing/shoes/f13/brownie,
-/obj/item/clothing/shoes/f13/brownie,
-/obj/item/clothing/shoes/f13/brownie,
 /obj/effect/turf_decal/stripes/white/box,
+/obj/structure/table/reinforced,
+/obj/item/restraints/handcuffs,
+/obj/item/restraints/handcuffs,
+/obj/item/restraints/handcuffs,
+/obj/item/restraints/handcuffs,
+/obj/item/restraints/handcuffs,
+/obj/item/restraints/handcuffs,
+/obj/item/restraints/handcuffs,
+/obj/item/restraints/handcuffs,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/ncr)
 "wvj" = (
@@ -54797,7 +54773,6 @@
 "xLd" = (
 /obj/structure/closet,
 /obj/effect/turf_decal/stripes/white/box,
-/obj/item/restraints/handcuffs,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/ncr)
 "xLn" = (
@@ -55660,7 +55635,6 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/stripes/white/box,
-/obj/item/restraints/handcuffs,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/ncr)
 "ygB" = (
@@ -60942,8 +60916,8 @@ qxI
 wfM
 xgn
 ggq
-rxw
-fFC
+ggq
+mUk
 qCn
 inV
 inV
@@ -61199,7 +61173,7 @@ koD
 wfM
 fFC
 fFC
-mUk
+fFC
 ggq
 qCn
 pdj
