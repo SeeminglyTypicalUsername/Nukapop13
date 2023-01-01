@@ -1093,6 +1093,8 @@ mob/living/simple_animal/cow/brahmin/Topic(href, href_list)
 	var/food_type = /obj/item/reagent_containers/food/snacks/grown/wheat
 	var/has_calf = 0
 	var/young_type = /mob/living/simple_animal/slepnir
+	var/datum/component/riding/driving_component
+
 /*
 Bags for storage
 Collar for a novelty name
@@ -1178,17 +1180,31 @@ Brand for permanently marking brahmin as yours (won't stop people stealing em an
 		saddle = TRUE
 		can_buckle = TRUE
 		buckle_lying = FALSE
-		var/datum/component/riding/D = LoadComponent(/datum/component/riding)
-		D.set_riding_offsets(RIDING_OFFSET_ALL, list(TEXT_NORTH = list(16, 10), TEXT_SOUTH = list(16, 10), TEXT_EAST = list(18, 11), TEXT_WEST = list(18, 11)))
-		D.set_vehicle_dir_layer(SOUTH, ABOVE_MOB_LAYER)
-		D.set_vehicle_dir_layer(NORTH, OBJ_LAYER)
-		D.set_vehicle_dir_layer(EAST, OBJ_LAYER)
-		D.set_vehicle_dir_layer(WEST, OBJ_LAYER)
-		D.drive_verb = "ride"
-		D.vehicle_move_delay = 1.54  //adjusts slepnir riding speed
+		driving_component = LoadComponent(/datum/component/riding)
+		driving_component.set_riding_offsets(RIDING_OFFSET_ALL, list(TEXT_NORTH = list(16, 10), TEXT_SOUTH = list(16, 10), TEXT_EAST = list(18, 11), TEXT_WEST = list(18, 11)))
+		driving_component.set_vehicle_dir_layer(SOUTH, ABOVE_MOB_LAYER)
+		driving_component.set_vehicle_dir_layer(NORTH, OBJ_LAYER)
+		driving_component.set_vehicle_dir_layer(EAST, OBJ_LAYER)
+		driving_component.set_vehicle_dir_layer(WEST, OBJ_LAYER)
+		driving_component.drive_verb = "ride"
 		to_chat(user, "<span class='notice'>You add [I] to [src].</span>")
 		qdel(I)
 		return
+
+/mob/living/simple_animal/slepnir/updatehealth()
+	LoadComponent(/datum/component/riding)
+	. = ..()
+	update_driving_speed()
+
+/mob/living/simple_animal/slepnir/proc/update_driving_speed()
+	if(health <= maxHealth * 0.25)
+		driving_component.vehicle_move_delay = 2.20
+	else if(health <= maxHealth * 0.50)
+		driving_component.vehicle_move_delay = 1.90
+	else if(health <= maxHealth * 0.75)
+		driving_component.vehicle_move_delay = 1.60
+	else if (health <= maxHealth)
+		driving_component.vehicle_move_delay = 1.40
 
 /mob/living/simple_animal/slepnir/death(gibbed)
 	. = ..()
