@@ -350,7 +350,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 
 /datum/outfit/job/ncr/f13staffsergeant
 	name = "NCR Staff Sergeant"
-	jobtype	= /datum/job/ncr/f13lieutenant
+	jobtype	= /datum/job/ncr/f13staffsergeant
 	id = /obj/item/card/id/dogtag/ncrsergeant
 	accessory = /obj/item/clothing/accessory/ncr/SSGT
 	neck = /obj/item/storage/belt/holster/legholster
