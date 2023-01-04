@@ -1588,6 +1588,7 @@
 "aGb" = (
 /obj/structure/closet/fridge/meat,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/reagent_containers/food/drinks/bottle/f13nukacola/nukacherry,
 /turf/open/floor/f13/wood,
 /area/f13/caves)
 "aGc" = (
@@ -5990,6 +5991,9 @@
 /obj/item/reagent_containers/food/condiment/enzyme,
 /obj/item/storage/box/ingredients/wildcard,
 /obj/item/storage/box/ingredients/wildcard,
+/obj/item/reagent_containers/food/drinks/bottle/f13nukacola,
+/obj/item/reagent_containers/food/drinks/bottle/f13nukacola,
+/obj/item/reagent_containers/food/drinks/bottle/f13nukacola/nukacherry,
 /turf/open/floor/f13{
 	color = "#818181";
 	icon_state = "floorrustysolid"
@@ -8534,6 +8538,9 @@
 /area/f13/building)
 "dKj" = (
 /obj/structure/rack,
+/obj/item/reagent_containers/food/drinks/bottle/f13nukacola/nukaquantum,
+/obj/item/reagent_containers/food/drinks/bottle/f13nukacola,
+/obj/item/reagent_containers/food/drinks/bottle/f13nukacola,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
@@ -11266,14 +11273,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/f13/oak,
 /area/f13/bar)
-"eVJ" = (
-/obj/machinery/door/unpowered/securedoor{
-	autoclose = 1;
-	name = "Den Clinic Backroom";
-	req_one_access_txt = "87"
-	},
-/turf/closed/wall/f13/ruins,
-/area/f13/building)
 "eVM" = (
 /obj/structure/table,
 /obj/structure/barricade/bars,
@@ -17470,6 +17469,7 @@
 /area/f13/building)
 "hwI" = (
 /obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/bottle/f13nukacola/nukaquantum,
 /turf/open/floor/f13{
 	icon_state = "floordirty"
 	},
@@ -18361,6 +18361,7 @@
 	name = "radio station intercom";
 	pixel_y = 23
 	},
+/obj/item/reagent_containers/food/drinks/bottle/f13nukacola/nukacherry,
 /turf/open/floor/carpet/brown,
 /area/f13/building)
 "hQV" = (
@@ -19280,6 +19281,7 @@
 	},
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/reagent_containers/food/drinks/bottle/f13nukacola/nukaquartz,
 /turf/open/floor/f13/wood,
 /area/f13/raiders)
 "ijO" = (
@@ -20770,7 +20772,9 @@
 /obj/structure/window/fulltile/store{
 	icon_state = "ruinswindow"
 	},
-/turf/open/space/basic,
+/turf/open/floor/f13{
+	icon_state = "floorrustysolid"
+	},
 /area/f13/village)
 "iRd" = (
 /obj/structure/table/wood,
@@ -33485,6 +33489,11 @@
 "oqH" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/pill/patch/bitterdrink,
+/obj/item/reagent_containers/pill/patch/bitterdrink,
+/obj/item/reagent_containers/pill/patch/bitterdrink,
+/obj/item/reagent_containers/pill/patch/bitterdrink,
+/obj/item/reagent_containers/pill/patch/healpoultice,
+/obj/item/reagent_containers/pill/patch/healpoultice,
 /turf/open/floor/f13/wood,
 /area/f13/legion)
 "oqR" = (
@@ -41033,6 +41042,11 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"rMT" = (
+/obj/structure/closet/crate/bin,
+/obj/item/reagent_containers/food/drinks/bottle/f13nukacola/nukacherry,
+/turf/open/floor/f13/wood,
+/area/f13/village)
 "rMU" = (
 /obj/effect/decal/remains/human,
 /obj/effect/decal/cleanable/dirt,
@@ -43097,6 +43111,7 @@
 /obj/item/reagent_containers/food/snacks/meat/slab,
 /obj/item/reagent_containers/food/snacks/meat/slab,
 /obj/item/reagent_containers/food/snacks/meat/slab,
+/obj/item/reagent_containers/food/drinks/bottle/f13nukacola/nukacherry,
 /turf/open/floor/plasteel/f13/vault_floor/red/redchess,
 /area/f13/building)
 "sIM" = (
@@ -52429,6 +52444,11 @@
 	icon_state = "outerturn"
 	},
 /area/f13/wasteland)
+"wMC" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/bottle/f13nukacola/nukavictory,
+/turf/open/floor/f13/wood,
+/area/f13/village)
 "wMM" = (
 /obj/machinery/light/small{
 	brightness = 3;
@@ -93885,7 +93905,7 @@ giZ
 giZ
 giZ
 giZ
-eVJ
+giZ
 giZ
 giZ
 giZ
@@ -100816,7 +100836,7 @@ bFJ
 srw
 bvr
 uRJ
-iWc
+wMC
 lws
 gjP
 uRJ
@@ -106468,7 +106488,7 @@ uVo
 koD
 bFJ
 ijg
-cpH
+rMT
 oSd
 bDO
 gjP
