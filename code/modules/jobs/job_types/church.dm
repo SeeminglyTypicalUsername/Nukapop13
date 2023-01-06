@@ -355,8 +355,17 @@
 		/obj/item/hatchet=1,
 		/obj/item/shovel/spade=1)
 
-/datum/outfit/job/church/neophyte/pre_equip(mob/living/carbon/human/H)
+/datum/outfit/job/church/neophyte/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
+	if(visualsOnly)
+		return
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/stimpak)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/stimpak5)
+	ADD_TRAIT(H, TRAIT_TECHNOPHREAK, src)
+	ADD_TRAIT(H, TRAIT_CHEMWHIZ, src)
+	ADD_TRAIT(H, TRAIT_MEDICALEXPERT, src)
+	ADD_TRAIT(H, TRAIT_SURGERY_MID, src)
+	ADD_TRAIT(H, TRAIT_MACHINE_SPIRITS, src)
 	uniform = pick(
 		/obj/item/clothing/under/f13/settler,
 		/obj/item/clothing/under/f13/brahminm,
