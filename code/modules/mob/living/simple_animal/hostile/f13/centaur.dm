@@ -83,7 +83,7 @@
 	armour_penetration = 0.1
 
 	mob_biotypes = MOB_ORGANIC|MOB_HUMANOID
-	environment_smash = ENVIRONMENT_SMASH_RWALLS
+	environment_smash = ENVIRONMENT_SMASH_WALLS
 	robust_searching = TRUE
 	attack_verb_simple = "eviscerates"
 	attack_sound = 'sound/weapons/bladeslice.ogg'
