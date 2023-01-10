@@ -240,11 +240,6 @@
 	path = /obj/item/clothing/head/f13/army
 	cost = 2
 
-/datum/gear/head/usarmy/officer
-	name = "US Army officer's cap"
-	path = /obj/item/clothing/head/f13/army/officer
-	cost = 3
-
 /datum/gear/head/usarmy/beret
 	name = "US Army beret"
 	path = /obj/item/clothing/head/f13/army/beret

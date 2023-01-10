@@ -8,9 +8,6 @@
 # NOTE: syntax was changed to allow hyphenation of ranknames, since spaces are stripped.      #
 ###############################################################################################
 
-Corydon homninem = Game Admin
 Gruesomeborg68915 = Game Admin
-Monke1818 = Game Admin
 TheDoctorFate = Game Admin
-Crimpf = Game Admin
 Compano = Game Admin

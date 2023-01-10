@@ -39,7 +39,7 @@
 	name = "High Priest"
 	jobtype = /datum/job/church/f13highpriest
 
-	id = /obj/item/card/id/dogtag/town
+	id = /obj/item/card/id/yuma/cotc
 	uniform = /obj/item/clothing/under/f13/religion/priest
 	suit = /obj/item/clothing/suit/hooded/robes/cotc/highpriest
 	suit_store = /obj/item/gun/energy/laser/plasma/pistol
@@ -106,7 +106,7 @@
 	name = "Servitor Medici"
 	jobtype = /datum/job/church/f13servitormedici
 
-	id = /obj/item/card/id/dogtag/town
+	id = /obj/item/card/id/yuma/cotc
 	uniform = /obj/item/clothing/under/f13/religion/priest
 	suit = /obj/item/clothing/suit/hooded/robes/cotc/servitor
 	suit_store = /obj/item/gun/energy/laser/wattz
@@ -172,7 +172,7 @@
 	name = "Servitor Militant"
 	jobtype = /datum/job/church/f13servitormilitant
 
-	id = /obj/item/card/id/dogtag/town
+	id = /obj/item/card/id/yuma/cotc
 	uniform = /obj/item/clothing/under/f13/religion/priest
 	suit = /obj/item/clothing/suit/hooded/robes/cotc/servitor
 	suit_store = /obj/item/gun/energy/laser/wattz2k
@@ -231,7 +231,7 @@
 	name = "Proselytizer"
 	jobtype = /datum/job/church/f13proselytizer
 
-	id = /obj/item/card/id/dogtag/town
+	id = /obj/item/card/id/yuma/cotc
 	uniform = /obj/item/clothing/under/f13/brahminm
 	suit = /obj/item/clothing/suit/hooded/robes/cotc/proselytizer
 	suit_store = /obj/item/gun/energy/laser/wattz
@@ -284,7 +284,7 @@
 	name = "Acolyte"
 	jobtype = /datum/job/church/f13acolyte
 
-	id = /obj/item/card/id/dogtag/town
+	id = /obj/item/card/id/yuma/cotc
 	uniform = /obj/item/clothing/under/f13/brahminm
 	suit = /obj/item/clothing/suit/hooded/robes/cotc/acolyte
 	suit_store = null
@@ -349,7 +349,7 @@
 	name = "Neophyte"
 	jobtype = /datum/job/church/f13neophyte
 
-	id = /obj/item/card/id/dogtag/town
+	id = /obj/item/card/id/yuma/cotc
 	ears = 	/obj/item/radio/headset/headset_church
 	suit = /obj/item/clothing/suit/hooded/robes/cotc
 	backpack = /obj/item/storage/backpack/satchel/explorer

@@ -2843,13 +2843,6 @@
 /obj/structure/decoration/rag,
 /turf/closed/wall/f13/tentwall,
 /area/f13/caves)
-"dhF" = (
-/obj/structure/barricade/bars,
-/turf/open/floor/f13{
-	color = "#818181";
-	icon_state = "floorrustysolid"
-	},
-/area/f13/cotc)
 "dif" = (
 /obj/structure/punching_bag,
 /obj/effect/decal/cleanable/dirt,
@@ -3273,7 +3266,9 @@
 /area/f13/bunker)
 "dAB" = (
 /obj/structure/stairs/east,
-/turf/open/space/basic,
+/turf/open/floor/f13{
+	icon_state = "white"
+	},
 /area/f13/den)
 "dAD" = (
 /turf/open/floor/f13{
@@ -4834,13 +4829,6 @@
 /obj/structure/destructible/tribal_torch/lit,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
-"eRM" = (
-/obj/structure/table/wood/settler,
-/turf/open/floor/f13{
-	color = "#818181";
-	icon_state = "floorrustysolid"
-	},
-/area/f13/cotc)
 "eSN" = (
 /obj/effect/decal/cleanable/oil/slippery,
 /turf/open/indestructible/ground/inside/subway,
@@ -5104,6 +5092,10 @@
 "fjO" = (
 /obj/machinery/door/poddoor/shutters{
 	id = "secondshutter"
+	},
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "church"
 	},
 /turf/open/floor/f13{
 	color = "#818181";
@@ -10943,13 +10935,10 @@
 	},
 /area/f13/clinic)
 "mFA" = (
-/obj/structure/bed/mattress{
-	icon_state = "mattress2"
+/obj/machinery/conveyor_switch/oneway{
+	id = "church"
 	},
-/turf/open/floor/f13{
-	color = "#818181";
-	icon_state = "floorrustysolid"
-	},
+/turf/open/floor/carpet/purple,
 /area/f13/cotc)
 "mHs" = (
 /obj/structure/sign/warning/radiation,
@@ -11101,9 +11090,12 @@
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
 "mSW" = (
-/obj/item/reagent_containers/glass/bucket{
-	desc = "It smells awful.";
-	name = "waste bucket"
+/obj/machinery/door/poddoor/shutters{
+	id = "firstshutter"
+	},
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "church"
 	},
 /turf/open/floor/f13{
 	color = "#818181";
@@ -11924,14 +11916,6 @@
 /obj/structure/chair/stool/bar,
 /turf/open/floor/f13/wood,
 /area/f13/building)
-"nTf" = (
-/obj/structure/table/wood/settler,
-/obj/item/melee/onehanded/slavewhip,
-/turf/open/floor/f13{
-	color = "#818181";
-	icon_state = "floorrustysolid"
-	},
-/area/f13/cotc)
 "nTt" = (
 /obj/structure/chair/f13chair1{
 	dir = 1
@@ -12168,14 +12152,6 @@
 	icon_state = "redrustyfull"
 	},
 /area/f13/bunker)
-"okI" = (
-/obj/structure/table/wood/settler,
-/obj/item/storage/box/handcuffs,
-/turf/open/floor/f13{
-	color = "#818181";
-	icon_state = "floorrustysolid"
-	},
-/area/f13/cotc)
 "okN" = (
 /obj/effect/decal/cleanable/dirt,
 /mob/living/simple_animal/hostile/eyebot{
@@ -13350,13 +13326,11 @@
 /turf/open/floor/plasteel/dark/telecomms/mainframe,
 /area/f13/tcoms)
 "pRO" = (
-/obj/machinery/door/poddoor/shutters{
-	id = "firstshutter"
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "church"
 	},
-/turf/open/floor/f13{
-	color = "#818181";
-	icon_state = "floorrustysolid"
-	},
+/turf/open/indestructible/ground/inside/subway,
 /area/f13/cotc)
 "pRQ" = (
 /obj/structure/decoration/rag,
@@ -16286,7 +16260,10 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
 "tYQ" = (
-/obj/structure/simple_door/metal/barred,
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "church"
+	},
 /turf/open/floor/f13{
 	color = "#818181";
 	icon_state = "floorrustysolid"
@@ -51109,12 +51086,12 @@ uoO
 djb
 djb
 djb
-djb
-djb
-djb
-djb
-djb
-djb
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
 uoO
 uoO
 uoO
@@ -51366,12 +51343,12 @@ uoO
 djb
 dlI
 djb
-jYZ
-wkN
-tYQ
-jYZ
-mSW
-djb
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
 uoO
 uoO
 uoO
@@ -51623,12 +51600,12 @@ uoO
 djb
 jYZ
 djb
-jYZ
-jYZ
-dhF
-jYZ
-mFA
-djb
+uoO
+uoO
+uoO
+uoO
+uoO
+uoO
 uoO
 uoO
 uoO
@@ -51880,12 +51857,12 @@ uoO
 djb
 jYZ
 djb
-jYZ
-jYZ
-eOh
-jYZ
-jYZ
 djb
+djb
+uoO
+uoO
+uoO
+uoO
 uoO
 uoO
 uoO
@@ -52138,11 +52115,11 @@ djb
 jYZ
 ije
 jYZ
-eMR
 djb
-djb
-djb
-djb
+uoO
+uoO
+uoO
+uoO
 uoO
 uoO
 uoO
@@ -52395,11 +52372,11 @@ djb
 eOh
 djb
 jYZ
-jYZ
-tYQ
-jYZ
-mFA
 djb
+uoO
+uoO
+uoO
+uoO
 uoO
 uoO
 uoO
@@ -52652,11 +52629,11 @@ djb
 cUk
 jYZ
 jYZ
-jYZ
-dhF
-mSW
-jYZ
 djb
+uoO
+uoO
+uoO
+uoO
 uoO
 uoO
 uoO
@@ -52906,14 +52883,14 @@ uoO
 uoO
 uoO
 djb
-nTf
 jYZ
-jYZ
-jYZ
-eOh
 jYZ
 jYZ
 djb
+uoO
+uoO
+uoO
+uoO
 uoO
 uoO
 uoO
@@ -53163,14 +53140,14 @@ uoO
 uoO
 uoO
 djb
-eRM
-okI
-jYZ
-jYZ
+djb
+djb
+rRx
 djb
 djb
 djb
-djb
+uoO
+uoO
 uoO
 uoO
 uoO
@@ -53420,11 +53397,11 @@ uoO
 uoO
 uoO
 djb
-djb
-djb
-rRx
-djb
-djb
+jYZ
+wkN
+jYZ
+wkN
+jYZ
 djb
 uoO
 uoO
@@ -53678,9 +53655,9 @@ uoO
 uoO
 djb
 jYZ
-wkN
-jYZ
-wkN
+cFY
+rXA
+fvn
 jYZ
 djb
 uoO
@@ -54192,9 +54169,9 @@ uoO
 uoO
 djb
 jYZ
-cFY
-rXA
-fvn
+jYZ
+vLK
+jYZ
 jYZ
 djb
 uoO
@@ -54448,11 +54425,11 @@ uoO
 uoO
 uoO
 djb
-jYZ
-jYZ
+cUk
+mFA
+wQe
 vLK
-jYZ
-jYZ
+eMR
 djb
 uoO
 uoO
@@ -54703,13 +54680,13 @@ weW
 tur
 uoO
 uoO
+uoO
 djb
-djb
-cUk
+jYZ
 vLK
-wQe
 vLK
-eMR
+vLK
+jYZ
 djb
 uoO
 uoO
@@ -54960,13 +54937,13 @@ weW
 tur
 uoO
 uoO
+uoO
 djb
-jYZ
-jYZ
-vLK
-vLK
-vLK
-jYZ
+djb
+djb
+mSW
+djb
+djb
 djb
 uoO
 uoO
@@ -55217,14 +55194,14 @@ weW
 tur
 uoO
 uoO
+uoO
+uoO
+uoO
 djb
-pRO
+tYQ
 djb
-djb
-djb
-djb
-djb
-djb
+uoO
+uoO
 uoO
 uoO
 uoO
@@ -55474,12 +55451,12 @@ weW
 tur
 uoO
 uoO
+uoO
+uoO
 djb
-jYZ
+djb
 fjO
-bpz
-bpz
-bpz
+djb
 djb
 uoO
 uoO
@@ -55731,11 +55708,11 @@ weW
 tur
 uoO
 uoO
-djb
-djb
+uoO
+uoO
 djb
 bpz
-rBS
+pRO
 bpz
 djb
 uoO
@@ -55992,7 +55969,7 @@ uoO
 uoO
 djb
 bpz
-bpz
+rBS
 bpz
 djb
 uoO
@@ -56248,9 +56225,9 @@ uoO
 uoO
 uoO
 djb
-djb
-djb
-djb
+bpz
+bpz
+bpz
 djb
 uoO
 uoO
@@ -56504,11 +56481,11 @@ uoO
 uoO
 uoO
 uoO
-uoO
-uoO
-uoO
-uoO
-uoO
+djb
+djb
+djb
+djb
+djb
 uoO
 uoO
 uoO
