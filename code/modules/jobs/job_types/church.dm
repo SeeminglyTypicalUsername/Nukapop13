@@ -2,6 +2,7 @@
 	department_flag = CHURCH
 	selection_color = "#d580ff"
 	faction = FACTION_CHURCH
+	exp_type = EXP_TYPE_FALLOUT
 	maptype = "yuma"
 
 
@@ -18,6 +19,7 @@
 	selection_color = "#c167ee"
 	forbids = "Exposing the secrets of the Church, fraternizing with the NCR, treating patients for nothing in return, consuming alcohol, and using chems."
 	enforces = "Preaching the faith, following the faith's internal structure and rules."
+	exp_type = EXP_TYPE_CHURCH
 	exp_requirements = 0
 
 	outfit = /datum/outfit/job/church/f13highpriest
@@ -84,6 +86,7 @@
 	selection_color = "#d580ff"
 	forbids = "Exposing the secrets of the Church, fraternizing with the NCR, treating patients for nothing in return, consuming alcohol, and using chems."
 	enforces = "Preaching the faith, following the faith's internal structure and rules."
+	exp_type = EXP_TYPE_CHURCH
 	exp_requirements = 0
 
 	outfit = /datum/outfit/job/church/f13servitormedici
@@ -149,6 +152,7 @@
 	selection_color = "#d580ff"
 	forbids = "Exposing the secrets of the Church, fraternizing with the NCR, treating patients for nothing in return, consuming alcohol, and using chems."
 	enforces = "Preaching the faith, following the faith's internal structure and rules."
+	exp_type = EXP_TYPE_CHURCH
 	exp_requirements = 0
 
 	outfit = /datum/outfit/job/church/f13servitormilitant
@@ -207,6 +211,7 @@
 	selection_color = "#d580ff"
 	forbids = "Exposing the secrets of the Church, fraternizing with the NCR, treating patients for nothing in return, consuming alcohol, and using chems."
 	enforces = "Preaching the faith, following the faith's internal structure and rules."
+	exp_type = EXP_TYPE_CHURCH
 	exp_requirements = 0
 
 	outfit = /datum/outfit/job/church/f13proselytizer
@@ -259,6 +264,7 @@
 	selection_color = "#d580ff"
 	forbids = "Exposing the secrets of the Church, fraternizing with the NCR, treating patients for nothing in return, consuming alcohol, and using chems."
 	enforces = "Preaching the faith, following the faith's internal structure and rules."
+	exp_type = EXP_TYPE_CHURCH
 	exp_requirements = 0
 
 	outfit = /datum/outfit/job/church/f13acolyte
@@ -323,6 +329,8 @@
 	selection_color = "#d580ff"
 	forbids = "Exposing the secrets of the Church, fraternizing with the NCR, treating patients for nothing in return, consuming alcohol, and using chems."
 	enforces = "Preaching the faith, following the faith's internal structure and rules."
+	exp_type = EXP_TYPE_CHURCH
+	exp_requirements = 0
 
 	outfit = /datum/outfit/job/church/neophyte
 

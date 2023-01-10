@@ -1184,8 +1184,8 @@ Prewar Robot
     flag = F13BORG
     department_flag = FOLLOWERS
     faction = FACTION_WASTELAND
-    total_positions = 3
-    spawn_positions = 3
+    total_positions = 0
+    spawn_positions = 0
     supervisors = "your owners"
     description = "You are a pre-war robot. Do the job you were designed for, and obey your laws."
     selection_color = "#c3d5d5"

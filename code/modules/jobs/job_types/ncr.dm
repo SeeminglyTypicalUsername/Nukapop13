@@ -696,7 +696,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	backpack_contents = list(
 		/obj/item/ammo_box/magazine/w308 = 3,
 		/obj/item/gun/ballistic/revolver/revolver44 = 1,
-		/obj/item/ammo_box/c45rev = 2,
+		/obj/item/ammo_box/m44 = 2,
 		)
 
 /datum/outfit/loadout/rangertrail

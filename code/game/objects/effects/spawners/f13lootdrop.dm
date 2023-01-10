@@ -2227,3 +2227,46 @@ obj/effect/spawner/bundle/f13/combat_rifle
 			/obj/item/storage/box/ration/ranger_lunch,
 			/obj/item/storage/box/ration/ranger_dinner,
 			)
+
+//historic
+
+/obj/effect/spawner/lootdrop/f13/ww2
+	name = "ww2 weapon spawner"
+	icon = 'icons/obj/storage.dmi'
+	icon_state = "mosin"
+	lootcount = 1
+	loot = list(
+		/obj/item/gun/ballistic/rifle/mosin,
+		/obj/item/gun/ballistic/automatic/smg/tommygun,
+		/obj/item/gun/ballistic/automatic/m1garand,
+		/obj/item/gun/ballistic/automatic/m1carbine/old,
+		/obj/item/gun/ballistic/automatic/pistol/ninemil,
+		/obj/item/gun/ballistic/automatic/pistol/m1911,
+		/obj/item/gun/ballistic/rifle/enfield,
+		)
+
+/obj/effect/spawner/lootdrop/f13/coldwar
+	name = "cold war weapon spawner"
+	icon = 'icons/obj/storage.dmi'
+	icon_state = "slr"
+	lootcount = 1
+	loot = list(
+		/obj/item/gun/ballistic/automatic/fnfal,
+		/obj/item/gun/ballistic/automatic/m1garand/sks,
+		/obj/item/gun/ballistic/automatic/slr,
+		/obj/item/gun/ballistic/automatic/smg/mini_uzi,
+		/obj/item/gun/ballistic/automatic/pistol/deagle,
+		/obj/item/gun/ballistic/automatic/assault_rifle,
+		)
+
+/obj/effect/spawner/lootdrop/f13/cowboy
+	name = "cowboy weapon spawner"
+	icon = 'icons/obj/storage.dmi'
+	icon_state = "slr"
+	lootcount = 1
+	loot = list(
+		/obj/item/gun/ballistic/rifle/repeater/trail
+		/obj/item/gun/ballistic/rifle/repeater/cowboy
+		/obj/item/gun/ballistic/revolver/revolver45/gunslinger
+		/obj/item/gun/ballistic/revolver/colt357
+		/obj/item/gun/ballistic/revolver/detective
