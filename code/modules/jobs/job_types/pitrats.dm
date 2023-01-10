@@ -2,6 +2,7 @@
 	department_flag = PITRATS
 	selection_color = "#ff8080"
 	faction = FACTION_PITRATS
+	exp_type = EXP_TYPE_FALLOUT
 	maptype = "yuma"
 
 
@@ -17,7 +18,7 @@
 	req_admin_notify = 1
 	selection_color = "#ee6e6e"
 	exp_requirements = 0
-	exp_type = EXP_TYPE_WASTELAND
+	exp_type = EXP_TYPE_PITRATS
 	forbids = "Cowardice, soberiety, and fruit juice."
 	enforces = "Loyalty to the Pitmaster, alcoholism, violence, and challenging a fellow Pit-Rat to a duel to the death for their rank in the pit when dissatisfied with their performance."
 
@@ -68,7 +69,7 @@
 	supervisors = "the Pitmaster."
 	selection_color = "#ff8080"
 	exp_requirements = 0
-	exp_type = EXP_TYPE_WASTELAND
+	exp_type = EXP_TYPE_PITRATS
 	forbids = "Cowardice, soberiety, and fruit juice."
 	enforces = "Loyalty to the Pitmaster, alcoholism, violence, and challenging a fellow Pit-Rat to a duel to the death for their rank in the pit when dissatisfied with their performance."
 
@@ -122,7 +123,7 @@
 	supervisors = "the Pitmaster."
 	selection_color = "#ff8080"
 	exp_requirements = 0
-	exp_type = EXP_TYPE_WASTELAND
+	exp_type = EXP_TYPE_PITRATS
 	forbids = "Cowardice, soberiety, and fruit juice."
 	enforces = "Loyalty to the Pitmaster, alcoholism, violence, and challenging a fellow Pit-Rat to a duel to the death for their rank in the pit when dissatisfied with their performance."
 
@@ -169,7 +170,7 @@
 	supervisors = "the Pitmaster."
 	selection_color = "#ff8080"
 	exp_requirements = 0
-	exp_type = EXP_TYPE_WASTELAND
+	exp_type = EXP_TYPE_PITRATS
 	forbids = "Cowardice, soberiety, and fruit juice."
 	enforces = "Loyalty to the Pitmaster, alcoholism, violence, and challenging a fellow Pit-Rat to a duel to the death for their rank in the pit when dissatisfied with their performance."
 
@@ -213,7 +214,7 @@
 	supervisors = "the Pitmaster."
 	selection_color = "#ff8080"
 	exp_requirements = 0
-	exp_type = EXP_TYPE_WASTELAND
+	exp_type = EXP_TYPE_PITRATS
 	forbids = "Cowardice, soberiety, and fruit juice."
 	enforces = "Loyalty to the Pitmaster, alcoholism, violence, and challenging a fellow Pit-Rat to a duel to the death for their rank in the pit when dissatisfied with their performance."
 
