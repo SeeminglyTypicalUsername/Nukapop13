@@ -583,6 +583,9 @@
 	suppressor_y_offset = 31
 	fire_sound = 'sound/f13weapons/varmint_rifle.ogg'
 
+/obj/item/gun/ballistic/automatic/m1carbine/old
+	desc = "An old M1 carbine"
+
 
 //M1/n Carbine				Keywords: NCR, 10mm, Semi-auto, 12/24 rounds, Long barrel, Damage +1
 /obj/item/gun/ballistic/automatic/m1carbine/m1n
