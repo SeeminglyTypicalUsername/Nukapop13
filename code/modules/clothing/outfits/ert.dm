@@ -127,7 +127,7 @@
 		return
 
 	var/obj/item/radio/R = H.ears
-	R.keyslot = new /obj/item/encryptionkey/heads/cmo
+	R.keyslot = new /obj/item/encryptionkey/church
 	R.recalculateChannels()
 
 /datum/outfit/ert/medic/alert

@@ -16,9 +16,9 @@ here's a tip, go search DEFINES/access.dm
 Mayor
 */
 
-/datum/job/oasis
+/datum/job/kebab
 	exp_type = EXP_TYPE_FALLOUT
-	faction = FACTION_OASIS
+	faction = FACTION_KEBAB
 	maptype = "yuma"
 /*
 /datum/job/oasis/f13mayor
@@ -693,7 +693,7 @@ Mayor
 /datum/job/oasis/f13settler
 	title = "Scab"
 	flag = F13SETTLER
-	department_flag = DEP_OASIS
+	department_flag = DEP_KEBAB
 	total_positions = -1
 	spawn_positions = -1
 	supervisors = "no one"
@@ -768,7 +768,7 @@ Mayor
 /datum/job/oasis/f13radiohost
 	title = "Radio Host"
 	flag = F13RADIOHOST
-	department_flag = DEP_OASIS
+	department_flag = DEP_KEBAB
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "no one"

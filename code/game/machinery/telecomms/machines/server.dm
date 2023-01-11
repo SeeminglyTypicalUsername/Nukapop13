@@ -83,14 +83,14 @@
 	autolinkers = list("science")
 
 /obj/machinery/telecomms/server/presets/medical
-	id = "Medical Server"
-	freq_listening = list(FREQ_MEDICAL)
-	autolinkers = list("medical")
+	id = "Church Server"
+	freq_listening = list(FREQ_CHURCH)
+	autolinkers = list("church")
 
 /obj/machinery/telecomms/server/presets/supply
-	id = "Supply Server"
-	freq_listening = list(FREQ_SUPPLY)
-	autolinkers = list("supply")
+	id = "Merchant Server"
+	freq_listening = list(FREQ_MERCHANT)
+	autolinkers = list("merchant")
 
 /obj/machinery/telecomms/server/presets/service
 	id = "Service Server"
@@ -128,9 +128,9 @@
 	autolinkers = list("town")
 
 /obj/machinery/telecomms/server/presets/den
-	id = "Den Server"
-	freq_listening = list(FREQ_DEN)
-	autolinkers = list("den")
+	id = "Pitrats Server"
+	freq_listening = list(FREQ_PITRATS)
+	autolinkers = list("pitrats")
 
 /obj/machinery/telecomms/server/presets/legion
 	id = "Legion Server"

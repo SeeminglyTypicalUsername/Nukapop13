@@ -39,7 +39,7 @@
 		radio?.moveToNullspace()
 
 /obj/item/implant/radio/mining
-	radio_key = /obj/item/encryptionkey/headset_cargo
+	radio_key = /obj/item/encryptionkey/headset_merchant
 
 /obj/item/implant/radio/syndicate
 	desc = "Are you there God? It's me, Syndicate Comms Agent."

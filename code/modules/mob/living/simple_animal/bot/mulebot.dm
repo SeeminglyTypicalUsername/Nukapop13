@@ -22,7 +22,7 @@
 	buckle_lying = 0
 	mob_size = MOB_SIZE_LARGE
 
-	radio_key = /obj/item/encryptionkey/headset_cargo
+	radio_key = /obj/item/encryptionkey/headset_merchant
 	radio_channel = RADIO_CHANNEL_SUPPLY
 
 	bot_type = MULE_BOT

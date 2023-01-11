@@ -279,7 +279,7 @@ Security Officer
 
 /obj/item/radio/headset/headset_sec/alt/department/supply
 	keyslot = new /obj/item/encryptionkey/headset_vault_security
-	keyslot2 = new /obj/item/encryptionkey/headset_cargo
+	keyslot2 = new /obj/item/encryptionkey/headset_merchant
 
 /obj/item/radio/headset/headset_sec/alt/department/med
 	keyslot = new /obj/item/encryptionkey/headset_vault_security

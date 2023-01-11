@@ -5,9 +5,9 @@ And the base of the send_speech() proc, which is the core of saycode.
 */
 GLOBAL_LIST_INIT(freqtospan, list(
 	"[FREQ_SCIENCE]" = "sciradio",
-	"[FREQ_MEDICAL]" = "medradio",
+	"[FREQ_CHURCH]" = "churchradio",
 	"[FREQ_ENGINEERING]" = "engradio",
-	"[FREQ_SUPPLY]" = "suppradio",
+	"[FREQ_MERCHANT]" = "merchantradio",
 	"[FREQ_SERVICE]" = "servradio",
 	"[FREQ_SECURITY]" = "secradio",
 	"[FREQ_COMMAND]" = "comradio",
@@ -22,7 +22,7 @@ GLOBAL_LIST_INIT(freqtospan, list(
 	"[FREQ_ENCLAVE]" = "enclaveradio",
 	"[FREQ_TOWN]" = "townradio",
 	"[FREQ_LEGION]" = "legionradio",
-	"[FREQ_DEN]" = "denradio",
+	"[FREQ_PITRATS]" = "pitratradio",
 	"[FREQ_RANGER]" = "rangerradio",
 	"[FREQ_KHANS]" = "khansradio",
 	"[FREQ_SALVATORES]" = "salvatoresradio",

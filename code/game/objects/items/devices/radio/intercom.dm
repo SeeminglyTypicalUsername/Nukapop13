@@ -176,10 +176,10 @@
 	command = TRUE
 
 /obj/item/radio/intercom/retro/foa
-	name = "Clinic intercom"
+	name = "Church intercom"
 	freqlock = TRUE
 	frequency = 1355
-	channels = list(RADIO_CHANNEL_MEDICAL = 1)
+	channels = list(RADIO_CHANNEL_CHURCH = 1)
 
 /obj/item/radio/intercom/retro/pirate
 	name = "Pirate Radio Broadcaster"

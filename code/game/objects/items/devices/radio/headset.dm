@@ -3,12 +3,12 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 	RADIO_CHANNEL_COMMON = RADIO_KEY_COMMON,
 	RADIO_CHANNEL_SCIENCE = RADIO_TOKEN_SCIENCE,
 	RADIO_CHANNEL_COMMAND = RADIO_TOKEN_COMMAND,
-	RADIO_CHANNEL_MEDICAL = RADIO_TOKEN_MEDICAL,
+	RADIO_CHANNEL_CHURCH = RADIO_TOKEN_CHURCH,
 	RADIO_CHANNEL_ENGINEERING = RADIO_TOKEN_ENGINEERING,
 	RADIO_CHANNEL_SECURITY = RADIO_TOKEN_SECURITY,
 	RADIO_CHANNEL_CENTCOM = RADIO_TOKEN_CENTCOM,
 	RADIO_CHANNEL_SYNDICATE = RADIO_TOKEN_SYNDICATE,
-	RADIO_CHANNEL_SUPPLY = RADIO_TOKEN_SUPPLY,
+	RADIO_CHANNEL_MERCHANT = RADIO_TOKEN_MERCHANT,
 	RADIO_CHANNEL_SERVICE = RADIO_TOKEN_SERVICE,
 	MODE_BINARY = MODE_TOKEN_BINARY,
 	RADIO_CHANNEL_AI_PRIVATE = RADIO_TOKEN_AI_PRIVATE,
@@ -17,7 +17,7 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 	RADIO_CHANNEL_BOS = RADIO_TOKEN_BOS,
 	RADIO_CHANNEL_ENCLAVE = RADIO_TOKEN_ENCLAVE,
 	RADIO_CHANNEL_TOWN = RADIO_TOKEN_TOWN,
-	RADIO_CHANNEL_DEN = RADIO_TOKEN_DEN,
+	RADIO_CHANNEL_PITRATS = RADIO_TOKEN_PITRATS,
 	RADIO_CHANNEL_LEGION = RADIO_TOKEN_LEGION,
 	RADIO_CHANNEL_RANGER = RADIO_TOKEN_RANGER,
 	RADIO_CHANNEL_KHANS = RADIO_TOKEN_KHANS,
@@ -142,7 +142,7 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 	name = "medical radio headset"
 	desc = "A headset for the trained staff of the medbay."
 	icon_state = "med_headset"
-	keyslot = new /obj/item/encryptionkey/headset_med
+	keyslot = new /obj/item/encryptionkey/headset_church
 
 /obj/item/radio/headset/headset_sci
 	name = "science radio headset"
@@ -401,34 +401,34 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 	name = "followers radio headset"
 	desc = "This is used by the followers.\nTo access the town channel, use :f. \nTo access the followers channel, use :g"
 	keyslot = new /obj/item/encryptionkey/headset_followers
-	icon_state = "med_headset"
+	icon_state = "church_headset"
 
 
 /obj/item/radio/headset/headset_den
 	name = "den radio headset"
 	desc = "This is used by the den. \nTo access the den channel, use :j."
 	icon_state = "mine_headset"
-	keyslot = new /obj/item/encryptionkey/headset_den
+	keyslot = new /obj/item/encryptionkey/headset_pitrats
 
 /obj/item/radio/headset/headset_pitrats
 	name = "pitrat radio headset"
-	desc = "This is used by the Pitrats. \nTo access the den channel, use :j."
+	desc = "This is used by the Pitrats. \nTo access the den channel, use :p."
 	icon_state = "mine_headset"
-	keyslot = new /obj/item/encryptionkey/headset_den
+	keyslot = new /obj/item/encryptionkey/headset_pitrats
 	keyslot2 = new /obj/item/encryptionkey/headset_town
 
 /obj/item/radio/headset/headset_church
 	name = "church headset"
-	desc = "This is used by the Church.\nTo access the church channel, use :m."
+	desc = "This is used by the Church.\nTo access the church channel, use :c."
 	icon_state = "mine_headset"
-	keyslot = new /obj/item/encryptionkey/headset_med
+	keyslot = new /obj/item/encryptionkey/headset_church
 	keyslot2 = new /obj/item/encryptionkey/headset_town
 
 /obj/item/radio/headset/headset_merchant
 	name = "merchant radio headset"
-	desc = "This is used by the merchant.\nTo access the town channel, use :u."
+	desc = "This is used by the merchant.\nTo access the town channel, use :m."
 	icon_state = "mine_headset"
-	keyslot = new /obj/item/encryptionkey/headset_cargo
+	keyslot = new /obj/item/encryptionkey/headset_merchant
 	keyslot2 = new /obj/item/encryptionkey/headset_town
 
 ////////

@@ -128,7 +128,7 @@
 /obj/structure/closet/secure_closet/security/cargo/PopulateContents()
 	..()
 	new /obj/item/clothing/accessory/armband/cargo(src)
-	new /obj/item/encryptionkey/headset_cargo(src)
+	new /obj/item/encryptionkey/headset_merchant(src)
 /obj/structure/closet/secure_closet/security/engine
 /obj/structure/closet/secure_closet/security/engine/PopulateContents()
 	..()

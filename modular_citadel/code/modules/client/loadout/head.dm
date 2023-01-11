@@ -302,6 +302,7 @@
 							"NCR Heavy Trooper",
 							"NCR Sergeant",
 							"NCR Corporal",
+							"NCR Military Police",
 							"NCR Combat Engineer",
 							"NCR Combat Medic",
 							"NCR Trooper",

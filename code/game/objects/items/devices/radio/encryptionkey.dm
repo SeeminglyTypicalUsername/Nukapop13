@@ -44,10 +44,10 @@
 	icon_state = "eng_cypherkey"
 	channels = list(RADIO_CHANNEL_ENGINEERING = 1)
 
-/obj/item/encryptionkey/headset_med
-	name = "medical radio encryption key"
+/obj/item/encryptionkey/headset_church
+	name = "church radio encryption key"
 	icon_state = "med_cypherkey"
-	channels = list(RADIO_CHANNEL_MEDICAL = 1)
+	channels = list(RADIO_CHANNEL_CHURCH = 1)
 
 /obj/item/encryptionkey/headset_sci
 	name = "science radio encryption key"
@@ -57,7 +57,7 @@
 /obj/item/encryptionkey/headset_medsci
 	name = "medical research radio encryption key"
 	icon_state = "medsci_cypherkey"
-	channels = list(RADIO_CHANNEL_SCIENCE = 1, RADIO_CHANNEL_MEDICAL = 1)
+	channels = list(RADIO_CHANNEL_SCIENCE = 1, RADIO_CHANNEL_CHURCH = 1)
 
 /obj/item/encryptionkey/headset_com
 	name = "command radio encryption key"
@@ -67,7 +67,7 @@
 /obj/item/encryptionkey/heads/captain
 	name = "\proper the captain's encryption key"
 	icon_state = "cap_cypherkey"
-	channels = list(RADIO_CHANNEL_COMMAND = 1, RADIO_CHANNEL_SECURITY = 1, RADIO_CHANNEL_ENGINEERING = 0, RADIO_CHANNEL_SCIENCE = 0, RADIO_CHANNEL_MEDICAL = 0, RADIO_CHANNEL_SUPPLY = 0, RADIO_CHANNEL_SERVICE = 0)
+	channels = list(RADIO_CHANNEL_COMMAND = 1, RADIO_CHANNEL_SECURITY = 1, RADIO_CHANNEL_ENGINEERING = 0, RADIO_CHANNEL_SCIENCE = 0, RADIO_CHANNEL_CHURCH = 0, RADIO_CHANNEL_SUPPLY = 0, RADIO_CHANNEL_SERVICE = 0)
 
 /obj/item/encryptionkey/heads/rd
 	name = "\proper the research director's encryption key"
@@ -84,11 +84,6 @@
 	icon_state = "ce_cypherkey"
 	channels = list(RADIO_CHANNEL_ENGINEERING = 1, RADIO_CHANNEL_COMMAND = 1)
 
-/obj/item/encryptionkey/heads/cmo
-	name = "\proper the chief medical officer's encryption key"
-	icon_state = "cmo_cypherkey"
-	channels = list(RADIO_CHANNEL_MEDICAL = 1, RADIO_CHANNEL_COMMAND = 1)
-
 /obj/item/encryptionkey/heads/hop
 	name = "\proper the head of personnel's encryption key"
 	icon_state = "hop_cypherkey"
@@ -98,17 +93,12 @@
 	name = "\proper the quartermaster's encryption key"
 	desc = "An encryption key for a radio headset.  Channels are as follows: :u - supply, :c - command."
 	icon_state = "hop_cypherkey"
-	channels = list(RADIO_CHANNEL_SUPPLY = 1, RADIO_CHANNEL_COMMAND = 1)
-
-/obj/item/encryptionkey/headset_cargo
-	name = "supply radio encryption key"
-	icon_state = "cargo_cypherkey"
-	channels = list(RADIO_CHANNEL_SUPPLY = 1)
+	channels = list(RADIO_CHANNEL_MERCHANT = 1, RADIO_CHANNEL_COMMAND = 1)
 
 /obj/item/encryptionkey/headset_mining
 	name = "mining radio encryption key"
 	icon_state = "cargo_cypherkey"
-	channels = list(RADIO_CHANNEL_SUPPLY = 1, RADIO_CHANNEL_SCIENCE = 1)
+	channels = list(RADIO_CHANNEL_MERCHANT = 1, RADIO_CHANNEL_SCIENCE = 1)
 
 /obj/item/encryptionkey/headset_service
 	name = "service radio encryption key"
@@ -120,10 +110,7 @@
 	icon_state = "cent_cypherkey"
 	independent = TRUE
 	channels = list(RADIO_CHANNEL_CENTCOM = 1)
-
-/obj/item/encryptionkey/ai //ported from NT, this goes 'inside' the AI.
-	channels = list(RADIO_CHANNEL_COMMAND = 1, RADIO_CHANNEL_SECURITY = 1, RADIO_CHANNEL_ENGINEERING = 1, RADIO_CHANNEL_SCIENCE = 1, RADIO_CHANNEL_MEDICAL = 1, RADIO_CHANNEL_SUPPLY = 1, RADIO_CHANNEL_SERVICE = 1, RADIO_CHANNEL_AI_PRIVATE = 1)
-
+	
 /obj/item/encryptionkey/secbot
 	channels = list(RADIO_CHANNEL_AI_PRIVATE = 1, RADIO_CHANNEL_SECURITY = 1)
 
@@ -182,11 +169,11 @@
 	icon_state = "cypherkey"
 	channels = list(RADIO_CHANNEL_TOWN = 1)
 
-/obj/item/encryptionkey/headset_den
-	name = "Den radio encryption key"
-	desc = "An encryption key for a radio headset. To access the Den channel, use :j."
+/obj/item/encryptionkey/headset_pitrats
+	name = "Pitrat radio encryption key"
+	desc = "An encryption key for a radio headset. To access the Pitrats channel, press :p."
 	icon_state = "cypherkey"
-	channels = list(RADIO_CHANNEL_DEN = 1)
+	channels = list(RADIO_CHANNEL_PITRATS = 1)
 
 /obj/item/encryptionkey/headset_legion
 	name = "Legion radio encryption key"
@@ -243,8 +230,14 @@
 	icon_state = "cypherkey"
 	channels = list(RADIO_CHANNEL_FOLLOWERS = 1, RADIO_CHANNEL_TOWN = 1)
 
+/obj/item/encryptionkey/headset_merchant
+	name = "Merchant radio encryption key"
+	desc = "An encryption key for a radio headset.  To access the Merchant channel, use :m"
+	iconstate = "cargo_cypherkey"
+	channels = list(RADIO_CHANNEL_MERCHANT, RADIO_CHANNEL_TOWN = 1)
+
 /obj/item/encryptionkey/ai //ported from NT, this goes 'inside' the AI.
-	channels = list(RADIO_CHANNEL_COMMAND = 1, RADIO_CHANNEL_SECURITY = 1, RADIO_CHANNEL_ENGINEERING = 1, RADIO_CHANNEL_SCIENCE = 1, RADIO_CHANNEL_MEDICAL = 1, RADIO_CHANNEL_SUPPLY = 1, RADIO_CHANNEL_SERVICE = 1, RADIO_CHANNEL_AI_PRIVATE = 1)
+	channels = list(RADIO_CHANNEL_COMMAND = 1, RADIO_CHANNEL_SECURITY = 1, RADIO_CHANNEL_ENGINEERING = 1, RADIO_CHANNEL_SCIENCE = 1, RADIO_CHANNEL_CHURCH = 1, RADIO_CHANNEL_SUPPLY = 1, RADIO_CHANNEL_SERVICE = 1, RADIO_CHANNEL_AI_PRIVATE = 1)
 
 /obj/item/encryptionkey/secbot
 	channels = list(RADIO_CHANNEL_AI_PRIVATE = 1, RADIO_CHANNEL_SECURITY = 1)
