@@ -2262,11 +2262,12 @@ obj/effect/spawner/bundle/f13/combat_rifle
 /obj/effect/spawner/lootdrop/f13/cowboy
 	name = "cowboy weapon spawner"
 	icon = 'icons/obj/storage.dmi'
-	icon_state = "slr"
+	icon_state = "detective"
 	lootcount = 1
 	loot = list(
-		/obj/item/gun/ballistic/rifle/repeater/trail
-		/obj/item/gun/ballistic/rifle/repeater/cowboy
-		/obj/item/gun/ballistic/revolver/revolver45/gunslinger
-		/obj/item/gun/ballistic/revolver/colt357
-		/obj/item/gun/ballistic/revolver/detective
+		/obj/item/gun/ballistic/rifle/repeater/trail,
+		/obj/item/gun/ballistic/rifle/repeater/cowboy,
+		/obj/item/gun/ballistic/revolver/revolver45/gunslinger,
+		/obj/item/gun/ballistic/revolver/colt357,
+		/obj/item/gun/ballistic/revolver/detective,
+		)
