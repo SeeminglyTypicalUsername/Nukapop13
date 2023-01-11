@@ -1096,8 +1096,9 @@
 /obj/item/gun/ballistic/automatic/assault_rifle
 	name = "M16 assault rifle"
 	desc = "A 5.56mm assault rifle that was widely used by the old-world United States military for over one-hundred years."
-	icon_state = "m16a1"
-	item_state = "assault_carbine"
+	icon = 'icons/obj/guns/projectile.dmi'
+	icon_state = "assault_carbine"
+	item_state = "m16a1"
 	mag_type = /obj/item/ammo_box/magazine/m556/rifle
 	fire_delay = 2.5
 	slowdown = 0.35
@@ -1231,7 +1232,7 @@
 //Assault Carbine				Keywords: 5mm, Automatic, 30 round magazine, Flashlight, 20dmg/0.25AP
 /obj/item/gun/ballistic/automatic/assault_carbine
 	name = "assault carbine"
-	desc = "The U.S. army carbine version of the R91, made by Colt and issued to special forces."
+	desc = "The U.S. army carbine version of the M16, made by Colt and issued to special forces."
 	icon_state = "assault_carbine"
 	item_state = "assault_carbine"
 	icon_prefix = "assault_carbine"

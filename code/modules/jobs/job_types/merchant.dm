@@ -31,7 +31,7 @@
 	)
 
 /datum/outfit/job/merchant/f13shopkeeper
-	name = "Shopkeeper"
+	name = "Merchant"
 	jobtype = /datum/job/merchant/f13shopkeeper
 
 	id = /obj/item/card/id/dogtag/town
@@ -99,7 +99,7 @@
 		),
 	)
 /datum/outfit/job/merchant/f13apprentice
-	name = "Shop Assistant"
+	name = "Apprentice"
 	jobtype = /datum/job/merchant/f13apprentice
 	head = /obj/item/clothing/head/f13/ranger_hat/tan
 	uniform = /obj/item/clothing/under/f13/ikeduds
@@ -142,13 +142,13 @@
 
 /*--------------------------------------------------------------*/
 /datum/job/merchant/f13deputy
-	title = "Hired Gun"
+	title = "Security Contractor"
 	flag = F13POLICEMAN
 	department_flag = MERCHANT
 	total_positions = 2
 	spawn_positions = 2
 	supervisors = "the Merchant"
-	description = "You are a loyal hired gun of the Merchant; follow his bidding, keep his slaves in line, and make sure no one holds out payment from him."
+	description = "You are a loyal mercenary hired by the Merchant; follow his bidding, keep his slaves in line, and make sure no one holds out payment from him."
 	selection_color = "#dcba97"
 	exp_type = EXP_TYPE_MERCHANT
 	exp_requirements = 0
@@ -166,12 +166,12 @@
 	)
 
 /datum/outfit/job/merchant/f13deputy
-	name = "Merc"
+	name = "Security Contractor"
 	jobtype = /datum/job/merchant/f13deputy
 	head = /obj/item/clothing/head/helmet/riot
 	mask = /obj/item/clothing/mask/balaclava
 	ears = /obj/item/radio/headset/headset_merchant
-	id = /obj/item/card/id/dogtag/deputy
+	id = /obj/item/card/id/dogtag/town
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
 	gloves = /obj/item/clothing/gloves/f13/military

@@ -1773,12 +1773,14 @@
 	desc = "A pre-war camouflaged military uniform, mercs and collectors love these."
 	icon_state = "camo_woodland"
 	item_state = "camo_woodland"
+	can_adjust = TRUE
 
 /obj/item/clothing/under/f13/camo/desert
 	name = "desert camouflage uniform"
 	desc = "A pre-war camouflaged military uniform, mercs and collectors love these."
 	icon_state = "camo_desert"
 	item_state = "camo_desert"
+	can_adjust = TRUE
 
 /// Item Update
 
@@ -1943,6 +1945,7 @@
 	desc = "A very well made suit."
 	icon_state = "schlimmsuit"
 	item_state = "schlimmsuit"
+	can_adjust = TRUE
 
 //Old World Militaries
 //US Army
