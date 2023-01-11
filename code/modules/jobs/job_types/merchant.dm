@@ -14,7 +14,7 @@
 	supervisors = "free hand of the market"
 	description = "The greed of the United States survived better than its people. You are an organ of this greed. Ensure its continuation."
 	selection_color = "#caa581"
-	exp_type = MERCHANT
+	exp_type = EXP_TYPE_MERCHANT
 	exp_requirements = 0
 
 	outfit = /datum/outfit/job/merchant/f13shopkeeper
@@ -83,7 +83,7 @@
 	supervisors = "the Merchant"
 	description = "You are the merchant's right hand and heir apparent; handle the menial duties of running the store, arrange deals on the merchant's behalf, and set quotas for the slaves."
 	selection_color = "#dcba97"
-	exp_type = MERCHANT
+	exp_type = EXP_TYPE_MERCHANT
 	exp_requirements = 0
 	outfit = /datum/outfit/job/merchant/f13apprentice
 
@@ -150,8 +150,7 @@
 	supervisors = "the Merchant"
 	description = "You are a loyal hired gun of the Merchant; follow his bidding, keep his slaves in line, and make sure no one holds out payment from him."
 	selection_color = "#dcba97"
-	exp_type = MERCHANT
-	exp_type = EXP_TYPE_FALLOUT
+	exp_type = EXP_TYPE_MERCHANT
 	exp_requirements = 0
 
 	outfit = /datum/outfit/job/merchant/f13deputy
