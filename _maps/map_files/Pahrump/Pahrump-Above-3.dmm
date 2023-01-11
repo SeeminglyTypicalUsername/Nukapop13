@@ -879,9 +879,11 @@
 /area/f13/building)
 "ik" = (
 /obj/structure/bed/pod,
-/obj/item/bedsheet/rd,
+/obj/item/bedsheet/hos{
+	name = "fancy bedsheet"
+	},
 /obj/effect/landmark/start/f13/shopkeeper,
-/turf/open/floor/carpet/purple,
+/turf/open/floor/carpet/red,
 /area/f13/building)
 "ip" = (
 /obj/structure/decoration/rag,
@@ -1847,7 +1849,7 @@
 /turf/open/floor/f13,
 /area/f13/brotherhood/surface)
 "rm" = (
-/obj/structure/chair/wood/fancy{
+/obj/structure/chair/office{
 	dir = 4
 	},
 /turf/open/floor/carpet/purple,
@@ -2013,13 +2015,14 @@
 /obj/structure/bed/pod{
 	pixel_y = 14
 	},
-/obj/item/bedsheet/rd{
-	pixel_y = 13
+/obj/item/bedsheet/hos{
+	name = "fancy bedsheet";
+	pixel_y = 14
 	},
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/carpet/purple,
+/turf/open/floor/carpet/red,
 /area/f13/building)
 "sJ" = (
 /obj/structure/destructible/tribal_torch/wall/lit{
@@ -2074,7 +2077,6 @@
 /obj/item/storage/secure/safe{
 	pixel_x = 37
 	},
-/obj/item/pda,
 /turf/open/floor/wood/wood_tiled,
 /area/f13/building)
 "tq" = (
@@ -3117,7 +3119,7 @@
 /area/f13/bar)
 "CU" = (
 /obj/structure/bed/wooden,
-/obj/item/bedsheet/brown,
+/obj/item/bedsheet/black,
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "Da" = (
@@ -3275,10 +3277,6 @@
 /turf/open/floor/plasteel/grimy,
 /area/f13/brotherhood/surface)
 "EH" = (
-/obj/machinery/light_switch{
-	pixel_y = -30;
-	pixel_x = 10
-	},
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building)
 "EJ" = (
@@ -3403,9 +3401,9 @@
 /area/f13/brotherhood/surface)
 "Ga" = (
 /obj/structure/curtain{
-	color = "#610c66"
+	color = "#5c131b"
 	},
-/turf/open/floor/carpet/purple,
+/turf/open/floor/carpet/red,
 /area/f13/building)
 "Gf" = (
 /obj/structure/closet/cabinet,
@@ -3818,10 +3816,10 @@
 /area/f13/brotherhood/surface)
 "Kn" = (
 /obj/structure/curtain{
-	color = "#610c66";
+	color = "#5c131b";
 	pixel_y = 32
 	},
-/turf/open/floor/carpet/purple,
+/turf/open/floor/carpet/red,
 /area/f13/building)
 "Ko" = (
 /obj/effect/decal/cleanable/dirt,
@@ -4013,13 +4011,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/f13/carpet,
 /area/f13/bar)
-"Ma" = (
-/obj/machinery/light_switch{
-	pixel_y = -30;
-	pixel_x = -9
-	},
-/turf/open/floor/f13/wood,
-/area/f13/building)
 "Mb" = (
 /obj/structure/junk/arcade,
 /obj/effect/decal/cleanable/dirt,
@@ -4236,7 +4227,7 @@
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/legion)
 "NX" = (
-/turf/open/floor/carpet/purple,
+/turf/open/floor/carpet/red,
 /area/f13/building)
 "NY" = (
 /obj/structure/chair/wood{
@@ -4486,13 +4477,13 @@
 /area/f13/wasteland)
 "PU" = (
 /obj/structure/curtain{
-	color = "#610c66"
+	color = "#5c131b"
 	},
 /obj/machinery/light{
 	dir = 1;
 	light_color = "#706891"
 	},
-/turf/open/floor/carpet/purple,
+/turf/open/floor/carpet/red,
 /area/f13/building)
 "PV" = (
 /obj/effect/decal/cleanable/dirt,
@@ -4540,6 +4531,12 @@
 	name = "OPD chief's jacket"
 	},
 /obj/item/restraints/handcuffs,
+/obj/item/card/id/dogtag/sheriff{
+	desc = "A golden chief's badge. The faded name 'Leonardo Fortunato' can be made out below the Oasis seal."
+	},
+/obj/item/clothing/head/f13/police/chief{
+	name = "OPD chief's cap"
+	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/f13/vault_floor/plating{
 	name = "plating"
@@ -4590,12 +4587,6 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
-/area/f13/building)
-"QY" = (
-/obj/machinery/light_switch{
-	pixel_x = 23
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
 /area/f13/building)
 "Ra" = (
 /obj/structure/railing/corner{
@@ -5218,6 +5209,7 @@
 /obj/item/clothing/suit/vickyblack,
 /obj/item/clothing/head/bowler,
 /obj/item/cane,
+/obj/item/pda,
 /turf/open/floor/wood/wood_tiled,
 /area/f13/building)
 "Wp" = (
@@ -46373,7 +46365,7 @@ hQ
 ad
 mI
 CU
-Ma
+Br
 tM
 kU
 Br
@@ -47405,7 +47397,7 @@ mI
 mI
 Rg
 Rg
-QY
+qM
 mI
 mI
 ad
