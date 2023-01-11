@@ -226,10 +226,10 @@
 	dat = {"<body>
 <p>Wear and Apperance of the NCRA Uniforms and Insignia</p>
 <p>&nbsp;</p>
-<p>Regulation 515-1</p>
+<p>Regulation R-120</p>
 <p>Last revision</p>
 <p>19 October 2280</p>
-<p>-</p>
+<p></p>
 <p>Contents</p>
 <p style="padding-left: 40px;">Chapter 1</p>
 <p>Introduction</p>
@@ -267,14 +267,13 @@
 <p>The field uniform is year-round duty wear by all Soldiers, when prescribed by the commander. Some field uniforms are classified as utility uniforms, while others are designed for a specific function.</p>
 <p style="padding-left: 40px;">3-2. Items authorized for ranks</p>
 <p>(1) Headgear.</p>
-<p style="padding-left: 40px;">(a) Enlisted may wear the field cap or side cap when wearing the base field uniform, with the full combat uniform, the helmet should be worn.</p>
-<p style="padding-left: 40px;">(b) As with Enlisted, NCOs may wear the field cap and side cap with the base field uniform but also with the full combat uniform in place of the helmet for the purposes of identification if they so choose.</p>
-<p style="padding-left: 40px;">(c) Officers may wear the beret in both the base field and full combat uniforms.</p>
+<p style="padding-left: 40px;">(a) Enlisted and NCOs may wear the field cap when wearing the base field uniform, with the full combat uniform, the helmet should be worn.</p>
+<p style="padding-left: 40px;">(b) Officers may wear the beret in both the base field and full combat uniforms.</p>
 <p style="padding-left: 40px;">(2) Footwear</p>
 <p style="padding-left: 40px;">(a) Enlisted and NCOs should wear patrol boots with the field and combat uniform.</p>
 <p style="padding-left: 40px;">(b) Officers should wear 'officers' dress boots with the field and combat uniforms.</p>
 <p style="padding-left: 40px;">(3) Gloves</p>
-<p style="padding-left: 40px;">(a) Leather or Fingerless leather gloves may be worn by officers or NCOs.</p>
+<p style="padding-left: 40px;">(a) Leather or Fingerless leather gloves may be worn by officers and NCOs respectively.</p>
 <p style="padding-left: 40px;">&nbsp;</p>
 <p style="padding-left: 40px;">3-3. Uniform configurations</p>
 <p>(1) Base field uniform. The base uniform should be worn when off duty or when serving in support roles away from combat.</p>
@@ -297,12 +296,12 @@
 <p>The service-dress uniform is authorized for year-round wear by all personnel. It should be worn both where a service and dress uniform would be appropriate.</p>
 <p style="padding-left: 40px;">4-2. Items authorized for ranks</p>
 <p>(1) Headgear.</p>
-<p style="padding-left: 40px;">(a) Enlisted and NCOs should wear the enlisted version of the dress cap.</p>
-<p style="padding-left: 40px;">(b) Officers should wear the officer version of the dress cap.</p>
-<p style="padding-left: 40px;">(c) The campaign cap should be worn by some specialist roles, such as Drill Sergeants.</p>
+<p style="padding-left: 40px;">(a) Enlisted and NCOs should wear the enlisted dress cap.</p>
+<p style="padding-left: 40px;">(b) Officers should wear the officer dress cap.</p>
+<p style="padding-left: 40px;">(b) Officers should wear the officer dress cap.</p>
+<p style="padding-left: 40px;">(c) The campaign hat should be worn by high ranking NCOs.</p>
 <p>(2) Overwear.</p>
-<p style="padding-left: 40px;">(a) Enlisted and NCOs should wear the enlisted version of the jacket.</p>
-<p style="padding-left: 40px;">(b) Officers should wear the officer version of the jacket.</p>
+<p style="padding-left: 40px;">(a) All ranks should wear the jacket.</p>
 <p>(3) Footwear.</p>
 <p style="padding-left: 40px;">(a) All ranks should wear the dress boots.</p>
 <p>(4) Gloves</p>
