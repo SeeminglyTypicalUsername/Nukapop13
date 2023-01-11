@@ -142,7 +142,7 @@
 
 /*--------------------------------------------------------------*/
 /datum/job/merchant/f13deputy
-	title = "Security Contractor"
+	title = "Hired Gun"
 	flag = F13POLICEMAN
 	department_flag = MERCHANT
 	total_positions = 2
