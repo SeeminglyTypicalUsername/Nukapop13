@@ -932,7 +932,7 @@
 		),
 		/datum/matchmaking_pref/rival = list(
 			/datum/job/undertown/f13waster,
-			/datum/job/oasis/f13detective,
+			/datum/job/kebab/f13detective,
 		),
 		/datum/matchmaking_pref/mentor = list(
 			/datum/job/undertown/f13waster,

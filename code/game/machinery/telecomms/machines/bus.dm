@@ -49,8 +49,8 @@
 /obj/machinery/telecomms/bus/preset_one
 	id = "Bus 1"
 	network = "tcommsat"
-	freq_listening = list(FREQ_SCIENCE, FREQ_CHURCH, FREQ_SECURITY, FREQ_COMMAND, FREQ_ENGINEERING, FREQ_MERCHANT, FREQ_SERVICE)
-	autolinkers = list("processor1", "science", "church", "security", "command", "engineering", "merchant", "service")
+	freq_listening = list(FREQ_SCIENCE, FREQ_SECURITY, FREQ_COMMAND, FREQ_ENGINEERING)
+	autolinkers = list("processor1", "science", "church", "security", "command", "engineering", "merchant")
 
 /obj/machinery/telecomms/bus/preset_two
 	id = "Bus 2"
@@ -61,8 +61,8 @@
 /obj/machinery/telecomms/bus/preset_three
 	id = "Bus 3"
 	network = "tcommsat"
-	freq_listening = list(FREQ_SECURITY, FREQ_COMMAND, FREQ_VAULT, FREQ_NCR, FREQ_BOS, FREQ_ENCLAVE, FREQ_PITRATS, FREQ_TOWN, FREQ_LEGION, FREQ_RANGER, FREQ_KHANS, FREQ_SALVATORES, FREQ_BISHOPS, FREQ_MORDINOS, FREQ_WRIGHTS, FREQ_HOTEL, FREQ_FOLLOWERS)
-	autolinkers = list("processor3", "security", "command", "pitrats","vault", "ncr", "bos", "enclave", "town", "legion", "ranger", "khans", "salvatores", "bishops", "mordinos", "wrights", "hotel", "followers")
+	freq_listening = list(FREQ_SECURITY, FREQ_COMMAND, FREQ_VAULT, FREQ_NCR, FREQ_BOS, FREQ_ENCLAVE, FREQ_PITRATS, FREQ_TOWN, FREQ_LEGION, FREQ_RANGER, FREQ_KHANS, FREQ_SALVATORES, FREQ_BISHOPS, FREQ_MORDINOS, FREQ_WRIGHTS, FREQ_HOTEL, FREQ_FOLLOWERS, FREQ_MERCHANT, FREQ_CHURCH)
+	autolinkers = list("processor3", "security", "command", "vault", "ncr", "bos", "enclave", "pitrats", "town", "legion", "ranger", "khans", "salvatores", "bishops", "mordinos", "wrights", "hotel", "followers", "merchant", "church")
 
 /obj/machinery/telecomms/bus/preset_four
 	id = "Bus 4"

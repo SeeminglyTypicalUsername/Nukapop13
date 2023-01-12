@@ -274,7 +274,7 @@ GLOBAL_LIST_INIT(church_positions, list(
 GLOBAL_LIST_INIT(merchant_positions, list(
 	"Merchant",
 	"Apprentice",
-	"Hired Gun",
+	"Security Contractor",
 	"Indentured Servant",
 ))
 

@@ -23,10 +23,10 @@
 
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
-			/datum/job/oasis,
+			/datum/job/kebab,
 		),
 		/datum/matchmaking_pref/rival = list(
-			/datum/job/oasis,
+			/datum/job/kebab,
 		),
 	)
 
@@ -142,13 +142,13 @@
 
 /*--------------------------------------------------------------*/
 /datum/job/merchant/f13deputy
-	title = "Hired Gun"
+	title = "Security Contractor"
 	flag = F13POLICEMAN
 	department_flag = MERCHANT
 	total_positions = 2
 	spawn_positions = 2
 	supervisors = "the Merchant"
-	description = "You are a loyal hired gun of the Merchant; follow his bidding, keep his slaves in line, and make sure no one holds out payment from him."
+	description = "You are a Security Contractor, hired by the Merchant; follow his bidding, keep his slaves in line, and make sure no one holds out payment from him."
 	selection_color = "#dcba97"
 	exp_type = EXP_TYPE_MERCHANT
 	exp_requirements = 0

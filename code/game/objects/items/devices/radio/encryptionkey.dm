@@ -171,7 +171,7 @@
 
 /obj/item/encryptionkey/headset_pitrats
 	name = "Pitrat radio encryption key"
-	desc = "An encryption key for a radio headset. To access the Pitrats channel, press :p."
+	desc = "An encryption key for a radio headset. To access the Pitrats channel, press :j."
 	icon_state = "cypherkey"
 	channels = list(RADIO_CHANNEL_PITRATS = 1)
 
@@ -232,9 +232,9 @@
 
 /obj/item/encryptionkey/headset_merchant
 	name = "Merchant radio encryption key"
-	desc = "An encryption key for a radio headset.  To access the Merchant channel, use :m"
-	iconstate = "cargo_cypherkey"
-	channels = list(RADIO_CHANNEL_MERCHANT, RADIO_CHANNEL_TOWN = 1)
+	desc = "An encryption key for a radio headset.  To access the Merchant channel, use :u"
+	icon_state = "cargo_cypherkey"
+	channels = list(RADIO_CHANNEL_MERCHANT = 1, RADIO_CHANNEL_TOWN = 1)
 
 /obj/item/encryptionkey/ai //ported from NT, this goes 'inside' the AI.
 	channels = list(RADIO_CHANNEL_COMMAND = 1, RADIO_CHANNEL_SECURITY = 1, RADIO_CHANNEL_ENGINEERING = 1, RADIO_CHANNEL_SCIENCE = 1, RADIO_CHANNEL_CHURCH = 1, RADIO_CHANNEL_SUPPLY = 1, RADIO_CHANNEL_SERVICE = 1, RADIO_CHANNEL_AI_PRIVATE = 1)

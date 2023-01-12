@@ -18,3 +18,8 @@
 	blacklisted_movetypes = (FLOATING|CRAWLING)
 	variable = TRUE
 	flags = IGNORE_NOSLOW
+
+/datum/movespeed_modifier/ghoulspeed
+	blacklisted_movetypes = (FLOATING|FLYING)
+	variable = TRUE
+	flags = IGNORE_NOSLOW

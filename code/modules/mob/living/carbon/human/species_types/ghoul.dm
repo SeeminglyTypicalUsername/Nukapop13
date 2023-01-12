@@ -112,8 +112,10 @@
 	H.heal_overall_damage(healpwr, healpwr, healpwr)
 	if(is_healing)
 		H.apply_status_effect(/datum/status_effect/ghoulheal)
+		H.add_movespeed_modifier(/datum/movespeed_modifier/ghoulspeed) //prevents rad slowdown
 	else
 		H.remove_status_effect(/datum/status_effect/ghoulheal)
+		H.remove_movespeed_modifier(/datum/movespeed_modifier/ghoulspeed)
 
 
 

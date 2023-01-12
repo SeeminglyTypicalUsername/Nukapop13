@@ -21,10 +21,10 @@ Mayor
 	faction = FACTION_KEBAB
 	maptype = "yuma"
 /*
-/datum/job/oasis/f13mayor
+/datum/job/kebab/f13mayor
 	title = "Mayor"
 	flag = F13MAYOR
-	department_flag = DEP_OASIS
+	department_flag = DEP_KEBAB
 	total_positions = 0
 	spawn_positions = 0
 	supervisors = "Kebab"
@@ -38,10 +38,10 @@ Mayor
 	minimal_access = list(ACCESS_BAR, ACCESS_COMMAND, ACCESS_CLONING, ACCESS_GATEWAY, ACCESS_CARGO_BOT, ACCESS_MINT_VAULT, ACCESS_KITCHEN, ACCESS_CLINIC, ACCESS_MINING, ACCESS_FORENSICS_LOCKERS)
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
-			/datum/job/oasis,
+			/datum/job/kebab,
 		),
 		/datum/matchmaking_pref/rival = list(
-			/datum/job/oasis,
+			/datum/job/kebab,
 		),
 	)
 
@@ -62,7 +62,7 @@ Mayor
 
 /datum/outfit/job/den/f13mayor
 	name = "Mayor"
-	jobtype = /datum/job/oasis/f13mayor
+	jobtype = /datum/job/kebab/f13mayor
 	ears = 			/obj/item/radio/headset/headset_town
 	id =            /obj/item/card/id/silver/mayor
 	backpack = /obj/item/storage/backpack/satchel/explorer
@@ -129,7 +129,7 @@ Mayor
 */
 /*--------------------------------------------------------------*/
 /*
-/datum/job/oasis/f13secretary
+/datum/job/kebab/f13secretary
 	title = "Secretary"
 	flag = F13SECRETARY
 	department_flag = DEP_OASIS
@@ -151,16 +151,16 @@ Mayor
 	minimal_access = list(ACCESS_BAR, ACCESS_COMMAND, ACCESS_CLONING, ACCESS_GATEWAY, ACCESS_CARGO_BOT, ACCESS_MINT_VAULT, ACCESS_KITCHEN, ACCESS_CLINIC, ACCESS_MINING, ACCESS_FORENSICS_LOCKERS)
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
-			/datum/job/oasis,
+			/datum/job/kebab,
 		),
 		/datum/matchmaking_pref/rival = list(
-			/datum/job/oasis,
+			/datum/job/kebab,
 		),
 	)
 
 /datum/outfit/job/den/f13secretary
 	name = "Secretary"
-	jobtype = /datum/job/oasis/f13secretary
+	jobtype = /datum/job/kebab/f13secretary
 
 	ears = 			/obj/item/radio/headset/headset_town
 	id =            /obj/item/card/id/silver
@@ -216,7 +216,7 @@ Mayor
 */
 /*--------------------------------------------------------------*/
 /*
-/datum/job/oasis/f13sheriff
+/datum/job/kebab/f13sheriff
 	title = "Chief of Police"
 	flag = F13POLICECHIEF
 	department_flag = DEP_OASIS
@@ -234,16 +234,16 @@ Mayor
 	minimal_access = list(ACCESS_BAR, ACCESS_COMMAND, ACCESS_CLONING, ACCESS_GATEWAY, ACCESS_CARGO_BOT, ACCESS_MINT_VAULT, ACCESS_CLINIC, ACCESS_KITCHEN, ACCESS_MINING, ACCESS_FORENSICS_LOCKERS)
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
-			/datum/job/oasis,
+			/datum/job/kebab,
 		),
 		/datum/matchmaking_pref/rival = list(
-			/datum/job/oasis,
+			/datum/job/kebab,
 		),
 	)
 
 /datum/outfit/job/den/f13sheriff
 	name = "Chief of Police"
-	jobtype = /datum/job/oasis/f13sheriff
+	jobtype = /datum/job/kebab/f13sheriff
 
 	id = /obj/item/card/id/dogtag/sheriff
 	belt = null
@@ -283,7 +283,7 @@ Mayor
 /*--------------------------------------------------------------*/
 /*--------------------------------------------------------------*/
 /*
-/datum/job/oasis/f13towndoctor
+/datum/job/kebab/f13towndoctor
 	title = "Town Doctor"
 	flag = F13TOWNDOCTOR
 	department_flag = DEP_OASIS
@@ -301,16 +301,16 @@ Mayor
 	access = list(ACCESS_BAR, ACCESS_CLINIC)
 	minimal_access = list(ACCESS_BAR, ACCESS_CLINIC)
 	matchmaking_allowed = list(
-		/datum/matchmaking_pref/friend = list(/datum/job/wasteland/f13wastelander, /datum/job/oasis),
-		/datum/matchmaking_pref/rival = list(/datum/job/wasteland/f13wastelander, /datum/job/oasis),
-		/datum/matchmaking_pref/mentor = list(/datum/job/wasteland/f13wastelander, /datum/job/oasis),
-		/datum/matchmaking_pref/disciple = list(/datum/job/wasteland/f13wastelander, /datum/job/oasis),
-		/datum/matchmaking_pref/patron = list(/datum/job/wasteland/f13wastelander, /datum/job/oasis),
-		/datum/matchmaking_pref/protegee = list(/datum/job/wasteland/f13wastelander, /datum/job/oasis))
+		/datum/matchmaking_pref/friend = list(/datum/job/wasteland/f13wastelander, /datum/job/kebab),
+		/datum/matchmaking_pref/rival = list(/datum/job/wasteland/f13wastelander, /datum/job/kebab),
+		/datum/matchmaking_pref/mentor = list(/datum/job/wasteland/f13wastelander, /datum/job/kebab),
+		/datum/matchmaking_pref/disciple = list(/datum/job/wasteland/f13wastelander, /datum/job/kebab),
+		/datum/matchmaking_pref/patron = list(/datum/job/wasteland/f13wastelander, /datum/job/kebab),
+		/datum/matchmaking_pref/protegee = list(/datum/job/wasteland/f13wastelander, /datum/job/kebab))
 
 /datum/outfit/job/f13towndoctor
 	name = "Town Doctor"
-	jobtype = /datum/job/oasis/f13towndoctor
+	jobtype = /datum/job/kebab/f13towndoctor
 	ears = /obj/item/radio/headset/headset_town
 	neck = /obj/item/clothing/neck/stethoscope
 	uniform = /obj/item/clothing/under/f13/medic
@@ -381,7 +381,7 @@ Mayor
 
 //--------------------------------------------------//
 /*
-/datum/job/oasis/f13preacher
+/datum/job/kebab/f13preacher
 	title = "Preacher"
 	flag = F13PREACHER
 	faction = DEP_OASIS
@@ -402,12 +402,12 @@ Mayor
 	access = list(ACCESS_BAR, ACCESS_CHAPEL_OFFICE)
 	minimal_access = list(ACCESS_BAR, ACCESS_CHAPEL_OFFICE)
 	matchmaking_allowed = list(
-		/datum/matchmaking_pref/friend = list(/datum/job/wasteland/f13wastelander, /datum/job/oasis),
-		/datum/matchmaking_pref/rival = list(/datum/job/wasteland/f13wastelander, /datum/job/oasis),
-		/datum/matchmaking_pref/mentor = list(/datum/job/wasteland/f13wastelander, /datum/job/oasis),
-		/datum/matchmaking_pref/disciple = list(/datum/job/wasteland/f13wastelander, /datum/job/oasis),
-		/datum/matchmaking_pref/patron = list(/datum/job/wasteland/f13wastelander, /datum/job/oasis),
-		/datum/matchmaking_pref/protegee = list(/datum/job/wasteland/f13wastelander, /datum/job/oasis))
+		/datum/matchmaking_pref/friend = list(/datum/job/wasteland/f13wastelander, /datum/job/kebab),
+		/datum/matchmaking_pref/rival = list(/datum/job/wasteland/f13wastelander, /datum/job/kebab),
+		/datum/matchmaking_pref/mentor = list(/datum/job/wasteland/f13wastelander, /datum/job/kebab),
+		/datum/matchmaking_pref/disciple = list(/datum/job/wasteland/f13wastelander, /datum/job/kebab),
+		/datum/matchmaking_pref/patron = list(/datum/job/wasteland/f13wastelander, /datum/job/kebab),
+		/datum/matchmaking_pref/protegee = list(/datum/job/wasteland/f13wastelander, /datum/job/kebab))
 
 
 
@@ -437,7 +437,7 @@ Mayor
 	)
 
 
-/datum/job/oasis/f13preacher/after_spawn(mob/living/H, mob/M)
+/datum/job/kebab/f13preacher/after_spawn(mob/living/H, mob/M)
 	. = ..()
 	if(H.mind)
 		H.mind.isholy = TRUE
@@ -532,7 +532,7 @@ Mayor
 
 /datum/outfit/job/f13preacher
 	name = "Preacher"
-	jobtype = /datum/job/oasis/f13preacher
+	jobtype = /datum/job/kebab/f13preacher
 	id =	/obj/item/card/id/dogtag/town
 	ears = /obj/item/radio/headset/headset_town
 	uniform = /obj/item/clothing/under/f13/chaplain
@@ -551,7 +551,7 @@ Mayor
 */
 /*--------------------------------------------------------------*/
 /*
-/datum/job/oasis/f13barkeep
+/datum/job/kebab/f13barkeep
 	title = "Barkeep"
 	flag = F13BARKEEP
 	department_flag = DEP_OASIS
@@ -573,17 +573,17 @@ Mayor
 	minimal_access = list(ACCESS_DEN)
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
-			/datum/job/oasis,
+			/datum/job/kebab,
 		),
 		/datum/matchmaking_pref/rival = list(
-			/datum/job/oasis,
+			/datum/job/kebab,
 		),
 	)
 
 
 /datum/outfit/job/den/f13barkeep
 	name = "Barkeep"
-	jobtype = /datum/job/oasis/f13barkeep
+	jobtype = /datum/job/kebab/f13barkeep
 
 	uniform = /obj/item/clothing/under/f13/bartenderalt
 	id = /obj/item/card/id/dogtag/town
@@ -638,7 +638,7 @@ Mayor
 /*----------------------------------------------------------------
 --							Detective							--
 ----------------------------------------------------------------*/
-/datum/job/oasis/f13detective
+/datum/job/kebab/f13detective
 	title = "Detective"
 	flag = F13DETECTIVE
 	total_positions = 0
@@ -646,18 +646,18 @@ Mayor
 	description = "As a Detective you are a private eye who assists clients to gather evidence, conduct surveillance, find missing people, and verify information. As a private investigator you are not responsible for peacekeeping the valley, but for finding answers. Your life is already over, make the ending mean something."
 	supervisors = "paying clients"
 	selection_color = "#dcba97"
-	outfit = /datum/outfit/job/oasis/f13detective
+	outfit = /datum/outfit/job/kebab/f13detective
 
 	access = list(ACCESS_BAR, ACCESS_FORENSICS_LOCKERS)
 	minimal_access = list(ACCESS_BAR, ACCESS_FORENSICS_LOCKERS)
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
 			/datum/job/wasteland/f13wastelander,
-			/datum/job/oasis/f13detective,
+			/datum/job/kebab/f13detective,
 		),
 		/datum/matchmaking_pref/rival = list(
 			/datum/job/wasteland/f13wastelander,
-			/datum/job/oasis/f13detective,
+			/datum/job/kebab/f13detective,
 		),
 		/datum/matchmaking_pref/mentor = list(
 			/datum/job/wasteland/f13wastelander,
@@ -665,9 +665,9 @@ Mayor
 	)
 
 
-/datum/outfit/job/oasis/f13detective
+/datum/outfit/job/kebab/f13detective
 	name = "Detective"
-	jobtype = /datum/job/oasis/f13detective
+	jobtype = /datum/job/kebab/f13detective
 	suit = /obj/item/clothing/suit/det_suit/grey
 	ears = /obj/item/radio/headset/headset_town
 	uniform = /obj/item/clothing/under/f13/detectivealt
@@ -690,7 +690,7 @@ Mayor
 
 /*--------------------------------------------------------------*/
 
-/datum/job/oasis/f13settler
+/datum/job/kebab/f13settler
 	title = "Scab"
 	flag = F13SETTLER
 	department_flag = DEP_KEBAB
@@ -700,23 +700,23 @@ Mayor
 	description = "Welcome to Kebab, you're a deadbeat parasite infesting the slums of this shanty town. You have no inherent rights, the established locals look down upon you, and you've probably earned that."
 	selection_color = "#c3d5d5"
 
-	outfit = /datum/outfit/job/den/f13settler
+	outfit = /datum/outfit/job/kebab/f13settler
 
 	access = list(ACCESS_BAR)
 	minimal_access = list(ACCESS_BAR)
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
-			/datum/job/oasis,
+			/datum/job/kebab,
 		),
 		/datum/matchmaking_pref/rival = list(
-			/datum/job/oasis,
+			/datum/job/kebab,
 		),
 	)
 
 
-/datum/outfit/job/den/f13settler
+/datum/outfit/job/kebab/f13settler
 	name = "Scab"
-	jobtype = /datum/job/oasis/f13settler
+	jobtype = /datum/job/kebab/f13settler
 	ears = null
 	belt = null
 	id = null
@@ -765,7 +765,7 @@ Mayor
 		/obj/item/reagent_containers/hypospray/medipen/medx)
 /*--------------------------------------------------------------*/
 
-/datum/job/oasis/f13radiohost
+/datum/job/kebab/f13radiohost
 	title = "Radio Host"
 	flag = F13RADIOHOST
 	department_flag = DEP_KEBAB
@@ -775,20 +775,20 @@ Mayor
 	description = "You are the radio host, one of the town's few independent residents. You control the pre-war radio tower, and are expected to provide regular broadcasts and news to the surrounding wasteland. You are tolerated by the town's factions because of your ability to advertise for them, but none of them has thus far managed to assimilate you into their own group."
 	selection_color = "#c3d5d5"
 
-	outfit = /datum/outfit/job/den/f13radiohost
+	outfit = /datum/outfit/job/kebab/f13radiohost
 
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
-			/datum/job/oasis,
+			/datum/job/kebab,
 		),
 		/datum/matchmaking_pref/rival = list(
-			/datum/job/oasis,
+			/datum/job/kebab,
 		),
 	)
 
-/datum/outfit/job/den/f13radiohost
+/datum/outfit/job/kebab/f13radiohost
 	name = "Radio Host"
-	jobtype = /datum/job/oasis/f13radiohost
+	jobtype = /datum/job/kebab/f13radiohost
 
 	uniform = /obj/item/clothing/under/f13/jamrock
 	id = /obj/item/card/id/dogtag/town

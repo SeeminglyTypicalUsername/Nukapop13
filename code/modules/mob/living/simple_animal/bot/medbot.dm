@@ -22,7 +22,7 @@
 
 	status_flags = (CANPUSH | CANSTUN)
 
-	radio_key = /obj/item/encryptionkey/headset_med
+	radio_key = /obj/item/encryptionkey/headset_church
 	radio_channel = RADIO_CHANNEL_CHURCH
 
 	bot_type = MED_BOT

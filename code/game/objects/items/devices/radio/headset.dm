@@ -18,6 +18,8 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 	RADIO_CHANNEL_ENCLAVE = RADIO_TOKEN_ENCLAVE,
 	RADIO_CHANNEL_TOWN = RADIO_TOKEN_TOWN,
 	RADIO_CHANNEL_PITRATS = RADIO_TOKEN_PITRATS,
+	RADIO_CHANNEL_MERCHANT = RADIO_TOKEN_MERCHANT,
+	RADIO_CHANNEL_CHURCH = RADIO_TOKEN_CHURCH,
 	RADIO_CHANNEL_LEGION = RADIO_TOKEN_LEGION,
 	RADIO_CHANNEL_RANGER = RADIO_TOKEN_RANGER,
 	RADIO_CHANNEL_KHANS = RADIO_TOKEN_KHANS,
@@ -207,7 +209,7 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 	name = "\proper the chief medical officer's headset"
 	desc = "The headset of the highly trained medical chief."
 	icon_state = "com_headset"
-	keyslot = new /obj/item/encryptionkey/heads/cmo
+	keyslot = new /obj/item/encryptionkey/headset_church
 
 /obj/item/radio/headset/heads/hop
 	name = "\proper the head of personnel's headset"
@@ -225,7 +227,7 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 	name = "supply radio headset"
 	desc = "A headset used by the QM and his slaves."
 	icon_state = "cargo_headset"
-	keyslot = new /obj/item/encryptionkey/headset_cargo
+	keyslot = new /obj/item/encryptionkey/headset_merchant
 
 /obj/item/radio/headset/headset_cargo/mining
 	name = "mining radio headset"
@@ -412,14 +414,14 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 
 /obj/item/radio/headset/headset_pitrats
 	name = "pitrat radio headset"
-	desc = "This is used by the Pitrats. \nTo access the den channel, use :p."
+	desc = "This is used by the Pitrats. \nTo access the pitrats channel, use :j."
 	icon_state = "mine_headset"
 	keyslot = new /obj/item/encryptionkey/headset_pitrats
 	keyslot2 = new /obj/item/encryptionkey/headset_town
 
 /obj/item/radio/headset/headset_church
-	name = "church headset"
-	desc = "This is used by the Church.\nTo access the church channel, use :c."
+	name = "church radio headset"
+	desc = "This is used by the Church.\nTo access the church channel, use :v."
 	icon_state = "mine_headset"
 	keyslot = new /obj/item/encryptionkey/headset_church
 	keyslot2 = new /obj/item/encryptionkey/headset_town
