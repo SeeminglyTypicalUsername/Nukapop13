@@ -182,7 +182,7 @@
 	item_state = "legionflag"
 	faction = FACTION_LEGION
 
-/obj/item/flag/kea
+/obj/item/flag/kebab
 	name = "Kebab flag"
 	desc = "A flag depicting a stylised pink flower on a green background. It's the symbol of the town of Oasis."
 	icon_state = "oasisflag"
