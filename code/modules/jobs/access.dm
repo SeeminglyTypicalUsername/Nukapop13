@@ -429,14 +429,12 @@
 
 /proc/get_all_jobs()
 	return list("Centurion", "NCR Captain", "Overseer", "Sheriff",
-				"Sentinel", "Senior Paladin", "Paladin", "Knight-Captain", "Senior Knight", "Knight", "Head Scribe", "Senior Scribe", "Scribe", "Initiate",
 				"Veteran Decanus", "Vexillarius", "Decanus", "Veteran Legionnaire", "Prime Legionnaire",
-				"NCR Lieutenant", "NCR Medical Officer", "NCR Sergeant First Class", "NCR Sergeant", ,"NCR Corporal", "NCR Combat Medic", "NCR Combat Engineer", "NCR Trooper",
-				"NCR Veteran Ranger", "NCR Patrol Ranger", "NCR Recon Ranger",
-				"NCR Scout", "NCR Scout Sergeant", "NCR Scout Lieutenant",
-				"Chief of Security", "Vault-tec Doctor", "Vault-tec Scientist",
-				"Vault-tec Security", "Vault-tec Engineer", "Vault Dweller", "Settler",
-				"Wastelander", "Raider", "Great Khan", "Preacher", "Head Hunter", "Chief", "Shaman", "Villager", "Hunter")
+				"NCR Lieutenant", "NCR Medical Officer", "NCR Staff Sergeant", "NCR Sergeant", ,"NCR Corporal", "NCR Combat Medic", "NCR Combat Engineer", "NCR Trooper",
+				"NCR Veteran Ranger", "NCR Patrol Ranger", "NCR Recon Ranger", "Settler",
+				"Wastelander", "Raider", "Great Khan", "Preacher", "Head Hunter", "Chief", "Shaman", "Villager", "Hunter",
+				"Merchant", "Security Contractor", "Apprentice", "Neophyte", "Acolyte", "Proselytizer", "High Priest", "Servitor Medici", "Servitor Militant",
+				"Pitmaster", "Grogmaster", "Champion", "Pitrat", "Radiohost", "Scab")
 
 /proc/get_all_job_icons() //For all existing HUD icons
 	return get_all_jobs() + list("Prisoner")

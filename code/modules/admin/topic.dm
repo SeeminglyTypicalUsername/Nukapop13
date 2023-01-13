@@ -712,7 +712,7 @@
 				counter = 0
 		dat += "</tr></table>"
 
-	//Oasis (Green)
+	//Kebab (Green)
 		dat += "<table cellpadding='1' cellspacing='0' width='100%'>"
 		dat += "<tr align='center' bgcolor='8ee3a4'><th colspan='[length(GLOB.kebab_positions)]'><a href='?src=[REF(src)];[HrefToken()];jobban3=kebabdept;jobban4=[REF(M)]'>Kebab Positions</a></th></tr><tr align='center'>"
 		for(var/jobPos in GLOB.kebab_positions)
@@ -802,10 +802,10 @@
 				counter = 0
 		dat += "</tr></table>"
 
-	//Enclave (Red)
+	//Pitrats (Red)
 		dat += "<table cellpadding='1' cellspacing='0' width='100%'>"
-		dat += "<tr align='center' bgcolor='ffa2a2'><th colspan='[length(GLOB.enclave_positions)]'><a href='?src=[REF(src)];[HrefToken()];jobban3=enclavedept;jobban4=[REF(M)]'>Enclave Positions</a></th></tr><tr align='center'>"
-		for(var/jobPos in GLOB.enclave_positions)
+		dat += "<tr align='center' bgcolor='ffa2a2'><th colspan='[length(GLOB.pitrats_positions)]'><a href='?src=[REF(src)];[HrefToken()];jobban3=pitratsdept;jobban4=[REF(M)]'>Pitrats Positions</a></th></tr><tr align='center'>"
+		for(var/jobPos in GLOB.pitrats_positions)
 			if(!jobPos)
 				continue
 			if(jobban_isbanned(M, jobPos))
@@ -822,8 +822,8 @@
 
 	//Tribal (Brown)
 		dat += "<table cellpadding='1' cellspacing='0' width='100%'>"
-		dat += "<tr align='center' bgcolor='cbb888'><th colspan='[length(GLOB.tribal_positions)]'><a href='?src=[REF(src)];[HrefToken()];jobban3=tribaldept;jobban4=[REF(M)]'>Tribal Positions</a></th></tr><tr align='center'>"
-		for(var/jobPos in GLOB.tribal_positions)
+		dat += "<tr align='center' bgcolor='cbb888'><th colspan='[length(GLOB.merchant_positions)]'><a href='?src=[REF(src)];[HrefToken()];jobban3=merchantdept;jobban4=[REF(M)]'>Merchant Positions</a></th></tr><tr align='center'>"
+		for(var/jobPos in GLOB.merchant_positions)
 			if(!jobPos)
 				continue
 			if(jobban_isbanned(M, jobPos))
@@ -840,8 +840,8 @@
 
 	//Followers (Light Blue)
 		dat += "<table cellpadding='1' cellspacing='0' width='100%'>"
-		dat += "<tr align='center' bgcolor='abfffd'><th colspan='[length(GLOB.followers_positions)]'><a href='?src=[REF(src)];[HrefToken()];jobban3=followersdept;jobban4=[REF(M)]'>Followers Positions</a></th></tr><tr align='center'>"
-		for(var/jobPos in GLOB.followers_positions)
+		dat += "<tr align='center' bgcolor='d580ff'><th colspan='[length(GLOB.church_positions)]'><a href='?src=[REF(src)];[HrefToken()];jobban3=followersdept;jobban4=[REF(M)]'>Church Positions</a></th></tr><tr align='center'>"
+		for(var/jobPos in GLOB.church_positions)
 			if(!jobPos)
 				continue
 			if(jobban_isbanned(M, jobPos))
@@ -1057,18 +1057,18 @@
 					if(!jobPos)
 						continue
 					joblist += jobPos
-			if("enclavedept")
-				for(var/jobPos in GLOB.enclave_positions)
+			if("pitratsdept")
+				for(var/jobPos in GLOB.pitrats_positions)
 					if(!jobPos)
 						continue
 					joblist += jobPos
-			if("tribaldept")
-				for(var/jobPos in GLOB.tribal_positions)
+			if("merchantdept")
+				for(var/jobPos in GLOB.merchant_positions)
 					if(!jobPos)
 						continue
 					joblist += jobPos
-			if("followersdept")
-				for(var/jobPos in GLOB.followers_positions)
+			if("churchdept")
+				for(var/jobPos in GLOB.church_positions)
 					if(!jobPos)
 						continue
 					joblist += jobPos

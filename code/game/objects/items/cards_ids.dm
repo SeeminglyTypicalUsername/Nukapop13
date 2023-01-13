@@ -444,6 +444,11 @@
 	var/anyone = FALSE //Can anyone forge the ID or just syndicate?
 	var/forged = FALSE //have we set a custom name and job assignment, or will we use what we're given when we chameleon change?
 
+/obj/item/card/id/syndicate/radiohost
+	name = "radio play ID"
+	desc = "Used to run radio plays."
+	icon_state = "gold_id"
+
 /obj/item/card/id/syndicate/Initialize()
 	. = ..()
 	var/datum/action/item_action/chameleon/change/chameleon_action = new(src)

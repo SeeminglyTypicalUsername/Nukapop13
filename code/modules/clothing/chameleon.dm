@@ -475,6 +475,10 @@ CHAMELEON_CLOTHING_DEFINE(/obj/item/clothing/mask/chameleon)
 	. = ..()
 	chameleon_action.emp_randomise(INFINITY)
 
+/obj/item/clothing/mask/chameleon/radiohost/attack_self(mob/user)
+	voice_change = !voice_change
+	to_chat(user, "<span class='notice'>The radio play voice changer is now [voice_change ? "on" : "off"]!</span>")
+
 /obj/item/clothing/mask/chameleon/attack_self(mob/user)
 	voice_change = !voice_change
 	to_chat(user, "<span class='notice'>The voice changer is now [voice_change ? "on" : "off"]!</span>")
@@ -502,6 +506,12 @@ CHAMELEON_CLOTHING_DEFINE(/obj/item/clothing/mask/chameleon)
 	desc = "Legion technology given only to Frumentarii agents." //special job
 	icon_state = "legvet"
 	item_state = "legvet"
+
+/obj/item/clothing/mask/chameleon/radiohost
+	name = "radio play voice changer"
+	desc = "Pre-war technology used to run radio plays."
+	icon_state = "fake-moustache"
+	item_state = "fake-moustache" // need a new sprite
 
 CHAMELEON_CLOTHING_DEFINE(/obj/item/clothing/shoes/chameleon)
 	name = "black shoes"
