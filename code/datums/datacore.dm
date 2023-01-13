@@ -136,7 +136,7 @@
 		if(rank in GLOB.enclave_positions)
 			enclave[name] = rank
 			department = 1
-		if(rank in GLOB.oasis_positions)
+		if(rank in GLOB.kebab_positions)
 			oasis[name] = rank
 			department = 1
 		if(rank in GLOB.legion_positions)

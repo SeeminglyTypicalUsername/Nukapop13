@@ -559,3 +559,21 @@
 	blob_allowed = 0
 	environment = 5
 	grow_chance = 5
+
+/area/f13/merchant
+	name = "Merchant"
+	icon_state = "storage"
+	ambientsounds = list('sound/f13ambience/ambigen_10.ogg','sound/f13ambience/ambigen_11.ogg','sound/f13ambience/ambigen_12.ogg', \
+	'sound/f13ambience/ambigen_13.ogg','sound/ambience/signal.ogg')
+	blob_allowed = 0
+	environment = 5
+	grow_chance = 5
+
+/area/f13/pitrats
+	name = "Pitrats"
+	icon_state = "raiders"
+	ambientsounds = list('sound/f13ambience/ambigen_10.ogg','sound/f13ambience/ambigen_11.ogg','sound/f13ambience/ambigen_12.ogg', \
+	'sound/f13ambience/ambigen_13.ogg','sound/ambience/signal.ogg')
+	blob_allowed = 0
+	environment = 5
+	grow_chance = 5

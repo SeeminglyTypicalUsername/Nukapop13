@@ -297,13 +297,12 @@
 	restricted_roles = list("NCR Captain",
 							"NCR Lieutenant",
 							"NCR Medical Officer",
-							"NCR Sergeant First Class",
-							"NCR Lieutenant",
+							"NCR Staff Sergeant",
 							"NCR Heavy Trooper",
 							"NCR Sergeant",
 							"NCR Corporal",
-							"NCR Combat Engineer",
-							"NCR Combat Medic",
+							"NCR Military Police",
+							"NCR Specialist",
 							"NCR Trooper",
 							"NCR Rear Echelon",
 							"NCR Off-Duty"
@@ -318,14 +317,15 @@
 	restricted_roles = list("NCR Captain",
 							"NCR Lieutenant",
 							"NCR Medical Officer",
-							"NCR Sergeant First Class",
-							"NCR Lieutenant",
+							"NCR Staff Sergeant",
 							"NCR Heavy Trooper",
 							"NCR Sergeant",
 							"NCR Corporal",
-							"NCR Combat Engineer",
-							"NCR Combat Medic",
+							"NCR Military Police",
+							"NCR Specialist",
 							"NCR Trooper",
+							"NCR Rear Echelon",
+							"NCR Off-Duty"
 						)
 
 /datum/gear/head/f13/ncr/patriot
@@ -337,14 +337,15 @@
 	restricted_roles = list("NCR Captain",
 							"NCR Lieutenant",
 							"NCR Medical Officer",
-							"NCR Sergeant First Class",
-							"NCR Lieutenant",
+							"NCR Staff Sergeant",
 							"NCR Heavy Trooper",
 							"NCR Sergeant",
 							"NCR Corporal",
-							"NCR Combat Engineer",
-							"NCR Combat Medic",
+							"NCR Military Police",
+							"NCR Specialist",
 							"NCR Trooper",
+							"NCR Rear Echelon",
+							"NCR Off-Duty"
 						)
 
 /datum/gear/head/steelpot_gambler
@@ -356,14 +357,15 @@
 	restricted_roles = list("NCR Captain",
 							"NCR Lieutenant",
 							"NCR Medical Officer",
-							"NCR Sergeant First Class",
-							"NCR Lieutenant",
+							"NCR Staff Sergeant",
 							"NCR Heavy Trooper",
 							"NCR Sergeant",
 							"NCR Corporal",
-							"NCR Combat Engineer",
-							"NCR Combat Medic",
+							"NCR Military Police",
+							"NCR Specialist",
 							"NCR Trooper",
+							"NCR Rear Echelon",
+							"NCR Off-Duty"
 						)
 
 datum/gear/head/steelpot_bandolier
@@ -375,14 +377,15 @@ datum/gear/head/steelpot_bandolier
 	restricted_roles = list("NCR Captain",
 							"NCR Lieutenant",
 							"NCR Medical Officer",
-							"NCR Sergeant First Class",
-							"NCR Lieutenant",
+							"NCR Staff Sergeant",
 							"NCR Heavy Trooper",
 							"NCR Sergeant",
 							"NCR Corporal",
-							"NCR Combat Engineer",
-							"NCR Combat Medic",
+							"NCR Military Police",
+							"NCR Specialist",
 							"NCR Trooper",
+							"NCR Rear Echelon",
+							"NCR Off-Duty"
 						)
 
 
@@ -396,11 +399,11 @@ datum/gear/head/steelpot_bandolier
 	restricted_roles = list("NCR Captain",
 							"NCR Lieutenant",
 							"NCR Medical Officer",
-							"NCR Sergeant First Class",
-							"NCR Lieutenant",
+							"NCR Staff Sergeant",
 							"NCR Heavy Trooper",
 							"NCR Sergeant",
 							"NCR Corporal",
+							"NCR Military Police",
 							"NCR Combat Engineer",
 							"NCR Combat Medic",
 							"NCR Trooper",
@@ -416,6 +419,7 @@ datum/gear/head/steelpot_bandolier
 	restricted_desc = "NCR"
 	restricted_roles = list("NCR Captain",
 							"NCR Lieutenant",
+							"NCR Staff Sergeant",
 							"NCR Sergeant",
 							"NCR Heavy Trooper"
 						)

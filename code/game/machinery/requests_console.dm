@@ -332,8 +332,8 @@ GLOBAL_LIST_EMPTY(allConsoles)
 				radio_freq = FREQ_ENGINEERING
 				emergency = "Engineering"
 			if(3) //Medical
-				radio_freq = FREQ_MEDICAL
-				emergency = "Medical"
+				radio_freq = FREQ_CHURCH
+				emergency = "Church"
 		if(radio_freq)
 			Radio.set_frequency(radio_freq)
 			Radio.talk_into(src, "[emergency] emergency in [department]!!", radio_freq)
@@ -367,7 +367,7 @@ GLOBAL_LIST_EMPTY(allConsoles)
 			if("bridge")
 				radio_freq = FREQ_COMMAND
 			if("medbay")
-				radio_freq = FREQ_MEDICAL
+				radio_freq = FREQ_CHURCH
 			if("science")
 				radio_freq = FREQ_SCIENCE
 			if("engineering")
@@ -375,7 +375,7 @@ GLOBAL_LIST_EMPTY(allConsoles)
 			if("security")
 				radio_freq = FREQ_SECURITY
 			if("cargobay", "mining")
-				radio_freq = FREQ_SUPPLY
+				radio_freq = FREQ_MERCHANT
 		Radio.set_frequency(radio_freq)
 
 		var/authentic = ""

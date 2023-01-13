@@ -744,7 +744,7 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	name = "Vault Dweller"
 	icon_state = "Vault Dweller"
 
-// Oasis
+// Kebab
 
 /obj/effect/landmark/start/f13/mayor
 	name = "Mayor"
@@ -759,7 +759,7 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	icon_state = "Chief of Police"
 
 /obj/effect/landmark/start/f13/deputy
-	name = "Hired Gun"
+	name = "Security Contractor"
 	icon_state = "Officer"
 
 /obj/effect/landmark/start/f13/farmer

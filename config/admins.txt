@@ -8,6 +8,4 @@
 # NOTE: syntax was changed to allow hyphenation of ranknames, since spaces are stripped.      #
 ###############################################################################################
 
-Gruesomeborg68915 = Game Admin
-TheDoctorFate = Game Admin
-Compano = Game Admin
+Compano = Administrator

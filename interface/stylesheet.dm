@@ -49,9 +49,9 @@ em						{font-style: normal;	font-weight: bold;}
 .sciradio				{color: #993399;}
 .comradio				{color: #948f02;}
 .secradio				{color: #a30000;}
-.medradio				{color: #337296;}
+.churchradio			{color: #632063;}
 .engradio				{color: #fb5613;}
-.suppradio				{color: #a8732b;}
+.merchantradio			{color: #a8732b;}
 .servradio				{color: #6eaa2c;}
 .syndradio				{color: #6d3f40;}
 .centcomradio			{color: #686868;}
@@ -62,7 +62,7 @@ em						{font-style: normal;	font-weight: bold;}
 .ncrradio				{color: #eaaa54;}
 .bosradio				{color: #686868;}
 .enclaveradio			{color: #67696b;}
-.denradio				{color: #a8732b;}
+.pitrats				{color: #a8732b;}
 .legionradio			{color: #c24d44;}
 .rangerradio			{color: #83733c;}
 .khansradio				{color: #f0420d;}

@@ -128,7 +128,7 @@
 /obj/structure/closet/secure_closet/security/cargo/PopulateContents()
 	..()
 	new /obj/item/clothing/accessory/armband/cargo(src)
-	new /obj/item/encryptionkey/headset_cargo(src)
+	new /obj/item/encryptionkey/headset_merchant(src)
 /obj/structure/closet/secure_closet/security/engine
 /obj/structure/closet/secure_closet/security/engine/PopulateContents()
 	..()
@@ -143,7 +143,7 @@
 /obj/structure/closet/secure_closet/security/med/PopulateContents()
 	..()
 	new /obj/item/clothing/accessory/armband/medblue(src)
-	new /obj/item/encryptionkey/headset_med(src)
+	new /obj/item/encryptionkey/headset_church(src)
 
 /obj/structure/closet/secure_closet/detective
 	name = "\improper detective's cabinet"

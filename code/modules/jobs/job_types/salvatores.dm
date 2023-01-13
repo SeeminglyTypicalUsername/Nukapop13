@@ -35,10 +35,10 @@
 	minimal_access = list(ACCESS_BAR, ACCESS_CARGO_BOT, ACCESS_MINT_VAULT, ACCESS_KITCHEN, ACCESS_CLINIC, ACCESS_MINING, ACCESS_FORENSICS_LOCKERS)
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
-			/datum/job/oasis,
+			/datum/job/kebab,
 		),
 		/datum/matchmaking_pref/rival = list(
-			/datum/job/oasis,
+			/datum/job/kebab,
 		),
 	)
 */
@@ -89,10 +89,10 @@
 	minimal_access = list(ACCESS_BAR, ACCESS_CARGO_BOT, ACCESS_MINT_VAULT, ACCESS_KITCHEN, ACCESS_CLINIC, ACCESS_MINING, ACCESS_FORENSICS_LOCKERS)
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
-			/datum/job/oasis,
+			/datum/job/kebab,
 		),
 		/datum/matchmaking_pref/rival = list(
-			/datum/job/oasis,
+			/datum/job/kebab,
 		),
 	)
 */
@@ -143,10 +143,10 @@
 	minimal_access = list(ACCESS_BAR, ACCESS_CARGO_BOT, ACCESS_MINT_VAULT, ACCESS_KITCHEN, ACCESS_CLINIC, ACCESS_MINING, ACCESS_FORENSICS_LOCKERS)
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
-			/datum/job/oasis,
+			/datum/job/kebab,
 		),
 		/datum/matchmaking_pref/rival = list(
-			/datum/job/oasis,
+			/datum/job/kebab,
 		),
 	)
 */
@@ -197,10 +197,10 @@
 	minimal_access = list(ACCESS_BAR, ACCESS_CARGO_BOT, ACCESS_MINT_VAULT, ACCESS_KITCHEN, ACCESS_CLINIC, ACCESS_MINING, ACCESS_FORENSICS_LOCKERS)
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
-			/datum/job/oasis,
+			/datum/job/kebab,
 		),
 		/datum/matchmaking_pref/rival = list(
-			/datum/job/oasis,
+			/datum/job/kebab,
 		),
 	)
 */
@@ -261,10 +261,10 @@
 	minimal_access = list(ACCESS_BAR, ACCESS_CARGO_BOT, ACCESS_MINT_VAULT, ACCESS_KITCHEN, ACCESS_CLINIC, ACCESS_MINING, ACCESS_FORENSICS_LOCKERS)
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
-			/datum/job/oasis,
+			/datum/job/kebab,
 		),
 		/datum/matchmaking_pref/rival = list(
-			/datum/job/oasis,
+			/datum/job/kebab,
 		),
 	)
 */

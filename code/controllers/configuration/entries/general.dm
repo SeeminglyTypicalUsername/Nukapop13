@@ -215,13 +215,13 @@
 /datum/config_entry/string/banappeals
 
 /datum/config_entry/string/wikiurl
-	config_entry_value = ""
+	config_entry_value = "https://tgstation13.org/wiki/Main_Page"
 
 /datum/config_entry/string/discordurl
 	config_entry_value = "https://discord.gg/y8N2jVT9NV"
 
 /datum/config_entry/string/wikiurltg
-	config_entry_value = ""
+	config_entry_value = "https://tgstation13.org/wiki/Main_Page"
 
 /datum/config_entry/string/forumurl
 	config_entry_value = null
@@ -230,7 +230,7 @@
 	config_entry_value = "https://discord.gg/y8N2jVT9NV"
 
 /datum/config_entry/string/githuburl
-	config_entry_value = null
+	config_entry_value = "https://github.com/SeeminglyTypicalUsername/Nukapop13"
 
 /datum/config_entry/string/roundstatsurl
 

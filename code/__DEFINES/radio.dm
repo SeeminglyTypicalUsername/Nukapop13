@@ -21,17 +21,17 @@
 #define RADIO_KEY_SCIENCE "n"
 #define RADIO_TOKEN_SCIENCE ":n"
 
-#define RADIO_CHANNEL_MEDICAL "Medical"
-#define RADIO_KEY_MEDICAL "m"
-#define RADIO_TOKEN_MEDICAL ":m"
+#define RADIO_CHANNEL_CHURCH "Church"
+#define RADIO_KEY_CHURCH "v"
+#define RADIO_TOKEN_CHURCH ":v"
 
-#define RADIO_CHANNEL_SUPPLY "Supply"
-#define RADIO_KEY_SUPPLY "u"
-#define RADIO_TOKEN_SUPPLY ":u"
+#define RADIO_CHANNEL_MERCHANT "Merchant"
+#define RADIO_KEY_MERCHANT "m"
+#define RADIO_TOKEN_MERCHANT ":m"
 
 #define RADIO_CHANNEL_SERVICE "Service"
-#define RADIO_KEY_SERVICE "v"
-#define RADIO_TOKEN_SERVICE ":v"
+#define RADIO_KEY_SERVICE "2"
+#define RADIO_TOKEN_SERVICE ":2"
 
 #define RADIO_CHANNEL_AI_PRIVATE "AI Private"
 #define RADIO_KEY_AI_PRIVATE "o"
@@ -77,9 +77,9 @@
 #define RADIO_KEY_KHANS "a"
 #define RADIO_TOKEN_KHANS ":a"
 
-#define RADIO_CHANNEL_DEN "Den"
-#define RADIO_KEY_DEN "j"
-#define RADIO_TOKEN_DEN ":j"
+#define RADIO_CHANNEL_PITRATS "Pitrats"
+#define RADIO_KEY_PITRATS "j"
+#define RADIO_TOKEN_PITRATS ":j"
 
 #define RADIO_CHANNEL_SALVATORES "Salvatores"
 #define RADIO_KEY_SALVATORES "s"
@@ -90,8 +90,8 @@
 #define RADIO_TOKEN_BISHOPS ":b"
 
 #define RADIO_CHANNEL_MORDINOS "Mordinos"
-#define RADIO_KEY_MORDINOS "m"
-#define RADIO_TOKEN_MORDINOS ":m"
+#define RADIO_KEY_MORDINOS "]"
+#define RADIO_TOKEN_MORDINOS ":]" //placeholder
 
 #define RADIO_CHANNEL_WRIGHTS "Wrights"
 #define RADIO_KEY_WRIGHTS "w"
@@ -115,11 +115,11 @@
 #define FREQ_CTF_RED 1215  // CTF red team comms frequency, red
 #define FREQ_CTF_BLUE 1217  // CTF blue team comms frequency, blue
 #define FREQ_CENTCOM 1337  // CentCom comms frequency, gray
-#define FREQ_SUPPLY 1347  // Supply comms frequency, light brown
+#define FREQ_MERCHANT 1347  // merchant
 #define FREQ_SERVICE 1349  // Service comms frequency, green
 #define FREQ_SCIENCE 1351  // Science comms frequency, plum
 #define FREQ_COMMAND 1353  // Command comms frequency, gold
-#define FREQ_MEDICAL 1355  // Medical comms frequency, soft blue
+#define FREQ_CHURCH 1355  // church
 #define FREQ_ENGINEERING 1357  // Engineering comms frequency, orange
 #define FREQ_SECURITY 1359  // Security comms frequency, red
 #define FREQ_VAULT 1361 //Vault
@@ -129,7 +129,7 @@
 #define FREQ_TOWN 1369 //TOWN
 #define FREQ_LEGION 1371 //LEGION
 #define FREQ_RANGER 1373 //Ranger
-#define FREQ_DEN 1375 //Den
+#define FREQ_PITRATS 1375 //pitrats
 #define FREQ_KHANS 1376 //Khans
 #define FREQ_SALVATORES 1377 //Salvatores
 #define FREQ_BISHOPS 1379 //Bishops
