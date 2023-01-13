@@ -769,8 +769,8 @@ Mayor
 	title = "Radio Host"
 	flag = F13RADIOHOST
 	department_flag = DEP_KEBAB
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 2
+	spawn_positions = 2
 	supervisors = "no one"
 	description = "You are the radio host, one of the town's few independent residents. You control the pre-war radio tower, and are expected to provide regular broadcasts and news to the surrounding wasteland. You are tolerated by the town's factions because of your ability to advertise for them, but none of them has thus far managed to assimilate you into their own group."
 	selection_color = "#c3d5d5"
@@ -803,4 +803,6 @@ Mayor
 		/obj/item/book/manual/nuka_recipes = 1,
 		/obj/item/megaphone = 1,
 		/obj/item/pda = 1,
-		/obj/item/reagent_containers/food/drinks/bottle/rotgut = 1)
+		/obj/item/reagent_containers/food/drinks/bottle/rotgut = 1,
+		/obj/item/clothing/mask/chameleon/radiohost,
+		/obj/item/card/id/syndicate/radiohost)
