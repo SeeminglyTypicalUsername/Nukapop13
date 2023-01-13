@@ -123,3 +123,47 @@
 	desc = "A sign indicating which cell block you are in prisoner."
 	icon = 'icons/fallout/objects/decals.dmi'
 	icon_state = "cells"
+
+//flags and stuff
+
+/obj/structure/decoration/flag/us
+	name = "US flag"
+	desc = "The flag of the old-world United States."
+	icon = 'icons/fallout/objects/decals.dmi'
+	icon_state = "flag_us"
+
+/obj/structure/decoration/flag/china
+	name = "chinese flag"
+	desc = "The flag of the old-world chinese nation."
+	icon = 'icons/fallout/objects/decals.dmi'
+	icon_state = "flag_china"
+
+/obj/structure/decoration/flag/mexico
+	name = "mexican flag"
+	desc = "The flag of the old-world mexican nation."
+	icon = 'icons/fallout/objects/decals.dmi'
+	icon_state = "flag_mexico"
+
+/obj/structure/decoration/flag/redcross
+	name = "red cross flag"
+	desc = "A shockingly clean white flag with a red cross in the middle of it."
+	icon = 'icons/fallout/objects/decals.dmi'
+	icon_state = "flag_redcross"
+
+/obj/structure/decoration/flag/NCR_new
+	name = "NCR flag"
+	desc = "The flag of the New California Republic."
+	icon = 'icons/fallout/objects/decals.dmi'
+	icon_state = "flag_NCR_new"
+
+/obj/structure/decoration/portrait/kimball
+	name = "portrait of President Kimball"
+	desc = "A painted portrait of N.C.R. President Aaron Kimball."
+	icon = 'icons/fallout/objects/decals.dmi'
+	icon_state = "portrait_kimball"
+
+/obj/structure/decoration/portrait/oliver
+	name = "portrait of General Oliver"
+	desc = "A painted portrait of N.C.R.A. General Lee Oliver"
+	icon = 'icons/fallout/objects/decals.dmi'
+	icon_state = "portrait_oliver"
