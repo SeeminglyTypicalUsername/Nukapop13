@@ -133,7 +133,7 @@
 							"NCR Veteran Ranger",
 							"NCR Lieutenant",
 							"NCR Heavy Trooper",
-							"NCR Sergeant First Class",
+							"NCR Staff Sergeant",
 							"NCR Sergeant",
 							"NCR Corporal",
 							"NCR Combat Engineer",
