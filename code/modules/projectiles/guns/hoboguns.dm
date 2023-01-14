@@ -184,7 +184,6 @@
 	extra_damage = 32
 	fire_sound = 'sound/weapons/Gunshot.ogg'
 
-
 //Auto-pipe rifle										Keywords: .357, 18 round belt, Extra damage -8, no AP (bullet hose style)
 /obj/item/gun/ballistic/automatic/autopipe
 	name = "Auto-pipe rifle (.357)"
