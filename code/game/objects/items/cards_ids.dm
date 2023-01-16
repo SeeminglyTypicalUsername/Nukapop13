@@ -447,7 +447,8 @@
 /obj/item/card/id/syndicate/radiohost
 	name = "radio play ID"
 	desc = "Used to run radio plays."
-	icon_state = "gold_id"
+	icon_state = "gold"
+	item_state = "gold_id"
 
 /obj/item/card/id/syndicate/Initialize()
 	. = ..()
