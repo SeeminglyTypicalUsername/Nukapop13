@@ -118,15 +118,10 @@ also be like that but I can't be arsed to go back and change them all*/
 #define ACCESS_CENTVAULT	148 //Legion treasury
 #define ACCESS_CAPVAULT		149 //NCR treasury
 
-//desert rangers
-
-#define ACCESS_DESERTRANGERS 151
-#define ACCESS_DESERTRANGERSCHIEF 152
-
 
 	//The Syndicate
-#define ACCESS_SYNDICATE 153//General Syndicate Access. Includes Syndicate mechs and ruins.
-#define ACCESS_SYNDICATE_LEADER 154//Nuke Op Leader Access
+#define ACCESS_SYNDICATE 150//General Syndicate Access. Includes Syndicate mechs and ruins.
+#define ACCESS_SYNDICATE_LEADER 151//Nuke Op Leader Access
 
 	//Away Missions or Ruins
 	/*For generic away-mission/ruin access. Why would normal crew have access to a long-abandoned derelict
