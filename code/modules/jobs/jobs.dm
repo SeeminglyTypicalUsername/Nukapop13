@@ -286,6 +286,11 @@ GLOBAL_LIST_INIT(pitrats_positions, list(
 	"Pitrat",
 ))
 
+GLOBAL_LIST_INIT(desertranger_positions, list(
+	"Chief Ranger",
+	"Desert Ranger",
+))
+
 GLOBAL_LIST_INIT(kebab_positions, list(
 	"Detective",
 	"Barkeep",
@@ -370,6 +375,7 @@ GLOBAL_LIST_INIT(position_categories, list(
 	EXP_TYPE_MERCHANT = list("jobs" = merchant_positions, "color" = "#dcba97"),
 	EXP_TYPE_PITRATS = list("jobs" = pitrats_positions, "color" = "#ff8080"),
 	EXP_TYPE_KEBAB = list("jobs" = kebab_positions, "color" = "#d7b088"),
+	EXP_TYPE_DESERTRANGERSS = list("jobs" = desertranger_positions, "color" = "#f0420d"),
 //	EXP_TYPE_VAULT = list("jobs" = vault_positions, "color" = "#ccffcc"),
 //	EXP_TYPE_SALVATORES = list("jobs" = salvatores_positions, "color" = "#ffeeaa"),
 //	EXP_TYPE_MORDINOS = list("jobs" = mordinos_positions, "color" = "#D50000"),
@@ -389,7 +395,7 @@ GLOBAL_LIST_INIT(exp_jobsmap, list(
 	EXP_TYPE_SILICON = list("titles" = list("AI","Cyborg")),
 	EXP_TYPE_SERVICE = list("titles" = civilian_positions),
 
-	EXP_TYPE_FALLOUT = list("titles" = brotherhood_positions | kebab_positions | legion_positions | ncr_positions | vault_positions | wasteland_positions | tribal_positions | church_positions | merchant_positions | pitrats_positions | followers_positions | enclave_positions | salvatores_positions | mordinos_positions | bishops_positions | wrights_positions | citizens_positions),
+	EXP_TYPE_FALLOUT = list("titles" = brotherhood_positions | kebab_positions | legion_positions | ncr_positions | vault_positions | wasteland_positions | tribal_positions | church_positions | desertranger_positions | merchant_positions | pitrats_positions | followers_positions | enclave_positions | salvatores_positions | mordinos_positions | bishops_positions | wrights_positions | citizens_positions),
 
 	EXP_TYPE_OUTLAW = list("titles" = list("Outlaw","Den Mob Boss","Den Mob Enforcer","Den Doctor",)),
 	//EXP_TYPE_BROTHERHOOD = list("titles" = brotherhood_positions),
@@ -402,6 +408,7 @@ GLOBAL_LIST_INIT(exp_jobsmap, list(
 	EXP_TYPE_MERCHANT = list("titles" = merchant_positions),
 	EXP_TYPE_PITRATS = list("titles" = pitrats_positions),
 	EXP_TYPE_OASIS = list("titles" = kebab_positions ),
+	EXP_TYPE_DESERTRANGERS = list("titles" = desertranger_positions),
 	//EXP_TYPE_FOLLOWERS = list("titles" = followers_positions),
 	//EXP_TYPE_ENCLAVE = list("titles" = enclave_positions),
 	EXP_TYPE_RANGER = list("titles" = list("NCR Veteran Ranger","NCR Ranger")),
