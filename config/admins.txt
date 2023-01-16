@@ -8,4 +8,8 @@
 # NOTE: syntax was changed to allow hyphenation of ranknames, since spaces are stripped.      #
 ###############################################################################################
 
+
 Compano = Administrator
+Gruesomeborg68915 = Administrator
+TheDoctorFate = Trial Administrator
+check_check_mic_test = Trial Moderator
