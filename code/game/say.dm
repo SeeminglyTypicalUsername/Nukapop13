@@ -24,7 +24,7 @@ GLOBAL_LIST_INIT(freqtospan, list(
 	"[FREQ_LEGION]" = "legionradio",
 	"[FREQ_PITRATS]" = "pitratradio",
 	"[FREQ_RANGER]" = "rangerradio",
-	"[FREQ_KHANS]" = "khansradio",
+	"[FREQ_DESERTRANGERS]" = "desertrangersradio",
 	"[FREQ_SALVATORES]" = "salvatoresradio",
 	"[FREQ_BISHOPS]" = "bishopsradio",
 	"[FREQ_MORDINOS]" = "mordinosradio",

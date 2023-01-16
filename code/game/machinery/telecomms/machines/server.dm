@@ -142,10 +142,10 @@
 	freq_listening = list(FREQ_RANGER)
 	autolinkers = list("ranger")
 
-/obj/machinery/telecomms/server/presets/khans
-	id = "Khans Server"
-	freq_listening = list(FREQ_KHANS)
-	autolinkers = list("khans")
+/obj/machinery/telecomms/server/presets/desertrangers
+	id = "Desert Ranger Server"
+	freq_listening = list(FREQ_DESERTRANGERS)
+	autolinkers = list("desertrangers")
 
 /obj/machinery/telecomms/server/presets/salvatores
 	id = "Salvatores Server"

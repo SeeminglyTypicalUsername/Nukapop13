@@ -95,6 +95,7 @@
 #define EXP_TYPE_UNDERTOWN		"Undertown"
 #define EXP_TYPE_UNCR			"UNCR"
 #define EXP_TYPE_ULEGION		"ULegion"
+#define EXP_TYPE_DESERTRANGERSS  "Desert Rangers"
 
 //Flags in the players table in the db
 #define DB_FLAG_EXEMPT 							(1<<0)

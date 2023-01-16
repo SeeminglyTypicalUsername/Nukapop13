@@ -22,7 +22,7 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 	RADIO_CHANNEL_CHURCH = RADIO_TOKEN_CHURCH,
 	RADIO_CHANNEL_LEGION = RADIO_TOKEN_LEGION,
 	RADIO_CHANNEL_RANGER = RADIO_TOKEN_RANGER,
-	RADIO_CHANNEL_KHANS = RADIO_TOKEN_KHANS,
+	RADIO_CHANNEL_DESERTRANGERS = RADIO_TOKEN_DESERTRANGERS,
 	RADIO_CHANNEL_SALVATORES = RADIO_TOKEN_SALVATORES,
 	RADIO_CHANNEL_BISHOPS = RADIO_TOKEN_BISHOPS,
 	RADIO_CHANNEL_MORDINOS = RADIO_TOKEN_MORDINOS,
@@ -321,13 +321,18 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 	. = ..()
 	AddComponent(/datum/component/wearertargeting/earprotection, list(SLOT_EARS))
 
+/obj/item/radio/headset/headset_desertranger
+	name = "Desert Ranger radio headset"
+	desc = "This is used by the Desert Rangers, to access there channel, use :h"
+	icon_state = "mine_headset"
+	keyslot = new /obj/item/encryptionkey/headset_desert_rangers
 
 /obj/item/radio/headset/headset_ncr_com
 	name = "NCR Command radio headset"
 	desc = "This is used by the New California Republic.\nTo access the NCR channel, use :w. \nTo access the Ranger channel, use :r. Protects ears from flashbangs."
 	icon_state = "com_headset_alt"
 	item_state = "com_headset_alt"
-	keyslot = new /obj/item/encryptionkey/headset_ranger
+	keyslot = new /obj/item/encryptionkey/headset_ncr
 	linked_faction = FACTION_NCR
 	factionized = TRUE
 	command = TRUE

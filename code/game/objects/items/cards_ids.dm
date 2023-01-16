@@ -1515,6 +1515,23 @@
 	assignment = "NCR identification papers"
 	access = list(ACCESS_NCR, ACCESS_NCR_ARMORY, ACCESS_NCRREP)
 
+/obj/item/card/id/desertrangers/badge
+	name = "desert ranger badge"
+	desc = "The badge of a Desert ranger."
+	assignment = "desert ranger badge"
+	icon_state = "deputy"
+	item_state = "badge-deputy"
+	access = list(ACCESS_DESERTRANGERS)
+
+/obj/item/card/id/desertrangers/chiefbadge
+	name = "desert ranger chief badge"
+	desc = "The badge of a Desert ranger."
+	assignment = "desert ranger badge"
+	icon_state = "sheriff"
+	item_state = "badge-sheriff"
+	access = list(ACCESS_DESERTRANGERS, ACCESS_DESERTRANGERSCHIEF)
+
+
 //undertown
 
 /obj/item/card/id/undertown/papers

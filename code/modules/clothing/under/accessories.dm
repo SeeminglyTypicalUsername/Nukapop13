@@ -642,7 +642,7 @@
 
 /obj/item/clothing/accessory/ranger/CR
 	name = "'Chief Ranger' rank pins"
-	desc = "A Chief Ranger should wear this."
+	desc = "A Chief Desert Ranger should wear this."
 	icon_state = "colonelrank" //TO-DO: Add a new sprite
 	item_color = "colonelrank"
 

@@ -1278,6 +1278,16 @@ obj/effect/landmark/start/f13/undertown/ncrlogisticsofficer
 	name = "Rear Echelon"
 	icon_state = "NCR Trooper"
 
+// desert rangers
+
+/obj/effect/landmark/start/f13/desertranger
+	name = "Desert Ranger"
+	icon_state = "NCR Patrol Ranger"
+
+/obj/effect/landmark/start/f13/desertranger/chief
+	name = "Chief Ranger"
+	icon_state = "NCR Patrol Ranger"
+
 // Legion
 
 /obj/effect/landmark/start/f13/undertown/legate

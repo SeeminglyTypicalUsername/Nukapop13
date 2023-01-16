@@ -805,4 +805,4 @@ Mayor
 		/obj/item/pda = 1,
 		/obj/item/reagent_containers/food/drinks/bottle/rotgut = 1,
 		/obj/item/clothing/mask/chameleon/radiohost,
-		/obj/item/card/id/syndicate/radiohost)
+		/obj/item/card/id/syndicate/radiohost = 2)
