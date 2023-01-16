@@ -434,7 +434,7 @@
 				"NCR Veteran Ranger", "NCR Patrol Ranger", "NCR Recon Ranger", "Settler",
 				"Wastelander", "Raider", "Great Khan", "Preacher", "Head Hunter", "Chief", "Shaman", "Villager", "Hunter",
 				"Merchant", "Security Contractor", "Apprentice", "Neophyte", "Acolyte", "Proselytizer", "High Priest", "Servitor Medici", "Servitor Militant",
-				"Pitmaster", "Grogmaster", "Champion", "Pitrat", "Radiohost", "Scab")
+				"Pitmaster", "Grogmaster", "Champion", "Pitrat", "Radio Host", "Scab")
 
 /proc/get_all_job_icons() //For all existing HUD icons
 	return get_all_jobs() + list("Prisoner")
