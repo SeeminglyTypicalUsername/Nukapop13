@@ -65,7 +65,7 @@ em						{font-style: normal;	font-weight: bold;}
 .pitrats				{color: #a8732b;}
 .legionradio			{color: #c24d44;}
 .rangerradio			{color: #83733c;}
-.desertrangersradio		{color: #f0420d;}
+.khansradio				{color: #f0420d;}
 .salvatoresradio		{color: #FF99CC;}
 .bishopsradio			{color: #8CA2BD;}
 .mordinosradio			{color: #FF7566;}

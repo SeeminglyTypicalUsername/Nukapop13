@@ -1177,6 +1177,16 @@ Brand for permanently marking brahmin as yours (won't stop people stealing em an
 			to_chat(user, "<span class='warning'>This slepnir already has a saddle!</span>")
 			return
 
+	if(istype(I,/obj/item/brahminbrand))
+		if(brand)
+			to_chat(user, "<span class='warning'>This slepnir already has a brand!</span>")
+			return
+
+		brand = input("What would you like to brand on your slepnir?","Brand", brand)
+
+		if(!brand)
+			return
+
 		saddle = TRUE
 		can_buckle = TRUE
 		buckle_lying = FALSE
@@ -1190,17 +1200,6 @@ Brand for permanently marking brahmin as yours (won't stop people stealing em an
 		to_chat(user, "<span class='notice'>You add [I] to [src].</span>")
 		qdel(I)
 		return
-
-	if(istype(I,/obj/item/brahminbrand))
-		if(brand)
-			to_chat(user, "<span class='warning'>This slepnir already has a brand!</span>")
-			return
-
-		brand = input("What would you like to brand on your slepnir?","Brand", brand)
-
-		if(!brand)
-			return
-
 
 /mob/living/simple_animal/slepnir/updatehealth()
 	LoadComponent(/datum/component/riding)

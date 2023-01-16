@@ -2370,7 +2370,6 @@
 #include "code\modules\jobs\job_types\bos.dm"
 #include "code\modules\jobs\job_types\church.dm"
 #include "code\modules\jobs\job_types\citizens.dm"
-#include "code\modules\jobs\job_types\desertrangers.dm"
 #include "code\modules\jobs\job_types\followers.dm"
 #include "code\modules\jobs\job_types\Kebab.dm"
 #include "code\modules\jobs\job_types\legion.dm"
