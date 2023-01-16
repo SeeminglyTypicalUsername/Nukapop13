@@ -151,12 +151,6 @@
 	icon_state = "cypherkey"
 	channels = list(RADIO_CHANNEL_NCR = 1, RADIO_CHANNEL_RANGER = 1)
 
-/obj/item/encryptionkey/headset_desert_rangers
-	name = "Desert ranger encryption key,"
-	desc = "An encryption key for a radio headset. To access the Ranger channel, use :h"
-	icon_state = "cypherkey"
-	channels = list(RADIO_CHANNEL_DESERTRANGERS = 1)
-
 /obj/item/encryptionkey/headset_bos
 	name = "Brotherhood radio encryption key"
 	desc = "An encryption key for a radio headset.  To access the Brotherhood channel, use :q."
@@ -198,7 +192,7 @@
 	name = "Khan radio encryption key"
 	desc = "An encryption key for a radio headset.  To access the Khan channel, use :a."
 	icon_state = "cypherkey"
-	channels = list(RADIO_CHANNEL_DESERTRANGERS = 1)
+	channels = list(RADIO_CHANNEL_KHANS = 1)
 
 /obj/item/encryptionkey/headset_salvatores
 	name = "Salvatores radio encryption key"

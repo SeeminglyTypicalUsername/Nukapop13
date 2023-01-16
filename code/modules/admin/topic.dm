@@ -766,10 +766,10 @@
 				counter = 0
 		dat += "</tr></table>"
 
-	//Desert Rangers
+	//Vault (Teal)
 		dat += "<table cellpadding='1' cellspacing='0' width='100%'>"
-		dat += "<tr align='center' bgcolor='f0420d'><th colspan='[length(GLOB.desertranger_positions)]'><a href='?src=[REF(src)];[HrefToken()];jobban3=desertrangerdept;jobban4=[REF(M)]'>Desert Ranger Positions</a></th></tr><tr align='center'>"
-		for(var/jobPos in GLOB.desertranger_positions)
+		dat += "<tr align='center' bgcolor='8ee3b4'><th colspan='[length(GLOB.vault_positions)]'><a href='?src=[REF(src)];[HrefToken()];jobban3=vaultdept;jobban4=[REF(M)]'>Vault Positions</a></th></tr><tr align='center'>"
+		for(var/jobPos in GLOB.vault_positions)
 			if(!jobPos)
 				continue
 			if(jobban_isbanned(M, jobPos))
@@ -1069,11 +1069,6 @@
 					joblist += jobPos
 			if("churchdept")
 				for(var/jobPos in GLOB.church_positions)
-					if(!jobPos)
-						continue
-					joblist += jobPos
-			if("desertrangerdept")
-				for(var/jobPos in GLOB.desertranger_positions)
 					if(!jobPos)
 						continue
 					joblist += jobPos

@@ -9899,7 +9899,7 @@
 	},
 /area/f13/tunnel)
 "liS" = (
-/obj/machinery/telecomms/server/presets/desertrangers,
+/obj/machinery/telecomms/server/presets/security,
 /turf/open/floor/plasteel/dark/telecomms/mainframe,
 /area/f13/tcoms)
 "ljv" = (

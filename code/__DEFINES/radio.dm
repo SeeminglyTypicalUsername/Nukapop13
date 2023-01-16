@@ -73,9 +73,9 @@
 #define RADIO_KEY_LEGION "l"
 #define RADIO_TOKEN_LEGION ":l"
 
-#define RADIO_CHANNEL_DESERTRANGERS "Desert Rangers"
-#define RADIO_KEY_DESERTRANGERS "h"
-#define RADIO_TOKEN_DESERTRANGERS ":h" //fuck it we just gonna use :h
+#define RADIO_CHANNEL_KHANS "Khans"
+#define RADIO_KEY_KHANS "a"
+#define RADIO_TOKEN_KHANS ":a"
 
 #define RADIO_CHANNEL_PITRATS "Pitrats"
 #define RADIO_KEY_PITRATS "j"
@@ -130,7 +130,7 @@
 #define FREQ_LEGION 1371 //LEGION
 #define FREQ_RANGER 1373 //Ranger
 #define FREQ_PITRATS 1375 //pitrats
-#define FREQ_DESERTRANGERS 1376 //Khans
+#define FREQ_KHANS 1376 //Khans
 #define FREQ_SALVATORES 1377 //Salvatores
 #define FREQ_BISHOPS 1379 //Bishops
 #define FREQ_MORDINOS 1381 //Mordinos
