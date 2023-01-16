@@ -47,7 +47,7 @@
 	display_order = JOB_DISPLAY_ORDER_F13DESERTRANGER_CHIEF
 	outfit = /datum/outfit/job/desertrangers/chief
 	exp_type = EXP_TYPE_DESERTRANGERSS
-	exp_requirements = 1000
+	exp_requirements = 600
 
 /datum/outfit/job/desertrangers/chief/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
@@ -87,8 +87,8 @@
 	req_admin_notify = 1
 	display_order = JOB_DISPLAY_ORDER_F13DESERTRANGER
 	outfit = /datum/outfit/job/desertrangers
-	exp_type = EXP_TYPE_DESERTRANGERSS
-	exp_requirements = 1000
+	exp_type = EXP_TYPE_FALLOUT
+	exp_requirements = 300
 
 /datum/outfit/job/desertrangers/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
