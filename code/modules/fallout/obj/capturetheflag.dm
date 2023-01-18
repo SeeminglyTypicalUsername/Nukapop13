@@ -40,6 +40,8 @@
 	var/flag_faction
 	var/flag_type
 	var/has_flag = TRUE
+	var/flagtimer
+	var/flagcapturetime
 
 /obj/structure/flag/ncr
 	name = "\improper NCR flag"
@@ -71,6 +73,11 @@
 	flag_remove(user)
 
 /obj/structure/flag/proc/flag_remove(mob/living/user,)
+	flagtimer = world.time
+	flagcapturetime = ROUND_TIME
+	if(flagtimer <= 59 MINUTES)
+		to_chat(user, span_warning("It is [flagcapturetime], the flag cannot be captured for an hour!")) // prevents taking before raid timer
+		return
 	if(!has_flag)
 		return
 	if(flag_faction == user.faction)	//To prevent people from taking the flag roundstart to hide or grief
@@ -82,6 +89,11 @@
 
 /obj/structure/flag/attackby(obj/item/I, mob/user, params)
 	. = ..()
+	flagtimer = world.time
+	flagcapturetime = ROUND_TIME
+	if(flagtimer <= 59 MINUTES)
+		to_chat(user, span_warning("It is [flagcapturetime], the flag cannot be applied for an hour!")) // prevents applying (somehow) before raid timer
+		return
 	if(istype(I, flag_type))		//Returning your flag
 		flag_add(I)
 		return

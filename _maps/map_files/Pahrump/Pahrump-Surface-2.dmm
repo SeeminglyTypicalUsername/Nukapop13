@@ -8975,12 +8975,6 @@
 	icon_state = "whitedirtysolid"
 	},
 /area/f13/building)
-"dSu" = (
-/obj/structure/flag/ncr,
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "verticalinnermain1"
-	},
-/area/f13/wasteland)
 "dSB" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -18307,9 +18301,9 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "hLu" = (
-/obj/item/flag/legion,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "verticalrightborderright0"
+/obj/structure/flag/ncr,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "verticalinnermain1"
 	},
 /area/f13/wasteland)
 "hLv" = (
@@ -41449,10 +41443,6 @@
 	name = "tile"
 	},
 /area/f13/cotc)
-"rLI" = (
-/obj/item/flag/ncr,
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/wasteland)
 "rLP" = (
 /obj/structure/table/wood/settler,
 /obj/machinery/light/small{
@@ -54247,10 +54237,6 @@
 /obj/structure/obstacle/barbedwire/end,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
-"xjH" = (
-/obj/item/flag/legion,
-/turf/open/indestructible/ground/outside/sidewalk,
-/area/f13/wasteland)
 "xjZ" = (
 /obj/structure/flora/grass/wasteland{
 	pixel_x = 9;
@@ -63123,7 +63109,7 @@ unI
 qvQ
 hOl
 hOl
-dSu
+hLu
 hOl
 hOl
 hOl
@@ -76311,7 +76297,7 @@ iWc
 uRJ
 nVo
 wPl
-rLI
+fyf
 mNU
 fyf
 dkY
@@ -79908,7 +79894,7 @@ mfD
 dCj
 sVq
 sVq
-rLI
+fyf
 bxx
 fyf
 uey
@@ -104645,7 +104631,7 @@ geM
 wTB
 upC
 ees
-hLu
+ees
 ees
 ees
 upC
@@ -105678,7 +105664,7 @@ vYv
 vYv
 lHK
 gts
-xjH
+cpK
 unI
 qvQ
 gPn
@@ -106192,7 +106178,7 @@ iPf
 vYv
 vYv
 gts
-xjH
+cpK
 unI
 qvQ
 pqO

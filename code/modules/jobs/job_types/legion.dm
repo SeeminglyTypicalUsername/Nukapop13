@@ -37,6 +37,7 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 		return
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/legiongate)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/berserker_powder)
+	H.mind.teach_crafting_recipe(/datum/crafting_recipe/hydra)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/rip/crossexecution)
 
 /datum/outfit/job/CaesarsLegion/Legionnaire

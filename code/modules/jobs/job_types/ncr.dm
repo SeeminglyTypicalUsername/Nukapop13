@@ -929,6 +929,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		return
 	ADD_TRAIT(H, TRAIT_IRONFIST, src)
 	ADD_TRAIT(H, TRAIT_HARD_YARDS, src)
+	ADD_TRAIT(H, TRAIT_CHEMWHIZ, src)
 
 
 // COMBAT MEDIC
