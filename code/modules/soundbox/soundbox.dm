@@ -1,5 +1,5 @@
 /obj/structure/soundbox
-    name = "Telescreen"
+    name = "telescreen"
     desc = "A monochrome display reciting dogma at a feverish pace."
     icon = 'icons/obj/radio.dmi'
     icon_state = "telescreen"
@@ -37,4 +37,4 @@
 /obj/structure/soundbox/us/process()
     timer--
     if(timer <= 0)
-        say(pick(list("America will never fall to Communist invasion!","Democracy is freedom. Communism is tyranny.","Freedom is the sovereign right of every American.","Freedom is always worth fighting for.","Democracy is non-negotiable.","I hold these truths to be self-evident that all Americans are created... equal. And are endowed with certain unalienable rights.","Death is a preferable alternative to Communism!","America is a tune, it must be sung together.","Only together can we stop the spread of Communism.")))
+        say(pick(list("America will never fall to Communist invasion!","Democracy is freedom. Communism is tyranny.","Freedom is the sovereign right of every American.","Freedom is always worth fighting for.","Democracy is non-negotiable.","I hold these truths to be self-evident that all Americans are created... equal. And are endowed with certain unalienable rights.","Death is a preferable alternative to Communism!","America is a tune, it must be sung together.","Only together can we stop the spread of Communism.","Communism is the very definition of failure!","Freedom lies in being bold.","Live free or die!","	We will not fear the Red Menace.")))

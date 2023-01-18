@@ -414,7 +414,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 /////////////////
 /obj/item/clothing/mask/cigarette/pipe
 	name = "smoking pipe"
-	desc = "A pipe, for smoking. Probably made of meerschaum or something."
+	desc = "A pipe, for smoking."
 	icon_state = "pipeoff"
 	item_state = "pipeoff"
 	icon_on = "pipeon"  //Note - these are in masks.dmi
@@ -496,6 +496,16 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 		reagents.clear_reagents()
 		name = "empty [initial(name)]"
 	return
+
+
+/obj/item/clothing/mask/cigarette/pipe/fancy
+	name = "calabash pipe"
+	desc = "A pipe, for smoking. Probably made of meerschaum or something."
+	icon_state = "fancypipeoff"
+	item_state = "fancypipeoff"
+	icon_on = "fancypipeon"  //Note - these are in masks.dmi
+	icon_off = "fancypipeoff"
+	smoketime = 0
 
 /obj/item/clothing/mask/cigarette/pipe/cobpipe
 	name = "corn cob pipe"
