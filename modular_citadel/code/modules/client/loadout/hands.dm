@@ -129,6 +129,10 @@
 	path = /obj/item/toy/plush/beeplushie
 	cost = 2
 
+/datum/gear/hands/pipe
+	name = "smoking pipe"
+	path = /obj/item/clothing/mask/cigarette/pipe
+
 /datum/gear/hands/cobpipe
 	name = "corn cob pipe"
 	path = /obj/item/clothing/mask/cigarette/pipe/cobpipe
