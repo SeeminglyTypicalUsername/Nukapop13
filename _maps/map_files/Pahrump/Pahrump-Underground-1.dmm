@@ -10208,10 +10208,6 @@
 	icon_state = "greenrustyfull"
 	},
 /area/f13/clinic)
-"lDG" = (
-/obj/item/flag/ncr,
-/turf/open/floor/wood/f13/oak,
-/area/f13/ncr)
 "lGA" = (
 /obj/structure/bed/old,
 /obj/effect/decal/cleanable/dirt,
@@ -14996,11 +14992,8 @@
 	},
 /area/f13/clinic)
 "rKE" = (
-/obj/item/flag/ncr,
-/turf/open/floor/plasteel/f13/vault_floor/dark/darksolid{
-	icon_state = "darkrustysolid"
-	},
-/area/f13/ncr)
+/turf/open/space/basic,
+/area/f13/caves)
 "rKJ" = (
 /turf/open/floor/f13{
 	icon_state = "darkrusty"
@@ -22255,7 +22248,7 @@ nXS
 sSt
 txg
 rwf
-rKE
+rwf
 cNj
 rDk
 rDk
@@ -24311,7 +24304,7 @@ nAV
 sWp
 sSP
 rwf
-rKE
+rwf
 cNj
 rDk
 uoO
@@ -24547,7 +24540,7 @@ aoj
 aoj
 rDk
 cNj
-lDG
+end
 end
 fFc
 pqY
@@ -25575,7 +25568,7 @@ aoj
 aoj
 rDk
 cNj
-lDG
+end
 gMM
 fFc
 pqY
@@ -70609,7 +70602,7 @@ uoO
 uoO
 uoO
 uoO
-uoO
+rKE
 uoO
 uoO
 uoO
