@@ -8976,10 +8976,9 @@
 	},
 /area/f13/building)
 "dSu" = (
-/obj/item/flag/ncr,
-/turf/open/indestructible/ground/outside/sidewalk{
-	dir = 8;
-	icon_state = "outerbordercorner"
+/obj/structure/flag/ncr,
+/turf/open/indestructible/ground/outside/road{
+	icon_state = "verticalinnermain1"
 	},
 /area/f13/wasteland)
 "dSB" = (
@@ -12660,12 +12659,6 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/building)
-"fws" = (
-/obj/item/flag/ncr,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "horizontaltopbordertop0"
-	},
-/area/f13/wasteland)
 "fwu" = (
 /obj/structure/flora/grass/jungle,
 /turf/open/water,
@@ -22409,10 +22402,6 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/building)
-"jrS" = (
-/obj/item/flag/legion,
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/wasteland)
 "jsn" = (
 /turf/open/floor/carpet/brown,
 /area/f13/building)
@@ -43543,6 +43532,10 @@
 	icon_state = "housewood2"
 	},
 /area/f13/building)
+"sIy" = (
+/obj/structure/flag/legion,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "sIH" = (
 /obj/structure/table/wood/settler,
 /obj/item/binoculars,
@@ -46217,12 +46210,6 @@
 /obj/structure/tires/five,
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "horizontaltopbordertop0"
-	},
-/area/f13/wasteland)
-"tRk" = (
-/obj/item/flag/ncr,
-/turf/open/indestructible/ground/outside/sidewalk{
-	icon_state = "outerborder"
 	},
 /area/f13/wasteland)
 "tRD" = (
@@ -53099,13 +53086,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/f13/oak,
 /area/f13/bar)
-"wMN" = (
-/obj/item/flag/ncr,
-/turf/open/indestructible/ground/outside/sidewalk{
-	dir = 8;
-	icon_state = "outerborder"
-	},
-/area/f13/wasteland)
 "wNn" = (
 /obj/structure/table/wood,
 /obj/machinery/computer/terminal{
@@ -57255,7 +57235,7 @@ hFT
 hFT
 hFT
 hFT
-fws
+unI
 qvQ
 rrc
 rrc
@@ -62652,7 +62632,7 @@ sTa
 sTa
 sTa
 siE
-tRk
+onk
 qvQ
 rrc
 tAk
@@ -62882,7 +62862,7 @@ tLA
 tLA
 tXt
 hFT
-fws
+unI
 mQj
 xbX
 xbX
@@ -63143,7 +63123,7 @@ unI
 qvQ
 hOl
 hOl
-hOl
+dSu
 hOl
 hOl
 hOl
@@ -63396,7 +63376,7 @@ krc
 enK
 eXx
 ufN
-fws
+unI
 xhJ
 kaM
 kaM
@@ -63680,7 +63660,7 @@ gQv
 gQv
 ees
 twO
-wMN
+muk
 qvQ
 rrc
 tAk
@@ -67278,7 +67258,7 @@ hFT
 eTx
 hFT
 hFT
-dSu
+sIf
 ees
 ees
 ees
@@ -110086,7 +110066,7 @@ hfq
 fyf
 fyf
 fyf
-jrS
+fyf
 pyf
 mCf
 dJw
@@ -111628,7 +111608,7 @@ jpW
 fyf
 fyf
 fyf
-jrS
+fyf
 chW
 mvv
 mvv
@@ -116020,7 +116000,7 @@ syr
 uXj
 eXO
 mvv
-mvv
+sIy
 xkl
 hom
 dZE

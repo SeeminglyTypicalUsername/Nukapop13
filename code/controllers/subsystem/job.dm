@@ -18,6 +18,8 @@ SUBSYSTEM_DEF(job)
 	var/list/level_order = list(JP_HIGH,JP_MEDIUM,JP_LOW)
 
 	var/list/disabled_factions = list()
+	
+	var/list/flagcaptured = list()
 
 /datum/controller/subsystem/job/Initialize(timeofday)
 	SSmapping.HACK_LoadMapConfig()
