@@ -566,7 +566,6 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/raider,
 /turf/open/floor/wood/f13/oak,
 /area/f13/bar)
 "fc" = (
@@ -933,7 +932,6 @@
 	pixel_y = -32
 	},
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/raider,
 /turf/open/floor/wood/f13/carpet,
 /area/f13/bar)
 "iJ" = (
@@ -1134,7 +1132,6 @@
 /obj/structure/chair/wood/fancy{
 	dir = 4
 	},
-/mob/living/simple_animal/hostile/raider/ranged/boss,
 /turf/open/floor/wood/f13/carpet,
 /area/f13/bar)
 "jU" = (
@@ -1359,7 +1356,9 @@
 /turf/open/floor/plasteel/f13/vault_floor/neutral,
 /area/f13/brotherhood/surface)
 "ms" = (
-/mob/living/simple_animal/hostile/raider/ranged,
+/obj/structure/simple_door/room,
+/obj/structure/barricade/wooden/planks/pregame,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/f13/carpet,
 /area/f13/bar)
 "my" = (
@@ -1428,7 +1427,6 @@
 /area/f13/building)
 "mX" = (
 /obj/item/chair/stool/bar,
-/mob/living/simple_animal/hostile/raider/ranged,
 /turf/open/floor/wood/f13/carpet,
 /area/f13/bar)
 "nb" = (
@@ -2371,10 +2369,6 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
-"wc" = (
-/mob/living/simple_animal/hostile/raider/baseball,
-/turf/open/floor/wood/f13/oak,
-/area/f13/bar)
 "wd" = (
 /obj/structure/filingcabinet{
 	pixel_x = 10
@@ -3284,6 +3278,7 @@
 /area/f13/wasteland)
 "Er" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/nest/scorpion,
 /turf/open/floor/f13/wood{
 	icon_state = "housewood4-broken"
 	},
@@ -3558,6 +3553,7 @@
 /area/f13/building)
 "Hq" = (
 /obj/structure/simple_door/room,
+/obj/structure/barricade/wooden/planks/pregame,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/f13/old,
 /area/f13/bar)
@@ -3762,11 +3758,6 @@
 	icon_state = "neutralrustyfull"
 	},
 /area/f13/building)
-"JA" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/raider/firefighter,
-/turf/open/floor/wood/f13/carpet,
-/area/f13/bar)
 "JB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/chair/comfy/shuttle{
@@ -3909,7 +3900,6 @@
 	color = "#A47449"
 	},
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/raider,
 /turf/open/floor/wood/f13/carpet,
 /area/f13/bar)
 "Lh" = (
@@ -4153,7 +4143,9 @@
 /turf/open/indestructible/ground/outside/woodalt,
 /area/f13/wasteland)
 "Nq" = (
-/mob/living/simple_animal/hostile/raider/baseball,
+/mob/living/simple_animal/hostile/trog/tunneler{
+	dir = 4
+	},
 /turf/open/floor/wood/f13/carpet,
 /area/f13/bar)
 "Nr" = (
@@ -4401,11 +4393,6 @@
 /obj/structure/barricade/bars,
 /obj/structure/table/wood/poker,
 /obj/effect/decal/cleanable/dirt,
-/obj/item/paper/crumpled/awaymissions/moonoutpost19/hastey_note{
-	name = "poorly written note";
-	desc = "Boys, don't fucking go past these wood fortifications. We heard some nasty shit on the other side of that door.";
-	info = "Whoever can get these fucking safes open gets my share of jet this month, I mean it.
-	},
 /turf/open/floor/wood/f13/carpet,
 /area/f13/bar)
 "Pd" = (
@@ -4461,7 +4448,9 @@
 /area/f13/raiders)
 "Px" = (
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/raider/baseball,
+/mob/living/simple_animal/hostile/trog/tunneler{
+	dir = 8
+	},
 /turf/open/floor/wood/f13/carpet,
 /area/f13/bar)
 "PB" = (
@@ -5007,7 +4996,7 @@
 /area/f13/wasteland)
 "Uq" = (
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/raider,
+/mob/living/simple_animal/hostile/trog/tunneler,
 /turf/open/floor/wood/f13/carpet,
 /area/f13/bar)
 "Ur" = (
@@ -5309,7 +5298,6 @@
 "WZ" = (
 /obj/structure/table/wood/poker,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/spawner/lootdrop/f13/alcoholspawner,
 /turf/open/floor/wood/f13/carpet,
 /area/f13/bar)
 "Xa" = (
@@ -5357,14 +5345,6 @@
 /obj/machinery/light,
 /turf/open/floor/f13/wood,
 /area/f13/merchant)
-"Xm" = (
-/obj/structure/chair/wood/worn{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/raider/ranged,
-/turf/open/floor/wood/f13/oak,
-/area/f13/bar)
 "Xt" = (
 /obj/structure/pool/ladder{
 	pixel_x = -4
@@ -5431,11 +5411,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/f13/oak,
 /area/f13/bar)
-"Yb" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/raider,
-/turf/open/floor/wood/f13/oak,
-/area/f13/wasteland)
 "Yc" = (
 /obj/structure/chair/wood/fancy{
 	dir = 4
@@ -20468,7 +20443,7 @@ Rv
 bZ
 Sy
 YJ
-wc
+rn
 bZ
 pZ
 PL
@@ -20965,7 +20940,7 @@ kC
 pZ
 bZ
 Rv
-Xm
+ec
 Rv
 Rv
 vR
@@ -20982,7 +20957,7 @@ Hq
 pZ
 pZ
 pZ
-UU
+ms
 pZ
 pZ
 PL
@@ -21231,10 +21206,10 @@ XU
 au
 qx
 au
-au
-Uq
-iL
 Nq
+Uc
+iL
+au
 Uc
 Mb
 Mb
@@ -21747,7 +21722,7 @@ uf
 Uq
 Uc
 au
-Uc
+Px
 gC
 KV
 AA
@@ -23029,10 +23004,10 @@ Uc
 TD
 Uc
 Uc
-ms
+au
 Uc
 zH
-JA
+Uc
 pZ
 at
 tF
@@ -23279,7 +23254,7 @@ pZ
 Uc
 au
 Uc
-Px
+Uc
 In
 pZ
 pZ
@@ -23294,7 +23269,7 @@ pZ
 xO
 ES
 ES
-Yb
+Qh
 ES
 Qh
 LU
