@@ -765,15 +765,15 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 //kebab
 
 /obj/effect/landmark/start/f13/merchant/merchant
-	name = "FSC Branch Manager"
+	name = "FGT Branch Manager"
 	icon_state = "Shopkeeper"
 
 /obj/effect/landmark/start/f13/merchant/apprentice
-	name = "FSC Emoployee"
+	name = "FGT Emoployee"
 	icon_state = "Quartermaster"
 
 /obj/effect/landmark/start/f13/merchant/mercenary
-	name = "FSC Mercenary"
+	name = "FGT Mercenary"
 	icon_state = "Officer"
 
 /obj/effect/landmark/start/f13/merchant/militiacom
