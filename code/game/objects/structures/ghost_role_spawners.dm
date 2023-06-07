@@ -679,6 +679,35 @@
 		var/datum/action/toggle_dead_chat_mob/D = new(new_spawn)
 		D.Grant(new_spawn)
 
+/obj/effect/mob_spawn/human/nukapop
+	name = "strange pod"
+	uses = 1
+	icon = 'icons/obj/machines/sleeper.dmi'
+	icon_state = "sleeper"
+	mob_name = "a ghost cafe visitor"
+	roundstart = FALSE
+	anchored = TRUE
+	density = FALSE
+	death = FALSE
+	assignedrole = "Ghost Cafe Visitor"
+	short_desc = "You are a Ghost Cafe Visitor!"
+	flavour_text = "You know one thing for sure. You arent actually alive. Are you in a simulation?"
+	skip_reentry_check = FALSE
+	banType = ROLE_GHOSTCAFE
+
+/obj/effect/mob_spawn/human/nukapop/special(mob/living/carbon/human/new_spawn)
+	if(new_spawn.client)
+		new_spawn.client.prefs.copy_to(new_spawn)
+		var/datum/outfit/O = new /datum/outfit/nukapop()
+		O.equip(new_spawn, FALSE, new_spawn.client)
+		SSjob.equip_loadout(null, new_spawn, FALSE)
+		SSquirks.AssignQuirks(new_spawn, new_spawn.client, TRUE, TRUE, null, FALSE, new_spawn)
+
+/datum/outfit/nukapop
+	name = "ID, jumpsuit and shoes"
+	uniform = /obj/item/clothing/under/pants/f13/ghoul
+	shoes = /obj/item/clothing/shoes/f13/raidertreads
+
 /datum/outfit/ghostcafe
 	name = "ID, jumpsuit and shoes"
 	uniform = /obj/item/clothing/under/color/random
@@ -877,7 +906,7 @@
 		/obj/item/binoculars = 1,
 		/obj/item/restraints/legcuffs/bola/tactical = 1
 	)
-	
+
 /obj/effect/mob_spawn/human/fallout13/tribal/ranged
 	name = "Bow Hunter Spawn"
 	desc = "An entry point for bow hunters to join a battle."

@@ -145,14 +145,8 @@
 		if(rank in GLOB.ncr_positions)
 			ncr[name] = rank
 			department = 1
-		if(rank in GLOB.merchant_positions)
-			merchant[name] = rank
-			department =1
 		if(rank in GLOB.church_positions)
 			church[name] = rank
-			department = 1
-		if(rank in GLOB.pitrats_positions)
-			pitrats[name] = rank
 			department = 1
 		if(rank in GLOB.followers_positions)
 			flw[name] = rank
