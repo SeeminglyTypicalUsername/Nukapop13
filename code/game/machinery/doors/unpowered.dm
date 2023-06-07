@@ -48,7 +48,7 @@
 			playsound(src,'sound/machines/door_close.ogg',40,1)
 			flick("secure_closing", src)
 
-//Oasis doors
+//Kebab doors
 /obj/machinery/door/unpowered/securedoor/town_clinic
 	name = "\improper Town Clinic"
 	req_access_txt = "133"
@@ -57,9 +57,18 @@
 	name = "\improper Armory"
 	req_access_txt = "62"
 
+
 /obj/machinery/door/unpowered/securedoor/church
-	name = "\improper Church"
-	req_access_txt = "22"
+	name = "Church door"
+	req_access_txt = "145"
+
+/obj/machinery/door/unpowered/securedoor/militia
+	name = "Militia door"
+	req_access_txt = "148"
+
+/obj/machinery/door/unpowered/securedoor/merchant
+	name = "Merchant door"
+	req_access_txt = "34"
 
 /obj/machinery/door/unpowered/securedoor/farm
 	name = "\improper Farm"
@@ -76,6 +85,11 @@
 	req_access_txt = "123"
 
 //khoor
+/obj/machinery/door/unpowered/securedoor/khandoor
+	name = "khan door"
+	req_access_txt = "125"
+
+//cotc
 /obj/machinery/door/unpowered/securedoor/khandoor
 	name = "khan door"
 	req_access_txt = "125"

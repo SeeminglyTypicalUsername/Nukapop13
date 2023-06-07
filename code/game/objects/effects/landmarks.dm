@@ -744,53 +744,57 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	name = "Vault Dweller"
 	icon_state = "Vault Dweller"
 
-// Kebab
+//COTC
 
-/obj/effect/landmark/start/f13/mayor
-	name = "Mayor"
-	icon_state = "Banker"
+/obj/effect/landmark/start/f13/cotc/highpriest
+	name = "High Priest"
+	icon_state = "High Priest"
 
-/obj/effect/landmark/start/f13/secretary
-	name = "Secretary"
-	icon_state = "Lawyer"
+/obj/effect/landmark/start/f13/cotc/servitor
+	name = "Servitor"
+	icon_state = "Servitor"
 
-/obj/effect/landmark/start/f13/sheriff
-	name = "Chief of Police"
-	icon_state = "Chief of Police"
+/obj/effect/landmark/start/f13/cotc/acolyte
+	name = "Acolyte"
+	icon_state = "Acolyte"
 
-/obj/effect/landmark/start/f13/deputy
-	name = "Security Contractor"
+/obj/effect/landmark/start/f13/cotc/neophyte
+	name = "Neophyte"
+	icon_state = "Neophyte"
+
+//kebab
+
+/obj/effect/landmark/start/f13/merchant/merchant
+	name = "FSC Branch Manager"
+	icon_state = "Shopkeeper"
+
+/obj/effect/landmark/start/f13/merchant/apprentice
+	name = "FSC Emoployee"
+	icon_state = "Quartermaster"
+
+/obj/effect/landmark/start/f13/merchant/mercenary
+	name = "FSC Mercenary"
 	icon_state = "Officer"
 
-/obj/effect/landmark/start/f13/farmer
-	name = "Farmer"
+/obj/effect/landmark/start/f13/merchant/militiacom
+	name = "Militia Commander"
+	icon_state = "Officer"
 
-/obj/effect/landmark/start/f13/prospector
-	name = "Indentured Servant"
+/obj/effect/landmark/start/f13/merchant/militia
+	name = "Town Guard"
+	icon_state = "Officer"
 
-/obj/effect/landmark/start/f13/settler
-	name = "Scab"
-	icon_state = "Settler"
+/obj/effect/landmark/start/f13/merchant/bartender
+	name = "Bartender"
+	icon_state = "Barkeep"
 
-/obj/effect/landmark/start/f13/radiohost
+/obj/effect/landmark/start/f13/kebab/radiohost
 	name = "Radio Host"
 	icon_state = "template"
 
-/obj/effect/landmark/start/f13/towndoctor
-	name = "Town Doctor"
-	icon_state = "Medical Doctor"
-
-/obj/effect/landmark/start/f13/shopkeeper
-	name = "Merchant"
-	icon_state = "Shopkeeper"
-
-/obj/effect/landmark/start/f13/assistant
-	name = "Apprentice"
-	icon_state = "Janitor"
-
-/obj/effect/landmark/start/f13/barkeep
-	name = "Barkeep"
-	icon_state = "Barkeep"
+/obj/effect/landmark/start/f13/kebab/scab
+	name = "Citizen"
+	icon_state = "Wastelander"
 
 // Wasteland
 
@@ -1077,8 +1081,8 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 	name = "Bum"
 	icon_state = "Bum"
 
-/obj/effect/landmark/start/f13/civilians/mercenary
-	name = "Mercenary"
+/obj/effect/landmark/start/f13/civilians/renomercenary
+	name = "Reno Mercenary"
 	icon_state = "Mercenary"
 
 /obj/effect/landmark/start/f13/civilians/peasant
@@ -1112,54 +1116,6 @@ obj/effect/landmark/start/f13/ncrlogisticsofficer
 /obj/effect/landmark/start/f13/civilians/militarypolice
 	name = "NCRA Military Police"
 	icon_state = "NCRA Military Police"
-
-//COTC
-
-/obj/effect/landmark/start/f13/cotc/highpriest
-	name = "High Priest"
-	icon_state = "High Priest"
-
-/obj/effect/landmark/start/f13/cotc/servitormilitant
-	name = "Servitor Militant"
-	icon_state = "Servitor Militant"
-
-/obj/effect/landmark/start/f13/cotc/servitormedici
-	name = "Servitor Medici"
-	icon_state = "Servitor Medici"
-
-/obj/effect/landmark/start/f13/cotc/proselytizer
-	name = "Proselytizer"
-	icon_state = "Proselytizer"
-
-/obj/effect/landmark/start/f13/cotc/acolyte
-	name = "Acolyte"
-	icon_state = "Acolyte"
-
-/obj/effect/landmark/start/f13/cotc/neophyte
-	name = "Neophyte"
-	icon_state = "Neophyte"
-
-//pitrats
-
-/obj/effect/landmark/start/f13/pitrats/pitmaster
-	name = "Pitmaster"
-	icon_state = "Raider"
-
-/obj/effect/landmark/start/f13/pitrats/champion
-	name = "Champion"
-	icon_state = "Raider"
-
-/obj/effect/landmark/start/f13/pitrats/bookie
-	name = "Bookie"
-	icon_state = "Raider"
-
-/obj/effect/landmark/start/f13/pitrats/grogmaster
-	name = "Grogmaster"
-	icon_state = "Raider"
-
-/obj/effect/landmark/start/f13/pitrats/pitrat
-	name = "Pitrat"
-	icon_state = "Raider"
 
 
 //Undertown

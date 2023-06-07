@@ -341,9 +341,9 @@
 	H.reagents.addiction_list.Add(jet)
 
 /*--------------------------------------------------------------*/
-/datum/job/citizens/f13mercenary
-	title = "Mercenary"
-	flag = F13MERCENARY
+/datum/job/citizens/f13renomercenary
+	title = "Reno Mercenary"
+	flag = F13RENOMERCENARY
 	faction = FACTION_CITIZENS
 	total_positions = 3
 	spawn_positions = 3
@@ -352,7 +352,7 @@
 	selection_color = "#F7EFCF"
 	exp_requirements = EXP_TYPE_CITIZENS
 
-	outfit = /datum/outfit/job/citizens/f13mercenary
+	outfit = /datum/outfit/job/citizens/f13renomercenary
 
 
 	loadout_options = list(
@@ -361,9 +361,9 @@
 	)
 
 
-/datum/outfit/job/citizens/f13mercenary
+/datum/outfit/job/citizens/f13renomercenary
 	name = "Mercenary"
-	jobtype = /datum/job/citizens/f13mercenary
+	jobtype = /datum/job/citizens/f13renomercenary
 
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
@@ -374,7 +374,7 @@
 		/obj/item/reagent_containers/hypospray/medipen/stimpak = 2,
 		/obj/item/melee/onehanded/knife/trench = 1,
 		)
-/datum/outfit/job/citizens/f13mercenary/pre_equip(mob/living/carbon/human/H)
+/datum/outfit/job/citizens/f13renomercenary/pre_equip(mob/living/carbon/human/H)
 	. = ..()
 	uniform = pick(
 		/obj/item/clothing/under/f13/merca, \

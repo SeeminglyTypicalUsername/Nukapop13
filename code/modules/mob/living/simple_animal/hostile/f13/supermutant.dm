@@ -52,6 +52,10 @@
 	dextrous = TRUE
 	possible_a_intents = list(INTENT_HELP, INTENT_HARM)
 
+/mob/living/simple_animal/hostile/supermutant/playable/church
+	icon_state = "mutant_church"
+	icon_living = "mutant_church"
+	icon_dead = "mutant_church"
 
 /mob/living/simple_animal/hostile/supermutant/Aggro()
 	..()

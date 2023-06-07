@@ -115,9 +115,9 @@ also be like that but I can't be arsed to go back and change them all*/
 #define ACCESS_COTC			145 //General Church
 #define ACCESS_COTC_ARMORY	146 //Church Armory
 #define ACCESS_COTC_SECRET	147 //Church Special Rooms
-#define ACCESS_CENTVAULT	148 //Legion treasury
-#define ACCESS_CAPVAULT		149 //NCR treasury
-
+#define ACCESS_MILITIA 		148 //militia HQ
+#define ACCESS_CENTVAULT	149 //Legion treasury
+#define ACCESS_CAPVAULT		150 //NCR treasury
 
 	//The Syndicate
 #define ACCESS_SYNDICATE 150//General Syndicate Access. Includes Syndicate mechs and ruins.

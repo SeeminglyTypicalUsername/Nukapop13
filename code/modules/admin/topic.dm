@@ -802,42 +802,6 @@
 				counter = 0
 		dat += "</tr></table>"
 
-	//Pitrats (Red)
-		dat += "<table cellpadding='1' cellspacing='0' width='100%'>"
-		dat += "<tr align='center' bgcolor='ffa2a2'><th colspan='[length(GLOB.pitrats_positions)]'><a href='?src=[REF(src)];[HrefToken()];jobban3=pitratsdept;jobban4=[REF(M)]'>Pitrats Positions</a></th></tr><tr align='center'>"
-		for(var/jobPos in GLOB.pitrats_positions)
-			if(!jobPos)
-				continue
-			if(jobban_isbanned(M, jobPos))
-				dat += "<td width='15%'><a href='?src=[REF(src)];[HrefToken()];jobban3=[jobPos];jobban4=[REF(M)]'><font color=red>[jobPos]</font></a></td>"
-				counter++
-			else
-				dat += "<td width='15%'><a href='?src=[REF(src)];[HrefToken()];jobban3=[jobPos];jobban4=[REF(M)]'>[jobPos]</a></td>"
-				counter++
-
-			if(counter >= 6) //So things dont get squiiiiished!
-				dat += "</tr><tr>"
-				counter = 0
-		dat += "</tr></table>"
-
-	//Tribal (Brown)
-		dat += "<table cellpadding='1' cellspacing='0' width='100%'>"
-		dat += "<tr align='center' bgcolor='cbb888'><th colspan='[length(GLOB.merchant_positions)]'><a href='?src=[REF(src)];[HrefToken()];jobban3=merchantdept;jobban4=[REF(M)]'>Merchant Positions</a></th></tr><tr align='center'>"
-		for(var/jobPos in GLOB.merchant_positions)
-			if(!jobPos)
-				continue
-			if(jobban_isbanned(M, jobPos))
-				dat += "<td width='15%'><a href='?src=[REF(src)];[HrefToken()];jobban3=[jobPos];jobban4=[REF(M)]'><font color=red>[jobPos]</font></a></td>"
-				counter++
-			else
-				dat += "<td width='15%'><a href='?src=[REF(src)];[HrefToken()];jobban3=[jobPos];jobban4=[REF(M)]'>[jobPos]</a></td>"
-				counter++
-
-			if(counter >= 6) //So things dont get squiiiiished!
-				dat += "</tr><tr>"
-				counter = 0
-		dat += "</tr></table>"
-
 	//Followers (Light Blue)
 		dat += "<table cellpadding='1' cellspacing='0' width='100%'>"
 		dat += "<tr align='center' bgcolor='d580ff'><th colspan='[length(GLOB.church_positions)]'><a href='?src=[REF(src)];[HrefToken()];jobban3=followersdept;jobban4=[REF(M)]'>Church Positions</a></th></tr><tr align='center'>"
@@ -1054,16 +1018,6 @@
 					joblist += jobPos
 			if("wastelanddept")
 				for(var/jobPos in GLOB.wasteland_positions)
-					if(!jobPos)
-						continue
-					joblist += jobPos
-			if("pitratsdept")
-				for(var/jobPos in GLOB.pitrats_positions)
-					if(!jobPos)
-						continue
-					joblist += jobPos
-			if("merchantdept")
-				for(var/jobPos in GLOB.merchant_positions)
 					if(!jobPos)
 						continue
 					joblist += jobPos
