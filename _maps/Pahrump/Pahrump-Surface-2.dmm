@@ -4515,6 +4515,7 @@
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "bOp" = (
+/obj/effect/turf_decal/shadow,
 /obj/machinery/hydroponics/soil/pot{
 	pixel_y = 8
 	},
@@ -4522,7 +4523,7 @@
 	pixel_y = 17
 	},
 /obj/structure/table/wood/fancy/purple,
-/turf/open/indestructible/ground/outside/wood,
+/turf/open/floor/wood/f13,
 /area/f13/cotc)
 "bOr" = (
 /obj/structure/car/rubbish2,
@@ -4985,6 +4986,10 @@
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 1;
 	pixel_y = 12
+	},
+/obj/structure/table/optable/primitive,
+/obj/machinery/iv_drip/primitive{
+	pixel_x = -12
 	},
 /obj/item/grown/rose{
 	name = "Cathedral Rose";
@@ -5820,6 +5825,7 @@
 	dir = 1
 	},
 /obj/structure/chair/folding,
+/obj/effect/landmark/start/f13/merchant/militia,
 /turf/open/floor/f13{
 	color = "#818181";
 	icon_state = "floorrustysolid"
@@ -10206,11 +10212,11 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "ekC" = (
-/obj/effect/landmark/start/f13/settler,
-/turf/open/indestructible/ground/outside/dirt{
-	icon_state = "dirtcorner"
+/obj/structure/chair/comfy/bench{
+	dir = 4
 	},
-/area/f13/wasteland)
+/turf/open/floor/plasteel/cult,
+/area/f13/cotc)
 "ekI" = (
 /obj/effect/spawner/lootdrop/f13/alcoholspawner,
 /turf/open/floor/f13{
@@ -10721,6 +10727,7 @@
 /area/f13/building)
 "etG" = (
 /obj/structure/chair/sofa/right,
+/obj/effect/landmark/start/f13/kebab/scab,
 /turf/open/indestructible/ground/outside/wood{
 	icon_state = "wood"
 	},
@@ -10729,6 +10736,10 @@
 /obj/structure/destructible/tribal_torch/wall/lit,
 /obj/structure/chair/pew/left{
 	dir = 4
+	},
+/obj/item/storage/backpack/duffelbag/med/surgery/primitive/anchored{
+	pixel_y = 2;
+	pixel_x = 6
 	},
 /turf/open/floor/plasteel/cult,
 /area/f13/cotc)
@@ -11357,6 +11368,11 @@
 	},
 /turf/open/floor/carpet,
 /area/f13/ncr)
+"eFp" = (
+/obj/effect/turf_decal/shadow,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood/f13,
+/area/f13/cotc)
 "eFz" = (
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/open/floor/plasteel/darkblue/corner,
@@ -13728,7 +13744,7 @@
 /obj/item/megaphone,
 /obj/structure/table/wood/fancy/purple,
 /obj/item/book/manual/thebook,
-/turf/open/indestructible/ground/outside/wood,
+/turf/open/floor/wood/f13,
 /area/f13/cotc)
 "fBQ" = (
 /obj/structure/chair/sofa/left{
@@ -19821,6 +19837,12 @@
 	color = "#e4e4e4"
 	},
 /area/f13/village)
+"hWT" = (
+/obj/effect/turf_decal/shadow,
+/obj/effect/turf_decal/shadow,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood/f13,
+/area/f13/cotc)
 "hWY" = (
 /obj/effect/landmark/latejoin,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -20613,6 +20635,7 @@
 /obj/structure/chair/folding{
 	dir = 1
 	},
+/obj/effect/landmark/start/f13/merchant/militia,
 /turf/open/floor/f13{
 	color = "#818181";
 	icon_state = "floorrustysolid"
@@ -22040,6 +22063,10 @@
 	},
 /obj/structure/chair/pew/right{
 	dir = 4
+	},
+/obj/item/storage/backpack/duffelbag/med/surgery/primitive/anchored{
+	pixel_y = -9;
+	pixel_x = 6
 	},
 /turf/open/floor/plasteel/cult,
 /area/f13/cotc)
@@ -26715,6 +26742,7 @@
 /obj/structure/chair/office{
 	dir = 4
 	},
+/obj/effect/landmark/start/f13/kebab/radiohost,
 /turf/open/floor/plasteel/grimy,
 /area/f13/building)
 "kVL" = (
@@ -26947,6 +26975,7 @@
 /obj/structure/chair/office{
 	dir = 8
 	},
+/obj/effect/landmark/start/f13/kebab/radiohost,
 /turf/open/floor/plasteel/grimy,
 /area/f13/building)
 "lbO" = (
@@ -27996,6 +28025,19 @@
 	dir = 1;
 	icon_state = "outerpavement"
 	},
+/area/f13/wasteland)
+"lzj" = (
+/obj/effect/mob_spawn/human/nukapop{
+	icon = 'icons/obj/crates.dmi';
+	icon_state = "largecrate";
+	name = "strange box";
+	mob_type = /mob/living/simple_animal/hostile/wolf/playable;
+	desc = "This crate feels off, you think there might be something...or someone inside of it.";
+	short_desc = "You are a wild animal, DO NOT SPEAK.";
+	flavour_text = "Bark bark bark";
+	mob_name = "feral hound"
+	},
+/turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
 "lzn" = (
 /obj/machinery/hydroponics/soil{
@@ -30618,6 +30660,7 @@
 /obj/structure/chair/wood/worn{
 	dir = 8
 	},
+/obj/effect/landmark/start/f13/kebab/scab,
 /turf/open/floor/wood/f13,
 /area/f13/wasteland)
 "mFX" = (
@@ -32023,6 +32066,10 @@
 	},
 /area/f13/village)
 "ngg" = (
+/obj/structure/table/optable/primitive,
+/obj/machinery/iv_drip/primitive{
+	pixel_x = -12
+	},
 /obj/item/grown/rose{
 	name = "Cathedral Rose";
 	desc = "A flower that represents the peace and harmony."
@@ -32567,7 +32614,7 @@
 /area/f13/village)
 "nti" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/indestructible/ground/outside/wood,
+/turf/open/floor/wood/f13,
 /area/f13/cotc)
 "ntl" = (
 /obj/structure/table,
@@ -32644,14 +32691,10 @@
 /area/f13/building)
 "nvr" = (
 /obj/structure/table/wood/fancy/purple,
-/obj/structure/junk/small/tv{
-	pixel_y = 8;
-	pixel_x = 1
+/obj/structure/soundbox/tv{
+	pixel_y = 9
 	},
-/obj/structure/soundbox{
-	pixel_y = 6
-	},
-/turf/open/indestructible/ground/outside/wood,
+/turf/open/floor/wood/f13,
 /area/f13/cotc)
 "nvx" = (
 /obj/structure/ladder/unbreakable{
@@ -33233,6 +33276,16 @@
 /obj/item/stack/cable_coil/ten,
 /turf/open/indestructible/ground/outside/wood,
 /area/f13/building)
+"nJg" = (
+/obj/structure/chair/pew/left{
+	dir = 4
+	},
+/obj/item/storage/backpack/duffelbag/med/surgery/primitive/anchored{
+	pixel_y = 2;
+	pixel_x = 6
+	},
+/turf/open/floor/plasteel/cult,
+/area/f13/cotc)
 "nJq" = (
 /obj/structure/rack,
 /obj/item/circuitboard/computer/arcade/battle,
@@ -38784,6 +38837,13 @@
 	icon_state = "whitegreenrustychess"
 	},
 /area/f13/building)
+"qic" = (
+/obj/structure/chair/comfy/bench{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/cult,
+/area/f13/cotc)
 "qij" = (
 /obj/structure/table/wood/settler,
 /obj/machinery/processor/chopping_block,
@@ -44948,6 +45008,7 @@
 	},
 /area/f13/wasteland)
 "sYU" = (
+/obj/effect/turf_decal/shadow,
 /obj/machinery/hydroponics/soil/pot{
 	pixel_y = 8
 	},
@@ -44956,7 +45017,7 @@
 	},
 /obj/structure/table/wood/fancy/purple,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/indestructible/ground/outside/wood,
+/turf/open/floor/wood/f13,
 /area/f13/cotc)
 "sYV" = (
 /turf/open/floor/f13/wood{
@@ -46467,11 +46528,15 @@
 /obj/structure/flora/ausbushes/sparsegrass,
 /area/f13/legion)
 "tHc" = (
-/obj/structure/car/rubbish4{
-	layer = 3
-	},
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = 777
+/obj/effect/mob_spawn/human/nukapop{
+	icon = 'icons/obj/crates.dmi';
+	icon_state = "largecrate";
+	name = "strange box";
+	mob_type = /mob/living/simple_animal/hostile/supermutant/playable/church;
+	desc = "This crate feels off, you think there might be something...or someone inside of it.";
+	short_desc = "You awaken after a long slumber ready to serve the Father in life and death.";
+	flavour_text = "You are a loyal guardian of the Church, fiercely loyal to the inner sanctum. However, you yourself know little of the Church's secrets.";
+	mob_name = "Church enforcer"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
@@ -47626,6 +47691,10 @@
 	},
 /area/f13/wasteland)
 "uhY" = (
+/obj/structure/table/optable/primitive,
+/obj/machinery/iv_drip/primitive{
+	pixel_x = -12
+	},
 /obj/structure/stone_tile/slab/cracked,
 /obj/item/grown/rose{
 	name = "Cathedral Rose";
@@ -48156,6 +48225,7 @@
 /obj/structure/chair/wood/worn{
 	dir = 8
 	},
+/obj/effect/landmark/start/f13/kebab/scab,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	name = "metal plating"
 	},
@@ -51832,6 +51902,13 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/ncr)
+"whw" = (
+/obj/effect/landmark/start/f13/merchant/militia,
+/turf/open/floor/f13{
+	color = "#818181";
+	icon_state = "floorrustysolid"
+	},
+/area/f13/merchant)
 "why" = (
 /obj/structure/table/wood/bar,
 /obj/structure/fluff/railing{
@@ -52529,6 +52606,16 @@
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
+"wye" = (
+/obj/structure/chair/pew/right{
+	dir = 4
+	},
+/obj/item/storage/backpack/duffelbag/med/surgery/primitive/anchored{
+	pixel_y = -9;
+	pixel_x = 6
+	},
+/turf/open/floor/plasteel/cult,
+/area/f13/cotc)
 "wyh" = (
 /obj/structure/chair/office/dark{
 	dir = 1
@@ -79505,7 +79592,7 @@ ueh
 gAZ
 gAZ
 ako
-iJp
+whw
 iJp
 pfk
 iHQ
@@ -79762,7 +79849,7 @@ sHA
 iHQ
 gAZ
 ako
-iJp
+whw
 iJp
 pfk
 iHQ
@@ -81023,7 +81110,7 @@ mvv
 bpD
 xdF
 xGH
-mvv
+lzj
 llq
 gAZ
 ueA
@@ -81280,7 +81367,7 @@ mfD
 mcf
 fyf
 tBN
-mvv
+lzj
 llq
 gAZ
 ueA
@@ -81537,7 +81624,7 @@ xTK
 fyf
 fyf
 tBN
-mvv
+lzj
 llq
 gAZ
 gAZ
@@ -85403,7 +85490,7 @@ gAZ
 dZP
 iBv
 iBv
-mmu
+iBv
 gAZ
 gAZ
 gAZ
@@ -87094,7 +87181,7 @@ fPv
 hna
 fyf
 fyf
-ekC
+qOV
 cWG
 ltK
 mvv
@@ -90047,12 +90134,12 @@ anW
 qHe
 nse
 oxv
-bMP
-qfc
+ekC
+qic
 awW
 awW
 okZ
-fQr
+nJg
 nyV
 jme
 qfc
@@ -90561,7 +90648,7 @@ qHe
 qHe
 xcK
 ltp
-okZ
+wye
 fQr
 qSN
 awW
@@ -91334,8 +91421,8 @@ nse
 ltp
 gVU
 nti
-nti
-nti
+eFp
+hWT
 nti
 oKm
 nyV
@@ -92874,7 +92961,7 @@ anW
 anW
 ggA
 ltU
-hxa
+tHc
 tHc
 nyV
 awq

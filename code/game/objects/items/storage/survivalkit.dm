@@ -10,6 +10,7 @@
 	new /obj/item/stack/medical/mesh/aloe(src)
 	new /obj/item/flashlight/flare(src)
 	new /obj/item/reagent_containers/pill/radx(src)
+	new /obj/item/reagent_containers/hypospray/medipen/stimpak(src)
 
 /obj/item/storage/survivalkit_khan
 	name = "survival kit"
@@ -35,7 +36,8 @@
 	new /obj/item/stack/medical/gauze/improvised(src)
 	new /obj/item/stack/medical/mesh/aloe(src)
 	new /obj/item/stack/medical/suture/emergency(src)
-	new /obj/item/flashlight/flare/torch(src)
+	new /obj/item/reagent_containers/pill/patch/healingpowder(src)
+	new /obj/item/flashlight/flare(src)
 
 /obj/item/storage/survivalkit_outlaw
 	name = "survival kit"
@@ -50,6 +52,7 @@
 	new /obj/item/stack/medical/gauze(src)
 	new /obj/item/flashlight/flare(src)
 	new /obj/item/reagent_containers/pill/radx(src)
+	new /obj/item/reagent_containers/hypospray/medipen/stimpak(src)
 
 /obj/item/storage/survivalkit_tribal/chief
 
@@ -57,6 +60,9 @@
 	. = ..()
 	new /obj/item/stack/medical/gauze(src)
 	new /obj/item/flashlight/flare/torch(src)
+	new /obj/item/reagent_containers/pill/patch/healingpowder(src)
+	new /obj/item/reagent_containers/pill/patch/healingpowder(src)
+	new /obj/item/reagent_containers/pill/patch/healpoultice(src)
 
 /obj/item/storage/survivalkit_adv
 	name = "survival kit"

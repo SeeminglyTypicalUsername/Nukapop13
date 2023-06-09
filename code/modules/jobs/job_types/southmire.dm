@@ -13,7 +13,7 @@
 	spawn_positions = 1
 	supervisors = "the Company"
 	description = "You are in charge of the local Fresh Start Caravan branch and control the town, you are mostly free to do as you please with the town as long as the profits keep coming in; do not destroy the company's reputation, handle diplomatic matters, and increase company profits."
-	exp_requirements = 100
+	exp_requirements = 150
 	selection_color = "#666F9b"
 
 	outfit = /datum/outfit/job/kebab/f13shopkeeper
@@ -200,7 +200,7 @@
 	spawn_positions = 1
 	supervisors = "the Branch Manager"
 	description = "You command Southmire's militia and have been placed in charge of the town's defense and maintaining order in the streets."
-	exp_requirements = 0
+	exp_requirements = 100
 	selection_color = "#666F9b"
 
 	outfit = /datum/outfit/job/kebab/f13militiacom
@@ -280,7 +280,7 @@
 	satchel = /obj/item/storage/backpack/satchel/explorer
 	gloves = /obj/item/clothing/gloves/f13/leather/fingerless
 	belt = /obj/item/storage/belt/military/assault
-	neck = /obj/item/storage/belt/holster/legholster/police
+	neck = /obj/item/storage/belt/holster/legholster
 	l_pocket = /obj/item/storage/bag/money/small/settler
 	r_pocket = /obj/item/flashlight/flare
 	backpack_contents = list(
@@ -335,10 +335,10 @@
 /datum/job/kebab/f13bartender
 	title = "Bartender"
 	flag = F13BARTENDER
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 2
+	spawn_positions = 2
 	supervisors = "the Branch Manager"
-	description = "You are the bartender, an employee of the Fresh Start Caravan. How you came into the Merchant's service is up to you, but what is known is that the Merchant owns the bar, and expects to see a return on investment. You are entitled to protection from the Merchant's guards, and are required to pay him whatever cut of the bar's profits he demands."
+	description = "You are the bartender, an employee of the Fresh Start Caravan. How you came into their service is up to you, but what is known is that Caravan owns the bars and is expecting a return on their investment. You are entitled to protection from the town militia and the Company Mercenaries, but you are required to pay whatever cut of the bar's profits that is demanded."
 
 	outfit = /datum/outfit/job/kebab/f13bartender
 
@@ -346,7 +346,8 @@
 		/datum/outfit/loadout/rugged,
 		/datum/outfit/loadout/frontier,
 		/datum/outfit/loadout/richmantender,
-		/datum/outfit/loadout/diner
+		/datum/outfit/loadout/diner,
+		/datum/outfit/loadout/mobster
 		)
 
 	access = list(ACCESS_BAR, ACCESS_MINING, ACCESS_CARGO_BOT)
@@ -375,6 +376,7 @@
 		/obj/item/ammo_box/shotgun/bean = 2,
 		/obj/item/book/manual/nuka_recipes = 1,
 		/obj/item/stack/f13Cash/caps/onezerozero = 1,
+		/obj/item/card/slotmachine = 1,
 		/obj/item/reagent_containers/food/drinks/bottle/rotgut = 1
 		)
 
@@ -413,6 +415,15 @@
 	gloves = /obj/item/clothing/gloves/color/white
 	shoes = /obj/item/clothing/shoes/f13/military/ncr
 
+/datum/outfit/loadout/mobster
+	name = "Mobster"
+	glasses = /obj/item/clothing/glasses/sunglasses
+	uniform = /obj/item/clothing/under/suit/charcoal
+	suit = /obj/item/clothing/suit/armor/f13/reno/bulletproof/lite
+	head = /obj/item/clothing/head/fedora
+	gloves = /obj/item/clothing/gloves/color/white
+	shoes = /obj/item/clothing/shoes/f13/fancy
+
 //citizens
 
 /datum/job/kebab/f13citizen
@@ -421,17 +432,16 @@
 	total_positions = -1
 	spawn_positions = -1
 	supervisors = "the Branch Manager"
-	description = "Welcome to Southmire, you by some means or another have found yourself to be a resident of this shanty town. You are free to do as your please, to find work, commit petty theft, perhaps you are a member of the town militia attempting to keep the town in order and relative peace."
-
+	description = "Welcome to Southmire, a company town owned by the Fresh Start Caravan. You by some means or another have found yourself under contract by the caravan and live under their protection. You are mostly free to do as you please but cooperate with the Caravan and remain productive."
 	outfit = /datum/outfit/job/kebab/f13citizen
 
 	loadout_options = list(
 		/datum/outfit/loadout/f13citizen/militia,
-		/datum/outfit/loadout/f13citizen/pusher,
-		/datum/outfit/loadout/f13citizen/ncrsettler,
-		/datum/outfit/loadout/f13citizen/vault,
+		/datum/outfit/loadout/f13citizen/trader,
+		/datum/outfit/loadout/f13citizen/farmer,
 		/datum/outfit/loadout/f13citizen/worker,
-		/datum/outfit/loadout/f13citizen/gangster,
+		/datum/outfit/loadout/f13citizen/vaultcity,
+		/datum/outfit/loadout/f13citizen/layman,
 		)
 
 	access = list(ACCESS_BAR)
@@ -490,18 +500,22 @@
 		/obj/item/card/id/dogtag/deputy/kebab = 1
 		)
 
-/datum/outfit/loadout/f13citizen/pusher
-	name = "Pusher"
-	glasses = /obj/item/clothing/glasses/sunglasses
+/datum/outfit/loadout/f13citizen/trader
+	name = "Trader"
+	head = /obj/item/clothing/head/f13/stormchaser
+	uniform = /obj/item/clothing/under/f13/merchant
+	gloves = /obj/item/clothing/gloves/color/brown
+	glasses = /obj/item/clothing/glasses/f13/biker
 	backpack_contents = list(
-		/obj/item/reagent_containers/pill/patch/jet = 2,
-		/obj/item/reagent_containers/pill/patch/turbo = 2,
-		/obj/item/reagent_containers/hypospray/medipen/psycho = 2,
-		/obj/item/reagent_containers/hypospray/medipen/medx = 2
+		/obj/item/storage/box/vendingmachine = 1,
+		/obj/item/stack/sheet/metal = 50,
+		/obj/item/stack/sheet/mineral/wood = 50,
+		/obj/item/stack/sheet/glass/fifty = 1,
+		/obj/item/toy/crayon/spraycan = 1,
 		)
 
-/datum/outfit/loadout/f13citizen/ncrsettler
-	name = "NCR Settler"
+/datum/outfit/loadout/f13citizen/farmer
+	name = "Farmer"
 	glasses = /obj/item/clothing/glasses/orange
 	uniform = /obj/item/clothing/under/f13/cowboyt
 	shoes = /obj/item/clothing/shoes/jackboots
@@ -519,7 +533,7 @@
 		/obj/item/storage/bag/plants = 1
 		)
 
-/datum/outfit/loadout/f13citizen/vault
+/datum/outfit/loadout/f13citizen/vaultcity
 	name = "Vault Refugee"
 	uniform = /obj/item/clothing/under/f13/vault
 	gloves = /obj/item/pda
@@ -535,14 +549,10 @@
 	head = /obj/item/clothing/head/hardhat
 	glasses = /obj/item/clothing/glasses/welding
 
-/datum/outfit/loadout/f13citizen/gangster
-	name = "Gangster"
-	glasses = /obj/item/clothing/glasses/sunglasses/big
-	suit = /obj/item/clothing/suit/armored/light/leather_jacket
-	uniform = /obj/item/clothing/under/f13/raiderrags
+/datum/outfit/loadout/f13citizen/layman
+	name = "Layman"
 	backpack_contents = list(
-		/obj/item/twohanded/baseball/spiked = 1,
-		/obj/item/gun/ballistic/revolver/hobo/knucklegun = 1
+		/obj/item/book/manual/thebook = 1,
 		)
 
 /*--------------------------------------------------------------*/
