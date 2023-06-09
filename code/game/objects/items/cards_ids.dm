@@ -1550,3 +1550,14 @@
 	uses_overlays = FALSE
 	assignment = "neophyte identification papers"
 	access = list(ACCESS_COTC)
+
+
+//Kebab
+
+/obj/item/card/id/yuma/papers/contract
+	name = "FGT contract"
+	desc = "A contract from the Far Go Traders."
+	icon_state = "papers"
+	item_state = null
+	uses_overlays = FALSE
+	assignment = "identification papers"

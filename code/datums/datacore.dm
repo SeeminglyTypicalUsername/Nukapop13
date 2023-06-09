@@ -213,7 +213,7 @@
 			dat += "<tr[even ? " class='alt'" : ""]><td>[name]</td><td>[merchant[name]]</td></tr>"
 			even = !even
 	if(length(church))
-		dat += "<tr><th colspan=3>Church</th></tr>"
+		dat += "<tr><th colspan=3>Church of the Open Palm</th></tr>"
 		for(var/name in church)
 			dat += "<tr[even ? " class='alt'" : ""]><td>[name]</td><td>[church[name]]</td></tr>"
 			even = !even

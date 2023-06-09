@@ -98,3 +98,11 @@
 	icon = 'icons/fallout/objects/structures/reno.dmi'
 	desc = "The Biggest Little City in the World!"
 	light_color = LIGHT_COLOR_YELLOW
+
+/obj/machinery/light/sign/southmire
+	name = "Southmire sign"
+	icon_state = "southmire"
+	base_state = "southmire"
+	icon = 'icons/fallout/objects/structures/southmire.dmi'
+	desc = "This looks like some sort of town."
+	light_color = LIGHT_COLOR_BLUE

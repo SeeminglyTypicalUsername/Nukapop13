@@ -1951,3 +1951,26 @@ list(/obj/item/stack/sheet/metal = 20,
 
 /obj/item/storage/box/gunbox/pitrats/pitrat/set7/PopulateContents()//lacerator
 	new /obj/item/melee/unarmed/lacerator(src)
+
+
+//Militia
+
+/obj/item/storage/box/gunbox/militia/set1/PopulateContents() //caravan shotgun
+	new /obj/item/gun/ballistic/revolver/caravan_shotgun(src)
+	new /obj/item/ammo_box/shotgun/improvised(src)
+	new /obj/item/ammo_box/shotgun/improvised(src)
+	new /obj/item/grenade/homemade/coffeepotbomb(src)
+
+/obj/item/storage/box/gunbox/militia/set2/PopulateContents() //autopipe
+	new /obj/item/gun/ballistic/automatic/autopipe(src)
+	new /obj/item/ammo_box/magazine/autopipe(src)
+	new /obj/item/ammo_box/magazine/autopipe(src)
+
+/obj/item/storage/box/gunbox/militia/set3/PopulateContents() //hunting rifle
+	new /obj/item/gun/ballistic/rifle/hunting(src)
+	new /obj/item/ammo_box/a308(src)
+	new /obj/item/ammo_box/a308(src)
+
+/obj/item/storage/box/gunbox/militia/set4/PopulateContents()//baseball bat, 9mm
+	new /obj/item/twohanded/baseball(src)
+	new /obj/item/gun/ballistic/automatic/pistol/n99(src)

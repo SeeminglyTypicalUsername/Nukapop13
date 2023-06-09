@@ -102,7 +102,7 @@
 	item_state = "gloves_plated"
 */
 
-
+/*
 // --------------------- BANDANA -----------------------------
 
 /obj/item/clothing/mask/bandana/legion
@@ -136,9 +136,9 @@
 	icon_state = "bandana_centurion"
 
 
-
+*/
 // ------------------- GOGGLES -----------------------------
-
+/*
 // Polarizing goggles. togglable, Nightvision goggles basically
 /obj/item/clothing/glasses/night/polarizing // possibly it would be better to make this just flash protect or such, and keep NVG to NVG looking goggle thingies. Dunno.
 	name = "polarizing goggles"
@@ -609,7 +609,7 @@
 /obj/item/clothing/head/helmet/f13/legion/vet/vexil
 	icon_state = "helmet_vexillarius"
 
-
+*/
 
 //////////////////////////////////////////
 // 										//
@@ -668,16 +668,14 @@
 // Preloaded Legion wardrobe
 /obj/machinery/smartfridge/bottlerack/wardrobe/legion
 	initial_contents = list(
-		/obj/item/clothing/under/f13/legskirt = 3,
-		/obj/item/clothing/mask/bandana/legion/dark  = 2,
-		/obj/item/clothing/head/f13/servant/campfollower = 1,
+		/obj/item/clothing/under/f13/legskirt = 5,
 		/obj/item/clothing/head/f13/servant = 1,
 		/obj/item/clothing/gloves/legion = 2,
 		/obj/item/clothing/neck/apron/labor = 1,
 		/obj/item/clothing/shoes/f13/military/legion = 3,
 		/obj/item/clothing/shoes/sandals_leather = 1,
-		/obj/item/storage/belt/military/legion = 1,
-		/obj/item/clothing/glasses/f13/goggles_sandstorm = 1)
+		/obj/item/storage/belt/military/assault/legion = 5,
+		/obj/item/clothing/glasses/legiongoggles = 1)
 
 
 // -------------- ARMORDROBE -----------------
@@ -718,8 +716,8 @@
 // Preloaded Legion armor rack
 /obj/machinery/smartfridge/bottlerack/wardrobe/armor/legion
 	initial_contents = list(
-		/obj/item/clothing/suit/armor/light/legion/recruit = 2,
-		/obj/item/clothing/head/helmet/f13/legion/recruit = 2)
+		/obj/item/clothing/suit/armor/f13/legion/recruit = 5,
+		/obj/item/clothing/head/helmet/f13/legion/recruit = 5)
 
 
 // -------------- MELEE RACK -----------------

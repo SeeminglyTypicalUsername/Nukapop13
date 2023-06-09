@@ -60,7 +60,7 @@ GLOBAL_LIST_INIT(command_positions, list(
 
 	"Enclave Lieutenant",
 
-	"FGT Branch Manager",
+	"FSC Branch Manager",
 
 	"High Priest",
 
@@ -270,9 +270,9 @@ GLOBAL_LIST_INIT(church_positions, list(
 ))
 
 GLOBAL_LIST_INIT(kebab_positions, list(
-	"FGT Branch Manager",
-	"FGT Employee",
-	"FGT Mercenary",
+	"FSC Branch Manager",
+	"FSC Employee",
+	"FSC Mercenary",
 	"Militia Commander",
 	"Town Guard",
 	"Bartender",
