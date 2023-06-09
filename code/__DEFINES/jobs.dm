@@ -6,7 +6,7 @@
 #define FACTION_BROTHERHOOD "BOS"
 #define FACTION_KEBAB "Town"
 #define FACTION_MERCHANT "Merchant"
-#define FACTION_CHURCH "Church"
+#define FACTION_CHURCH "Church of the Open Palm"
 #define FACTION_PITRATS "Pitrats"
 #define FACTION_ENCLAVE "Enclave"
 #define FACTION_WASTELAND "Wastelander"

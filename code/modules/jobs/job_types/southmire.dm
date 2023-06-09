@@ -2,18 +2,19 @@
 	exp_type = EXP_TYPE_KEBAB
 	faction = FACTION_KEBAB
 	department_flag = DEP_KEBAB
-	selection_color = "#c3d5d5"
+	selection_color = "#7F87aF"
 
 //merchant
 
 /datum/job/kebab/f13shopkeeper
-	title = "FGT Branch Manager"
+	title = "FSC Branch Manager"
 	flag = F13SHOPKEEPER
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the Company"
-	description = "You are in charge of the local Far Go Traders branch and control the town, you are mostly free to do as you please with the town as long as the profits keep coming in; do not destroy the company's reputation, handle diplomatic matters, and increase company profits."
+	description = "You are in charge of the local Fresh Start Caravan branch and control the town, you are mostly free to do as you please with the town as long as the profits keep coming in; do not destroy the company's reputation, handle diplomatic matters, and increase company profits."
 	exp_requirements = 100
+	selection_color = "#666F9b"
 
 	outfit = /datum/outfit/job/kebab/f13shopkeeper
 	access = list(ACCESS_BAR, ACCESS_CARGO_BOT, ACCESS_MINING, ACCESS_GATEWAY)
@@ -32,7 +33,7 @@
 	name = "Shopkeeper"
 	jobtype = /datum/job/kebab/f13shopkeeper
 
-	id = /obj/item/card/id/dogtag/town
+	id = /obj/item/card/id/yuma/papers/contract
 	shoes = /obj/item/clothing/shoes/f13/brownie
 	uniform = /obj/item/clothing/under/f13/schlimmsuit
 	head = /obj/item/clothing/head/helmet/f13/marlowhat/schlimmhat
@@ -73,12 +74,12 @@
 /*--------------------------------------------------------------*/
 
 /datum/job/kebab/f13apprentice
-	title = "FGT Employee"
+	title = "FSC Employee"
 	flag = F13APPRENTICE
 	total_positions = 2
 	spawn_positions = 2
 	supervisors = "the Branch Manager"
-	description = "You are an employee of the Far Go Traders; handle the menial duties of running the store and arrange deals on the Branch Manager's behalf."
+	description = "You are an employee of the Fresh Start Caravan; handle the menial duties of running the store and arrange deals on the Branch Manager's behalf."
 	exp_requirements = 0
 	outfit = /datum/outfit/job/kebab/f13apprentice
 
@@ -101,7 +102,7 @@
 	suit = /obj/item/clothing/suit/f13/cowboybvest
 	belt = /obj/item/storage/belt/utility
 	gloves = /obj/item/clothing/gloves/f13/blacksmith
-	id = /obj/item/card/id/dogtag/town
+	id = /obj/item/card/id/yuma/papers/contract
 	ears = /obj/item/radio/headset/headset_merchant
 	shoes = /obj/item/clothing/shoes/workboots/mining
 	r_pocket = /obj/item/flashlight/flare
@@ -137,12 +138,12 @@
 
 /*--------------------------------------------------------------*/
 /datum/job/kebab/f13mercenary
-	title = "FGT Mercenary"
+	title = "FSC Mercenary"
 	flag = F13MERCENARY
 	total_positions = 3
 	spawn_positions = 3
 	supervisors = "the Branch Manager"
-	description = "You are a mercenary, hired by the Far Go Traders; protect and obey the Branch Manager, protect the company's property, and make sure no one holds out payment."
+	description = "You are a mercenary, hired by the Fresh Start Caravan; protect and obey the Branch Manager, protect the company's property, and make sure no one holds out payment."
 	exp_requirements = 0
 
 	outfit = /datum/outfit/job/kebab/f13mercenary
@@ -163,7 +164,7 @@
 	head = /obj/item/clothing/head/helmet/riot
 	mask = /obj/item/clothing/mask/balaclava
 	ears = /obj/item/radio/headset/headset_merchant
-	id = /obj/item/card/id/dogtag/deputy
+	id = /obj/item/card/id/yuma/papers/contract
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
 	gloves = /obj/item/clothing/gloves/f13/military
@@ -198,8 +199,9 @@
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the Branch Manager"
-	description = "You command kebab's militia and have been placed in charge of the town's defense and maintaining order in the streets."
+	description = "You command Southmire's militia and have been placed in charge of the town's defense and maintaining order in the streets."
 	exp_requirements = 0
+	selection_color = "#666F9b"
 
 	outfit = /datum/outfit/job/kebab/f13militiacom
 	access = list(ACCESS_MILITIA)
@@ -216,19 +218,19 @@
 /datum/outfit/job/kebab/f13militiacom
 	name = "Militia Commander"
 	jobtype = /datum/job/kebab/f13militiacom
-	head = /obj/item/clothing/head/f13/police/sergeant
+	head = /obj/item/clothing/head/helmet/f13/ahp_helmet
 	ears = /obj/item/radio/headset/headset_merchant
-	id = /obj/item/card/id/dogtag/sheriff
+	id = /obj/item/card/id/yuma/papers/contract
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
-	gloves = /obj/item/clothing/gloves/f13/military
+	gloves = /obj/item/clothing/gloves/f13/leather/fingerless
 	belt = /obj/item/storage/belt/military/assault
-	suit = /obj/item/clothing/suit/f13/police
+	suit = /obj/item/clothing/suit/armor/f13/ahp_suit
 	neck = /obj/item/storage/belt/holster/legholster/police
 	l_pocket = /obj/item/storage/bag/money/small/settler
 	r_pocket = /obj/item/flashlight/flare
 	shoes = /obj/item/clothing/shoes/f13/military
-	uniform = /obj/item/clothing/under/f13/police/formal
+	uniform = /obj/item/clothing/under/f13/ahp_uniform
 	suit_store = /obj/item/gun/ballistic/automatic/assault_carbine/policerifle
 	backpack_contents = list(
 		/obj/item/restraints/handcuffs = 2,
@@ -249,8 +251,8 @@
 /datum/job/kebab/f13militia
 	title = "Town Guard"
 	flag = F13MILITIACOM
-	total_positions = 3
-	spawn_positions = 3
+	total_positions = 5
+	spawn_positions = 5
 	supervisors = "the Militia Commander"
 	description = "You've been picked up one way or another by the town's militia. Patrol the streets, crack down on disorder, and obey your commander."
 	exp_requirements = 0
@@ -270,21 +272,19 @@
 /datum/outfit/job/kebab/f13militia
 	name = "Town Guard"
 	jobtype = /datum/job/kebab/f13militia
-	head = /obj/item/clothing/head/helmet/blueshirt
 	ears = /obj/item/radio/headset/headset_merchant
-	id = /obj/item/card/id/dogtag/deputy
+	glasses = /obj/item/clothing/glasses/legiongoggles
+	mask = /obj/item/clothing/mask/ncr_facewrap
+	id = /obj/item/card/id/yuma/papers/contract
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
-	gloves = /obj/item/clothing/gloves/f13/military
+	gloves = /obj/item/clothing/gloves/f13/leather/fingerless
 	belt = /obj/item/storage/belt/military/assault
-	suit = /obj/item/clothing/suit/armor/vest
 	neck = /obj/item/storage/belt/holster/legholster/police
 	l_pocket = /obj/item/storage/bag/money/small/settler
 	r_pocket = /obj/item/flashlight/flare
-	suit_store = /obj/item/gun/ballistic/automatic/assault_carbine/policerifle
 	backpack_contents = list(
 		/obj/item/restraints/handcuffs = 2,
-		/obj/item/ammo_box/magazine/m5mm = 2,
 		/obj/item/melee/classic_baton/police = 1,
 		/obj/item/grenade/flashbang = 1,
 		)
@@ -300,17 +300,34 @@
 	uniform = pick(
 		/obj/item/clothing/under/f13/merca,
 		/obj/item/clothing/under/f13/mercc,
-		/obj/item/clothing/under/f13/cowboyb,
-		/obj/item/clothing/under/f13/cowboyg,
 		/obj/item/clothing/under/f13/raider_leather,
 		/obj/item/clothing/under/f13/raiderrags,
-		/obj/item/clothing/under/f13/doctor,
-		/obj/item/clothing/under/f13/settler,
 		/obj/item/clothing/under/pants/f13/ghoul)
+
+	r_hand = pick(
+		/obj/item/storage/box/gunbox/militia/set1,
+		/obj/item/storage/box/gunbox/militia/set2,
+		/obj/item/storage/box/gunbox/militia/set3,
+		/obj/item/storage/box/gunbox/militia/set4)
+
+	suit = pick(
+		/obj/item/clothing/suit/armored/light/leather,
+		/obj/item/clothing/suit/armored/light/leather_jacket,
+		/obj/item/clothing/suit/armored/light/leather_jacketmk2,
+		/obj/item/clothing/suit/armored/light/leathersuit,
+		/obj/item/clothing/suit/jacket/leather,
+		/obj/item/clothing/suit/armored/light/leathermk2)
+
+	head = pick(
+		/obj/item/clothing/head/f13/army,
+		/obj/item/clothing/head/helmet/armyhelmet,
+		/obj/item/clothing/head/helmet/blueshirt,
+		/obj/item/clothing/head/flakhelm)
 
 	shoes = pick(
 		/obj/item/clothing/shoes/f13/rag,
 		/obj/item/clothing/shoes/f13/explorer,
+		/obj/item/clothing/shoes/jackboots,
 		/obj/item/clothing/shoes/f13/raidertreads)
 
 /*--------------------------------------------------------------*/
@@ -347,7 +364,7 @@
 	name = "Barkeep"
 	jobtype = /datum/job/kebab/f13bartender
 	uniform = /obj/item/clothing/under/f13/bartenderalt
-	id = /obj/item/card/id/dogtag/town
+	id = /obj/item/card/id/yuma/papers/contract
 	ears = /obj/item/radio/headset/headset_town
 	belt = /obj/item/gun/ballistic/revolver/caravan_shotgun
 	shoes = /obj/item/clothing/shoes/workboots/mining
@@ -404,7 +421,7 @@
 	total_positions = -1
 	spawn_positions = -1
 	supervisors = "the Branch Manager"
-	description = "Welcome to Kebab, you by some means or another have found yourself to be a resident of this shanty town. You are free to do as your please, to find work, commit petty theft, perhaps you are a member of the town militia attempting to keep the town in order and relative peace."
+	description = "Welcome to Southmire, you by some means or another have found yourself to be a resident of this shanty town. You are free to do as your please, to find work, commit petty theft, perhaps you are a member of the town militia attempting to keep the town in order and relative peace."
 
 	outfit = /datum/outfit/job/kebab/f13citizen
 
@@ -434,7 +451,7 @@
 	ears = null
 	belt = null
 	ears = /obj/item/radio/headset/headset_town
-	id = /obj/item/card/id/dogtag/town
+	id = /obj/item/card/id/yuma/papers/contract
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	r_pocket = /obj/item/flashlight/flare
 	backpack_contents = list(
@@ -463,9 +480,9 @@
 
 /datum/outfit/loadout/f13citizen/militia
 	name = "Militia"
-	head = /obj/item/clothing/head/helmet/blueshirt
-	suit = /obj/item/clothing/suit/armor/vest
-	belt = /obj/item/storage/belt/security
+	head = /obj/item/clothing/head/flakhelm
+	suit = /obj/item/clothing/suit/armored/light/leather
+	belt = null
 	neck = /obj/item/storage/belt/holster/legholster/police
 	backpack_contents = list(
 		/obj/item/restraints/handcuffs = 2,

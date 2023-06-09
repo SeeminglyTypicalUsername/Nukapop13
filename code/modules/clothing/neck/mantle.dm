@@ -100,14 +100,12 @@
 	desc = "A pelt made from longhorner fur."
 	icon_state = "peltfur"
 	cold_protection = CHEST|GROIN|ARMS
-	armor = list("melee" = 5, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
 
 /obj/item/clothing/neck/mantle/peltmountain
 	name = "fur pelt"
 	desc = "A pelt made from a mountain bear, brought in from Colorado."
 	icon_state = "peltmountain"
 	cold_protection = CHEST|GROIN|ARMS
-	armor = list("melee" = 5, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 0, "acid" = 0)
 
 /obj/item/clothing/neck/mantle/ragged
 	name = "ragged mantle"
