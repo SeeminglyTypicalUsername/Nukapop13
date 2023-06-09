@@ -101,8 +101,17 @@
 
 /obj/machinery/light/sign/southmire
 	name = "Southmire sign"
+	icon_state = "southmire_glow"
+	base_state = "southmire_glow"
+	icon = 'icons/fallout/objects/structures/southmire_glow.dmi'
+	desc = "Where the hell am I...?"
+	light_color = LIGHT_COLOR_YELLOW
+
+/obj/machinery/light/sign/southmire/wooden
+	name = "Southmire sign"
 	icon_state = "southmire"
 	base_state = "southmire"
 	icon = 'icons/fallout/objects/structures/southmire.dmi'
 	desc = "This looks like some sort of town."
 	light_color = LIGHT_COLOR_BLUE
+

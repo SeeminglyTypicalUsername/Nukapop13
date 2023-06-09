@@ -241,7 +241,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	display_order = JOB_DISPLAY_ORDER_LIEUTENANT
 	outfit = /datum/outfit/job/ncr/f13lieutenant
 	exp_type = EXP_TYPE_NCR
-	exp_requirements = 0
+	exp_requirements = 500
 
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
@@ -383,7 +383,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	access = list(ACCESS_NCR, ACCESS_NCR_ARMORY, ACCESS_NCR_COMMAND)
 	display_order = JOB_DISPLAY_ORDER_SERGEANT
 	outfit = /datum/outfit/job/ncr/f13sergeant
-	exp_requirements = 0
+	exp_requirements = 180
 
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
@@ -502,7 +502,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	supervisors = "The Captain and the NCR"
 	display_order = JOB_DISPLAY_ORDER_REPRESENTATIVE
 	outfit = /datum/outfit/job/ncr/f13representative
-	exp_requirements = 0
+	exp_requirements = 100
 
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
@@ -1002,7 +1002,7 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	selection_color = "#fff5cc"
 	display_order = JOB_DISPLAY_ORDER_CORPORAL
 	outfit = /datum/outfit/job/ncr/f13corporal
-	exp_requirements = 0
+	exp_requirements = 30
 
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
