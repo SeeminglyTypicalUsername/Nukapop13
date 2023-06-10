@@ -3160,15 +3160,7 @@
 /area/f13/wasteland)
 "boz" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/shower{
-	dir = 4
-	},
-/obj/structure/decoration/vent/rusty{
-	desc = "It's very old and rusty.";
-	name = "rusty grate";
-	pixel_x = -2;
-	pixel_y = -3
-	},
+/obj/item/flag/bos,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/brotherhood/surface)
 "boD" = (
@@ -4016,17 +4008,15 @@
 /turf/open/floor/f13/wood,
 /area/f13/village)
 "bDW" = (
-/obj/machinery/shower{
-	dir = 8
+/obj/docking_port/stationary{
+	area_type = /area/f13;
+	dwidth = 1;
+	height = 4;
+	id = "bos_surface";
+	name = "Surface";
+	width = 5
 	},
-/obj/structure/decoration/vent/rusty{
-	desc = "It's very old and rusty.";
-	name = "rusty grate";
-	pixel_x = 2;
-	pixel_y = -3
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/dark,
+/turf/open/floor/plasteel/elevatorshaft,
 /area/f13/brotherhood/surface)
 "bEr" = (
 /obj/structure/wreck/trash/halftire,
@@ -5183,6 +5173,10 @@
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/building)
 "ccF" = (
+/obj/machinery/computer/shuttle/bosentryelevator{
+	dir = 8;
+	pixel_x = 2
+	},
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/brotherhood/surface)
 "ccW" = (
@@ -7680,13 +7674,13 @@
 /turf/open/floor/plasteel/darkblue/corner,
 /area/f13/building)
 "dlc" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/hatch{
 	desc = "An airtight door, built to withstand a nuclear blast.";
 	max_integrity = 10000;
-	name = "airlock";
-	req_access_txt = "120"
+	name = "Brotherhood of Steel";
+	req_access_txt = "265"
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/brotherhood/surface)
 "dld" = (
@@ -9697,9 +9691,6 @@
 	},
 /area/f13/village)
 "ecg" = (
-/obj/structure/sign/poster/prewar/corporate_espionage{
-	pixel_y = 32
-	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table,
 /obj/machinery/computer/terminal{
@@ -9792,6 +9783,17 @@
 	icon_state = "verticalleftborderright0"
 	},
 /area/f13/wasteland)
+"eez" = (
+/mob/living/simple_animal/hostile/radroach{
+	desc = "The most trustworthy ally of the Father. This tough bug has survived dozens of attempts to squish 'em. ";
+	faction = list("neutral");
+	health = 60;
+	name = "Acolyte Bug";
+	social_faction = list("neutral");
+	dir = 8
+	},
+/turf/open/floor/plasteel/cult,
+/area/f13/cotc)
 "eeN" = (
 /obj/structure/closet,
 /obj/item/storage/backpack/satchel/leather,
@@ -16873,13 +16875,6 @@
 /obj/machinery/reagentgrinder,
 /turf/open/floor/wood/wood_tiled,
 /area/f13/building)
-"gYX" = (
-/obj/structure/flora/grass/wasteland,
-/mob/living/simple_animal/hostile/asteroid/gutlunch/gubbuck{
-	dir = 8
-	},
-/turf/open/indestructible/ground/outside/savannah,
-/area/f13/wasteland)
 "gZi" = (
 /obj/structure/simple_door/metal/store,
 /turf/open/floor/f13{
@@ -17240,20 +17235,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/brotherhood/surface)
-"hfb" = (
-/obj/structure/flora/grass/wasteland,
-/obj/structure/closet/crate/freezer{
-	name = "gutlunch feed storage"
-	},
-/obj/item/organ/ears,
-/obj/item/organ/ears,
-/obj/item/organ/ears,
-/obj/item/organ/liver,
-/obj/item/organ/liver,
-/obj/item/organ/liver,
-/obj/item/organ/heart,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
 "hfd" = (
 /obj/structure/sign/departments/medbay{
 	name = "\improper PHARMACY"
@@ -24741,6 +24722,11 @@
 	icon_state = "dirt"
 	},
 /area/f13/village)
+"kjh" = (
+/obj/structure/flora/grass/wasteland,
+/mob/living/simple_animal/hostile/asteroid/gutlunch/guthen,
+/turf/open/indestructible/ground/outside/savannah,
+/area/f13/wasteland)
 "kjm" = (
 /obj/structure/wreck/trash/one_barrel,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
@@ -24872,16 +24858,19 @@
 	},
 /area/f13/building)
 "klq" = (
-/mob/living/simple_animal/hostile/radroach{
-	desc = "The most trustworthy ally of the Father. This tough bug has survived dozens of attempts to squish 'em. ";
-	faction = list("neutral");
-	health = 60;
-	name = "Acolyte Bug";
-	social_faction = list("neutral");
-	dir = 8
+/obj/structure/flora/grass/wasteland,
+/obj/structure/closet/crate/freezer{
+	name = "gutlunch feed storage"
 	},
-/turf/open/floor/plasteel/cult,
-/area/f13/cotc)
+/obj/item/organ/ears,
+/obj/item/organ/ears,
+/obj/item/organ/ears,
+/obj/item/organ/liver,
+/obj/item/organ/liver,
+/obj/item/organ/liver,
+/obj/item/organ/heart,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "kls" = (
 /obj/structure/stairs/north,
 /turf/open/floor/wood/f13/oak,
@@ -30004,6 +29993,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
+/obj/effect/landmark/start/f13/ncrlogisticsofficer,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
@@ -30375,7 +30365,6 @@
 	layer = 2.8
 	},
 /obj/structure/barricade/bars,
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor,
 /area/f13/brotherhood/surface)
 "mFu" = (
@@ -30761,14 +30750,10 @@
 	},
 /area/f13/wasteland)
 "mNn" = (
-/obj/structure/table,
-/obj/effect/decal/cleanable/dirt,
-/obj/item/stack/rods{
-	amount = 4
-	},
-/obj/effect/decal/cleanable/generic,
-/turf/open/floor/plasteel/f13/vault_floor,
-/area/f13/brotherhood/surface)
+/obj/structure/flora/grass/wasteland,
+/mob/living/simple_animal/hostile/asteroid/gutlunch,
+/turf/open/indestructible/ground/outside/savannah,
+/area/f13/wasteland)
 "mNB" = (
 /obj/structure/closet/cabinet,
 /turf/open/floor/f13/wood,
@@ -38653,7 +38638,6 @@
 "qkh" = (
 /obj/structure/table,
 /obj/structure/barricade/bars,
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor,
 /area/f13/brotherhood/surface)
 "qkk" = (
@@ -39534,11 +39518,6 @@
 	pixel_y = -5
 	},
 /turf/open/indestructible/ground/outside/desert/sonora/rough,
-/area/f13/wasteland)
-"qEs" = (
-/obj/structure/flora/grass/wasteland,
-/mob/living/simple_animal/hostile/asteroid/gutlunch/guthen,
-/turf/open/indestructible/ground/outside/savannah,
 /area/f13/wasteland)
 "qEG" = (
 /obj/structure/barricade/wooden,
@@ -47667,13 +47646,11 @@
 	},
 /area/f13/ncr)
 "ugG" = (
-/obj/structure/flora/tree/african_acacia_dead{
-	pixel_x = -18;
-	pixel_y = -11
+/obj/structure/flora/grass/wasteland,
+/mob/living/simple_animal/hostile/asteroid/gutlunch/gubbuck{
+	dir = 8
 	},
-/turf/open/indestructible/ground/outside/gravel/edge{
-	dir = 1
-	},
+/turf/open/indestructible/ground/outside/savannah,
 /area/f13/wasteland)
 "ugM" = (
 /obj/effect/turf_decal/stripes/white/line,
@@ -52954,11 +52931,6 @@
 	dir = 1;
 	icon_state = "horizontaloutermain1"
 	},
-/area/f13/wasteland)
-"wvA" = (
-/obj/structure/flora/grass/wasteland,
-/mob/living/simple_animal/hostile/asteroid/gutlunch,
-/turf/open/indestructible/ground/outside/savannah,
 /area/f13/wasteland)
 "wvB" = (
 /obj/effect/decal/cleanable/shreds,
@@ -90032,7 +90004,7 @@ akL
 aUY
 vIx
 vIx
-boz
+aUY
 vIx
 ooa
 wOv
@@ -90546,7 +90518,7 @@ vIx
 fWj
 fWj
 fWj
-fWj
+bDW
 sNL
 caa
 wOv
@@ -91068,7 +91040,7 @@ gNu
 vIx
 gJp
 uJB
-mNn
+qkh
 sNL
 sNL
 sNL
@@ -91574,7 +91546,7 @@ vIx
 lVn
 vIx
 vIx
-bDW
+lVn
 vIx
 ooa
 wOv
@@ -91840,7 +91812,7 @@ fdA
 uYP
 wOv
 wOv
-vIx
+boz
 vIx
 uYP
 yaZ
@@ -91948,7 +91920,7 @@ jcw
 vVk
 mKG
 vPX
-klq
+eez
 vFz
 mKG
 ilk
@@ -95280,12 +95252,12 @@ asb
 ydO
 xes
 dCV
-wvA
+mNn
 fZe
-gYX
+ugG
 haP
 odZ
-hfb
+klq
 dCV
 dCV
 giZ
@@ -95795,7 +95767,7 @@ ydO
 pvt
 dCV
 fZe
-qEs
+kjh
 fDi
 dCV
 mHj
@@ -113857,7 +113829,7 @@ xuK
 orf
 oxA
 giq
-ugG
+puk
 loA
 qhy
 buO

@@ -538,20 +538,20 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 ///////////////
 
 // VETERAN RANGER
-/*
+
 /datum/job/ncr/f13vetranger
 	title = "NCR Veteran Ranger"
 	flag = F13VETRANGER
-	total_positions = 0
-	spawn_positions = 0
-	description = "You answer directly to the Captain (DO NOT FORGET THIS), working either independently or in a team to complete your mission objectives however required, operating either alone, in a squad or with the NCR Army. Your primary mission is to improve general opinion of the Republic and to neutralize slavers and raiders operating in the area."
-	supervisors = "NCRA Captain, High Command"
+	total_positions = 1
+	spawn_positions = 1
+	description = "You answer directly to the Lieutenant (DO NOT FORGET THIS), working either independently or in a team to complete your mission objectives however required, operating either alone, in a squad or with the NCR Army. Your primary mission is to improve general opinion of the Republic and to neutralize slavers and raiders operating in the area."
+	supervisors = "NCRA Lieutenant, High Command"
 	selection_color = "#ffeeaa"
 	display_order = JOB_DISPLAY_ORDER_VETRANGE
 	access = list(ACCESS_NCR, ACCESS_NCR_ARMORY, ACCESS_NCR_COMMAND)
 	outfit = /datum/outfit/job/ncr/f13vetranger
 	exp_type = EXP_TYPE_NCR
-	exp_requirements = 3500
+	exp_requirements = 1500
 
 	loadout_options = list( // ALL: Binoculars, Bowie knife
 		/datum/outfit/loadout/vrclassic, // AMR, .44 SA Revolver
@@ -630,22 +630,22 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/obj/item/ammo_box/c4570box/knockback = 1,
 		/obj/item/lighter = 1,
 		)
-*/
+
 
 // NCR Ranger
 
 /datum/job/ncr/f13ranger
 	title = "NCR Ranger"
 	flag = F13RANGER
-	total_positions = 0
-	spawn_positions = 0
+	total_positions = 2
+	spawn_positions = 2
 	description = "As an NCR Ranger, you are the premier special forces unit of the NCR. You are the forward observations and support the Army in it's campaigns, as well as continuing the tradition of stopping slavery in it's tracks."
 	supervisors = "Lieutenant and above"
 	selection_color = "#fff5cc"
 	display_order = JOB_DISPLAY_ORDER_RANGER
 	outfit = /datum/outfit/job/ncr/f13ranger
 	exp_type = EXP_TYPE_NCR
-	exp_requirements = 0
+	exp_requirements = 600
 
 	loadout_options = list( // ALL: Binoculars, Bowie knife
     /datum/outfit/loadout/rangerrecon, // DKS Sniper rifle, .44 SA Revolver
@@ -1202,15 +1202,15 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 /datum/job/ncr/f13logisticsofficer
 	title = "NCR Logistics Officer"
 	flag = F13LOGISTICSOFFICER
-	total_positions = 0
-	spawn_positions = 0
+	total_positions = 1
+	spawn_positions = 1
 	description = "You are the lead engineering professional in Camp Miller, you do not have any command authority beyond the logistical side. Your duties are to ensure your outpost is well defended, the armory is in order, and you always have supplies. Organize the rear echelon to offload the frontline officers and make things happen."
 	supervisors = "Captain and Above"
 	access = list(ACCESS_NCR, ACCESS_NCR_ARMORY, ACCESS_NCR_COMMAND)
 	selection_color = "#fff5cc"
 	display_order = JOB_DISPLAY_ORDER_LOGISTICSOFFICER
 	outfit = /datum/outfit/job/ncr/f13logisticsofficer
-	exp_requirements = 0
+	exp_requirements = 800
 
 /datum/outfit/job/ncr/f13logisticsofficer/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	. = ..()

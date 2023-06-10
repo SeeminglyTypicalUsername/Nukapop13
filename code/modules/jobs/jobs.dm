@@ -346,7 +346,7 @@ GLOBAL_LIST_INIT(citizens_positions, list(
 GLOBAL_LIST_INIT(position_categories, list(
 	EXP_TYPE_NCR = list("jobs" = ncr_positions, "color" = "#ffeeaa"),
 //	EXP_TYPE_FOLLOWERS = list("jobs" = followers_positions, "color" = "#ffeeaa"),
-//	EXP_TYPE_BROTHERHOOD = list("jobs" = brotherhood_positions, "color" = "#95a5a6"),
+	EXP_TYPE_BROTHERHOOD = list("jobs" = brotherhood_positions, "color" = "#95a5a6"),
 	EXP_TYPE_LEGION = list("jobs" = legion_positions, "color" = "#f81717"),
 	EXP_TYPE_WASTELAND = list("jobs" = wasteland_positions, "color" = "#5a5a5a"),
 //	EXP_TYPE_ENCLAVE = list("jobs" = enclave_positions, "color" = "#323232"),
@@ -375,7 +375,7 @@ GLOBAL_LIST_INIT(exp_jobsmap, list(
 	EXP_TYPE_FALLOUT = list("titles" = brotherhood_positions | kebab_positions | legion_positions | ncr_positions | vault_positions | wasteland_positions | tribal_positions | church_positions | followers_positions | enclave_positions | salvatores_positions | mordinos_positions | bishops_positions | wrights_positions | citizens_positions),
 
 	EXP_TYPE_OUTLAW = list("titles" = list("Outlaw","Den Mob Boss","Den Mob Enforcer","Den Doctor",)),
-	//EXP_TYPE_BROTHERHOOD = list("titles" = brotherhood_positions),
+	EXP_TYPE_BROTHERHOOD = list("titles" = brotherhood_positions),
 	EXP_TYPE_LEGION = list("titles" = legion_positions),
 	EXP_TYPE_NCR = list("titles" = ncr_positions),
 	//EXP_TYPE_VAULT = list("titles" = vault_positions),
