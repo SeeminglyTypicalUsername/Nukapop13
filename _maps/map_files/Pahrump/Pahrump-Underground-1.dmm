@@ -13014,7 +13014,9 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/bunker)
 "rBS" = (
-/mob/living/simple_animal/hostile/megafauna/gressil,
+/mob/living/simple_animal/hostile/abomination/church{
+	name = "High Priest Gressil"
+	},
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/cotc)
 "rBT" = (
