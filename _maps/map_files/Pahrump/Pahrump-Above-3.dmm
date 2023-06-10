@@ -4477,7 +4477,9 @@
 /turf/open/floor/wood/f13/carpet,
 /area/f13/building)
 "oR" = (
-/obj/machinery/door/unpowered/securedoor/legion/centurion,
+/obj/machinery/door/unpowered/securedoor/legion{
+	name = "Centurion Office"
+	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/legion)
 "oS" = (
