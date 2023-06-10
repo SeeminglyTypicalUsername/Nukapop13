@@ -3159,10 +3159,16 @@
 	},
 /area/f13/wasteland)
 "boz" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/flag/bos,
-/turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/f13/brotherhood/surface)
+/mob/living/simple_animal/hostile/radroach{
+	desc = "The most trustworthy ally of the Father. This tough bug has survived dozens of attempts to squish 'em. ";
+	faction = list("neutral");
+	health = 60;
+	name = "Acolyte Bug";
+	social_faction = list("neutral");
+	dir = 8
+	},
+/turf/open/floor/plasteel/cult,
+/area/f13/cotc)
 "boD" = (
 /obj/item/shard,
 /turf/open/floor/f13/wood,
@@ -4008,16 +4014,19 @@
 /turf/open/floor/f13/wood,
 /area/f13/village)
 "bDW" = (
-/obj/docking_port/stationary{
-	area_type = /area/f13;
-	dwidth = 1;
-	height = 4;
-	id = "bos_surface";
-	name = "Surface";
-	width = 5
+/obj/structure/flora/grass/wasteland,
+/obj/structure/closet/crate/freezer{
+	name = "gutlunch feed storage"
 	},
-/turf/open/floor/plasteel/elevatorshaft,
-/area/f13/brotherhood/surface)
+/obj/item/organ/ears,
+/obj/item/organ/ears,
+/obj/item/organ/ears,
+/obj/item/organ/liver,
+/obj/item/organ/liver,
+/obj/item/organ/liver,
+/obj/item/organ/heart,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "bEr" = (
 /obj/structure/wreck/trash/halftire,
 /obj/structure/nest/protectron{
@@ -7674,13 +7683,11 @@
 /turf/open/floor/plasteel/darkblue/corner,
 /area/f13/building)
 "dlc" = (
-/obj/machinery/door/airlock/hatch{
-	desc = "An airtight door, built to withstand a nuclear blast.";
-	max_integrity = 10000;
-	name = "Brotherhood of Steel";
-	req_access_txt = "265"
-	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/airlock/grunge{
+	id_tag = "bosaccesscontrol";
+	req_access_txt = "120"
+	},
 /turf/open/floor/plasteel/f13/vault_floor/dark/darksolid,
 /area/f13/brotherhood/surface)
 "dld" = (
@@ -9783,17 +9790,6 @@
 	icon_state = "verticalleftborderright0"
 	},
 /area/f13/wasteland)
-"eez" = (
-/mob/living/simple_animal/hostile/radroach{
-	desc = "The most trustworthy ally of the Father. This tough bug has survived dozens of attempts to squish 'em. ";
-	faction = list("neutral");
-	health = 60;
-	name = "Acolyte Bug";
-	social_faction = list("neutral");
-	dir = 8
-	},
-/turf/open/floor/plasteel/cult,
-/area/f13/cotc)
 "eeN" = (
 /obj/structure/closet,
 /obj/item/storage/backpack/satchel/leather,
@@ -24722,11 +24718,6 @@
 	icon_state = "dirt"
 	},
 /area/f13/village)
-"kjh" = (
-/obj/structure/flora/grass/wasteland,
-/mob/living/simple_animal/hostile/asteroid/gutlunch/guthen,
-/turf/open/indestructible/ground/outside/savannah,
-/area/f13/wasteland)
 "kjm" = (
 /obj/structure/wreck/trash/one_barrel,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
@@ -24858,19 +24849,16 @@
 	},
 /area/f13/building)
 "klq" = (
-/obj/structure/flora/grass/wasteland,
-/obj/structure/closet/crate/freezer{
-	name = "gutlunch feed storage"
+/obj/docking_port/stationary{
+	area_type = /area/f13;
+	dwidth = 1;
+	height = 4;
+	id = "bos_surface";
+	name = "Surface";
+	width = 5
 	},
-/obj/item/organ/ears,
-/obj/item/organ/ears,
-/obj/item/organ/ears,
-/obj/item/organ/liver,
-/obj/item/organ/liver,
-/obj/item/organ/liver,
-/obj/item/organ/heart,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/turf/open/floor/plasteel/elevatorshaft,
+/area/f13/brotherhood/surface)
 "kls" = (
 /obj/structure/stairs/north,
 /turf/open/floor/wood/f13/oak,
@@ -30750,10 +30738,10 @@
 	},
 /area/f13/wasteland)
 "mNn" = (
-/obj/structure/flora/grass/wasteland,
-/mob/living/simple_animal/hostile/asteroid/gutlunch,
-/turf/open/indestructible/ground/outside/savannah,
-/area/f13/wasteland)
+/obj/structure/table,
+/obj/structure/barricade/bars,
+/turf/open/floor/plasteel/f13/vault_floor,
+/area/f13/brotherhood/surface)
 "mNB" = (
 /obj/structure/closet/cabinet,
 /turf/open/floor/f13/wood,
@@ -36464,6 +36452,11 @@
 	},
 /turf/open/floor/wood,
 /area/f13/building)
+"pou" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/flag/bos,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/brotherhood/surface)
 "poz" = (
 /obj/effect/turf_decal/shadow,
 /turf/open/indestructible/ground/inside/dirt/stamped/outside{
@@ -38636,10 +38629,12 @@
 /turf/open/floor/f13/wood,
 /area/f13/village)
 "qkh" = (
-/obj/structure/table,
-/obj/structure/barricade/bars,
-/turf/open/floor/plasteel/f13/vault_floor,
-/area/f13/brotherhood/surface)
+/obj/structure/flora/grass/wasteland,
+/mob/living/simple_animal/hostile/asteroid/gutlunch/gubbuck{
+	dir = 8
+	},
+/turf/open/indestructible/ground/outside/savannah,
+/area/f13/wasteland)
 "qkk" = (
 /mob/living/simple_animal/hostile/raider,
 /turf/open/floor/f13/wood,
@@ -44225,6 +44220,11 @@
 /obj/effect/decal/remains/human,
 /turf/open/floor/f13/wood,
 /area/f13/village)
+"sGV" = (
+/obj/structure/flora/grass/wasteland,
+/mob/living/simple_animal/hostile/asteroid/gutlunch,
+/turf/open/indestructible/ground/outside/savannah,
+/area/f13/wasteland)
 "sHl" = (
 /obj/effect/turf_decal/shadow,
 /turf/open/indestructible/ground/inside/dirt/stamped/outside/sand{
@@ -47647,9 +47647,7 @@
 /area/f13/ncr)
 "ugG" = (
 /obj/structure/flora/grass/wasteland,
-/mob/living/simple_animal/hostile/asteroid/gutlunch/gubbuck{
-	dir = 8
-	},
+/mob/living/simple_animal/hostile/asteroid/gutlunch/guthen,
 /turf/open/indestructible/ground/outside/savannah,
 /area/f13/wasteland)
 "ugM" = (
@@ -90012,7 +90010,7 @@ esz
 gJp
 iPp
 uJB
-qkh
+mNn
 sNL
 vIx
 uYP
@@ -90518,7 +90516,7 @@ vIx
 fWj
 fWj
 fWj
-bDW
+klq
 sNL
 caa
 wOv
@@ -91040,7 +91038,7 @@ gNu
 vIx
 gJp
 uJB
-qkh
+mNn
 sNL
 sNL
 sNL
@@ -91554,7 +91552,7 @@ eJv
 gJp
 gJp
 mfq
-qkh
+mNn
 sNL
 vIx
 vhq
@@ -91812,7 +91810,7 @@ fdA
 uYP
 wOv
 wOv
-boz
+pou
 vIx
 uYP
 yaZ
@@ -91920,7 +91918,7 @@ jcw
 vVk
 mKG
 vPX
-eez
+boz
 vFz
 mKG
 ilk
@@ -95252,12 +95250,12 @@ asb
 ydO
 xes
 dCV
-mNn
+sGV
 fZe
-ugG
+qkh
 haP
 odZ
-klq
+bDW
 dCV
 dCV
 giZ
@@ -95767,7 +95765,7 @@ ydO
 pvt
 dCV
 fZe
-kjh
+ugG
 fDi
 dCV
 mHj
