@@ -230,7 +230,7 @@
 	icon_state = "neophyte"
 	item_state = "neophyte"
 	flags_inv = HIDEMASK|HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR
-	flags_cover = HEADCOVERSEYES | HEADCOVERSMOUTH
+	flags_cover = HEADCOVERSEYES
 	flash_protect = 2
 	armor = list("melee" = 5, "bullet" = 15, "laser" = 10, "energy" = 10, "bomb" = 6, "bio" = 14, "rad" = 0, "fire" = 0, "acid" = 5)
 

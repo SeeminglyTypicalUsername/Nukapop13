@@ -1,8 +1,8 @@
 /obj/effect/proc_holder/changeling/lesserform
 	name = "Lesser Form"
 	desc = "We debase ourselves and become lesser. We become a monkey. This ability is loud, and might cause our blood to react violently to heat."
-	chemical_cost = 5
-	dna_cost = 1
+	chemical_cost = 30
+	dna_cost = 30
 	loudness = 2
 	req_human = 1
 	action_icon = 'icons/mob/actions/actions_changeling.dmi'
