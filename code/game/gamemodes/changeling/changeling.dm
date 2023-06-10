@@ -124,3 +124,17 @@ GLOBAL_VAR(changeling_team_objective_type) //If this is not null, we hand our th
 			user.equip_to_slot_or_del(C, GLOB.slot2slot[slot])
 
 	user.regenerate_icons()
+
+//Item that grants changeling powers when consumed
+/obj/item/organ/liver/sacrifice
+	name = "black heart"
+	desc = "The remains of a sacrifice. Consuming this may grant unusual abilities..."
+	icon_state = "liver-x"
+	useable = FALSE
+
+/obj/item/organ/liver/sacrifice/OnEatFrom(eater, feeder)
+	var/mob/living/L = eater
+	if(L.mind)
+		if(!L.mind.has_antag_datum(/datum/antagonist/changeling))
+			L.mind.add_antag_datum(/datum/antagonist/changeling)
+	Destroy()

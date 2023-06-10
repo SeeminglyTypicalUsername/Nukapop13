@@ -127,6 +127,66 @@
 	melee_damage_upper = 45
 	speed = 0.5
 
+/mob/living/simple_animal/hostile/abomination/church
+	faction = list("Church of the Open Palm")
+	stat_attack = DEAD
+	var/grabbing = 0
+	var/list/waste = list(/obj/item/organ/liver/sacrifice)
+
+/mob/living/simple_animal/hostile/abomination/church/AttackingTarget()
+	. = ..()
+	if(!grabbing)
+		if(. && ishuman(target))
+			var/mob/living/carbon/human/H = target
+			var/choice = pick(1, 1, 2, 2, 3, 4)
+			H.reagents.add_reagent(/datum/reagent/toxin/FEV_solution/one, choice)
+			if(H.stat == DEAD)
+				INVOKE_ASYNC(src, .proc/grab_attack)
+
+/mob/living/simple_animal/hostile/abomination/church/DestroySurroundings()
+	if(!grabbing)
+		..()
+
+/mob/living/simple_animal/hostile/abomination/church/Move()
+	if(!grabbing)
+		..()
+
+/mob/living/simple_animal/hostile/abomination/church/Goto(target, delay, minimum_distance)
+	if(!grabbing)
+		..()
+
+/mob/living/simple_animal/hostile/abomination/church/proc/grab_attack(atom/movable/manual_target)
+	if(stat || grabbing)
+		return
+	if(manual_target)
+		target = manual_target
+	if(!target)
+		return
+	grabbing = 1
+	stop_automated_movement = TRUE
+
+
+	var/mob/living/carbon/human/H = target
+	animate(target, pixel_z = 20, time = 10, loop = 1)
+	visible_message("<span class='boldwarning'>[src] grabs [H] with its' various claws and arms, and lifts them up to its' mouth...</span>")
+	sleep(30)
+	if(!is_station_level(z) || client)
+		adjustBruteLoss(-H.maxHealth/2)
+	visible_message("<span class='boldwarning'>[src] devours [H]!</span>")
+	H.gib()
+
+	sacrifice_reward(H)
+
+	stop_automated_movement = FALSE
+	grabbing = 0
+
+/mob/living/simple_animal/hostile/abomination/church/proc/sacrifice_reward()
+	if(!waste.len)
+		return
+	for(var/drop in waste)
+		for(var/i in 1 to max(1, waste[drop]))
+			new drop(loc)
+	visible_message("<span class='notice'>[src] leaves behind a reward for being granted a sacrifice...</span>")
 
 // ------------------------------------------
 // HORROR
