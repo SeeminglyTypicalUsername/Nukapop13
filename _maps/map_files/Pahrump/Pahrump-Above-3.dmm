@@ -1485,11 +1485,6 @@
 "fc" = (
 /turf/open/floor/wood/f13/stage_b/outdoors,
 /area/f13/wasteland)
-"fd" = (
-/obj/structure/bed/old,
-/obj/effect/landmark/start/f13/ncrcombatmedic,
-/turf/open/floor/plasteel/grimy,
-/area/f13/ncr)
 "fe" = (
 /obj/structure/table/wood,
 /obj/item/binoculars,
@@ -5387,13 +5382,6 @@
 /area/f13/building)
 "sa" = (
 /obj/structure/rack/shelf_metal,
-/obj/item/card/id/yuma/cotc/neophyte,
-/obj/item/card/id/yuma/cotc/neophyte,
-/obj/item/card/id/yuma/cotc/neophyte,
-/obj/item/card/id/yuma/cotc/neophyte,
-/obj/item/card/id/yuma/cotc/neophyte,
-/obj/item/card/id/yuma/cotc/neophyte,
-/obj/item/card/id/yuma/cotc/neophyte,
 /obj/item/radio/headset/headset_church,
 /obj/item/radio/headset/headset_church,
 /obj/item/radio/headset/headset_church,
@@ -5401,6 +5389,12 @@
 /obj/item/radio/headset/headset_church,
 /obj/item/radio/headset/headset_church,
 /obj/item/radio/headset/headset_church,
+/obj/item/card/id/yuma/church,
+/obj/item/card/id/yuma/church,
+/obj/item/card/id/yuma/church,
+/obj/item/card/id/yuma/church,
+/obj/item/card/id/yuma/church,
+/obj/item/card/id/yuma/church,
 /turf/open/floor/plasteel/cult,
 /area/f13/cotc)
 "sb" = (
@@ -9191,7 +9185,7 @@
 /area/f13/building)
 "Fe" = (
 /obj/structure/bed/old,
-/obj/effect/landmark/start/f13/ncrheavytrooper,
+/obj/effect/landmark/start/f13/specialist,
 /turf/open/floor/plasteel/grimy,
 /area/f13/ncr)
 "Fg" = (
@@ -27449,9 +27443,9 @@ NW
 Tk
 Fe
 oL
-fd
+Fe
 ZI
-vG
+Fe
 oL
 CT
 vG

@@ -13,7 +13,7 @@
 	spawn_positions = 1
 	supervisors = "the Company"
 	description = "You are in charge of the local Fresh Start Caravan branch and control the town, you are mostly free to do as you please with the town as long as the profits keep coming in; do not destroy the company's reputation, handle diplomatic matters, and increase company profits."
-	exp_requirements = 300
+	exp_requirements = 500
 	selection_color = "#666F9b"
 
 	outfit = /datum/outfit/job/kebab/f13shopkeeper
@@ -200,7 +200,7 @@
 	spawn_positions = 1
 	supervisors = "the Branch Manager"
 	description = "You command Southmire's militia and have been placed in charge of the town's defense and maintaining order in the streets."
-	exp_requirements = 200
+	exp_requirements = 300
 	selection_color = "#666F9b"
 
 	outfit = /datum/outfit/job/kebab/f13militiacom

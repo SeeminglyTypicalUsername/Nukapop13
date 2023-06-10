@@ -115,3 +115,11 @@
 	desc = "This looks like some sort of town."
 	light_color = LIGHT_COLOR_BLUE
 
+/obj/machinery/light/sign/southmire/fsc
+	name = "Fresh Start Caravan sign"
+	icon_state = "fsc"
+	base_state = "fsc"
+	icon = 'icons/fallout/objects/structures/southmire.dmi'
+	desc = "This looks like some sort of town."
+	light_color = LIGHT_COLOR_BLUE
+

@@ -32,8 +32,8 @@
 	var/geneticdamage = 0
 	var/isabsorbing = 0
 	var/islinking = 0
-	var/geneticpoints = 10
-	var/maxgeneticpoints = 10
+	var/geneticpoints = 5
+	var/maxgeneticpoints = 5
 	var/purchasedpowers = list()
 	var/mimicing = ""
 	var/canrespec = 0

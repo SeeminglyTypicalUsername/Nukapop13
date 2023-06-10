@@ -157,7 +157,7 @@
 	righthand_file = 'icons/mob/inhands/antag/changeling_righthand.dmi'
 	item_flags = NEEDS_PERMIT | ABSTRACT | DROPDEL
 	w_class = WEIGHT_CLASS_HUGE
-	force = 25
+	force = 35
 	throwforce = 0 //Just to be on the safe side
 	throw_range = 0
 	throw_speed = 0
@@ -472,7 +472,7 @@
 	desc = "We grow an organic suit to protect ourselves from space exposure."
 	helptext = "We must constantly repair our form to make it space-proof, reducing chemical production while we are protected. Cannot be used in lesser form. This ability is somewhat loud, and carries a small risk of our blood gaining violent sensitivity to heat."
 	chemical_cost = 20
-	dna_cost = 2
+	dna_cost = 30
 	loudness = 1
 	req_human = 1
 	action_icon = 'icons/mob/actions/actions_changeling.dmi'
@@ -529,7 +529,7 @@
 	desc = "We turn our skin into tough chitin to protect us from damage."
 	helptext = "Upkeep of the armor requires a constant expenditure of chemicals, resulting in a reduced chemical generation. The armor is strong against brute force, but does not provide much protection from lasers. Cannot be used in lesser form. This ability is loud, and might cause our blood to react violently to heat."
 	chemical_cost = 20
-	dna_cost = 1
+	dna_cost = 30
 	loudness = 2
 	req_human = 1
 	recharge_slowdown = 0.5

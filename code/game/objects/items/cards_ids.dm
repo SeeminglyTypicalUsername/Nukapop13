@@ -1542,13 +1542,22 @@
 	. = ..()
 	ADD_TRAIT(src, TRAIT_NODROP, TRAIT_GENERIC)
 
-/obj/item/card/id/yuma/cotc/neophyte
-	name = "neophyte identification papers"
-	desc = "Papers detailing general information personal information used for identification."
-	icon_state = "papers"
+/obj/item/card/id/yuma/church
+	name = "Church Badge"
+	desc = "A badge in the shape of the Church of the Open Palm symbol. On one side you notice bumps and indentations, almost reminding you of a key.."
+	icon_state = "cotc_badge1"
 	item_state = null
 	uses_overlays = FALSE
-	assignment = "neophyte identification papers"
+	assignment = "church badge"
+	access = list(ACCESS_COTC)
+
+/obj/item/card/id/yuma/church/innersanctum
+	name = "Red Church Badge"
+	desc = "A badge in the shape of the Church of the Open Palm symbol. On one side you notice bumps and indentations, almost reminding you of a key.."
+	icon_state = "cotc_badge2"
+	item_state = null
+	uses_overlays = FALSE
+	assignment = "church badge"
 	access = list(ACCESS_COTC)
 
 
