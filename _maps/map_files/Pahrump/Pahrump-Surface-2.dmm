@@ -3159,16 +3159,19 @@
 	},
 /area/f13/wasteland)
 "boz" = (
-/mob/living/simple_animal/hostile/radroach{
-	desc = "The most trustworthy ally of the Father. This tough bug has survived dozens of attempts to squish 'em. ";
-	faction = list("neutral");
-	health = 60;
-	name = "Acolyte Bug";
-	social_faction = list("neutral");
-	dir = 8
+/obj/structure/flora/grass/wasteland,
+/obj/structure/closet/crate/freezer{
+	name = "gutlunch feed storage"
 	},
-/turf/open/floor/plasteel/cult,
-/area/f13/cotc)
+/obj/item/organ/ears,
+/obj/item/organ/ears,
+/obj/item/organ/ears,
+/obj/item/organ/liver,
+/obj/item/organ/liver,
+/obj/item/organ/liver,
+/obj/item/organ/heart,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "boD" = (
 /obj/item/shard,
 /turf/open/floor/f13/wood,
@@ -4014,19 +4017,9 @@
 /turf/open/floor/f13/wood,
 /area/f13/village)
 "bDW" = (
-/obj/structure/flora/grass/wasteland,
-/obj/structure/closet/crate/freezer{
-	name = "gutlunch feed storage"
-	},
-/obj/item/organ/ears,
-/obj/item/organ/ears,
-/obj/item/organ/ears,
-/obj/item/organ/liver,
-/obj/item/organ/liver,
-/obj/item/organ/liver,
-/obj/item/organ/heart,
-/turf/open/indestructible/ground/outside/dirt,
-/area/f13/wasteland)
+/obj/machinery/iv_drip,
+/turf/open/floor/plasteel/cult,
+/area/f13/cotc)
 "bEr" = (
 /obj/structure/wreck/trash/halftire,
 /obj/structure/nest/protectron{
@@ -4348,9 +4341,6 @@
 /area/f13/wasteland)
 "bKh" = (
 /obj/structure/table/optable/primitive,
-/obj/machinery/iv_drip/primitive{
-	pixel_x = -12
-	},
 /obj/structure/stone_tile/slab/cracked,
 /obj/item/grown/rose{
 	name = "Cathedral Rose";
@@ -6191,6 +6181,7 @@
 	id = 151;
 	name = "exterior"
 	},
+/obj/machinery/iv_drip,
 /turf/open/floor/plasteel/cult,
 /area/f13/cotc)
 "cDe" = (
@@ -7028,11 +7019,10 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "cXt" = (
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = 777
-	},
-/turf/closed/wall/r_wall/rust,
-/area/f13/cotc)
+/obj/structure/flora/grass/wasteland,
+/mob/living/simple_animal/hostile/asteroid/gutlunch/guthen,
+/turf/open/indestructible/ground/outside/savannah,
+/area/f13/wasteland)
 "cXQ" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -9988,6 +9978,17 @@
 	icon_state = "dirt"
 	},
 /area/f13/wasteland)
+"eig" = (
+/obj/docking_port/stationary{
+	area_type = /area/f13;
+	dwidth = 1;
+	height = 4;
+	id = "bos_surface";
+	name = "Surface";
+	width = 5
+	},
+/turf/open/floor/plasteel/elevatorshaft,
+/area/f13/brotherhood/surface)
 "eiA" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 1
@@ -10727,7 +10728,7 @@
 /turf/open/floor/f13/wood,
 /area/f13/village)
 "ezG" = (
-/obj/machinery/workbench/mbench,
+/obj/machinery/workbench,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	color = "#e4e4e4"
 	},
@@ -23306,9 +23307,6 @@
 	pixel_y = 12
 	},
 /obj/structure/table/optable/primitive,
-/obj/machinery/iv_drip/primitive{
-	pixel_x = -12
-	},
 /obj/item/grown/rose{
 	name = "Cathedral Rose";
 	desc = "A flower that represents the peace and harmony."
@@ -24849,16 +24847,10 @@
 	},
 /area/f13/building)
 "klq" = (
-/obj/docking_port/stationary{
-	area_type = /area/f13;
-	dwidth = 1;
-	height = 4;
-	id = "bos_surface";
-	name = "Surface";
-	width = 5
-	},
-/turf/open/floor/plasteel/elevatorshaft,
-/area/f13/brotherhood/surface)
+/obj/structure/flora/grass/wasteland,
+/mob/living/simple_animal/hostile/asteroid/gutlunch,
+/turf/open/indestructible/ground/outside/savannah,
+/area/f13/wasteland)
 "kls" = (
 /obj/structure/stairs/north,
 /turf/open/floor/wood/f13/oak,
@@ -30738,10 +30730,11 @@
 	},
 /area/f13/wasteland)
 "mNn" = (
-/obj/structure/table,
-/obj/structure/barricade/bars,
-/turf/open/floor/plasteel/f13/vault_floor,
-/area/f13/brotherhood/surface)
+/obj/structure/window/fulltile/store{
+	icon_state = "storewindowtop"
+	},
+/turf/open/floor/wood/f13/oak,
+/area/f13/building)
 "mNB" = (
 /obj/structure/closet/cabinet,
 /turf/open/floor/f13/wood,
@@ -36452,11 +36445,6 @@
 	},
 /turf/open/floor/wood,
 /area/f13/building)
-"pou" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/flag/bos,
-/turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/f13/brotherhood/surface)
 "poz" = (
 /obj/effect/turf_decal/shadow,
 /turf/open/indestructible/ground/inside/dirt/stamped/outside{
@@ -38629,12 +38617,10 @@
 /turf/open/floor/f13/wood,
 /area/f13/village)
 "qkh" = (
-/obj/structure/flora/grass/wasteland,
-/mob/living/simple_animal/hostile/asteroid/gutlunch/gubbuck{
-	dir = 8
-	},
-/turf/open/indestructible/ground/outside/savannah,
-/area/f13/wasteland)
+/obj/structure/table,
+/obj/structure/barricade/bars,
+/turf/open/floor/plasteel/f13/vault_floor,
+/area/f13/brotherhood/surface)
 "qkk" = (
 /mob/living/simple_animal/hostile/raider,
 /turf/open/floor/f13/wood,
@@ -44220,11 +44206,6 @@
 /obj/effect/decal/remains/human,
 /turf/open/floor/f13/wood,
 /area/f13/village)
-"sGV" = (
-/obj/structure/flora/grass/wasteland,
-/mob/living/simple_animal/hostile/asteroid/gutlunch,
-/turf/open/indestructible/ground/outside/savannah,
-/area/f13/wasteland)
 "sHl" = (
 /obj/effect/turf_decal/shadow,
 /turf/open/indestructible/ground/inside/dirt/stamped/outside/sand{
@@ -45913,9 +45894,6 @@
 	},
 /obj/effect/turf_decal/shadow,
 /obj/structure/table/optable/primitive,
-/obj/machinery/iv_drip/primitive{
-	pixel_x = -14
-	},
 /obj/item/grown/rose{
 	name = "Cathedral Rose";
 	desc = "A flower that represents the peace and harmony."
@@ -47647,7 +47625,9 @@
 /area/f13/ncr)
 "ugG" = (
 /obj/structure/flora/grass/wasteland,
-/mob/living/simple_animal/hostile/asteroid/gutlunch/guthen,
+/mob/living/simple_animal/hostile/asteroid/gutlunch/gubbuck{
+	dir = 8
+	},
 /turf/open/indestructible/ground/outside/savannah,
 /area/f13/wasteland)
 "ugM" = (
@@ -50113,6 +50093,17 @@
 /obj/item/stack/f13Cash/random/med,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
+"vfd" = (
+/mob/living/simple_animal/hostile/radroach{
+	desc = "The most trustworthy ally of the Father. This tough bug has survived dozens of attempts to squish 'em. ";
+	faction = list("neutral");
+	health = 60;
+	name = "Acolyte Bug";
+	social_faction = list("neutral");
+	dir = 8
+	},
+/turf/open/floor/plasteel/cult,
+/area/f13/cotc)
 "vfA" = (
 /obj/machinery/light,
 /turf/open/floor/plasteel/f13/vault_floor/blue/side,
@@ -52970,9 +52961,6 @@
 /area/f13/building)
 "wwF" = (
 /obj/structure/table/optable/primitive,
-/obj/machinery/iv_drip/primitive{
-	pixel_x = -12
-	},
 /obj/item/grown/rose{
 	name = "Cathedral Rose";
 	desc = "A flower that represents the peace and harmony."
@@ -54131,6 +54119,11 @@
 /obj/effect/spawner/lootdrop/f13/cash_random_low,
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"wVE" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/flag/bos,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/brotherhood/surface)
 "wVI" = (
 /obj/structure/railing{
 	dir = 1
@@ -89067,7 +89060,7 @@ fnY
 giZ
 giZ
 jkr
-iDU
+mNn
 xkI
 giZ
 giZ
@@ -89340,7 +89333,7 @@ nQW
 xbV
 glF
 vPX
-mKG
+bDW
 vFz
 lLH
 vPX
@@ -90010,7 +90003,7 @@ esz
 gJp
 iPp
 uJB
-mNn
+qkh
 sNL
 vIx
 uYP
@@ -90516,7 +90509,7 @@ vIx
 fWj
 fWj
 fWj
-klq
+eig
 sNL
 caa
 wOv
@@ -91038,7 +91031,7 @@ gNu
 vIx
 gJp
 uJB
-mNn
+qkh
 sNL
 sNL
 sNL
@@ -91552,7 +91545,7 @@ eJv
 gJp
 gJp
 mfq
-mNn
+qkh
 sNL
 vIx
 vhq
@@ -91810,7 +91803,7 @@ fdA
 uYP
 wOv
 wOv
-pou
+wVE
 vIx
 uYP
 yaZ
@@ -91918,7 +91911,7 @@ jcw
 vVk
 mKG
 vPX
-boz
+vfd
 vFz
 mKG
 ilk
@@ -92932,7 +92925,7 @@ gXt
 guA
 vPX
 vPX
-cXt
+vPX
 kFx
 jKV
 vPX
@@ -95250,12 +95243,12 @@ asb
 ydO
 xes
 dCV
-sGV
+klq
 fZe
-qkh
+ugG
 haP
 odZ
-bDW
+boz
 dCV
 dCV
 giZ
@@ -95765,7 +95758,7 @@ ydO
 pvt
 dCV
 fZe
-ugG
+cXt
 fDi
 dCV
 mHj
