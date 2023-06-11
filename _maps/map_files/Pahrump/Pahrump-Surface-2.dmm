@@ -2001,7 +2001,6 @@
 "aRz" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/gibs/human/torso,
 /obj/structure/closet/body_bag,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/building)
@@ -4017,9 +4016,10 @@
 /turf/open/floor/f13/wood,
 /area/f13/village)
 "bDW" = (
-/obj/machinery/iv_drip,
-/turf/open/floor/plasteel/cult,
-/area/f13/cotc)
+/obj/effect/decal/cleanable/dirt,
+/obj/item/flag/bos,
+/turf/open/floor/plasteel/f13/vault_floor/dark,
+/area/f13/brotherhood/surface)
 "bEr" = (
 /obj/structure/wreck/trash/halftire,
 /obj/structure/nest/protectron{
@@ -7019,10 +7019,9 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "cXt" = (
-/obj/structure/flora/grass/wasteland,
-/mob/living/simple_animal/hostile/asteroid/gutlunch/guthen,
-/turf/open/indestructible/ground/outside/savannah,
-/area/f13/wasteland)
+/obj/machinery/iv_drip,
+/turf/open/floor/plasteel/cult,
+/area/f13/cotc)
 "cXQ" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -9535,7 +9534,6 @@
 "dZS" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/gibs/human/torso,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/building)
 "dZT" = (
@@ -9978,17 +9976,6 @@
 	icon_state = "dirt"
 	},
 /area/f13/wasteland)
-"eig" = (
-/obj/docking_port/stationary{
-	area_type = /area/f13;
-	dwidth = 1;
-	height = 4;
-	id = "bos_surface";
-	name = "Surface";
-	width = 5
-	},
-/turf/open/floor/plasteel/elevatorshaft,
-/area/f13/brotherhood/surface)
 "eiA" = (
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 1
@@ -13045,8 +13032,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/gibs/human/torso,
-/obj/effect/decal/cleanable/blood/gibs/human/up,
-/obj/effect/decal/cleanable/blood/gibs/human/up,
 /obj/effect/decal/cleanable/blood/gibs/human/up,
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
 /area/f13/building)
@@ -24848,7 +24833,9 @@
 /area/f13/building)
 "klq" = (
 /obj/structure/flora/grass/wasteland,
-/mob/living/simple_animal/hostile/asteroid/gutlunch,
+/mob/living/simple_animal/hostile/asteroid/gutlunch/gubbuck{
+	dir = 8
+	},
 /turf/open/indestructible/ground/outside/savannah,
 /area/f13/wasteland)
 "kls" = (
@@ -26013,11 +26000,10 @@
 	},
 /area/f13/building)
 "kLc" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/gibs/human/torso,
-/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
-/area/f13/building)
+/obj/structure/flora/grass/wasteland,
+/mob/living/simple_animal/hostile/asteroid/gutlunch,
+/turf/open/indestructible/ground/outside/savannah,
+/area/f13/wasteland)
 "kLg" = (
 /turf/open/floor/plasteel/f13/vault_floor/neutral/white,
 /area/f13/building)
@@ -30730,11 +30716,16 @@
 	},
 /area/f13/wasteland)
 "mNn" = (
-/obj/structure/window/fulltile/store{
-	icon_state = "storewindowtop"
+/mob/living/simple_animal/hostile/radroach{
+	desc = "The most trustworthy ally of the Father. This tough bug has survived dozens of attempts to squish 'em. ";
+	faction = list("neutral");
+	health = 60;
+	name = "Acolyte Bug";
+	social_faction = list("neutral");
+	dir = 8
 	},
-/turf/open/floor/wood/f13/oak,
-/area/f13/building)
+/turf/open/floor/plasteel/cult,
+/area/f13/cotc)
 "mNB" = (
 /obj/structure/closet/cabinet,
 /turf/open/floor/f13/wood,
@@ -37329,10 +37320,7 @@
 /area/f13/village)
 "pIX" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/gibs/human/torso,
-/obj/effect/decal/cleanable/blood/gibs/human/torso,
-/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/building)
 "pJd" = (
 /turf/open/floor/f13/wood{
@@ -47050,7 +47038,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/gibs/human/up,
 /obj/machinery/light/fo13colored/Red{
 	dir = 8
 	},
@@ -47625,9 +47612,7 @@
 /area/f13/ncr)
 "ugG" = (
 /obj/structure/flora/grass/wasteland,
-/mob/living/simple_animal/hostile/asteroid/gutlunch/gubbuck{
-	dir = 8
-	},
+/mob/living/simple_animal/hostile/asteroid/gutlunch/guthen,
 /turf/open/indestructible/ground/outside/savannah,
 /area/f13/wasteland)
 "ugM" = (
@@ -50093,17 +50078,6 @@
 /obj/item/stack/f13Cash/random/med,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
-"vfd" = (
-/mob/living/simple_animal/hostile/radroach{
-	desc = "The most trustworthy ally of the Father. This tough bug has survived dozens of attempts to squish 'em. ";
-	faction = list("neutral");
-	health = 60;
-	name = "Acolyte Bug";
-	social_faction = list("neutral");
-	dir = 8
-	},
-/turf/open/floor/plasteel/cult,
-/area/f13/cotc)
 "vfA" = (
 /obj/machinery/light,
 /turf/open/floor/plasteel/f13/vault_floor/blue/side,
@@ -51376,7 +51350,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/gibs/human/torso,
 /turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
 /area/f13/building)
 "vHV" = (
@@ -54119,11 +54092,6 @@
 /obj/effect/spawner/lootdrop/f13/cash_random_low,
 /turf/open/floor/f13/wood,
 /area/f13/building)
-"wVE" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/flag/bos,
-/turf/open/floor/plasteel/f13/vault_floor/dark,
-/area/f13/brotherhood/surface)
 "wVI" = (
 /obj/structure/railing{
 	dir = 1
@@ -55446,13 +55414,16 @@
 /turf/open/indestructible/ground/outside/water,
 /area/f13/caves)
 "xxo" = (
-/obj/item/reagent_containers/food/snacks/meat/slab/human,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/gibs/human/torso,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/building)
+/obj/docking_port/stationary{
+	area_type = /area/f13;
+	dwidth = 1;
+	height = 4;
+	id = "bos_surface";
+	name = "Surface";
+	width = 5
+	},
+/turf/open/floor/plasteel/elevatorshaft,
+/area/f13/brotherhood/surface)
 "xxv" = (
 /obj/structure/barricade/sandbags,
 /turf/open/indestructible/ground/outside/desert{
@@ -57215,11 +57186,10 @@
 	},
 /area/f13/building)
 "yko" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/blood/gibs/human/torso,
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/f13/vault_floor/misc/rarewhite,
+/obj/structure/window/fulltile/store{
+	icon_state = "storewindowtop"
+	},
+/turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "ykx" = (
 /obj/item/clothing/head/ushanka,
@@ -80598,8 +80568,8 @@ jfj
 kqr
 dCV
 crM
-yko
-pIX
+crM
+crM
 tUc
 fwK
 vHR
@@ -80856,8 +80826,8 @@ xvo
 dCV
 dCV
 bpv
-dZS
-xxo
+pIX
+chZ
 dZS
 chZ
 iJW
@@ -81113,7 +81083,7 @@ jAq
 dCV
 dCV
 nHT
-kLc
+crM
 aRz
 lkp
 lYE
@@ -89060,7 +89030,7 @@ fnY
 giZ
 giZ
 jkr
-mNn
+yko
 xkI
 giZ
 giZ
@@ -89333,7 +89303,7 @@ nQW
 xbV
 glF
 vPX
-bDW
+cXt
 vFz
 lLH
 vPX
@@ -90509,7 +90479,7 @@ vIx
 fWj
 fWj
 fWj
-eig
+xxo
 sNL
 caa
 wOv
@@ -91803,7 +91773,7 @@ fdA
 uYP
 wOv
 wOv
-wVE
+bDW
 vIx
 uYP
 yaZ
@@ -91911,7 +91881,7 @@ jcw
 vVk
 mKG
 vPX
-vfd
+mNn
 vFz
 mKG
 ilk
@@ -95243,9 +95213,9 @@ asb
 ydO
 xes
 dCV
-klq
+kLc
 fZe
-ugG
+klq
 haP
 odZ
 boz
@@ -95758,7 +95728,7 @@ ydO
 pvt
 dCV
 fZe
-cXt
+ugG
 fDi
 dCV
 mHj
